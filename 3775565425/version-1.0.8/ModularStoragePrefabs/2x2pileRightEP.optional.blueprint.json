@@ -20,15 +20,15 @@
     "Blueprints#append":
     [
       //"Buildings/TallStorage/BasicDepo.Emberpelts",
-      "Buildings/TallStorage/BasicPile.Emberpelts",
-      "Buildings/TallStorage/GigaDepo.Emberpelts",
-      "Buildings/TallStorage/GigaPile.Emberpelts",
-      "Buildings/TallStorage/LongDepo.Emberpelts",
-      "Buildings/TallStorage/LongPile.Emberpelts",
-      "Buildings/TallStorage/SmallCoveredTank.Emberpelts",
-      "Buildings/TallStorage/TallDepo.Emberpelts",
-      "Buildings/TallStorage/TallPile.Emberpelts",
-      "Buildings/TallStorage/TallTank.Emberpelts"
+      "Buildings/TallStorage/BasicPile.Emberpelts.blueprint",
+      "Buildings/TallStorage/GigaDepo.Emberpelts.blueprint",
+      "Buildings/TallStorage/GigaPile.Emberpelts.blueprint",
+      "Buildings/TallStorage/LongDepo.Emberpelts.blueprint",
+      "Buildings/TallStorage/LongPile.Emberpelts.blueprint",
+      "Buildings/TallStorage/SmallCoveredTank.Emberpelts.blueprint",
+      "Buildings/TallStorage/TallDepo.Emberpelts.blueprint",
+      "Buildings/TallStorage/TallPile.Emberpelts.blueprint",
+      "Buildings/TallStorage/TallTank.Emberpelts.blueprint"
     ]
   }
 }
