@@ -1,0 +1,29 @@
+{
+  "NeedSpec": {
+    "Id": "Pillow",
+    "BackwardCompatibleIds": [],
+    "Order": 8,
+    "NeedGroupId": "Possessions",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": 0.0,
+    "ImportanceMultiplier": 5.0,
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Good.Pillow.DisplayName",
+    "FavorableWellbeing": 2,
+    "UnfavorableWellbeing": 0
+  },
+  "FavorableNeedSpec": {
+    "Favors": [
+      {
+        "Id": "LifeExpectancy",
+        "MultiplierDelta": 0.3
+      }
+    ],
+    "Icon": "sprites/Whitepaws Sprites/Goods/Pillow"
+  }
+}

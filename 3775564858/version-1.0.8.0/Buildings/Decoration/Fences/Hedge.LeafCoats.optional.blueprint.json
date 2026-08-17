@@ -1,0 +1,15 @@
+{
+	"RangedEffectBuildingSpec": { "EffectRadius": 3 },
+	"ContinuousEffectBuildingSpec":
+	{
+		"Effects":
+		[
+			{
+				"NeedId": "Hedge",
+				"PointsPerHour": 0.64,
+				"SatisfyToMaxValue": false
+			}
+		]
+	},
+	"BuildingSpec": { "SelectionSoundName": "Brazier" }
+}

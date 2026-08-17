@@ -1,0 +1,18 @@
+{
+  "CustomBeaverByNameListSpec": {
+    "Names": [],
+    "GraphicsSets": [
+      "BeaverGold",
+      "BeaverSilver",
+      "BeaverBrass"
+    ],
+    "Texture": "",
+    "ChildTexture": "",
+    "Avatar": "",
+    "ContaminatedAvatar": "",
+    "ChildAvatar": "",
+    "ContaminatedChildAvatar": "",
+    "BeaverFactionId": "",
+    "ExcludeFromNamePool": "False"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.IronTeeth" ],
+    "GoodCollectionIds#append": [ "Listamole.IronTeeth" ],
+    "NeedCollectionIds#append": [ "Listamole.IronTeeth" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.IronTeeth",
+      "Actors.IronTeeth",
+      "Cadre.IronTeeth",
+      "Editing.IronTeeth",
+      "Effects.IronTeeth",
+      "Grows.IronTeeth",
+      "Parts.IronTeeth",
+      "Rides.IronTeeth"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - IronTeeth */
+      {
+        "Original": "Factions/IronTeeth/Goods.Collection.IronTeeth.blueprint",
+        "Modifier": "Factions/IronTeeth/Goods.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Factions/IronTeeth/Needs.Collection.IronTeeth.blueprint",
+        "Modifier": "Factions/IronTeeth/Needs.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Factions/IronTeeth/Grows.Collection.IronTeeth.blueprint",
+        "Modifier": "Factions/IronTeeth/Grows.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CoffeePlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CanolaCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CassavaCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CornCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/KohlrabiCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EggplantCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/SoybeansCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/MangroveTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.IronTeeth.optional.blueprint"
+      }
+    ]
+  }
+}

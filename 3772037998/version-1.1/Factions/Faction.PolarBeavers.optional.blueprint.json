@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.PolarBeavers" ],
+    "GoodCollectionIds#append": [ "Listamole.PolarBeavers" ],
+    "NeedCollectionIds#append": [ "Listamole.PolarBeavers" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.PolarBeavers",
+      "Actors.PolarBeavers",
+      "Cadre.PolarBeavers",
+      "Editing.PolarBeavers",
+      "Effects.PolarBeavers",
+      "Grows.PolarBeavers",
+      "Parts.PolarBeavers",
+      "Rides.PolarBeavers"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "RecipeSpec": {
+    "Id": "BetterScrewaxle",
+  "DisplayLocKey": "Good.Screwaxle.PluralDisplayName",
+  "CycleDurationInHours": 8,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "Log",
+      "Amount": 3
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Screwaxle",
+      "Amount": 3
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "HoomanRelic",
+  "CyclesFuelLasts": 5,
+  "FuelCapacity": 10,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Screwaxle",
+
+	"BackwardCompatibleIds": []
+  }
+}

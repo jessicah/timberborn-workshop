@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "Emberpelts",
+    "MaterialName": "Bot.Folktails",
+    "TextureEntries": [
+      {
+        "Name": "_BaseMap",
+        "Path": "Materials/Bots/Emberpelts/Bot1.Emberpelts"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

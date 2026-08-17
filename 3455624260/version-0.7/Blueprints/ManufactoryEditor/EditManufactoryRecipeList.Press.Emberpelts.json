@@ -1,0 +1,7 @@
+{
+  "EditManufactoryRecipeListSpec": {
+    "PrefabName": "Press.Emberpelts",
+    "AddRecipes": ["PepperJuice"],
+    "RemoveRecipes": []
+  }
+}

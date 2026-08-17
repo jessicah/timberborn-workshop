@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "MechanizedFarm.GreenPeas.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "MechanizedGreenPeasfarm" ]
+	}
+}

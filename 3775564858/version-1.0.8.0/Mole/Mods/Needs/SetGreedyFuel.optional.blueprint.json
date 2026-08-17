@@ -1,0 +1,28 @@
+{
+	"NeedSpec":
+	{
+		"NeedGroupId": "Boosts",
+		"StartingValue": 0.0,
+		"MinimumValue": 0.0,
+		"MaximumValue": 1.0,
+		"DailyDelta": -0.2,
+		"ImportanceMultiplier": 0.1,
+		"Effectiveness": 1.0,
+		"Wastable": false,
+		"HoursWarningThreshold": 4.5,
+		"FavorableWellbeing": 3,
+		"UnfavorableWellbeing": 0
+	},
+	"PunitiveNeedSpec":
+	{
+		"Penalties":
+		[
+			{
+				"Id": "MovementSpeed",
+				"MultiplierDelta": 0.75
+			}
+		]
+	},
+	"CriticalNeedSpec#delete": {},
+	"NeedPreventingWorkSpec#delete": {}
+}

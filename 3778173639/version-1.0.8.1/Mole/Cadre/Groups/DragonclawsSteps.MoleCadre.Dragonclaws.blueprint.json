@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Dragonclaws", "Order": 1001001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Dragonclaws",
+      "MetalStairs.Dragonclaws",
+      "MetalStaircase.Dragonclaws",
+      "SpiralStairs.Dragonclaws",
+      "SpiralStaircase.Dragonclaws",
+      "StaircaseLog.Dragonclaws",
+      "MetalSpiralStaircase.Dragonclaws",
+      "DD_SlopeStairs.Dragonclaws",
+      "SkyBridgeStairs.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Dragonclaws",
+      "MetalStairs.Dragonclaws",
+      "MetalStaircase.Dragonclaws",
+      "SpiralStairs.Dragonclaws",
+      "SpiralStaircase.Dragonclaws",
+      "StaircaseLog.Dragonclaws",
+      "MetalSpiralStaircase.Dragonclaws",
+      "DD_SlopeStairs.Dragonclaws",
+      "SkyBridgeStairs.Dragonclaws"
+    ]
+  }
+}

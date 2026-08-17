@@ -1,0 +1,20 @@
+{
+  "BuildingSpec":
+  {
+    "BuildingCost#append":
+    [
+      { "Id": "Log", "Amount": 20 },
+      { "Id": "ScrapMetal", "Amount": 20 },
+      { "Id": "Plank", "Amount": 10 },
+      { "Id": "PineResin", "Amount": 15 },
+      { "Id": "Gear", "Amount": 3 },
+      { "Id": "Scaffolding", "Amount": 5 },
+      { "Id": "Rope", "Amount": 30 },
+      { "Id": "Explosives", "Amount": 15 },
+      { "Id": "Anvil", "Amount": 1 },
+      { "Id": "MediumCauldron", "Amount": 1 },
+      { "Id": "Educativebooks", "Amount": 1 },
+      { "Id": "ChemistrySet", "Amount": 1 }
+    ]
+  }
+}

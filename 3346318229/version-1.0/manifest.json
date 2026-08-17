@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Emberpelts",
+    "Version": "1.0.13.1",
+    "Id": "Emberpelts",
+    "MinimumGameVersion": "1.0.12.0",
+    "Description": "A new faction of beavers that have an affinity for fire and the colour red...\n\nThis is my first timberborn mod.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "1.0.10.0"},
+    ],
+    "OptionalMods": [
+        {"Id": "Lapantouflemagic.1x1x2Storage"},
+    ]
+}

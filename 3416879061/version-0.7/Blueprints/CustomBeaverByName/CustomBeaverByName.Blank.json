@@ -1,0 +1,12 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "",
+    "ExcludeFromNamePool": "True",
+    "Texture": "",
+    "ChildTexture": "",
+    "Avatar": "",
+    "ChildAvatar": "",
+    "ContaminatedAvatar": "",
+    "ContaminatedChildAvatar": ""
+  }
+}

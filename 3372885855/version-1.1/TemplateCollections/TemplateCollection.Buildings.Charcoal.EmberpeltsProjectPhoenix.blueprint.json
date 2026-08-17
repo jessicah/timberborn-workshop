@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Charcoal",
+    "Blueprints": [
+      "Buildings/Housing/BreedingPod/BreedingPod.Emberpelts.blueprint",
+      "Buildings/Housing/AdvancedBreedingPod/AdvancedBreedingPod.Emberpelts.blueprint"
+    ]
+  }
+}

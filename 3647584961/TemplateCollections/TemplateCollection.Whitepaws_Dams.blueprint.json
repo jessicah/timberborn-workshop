@@ -1,0 +1,22 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Dams",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Dams/FloodgateDam.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/Loglevee.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/Loglevee2.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x2.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x2upgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x2upgradeMK3.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3upgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3upgradeMK3.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3Utility.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3variant.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3variantupgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/primitivedam3x3variantupgradeMK3.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/TerrainBlock.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Dams/LyophilizedTerrainBlock.Whitepaws.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+#include <defines.h>
+{
+  TOGROUP(24000,Covers),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Dam.Top),
+      TOTOOL(Roof.Dynamic),
+      TOTOOL(Roof1x1),
+      TOTOOL(Roof1x2),
+      TOTOOL(Roof2x2),
+      TOTOOL(Roof2x3),
+      TOTOOL(Roof3x2),
+      TOTOOL(HalfRoof1x1),
+      TOTOOL(HalfRoof1x2),
+      TOTOOL(HalfRoof2x1),
+      TOTOOL(HalfRoof2x2)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Dam.Top),
+      TOTOOL(Roof.Dynamic),
+      TOTOOL(Roof1x1),
+      TOTOOL(Roof1x2),
+      TOTOOL(Roof2x2),
+      TOTOOL(Roof2x3),
+      TOTOOL(Roof3x2),
+      TOTOOL(HalfRoof1x1),
+      TOTOOL(HalfRoof1x2),
+      TOTOOL(HalfRoof2x1),
+      TOTOOL(HalfRoof2x2)
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "Forester.IronTeeth" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.Forester.IronTeeth.Name" }
+}

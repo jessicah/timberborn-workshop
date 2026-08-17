@@ -1,0 +1,11 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PrimitiveDam3x3Utility.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"primitivedam3x3Utility.Whitepaws",
+			"primitivedam3x3Utility"
+		]
+	}
+}

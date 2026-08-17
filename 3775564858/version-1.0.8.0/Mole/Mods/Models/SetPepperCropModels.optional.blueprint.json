@@ -1,0 +1,62 @@
+{
+	"PlantablePreviewModelSpec":
+	{
+    "Model": "Plants/Crops/Pepper/PepperMature.Model"
+  },
+	"Children":
+	{
+		"#Models":
+		{
+			"Children":
+			{
+				"Seedling":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperSeedlingDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperSeedlingDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperSeedling.Model" }
+						}
+					}
+				},
+				"Mature":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperMatureDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperMatureDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Pepper/PepperMature.Model" }
+						}
+					}
+				}/*,
+				"#Leftover": {
+					"TimbermeshSpec": {
+						"Model": "Plants/Crops/Pepper/PepperMatureStump.Model"
+					}
+				}*/
+			}
+		}
+	}
+}

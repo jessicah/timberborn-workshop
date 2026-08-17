@@ -1,0 +1,9 @@
+{
+	"FactionBeaverFactionsSpec":
+	{
+		"BeaverFactions#append":
+		[
+			{ "BeaverFactionId": "Whitepaws", "Weight": 4 }
+		]
+	}
+}

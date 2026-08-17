@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining3xN.MoleCadre.IslandBeavers", "Order": 808003, "NameLocKey": "Group.FierceMetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW3x1.IslandBeavers",
+      "DE_A_RM_SquareW3x2.IslandBeavers",
+      "DE_A_RM_SquareW3x3.IslandBeavers",
+      "DE_A_RM_SlopeW3x.IslandBeavers",
+      "DE_A_RM_InvSlopeW3X.IslandBeavers",
+      "DE_A_RM_InvCornerW3X.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW3x1.IslandBeavers",
+      "DE_A_RM_SquareW3x2.IslandBeavers",
+      "DE_A_RM_SquareW3x3.IslandBeavers",
+      "DE_A_RM_SlopeW3x.IslandBeavers",
+      "DE_A_RM_InvSlopeW3X.IslandBeavers",
+      "DE_A_RM_InvCornerW3X.IslandBeavers"
+    ]
+  }
+}

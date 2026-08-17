@@ -1,0 +1,10 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "Dynamite.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Dynamite1.Whitepaws",
+					"WPDynamite1"
+				]
+  }
+}

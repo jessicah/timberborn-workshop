@@ -1,0 +1,7 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "CookingTent.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "Cookingtent" ]
+  }
+}

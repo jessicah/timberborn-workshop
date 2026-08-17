@@ -1,0 +1,9 @@
+{
+  "GoodGroupSpec": {
+    "Id": "Juice",
+    "Order": 35,
+    "Icon": "Sprites/TopBar/Juice",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Need.Juice.DisplayName"
+  }
+}

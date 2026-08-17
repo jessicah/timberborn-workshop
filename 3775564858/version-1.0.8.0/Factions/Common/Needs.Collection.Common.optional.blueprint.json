@@ -1,0 +1,14 @@
+{
+  "NeedCollectionSpec":
+  {
+    "Needs#append":
+    [
+      "Bento",
+      "BotKit",
+      "Hedge",
+      "Grapes",
+      "GrapeJuice",
+      "Juice"
+    ]
+  }
+}

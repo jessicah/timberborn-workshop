@@ -1,0 +1,28 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.LeafCoats",
+  "Paths#append": [
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft3.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft4.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft5.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft6.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft7.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft8.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft9.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft10.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft11.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft12.LeafCoats",
+
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft3.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft4.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft5.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft6.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft7.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft8.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft9.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft10.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft11.LeafCoats",
+    "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft12.LeafCoats"
+  ]
+}
+}

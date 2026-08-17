@@ -1,0 +1,11 @@
+{
+  "NeedCollectionSpec":
+  {
+    "Needs#remove":
+    [
+      "Apples",
+      "Lubricant",
+      "PlantMurderer"
+    ]
+  }
+}

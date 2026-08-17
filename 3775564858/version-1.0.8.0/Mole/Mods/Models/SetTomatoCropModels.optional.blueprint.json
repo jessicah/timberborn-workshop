@@ -1,0 +1,62 @@
+{
+	"PlantablePreviewModelSpec":
+	{
+    "Model": "Plants/Crops/Tomato/TomatoMature.Model"
+  },
+	"Children":
+	{
+		"#Models":
+		{
+			"Children":
+			{
+				"Seedling":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoSeedlingDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoSeedlingDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoSeedling.Model" }
+						}
+					}
+				},
+				"Mature":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoMatureDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoMatureDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Tomato/TomatoMature.Model" }
+						}
+					}
+				}/*,
+				"#Leftover": {
+					"TimbermeshSpec": {
+						"Model": "Plants/Crops/Tomato/TomatoMatureStump.Model"
+					}
+				}*/
+			}
+		}
+	}
+}

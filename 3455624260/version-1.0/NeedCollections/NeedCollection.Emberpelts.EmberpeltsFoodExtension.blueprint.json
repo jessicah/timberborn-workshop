@@ -1,0 +1,14 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "EmberpeltsAddons",
+    "Needs": [
+      "Pepper",
+      "AppleJuice",
+      "TomatoJuice",
+      "PepperJuice",
+      "GrilledBeetroot",
+      "Scone",
+      "PepperBread"
+    ]
+  }
+}

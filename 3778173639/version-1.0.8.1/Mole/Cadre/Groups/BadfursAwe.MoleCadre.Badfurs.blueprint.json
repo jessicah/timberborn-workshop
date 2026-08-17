@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Badfurs", "Order": 1226000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Badfurs",
+      "LaborerMonument.Badfurs",
+      "BrazierOfBonding.Badfurs",
+      "FlameOfUnity.Badfurs",
+      "FountainOfJoy.Badfurs",
+      "PublicFountain.Badfurs",
+      "TributeToIngenuity.Badfurs",
+      "HallOfAbundance.Badfurs",
+      "ArchOfProgress.Badfurs",
+      "EarthRecultivator.Badfurs",
+      "EarthRepopulator.Badfurs",
+      "WonderOfFire.Badfurs",
+      "Wonder.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Badfurs",
+      "LaborerMonument.Badfurs",
+      "BrazierOfBonding.Badfurs",
+      "FlameOfUnity.Badfurs",
+      "FountainOfJoy.Badfurs",
+      "PublicFountain.Badfurs",
+      "TributeToIngenuity.Badfurs",
+      "HallOfAbundance.Badfurs",
+      "ArchOfProgress.Badfurs",
+      "EarthRecultivator.Badfurs",
+      "EarthRepopulator.Badfurs",
+      "WonderOfFire.Badfurs",
+      "Wonder.Badfurs"
+    ]
+  }
+}

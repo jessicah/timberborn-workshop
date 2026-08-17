@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.IronTeeth", "Order": 222000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.IronTeeth",
+      "TeethGrindstone.IronTeeth",
+      "MedicalBed.IronTeeth",
+      "MedicalTripleBed.IronTeeth",
+      "Fixedmedicalbed_Burns.IronTeeth",
+      "Fixedmedicalbed_Disease.IronTeeth",
+      "Fixedmedicalbed_Injury.IronTeeth",
+      "Clinic.IronTeeth",
+      "DecontaminationPod.IronTeeth",
+      "ContaminatedJail.IronTeeth",
+      "WashingMachine.IronTeeth",
+      "Herbalist.IronTeeth",
+      "TankShower.IronTeeth",
+      "Shower.IronTeeth",
+      "DoubleShower.IronTeeth",
+      "RiverBath.IronTeeth",
+      "Scratcher.IronTeeth",
+      "Massager.IronTeeth",
+      "Sauna.IronTeeth",
+      "Hammock.IronTeeth",
+      "Swing.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.IronTeeth",
+      "TeethGrindstone.IronTeeth",
+      "MedicalBed.IronTeeth",
+      "MedicalTripleBed.IronTeeth",
+      "Fixedmedicalbed_Burns.IronTeeth",
+      "Fixedmedicalbed_Disease.IronTeeth",
+      "Fixedmedicalbed_Injury.IronTeeth",
+      "Clinic.IronTeeth",
+      "DecontaminationPod.IronTeeth",
+      "ContaminatedJail.IronTeeth",
+      "WashingMachine.IronTeeth",
+      "Herbalist.IronTeeth",
+      "TankShower.IronTeeth",
+      "Shower.IronTeeth",
+      "DoubleShower.IronTeeth",
+      "RiverBath.IronTeeth",
+      "Scratcher.IronTeeth",
+      "Massager.IronTeeth",
+      "Sauna.IronTeeth",
+      "Hammock.IronTeeth",
+      "Swing.IronTeeth"
+    ]
+  }
+}

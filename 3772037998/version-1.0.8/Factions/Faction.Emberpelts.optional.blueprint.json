@@ -1,0 +1,21 @@
+{
+  "FactionSpec":
+  {
+    "Logo": "Factions/Emberpelts/Symbol.Emberpelts",
+    "NewGameFullAvatar": "Factions/Emberpelts/NewGameAvatar.Emberpelts",
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Emberpelts" ],
+    "GoodCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "NeedCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Emberpelts",
+      "Actors.Emberpelts",
+      "Cadre.Emberpelts",
+      "Editing.Emberpelts",
+      "Effects.Emberpelts",
+      "Grows.Emberpelts",
+      "Parts.Emberpelts",
+      "Rides.Emberpelts"
+    ]
+  }
+}

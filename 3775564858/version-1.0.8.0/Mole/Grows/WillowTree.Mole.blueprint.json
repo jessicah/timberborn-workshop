@@ -1,0 +1,312 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+        "X": 1,
+        "Y": 1,
+        "Z": 2
+      },
+      "Blocks": [
+        {
+          "MatterBelow": "Ground",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "Floor, Bottom, Corners, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "WillowTree",
+    "BackwardCompatibleTemplateNames":
+    [
+      "Grows.WillowTree.LeafCoats",
+      "WillowTree.LeafCoats",
+      "Grows.Willow.LeafCoats",
+      "Willow.LeafCoats",
+      "Willow"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 21
+  },
+  "TreeComponentSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 10.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Tree",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "Forester",
+    "PlantTimeInHours": 0.8
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 1.5,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "CuttableSpec": {
+    "RemoveOnCut": false,
+    "LeftoverModelName": "#Leftover",
+    "Yielder": {
+      "YielderComponentName": "Cuttable",
+      "Yield": {
+        "Id": "Log",
+        "Amount": 2
+      },
+      "RemovalTimeInHours": 1.5,
+      "ResourceGroup": "Cuttable"
+    }
+  },
+  "PlantablePreviewModelSpec": { "Model": "NaturalResources/Crops/Cassava/CassavaSeedling" },
+  "ReproducibleSpec": {
+    "ReproductionChance": 0.02
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 10.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grows.Willow.Name",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Grows.Willow.Cite",
+    "Icon": "Mole/Grows/Branches"
+  },
+  "GatherableSpec": {
+    "YieldGrowthTimeInDays": 6.0,
+    "Yielder": {
+      "YielderComponentName": "Uncuttable",
+      "Yield": {
+        "Id": "Branch",
+        "Amount": 3
+      },
+      "RemovalTimeInHours": 1.5,
+      "ResourceGroup": "Pruning"
+    }
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 1,
+    "DaysToDie": 20.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": true,
+    "MinHeightScaleFactor": 0.9,
+    "MaxHeightScaleFactor": 1.1,
+    "MinWidthScaleFactor": 0.9,
+    "MaxWidthScaleFactor": 1.1,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 360.0
+  },
+  "TreeCuttingRadiusSpec": {
+    "Radius": 0.098
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaSeedling"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.33,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.26,
+                    "Height": 1.09,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaSeedlingDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.25,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaSeedlingDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.307281375,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.26,
+                    "Height": 1.15,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaMature"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 1.582121,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.61,
+                    "Height": 1.38,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.186018273,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaMatureDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.71,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.25,
+                    "Height": 1.79,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Cassava/CassavaMatureDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 1.582121,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.61,
+                    "Height": 1.38,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.186018273,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": {
+            "Model": "NaturalResources/Trees/Birch/BirchMatureStump"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [],
+            "SphereColliders": [],
+            "CapsuleColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0948844552,
+                  "Z": 0.5
+                },
+                "Radius": 0.181779072,
+                "Height": 0.5928929,
+                "Axis": "Y"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "BeaverFactionSplitNeedsSpec": {
+    "Id": "IronTeeth",
+    "Needs": [
+      "AlgaeRation",
+      "BeaverStatue",
+      "BeaverBust",
+      "Brazier",
+      "Campfire",
+      "DecorativeClock",
+      "Coffee",
+      "CornRation",
+      "Detailer",
+      "EarthRepopulator",
+      "EggplantRation",
+      "ExercisePlaza",
+      "FermentedCassava",
+      "FermentedMushroom",
+      "FermentedSoybean",
+      "FlameOfUnity",
+      "Kohlrabi",
+      "LaborerMonument",
+      "Lantern",
+      "MangroveFruit",
+      "Motivatorium",
+      "MudBath",
+      "RooftopTerrace",
+      "Scratcher",
+      "SwimmingPool",
+      "TributeToIngenuity",
+      "WetFur",
+      "WindTunnel",
+      "Bell"
+    ]
+  }
+}

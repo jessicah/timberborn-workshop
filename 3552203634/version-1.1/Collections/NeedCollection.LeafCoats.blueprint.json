@@ -1,0 +1,43 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "LeafCoats",
+    "Needs": [
+      "BeaverStatue",
+      "Detailer",
+      "Antidote",
+      "BeeSting",
+      "ContemplationSpot",
+      "Carousel",
+      "MudPit",
+      "SwimmingPool",
+      "Scarecrow",
+      "BeaverBust",
+      "DecorativeClock",
+      "WindTunnel",
+      "Garden",
+      "ObservationTerrace",
+      "Plaza",
+      "PlantMurderer",
+      "LaborerMonument",
+      "FountainOfJoy",
+      "TributeToIngenuity",
+      "Apples",
+      "MangroveFruit",
+      "Grapes",
+      "FermentedChestnut",
+      "FermentedDandelion",
+      "FermentedFruit",
+      "FruitSalad",
+      "FancyApples",
+      "ControlTower",
+      "Energy",
+      "Lubricant",
+      "Weathervane",
+      "Greenery",
+      "WonderLeafCoats",
+      "HallOfAbundance",
+      "DancePit",
+      "DomedGarden"
+    ]
+  }
+}

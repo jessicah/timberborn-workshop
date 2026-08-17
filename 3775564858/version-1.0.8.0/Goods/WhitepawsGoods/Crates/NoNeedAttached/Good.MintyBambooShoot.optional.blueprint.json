@@ -1,0 +1,23 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.BambooShoots.Emberpelts",
+      "Wares.BambooShoots.Folktails",
+      "Wares.BambooShoots.IronTeeth",
+      "Wares.BambooShoots.LeafCoats",
+      "Wares.BambooShoots.Whitepaws",
+      "Wares.BambooShoots.Common",
+      "Wares.BambooShoot.Emberpelts",
+      "Wares.BambooShoot.Folktails",
+      "Wares.BambooShoot.IronTeeth",
+      "Wares.BambooShoot.LeafCoats",
+      "Wares.BambooShoot.Whitepaws",
+      "Wares.BambooShoot.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/BambooShoots",
+    "DisplayNameLocKey": "Wares.BambooShoots.Lone",
+    "PluralDisplayNameLocKey": "Wares.BambooShoots.Name"
+  }
+}

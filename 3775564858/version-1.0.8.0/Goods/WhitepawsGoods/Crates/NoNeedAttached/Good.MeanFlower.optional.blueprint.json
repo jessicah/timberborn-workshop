@@ -1,0 +1,23 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.MeanFlowers.Emberpelts",
+      "Wares.MeanFlowers.Folktails",
+      "Wares.MeanFlowers.IronTeeth",
+      "Wares.MeanFlowers.LeafCoats",
+      "Wares.MeanFlowers.Whitepaws",
+      "Wares.MeanFlowers.Common",
+      "Wares.MeanFlower.Emberpelts",
+      "Wares.MeanFlower.Folktails",
+      "Wares.MeanFlower.IronTeeth",
+      "Wares.MeanFlower.LeafCoats",
+      "Wares.MeanFlower.Whitepaws",
+      "Wares.MeanFlower.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/MeanFlowers",
+    "DisplayNameLocKey": "Wares.MeanFlowers.Lone",
+    "PluralDisplayNameLocKey": "Wares.MeanFlowers.Name"
+  }
+}

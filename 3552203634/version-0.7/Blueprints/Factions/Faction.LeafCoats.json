@@ -1,0 +1,183 @@
+{
+  "FactionSpec": {
+    "Id": "LeafCoats",
+    "Order": 5176,
+    "DisplayNameLocKey": "Faction.LeafCoats.DisplayName",
+    "DescriptionLocKey": "Faction.LeafCoats.Description",
+    "GameOverMessageLocKey": "Faction.Folktails.GameOver.Message",
+    "GameOverFlavorLocKey": "Faction.Folktails.GameOver.Flavor",
+    "Avatar": "Sprites/Avatars/LeafCoatsAdult",
+    "Textures": [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats",
+    ],
+    "ChildAvatar": "Sprites/Avatars/LeafCoatsChild",
+    "ChildTextures": [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats",
+    ],
+    "BotAvatar": "Sprites/Avatars/LeafCoatsBot",
+    "BotId": "Bot.LeafCoats",
+    "ContaminatedAdultAvatar": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+    "ContaminatedChildAvatar": "Sprites/Avatars/LeafCoatsContaminatedChild",
+    "Logo": "Sprites/Avatars/LeafCoatsLogo",
+    "NewGameFullAvatar": "Sprites/Avatars/LeafCoatsFullNewGame",
+    "MaterialGroups": [
+      "LeafCoats",
+      "Folktails",
+      "IronTeeth"
+    ],
+    "PrefabGroups": [
+      "Buildings.LeafCoats",
+      "Characters.LeafCoats",
+      "Landscaping.LeafCoats",
+      "NaturalResources.LeafCoats",
+      "ModularShaftParts.LeafCoats"
+    ],
+    "PathMaterial": "Materials/UberAtlas/Materials/LeafCoats/Path.LeafCoats",
+    "StartingBuildingId": "DistrictCenter.LeafCoats",
+    "SoundId": "Common",
+    "Needs": [
+      /* Common */
+      "BadwaterContamination",
+      "BeaverStatue",
+      "BrokenTeeth",
+      "Detailer",
+      "Hunger",
+      "Injury",
+      "Lantern",
+      "Roof",
+      "Shelter",
+      "Shrub",
+      "Sleep",
+      "Thirst",
+      "WetFur",
+
+      /* Folktail */
+      "Antidote",
+      "BeeSting",
+
+      "ContemplationSpot",
+      "Carousel",
+      "MudPit",
+      "SwimmingPool",
+
+      /* IronTeeth */
+      "Scarecrow",
+      "BeaverBust",
+      "Clock",
+
+      "WindTunnel",
+
+      /* My needs */
+      "Garden",
+      "ObservationTerrace",
+      "Plaza",
+
+      "PlantMurderer",
+
+      /* Monument needs */
+      "LaborerMonument",
+      "FountainOfJoy",
+      "TributeToIngenuity",
+      //"EarthRecultivator",
+
+      /* Food needs */
+      "Apples",
+      "MangroveFruit",
+      "Grapes",
+
+      /* Processed Food needs */
+      "FermentedChestnut",
+      "FermentedDandelion",
+      "FermentedFruit",
+      "FruitSalad",
+      "FancyApples",
+
+
+      /* IronTeeth Bot Needs */
+      "ControlTower",
+      /* My Bot Needs */
+      "Energy",
+      "Lubricant",
+    ],
+    "Goods": [
+      /* Pile */
+      "Log",
+      "Dirt",
+      "Plank",
+      "TreatedPlank",
+      "MetalBlock",
+      "ScrapMetal",
+
+      /* Common Items */
+      "BotChassis",
+      "BotHead",
+      "BotLimb",
+      "Gear",
+      "PineResin",
+
+      /* Folktail Items */
+
+      /* My Items */
+      "Bark",
+      "Branch",
+      //"Leaf",
+      "Shovel",
+
+      /* Raw Food Items */
+      "Berries",
+      "Apple",
+      "MangroveFruit",
+      "Grapes",
+
+      /* Food Ingredients */
+      "Dandelion",
+      "MapleSyrup",
+      "Chestnut",
+      //"ChestnutFlour",
+
+      /* Processed Food Items */
+      "FermentedChestnut",
+      "FermentedDandelion",
+      "FermentedFruit",
+      "FruitSalad",
+      "FancyApples",
+
+
+      /* Common Liquids */
+      "Badwater", //because I can't easily remove it
+      "Extract",
+      "Water",
+
+      /* Folktail Liquids */
+      "Antidote",
+
+      /* My Liquids */
+      "Lubricant",
+
+      /* Removed Goods */
+      //"Explosives",
+    ],
+    "BlueprintModifiers": [],
+  },
+  /*
+  "UnlockableFactionSpec": {
+    "PrerequisiteFaction": "IronTeeth",
+    "AverageWellbeingToUnlock": 25
+  },
+  */
+  "FactionWonderSpec":
+  {
+    "WonderCompletionFlavorLocKey": "Faction.Folktails.WonderCompletionFlavor",
+    "WonderCompletionMessageLocKey": "Faction.Folktails.WonderCompletionMessage",
+    "WonderCompletionImage": "Sprites/WonderCompletion/Wonder.Completion.Folktails",
+    "WonderLaunchSound": "UI.Buildings.Wonder.EarthRecultivator"
+  },
+}

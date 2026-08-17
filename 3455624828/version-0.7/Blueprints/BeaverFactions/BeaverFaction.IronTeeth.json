@@ -1,0 +1,52 @@
+{
+  "BeaverFactionSpec":
+  {
+    "Id": "IronTeeth",
+    "DisplayNameLocKey": "Faction.IronTeeth.DisplayName",
+    "Textures":
+    [
+      "BeaverAdult1.IronTeeth",
+      "BeaverAdult2.IronTeeth",
+      "BeaverAdult3.IronTeeth",
+      "BeaverAdult4.IronTeeth",
+      "BeaverAdult5.IronTeeth"
+    ],
+    "ChildTextures":
+    [
+      "BeaverChild1.IronTeeth",
+      "BeaverChild2.IronTeeth",
+      "BeaverChild3.IronTeeth"
+    ],
+    "Needs":
+    [
+      "AlgaeRation",
+      "BeaverStatue",
+      "BeaverBust",
+      "Brazier",
+      "Campfire",
+      "Clock",
+      "Coffee",
+      "CornRation",
+      "Detailer",
+      "EarthRepopulator",
+      "EggplantRation",
+      "ExercisePlaza",
+      "FermentedCassava",
+      "FermentedMushroom",
+      "FermentedSoybean",
+      "FlameOfUnity",
+      "Kohlrabi",
+      "LaborerMonument",
+      "Lantern",
+      "MangroveFruit",
+      "Motivatorium",
+      "MudBath",
+      "RooftopTerrace",
+      "Scratcher",
+      "SwimmingPool",
+      "TributeToIngenuity",
+      "WetFur",
+      "WindTunnel",
+    ],
+  }
+}

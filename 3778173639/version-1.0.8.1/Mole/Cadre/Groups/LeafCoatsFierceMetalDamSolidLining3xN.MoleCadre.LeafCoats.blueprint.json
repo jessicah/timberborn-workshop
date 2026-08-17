@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining3xN.MoleCadre.LeafCoats", "Order": 408003, "NameLocKey": "Group.FierceMetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW3x1.LeafCoats",
+      "DE_A_RM_SquareW3x2.LeafCoats",
+      "DE_A_RM_SquareW3x3.LeafCoats",
+      "DE_A_RM_SlopeW3x.LeafCoats",
+      "DE_A_RM_InvSlopeW3X.LeafCoats",
+      "DE_A_RM_InvCornerW3X.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW3x1.LeafCoats",
+      "DE_A_RM_SquareW3x2.LeafCoats",
+      "DE_A_RM_SquareW3x3.LeafCoats",
+      "DE_A_RM_SlopeW3x.LeafCoats",
+      "DE_A_RM_InvSlopeW3X.LeafCoats",
+      "DE_A_RM_InvCornerW3X.LeafCoats"
+    ]
+  }
+}

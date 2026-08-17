@@ -1,0 +1,32 @@
+{
+  "RecipeSpec": {
+    "Id": "HYPERBraisedCabbage",
+  "DisplayLocKey": "Good.BraisedCabbage.PluralDisplayName",
+  "CycleDurationInHours": 0.1,
+  "CyclesCapacity": 96,
+  "Ingredients": [
+    {
+      "Id": "Cabbage",
+      "Amount": 10
+    },
+    {
+      "Id": "Mushrooms",
+      "Amount": 10
+    }
+  ],
+  "Products": [
+    {
+      "Id": "BraisedCabbage",
+      "Amount": 26
+    }
+    //efficiency = 130%
+
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Gear",
+  "CyclesFuelLasts": 20,
+  "FuelCapacity": 20,
+  "Icon": "sprites/Whitepaws Sprites/Goods/BraisedCabbage",
+	"BackwardCompatibleIds": []
+  }
+}

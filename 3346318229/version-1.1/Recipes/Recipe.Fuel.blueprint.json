@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Fuel",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Manufactory.Recipe.FuelBadwater",
+    "CycleDurationInHours": 4.0,
+    "Ingredients": [
+      {
+        "Id": "Coal",
+        "Amount": 2
+      },
+      {
+        "Id": "Badwater",
+        "Amount": 20
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Fuel",
+        "Amount": 15
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 12,
+    "Icon": "Sprites/Goods/BiofuelIcon"
+  }
+}

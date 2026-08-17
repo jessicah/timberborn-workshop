@@ -1,0 +1,1575 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TimberCommons</name>
+    </assembly>
+    <members>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.GoodConsumingBuildingDescriberPatch">
+            <summary>Harmony patch to support <see cref="T:IgorZ.TimberCommons.Common.IConsumptionRateFormatter"/> on buildings.</summary>
+            <remarks>
+            Instead of doing own logic on the formatting, it lets the components decide via
+            <see cref="T:IgorZ.TimberCommons.Common.IConsumptionRateFormatter"/>.
+            </remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.GrowableFragmentPatch">
+            Harmony patch to show grow rate as days/hours.
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.GrowableToolPanelItemFactoryPatch">
+            <summary>Harmony patch to show growth time in days and hours.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryDescriberPatch1">
+            <summary>Harmony patch to show days and hours for the slow recipes.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryDescriberPatch2">
+            <summary>Harmony patch to show low fuel ingredient consumption rate in the recipe UIs.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryInventoryFragmentPatch1">
+            <summary>Harmony patch that adds "supply left" element to the manufactory UI fragment.</summary>
+            <remarks>It only adds an element, but the actual handling is not made here.</remarks>
+            <seealso cref="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryInventoryFragmentPatch2"/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryInventoryFragmentPatch2">
+            <summary>Harmony patch to display "supply left" element in the manufactory UI fragment.</summary>
+            <seealso cref="T:IgorZ.TimberCommons.CommonUIPatches.ManufactoryInventoryFragmentPatch1"/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.Common.IConsumptionRateFormatter">
+            <summary>Interface that helps to customize the tooltip.</summary>
+            <remarks>
+            Any component can provide this interface to show consumption rate in a custom form. If there are multiple components
+            that provide the interface, then only one is used, and it's unspecified which.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Common.IConsumptionRateFormatter.GetRate">
+            <summary>Returns formatted string of the good consumption rate.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Common.IConsumptionRateFormatter.GetTime">
+            <summary>Returns formatted time for which the rate is counted.</summary>
+            <remarks>E.g. "10h" or "1d".</remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.Common.ISupplyLeftProvider">
+            <summary>Interface that enables "supply lasts for XX" progress bar in UI for manufactories.</summary>
+            <remarks>
+            It's expected that only one component on the building implements it. If there is such a component, and it returns a
+            non "null" value, then the UI fragment gets a "progress bar" that tells player how long the buildings would work on
+            the existing inventory reserves.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Common.ISupplyLeftProvider.GetStats">
+            <summary>Returns the stats or indicates that the progress bar should be hidden.</summary>
+            <remarks>
+            This method will be called from the UI fragment code, which happens every frame. Avoid doing expensive stuff in
+            this method.
+            </remarks>
+            <returns>
+            The progress as a value in range [0; 1] and the message to show on the progress bar. The progress must be greater
+            than zero and the message must not be <c>null</c>. If any of these conditions is not met, the progress bar will be
+            hidden in the UI.
+            </returns>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystemUI.Configurator.Configure(Bindito.Core.IContainerDefinition)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystemUI.Configurator.EntityPanelModuleProvider">
+            <summary>UI for the irrigation related components.</summary>
+            <remarks>The tower and boosted trees.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystemUI.Configurator.EntityPanelModuleProvider.#ctor(IgorZ.TimberCommons.IrrigationSystemUI.IrrigationTowerFragment,IgorZ.TimberCommons.IrrigationSystemUI.GrowthRateModifierFragment)">
+            <summary>UI for the irrigation related components.</summary>
+            <remarks>The tower and boosted trees.</remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystemUI.GoodConsumingBuildingFragmentPatch">
+            <summary>Harmony patch to show supply in days and hours.</summary>
+            <remarks>
+            It takes the localized string from the stock game and tries to re-use it. If the result is bad, then disable feature
+            "GoodConsumingBuildingUI.DaysHoursViewForAllBuildings" to fail back to the old behavior (only show hours).
+            </remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystemUI.GoodConsumingIrrigationTowerOutputPatch">
+            <summary>Shows irrigation range as a virtual output in good consuming irrigation towers.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystemUI.ManufactoryIrrigationTowerOutputPatch">
+            <summary>Shows irrigation range as a virtual output in manufactory irrigation tower recipes.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystemUI.ManufactoryRecipeSliderToggleFactoryPatch">
+            <summary>Allows copied recipe specs to still show as selected in the compact recipe toggle.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect">
+            <summary>A range effect that blocks the contamination on the tiles.</summary>
+            <remarks>
+            The ranges can intersect. Tiles in the intersections will be properly handled when one of the effects is removed.
+            </remarks>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower"/>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower"/>
+            <seealso cref="T:IgorZ.TimberCommons.WaterService.SoilOverridesService"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.EffectGroup">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.ApplyEffect(System.Collections.Generic.HashSet{UnityEngine.Vector3Int})">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.ResetEffect">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.InjectDependencies(IgorZ.TimberCommons.WaterService.SoilOverridesService)">
+            <summary>It must be public for the injection logic to work.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.Save(Timberborn.WorldPersistence.IEntitySaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffect.Load(Timberborn.WorldPersistence.IEntityLoader)">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.BlockContaminationRangeEffectSpec.EffectGroup">
+            <summary>The effect identifier. It is used by the tower logic to identify the right effect.</summary>
+            <remarks>
+            Multiple effects can have the same name. In this case, all the matching effects will be considered as a group.
+            However, if they affect the same property, the effect will not sum up. The best positive and the worst negative
+            effects will be used.
+            </remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower">
+            <summary>Irrigation tower that runs on top of <see cref="T:Timberborn.GoodConsumingBuildingSystem.GoodConsumingBuilding"/>.</summary>
+            <remarks>
+            <p>
+            The building is responsible for dealing with the goods (for example, water). The tower will keep tiles in range
+            irrigated as long as the building is consuming fuel (in other words, it is active).
+            </p>
+            <p>
+            If building has components, implementing <see cref="T:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect"/>, then they will be applied once the irrigation
+            started. The <see cref="P:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect.EffectGroup"/> is not considered, all effects will be used. 
+            </p>
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.GetRate">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.GetTime">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.IrrigationRange">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.IrrigateFromGroundTilesOnly">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.CanMoisturize">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.IrrigationStarted">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.IrrigationStopped">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.UpdateConsumptionRate">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.GetEfficiency">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.InjectDependencies(Timberborn.Localization.ILoc)">
+            <summary>It must be public for the injection logic to work.</summary>
+            FIXME: to constructor?
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTowerSpec.IrrigationRange">
+            <summary>The maximum distance of irrigation from the building's boundary.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTowerSpec.IrrigateFromGroundTilesOnly">
+            <summary>
+            Indicates that only foundation tiles with "ground only" setting will be considered when searching for the eligible
+            tiles.
+            </summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier">
+            <summary>Component that can change the growth rate on the "growable" entities.</summary>
+            <remarks>
+            Don't add to prefab! It's added to every growable entity in the game. Any code can access it and register its own
+            modifications rates. However, only the worst "moderator" and the best "boost" will be considered. The effects are
+            not adding up.
+            </remarks>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.EffectiveModifier">
+            <summary>The actual modifier to the growth rate as a positive or negative percent value.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.WorstModerator"/>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.BestBooster"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.IsLiveAndGrowing">
+            <summary>Indicates that growable is actively growing, so the rate modifier makes sense.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.RateIsModified">
+            <summary>Specifies if the growable is growing or has grown at the non-stock rate.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.WorstModerator">
+            <summary>The <i>worst</i> moderator rate modifier.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.BestBooster">
+            <summary>The <i>best</i> boost rate modifier.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.RegisterModifier(System.String,System.Single)">
+            <summary>Records the owner's request for the growth modification.</summary>
+            <remarks>The final rate applied may be different if there are more than one owner registered.</remarks>
+            <param name="ownerId">A unique ID of the caller that applies the modifier.</param>
+            <param name="modifier">
+            The rate modifer as a positive or negative value in percents. E.g. <c>15.5</c> (+15.5%) or <c>-8.5</c> (-8.5%).
+            </param>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.UnregisterModifier(System.String)">
+            <summary>Removes any modifications from the owner.</summary>
+            <param name="ownerId">
+            The ID of the owner that applied the modifiers. Only the modifiers applied by this owner will be deleted.
+            </param>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.InjectDependencies(Timberborn.TimeSystem.ITimeTriggerFactory)">
+            <summary>It must be public for the injection logic to work.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.UpdateRate">
+            <summary>Calculates the effective multiplier and updates the growable settings.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier.EffectiveModifier"/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect">
+            <summary>Effect that is applied or removed based of the <see cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IsIrrigating"/> state.</summary>
+            <remarks>
+            The same component can have multiple effects. The tower implementation decides which effects to activate based on
+            its internal logic.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect.EffectGroup">
+            <summary>The effect identifier. It is used by the tower logic to identify the right effect.</summary>
+            <remarks>
+            Multiple effects can have the same name. In this case, all the matching effects wil be considered as a group.
+            </remarks>
+            <value>A string or <c>null</c>.</value>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect.ApplyEffect(System.Collections.Generic.HashSet{UnityEngine.Vector3Int})">
+            <summary>Applies an effect to the specified tiles.</summary>
+            <param name="tiles">The tiles to apply effect to.</param>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect.ResetEffect">
+            <summary>Resets all effects applied in the last call to <see cref="M:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect.ApplyEffect(System.Collections.Generic.HashSet{UnityEngine.Vector3Int})"/></summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower">
+            <summary>Base component for the irrigation towers.</summary>
+            <remarks>
+            The tower irrigates tiles (sets moisture level to a constant value) within a certain range. The ground level of the
+            eligible tiles must be the same as the tower itself. Only the "connected" tiles are eligible for irrigation.
+            Connected tiles must be immediately adjusted to each other on the left, right, top or bottom side. If the tile is
+            blocked for irrigation (for example, via a moisture blocker), then it is not eligible for irrigation. 
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigationRange">
+            <summary>The maximum distance of irrigation from the building's boundary.</summary>
+            <remarks>The building's foundation tiles are considered for the range, not the building "center".</remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigateFromGroundTilesOnly">
+            <summary>
+            Indicates that only foundation tiles with "ground only" setting will be considered when searching for the eligible
+            tiles.
+            </summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IsInitialized">
+            <summary>Tells if the tower is initialized and ready to work.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.EffectiveRange">
+            <summary>The current irrigation range.</summary>
+            <remarks>It can change based on the building efficiency.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles"/>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigationRange"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles">
+            <summary>The tiles that can get water.</summary>
+            <remarks>These tiles are in the effective range and can be reached from the tower.</remarks>
+            <see cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.EffectiveRange"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.EligibleTiles">
+            <summary>The tiles that can be irrigated at the 100% efficiency.</summary>
+            <see cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigationRange"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.MaxCoveredTilesCount">
+            <summary>
+            The maximum number of tiles which this component could irrigate on a flat surface if there were no irrigation
+            obstacles.
+            </summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Coverage">
+            <summary>The percentile of the tiles that are reachable to the maximum coverage.</summary>
+            <remarks>
+            This value is used to scale the building consumption. All goods consumption in the buildings should be configured
+            for the maximum coverage.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles"/>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.MaxCoveredTilesCount"/>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateConsumptionRate"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IsIrrigating">
+            <summary>Tells if the building is being irrigating the tiles in range.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.CurrentEfficiency">
+            <summary>The last calculated efficiency modifier.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.BlockObject">
+            <summary>Shortcut to the building's block object.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.BlockableObject">
+            <summary>The tower is always a blockable building.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetBlocksInRange">
+            <inheritdoc />
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetObjectsInRange">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.RangeName">
+            <inheritdoc />
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnSelect">
+            <inheritdoc />
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnUnselect">
+            <inheritdoc />
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnEnterFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnExitFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnPostPlacementChanged">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.PostInitializeEntity">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.InitializeEntity">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Tick">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.CanMoisturize">
+            <summary>Indicates if the tower has everything to moisturize the tiles.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigationStarted">
+            <summary>Notifies that the irrigation started.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.IrrigationStopped">
+            <summary>Notifies that the irrigation process has stopped.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateConsumptionRate">
+            <summary>Called when the tower consumption rate needs to be recalculated.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.EligibleTiles"/>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.ReachableTiles"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetEfficiency">
+            <summary>Returns the current building efficiency modifier.</summary>
+            <remarks>Values less <c>1.0</c> reduce the effective range.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.EffectiveRange"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Initialize">
+            <summary>Initializes the component right before the first tick.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._radiusAdjuster">
+            <summary>This is a delta to be added to any distance value to account the building's boundaries.</summary>
+            <remarks>
+            All the tiles are considered in terms of "a range from the boundary", not from the building's center. The bigger
+            the boundary (building's size), the greater is this adjuster. Note that it doesn't handle well the case of the
+            boundary that is not a perfect square. 
+            </remarks>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._moistureOverrideIndex">
+            <summary>The moisture override, registered in the direct moisture system component.</summary>
+            <remarks>Value <c>-1</c> means the moisture override wasn't setup.</remarks>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.StartMoisturizing"/>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.StopMoisturizing"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._baseZ">
+            <summary>The Z level at which this building will irrigate the tiles.</summary>
+            <remarks>The irrigation won't work above or below.</remarks>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateBuildingPositioning"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._foundationSize">
+            <summary>The size of the building. The range is counted from the boundaries.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._buildingCenter">
+            <summary>The building approximated center to use when determining the range.</summary>
+            <remarks>The coordinates may not be integer. It depends on the actual building size.</remarks>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateBuildingPositioning"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._startingTiles">
+            <summary>Cached positioned blocks to start searching for the eligible tiles.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._irrigationObstacles">
+            <summary>All tiles that had non-baseZ height during the last eligible tiles refresh.</summary>
+            <remarks>React on the terrain changes to these tiles only.</remarks>
+            <seealso cref="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._baseZ"/>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetTiles(System.Single,System.Boolean)"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._irrigationBarriers">
+            <summary>All tiles that had an irrigation barrier set during the last eligible tiles refresh.</summary>
+            <remarks>When an entity is deleted, only react to it if it was a barrier.</remarks>
+            <seealso cref="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetTiles(System.Single,System.Boolean)"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower._towerSelected">
+            <summary>Indicates if any tower is selected. This enables the highlighting range update.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.InjectDependencies(Timberborn.TerrainSystem.TerrainMap,Timberborn.MapIndexSystem.MapIndexService,Timberborn.SingletonSystem.EventBus,IgorZ.TimberCommons.WaterService.SoilOverridesService,Timberborn.RangedEffectBuildingUI.BuildingWithRangeUpdateService,Timberborn.TerrainSystem.ITerrainService)">
+            <summary>It must be public for the injection logic to work.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateState">
+            <summary>Updates the eligible tiles and moisture system.</summary>
+            <remarks>If case of there are changes in the irrigating tiles, the moisturizing will be stopped.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.StartMoisturizing">
+            <summary>Starts logic on the irrigated tiles.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.StopMoisturizing">
+            <summary>Stops any logic on the irrigated tiles.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateBuildingPositioning">
+            <summary>Updates the building size and position to its current state.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.CalculateDesertLevel(UnityEngine.Vector2Int,System.Single)">
+            <summary>Calculates the tile's "moisture look" based on its distance from the tower.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetSqrtDistance(UnityEngine.Vector2Int)">
+            <summary>Gets square distance of the tile form the building's center.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.GetTiles(System.Single,System.Boolean)">
+            <summary>Returns all the tiles in the irrigated range.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.UpdateCoverage">
+            <summary>Rebuilds tiles coverage of the tower.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.MaybeRefreshRangeHighlight">
+            <summary>Refreshes the range highlights if the tower is selected.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnEnteredFinishedStateEvent(Timberborn.BlockSystem.EnteredFinishedStateEvent)">
+            <summary>Monitors building new soil barriers within the range.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnEntityDeletedEvent(Timberborn.EntitySystem.EntityDeletedEvent)">
+            <summary>Monitors soil barriers removal within the range.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.OnBlockedStateChanged(System.Object,System.EventArgs)">
+            <summary>Updates towers state based on the blocking state.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Save(Timberborn.WorldPersistence.IEntitySaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Load(Timberborn.WorldPersistence.IEntityLoader)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower">
+            <summary>Irrigation tower that runs on top of <see cref="T:Timberborn.Workshops.Manufactory"/>.</summary>
+            <remarks>
+            <p>
+            The manufactory is responsible for dealing with the goods (for example, water). The tower will be the production
+            executor for the manufactory, so no other executors must be setup (for example, workplace or
+            <see cref="T:Timberborn.Workshops.ProductionIncreaser"/>). The tower will keep the tiles in range irrigated as long as the manufactory can
+            produce (<see cref="P:Timberborn.Workshops.Manufactory.IsReadyToProduce"/>).
+            </p>
+            <p>
+            If building has components, implementing <see cref="T:IgorZ.TimberCommons.IrrigationSystem.IRangeEffect"/>, then they will be applied based on the
+            currently selected recipe (<see cref="P:Timberborn.Workshops.Manufactory.CurrentRecipe"/>). For this, define the effect field.
+            </p>
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.Tick">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.IrrigationRange">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.IrrigateFromGroundTilesOnly">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.CanMoisturize">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.IrrigationStarted">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.IrrigationStopped">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.UpdateConsumptionRate">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.GetEfficiency">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.OnEnterFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.OnExitFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.GetStats">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.InjectDependencies(Timberborn.TimeSystem.IDayNightCycle,Timberborn.Localization.ILoc)">
+            <summary>It must be public for the injection logic to work.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.GetEffectsForRecipe(System.String)">
+            <summary>Returns all effects that should be active for the recipe.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTowerSpec.Effects"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.StopEffectsForRecipe(System.String)">
+            <summary>Resets all effects that have started for the recipe.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.StartEffectsForCurrentRecipe">
+            <summary>Applies effects that are defined for the currently selected recipe.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.UpdateRecipe(System.String)">
+            <summary>Updates to the new manufactory recipe.</summary>
+            <param name="oldRecipeId">The recipe that was set before the change.</param>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.UpdateCurrentRecipeDuration">
+            <summary>Adjusts the current recipe duration to match the tower utilization.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.IrrigationSystem.IrrigationTower.Coverage"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.UpdateConsumptionStats">
+            <summary>Updates the "lasts for" stats for the UI fragment.</summary>
+            <remarks>It must be called each time the current recipe or consumption is updated.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower.OnProductionRecipeChanged(System.Object,System.EventArgs)">
+            <summary>Reacts on the recipe change to update its duration.</summary>
+            <remarks>It recalls the previous recipe ID.</remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTowerSpec.IrrigationRange">
+            <summary>The maximum distance of irrigation from the building's boundary.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTowerSpec.IrrigateFromGroundTilesOnly">
+            <summary>
+            Indicates that only foundation tiles with "ground only" setting will be considered when searching for the eligible
+            tiles.
+            </summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTowerSpec.Effects">
+            <summary>Defines rules to apply an effect group per the recipe selected.</summary>
+            <remarks>Each row is mappings like: <c>&lt;recipe id>=&lt;effect group></c>. The keys must be unique.</remarks>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec"/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect">
+            <summary>A range effect that changes the growables growth rate.</summary>
+            <remarks>
+            <p>
+            The modifier can increase or decrease the growth rate: if <i>less</i> than <c>0</c>, then it is "a moderator";
+            if <i>greater</i> than <c>0</c>, then it is a booster.
+            </p>
+            <p>
+            The ranges can intersect. If tile is in range of multiple growth affects, then the effective rate is found between
+            the minimum growth moderator and the maximum growth booster. The modifiers of the same type don't add up.  
+            </p>
+            </remarks>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.GoodConsumingIrrigationTower"/>
+            <seealso cref="T:IgorZ.TimberCommons.IrrigationSystem.ManufactoryIrrigationTower"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.OnEnterFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.OnExitFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.EffectGroup">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.ApplyEffect(System.Collections.Generic.HashSet{UnityEngine.Vector3Int})">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.ResetEffect">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.InjectDependencies(Timberborn.BlockSystem.BlockService,Timberborn.SingletonSystem.EventBus)">
+            <summary>It must be public for the injection logic to work.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.MaybeAddModifierToTile(UnityEngine.Vector3Int)">
+            <summary>Adds the rate modifier at the tile, given there is eligible growable.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.RemoveModifierAtCoords(UnityEngine.Vector3Int)">
+            <summary>Removes the modifier at coordinates or NOOP if no <see cref="T:IgorZ.TimberCommons.IrrigationSystem.GrowthRateModifier"/> is there.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffect.OnEntityInitializedEvent(Timberborn.EntitySystem.EntityInitializedEvent)">
+            <summary>Checks if a newly created growable needs to get the effect.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec.EffectGroup">
+            <summary>The effect identifier. It is used by the tower logic to identify the right effect.</summary>
+            <remarks>
+            Multiple effects can have the same name. In this case, all the matching effects will be considered as a group.
+            However, if they affect the same property, the effect will not sum up. The best positive and the worst negative
+            effects will be used.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec.GrowthRateModifier">
+            <summary>
+            The modifier percentage applied to the original tree growth rate. It can increase or decrease the growth rate.
+            </summary>
+            <remarks>
+            Values below <c>0</c> are considered "moderators" and decrease the growth rate. Values above <c>0</c> are
+            "boosters" and increase the growth rate. The rate modifier is a <i>relative</i> value expressed in percent.
+            For example, <c>15.5</c> means +15.5%, resulting in a total growth rate of 115.5%. Likewise, a value of
+            <c>-8.5</c> results in a total growth rate of 91.5%.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec.ComponentsFilter">
+            <summary>The components that must exist on the growable to be a target of this effect.</summary>
+            <remarks>
+            <p>If the list is empty, then no restriction by the components is applied.</p>
+            <p>
+            The names must be in a full notion, e.g. "<c>Timberborn.Forestry.TreeComponent</c>". The growable will be selected
+            if <i>any</i> of the components are present on the block object.
+            </p>
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec.PrefabNamesFilter">
+            <summary>DEPRECATED! DO NOT USE.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.IrrigationSystem.ModifyGrowableGrowthRangeEffectSpec.TemplateNamesFilter">
+            <summary>The names from TemplateSpec to be selected for this effect.</summary>
+            <remarks>If the list is empty, then no restriction by the prefab name is applied.</remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment">
+            <summary>Presents the injury probability of the workshop (if any).</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment.InitializeFragment">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment.ShowFragment(Timberborn.BaseComponentSystem.BaseComponent)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment.ClearFragment">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment.UpdateFragment">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.InjuryProbabilitySettings.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.InjuryProbabilitySettings.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.InjuryProbabilitySettings.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.IrrigationSystemSettings.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.IrrigationSystemSettings.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.IrrigationSystemSettings.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.ModUIPatchesSettings.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.ModUIPatchesSettings.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.ModUIPatchesSettings.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.TimeAndDurationSettings.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.TimeAndDurationSettings.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.TimeAndDurationSettings.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.WaterBuildingsSettings.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.WaterBuildingsSettings.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberCommons.Settings.WaterBuildingsSettings.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="T:IgorZ.TimberCommons.Stockpiles.GoodAmountTransformHeight">
+            <summary>
+            Replacement component for the stock <c>Timberborn.Stockpiles.GoodAmountTransformHeight</c>. It can work with
+            manufacture buildings as well as with simple stockpiles.
+            </summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Stockpiles.GoodAmountTransformHeight.OnEnterFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Stockpiles.GoodAmountTransformHeight.OnExitFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.Stockpiles.GoodAmountTransformHeight.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildingsUI.AdjustableWaterOutputFragment.InitializeFragment">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildingsUI.AdjustableWaterOutputFragment.ShowFragment(Timberborn.BaseComponentSystem.BaseComponent)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildingsUI.AdjustableWaterOutputFragment.ClearFragment">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildingsUI.AdjustableWaterOutputFragment.UpdateFragment">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildingsUI.Configurator.Configure(Bindito.Core.IContainerDefinition)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput">
+            <summary>
+            Component that replaces the stock "WaterOutput". It offers a way to set up the target water level at the spillway.
+            And, optionally, allows adjusting it in game via GUI.
+            </summary>
+            <remarks>
+            This component automatically replaces any stock water output with the settings set to defaults. If a building
+            blueprint has this component, it will keep the custom settings.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.#ctor(Timberborn.WaterSystem.IWaterService,Timberborn.WaterSystem.IThreadSafeWaterMap,Timberborn.MapStateSystem.MapSize,IgorZ.TimberCommons.WaterBuildings.WaterOutputLevelRangeService,Timberborn.WaterSystem.WaterOverflowCalculator)">
+            <summary>
+            Component that replaces the stock "WaterOutput". It offers a way to set up the target water level at the spillway.
+            And, optionally, allows adjusting it in game via GUI.
+            </summary>
+            <remarks>
+            This component automatically replaces any stock water output with the settings set to defaults. If a building
+            blueprint has this component, it will keep the custom settings.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.MaxHeight">
+            <summary>Maximum possible height of the water under the spillway.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.MaxTargetHeight">
+            <summary>Maximum target water level allowed for this output.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.MaxSliderTargetHeight">
+            <summary>Maximum target water level that is useful to present in the UI slider.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.OverflowAllowed">
+            <summary>Tells if the stock water output allows overflow above the spillway.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.CurrentWaterLevel">
+            <summary>The current water level at the output.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.MinHeight">
+            <summary>Minimum possible height of the water under the spillway.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SpillwayHeightDelta">
+            <summary>
+            Difference from the spillway height to the water surface. The output will stop if level goes higher.
+            </summary>
+            <seealso cref="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SetSpillwayHeightDelta(System.Single)"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.LimitOutputLevelEnabled">
+            <summary>Tells if the output should stop when the water level reaches the configured target.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.TargetWaterLevel">
+            <summary>Target water level at the output.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.DefaultTargetWaterLevel">
+            <summary>Default target water level used when the player enables the output limit.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.ShowHeightMarker">
+            <summary>Tells if the height marker should be shown when the building is selected.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.AllowAdjustmentsInGame">
+            <summary>Tells if GUI should be presented to change the limit in the game.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.TargetCoordinates">
+            <summary>Transformed coordinates of the water spillway.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SetSpillwayHeightDelta(System.Single)">
+            <summary>Sets a new spillway delta.</summary>
+            <remarks>
+            The new value must make sense in terms of the building Z-coordinate and the water level at the spillway
+            coordinates. If it doesn't, it will be corrected on the next call to <see cref="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.CalculateAvailableSpace"/>.
+            </remarks>
+            <param name="spillwayDelta"></param>
+            <seealso cref="P:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SpillwayHeightDelta"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SetLimitOutputLevelEnabled(System.Boolean)">
+            <summary>Sets whether this output should limit the water level.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.SetTargetWaterLevel(System.Single)">
+            <summary>Sets the target water level.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.CalculateAvailableSpace">
+            <summary>
+            Called via a Harmony patch to provide  <see cref="P:Timberborn.WaterBuildings.WaterOutput.AvailableSpace"/>. Normally happens at least once
+            per tick. Can be called multiple times, so keep it simple.
+            </summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.Save(Timberborn.WorldPersistence.IEntitySaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput.Load(Timberborn.WorldPersistence.IEntityLoader)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker">
+            <summary>This component shows an output level indicator.</summary>
+            <remarks>
+            It will be added to any building with <see cref="T:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput"/> component with the default settings.
+            However, if it's already in the building blueprint, it will retain the settings.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker.#ctor(Timberborn.Rendering.MarkerDrawerFactory)">
+            <summary>This component shows an output level indicator.</summary>
+            <remarks>
+            It will be added to any building with <see cref="T:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput"/> component with the default settings.
+            However, if it's already in the building blueprint, it will retain the settings.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker.OnSelect">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker.OnUnselect">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutputMarker.Update">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterBuildings.DischargeTemplateMatcher">
+            <summary>
+            Keeps the Discharge template-name migration check in one tested place while Timberborn still exposes FluidDump
+            backward-compatible aliases.
+            </summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.WaterOutputLevelRangeService.Load">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterBuildings.WaterOutputLevelRangeService.Unload">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterBuildings.WaterOutputPatch">
+            <summary>
+            Redirects requests for "WaterOutput.AvailableSpace" to the custom implementation in
+            <see cref="T:IgorZ.TimberCommons.WaterBuildings.AdjustableWaterOutput"/>.
+            </summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterService.MoistureOverride">
+            <summary>Definition of the moisture override.</summary>
+            <seealso cref="T:IgorZ.TimberCommons.WaterService.SoilOverridesService"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.MoistureOverride.#ctor(UnityEngine.Vector3Int,System.Single,System.Single)">
+            <summary>Definition of the moisture override.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.MoistureOverride.Coordinates">
+            <summary>Coordinates of the tile.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.MoistureOverride.MoistureLevel">
+            <summary>Moisture level of the tile.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.MoistureOverride.DesertLevel">
+            <summary>Desert level of the tile.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterService.SoilMoistureSimulatorPatch">
+            <summary>Harmony patch to override moisture levels.</summary>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterService.SoilOverridesService">
+            <summary>Class that allows setting overrides to the soil moisture levels.</summary>
+            <remarks>
+            This code uses HarmonyX patches to access internal game's logic. Significant changes to it may break the mod.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.SoilOverridesService.GameLoaded">
+            <summary>True if the game is loaded and fully ready to start ticking.</summary>
+            <remarks>This is the next step after "PostLoad".</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.ClaimMoistureOverrideIndex(System.Int32)">
+            <summary>Reclaims the loaded moisture override.</summary>
+            <remarks>
+            The components must recall their overrides and reclaim them on a load. Unclaimed overrides will be removed before
+            the first state update.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.ClaimContaminationOverrideIndex(System.Int32)">
+            <summary>Reclaims the loaded contamination blocker override.</summary>
+            <remarks>
+            The components must recall their overrides and reclaim them on a load. Unclaimed overrides will be removed before
+            the first state update.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.AddMoistureOverride(System.Collections.Generic.IEnumerable{IgorZ.TimberCommons.WaterService.MoistureOverride})">
+            <summary>Creates moisture level overrides for a set of tiles.</summary>
+            <remarks>
+            The same tiles can be listed in multiple overrides. In this case, the maximum level will be used.
+            </remarks>
+            <param name="moistureOverrides">The tiles moisture override info.</param>
+            <returns>Unique ID of the created override. Use it to delete the overrides.</returns>
+            <seealso cref="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.RemoveMoistureOverride(System.Int32)"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.RemoveMoistureOverride(System.Int32)">
+            <summary>Removes the moisture override.</summary>
+            <param name="overrideId">The ID of the override to remove.</param>
+            <seealso cref="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.AddMoistureOverride(System.Collections.Generic.IEnumerable{IgorZ.TimberCommons.WaterService.MoistureOverride})"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.IsContaminationBarrierAt(UnityEngine.Vector3Int)">
+            <summary>Checks if there is a contamination barrier at the given coordinates.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.IsFullMoistureBarrierAt(UnityEngine.Vector3Int)">
+            <summary>Checks if there is a full moisture barrier at the given coordinates.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.AddContaminationOverride(System.Collections.Generic.IEnumerable{UnityEngine.Vector3Int})">
+            <summary>Sets contamination blockers for a set of tiles.</summary>
+            <remarks>The same tiles can be listed in multiple overrides.</remarks>
+            <param name="tiles">The tiles to set the blocker at.</param>
+            <returns>Unique ID of the created override. Use it to delete the overrides.</returns>
+            <seealso cref="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.RemoveContaminationOverride(System.Int32)"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.RemoveContaminationOverride(System.Int32)">
+            <summary>Removes the contamination blockers override.</summary>
+            <param name="overrideId">The ID of the override to remove.</param>
+            <seealso cref="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.AddContaminationOverride(System.Collections.Generic.IEnumerable{UnityEngine.Vector3Int})"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.Save(Timberborn.WorldPersistence.ISingletonSaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.Load">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.PostLoad">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.Tick">
+            <inheritdoc/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.SoilOverridesService.MoistureLevelOverrides">
+            <summary>Map of the overriden moisture levels.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.SoilOverridesService.TerrainTextureLevelsOverrides">
+            <summary>Map of the overriden desert levels.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.UpdateMoistureOverrides">
+            <summary>Checks if there were changes and rebuilds moisture overrides caches.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.UpdateContaminationOverrides">
+            <summary>Checks if there were changes and rebuilds contamination overrides cache.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.OnEntityDeletedEvent(Timberborn.EntitySystem.EntityDeletedEvent)">
+            <summary>Reacts on contamination blockers removal.</summary>
+            <remarks>If there is an overriden blocker for the tile, then the barrier is restored.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.SoilOverridesService.OnNewGameInitialized(Timberborn.UILayoutSystem.ShowPrimaryUIEvent)">
+            <summary>Called when the game initialized.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.Settings.BaseSettings`1">
+            <summary>Base class for the mod settings.</summary>
+            <remarks>
+            Inherit from this class and add an injection in the configurator. Use
+            <see cref="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action{``0})"/> to create a static property that will update to
+            the setting value.
+            </remarks>
+            <code><![CDATA[
+            // Static setting property.
+            public static bool MyProperty { get; private set; }
+            public ModSetting<bool> MyPropertyInternal { get; } =
+                new(true, ModSettingDescriptor.CreateLocalized("MyPropertyLocKey"));
+            // Init static property.
+            MySettingsCosntructor(ISettings settings, ModSettingsOwnerRegistry modSettingsOwnerRegistry,
+                ModRepository modRepository) : base(settings, modSettingsOwnerRegistry, modRepository) {
+              InstallSettingCallback(MyPropertyInternal, v => MyProperty = v);
+            }
+            ]]></code>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action{``0})">
+            <summary>Set up a callback that will get called on the setting update and on the game load.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action)">
+            <inheritdoc cref="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action{``0})"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback(ModSettings.Common.ColorModSetting,System.Action{UnityEngine.Color})">
+            <inheritdoc cref="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action{``0})"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback(ModSettings.Common.ColorModSetting,System.Action)">
+            <inheritdoc cref="M:IgorZ.TimberDev.Settings.BaseSettings`1.InstallSettingCallback``1(ModSettings.Core.ModSetting{``0},System.Action{``0})"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.Settings.BaseSettings`1.OnAfterLoad">
+            <inheritdoc />
+        </member>
+        <member name="T:IgorZ.TimberDev.Settings.DebugSettings`1">
+            <summary>Base class for debug mod settings.</summary>
+            <remarks>
+            By default, it only controls the log verbosity level, but more settings can be introduced by adding more
+            <see cref="T:ModSettings.Core.ModSetting"/> properties in the descendants. See "DebugSettingsConfigurator.cs" for an example of binding
+            this class.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.Settings.DebugSettings`1.HeaderLocKey">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberDev.Settings.DebugSettings`1.Order">
+            <inheritdoc />
+        </member>
+        <member name="P:IgorZ.TimberDev.Settings.DebugSettings`1.ChangeableOn">
+            <inheritdoc />
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.AbstractDialog">
+            <summary>Base class for all dialogs. The descendants must be created via injection.</summary>
+            <remarks>Copy the localization strings from the loc files in UI directory into the main mod loc file.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.Show">
+            <summary>Shows this dialog.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.Close">
+            <summary>Closes this dialog without saving any data.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.DialogResourceName">
+            <summary>
+            The name of the UXML resource that defines this dialog. Relative to "UI/Views" folder.
+            </summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.CancelButtonName">
+            <summary>Name of the "Cancel" button element in the UXML.</summary>
+            <remarks>Can be set to <c>null</c> to skip binding.</remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.ConfirmButtonName">
+            <summary>Name of the "Confirm" button element in the UXML.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.CloseElementName">
+            <summary>Name of the element that closes the dialog without saving and confirmation.</summary>
+            <remarks>
+            This element is optional. If it's not found in the asset, it doesn't trigger an error. It's usually a cross icon
+            on the common dialog frame.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.Root">
+            <summary>Root element of this dialog.</summary>
+            <remarks>It is populated on dialog show and gets destroyed on dialog close.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.VerifyInput">
+            <summary>Verifies the input data. Called when the user clicks "OK".</summary>
+            <returns>
+            <c>null</c> if the input value is valid and the dialog can be commited and closed. Otherwise, a localized string
+            that will be shown to the user as an error message. And the dialog will stay open.
+            </returns>
+            <seealso cref="M:IgorZ.TimberDev.UI.AbstractDialog.ApplyInput"/>
+            <seealso cref="P:IgorZ.TimberDev.UI.AbstractDialog.UiFactory"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.ApplyInput">
+            <summary>Applies the input data. Called when the user clicks "OK" and the input is valid.</summary>
+            <remarks>Called after <see cref="M:IgorZ.TimberDev.UI.AbstractDialog.VerifyInput"/>.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.CheckHasChanges">
+            <summary>Checks if the user has made any changes to the input data.</summary>
+            <returns><c>true</c> if there are unsaved changes.</returns>
+            <seealso cref="M:IgorZ.TimberDev.UI.AbstractDialog.OnUICancelled"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.ShowVerificationMessage(System.String)">
+            <summary>Shows the message returned by <see cref="M:IgorZ.TimberDev.UI.AbstractDialog.VerifyInput"/> and keeps the dialog open.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.UiFactory">
+            <summary>UI factory utility class. Use it to manipulate the elements.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.AbstractDialog.DialogBoxShower">
+            <summary>Dialog box factory utility class.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.GetPanel">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.OnUIConfirmed">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.OnUICancelled">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.AbstractDialog.InjectDependencies(IgorZ.TimberDev.UI.UiFactory,Timberborn.CoreUI.PanelStack,Timberborn.CoreUI.DialogBoxShower)">
+            <summary>Public for the inject to work properly.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.CommonFormats">
+            <summary>Utility class to format strings for UI.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.ResetCachedLocStrings">
+            <summary>Reset static caches of localized strings.</summary>
+            <remarks>
+            Call it from the configurator to pick up the current game language. If not called, then the cached strings won't
+            change until the next game restart.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.FormatSupplyLeft(Timberborn.Localization.ILoc,System.Single)">
+            <summary>Formats a string for the "supply last" case.</summary>
+            <remarks>
+            It makes "supply lasts" localized string from the stock message. The cached value won;t update until game restart
+            or <see cref="M:IgorZ.TimberDev.UI.CommonFormats.ResetCachedLocStrings"/> is called.
+            </remarks>
+            <seealso cref="M:IgorZ.TimberDev.UI.CommonFormats.ResetCachedLocStrings"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.DaysHoursFormat(Timberborn.Localization.ILoc,System.Single)">
+            <summary>Gives a VERY short form of the "hour amount".</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.FormatSmallValue(System.Single)">
+            <summary>Formats a value to keep it compact, but still representing small values.</summary>
+            <param name="value">The value to format.</param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.HighlightRed(System.String)">
+            <summary>Highlights the text in red color.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.HighlightGreen(System.String)">
+            <summary>Highlights the text in green color.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.HighlightYellow(System.String)">
+            <summary>Highlights the text in yellow color.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.Highlight(System.String,UnityEngine.Color)">
+            <summary>Highlights the text in the specified color.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.CommonFormats.Strikethrough(System.String)">
+            <summary>Adds a strikethrough effect to the text.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.DropdownItem">
+            <summary>Dropdown item with a value and a localized text.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.DropdownItem.Value">
+            <summary>The value of the dropdown item.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.DropdownItem.Text">
+            <summary>The text to display in the dropdown.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.DropdownItem.Icon">
+            <summary>Optional icon to show before the text.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.DropdownItem.op_Implicit(System.ValueTuple{System.String,System.String})~IgorZ.TimberDev.UI.DropdownItem">
+            <summary>Implicit conversion from a tuple to the DropdownItem.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.DropdownItem.op_Implicit(System.ValueTuple{System.String,UnityEngine.Sprite,System.String})~IgorZ.TimberDev.UI.DropdownItem">
+            <summary>Implicit conversion from a tuple to the DropdownItem.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.PreciseSliderWrapper">
+            <summary>Wrapper for the <see cref="T:Timberborn.CoreUI.PreciseSlider"/> that allows to set the step size for the slider.</summary>
+            <seealso cref="M:IgorZ.TimberDev.UI.UiFactory.CreatePreciseSlider(System.Single,System.Action{System.Single},System.Int32)"/>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.PreciseSliderWrapper.Value">
+            <summary>Gets the current value of the slider.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.PreciseSliderWrapper.SetValueWithoutNotify(System.Single)">
+            <summary>Sets the value of the slider without invoking the value change callback.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.PreciseSliderWrapper.UpdateValuesWithoutNotify(System.Single,System.Single)">
+            <summary>Sets the value of the slider and the maximum value without invoking the value change callback.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.ResizableDropdownElement">
+            <summary>Simple dropdown field with a value, optional icon and an arbitrary text.</summary>
+            <remarks>
+            By default, it measures the size of all its items and sets the of the control to the biggest. This can be disabled
+            via <see cref="P:IgorZ.TimberDev.UI.ResizableDropdownElement.AutoResizeToOptions"/>. Set the maximum width via the styles to prevent the control becoming too big.
+            </remarks>
+            <example>
+            <code><![CDATA[
+            var dropdown = UiFactory.CreateSimpleDropdown(v => OnValueUpdated(v));
+            dropdown.Items = [(Value = "value1", Text = "Text Of Vlaue1")];
+            doprdown.Value = "value1";
+            ]]></code>
+            </example>
+        </member>
+        <member name="E:IgorZ.TimberDev.UI.ResizableDropdownElement.OnValueChanged">
+            <summary>Event that is triggered when the value of the dropdown is selected.</summary>
+            <remarks>It triggers even if the selected value hasn't changed.</remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.ResizableDropdownElement.AutoResizeToOptions">
+            <summary>Whether the dropdown should resize to fit the options.</summary>
+            <remarks>
+            Each time the options set is changed, the control will resize itself. Set min/max width via the style to limit the
+            possible control sizes. If the option text can't fit the control, it will be truncated with ellipsis.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.ResizableDropdownElement.Items">
+            <summary>The items to display in the dropdown.</summary>
+            <remarks>
+            Changing this set will reset <see cref="P:IgorZ.TimberDev.UI.ResizableDropdownElement.SelectedValue"/> to the first item. The callback will fire.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.ResizableDropdownElement.SelectedValue">
+            <summary>The currently selected value of the dropdown.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.ResizableDropdownElement.#ctor">
+            <inheritdoc cref="T:IgorZ.TimberDev.UI.ResizableDropdownElement"/>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.UiFactory">
+            <summary>Factory for creating UI elements without using TAPI.</summary>
+            <remarks>Normally, should be used for the times when TAPI is broken.</remarks>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.EntityPanelTextClass">
+            <summary>Class name for the text elements on the right side panel.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.GameTextBigClass">
+            <summary>Class name for the big text elements.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.GameTextSmallClass">
+            <summary>Class name for the small text elements.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.GameTextNormalClass">
+            <summary>Class name for the normal text elements.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.StandardButtonPadding">
+            <summary>Common padding around the button text on the right side panel.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.DefaultColor">
+            <summary>Default color for the text in UI.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.FindElementUpstream``1(UnityEngine.UIElements.VisualElement,System.String)">
+            <summary>Find the specified element starting from the parent and upstream.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.T(System.String)">
+            <summary>A shortcut to "ILoc.T()".</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.T``1(System.String,``0)">
+            <summary>A shortcut to "ILoc.T()".</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.T``2(System.String,``0,``1)">
+            <summary>A shortcut to "ILoc.T()".</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.T``3(System.String,``0,``1,``2)">
+            <summary>A shortcut to "ILoc.T()".</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.UiFactory.TimberDevStylesheetPath">
+            <summary>Sets an alternative path to <see cref="P:IgorZ.TimberDev.UI.UiFactory.TimberDevStylesheet"/>.</summary>
+            <remarks>If the path wasn't set, then the stylesheet will be loaded from "UI/Views/TimberDevStyle".</remarks>
+        </member>
+        <member name="P:IgorZ.TimberDev.UI.UiFactory.TimberDevStylesheet">
+            <summary>Stylesheet for the TimberDev UI elements.</summary>
+            <remarks>The stylesheet should be built-in to the mod asset file. See "README.txt".</remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateCenteredPanelFragment">
+            <summary>Creates a panel builder that can be used as a fragment on the right side panel.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CenterElement(UnityEngine.UIElements.VisualElement)">
+            <summary>Wraps the element to make it centered in the UI fragment.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateLabel(System.String,System.String[])">
+            <summary>Creates a label in the game's UI theme.</summary>
+            <param name="locKey">Optional loc key for the caption.</param>
+            <param name="classes">
+            Classes to add to the control. If not set, then the component will be set up for the entity panel.
+            </param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateTextField(System.Nullable{System.Int32},System.String[])">
+            <summary>Creates a text field in the game's UI theme.</summary>
+            <param name="width">Optional width override.</param>
+            <param name="classes">Optional classes to add to the control.</param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateButton(System.String,System.Action{UnityEngine.UIElements.Button},System.Nullable{System.ValueTuple{System.Int32,System.Int32,System.Int32,System.Int32}},System.String[])">
+            <summary>Creates a button in a theme suitable for the right side panel.</summary>
+            <param name="locKey">Loc key for the caption.</param>
+            <param name="onClickFn">Callback to call when the button is clicked.</param>
+            <param name="padding">
+            Optional padding around the button text. If not set, then <see cref="F:IgorZ.TimberDev.UI.UiFactory.StandardButtonPadding"/> will be used.
+            </param>
+            <param name="classes">
+            Classes to add to the control. If not set, then the component will be set up for the entity panel.
+            </param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateToggle(System.String,System.Action{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Int32,System.String[])">
+            <summary>Creates a toggle in the game's UI theme.</summary>
+            <param name="locKey">Loc key for the caption. If null or empty, then there will be no caption.</param>
+            <param name="onValueChangedFn">
+            A callback method that will be called on the value change. The only argument is the new value.
+            </param>
+            <param name="spacing">If a non-negative value, then the bottom margin will be set.</param>
+            <param name="classes">
+            Classes to add to the control. If not set, then the component will be set up for the entity panel.
+            </param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateSlider(System.Action{UnityEngine.UIElements.ChangeEvent{System.Single}},System.Single,System.Single,System.Single,System.Int32,System.String[])">
+            <summary>Creates a slider in a theme suitable for the right side panel.</summary>
+            <param name="onValueChangedFn">
+            A callback method that will be called on the value change. The only argument is the new value.
+            </param>
+            <param name="stepSize">
+            The minimum delta for the value changes. All positions on the slider will be multiples of this value.
+            </param>
+            <param name="lowValue">The lowest possible value.</param>
+            <param name="highValue">The highest possible value.</param>
+            <param name="spacing">If a non-negative value, then the bottom margin will be set.</param>
+            <param name="classes">Optional classes to add to the control.</param>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateMinMaxSlider(System.Single,System.Single,System.Int32)">
+            <summary>Creates a min/max slider in the game's UI theme.</summary>
+            <remarks>
+            This method requires TimberDev stylesheet. It should either be attached to the element that will become a parent
+            of the slider, or the stylesheet can be added specifically to the slider via <see cref="M:IgorZ.TimberDev.UI.UiFactory.AddTimberDevStylesheet(UnityEngine.UIElements.VisualElement)"/>.
+            </remarks>
+            <param name="lowValue">The minimum value limit.</param>
+            <param name="highValue">The maximum value limit.</param>
+            <param name="spacing">If a non-negative value, then the bottom margin will be set.</param>
+            <seealso cref="M:IgorZ.TimberDev.UI.UiFactory.AddTimberDevStylesheet(UnityEngine.UIElements.VisualElement)"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateScrollView">
+            <summary>Creates a scroll view in a theme suitable for the right side panel.</summary>
+            <remarks>
+            This method requires TimberDev stylesheet. It should either be attached to the element that will become a parent
+            of the slider, or the stylesheet can be added specifically to the slider via <see cref="M:IgorZ.TimberDev.UI.UiFactory.AddTimberDevStylesheet(UnityEngine.UIElements.VisualElement)"/>.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreatePreciseSlider(System.Single,System.Action{System.Single},System.Int32)">
+            <summary>
+            Creates a slider with plus/minus buttons and discrete value changes in a theme suitable for the right side panel.
+            </summary>
+            <param name="stepSize">
+            The minimum delta for the value changes. All positions on the slider will be multiples of this value.
+            </param>
+            <param name="onValueChangedFn">
+            A callback method that will be called on the value change. The only argument is the new value.
+            </param>
+            <param name="spacing">If a non-negative value, then the bottom margin will be set.</param>
+            <returns>A wrapper for the precise slider.</returns>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.AddFixedStepChangeHandler(UnityEngine.UIElements.Slider,System.Single,System.Action{System.Single})">
+            <summary>Adds a handler to the slider that will round the value to the step size.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.AddFixedStepChangeHandler(Timberborn.CoreUI.PreciseSlider,System.Single,System.Action{System.Single})">
+            <summary>Adds a handler to the slider that will round the value to the step size.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.AddFixedStepChangeHandler(UnityEngine.UIElements.MinMaxSlider,System.Single,System.Single,System.Action{UnityEngine.Vector2})">
+            <summary>Adds a handler to the slider that will round the value to the step size.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateSimpleDropdown(System.Action{System.String})">
+            <summary>Creates a simple dropdown in a theme suitable for the right side panel.</summary>
+            <remarks>
+            This dropdown will resize itself to the largest item, assigned via
+            <see cref="M:IgorZ.TimberDev.UI.ResizableDropdownElement.SetItems(IgorZ.TimberDev.UI.DropdownItem[])"/>. If the maximum width is needed, then set it manually.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.AddTimberDevStylesheet(UnityEngine.UIElements.VisualElement)">
+            <summary>Adds the TimberDev stylesheet to the elements that needs it.</summary>
+            <remarks>
+            The stylesheet can be added to a specific element that needs it, or it can be added once to the root element.
+            </remarks>
+            <seealso cref="M:IgorZ.TimberDev.UI.UiFactory.CreateMinMaxSlider(System.Single,System.Single,System.Int32)"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.LoadVisualTreeAsset(System.String)">
+            <summary>Loads a visual tree asset from the "UI/Views" folder.</summary>
+            <remarks>
+            The template gets properly transformed into VisualElement, and the game controls get initialized. All the
+            stylesheets on the template will be preserved. Use this method when a dialog or a panel is being loaded.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.LoadVisualElement``1(System.String)">
+            <summary>Loads a visual element from the "UI/Views" folder.</summary>
+            <remarks>
+            If the name is a template, then the first visual element gets extracted adn returned, and all the others (if any)
+            will be ignored. The game controls will be properly initialized. The stylesheets aren't preserved! The element,
+            once added to the hierarchy, will inherit the styles from its parent.
+            </remarks>
+            <seealso cref="M:IgorZ.TimberDev.UI.UiFactory.LoadVisualTreeAsset(System.String)"/>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.LoadVisualElement(System.String)">
+            <inheritdoc cref="M:IgorZ.TimberDev.UI.UiFactory.LoadVisualElement``1(System.String)"/>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.UnitFormats">
+            <summary>
+            Formats various units (time, distance, flow, etc.) for display in the UI, using localization for unit names and
+            formatting.
+            </summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.UI.VisualElementExtensions">
+            <summary>Extensions for <see cref="T:UnityEngine.UIElements.VisualElement"/>.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.VisualElementExtensions.Q2``1(UnityEngine.UIElements.VisualElement,System.String,System.Boolean)">
+            <summary>
+            Like <see cref="M:UnityEngine.UIElements.UQueryExtensions.Q``1(UnityEngine.UIElements.VisualElement,System.String,System.String)"/>, but reports the missing element.
+            </summary>
+            <typeparam name="T">The type of the element to find.</typeparam>
+            <param name="e">The element to search in.</param>
+            <param name="name">The name of the element to find.</param>
+            <param name="throwIfNotFound">
+            If <c>true</c> then the code will throw if the element is not found. Otherwise, it will log an error and return
+            <c>null</c>.
+            </param>
+            <returns>The found element or <c>null</c> if not found and <c>throwIfNotFound</c> is <c>false</c>.</returns>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown if the element is not found and <c>throwIfNotFound</c> is <c>true</c>.
+            </exception>
+        </member>
+        <member name="T:IgorZ.TimberDev.Utils.HarmonyPatcher">
+            <summary>Helper class to safely apply harmony patches.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.HarmonyPatcher.ApplyPatch(System.String,System.Type[])">
+            <summary>Applies Harmony patches.</summary>
+            <remarks>
+            This method ensures that no Harmony patches are applied twice. The patch will only live during the game session.
+            It will be undone when game reloads or exists to main menu.
+            </remarks>
+            <param name="patchId">Unique patch ID. Duplicated patches for the same ID will trigger an error.</param>
+            <param name="patchTypes">Static types that define Harmony patches.</param>
+            <exception cref="T:System.InvalidOperationException">if a patch with <paramref name="patchId"/> was already applied.</exception>
+        </member>
+        <member name="T:IgorZ.TimberDev.Utils.ComponentsAccessor">
+            <summary>Helper class to get various game components from a building.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.ComponentsAccessor.GetGoodsInventory(Timberborn.BaseComponentSystem.BaseComponent,System.Boolean)">
+            <summary>Gets the first non-construction site inventory of a building.</summary>
+            <remarks>
+            The building can have more than one inventory. This method finds one that is not used by the construction site.
+            </remarks>
+        </member>
+        <member name="T:IgorZ.TimberDev.Utils.StringProtoSerializer">
+             <summary>Serializer for the protobuf objects.</summary>
+             <remarks>
+             Requires "protobuf-net" package. Verify the specific version in the game DLLs. As of game `v0.7.8.9` it is
+             `protobuf-net v2.4`.
+             </remarks>
+             <example>
+             Declare the protobuf object with the <c>ProtoContract</c> attribute and the fields with the <c>ProtoMember</c>
+             attribute.
+             <code><![CDATA[
+             [ProtoContract]
+             record struct MyData {
+               [ProtoMember(1)]
+               public Vector2Int[] Positions { get; init; }
+             }
+             ]]></code>
+            
+             Then you can serialize and deserialize the object using the <c>StringProtoSerializer</c>.
+             <code><![CDATA[
+             var obj = new MyData { Positions = [new Vector2Int(1, 2), new Vector2Int(3, 4)] };
+             var text = StringProtoSerializer.Serialize(obj);
+             var deserialized = StringProtoSerializer.Deserialize<MyData>(text);
+             ]]></code>
+             </example>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.StringProtoSerializer.Serialize``1(``0)">
+            <summary>Serializes the protobuf object to a base64 string.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.StringProtoSerializer.Deserialize``1(System.String)">
+            <summary>Deserializes the protobuf object from a base64 string.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.StringProtoSerializer.AddType``1(System.String[])">
+            <summary>Adds a type to the serializer with the specified member names.</summary>
+        </member>
+        <member name="F:IgorZ.TimberDev.Utils.StringProtoSerializer.TypeToProtoMemberNames">
+            <summary>Standard Unity types.</summary>
+        </member>
+        <member name="T:IgorZ.TimberDev.Utils.StaticBindings">
+            <summary>Provider for the frequent singletons that can be obtained in a static context.</summary>
+        </member>
+        <member name="P:IgorZ.TimberDev.Utils.StaticBindings.DependencyContainer">
+            <summary>Factory for creation of the Bindito objects.</summary>
+        </member>
+        <member name="T:UnityDev.Utils.LogUtilsLite.DebugEx">
+            <summary>A light version of logging utils from UnityDev specialized for Timberborn.</summary>
+            <remarks>https://github.com/ihsoft/UnityDev_Utils</remarks>
+        </member>
+        <member name="T:UnityDev.Utils.LogUtilsLite.DebugEx.LogLevel">
+            <summary>The levels of log record.</summary>
+        </member>
+        <member name="F:UnityDev.Utils.LogUtilsLite.DebugEx.VerbosityLevel">
+            <summary>The current verbosity level for the logging.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])">
+            <summary>
+            Logs a formatted INFO message giving a better context on the objects in the parameters.
+            </summary>
+            <remarks>
+            The arguments aren't transformed into the strings by using their <c>ToString</c> method. Instead, this
+            method tries to make the best guess of what the object is, and gives more context when possible.
+            </remarks>
+            <param name="format">The format string for the log message.</param>
+            <param name="args">The arguments for the format string.</param>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)"/>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Log(UnityEngine.LogType,System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Fine(System.String,System.Object[])">
+            <summary>Logs a formatted INFO message when the <i>verbose</i> logging mode is enabled.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Warning(System.String,System.Object[])">
+            <summary>Logs a formatted WARNING message with a host identifier.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Error(System.String,System.Object[])">
+            <summary>Logs a formatted ERROR message with a host identifier.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Log(UnityEngine.LogType,System.String,System.Object[])">
+            <summary>Generic method to emit a log record.</summary>
+            <remarks>
+            It also catches the improperly declared formatting strings, and reports the error instead of throwing.
+            </remarks>
+            <param name="type">The type of the log record.</param>
+            <param name="format">The format string for the log message.</param>
+            <param name="args">The arguments for the format string.</param>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)">
+            <summary>Helper method to make a user-friendly object name for the logs.</summary>
+            <remarks>
+            This method is much more intelligent than a regular <c>ToString()</c>, it can detect some common types and give
+            more context on them while keeping the output short.
+            </remarks>
+            <param name="obj">The object to stringify. It can be <c>null</c>.</param>
+            <returns>A human friendly string or the original object.</returns>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.BaseComponentToString(Timberborn.BaseComponentSystem.BaseComponent)">
+            <summary>Helper method to make a user-friendly object name for the logs.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.C2S(System.Collections.IEnumerable,System.String)">
+            <summary>Collection-to-string – it makes a comma separated string from the enumerable.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.C2S``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>Collection-to-string – it makes a comma separated string from the enumerable.</summary>
+        </member>
+        <member name="T:UnityDev.Utils.LogUtilsLite.HostedDebugLog">
+            <summary>A light version of logging utils from UnityDev specialized for Timberborn.</summary>
+            <remarks>https://github.com/ihsoft/UnityDev_Utils</remarks>
+            <seealso cref="F:UnityDev.Utils.LogUtilsLite.DebugEx.VerbosityLevel"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.HostedDebugLog.Info(Timberborn.BaseComponentSystem.BaseComponent,System.String,System.Object[])">
+            <summary>Logs a formatted INFO message with a host identifier.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.HostedDebugLog.Fine(Timberborn.BaseComponentSystem.BaseComponent,System.String,System.Object[])">
+            <summary>
+            Logs a formatted INFO message with a host identifier when the <i>verbose</i> logging mode is enabled.
+            </summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.HostedDebugLog.Warning(Timberborn.BaseComponentSystem.BaseComponent,System.String,System.Object[])">
+            <summary>Logs a formatted WARNING message with a host identifier.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.HostedDebugLog.Error(Timberborn.BaseComponentSystem.BaseComponent,System.String,System.Object[])">
+            <summary>Logs a formatted ERROR message with a host identifier.</summary>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.HostedDebugLog.Log(UnityEngine.LogType,System.Object,System.String,System.Object[])">
+            <summary>Generic method to emit a hosted log record.</summary>
+            <param name="type">The type of the log record.</param>
+            <param name="host">The host object which is bound to the log record. It can be <c>null</c>.</param>
+            <param name="format">The format string for the log message.</param>
+            <param name="args">The arguments for the format string.</param>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)"/>
+        </member>
+    </members>
+</doc>

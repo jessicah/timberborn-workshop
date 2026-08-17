@@ -1,0 +1,10 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Common",
+    "Materials#append": [
+      "Material/Particle.Rain",
+      "Material/Particle.Snow",
+      "Material/Particle.Cloud",
+	]
+  }
+}

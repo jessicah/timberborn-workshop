@@ -1,0 +1,29 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+      "Buildings/Water/DevWaterSource/DevWaterSource.blueprint",
+      /* 1x1x2 Storage */
+      "ModularStoragePrefabs/PitpileEP.blueprint",
+      "ModularStoragePrefabs/PitwarehouseEP.blueprint",
+      "ModularStoragePrefabs/SCoveredtankEP.blueprint",
+      "ModularStoragePrefabs/LongWarehouseEP.blueprint",
+      "ModularStoragePrefabs/2x2pileRightEP.blueprint",
+      "ModularStoragePrefabs/LongpileEP.blueprint",
+      "ModularStoragePrefabs/PitTankEP.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileEP.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseEP.blueprint",
+      /* Logstairs */
+      "Buildings/Crappyplatform_birch_Common.blueprint",
+      "Buildings/Crappyplatform_Darkbrown_IT_EP.blueprint",
+      "Buildings/Crappyplatform_Pink_Common.blueprint",
+      "Buildings/Crappyplatform_scramble_IT_EP.blueprint",
+      "Buildings/Logstairs_Birch_Common.blueprint",
+      "Buildings/Logstairs_DarkBrown_IT_EP.blueprint",
+      "Buildings/Logstairs_Pink_Common.blueprint",
+      "Buildings/Logstairs_Scrambled_IT_EP.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Whitepaws", "Order": 502000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Mole.Path.Whitepaws",
+      "Mole.DirtPath.Whitepaws",
+      "Mole.WoodPath.Whitepaws",
+      "Path.Whitepaws",
+      "Path1.Whitepaws",
+      "Path2.Whitepaws",
+      "Path3.Whitepaws",
+      "Path4.Whitepaws",
+      "Path5.Whitepaws",
+      "Path5.Whitepaws",
+      "DistrictCrossing.Whitepaws",
+      "BOTDistrictCrossing.Whitepaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Whitepaws",
+      "Ladders.MoleCadre.Whitepaws",
+      "Ropeways.MoleCadre.Whitepaws",
+      "Bridges.MoleCadre.Whitepaws",
+      "Walkways.MoleCadre.Whitepaws",
+      "Branches.MoleCadre.Whitepaws",
+      "Boosters.MoleCadre.Whitepaws",
+      "Gates.MoleCadre.Whitepaws",
+      "Passages.MoleCadre.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Mole.Path.Whitepaws",
+      "Mole.DirtPath.Whitepaws",
+      "Mole.WoodPath.Whitepaws",
+      "Path.Whitepaws",
+      "Path1.Whitepaws",
+      "Path2.Whitepaws",
+      "Path3.Whitepaws",
+      "Path4.Whitepaws",
+      "Path5.Whitepaws",
+      "DistrictCrossing.Whitepaws",
+      "BOTDistrictCrossing.Whitepaws",
+      "Steps.MoleCadre.Whitepaws",
+      "Ladders.MoleCadre.Whitepaws",
+      "Ropeways.MoleCadre.Whitepaws",
+      "Bridges.MoleCadre.Whitepaws",
+      "Walkways.MoleCadre.Whitepaws",
+      "Branches.MoleCadre.Whitepaws",
+      "Boosters.MoleCadre.Whitepaws",
+      "Gates.MoleCadre.Whitepaws",
+      "Passages.MoleCadre.Whitepaws"
+    ]
+  }
+}

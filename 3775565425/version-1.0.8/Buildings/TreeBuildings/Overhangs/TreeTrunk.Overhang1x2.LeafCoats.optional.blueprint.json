@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "TreeTrunk.Overhang1x2.Leafcoats",
+		"BackwardCompatibleTemplateNames":
+		[
+			"TreeTrunk.Overhang1x2LeafCoats"
+		]
+	}
+}

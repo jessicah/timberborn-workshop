@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Fuel.Beetroot",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Manufactory.Recipe.FuelBeetroot",
+    "CycleDurationInHours": 6.0,
+    "Ingredients": [
+      {
+        "Id": "Beetroot",
+        "Amount": 2
+      },
+      {
+        "Id": "Water",
+        "Amount": 2
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Fuel",
+        "Amount": 30
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 4,
+    "Icon": "Sprites/Goods/BiofuelIcon"
+  }
+}

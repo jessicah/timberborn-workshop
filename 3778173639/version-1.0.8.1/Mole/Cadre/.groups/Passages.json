@@ -1,0 +1,37 @@
+#include <defines.h>
+{
+  TOGROUP(01009,Passages),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Airlock),
+      TOTOOL(TE_Tunnel_1L),
+      TOTOOL(TE_Tunnel_2L),
+      TOTOOL(TE_Tunnel_3L),
+      TOTOOL(TE_Tunnel_4L),
+      TOTOOL(TE_Tunnel_5L),
+      TOTOOL(TE_Tunnel_6L),
+      TOTOOL(TE_Tunnel_7L),
+      TOTOOL(TE_Tunnel_8L),
+      TOTOOL(TE_Tunnel_9L),
+      TOTOOL(TE_Tunnel_10L)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Airlock),
+      TOTOOL(TE_Tunnel_1L),
+      TOTOOL(TE_Tunnel_2L),
+      TOTOOL(TE_Tunnel_3L),
+      TOTOOL(TE_Tunnel_4L),
+      TOTOOL(TE_Tunnel_5L),
+      TOTOOL(TE_Tunnel_6L),
+      TOTOOL(TE_Tunnel_7L),
+      TOTOOL(TE_Tunnel_8L),
+      TOTOOL(TE_Tunnel_9L),
+      TOTOOL(TE_Tunnel_10L)
+    ]
+  }
+
+}

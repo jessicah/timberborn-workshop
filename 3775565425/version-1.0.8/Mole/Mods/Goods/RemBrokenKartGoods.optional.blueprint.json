@@ -1,0 +1,14 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove":
+    [
+      "Scaffolding",
+      "Rope",
+      "Anvil",
+      "MediumCauldron",
+      "Educativebooks",
+      "ChemistrySet"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "GoodSpec":
+  {
+		"BackwardCompatibleIds":
+    [
+      "Wares.Potatoes.Emberpelts",
+      "Wares.Potatoes.Folktails",
+      "Wares.Potatoes.IronTeeth",
+      "Wares.Potatoes.LeafCoats",
+      "Wares.Potatoes.Whitepaws",
+      "Wares.Potatoes.Common",
+      "Wares.Potatos.Emberpelts",
+      "Wares.Potatos.Folktails",
+      "Wares.Potatos.IronTeeth",
+      "Wares.Potatos.LeafCoats",
+      "Wares.Potatos.Whitepaws",
+      "Wares.Potatos.Common",
+      "Wares.Potato.Emberpelts",
+      "Wares.Potato.Folktails",
+      "Wares.Potato.IronTeeth",
+      "Wares.Potato.LeafCoats",
+      "Wares.Potato.Whitepaws",
+      "Wares.Potato.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

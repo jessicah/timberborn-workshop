@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append": [
+      "ModularStoragePrefabs/PitpileEP.blueprint",
+      "ModularStoragePrefabs/PitwarehouseEP.blueprint",
+      "ModularStoragePrefabs/SCoveredtankEP.blueprint",
+      "ModularStoragePrefabs/LongWarehouseEP.blueprint",
+      "ModularStoragePrefabs/2x2pileRightEP.blueprint",
+      "ModularStoragePrefabs/LongpileEP.blueprint",
+      "ModularStoragePrefabs/PitTankEP.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileEP.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseEP.blueprint"
+    ]
+  }
+}

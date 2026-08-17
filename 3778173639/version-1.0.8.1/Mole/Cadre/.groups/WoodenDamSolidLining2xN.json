@@ -1,0 +1,26 @@
+#include <defines.h>
+{
+  _TOGROUP(05002,WoodenDamSolidLining2xN,DamSolidLining2xN),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(DD_SquareW2x1),
+      TOTOOL(DD_SquareW2x2),
+      TOTOOL(DD_SquareW2x3),
+      TOTOOL(DD_SlopeW2x),
+      TOTOOL(DD_InvSlopeW2X),
+      TOTOOL(DD_InvCornerW2X)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(DD_SquareW2x1),
+      TOTOOL(DD_SquareW2x2),
+      TOTOOL(DD_SquareW2x3),
+      TOTOOL(DD_SlopeW2x),
+      TOTOOL(DD_InvSlopeW2X),
+      TOTOOL(DD_InvCornerW2X)
+    ]
+  }
+}

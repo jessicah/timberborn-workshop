@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Chestnuts.Emberpelts",
+      "Wares.Chestnuts.Folktails",
+      "Wares.Chestnuts.IronTeeth",
+      "Wares.Chestnuts.LeafCoats",
+      "Wares.Chestnuts.Whitepaws",
+      "Wares.Chestnuts.Common",
+      "Wares.Chestnut.Emberpelts",
+      "Wares.Chestnut.Folktails",
+      "Wares.Chestnut.IronTeeth",
+      "Wares.Chestnut.LeafCoats",
+      "Wares.Chestnut.Whitepaws",
+      "Wares.Chestnut.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

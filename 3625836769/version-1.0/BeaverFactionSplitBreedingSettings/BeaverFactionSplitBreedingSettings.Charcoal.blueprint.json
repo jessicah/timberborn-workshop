@@ -1,0 +1,8 @@
+{
+  "BeaverFactionSplitBreedingSettings": {
+    "Id": "Charcoal",
+    "Breed": true,
+    "Pod": false,
+    "Plant": false
+  }
+}

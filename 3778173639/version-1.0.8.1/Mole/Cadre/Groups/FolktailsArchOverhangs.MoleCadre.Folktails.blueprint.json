@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.Folktails", "Order": 102006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.Folktails",
+      "ArcOverhang2x1.Folktails",
+      "ArcOverhang3x1.Folktails",
+      "ArcOverhang4x1.Folktails",
+      "ArcOverhang1x4.Folktails",
+      "ArcOverhang5x1.Folktails",
+      "ArcOverhang6x1.Folktails",
+      "ArcOverhang7x1.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.Folktails",
+      "ArcOverhang2x1.Folktails",
+      "ArcOverhang3x1.Folktails",
+      "ArcOverhang4x1.Folktails",
+      "ArcOverhang1x4.Folktails",
+      "ArcOverhang5x1.Folktails",
+      "ArcOverhang6x1.Folktails",
+      "ArcOverhang7x1.Folktails"
+    ]
+  }
+}

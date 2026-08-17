@@ -1,0 +1,29 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "NaturalResources/Crops/Wheat/Wheat.blueprint",
+      "NaturalResources/Crops/Canola/Canola.blueprint",
+      "NaturalResources/Crops/Corn/Corn.blueprint",
+      "NaturalResources/Trees/Maple/Maple.blueprint",
+      "Plants/Trees/AppleTree/AppleTree.blueprint",
+      "Plants/Crops/Beetroot/Beetroot.blueprint",
+      "Plants/Crops/Pepper/Pepper.blueprint",
+      "Plants/Crops/Radish/Radish.blueprint",
+      "Plants/Crops/Tomato/Tomato.blueprint"
+    ],
+    "Blueprints#append":
+    [
+      "Mole/Grows/MapleTree.Mole.blueprint",
+      "Mole/Grows/AppleTree.Mole.blueprint",
+      "Mole/Grows/BeetrootCrop.Mole.blueprint",
+      "Mole/Grows/CanolaCrop.Mole.blueprint",
+      "Mole/Grows/CornCrop.Mole.blueprint",
+      "Mole/Grows/PepperCrop.Mole.blueprint",
+      "Mole/Grows/RadishCrop.Mole.blueprint",
+      "Mole/Grows/TomatoCrop.Mole.blueprint",
+      "Mole/Grows/WheatCrop.Mole.blueprint"
+    ]
+  }
+}

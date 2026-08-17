@@ -1,0 +1,11 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#append":
+    [
+      "IceBlock"
+      "Nanobot"
+      "FrozenBeaverEmbryo"
+    ]
+  }
+}

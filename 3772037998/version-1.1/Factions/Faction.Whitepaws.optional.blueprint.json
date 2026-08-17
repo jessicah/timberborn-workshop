@@ -1,0 +1,21 @@
+{
+  "FactionSpec":
+  {
+    "Logo": "Factions/Whitepaws/Symbol.Whitepaws",
+    "NewGameFullAvatar": "Factions/Whitepaws/NewGameAvatar.Whitepaws",
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Whitepaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Whitepaws",
+      "Actors.Whitepaws",
+      "Cadre.Whitepaws",
+      "Editing.Whitepaws",
+      "Effects.Whitepaws",
+      "Grows.Whitepaws",
+      "Parts.Whitepaws",
+      "Rides.Whitepaws"
+    ]
+  }
+}

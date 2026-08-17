@@ -1,0 +1,12 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Beaver Faction Split Needs",
+    "Version": "1.0.13.1",
+    "Id": "BobingaboutBeaverFactionSplitNeeds",
+    "MinimumGameVersion": "1.0.11.0",
+    "Description": "Changes the need requirements of a beaver based on their native faction needs.",
+    "RequiredMods": [
+        {"Id": "BobingaboutBeaverFactions", "MinimumVersion": "1.0.0.0"},
+    ],
+    "OptionalMods": []
+}

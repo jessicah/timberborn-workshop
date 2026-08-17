@@ -1,0 +1,7 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "GMO_Lab.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "GMO_Lab" ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Stairs.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Woodenstairs.Whitepaws" ]
+	},
+	"LabeledEntitySpec":
+	{
+		"DisplayNameLocKey": "Building.Stairs.DisplayName"
+	}
+}

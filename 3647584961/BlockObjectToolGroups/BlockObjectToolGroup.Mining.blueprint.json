@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Mining",
+    "Order": 10,
+    "NameLocKey": "Toolgroup.Mining.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Mining",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Metal"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "GoodSpec":
+  {
+    "GoodGroupId": "Piles",
+    "Icon": "Mole/Piles/Stone",
+    "DisplayNameLocKey": "Wares.Stone.Name",
+    "PluralDisplayNameLocKey": "Wares.Stone.Name"
+  }
+}

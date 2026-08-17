@@ -1,0 +1,15 @@
+{
+  "BeaverFactionSplitNeedsSpec":
+  {
+    "Needs#append": [
+      "Bell",
+      "Scarecrow",
+      "Sauna.Emberpelts",
+    ],
+    "Needs#remove": [
+      "BeaverBust",
+      "Weathervane",
+      "ExercisePlaza",
+    ]
+  }
+}

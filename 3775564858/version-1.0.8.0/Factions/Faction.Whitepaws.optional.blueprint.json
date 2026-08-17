@@ -1,0 +1,52 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Whitepaws",
+      "Actors.Whitepaws",
+      "Cadre.Whitepaws",
+      "Editing.Whitepaws",
+      "Effects.Whitepaws",
+      "Grows.Whitepaws",
+      "Parts.Whitepaws",
+      "Rides.Whitepaws"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Whitepaws *
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.Whitepaws.optional.blueprint"
+      }
+      /* */
+      {
+        "Original": "Mole/Grows/WildBramblesPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddBirch.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CabbageCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddCarrot.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PumpkinCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddCorn.optional.blueprint"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+		"BackwardCompatibleIds":
+    [
+      "Wares.PineResin.Emberpelts",
+      "Wares.PineResin.Folktails",
+      "Wares.PineResin.IronTeeth",
+      "Wares.PineResin.LeafCoats",
+      "Wares.PineResin.Whitepaws",
+      "Wares.PineResin.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

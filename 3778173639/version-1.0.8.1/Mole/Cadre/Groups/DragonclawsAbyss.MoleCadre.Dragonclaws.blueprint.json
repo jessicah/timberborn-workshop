@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Abyss.MoleCadre.Dragonclaws", "Order": 1016001, "NameLocKey": "Group.Abyss", "Icon": "Mole/Cadre/Abyss", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "AbyssElevator.Dragonclaws",
+      "SupplementaryExplorationTeam.Dragonclaws",
+      "NuclearWasteCollector.Dragonclaws",
+      "GasExctractor.Dragonclaws",
+      "AbyssExcavator.Dragonclaws",
+      "HoomanUndergroundChemPlant.Dragonclaws",
+      "HoomanUndergroundFactory.Dragonclaws",
+      "DeepMinePILEstorage.Dragonclaws",
+      "DeepMineBOXStorage.Dragonclaws",
+      "AbyssTourismCenter.Dragonclaws",
+      "HoomanMedicalFacility.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "AbyssElevator.Dragonclaws",
+      "SupplementaryExplorationTeam.Dragonclaws",
+      "NuclearWasteCollector.Dragonclaws",
+      "GasExctractor.Dragonclaws",
+      "AbyssExcavator.Dragonclaws",
+      "HoomanUndergroundChemPlant.Dragonclaws",
+      "HoomanUndergroundFactory.Dragonclaws",
+      "DeepMinePILEstorage.Dragonclaws",
+      "DeepMineBOXStorage.Dragonclaws",
+      "AbyssTourismCenter.Dragonclaws",
+      "HoomanMedicalFacility.Dragonclaws"
+    ]
+  }
+}

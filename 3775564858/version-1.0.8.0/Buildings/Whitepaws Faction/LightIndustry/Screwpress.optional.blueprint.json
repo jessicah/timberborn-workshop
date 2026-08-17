@@ -1,0 +1,11 @@
+{
+	"ManufactorySpec":
+	{
+		"ProductionRecipeIds#remove": [ "GrapeJuice", "Grapejuice" ],
+		"ProductionRecipeIds#append":
+		[
+			"RedGrapeJuice",
+			"RushedRedGrapeJuice"
+		]
+	}
+}

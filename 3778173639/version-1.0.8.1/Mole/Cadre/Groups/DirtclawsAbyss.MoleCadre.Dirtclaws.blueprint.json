@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Abyss.MoleCadre.Dirtclaws", "Order": 1116001, "NameLocKey": "Group.Abyss", "Icon": "Mole/Cadre/Abyss", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "AbyssElevator.Dirtclaws",
+      "SupplementaryExplorationTeam.Dirtclaws",
+      "NuclearWasteCollector.Dirtclaws",
+      "GasExctractor.Dirtclaws",
+      "AbyssExcavator.Dirtclaws",
+      "HoomanUndergroundChemPlant.Dirtclaws",
+      "HoomanUndergroundFactory.Dirtclaws",
+      "DeepMinePILEstorage.Dirtclaws",
+      "DeepMineBOXStorage.Dirtclaws",
+      "AbyssTourismCenter.Dirtclaws",
+      "HoomanMedicalFacility.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "AbyssElevator.Dirtclaws",
+      "SupplementaryExplorationTeam.Dirtclaws",
+      "NuclearWasteCollector.Dirtclaws",
+      "GasExctractor.Dirtclaws",
+      "AbyssExcavator.Dirtclaws",
+      "HoomanUndergroundChemPlant.Dirtclaws",
+      "HoomanUndergroundFactory.Dirtclaws",
+      "DeepMinePILEstorage.Dirtclaws",
+      "DeepMineBOXStorage.Dirtclaws",
+      "AbyssTourismCenter.Dirtclaws",
+      "HoomanMedicalFacility.Dirtclaws"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Platforms",
+    "Order": 3,
+    "NameLocKey": "ToolGroups.Platforms",
+    "Icon": "Buildings/Paths/Platform/PlatformIcon",
+    "FallbackGroup": false
+  }
+}

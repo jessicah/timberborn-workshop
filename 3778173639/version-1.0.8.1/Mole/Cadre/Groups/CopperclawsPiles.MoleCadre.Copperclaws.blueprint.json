@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Copperclaws", "Order": 1318000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Copperclaws",
+      "SmallPile.Copperclaws",
+      "SmallIndustrialPile.Copperclaws",
+      "Mole.SmallPile.Copperclaws",
+      "LongPile.Copperclaws",
+      "PitPile.Copperclaws",
+      "2x2PileRight.Copperclaws",
+      "Pile.Copperclaws",
+      "IndustrialPile.Copperclaws",
+      "MediumPile.Copperclaws",
+      "MediumIndustrialPile.Copperclaws",
+      "LargePile.Copperclaws",
+      "LargeIndustrialPile.Copperclaws",
+      "Mole.TritePile.Copperclaws",
+      "ExtraLargePile.Copperclaws",
+      "ExtraLargeIndustrialPile.Copperclaws",
+      "Mole.LargePile.Copperclaws",
+      "GigargantuanPile.Copperclaws",
+      "UndergroundPile.Copperclaws",
+      "Mole.BuriedPile.Copperclaws",
+      "GiantLogStorage.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.Copperclaws",
+      "SmallPile.Copperclaws",
+      "SmallIndustrialPile.Copperclaws",
+      "Mole.SmallPile.Copperclaws",
+      "LongPile.Copperclaws",
+      "PitPile.Copperclaws",
+      "2x2PileRight.Copperclaws",
+      "Pile.Copperclaws",
+      "IndustrialPile.Copperclaws",
+      "MediumPile.Copperclaws",
+      "MediumIndustrialPile.Copperclaws",
+      "LargePile.Copperclaws",
+      "LargeIndustrialPile.Copperclaws",
+      "Mole.TritePile.Copperclaws",
+      "ExtraLargePile.Copperclaws",
+      "ExtraLargeIndustrialPile.Copperclaws",
+      "Mole.LargePile.Copperclaws",
+      "GigargantuanPile.Copperclaws",
+      "UndergroundPile.Copperclaws",
+      "Mole.BuriedPile.Copperclaws",
+      "GiantLogStorage.Copperclaws"
+    ]
+  }
+}

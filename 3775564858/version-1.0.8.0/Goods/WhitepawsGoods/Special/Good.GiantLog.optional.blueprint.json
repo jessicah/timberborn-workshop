@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.GiantLogs.Emberpelts",
+      "Wares.GiantLogs.Folktails",
+      "Wares.GiantLogs.IronTeeth",
+      "Wares.GiantLogs.LeafCoats",
+      "Wares.GiantLogs.Whitepaws",
+      "Wares.GiantLogs.Common",
+      "Wares.GiantLog.Emberpelts",
+      "Wares.GiantLog.Folktails",
+      "Wares.GiantLog.IronTeeth",
+      "Wares.GiantLog.LeafCoats",
+      "Wares.GiantLog.Whitepaws",
+      "Wares.GiantLog.Common"
+    ],
+    "Icon": "Mole/Grows/GiantLogs",
+    "DisplayNameLocKey": "Wares.GiantLogs.Lone",
+    "PluralDisplayNameLocKey": "Wares.GiantLogs.Name"
+  }
+}

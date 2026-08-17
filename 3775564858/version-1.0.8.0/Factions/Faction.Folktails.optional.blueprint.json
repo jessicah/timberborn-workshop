@@ -1,0 +1,39 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Folktails" ],
+    "GoodCollectionIds#append": [ "Listamole.Folktails" ],
+    "NeedCollectionIds#append": [ "Listamole.Folktails" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Folktails",
+      "Actors.Folktails",
+      "Cadre.Folktails",
+      "Editing.Folktails",
+      "Effects.Folktails",
+      "Grows.Folktails",
+      "Parts.Folktails",
+      "Rides.Folktails"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Folktails */
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.Folktails.optional.blueprint"
+      }
+    ]
+  }
+}

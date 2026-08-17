@@ -1,0 +1,27 @@
+{
+	"GoodSpec":
+	{
+		"Id": "GrapeJuice",
+		"BackwardCompatibleIds": [],
+		"ConsumptionEffects":
+		[
+			{ "NeedId": "Thirst", "Points": 0.33 },
+			{ "NeedId": "Grapes", "Points": 0.2 },
+			{ "NeedId": "Juice", "Points": 0.2 },
+			{ "NeedId": "GrapeJuice", "Points": 0.2 }
+		],
+		"GoodType": "Liquid",
+		"StockpileVisualization": "Liquid",
+		"VisibleContainer": "Barrel",
+		"ContainerColor": { "r": 0.2, "g": 1.0, "b": 0.7, "a": 1.0 },
+		"ContainerMaterial": "Environment/Water/Materials/AdvancedBreedingWater",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 2,
+		"GoodGroupId": "Drinks",
+		"GoodOrder": 0,
+		"Icon": "Mole/Drinks/GrapeJuice",
+		"ForceImport": false,
+		"DisplayNameLocKey": "Wares.GrapeJuice.Name",
+		"PluralDisplayNameLocKey": "Wares.GrapeJuice.Name"
+	}
+}

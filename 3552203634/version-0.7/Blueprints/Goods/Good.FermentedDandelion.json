@@ -1,0 +1,28 @@
+{
+  "GoodSpec": {
+    "Id": "FermentedDandelion",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.FermentedDandelion.DisplayName",
+    "PluralDisplayNameLocKey": "Good.FermentedDandelion.PluralDisplayName",
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "FermentedDandelion",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": "#7e7027",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/FermentedDandelionIcon",
+    "ContainerMaterial": ""
+  }
+}

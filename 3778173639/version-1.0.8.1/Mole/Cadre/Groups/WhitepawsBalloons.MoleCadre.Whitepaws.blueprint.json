@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.Whitepaws", "Order": 516002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.Whitepaws",
+      "ScoutBalloon.Whitepaws",
+      "FolktailsTraderBalloon.Whitepaws",
+      "IronTeethTraderBalloon.Whitepaws",
+      "EmberpeltsTraderBalloon.Whitepaws",
+      "LeafCoatsTraderBalloon.Whitepaws",
+      "AmpEarsTraderBalloon.Whitepaws",
+      "IslandBeaversTraderBalloon.Whitepaws",
+      "PolarBeaversTraderBalloon.Whitepaws",
+      "WhitepawsTraderBalloon.Whitepaws",
+      "FrostyWhiskersTraderBalloon.Whitepaws",
+      "CopperClawsTraderBalloon.Whitepaws",
+      "DragonClawsTraderBalloon.Whitepaws",
+      "DirtClawsTraderBalloon.Whitepaws",
+      "BadFursTraderBalloon.Whitepaws",
+      "Airship.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.Whitepaws",
+      "ScoutBalloon.Whitepaws",
+      "FolktailsTraderBalloon.Whitepaws",
+      "IronTeethTraderBalloon.Whitepaws",
+      "EmberpeltsTraderBalloon.Whitepaws",
+      "LeafCoatsTraderBalloon.Whitepaws",
+      "AmpEarsTraderBalloon.Whitepaws",
+      "IslandBeaversTraderBalloon.Whitepaws",
+      "PolarBeaversTraderBalloon.Whitepaws",
+      "WhitepawsTraderBalloon.Whitepaws",
+      "FrostyWhiskersTraderBalloon.Whitepaws",
+      "CopperClawsTraderBalloon.Whitepaws",
+      "DragonClawsTraderBalloon.Whitepaws",
+      "DirtClawsTraderBalloon.Whitepaws",
+      "BadFursTraderBalloon.Whitepaws",
+      "Airship.Whitepaws"
+    ]
+  }
+}

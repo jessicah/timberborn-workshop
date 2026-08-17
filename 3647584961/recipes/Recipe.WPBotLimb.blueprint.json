@@ -1,0 +1,37 @@
+{
+  "RecipeSpec": {
+    "Id": "BotLimb.Whitepaws",
+  "DisplayLocKey": "Good.BotLimb.PluralDisplayName",
+  "CycleDurationInHours": 6,
+  "CyclesCapacity": 10,
+  "Ingredients": [
+    {
+      "Id": "Plank",
+      "Amount": 1
+    },
+    {
+      "Id": "Gear",
+      "Amount": 2
+    },
+    {
+      "Id": "MetalBlock",
+      "Amount": 1
+    },
+    {
+      "Id": "Sunfloweroil",
+      "Amount": 2
+    }
+  ],
+  "Products": [
+    {
+      "Id": "BotLimb",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+	"BackwardCompatibleIds": []
+  }
+}

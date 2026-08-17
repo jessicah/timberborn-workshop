@@ -1,0 +1,24 @@
+ID,Text,Comment
+Lapantouflemagic.Pitwarehouse.DisplayName,Entrepôt pour fosse,Pit warehouse
+Lapantouflemagic.Pitwarehouse.Description,Un site de stockage dont l’accès est à l’étage afin d’utiliser les recoins inaccessibles,A top-access storage site that fits in remote corners
+Lapantouflemagic.Pitwarehouse.FlavorDescription,"""Espérons que le contenu des caisses du fond ne pourrisse pas""","""Let's hope things at the bottom don't rot"""
+Lapantouflemagic.Pitpile.DisplayName,Tas pour fosse,Pit Pile
+Lapantouflemagic.Pitpile.Description,Un site de stockage dont l’accès est à l’étage afin d’utiliser les recoins inaccessibles,A top-access storage site that fits in remote corners
+Lapantouflemagic.Pitpile.FlavorDescription,"""Je pourrais facilement dissimuler un corps là-dessous""
+-Jack l’érongeur","""I could easily hide a body in there""
+-Jack the Gnawer"
+Lapantouflemagic.SCoveredtank.DisplayName,Petite citerne couverte,Small covered tank
+Lapantouflemagic.SCoveredtank.Description,"Une citerne de taille plutôt réduite, mais sur laquelle on peut construire","A smaller storage tank, but that can be built on"
+Lapantouflemagic.Longwarehouse.DisplayName,Petit entrepôt allongé,Long tiny warehouse
+Lapantouflemagic.Longwarehouse.Description,Un entrepôt légèrement allongé de sorte à utiliser des recoins inaccessibles,A slightly longer warehouse to fill in hard-to-reach corners
+Lapantouflemagic.Longwarehouse.FlavorDescription,"""Je me demande quelle bizarrerie le comité de stockage va inventer ensuite""
+-Un castor bûcheron","""I wonder what strange shapes the storage comitee will come up with next""
+-A lumberjack beaver"
+Lapantouflemagic.2x2pile.DisplayName,Tas moyen,Medium pile
+Lapantouflemagic.2x2pile.FlavorDescription,Il ne faut pas oublier d’alterner l’orientation des rondins.,Properly alternating log orientation is important
+Lapantouflemagic.Longpile.DisplayName,Petit tas allongé,Long tiny pile
+Lapantouflemagic.Longpile.Description,Un petit tas légèrement allongé de sorte a utiliser des recoins inaccessibles,An elongated small pile to use hard to reach corners
+Lapantouflemagic.Longpile.FlavorDescription,"Franchement, je m’attendais à un entrepôt en zigzag","To be honest, I was expecting a squiggly storage"
+Lapantouflemagic.PitTank.DisplayName,Citerne pour fosse,Pit tank
+Lapantouflemagic.PitTank.FlavorDescription,"Surtout ne perdez pas le seau, les Hoomains se sont fait la guerre pour ça.","Don't lose the bucket, Hoomans waged wars for such things."
+Lapantouflemagic.SCoveredtank.FlavorDescription,"Pas la meilleur façon de stocker de l’eau, mais au moins elle restera propre.","Not the best way to store water, but at least it will stay clean"

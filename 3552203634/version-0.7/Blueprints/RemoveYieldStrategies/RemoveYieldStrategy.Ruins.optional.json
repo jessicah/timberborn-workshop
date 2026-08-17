@@ -1,0 +1,6 @@
+{
+  "RemoveYieldStrategySpec": {
+    "Id": "Ruins",
+    "CompatibleResourceGroups#append": ["Digger"],
+  }
+}

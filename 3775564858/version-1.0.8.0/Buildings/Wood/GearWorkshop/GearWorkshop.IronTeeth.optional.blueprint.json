@@ -1,0 +1,10 @@
+{
+  "ManufactorySpec":
+  {
+    "ProductionRecipeIds#append":
+    [
+      "Bento",
+      "BotKit"
+    ]
+  }
+}

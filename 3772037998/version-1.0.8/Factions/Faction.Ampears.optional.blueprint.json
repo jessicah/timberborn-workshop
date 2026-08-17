@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Ampears" ],
+    "GoodCollectionIds#append": [ "Listamole.Ampears" ],
+    "NeedCollectionIds#append": [ "Listamole.Ampears" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Ampears",
+      "Actors.Ampears",
+      "Cadre.Ampears",
+      "Editing.Ampears",
+      "Effects.Ampears",
+      "Grows.Ampears",
+      "Parts.Ampears",
+      "Rides.Ampears"
+    ]
+  }
+}

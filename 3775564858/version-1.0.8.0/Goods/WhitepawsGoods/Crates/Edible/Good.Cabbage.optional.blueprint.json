@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Cabbages.Emberpelts",
+      "Wares.Cabbages.Folktails",
+      "Wares.Cabbages.IronTeeth",
+      "Wares.Cabbages.LeafCoats",
+      "Wares.Cabbages.Whitepaws",
+      "Wares.Cabbages.Common",
+      "Wares.Cabbage.Emberpelts",
+      "Wares.Cabbage.Folktails",
+      "Wares.Cabbage.IronTeeth",
+      "Wares.Cabbage.LeafCoats",
+      "Wares.Cabbage.Whitepaws",
+      "Wares.Cabbage.Common"
+    ],
+    "Icon": "Mole/Grows/Cabbages",
+    "DisplayNameLocKey": "Wares.Cabbages.Lone",
+    "PluralDisplayNameLocKey": "Wares.Cabbages.Name"
+  }
+}

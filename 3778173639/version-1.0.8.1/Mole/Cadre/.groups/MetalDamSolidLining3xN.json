@@ -1,0 +1,26 @@
+#include <defines.h>
+{
+  _TOGROUP(06003,MetalDamSolidLining3xN,DamSolidLining3xN),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(DE_SM_SquareW3x1),
+      TOTOOL(DE_SM_SquareW3x2),
+      TOTOOL(DE_SM_SquareW3x3),
+      TOTOOL(DE_SM_SlopeW3x),
+      TOTOOL(DE_SM_InvSlopeW3X),
+      TOTOOL(DE_SM_InvCornerW3X)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(DE_SM_SquareW3x1),
+      TOTOOL(DE_SM_SquareW3x2),
+      TOTOOL(DE_SM_SquareW3x3),
+      TOTOOL(DE_SM_SlopeW3x),
+      TOTOOL(DE_SM_InvSlopeW3X),
+      TOTOOL(DE_SM_InvCornerW3X)
+    ]
+  }
+}

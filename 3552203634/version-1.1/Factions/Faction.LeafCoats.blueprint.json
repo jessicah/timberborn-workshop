@@ -1,0 +1,74 @@
+{
+  "FactionSpec": {
+    "Id": "LeafCoats",
+    "Order": 5186,
+    "Avatar": "Sprites/Avatars/LeafCoatsAdult",
+    "ChildAvatar": "Sprites/Avatars/LeafCoatsChild",
+    "BotAvatar": "Sprites/Avatars/LeafCoatsBot",
+    "ContaminatedAdultAvatar": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+    "ContaminatedChildAvatar": "Sprites/Avatars/LeafCoatsContaminatedChild",
+    "Logo": "Sprites/Avatars/LeafCoatsLogo",
+    "NewGameFullAvatar": "Sprites/Avatars/LeafCoatsFullNewGame",
+    "Textures": [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats"
+    ],
+    "ChildTextures": [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats"
+    ],
+    "MaterialCollectionIds": [
+      "Folktails",
+      "IronTeeth",
+      "LeafCoats"
+    ],
+    "TemplateCollectionIds": [
+      "Buildings.LeafCoats",
+      "Characters.LeafCoats",
+      "ModularShaftParts.LeafCoats",
+      "NaturalResources.LeafCoats"
+    ],
+    "PathMaterial": "Materials/UberAtlas/LeafCoats/Path.LeafCoats",
+    "BaseWoodMaterial": "Materials/UberAtlas/LeafCoats/BaseWood_Green.LeafCoats",
+    "NeedCollectionIds": [
+      "LeafCoats",
+      "LeafCoatsAddons"
+    ],
+    "GoodCollectionIds": [
+      "LeafCoats",
+      "LeafCoatsAddons"
+    ],
+    "BlueprintModifiers": [
+      {
+        "Original": "buildings/paths/path/path.blueprint",
+        "Modifier": "Factions/Path.LeafCoatsModifier.blueprint"
+      },
+      {
+        "Original": "needcollections/needcollection.common.blueprint",
+        "Modifier": "Factions/NeedCollection.Common.LeafCoatsModifier.blueprint"
+      },
+      {
+        "Original": "goodcollections/goodcollection.common.blueprint",
+        "Modifier": "Factions/GoodCollection.Common.LeafCoatsModifier.blueprint"
+      }
+    ],
+    "StartingBuildingId": "DistrictCenter.LeafCoats",
+    "SoundId": "Common",
+    "DisplayNameLocKey": "Faction.LeafCoats.DisplayName",
+    "DescriptionLocKey": "Faction.LeafCoats.Description",
+    "GameOverMessageLocKey": "Faction.LeafCoats.GameOver.Message",
+    "GameOverFlavorLocKey": "Faction.Folktails.GameOver.Flavor"
+  },
+  "FactionWonderSpec": {
+    "WonderCompletionImage": "Sprites/WonderCompletion/Wonder.Completion.LeafCoats",
+    "WonderLaunchSound": "UI.Buildings.Wonder.EarthRecultivator",
+    "WonderCompletionFlavorLocKey": "Faction.LeafCoats.WonderCompletionFlavor",
+    "WonderCompletionMessageLocKey": "Faction.LeafCoats.WonderCompletionMessage"
+  }
+}

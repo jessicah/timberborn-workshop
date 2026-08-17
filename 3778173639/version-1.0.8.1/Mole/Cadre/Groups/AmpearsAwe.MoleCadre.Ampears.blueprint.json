@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Ampears", "Order": 726000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Ampears",
+      "LaborerMonument.Ampears",
+      "BrazierOfBonding.Ampears",
+      "FlameOfUnity.Ampears",
+      "FountainOfJoy.Ampears",
+      "PublicFountain.Ampears",
+      "TributeToIngenuity.Ampears",
+      "HallOfAbundance.Ampears",
+      "ArchOfProgress.Ampears",
+      "EarthRecultivator.Ampears",
+      "EarthRepopulator.Ampears",
+      "WonderOfFire.Ampears",
+      "Wonder.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Ampears",
+      "LaborerMonument.Ampears",
+      "BrazierOfBonding.Ampears",
+      "FlameOfUnity.Ampears",
+      "FountainOfJoy.Ampears",
+      "PublicFountain.Ampears",
+      "TributeToIngenuity.Ampears",
+      "HallOfAbundance.Ampears",
+      "ArchOfProgress.Ampears",
+      "EarthRecultivator.Ampears",
+      "EarthRepopulator.Ampears",
+      "WonderOfFire.Ampears",
+      "Wonder.Ampears"
+    ]
+  }
+}

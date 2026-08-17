@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.Dirtclaws", "Order": 1101000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.Dirtclaws",
+      "Lever.Dirtclaws",
+      "Relay.Dirtclaws",
+      "FlowSensor.Dirtclaws",
+      "DepthSensor.Dirtclaws",
+      "ContaminationSensor.Dirtclaws",
+      "Chronometer.Dirtclaws",
+      "WeatherStation.Dirtclaws",
+      "PowerMeter.Dirtclaws",
+      "PopulationCounter.Dirtclaws",
+      "ResourceCounter.Dirtclaws",
+      "ScienceCounter.Dirtclaws",
+      "Indicator.Dirtclaws",
+      "WallMountIndicator.Dirtclaws",
+      "Speaker.Dirtclaws",
+      "FireworkLauncher.Dirtclaws",
+      "Detonator.Dirtclaws",
+      "Timer.Dirtclaws",
+      "Memory.Dirtclaws",
+      "HttpLever.Dirtclaws",
+      "HttpAdapter.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.Dirtclaws",
+      "Lever.Dirtclaws",
+      "Relay.Dirtclaws",
+      "FlowSensor.Dirtclaws",
+      "DepthSensor.Dirtclaws",
+      "ContaminationSensor.Dirtclaws",
+      "Chronometer.Dirtclaws",
+      "WeatherStation.Dirtclaws",
+      "PowerMeter.Dirtclaws",
+      "PopulationCounter.Dirtclaws",
+      "ResourceCounter.Dirtclaws",
+      "ScienceCounter.Dirtclaws",
+      "Indicator.Dirtclaws",
+      "WallMountIndicator.Dirtclaws",
+      "Speaker.Dirtclaws",
+      "FireworkLauncher.Dirtclaws",
+      "Detonator.Dirtclaws",
+      "Timer.Dirtclaws",
+      "Memory.Dirtclaws",
+      "HttpLever.Dirtclaws",
+      "HttpAdapter.Dirtclaws"
+    ]
+  }
+}

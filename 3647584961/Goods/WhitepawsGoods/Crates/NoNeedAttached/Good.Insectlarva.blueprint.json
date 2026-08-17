@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "InsectLarva",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.587290764,
+      "g": 0.8867924,
+      "b": 0.760583937,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Special",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/InsectLarva",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Lapantouflemagic.InsectLarva.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.InsectLarva.PluralDisplayName"
+  }
+}

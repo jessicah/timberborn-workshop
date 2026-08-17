@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "GiantLogStorage.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "GiantLogStorage" ]
+	}
+}

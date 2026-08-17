@@ -1,0 +1,23 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Ampears", "Order": 701002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Ladder.Simple.Ampears",
+      "Ladder.Ampears",
+      "Ladder.Core.Ampears",
+      "Mole.Ladder.Ampears",
+      "SkyBridgeLadder.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Ladder.Simple.Ampears",
+      "Ladder.Ampears",
+      "Ladder.Core.Ampears",
+      "Mole.Ladder.Ampears",
+      "SkyBridgeLadder.Ampears"
+    ]
+  }
+}

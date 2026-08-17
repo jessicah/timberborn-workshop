@@ -1,0 +1,6 @@
+{
+  "NeedCollectionSpec":
+  {
+    "Needs#remove": [ "Apple_WP", "Grapes" ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "TextureMaps": [
+        {
+            "ChildTextureName": "BeaverChild1.Emberpelts",
+            "AdultTextureNames": ["BeaverAdult5.Emberpelts"]
+        },
+        {
+            "ChildTextureName": "BeaverChild2.Emberpelts",
+            "AdultTextureNames": ["BeaverAdult3.Emberpelts"]
+        },
+        {
+            "ChildTextureName": "BeaverChild3.Emberpelts",
+            "AdultTextureNames": ["BeaverAdult1.Emberpelts"]
+        },
+        {
+            "ChildTextureName": "BeaverChild4.Emberpelts",
+            "AdultTextureNames": ["BeaverAdult4.Emberpelts"]
+        },
+        {
+            "ChildTextureName": "BeaverChild5.Emberpelts",
+            "AdultTextureNames": ["BeaverAdult2.Emberpelts"]
+        },
+     ]
+}

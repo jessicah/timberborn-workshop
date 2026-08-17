@@ -1,0 +1,14 @@
+{
+	"AuthorName": "zxuiji",
+	"Name": "Zxuiji's Meshes",
+	"Version": "1.0.12.00",
+	"Id": "ZxuijiMeshes",
+	"MinimumGameVersion": "1.0.12.0",
+	"Description": "Meshes (both mine and from others) that some my mods rely on existing",
+	"OptionalMods": [],
+	"RequiredMods":
+	[
+		{"Id": "Lapantouflemagic.TexturePack", "MinimumVersion": "1.3.0"},
+		{"Id": "AppendVanillaMaterials", "MinimumVersion": "1.0.8.40"}
+	]
+}

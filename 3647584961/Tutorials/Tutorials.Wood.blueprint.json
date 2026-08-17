@@ -1,0 +1,17 @@
+{
+  "TutorialSpec": {
+    "Id": "Wood",
+    "NameLocKey": "Tutorial.Wood",
+    "RequiredTutorialIds": [
+      "Basics"
+    ],
+    "SkipIfTutorialFinished": "Tutorial",
+    "SortOrder": 0,
+    "Stages": [
+      "Wood.PlaceLumberjacks",
+      "Wood.FinishLumberjacks",
+      "Wood.ConnectLumberjacks",
+      "Wood.MarkTrees"
+    ]
+  }
+}

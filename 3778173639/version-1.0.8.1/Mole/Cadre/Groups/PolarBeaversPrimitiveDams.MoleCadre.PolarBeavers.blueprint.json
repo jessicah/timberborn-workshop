@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.PolarBeavers", "Order": 904000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.PolarBeavers",
+      "PrimitiveDam3x2Upgrade.PolarBeavers",
+      "PrimitiveDam3x3.PolarBeavers",
+      "PrimitiveDam3x3Upgrade.PolarBeavers",
+      "PrimitiveDam3x3Utility.PolarBeavers",
+      "PrimitiveDam3x3UtilityUpgrade.PolarBeavers",
+      "PrimitiveDam3x3Variant.PolarBeavers",
+      "PrimitiveDam3x3VariantUpgrade.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.PolarBeavers",
+      "PrimitiveDam3x2Upgrade.PolarBeavers",
+      "PrimitiveDam3x3.PolarBeavers",
+      "PrimitiveDam3x3Upgrade.PolarBeavers",
+      "PrimitiveDam3x3Utility.PolarBeavers",
+      "PrimitiveDam3x3UtilityUpgrade.PolarBeavers",
+      "PrimitiveDam3x3Variant.PolarBeavers",
+      "PrimitiveDam3x3VariantUpgrade.PolarBeavers"
+    ]
+  }
+}

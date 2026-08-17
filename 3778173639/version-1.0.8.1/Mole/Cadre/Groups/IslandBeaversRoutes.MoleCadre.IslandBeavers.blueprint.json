@@ -1,0 +1,57 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.IslandBeavers", "Order": 802000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Mole.Path.IslandBeavers",
+      "Mole.DirtPath.IslandBeavers",
+      "Mole.WoodPath.IslandBeavers",
+      "Path.IslandBeavers",
+      "Path1.IslandBeavers",
+      "Path2.IslandBeavers",
+      "Path3.IslandBeavers",
+      "Path4.IslandBeavers",
+      "Path5.IslandBeavers",
+      "Path5.IslandBeavers",
+      "DistrictCrossing.IslandBeavers",
+      "BOTDistrictCrossing.IslandBeavers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.IslandBeavers",
+      "Ladders.MoleCadre.IslandBeavers",
+      "Ropeways.MoleCadre.IslandBeavers",
+      "Bridges.MoleCadre.IslandBeavers",
+      "Walkways.MoleCadre.IslandBeavers",
+      "Branches.MoleCadre.IslandBeavers",
+      "Boosters.MoleCadre.IslandBeavers",
+      "Gates.MoleCadre.IslandBeavers",
+      "Passages.MoleCadre.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Mole.Path.IslandBeavers",
+      "Mole.DirtPath.IslandBeavers",
+      "Mole.WoodPath.IslandBeavers",
+      "Path.IslandBeavers",
+      "Path1.IslandBeavers",
+      "Path2.IslandBeavers",
+      "Path3.IslandBeavers",
+      "Path4.IslandBeavers",
+      "Path5.IslandBeavers",
+      "DistrictCrossing.IslandBeavers",
+      "BOTDistrictCrossing.IslandBeavers",
+      "Steps.MoleCadre.IslandBeavers",
+      "Ladders.MoleCadre.IslandBeavers",
+      "Ropeways.MoleCadre.IslandBeavers",
+      "Bridges.MoleCadre.IslandBeavers",
+      "Walkways.MoleCadre.IslandBeavers",
+      "Branches.MoleCadre.IslandBeavers",
+      "Boosters.MoleCadre.IslandBeavers",
+      "Gates.MoleCadre.IslandBeavers",
+      "Passages.MoleCadre.IslandBeavers"
+    ]
+  }
+}

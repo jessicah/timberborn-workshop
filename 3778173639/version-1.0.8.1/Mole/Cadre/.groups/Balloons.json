@@ -1,0 +1,46 @@
+#include <defines.h>
+{
+  TOGROUP(16002,Balloons),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(LandingPad),
+      TOTOOL(ScoutBalloon),
+      TOTOOL(FolktailsTraderBalloon),
+      TOTOOL(IronTeethTraderBalloon),
+      TOTOOL(EmberpeltsTraderBalloon),
+      TOTOOL(LeafCoatsTraderBalloon),
+      TOTOOL(AmpEarsTraderBalloon),
+      TOTOOL(IslandBeaversTraderBalloon),
+      TOTOOL(PolarBeaversTraderBalloon),
+      TOTOOL(WhitepawsTraderBalloon),
+      TOTOOL(FrostyWhiskersTraderBalloon),
+      TOTOOL(CopperClawsTraderBalloon),
+      TOTOOL(DragonClawsTraderBalloon),
+      TOTOOL(DirtClawsTraderBalloon),
+      TOTOOL(BadFursTraderBalloon),
+      TOTOOL(Airship)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(LandingPad),
+      TOTOOL(ScoutBalloon),
+      TOTOOL(FolktailsTraderBalloon),
+      TOTOOL(IronTeethTraderBalloon),
+      TOTOOL(EmberpeltsTraderBalloon),
+      TOTOOL(LeafCoatsTraderBalloon),
+      TOTOOL(AmpEarsTraderBalloon),
+      TOTOOL(IslandBeaversTraderBalloon),
+      TOTOOL(PolarBeaversTraderBalloon),
+      TOTOOL(WhitepawsTraderBalloon),
+      TOTOOL(FrostyWhiskersTraderBalloon),
+      TOTOOL(CopperClawsTraderBalloon),
+      TOTOOL(DragonClawsTraderBalloon),
+      TOTOOL(DirtClawsTraderBalloon),
+      TOTOOL(BadFursTraderBalloon),
+      TOTOOL(Airship)
+    ]
+  }
+}

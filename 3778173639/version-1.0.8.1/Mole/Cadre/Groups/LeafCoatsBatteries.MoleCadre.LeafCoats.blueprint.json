@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.LeafCoats", "Order": 421000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.LeafCoats",
+      "GravityBattery.TreeTrunk.LeafCoats",
+      "GravityBattery.TreeTrunk2.LeafCoats",
+      "SmallFlywheel.LeafCoats",
+      "SmallHorizontalFramedFlywheel.LeafCoats",
+      "SmallVerticalFramedFlywheel.LeafCoats",
+      "MediumFlywheel.LeafCoats",
+      "MediumHorizontalFramedFlywheel.LeafCoats",
+      "MediumVerticalFramedFlywheel.LeafCoats",
+      "LargeFlywheel.LeafCoats",
+      "LargeHorizontalFramedFlywheel.LeafCoats",
+      "LargeVerticalFramedFlywheel.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.LeafCoats",
+      "GravityBattery.TreeTrunk.LeafCoats",
+      "GravityBattery.TreeTrunk2.LeafCoats",
+      "SmallFlywheel.LeafCoats",
+      "SmallHorizontalFramedFlywheel.LeafCoats",
+      "SmallVerticalFramedFlywheel.LeafCoats",
+      "MediumFlywheel.LeafCoats",
+      "MediumHorizontalFramedFlywheel.LeafCoats",
+      "MediumVerticalFramedFlywheel.LeafCoats",
+      "LargeFlywheel.LeafCoats",
+      "LargeHorizontalFramedFlywheel.LeafCoats",
+      "LargeVerticalFramedFlywheel.LeafCoats"
+    ]
+  }
+}

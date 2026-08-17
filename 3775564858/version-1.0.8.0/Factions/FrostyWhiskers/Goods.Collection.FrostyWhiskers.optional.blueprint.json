@@ -1,0 +1,7 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove": [],
+    "Goods#append": []
+  }
+}

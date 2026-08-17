@@ -1,0 +1,28 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.IronTeeth",
+  "Paths#append": [
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft3.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft4.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft5.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft6.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft7.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft8.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft9.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft10.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft11.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft12.IronTeeth",
+
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft3.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft4.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft5.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft6.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft7.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft8.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft9.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft10.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft11.IronTeeth",
+    "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft12.IronTeeth"
+  ]
+}
+}

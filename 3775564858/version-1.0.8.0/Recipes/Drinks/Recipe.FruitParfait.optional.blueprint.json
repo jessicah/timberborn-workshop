@@ -1,0 +1,13 @@
+{
+  "RecipeSpec":
+  {
+    "Ingredients":
+    [
+      { "Id": "Berries", "Amount": 1 },
+      { "Id": "Banana", "Amount": 4 },
+      { "Id": "Apple", "Amount": 2 },
+      { "Id": "Coconut", "Amount": 2 },
+      { "Id": "IceBlock", "Amount": 3 }
+    ]
+  }
+}

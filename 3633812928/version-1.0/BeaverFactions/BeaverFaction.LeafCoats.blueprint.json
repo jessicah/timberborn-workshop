@@ -1,0 +1,20 @@
+{
+  "BeaverFactionSpec": {
+    "Id": "LeafCoats",
+    "DisplayNameLocKey": "Faction.LeafCoats.DisplayName",
+    "Textures": [
+      "BeaverAdult1.LeafCoats",
+      "BeaverAdult2.LeafCoats",
+      "BeaverAdult3.LeafCoats",
+      "BeaverAdult4.LeafCoats",
+      "BeaverAdult5.LeafCoats"
+    ],
+    "ChildTextures": [
+      "BeaverAdult1.LeafCoats",
+      "BeaverAdult2.LeafCoats",
+      "BeaverAdult3.LeafCoats",
+      "BeaverAdult4.LeafCoats",
+      "BeaverAdult5.LeafCoats"
+    ]
+  }
+}

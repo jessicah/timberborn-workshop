@@ -1,0 +1,7 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "GiantLogFeller.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "GiantLogFeller" ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Coal",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Coal",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "Materials/Goods/CoalPile",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 5,
+    "GoodGroupId": "Piles",
+    "GoodOrder": 0,
+    "Icon": "Mole/Piles/Coal",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.Coal.Name",
+    "PluralDisplayNameLocKey": "Wares.Coal.Name"
+  }
+}

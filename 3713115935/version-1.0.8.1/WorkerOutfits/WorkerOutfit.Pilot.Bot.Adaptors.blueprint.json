@@ -1,0 +1,9 @@
+{
+	"WorkerOutfitSpec": {
+		"Id": "Pilot",
+		"FactionId": "Adaptors",
+		"WorkerType": "Bot",
+		"Attachments": [
+		]
+	}
+}

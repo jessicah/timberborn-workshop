@@ -1,0 +1,21 @@
+{
+  "CustomBeaverByNameListSpec": {
+    "ExcludeFromNamePool": "False",
+    "Names": [
+      "Noxbestia",
+      "normanr",
+      "grauschweif",
+      "souvy",
+      "Ants",
+      "Perpetual Newb",
+      "Todor Alin",
+      "Redneck353"
+    ],
+    "Texture": "CustomBeavers/Textures/BeaverAdult.Brass",
+    "ChildTexture": "CustomBeavers/Textures/BeaverChild.Brass",
+    "Avatar": "CustomBeavers/Avatars/BrassAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/BrassChild",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/BrassContaminatedAdult",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/BrassContaminatedChild"
+  }
+}

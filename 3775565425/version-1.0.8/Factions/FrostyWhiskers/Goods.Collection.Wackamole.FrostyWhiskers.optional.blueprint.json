@@ -1,0 +1,14 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#append":
+    [
+      "GoldBar",
+      "GoldDust",
+      "NuclearWaste",
+      "MetalPart",
+      "Rock",
+      "Salt"
+    ]
+  }
+}

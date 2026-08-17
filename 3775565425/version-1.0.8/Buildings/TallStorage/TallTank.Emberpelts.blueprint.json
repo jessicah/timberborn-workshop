@@ -1,0 +1,196 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Tank",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 28
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "StockpileSpec": {
+    "MaxCapacity": 60,
+    "WhitelistedGoodType": "Liquid"
+  },
+  "TemplateSpec": {
+    "TemplateName": "TallTank.Emberpelts",
+    "BackwardCompatibleTemplateNames":
+    [
+      "PitTankEP",
+      "PitTank"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+        "X": 1,
+        "Y": 1,
+        "Z": 2
+      },
+      "Blocks": [
+        {
+          "MatterBelow": "GroundOrStackable",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Top, Corners, Path, Middle",
+          "Stackable": "BlockObject",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Floor",
+          "UseNewOccupation": true,
+          "Occupations": "Floor, Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": -1,
+        "Z": 1
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.5,
+      "Y": 1.0,
+      "Z": 0.30000001192092896
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Storage",
+    "ToolOrder": 52,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.PitTank.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Pitpile.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.PitTank.FlavorDescription",
+    "Icon": "Buildings/Sprites/PitTank"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": -1,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": []
+  },
+  "StockpilePlaneVisualizerSpec": {
+    "StockpilePlaneVisualizations": [
+      {
+        "CenterOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MovementRange": {
+          "X": 0.0010000000474974513,
+          "Y": 1.8500000238418579
+        },
+        "GoodVisualizationId": "Liquid",
+        "GoodVisualizationVariant": "1x1"
+      }
+    ]
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 1.0,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 2.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/ModularStorageMeshies/PitTankEP.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

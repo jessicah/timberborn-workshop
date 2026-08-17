@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.GreedyBuilders",
+    "Blueprints#append": [
+      "ModularStoragePrefabs/PitpileIT.blueprint",
+      "ModularStoragePrefabs/PitwarehouseFT.blueprint",
+      "ModularStoragePrefabs/SCoveredtankFT.blueprint",
+      "ModularStoragePrefabs/LongWarehouseFT.blueprint",
+      "ModularStoragePrefabs/2x2pileRightIT.blueprint",
+      "ModularStoragePrefabs/LongpileIT.blueprint",
+      "ModularStoragePrefabs/PitTankFT.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileIT.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseFT.blueprint"
+    ]
+  }
+}

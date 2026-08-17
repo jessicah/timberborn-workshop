@@ -1,0 +1,8 @@
+{
+  "BeaverFactionSplitBreedingSettings": {
+    "Id": "Whitepaws",
+    "Breed": true,
+    "Pod": false,
+    "Plant": false
+  }
+}

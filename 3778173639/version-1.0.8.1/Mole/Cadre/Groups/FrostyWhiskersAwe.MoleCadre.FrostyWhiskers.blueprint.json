@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.FrostyWhiskers", "Order": 626000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.FrostyWhiskers",
+      "LaborerMonument.FrostyWhiskers",
+      "BrazierOfBonding.FrostyWhiskers",
+      "FlameOfUnity.FrostyWhiskers",
+      "FountainOfJoy.FrostyWhiskers",
+      "PublicFountain.FrostyWhiskers",
+      "TributeToIngenuity.FrostyWhiskers",
+      "HallOfAbundance.FrostyWhiskers",
+      "ArchOfProgress.FrostyWhiskers",
+      "EarthRecultivator.FrostyWhiskers",
+      "EarthRepopulator.FrostyWhiskers",
+      "WonderOfFire.FrostyWhiskers",
+      "Wonder.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.FrostyWhiskers",
+      "LaborerMonument.FrostyWhiskers",
+      "BrazierOfBonding.FrostyWhiskers",
+      "FlameOfUnity.FrostyWhiskers",
+      "FountainOfJoy.FrostyWhiskers",
+      "PublicFountain.FrostyWhiskers",
+      "TributeToIngenuity.FrostyWhiskers",
+      "HallOfAbundance.FrostyWhiskers",
+      "ArchOfProgress.FrostyWhiskers",
+      "EarthRecultivator.FrostyWhiskers",
+      "EarthRepopulator.FrostyWhiskers",
+      "WonderOfFire.FrostyWhiskers",
+      "Wonder.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining2xN.MoleCadre.Badfurs", "Order": 1208002, "NameLocKey": "Group.FierceMetalDamSolidLining2xN", "Icon": "Mole/Cadre/DamSolidLining2xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW2x1.Badfurs",
+      "DE_A_RM_SquareW2x2.Badfurs",
+      "DE_A_RM_SquareW2x3.Badfurs",
+      "DE_A_RM_SlopeW2x.Badfurs",
+      "DE_A_RM_InvSlopeW2X.Badfurs",
+      "DE_A_RM_InvCornerW2X.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW2x1.Badfurs",
+      "DE_A_RM_SquareW2x2.Badfurs",
+      "DE_A_RM_SquareW2x3.Badfurs",
+      "DE_A_RM_SlopeW2x.Badfurs",
+      "DE_A_RM_InvSlopeW2X.Badfurs",
+      "DE_A_RM_InvCornerW2X.Badfurs"
+    ]
+  }
+}

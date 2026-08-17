@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalDamSolidLining1xN.MoleCadre.LeafCoats", "Order": 406001, "NameLocKey": "Group.MetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_SM_SquareW1x1.LeafCoats",
+      "DE_SM_SquareW1x2.LeafCoats",
+      "DE_SM_SquareW1x3.LeafCoats",
+      "DE_SM_SlopeW.LeafCoats",
+      "DE_SM_InvSlopeW.LeafCoats",
+      "DE_SM_InvSlopeW1x1.LeafCoats",
+      "DE_SM_InvSlopeW1x2.LeafCoats",
+      "DE_SM_InvCornerW.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_SM_SquareW1x1.LeafCoats",
+      "DE_SM_SquareW1x2.LeafCoats",
+      "DE_SM_SquareW1x3.LeafCoats",
+      "DE_SM_SlopeW.LeafCoats",
+      "DE_SM_InvSlopeW.LeafCoats",
+      "DE_SM_InvSlopeW1x1.LeafCoats",
+      "DE_SM_InvSlopeW1x2.LeafCoats",
+      "DE_SM_InvCornerW.LeafCoats"
+    ]
+  }
+}

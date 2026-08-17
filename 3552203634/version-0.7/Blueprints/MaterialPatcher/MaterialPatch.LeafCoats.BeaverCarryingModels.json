@@ -1,0 +1,11 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "LeafCoats",
+    "MaterialName": "BeaverCarryingModels",
+    "TextureEntries": [
+      { "Name": "_MainTex", "Path": "Materials/UberAtlas/Textures/LeafCoats/BeaverCarryingModels.LeafCoats" }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

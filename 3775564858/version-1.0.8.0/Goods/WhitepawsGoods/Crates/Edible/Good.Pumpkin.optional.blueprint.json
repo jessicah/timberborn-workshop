@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Pumpkins.Emberpelts",
+      "Wares.Pumpkins.Folktails",
+      "Wares.Pumpkins.IronTeeth",
+      "Wares.Pumpkins.LeafCoats",
+      "Wares.Pumpkins.Whitepaws",
+      "Wares.Pumpkins.Common",
+      "Wares.Pumpkin.Emberpelts",
+      "Wares.Pumpkin.Folktails",
+      "Wares.Pumpkin.IronTeeth",
+      "Wares.Pumpkin.LeafCoats",
+      "Wares.Pumpkin.Whitepaws",
+      "Wares.Pumpkin.Common"
+    ],
+    "Icon": "Mole/Grows/Pumpkins",
+    "DisplayNameLocKey": "Wares.Pumpkins.Lone",
+    "PluralDisplayNameLocKey": "Wares.Pumpkins.Name"
+  }
+}

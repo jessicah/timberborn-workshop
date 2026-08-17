@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Pepper",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.3639461,
+      "g": 0.1882353,
+      "b": 0.368627459,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/PepperIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Pepper.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Pepper.PluralDisplayName"
+  }
+}

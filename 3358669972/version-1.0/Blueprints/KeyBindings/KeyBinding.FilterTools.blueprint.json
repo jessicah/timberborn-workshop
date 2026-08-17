@@ -1,0 +1,20 @@
+﻿{
+  "KeyBindingSpec": {
+    "Id": "FilterTools",
+    "GroupId": "UI",
+    "LocKey": "KeyBinding.FilterTools",
+    "Order": 195,
+    "AllowOtherModifiers": false,
+    "DevModeOnly": false
+  },
+  "PrimaryInputBindingSpec": {
+    "Path": "/Keyboard/f",
+    "InputModifiers": "Ctrl",
+    "Unchangeable": false
+  },
+  "SecondaryInputBindingSpec": {
+    "Path": "/Keyboard/slash",
+    "InputModifiers": "None",
+    "Unchangeable": false
+  }
+}

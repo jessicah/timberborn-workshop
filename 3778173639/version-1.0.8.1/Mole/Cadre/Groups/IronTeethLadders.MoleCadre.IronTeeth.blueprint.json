@@ -1,0 +1,23 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.IronTeeth", "Order": 201002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Ladder.Simple.IronTeeth",
+      "Ladder.IronTeeth",
+      "Ladder.Core.IronTeeth",
+      "Mole.Ladder.IronTeeth",
+      "SkyBridgeLadder.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Ladder.Simple.IronTeeth",
+      "Ladder.IronTeeth",
+      "Ladder.Core.IronTeeth",
+      "Mole.Ladder.IronTeeth",
+      "SkyBridgeLadder.IronTeeth"
+    ]
+  }
+}

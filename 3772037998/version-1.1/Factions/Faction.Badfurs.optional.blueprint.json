@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Badfurs" ],
+    "GoodCollectionIds#append": [ "Listamole.Badfurs" ],
+    "NeedCollectionIds#append": [ "Listamole.Badfurs" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Badfurs",
+      "Actors.Badfurs",
+      "Cadre.Badfurs",
+      "Editing.Badfurs",
+      "Effects.Badfurs",
+      "Grows.Badfurs",
+      "Parts.Badfurs",
+      "Rides.Badfurs"
+    ]
+  }
+}

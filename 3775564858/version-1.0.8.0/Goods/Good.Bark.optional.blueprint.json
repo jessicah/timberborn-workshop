@@ -1,0 +1,16 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Bark.Emberpelts",
+      "Wares.Bark.Folktails",
+      "Wares.Bark.IronTeeth",
+      "Wares.Bark.LeafCoats",
+      "Wares.Bark.Whitepaws",
+      "Wares.Bark.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/Bark"
+  }
+}

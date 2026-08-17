@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "Emberpelts",
+    "MaterialName": "Blueberry",
+    "TextureEntries": [
+      {
+        "Name": "_DetailMap",
+        "Path": "Materials/Textures/Blueberry_Detail.Emberpelts"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

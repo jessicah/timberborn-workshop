@@ -1,0 +1,41 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.IslandBeavers", "Order": 820000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.IslandBeavers",
+      "Pit-and-LadderLodge_LiquidStorage.IslandBeavers",
+      "SmallCoveredTank.IslandBeavers",
+      "SmallTank.IslandBeavers",
+      "Mole.SmallTank.IslandBeavers",
+      "PitTank.IslandBeavers",
+      "MediumTank.IslandBeavers",
+      "Mole.TriteTank.IslandBeavers",
+      "LargeTank.IslandBeavers",
+      "Mole.LargeTank.IslandBeavers",
+      "UndergroundTank.IslandBeavers",
+      "Mole.BuriedTank.IslandBeavers",
+      "LargeUndergroundTank.IslandBeavers",
+      "GazTank.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.IslandBeavers",
+      "Pit-and-LadderLodge_LiquidStorage.IslandBeavers",
+      "SmallCoveredTank.IslandBeavers",
+      "SmallTank.IslandBeavers",
+      "Mole.SmallTank.IslandBeavers",
+      "PitTank.IslandBeavers",
+      "MediumTank.IslandBeavers",
+      "Mole.TriteTank.IslandBeavers",
+      "LargeTank.IslandBeavers",
+      "Mole.LargeTank.IslandBeavers",
+      "UndergroundTank.IslandBeavers",
+      "Mole.BuriedTank.IslandBeavers",
+      "LargeUndergroundTank.IslandBeavers",
+      "GazTank.IslandBeavers"
+    ]
+  }
+}

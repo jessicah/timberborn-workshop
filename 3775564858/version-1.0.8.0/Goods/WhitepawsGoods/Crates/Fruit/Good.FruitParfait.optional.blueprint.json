@@ -1,0 +1,20 @@
+{
+  "GoodSpec":
+  {
+    "ConsumptionEffects":
+    [
+      {
+        "NeedId": "Apples",
+        "Points": 0.2
+      },
+      {
+        "NeedId": "Coconut",
+        "Points": 0.2
+      },
+      {
+        "NeedId": "Banana",
+        "Points": 0.2
+      }
+    ]
+  }
+}

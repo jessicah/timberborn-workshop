@@ -1,0 +1,51 @@
+{
+  "GoodSpec": {
+    "Id": "Apple",
+    "BackwardCompatibleIds":
+    [
+      "Wares.Apples.Emberpelts",
+      "Wares.Apples.Folktails",
+      "Wares.Apples.IronTeeth",
+      "Wares.Apples.LeafCoats",
+      "Wares.Apples.Whitepaws",
+      "Wares.Apples.Common",
+      "Wares.Apple.Emberpelts",
+      "Wares.Apple.Folktails",
+      "Wares.Apple.IronTeeth",
+      "Wares.Apple.LeafCoats",
+      "Wares.Apple.Whitepaws",
+      "Wares.Apple.Common",
+      "Apple_WP",
+      "Ananas"
+    ],
+    "ConsumptionEffects":
+    [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Apples",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.71875,
+      "b": 0.19140625,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "Mole/Grows/Apples",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Wares.Apples.Lone",
+    "PluralDisplayNameLocKey": "Wares.Apples.Name"
+  }
+}

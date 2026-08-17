@@ -1,0 +1,42 @@
+{
+  "BeaverFactionSplitNeedsSpec": {
+    "Id": "Charcoal",
+    "Needs": [
+      "Fire",
+      "WetFurBad",
+      "BeaverStatue",
+      "BeaverBust",
+      "Brazier",
+      "DecorativeClock",
+      "Lantern",
+      "Campfire",
+      "RooftopTerrace",
+      "Detailer",
+      "ContemplationSpot",
+      "Scratcher",
+      "Carousel",
+      "DanceHall",
+      "ExercisePlaza",
+      "LaborerMonument",
+      "FlameOfUnity",
+      "TributeToIngenuity",
+      "WonderEmberpelts",
+      "Apples",
+      "Radishes",
+      "Tomatoes",
+      "Juice",
+      "RedJuice",
+      "CornJuice",
+      "GrilledCorn",
+      "GrilledPeppers",
+      "ApplePie",
+      "StuffedPeppers",
+      "Cornbread",
+      "BakedBeetroot",
+      "Weathervane",
+      "ArchOfProgress",
+      "Massager",
+      "Incense"
+    ]
+  }
+}

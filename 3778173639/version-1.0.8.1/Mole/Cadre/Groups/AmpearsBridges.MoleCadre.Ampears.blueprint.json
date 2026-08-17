@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Bridges.MoleCadre.Ampears", "Order": 701004, "NameLocKey": "Group.Bridges", "Icon": "Mole/Cadre/Bridges", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "TE_Bridge_1x1.Ampears",
+      "TE_Bridge_1x2.Ampears",
+      "TE_Bridge_1x3.Ampears",
+      "TE_Bridge_1x4.Ampears",
+      "TE_Bridge_1x5.Ampears",
+      "TE_Bridge_1x6.Ampears",
+      "TE_BridgeF_1x7.Ampears",
+      "TE_BridgeF_1x8.Ampears",
+      "TE_BridgeF_1x9.Ampears",
+      "TE_BridgeF_1x10.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "TE_Bridge_1x1.Ampears",
+      "TE_Bridge_1x2.Ampears",
+      "TE_Bridge_1x3.Ampears",
+      "TE_Bridge_1x4.Ampears",
+      "TE_Bridge_1x5.Ampears",
+      "TE_Bridge_1x6.Ampears",
+      "TE_BridgeF_1x7.Ampears",
+      "TE_BridgeF_1x8.Ampears",
+      "TE_BridgeF_1x9.Ampears",
+      "TE_BridgeF_1x10.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "TemplateCollectionSpec": {
+    "Blueprints#remove": [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint"
+    ]
+  }
+}

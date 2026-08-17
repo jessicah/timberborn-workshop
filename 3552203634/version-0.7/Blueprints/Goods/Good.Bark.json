@@ -1,0 +1,18 @@
+{
+  "GoodSpec": {
+    "Id": "Bark",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Bark.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Bark.PluralDisplayName",
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": { "Value": "Box" },
+    "ContainerColor": "#403020",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "Icon": "Sprites/Goods/BarkIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

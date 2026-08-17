@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameListSpec": {
+    "Names": [
+//Put names here, Each name should be in double quotes and seperated by a comma. It can span multiple lines. EG: "Name1", "Name2", "Name3"
+    ],
+    "ExcludeFromNamePool": "False",
+    "Texture": "CustomBeavers/Textures/BeaverAdult.Silver",
+    "ChildTexture": "CustomBeavers/Textures/BeaverChild.Silver",
+    "Avatar": "CustomBeavers/Avatars/SilverAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/SilverChild",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/SilverContaminatedAdult",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/SilverContaminatedChild"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "CrappyPlatform.Birch.Default",
+		"BackwardCompatibleTemplateNames": [ "Crappyplatform_birch" ]
+	}
+}

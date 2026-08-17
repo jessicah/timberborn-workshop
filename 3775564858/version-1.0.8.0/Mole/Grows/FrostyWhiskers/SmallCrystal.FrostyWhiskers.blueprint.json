@@ -1,0 +1,340 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Cristal_Small.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames": [
+      "Birch"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 10
+  },
+  "TreeComponentSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 5.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Default",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "Unplantable",
+    "PlantTimeInHours": 0.56
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 1.2,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "CuttableSpec": {
+    "RemoveOnCut": false,
+    "LeftoverModelName": "#Leftover",
+    "Yielder": {
+      "YielderComponentName": "Cuttable",
+      "Yield": {
+        "Id": "IceBlock",
+        "Amount": 4
+      },
+      "RemovalTimeInHours": 3.0,
+      "ResourceGroup": "Cuttable"
+    }
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+  },
+  "ReproducibleSpec": {
+    "ReproductionChance": 1.0
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 11.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.Cristal_Small.FrostyWhiskers.DisplayName",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Cristal_Small.FrostyWhiskers.FlavorDescription",
+    "Icon": "sprites/FrostyWhiskers Sprites/BuildingPlantsETC/SmallCristal"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 999,
+    "DaysToDie": 999.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": false,
+    "MinHeightScaleFactor": 0.8,
+    "MaxHeightScaleFactor": 1.2,
+    "MinWidthScaleFactor": 0.8,
+    "MaxWidthScaleFactor": 1.2,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 360.0
+  },
+  "TreeCuttingRadiusSpec": {
+    "Radius": 0.1
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "ExtendedReproducibleSpec": {
+    "CanSpread": "All"
+  },
+  "ContaminationResistingResourceSpec": {},
+  "UndryableNaturalResourceSpec": {},
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Ice_Crystal_Small.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [
+                      {
+                        "Center": {
+                          "X": 0.54,
+                          "Y": 0.1,
+                          "Z": 0.56
+                        },
+                        "Radius": 0.2
+                      }
+                    ],
+                    "CapsuleColliders": []
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Environment_Replace/Ice_Crystal_Leftover.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.05,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.1,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

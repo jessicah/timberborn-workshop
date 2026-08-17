@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Emberpelts", "Order": 301001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Emberpelts",
+      "MetalStairs.Emberpelts",
+      "MetalStaircase.Emberpelts",
+      "SpiralStairs.Emberpelts",
+      "SpiralStaircase.Emberpelts",
+      "StaircaseLog.Emberpelts",
+      "MetalSpiralStaircase.Emberpelts",
+      "DD_SlopeStairs.Emberpelts",
+      "SkyBridgeStairs.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Emberpelts",
+      "MetalStairs.Emberpelts",
+      "MetalStaircase.Emberpelts",
+      "SpiralStairs.Emberpelts",
+      "SpiralStaircase.Emberpelts",
+      "StaircaseLog.Emberpelts",
+      "MetalSpiralStaircase.Emberpelts",
+      "DD_SlopeStairs.Emberpelts",
+      "SkyBridgeStairs.Emberpelts"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+#include <defines.h>
+{
+  TOGROUP(01005,Walkways),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(SkyBridgeStairs),
+      TOTOOL(SkyBridgeLadder),
+      TOTOOL(SkyBridge),
+      TOTOOL(SkyBridgeEntrance),
+      TOTOOL(SkyBridge.Bridge2x1),
+      TOTOOL(SkyBridge.Bridge3x1),
+      TOTOOL(SkyBridge.Bridge4x1),
+      TOTOOL(SkyBridge.Bridge5x1),
+      TOTOOL(SkyBridge.Bridge6x1),
+      TOTOOL(SkyBridge.Bridge7x1),
+      TOTOOL(SkyBridgeEntrance),
+      TOTOOL(TubewaySkyBridge)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(SkyBridgeStairs),
+      TOTOOL(SkyBridgeLadder),
+      TOTOOL(SkyBridge),
+      TOTOOL(SkyBridgeEntrance),
+      TOTOOL(SkyBridge.Bridge2x1),
+      TOTOOL(SkyBridge.Bridge3x1),
+      TOTOOL(SkyBridge.Bridge4x1),
+      TOTOOL(SkyBridge.Bridge5x1),
+      TOTOOL(SkyBridge.Bridge6x1),
+      TOTOOL(SkyBridge.Bridge7x1),
+      TOTOOL(SkyBridgeEntrance),
+      TOTOOL(TubewaySkyBridge)
+    ]
+  }
+}

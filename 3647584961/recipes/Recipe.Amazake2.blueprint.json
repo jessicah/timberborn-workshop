@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Amazake2",
+  "DisplayLocKey": "Good.Amazake.DisplayName",
+  "CycleDurationInHours": 48,
+  "CyclesCapacity": 3,
+  "Ingredients":[ 
+    {
+      "Id": "Rice",
+      "Amount": 20
+    },
+    {
+      "Id": "Water",
+      "Amount": 45
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Amazake",
+      "Amount": 60
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Amazake",
+	"BackwardCompatibleIds": []
+  }
+}

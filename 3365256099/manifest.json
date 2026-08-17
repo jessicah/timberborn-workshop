@@ -1,0 +1,18 @@
+{
+  "Name": "Power Shaft Extensions",
+  "Version": "4.0.0",
+  "Id": "Battery.PowerShaftExtensions",
+  "MinimumGameVersion": "1.0.12.5",
+  "Description": "Back, finally",
+  "RequiredMods": [
+    {
+      "Id": "ModdableToolGroups",
+      "MinimumVersion": "10.4.3"
+    }
+  ],
+    "OptionalMods": [
+        {"Id": "LeafCoats"},
+        {"Id": "Emberpelts"},
+        {"Id": "Lapantoufleagic.WhitepawsFaction"}
+    ]
+}

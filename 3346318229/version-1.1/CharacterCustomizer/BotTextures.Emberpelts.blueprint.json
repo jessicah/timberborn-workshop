@@ -1,0 +1,14 @@
+{
+  "BotTexturesSpec": {
+    "FactionID": "Emberpelts",
+    "BotTextures": [
+      "Materials/Bots/Emberpelts/Bot1.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot2.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot3.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot4.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot5.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot6.Emberpelts",
+      "Materials/Bots/Emberpelts/Bot7.Emberpelts"
+    ]
+  }
+}

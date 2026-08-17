@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "FermentedChestnut",
+    "DisplayLocKey": "Good.FermentedChestnut.PluralDisplayName",
+    "CycleDurationInHours": 2,
+    "CyclesCapacity": 4,
+    "Ingredients": [
+      {
+        "Id": "Chestnut",
+        "Amount": 6
+      },
+      {
+        "Id": "MapleSyrup",
+        "Amount": 1
+      },
+      {
+        "Id": "Water",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "FermentedChestnut",
+        "Amount": 15
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "Icon": "Sprites/Goods/FermentedChestnutIcon",
+    "BackwardCompatibleIds": []
+  }
+}

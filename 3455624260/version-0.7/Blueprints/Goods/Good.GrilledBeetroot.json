@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "Id": "GrilledBeetroot",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.GrilledBeetroot.DisplayName",
+    "PluralDisplayNameLocKey": "Good.GrilledBeetroot.PluralDisplayName",
+    "ConsumptionEffects": [
+      {"NeedId": "Hunger","Points": 0.3},
+      {"NeedId": "GrilledBeetroot","Points": 0.2}
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": {"Value": "Box"},
+    "ContainerColor": "#ce1ba9",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/GrilledBeetrootIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

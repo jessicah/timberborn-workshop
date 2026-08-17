@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.IslandBeavers", "Order": 802003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.IslandBeavers",
+      "LargeMetalPlatform.IslandBeavers",
+      "MetalPlatform1x1.IslandBeavers",
+      "MetalPlatform3x3.IslandBeavers",
+      "MetalPlatform5x3.IslandBeavers",
+      "MetalPlatform5x5.IslandBeavers",
+      "MetalPlatform7x7.IslandBeavers",
+      "MetalPlatform3x3.Ladder.IslandBeavers",
+      "MetalPlatform5x5.Ladder.IslandBeavers",
+      "MetalPlatform7x7.Ladder.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.IslandBeavers",
+      "LargeMetalPlatform.IslandBeavers",
+      "MetalPlatform1x1.IslandBeavers",
+      "MetalPlatform3x3.IslandBeavers",
+      "MetalPlatform5x3.IslandBeavers",
+      "MetalPlatform5x5.IslandBeavers",
+      "MetalPlatform7x7.IslandBeavers",
+      "MetalPlatform3x3.Ladder.IslandBeavers",
+      "MetalPlatform5x5.Ladder.IslandBeavers",
+      "MetalPlatform7x7.Ladder.IslandBeavers"
+    ]
+  }
+}

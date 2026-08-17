@@ -1,0 +1,38 @@
+{
+  "GoodCollectionSpec": {
+    "CollectionId": "Emberpelts",
+    "Goods": [
+      "Brick",
+      "Clay",
+      "Coal",
+      "BotChassis",
+      "BotHead",
+      "BotLimb",
+      "Wheat",
+      "WheatFlour",
+      "Corn",
+      "CanolaSeeds",
+      "Apple",
+      "Radish",
+      "Tomato",
+      "GrilledCorn",
+      "GrilledPepper",
+      "ApplePie",
+      "Cornbread",
+      "BakedBeetroot",
+      "StuffedPepper",
+      "Beetroot",
+      "Pepper",
+      "Cornmeal",
+      "MapleSyrup",
+      "CanolaOil",
+      "AppleJuice",
+      "TomatoJuice",
+      "RedJuice",
+      "CornJuice",
+      "PhoenixEssence",
+      "Fuel",
+      "Lubricant"
+    ]
+  }
+}

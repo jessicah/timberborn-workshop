@@ -1,0 +1,6 @@
+{
+  "RemoveYieldStrategySpec": {
+    "Id": "Uncuttable",
+    "CompatibleResourceGroups#append": ["Pruning"],
+  }
+}

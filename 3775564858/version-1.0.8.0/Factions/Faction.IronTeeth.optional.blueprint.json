@@ -1,0 +1,39 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.IronTeeth" ],
+    "GoodCollectionIds#append": [ "Listamole.IronTeeth" ],
+    "NeedCollectionIds#append": [ "Listamole.IronTeeth" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.IronTeeth",
+      "Actors.IronTeeth",
+      "Cadre.IronTeeth",
+      "Editing.IronTeeth",
+      "Effects.IronTeeth",
+      "Grows.IronTeeth",
+      "Parts.IronTeeth",
+      "Rides.IronTeeth"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* IronTeeth */
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.IronTeeth.optional.blueprint"
+      }
+    ]
+  }
+}

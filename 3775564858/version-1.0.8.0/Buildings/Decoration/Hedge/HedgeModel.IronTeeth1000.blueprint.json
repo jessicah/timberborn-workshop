@@ -1,0 +1,12 @@
+{
+  "TransformSpec": { "Scale": { "X": 1.0, "Y": 1.0, "Z": 0.7 } },
+  "Children":
+  {
+    "one#nested":
+    {
+      "BlueprintPath":
+        "Buildings/Decoration/Hedge/HedgeModel.IronTeeth1100.blueprint"
+    }
+  }
+}
+

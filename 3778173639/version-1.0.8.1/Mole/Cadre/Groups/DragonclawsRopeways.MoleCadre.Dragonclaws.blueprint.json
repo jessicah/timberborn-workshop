@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Dragonclaws", "Order": 1001003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Dragonclaws",
+      "SuspensionBridge2x1.Dragonclaws",
+      "SuspensionBridge3x1.Dragonclaws",
+      "SuspensionBridge4x1.Dragonclaws",
+      "SuspensionBridge5x1.Dragonclaws",
+      "SuspensionBridge6x1.Dragonclaws",
+      "SuspensionBridge7x1.Dragonclaws",
+      "SuspensionBridge8x1.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Dragonclaws",
+      "SuspensionBridge2x1.Dragonclaws",
+      "SuspensionBridge3x1.Dragonclaws",
+      "SuspensionBridge4x1.Dragonclaws",
+      "SuspensionBridge5x1.Dragonclaws",
+      "SuspensionBridge6x1.Dragonclaws",
+      "SuspensionBridge7x1.Dragonclaws",
+      "SuspensionBridge8x1.Dragonclaws"
+    ]
+  }
+}

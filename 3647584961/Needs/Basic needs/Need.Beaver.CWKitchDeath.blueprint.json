@@ -1,0 +1,25 @@
+{
+  "NeedSpec": {
+    "Id": "CWKitchDeath",
+    "BackwardCompatibleIds": [],
+    "Order": 100,
+    "NeedGroupId": "BasicNeeds",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": -1.0,
+    "MaximumValue": 0.0,
+    "DailyDelta": 0.1,
+    "ImportanceMultiplier": 0.1,
+    "Effectiveness": 1.0,
+    "Wastable": true,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Need.CWKitchDeath.DisplayName",
+    "FavorableWellbeing": 0,
+    "UnfavorableWellbeing": -1
+  },
+  "LethalNeedSpec": {
+    "DeathWarningLocKey": "Needs.Beaver.DeathWarning",
+    "DeathMessageLocKey": "Need.CWKitchDeath.DeathMessage"
+  },
+  "InactiveHiddenNeedSpec": {}
+}

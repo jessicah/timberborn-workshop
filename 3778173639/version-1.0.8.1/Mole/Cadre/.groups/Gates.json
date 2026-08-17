@@ -1,0 +1,32 @@
+#include <defines.h>
+{
+  TOGROUP(01008,Gates),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Gate),
+      TOTOOL(Tubeway.Gate),
+      TOTOOL(DistrictGate),
+      TOTOOL(DistrictGateTubeway),
+      TOTOOL(DecoSmallGate),
+      TOTOOL(SmallGate),
+      TOTOOL(HedgeGate),
+      TOTOOL(MetalGate),
+      TOTOOL(GoldGate)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Gate),
+      TOTOOL(Tubeway.Gate),
+      TOTOOL(DistrictGate),
+      TOTOOL(DistrictGateTubeway),
+      TOTOOL(DecoSmallGate),
+      TOTOOL(SmallGate),
+      TOTOOL(HedgeGate),
+      TOTOOL(MetalGate),
+      TOTOOL(GoldGate)
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove": [
+      "Buildings/Whitepaws Faction/Plants/BananaTree.blueprint",
+      "Buildings/Whitepaws Faction/Plants/BlueberryBush.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Brambles.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Cabbage.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/ChestnutTree.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Everblossom.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Giantbamboo.blueprint",
+      "Buildings/Whitepaws Faction/Plants/GiantSequoia.blueprint",
+      "Buildings/Whitepaws Faction/Plants/GrapeVine.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/GreenPeas.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Lotus.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Pine.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Pumpkin.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/RedCabbage.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Rice.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/Sunflower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Plants/WildBrambles.blueprint"
+    ]
+  }
+}

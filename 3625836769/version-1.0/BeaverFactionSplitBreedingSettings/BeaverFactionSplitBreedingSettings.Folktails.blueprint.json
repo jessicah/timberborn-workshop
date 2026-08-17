@@ -1,0 +1,8 @@
+{
+  "BeaverFactionSplitBreedingSettings": {
+    "Id": "Folktails",
+    "Breed": true,
+    "Pod": false,
+    "Plant": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "BeaverFactionSpec":
+  {
+    /*
+    "Needs": [
+      "Apples",
+      "Radishes",
+      "Tomatoes",
+      "Juice",
+      "RedJuice",
+      "CornJuice",
+      "GrilledCorn",
+      "ApplePie",
+      "Cornbread",
+      "BakedBeetroot",
+    ],
+    */
+    "Needs#append": [
+      //"Pepper",
+      "AppleJuice",
+      "TomatoJuice",
+      //"PepperJuice",
+      "GrilledBeetroot",
+      //"Scone",
+      //"PepperBread",
+    ],
+    "Needs#remove": [
+      "GrilledPeppers",
+      "StuffedPeppers",
+    ]
+  }
+}

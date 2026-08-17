@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "ResourceCounter.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Counter_Resource.Whitepaws"
+		]
+	}
+}

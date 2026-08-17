@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "WaterFountain",
+  "DisplayLocKey": "Good.Water.PluralDisplayName",
+  "CycleDurationInHours": 0.05,
+  "CyclesCapacity": 10,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "Water",
+      "Amount": 2
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "BarreledWater",
+  "CyclesFuelLasts": 50,
+  "FuelCapacity": 1,
+  "Icon": "sprites/Whitepaws Sprites/Goods/NewWaterIcon",
+	"BackwardCompatibleIds": []
+  }
+}

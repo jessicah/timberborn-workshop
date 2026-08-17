@@ -1,0 +1,76 @@
+{
+  "CharacterAvatarMapSpec": {
+    "AvatarMaps": [
+      {
+        "TextureName": "BeaverChild1.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild2.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild3.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild4.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild5.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult1.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult2.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult3.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult5.Emberpelts",
+        "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Beaver Faction Building Control",
+    "Version": "1.1.1.0",
+    "Id": "BobingaboutBeaverFactionBuildingControl",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "Adds filters to buildings to allow Beavers of specific Faction to be assigned.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "1.1.0.0"},
+        {"Id": "BobingaboutBeaverFactions", "MinimumVersion": "1.1.0.0"},
+        {"Id": "Harmony"},
+    ],
+    "OptionalMods": []
+}

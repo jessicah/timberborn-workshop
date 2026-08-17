@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "SuspensionBridge1x1.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Freesuspensionbridge1x1" ]
+	}
+}

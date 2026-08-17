@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "NuclearWaste",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.814829767,
+      "g": 1.0,
+      "b": 0.0823529363,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 5,
+    "GoodGroupId": "Special",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/NuclearWaste",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.NuclearWaste.DisplayName",
+    "PluralDisplayNameLocKey": "Good.NuclearWaste.PluralDisplayName"
+  }
+}

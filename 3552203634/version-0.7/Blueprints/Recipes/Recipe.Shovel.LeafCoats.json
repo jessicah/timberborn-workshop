@@ -1,0 +1,20 @@
+{
+  "RecipeSpec": {
+    "Id": "Shovel.LeafCoats",
+    "DisplayLocKey": "Good.Shovel.PluralDisplayName",
+    "CycleDurationInHours": 0.5,
+    "CyclesCapacity": 25,
+    "Ingredients": [
+      {"Id": "Branch", "Amount": 1},
+    ],
+    "Products": [
+      {"Id": "Shovel", "Amount": 2}
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "MetalBlock",
+    "CyclesFuelLasts": 10,
+    "FuelCapacity": 5,
+    "Icon": "Sprites/Goods/ShovelIcon",
+    "BackwardCompatibleIds": []
+  }
+}

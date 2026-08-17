@@ -1,0 +1,16 @@
+{
+  "AuthorName": "zxuiji",
+  "Name": "zxuiji -m- Adaptors Have IronTeeth (AD+IT)",
+  "Version": "1.0.9.10",
+  "Id": "AdaptorsHaveIronTeeth",
+  "MinimumGameVersion": "1.0.12.0",
+  "Description": "For details visit https://mod.io/g/timberborn/m/adaptorshaveironteeth#description",
+  "OptionalMods": [],
+  "RequiredMods":
+  [
+    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Adaptors", "MinimumVersion": "1.0.9.10" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Cokenose",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/BeaverAdult.Cokenose",
+    "ChildTexture": "Materials/Beavers/Unique/BeaverAdult.Cokenose",
+    "Avatar": "Sprites/Avatars/Unique/CokenoseAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/EmberpeltsContaminatedAdultCharcoal",
+    "ChildAvatar": "Sprites/Avatars/Unique/CokeNoseChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/EmberpeltsContaminatedChildCharcoal",
+    "BeaverFactionId": "Charcoal",
+    "ExcludeFromNamePool": "True"
+  }
+}

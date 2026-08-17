@@ -1,0 +1,7 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds": ["TreatedPlank"],
+    "VisibleContainer": "TreatedPlank",
+    "GoodGroupId": "Logs",
+  }
+}

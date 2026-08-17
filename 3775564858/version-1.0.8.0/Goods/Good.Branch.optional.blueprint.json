@@ -1,0 +1,22 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Branches.Emberpelts",
+      "Wares.Branches.Folktails",
+      "Wares.Branches.IronTeeth",
+      "Wares.Branches.LeafCoats",
+      "Wares.Branches.Whitepaws",
+      "Wares.Branches.Common",
+      "Wares.Branch.Emberpelts",
+      "Wares.Branch.Folktails",
+      "Wares.Branch.IronTeeth",
+      "Wares.Branch.LeafCoats",
+      "Wares.Branch.Whitepaws",
+      "Wares.Branch.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/Branches"
+  }
+}

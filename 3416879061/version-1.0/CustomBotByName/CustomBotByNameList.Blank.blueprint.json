@@ -1,0 +1,14 @@
+{
+  "CustomBotByNameListSpec": {
+    "Names": [],
+    "Sets": [
+      {
+        "FactionIds": [],
+        "Texture": "",
+        "Avatar": ""
+      }
+    ],
+    "GraphicsSets": [],
+    "AddNameToList": false
+  }
+}

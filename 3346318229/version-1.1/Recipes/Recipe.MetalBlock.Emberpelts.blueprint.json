@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "MetalBlock.Emberpelts",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.MetalBlock.PluralDisplayName",
+    "CycleDurationInHours": 3.0,
+    "Ingredients": [
+      {
+        "Id": "ScrapMetal",
+        "Amount": 3
+      }
+    ],
+    "Products": [
+      {
+        "Id": "MetalBlock",
+        "Amount": 2
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Coal",
+    "CyclesFuelLasts": 10,
+    "FuelCapacity": 10,
+    "CyclesCapacity": 10,
+    "Icon": "Sprites/Goods/MetalBlockIcon"
+  }
+}

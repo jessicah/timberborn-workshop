@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "FermentedDandelion",
+    "DisplayLocKey": "Good.FermentedDandelion.PluralDisplayName",
+    "CycleDurationInHours": 2,
+    "CyclesCapacity": 4,
+    "Ingredients": [
+      {
+        "Id": "Dandelion",
+        "Amount": 8
+      }
+    ],
+    "Products": [
+      {
+        "Id": "FermentedDandelion",
+        "Amount": 16
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "Icon": "Sprites/Goods/FermentedDandelionIcon",
+    "BackwardCompatibleIds": []
+  }
+}

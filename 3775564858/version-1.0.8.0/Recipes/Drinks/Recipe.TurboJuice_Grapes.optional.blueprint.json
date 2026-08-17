@@ -1,0 +1,12 @@
+{
+	"NeedSpec#delete": {},
+	"GoodSpec#delete": {},
+	"RecipeSpec":
+	{
+    "Id": "RushedRedGrapeJuice",
+				"Icon": "Mole/Drinks/RedGrapeJuice",
+    "DisplayLocKey": "Wares.RushedRedGrapeJuice.Name",
+    "Ingredients#remove": [ { "Id": "Grapes" } ],
+    "Ingredients#append": [ { "Id": "RedGrapes", "Amount": 25 } ]
+	}
+}

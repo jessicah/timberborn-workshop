@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Dragonclaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Dragonclaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Dragonclaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Dragonclaws",
+      "Actors.Dragonclaws",
+      "Cadre.Dragonclaws",
+      "Editing.Dragonclaws",
+      "Effects.Dragonclaws",
+      "Grows.Dragonclaws",
+      "Parts.Dragonclaws",
+      "Rides.Dragonclaws"
+    ]
+  }
+}

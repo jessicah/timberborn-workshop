@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.Whitepaws", "Order": 502001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.Whitepaws",
+      "Pillar_1.Whitepaws",
+      "Pillar_2.Whitepaws",
+      "Pillar_3.Whitepaws",
+      "Pillar_4.Whitepaws",
+      "Pillars.Whitepaws",
+      "PillarTop.Whitepaws",
+      "StaircasePlatform.Whitepaws",
+      "StaircasePillar.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.Whitepaws",
+      "Pillar_1.Whitepaws",
+      "Pillar_2.Whitepaws",
+      "Pillar_3.Whitepaws",
+      "Pillar_4.Whitepaws",
+      "Pillars.Whitepaws",
+      "PillarTop.Whitepaws",
+      "StaircasePlatform.Whitepaws",
+      "StaircasePillar.Whitepaws"
+    ]
+  }
+}

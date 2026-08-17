@@ -1,0 +1,62 @@
+{
+  "CharacterAvatarMapSpec": {
+    "AvatarMaps": [
+      {
+        "TextureName": "BeaverChild.Waterbeaver_1",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild.Waterbeaver_2",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild.Waterbeaver_3",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Waterbeaver_1",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Waterbeaver_2",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Waterbeaver_3",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Waterbeaver_4",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Waterbeaver_5",
+        "AvatarPath": "Sprites/Avatars/Whitepaws/WaterbeaverAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/Whitepaws/SickAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      }
+    ]
+  }
+}

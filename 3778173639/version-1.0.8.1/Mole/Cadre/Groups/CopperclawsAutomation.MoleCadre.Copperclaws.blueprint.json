@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.Copperclaws", "Order": 1301000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.Copperclaws",
+      "Lever.Copperclaws",
+      "Relay.Copperclaws",
+      "FlowSensor.Copperclaws",
+      "DepthSensor.Copperclaws",
+      "ContaminationSensor.Copperclaws",
+      "Chronometer.Copperclaws",
+      "WeatherStation.Copperclaws",
+      "PowerMeter.Copperclaws",
+      "PopulationCounter.Copperclaws",
+      "ResourceCounter.Copperclaws",
+      "ScienceCounter.Copperclaws",
+      "Indicator.Copperclaws",
+      "WallMountIndicator.Copperclaws",
+      "Speaker.Copperclaws",
+      "FireworkLauncher.Copperclaws",
+      "Detonator.Copperclaws",
+      "Timer.Copperclaws",
+      "Memory.Copperclaws",
+      "HttpLever.Copperclaws",
+      "HttpAdapter.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.Copperclaws",
+      "Lever.Copperclaws",
+      "Relay.Copperclaws",
+      "FlowSensor.Copperclaws",
+      "DepthSensor.Copperclaws",
+      "ContaminationSensor.Copperclaws",
+      "Chronometer.Copperclaws",
+      "WeatherStation.Copperclaws",
+      "PowerMeter.Copperclaws",
+      "PopulationCounter.Copperclaws",
+      "ResourceCounter.Copperclaws",
+      "ScienceCounter.Copperclaws",
+      "Indicator.Copperclaws",
+      "WallMountIndicator.Copperclaws",
+      "Speaker.Copperclaws",
+      "FireworkLauncher.Copperclaws",
+      "Detonator.Copperclaws",
+      "Timer.Copperclaws",
+      "Memory.Copperclaws",
+      "HttpLever.Copperclaws",
+      "HttpAdapter.Copperclaws"
+    ]
+  }
+}

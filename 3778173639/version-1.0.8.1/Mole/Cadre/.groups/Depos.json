@@ -1,0 +1,46 @@
+#include <defines.h>
+{
+  TOGROUP(19000,Depos),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(BoxStorageLodge),
+      TOTOOL(Pit-and-LadderLodge_BoxStorage),
+      TOTOOL(GloriousStorage),
+      TOTOOL(SmallWarehouse),
+      TOTOOL(Mole.SmallDepo),
+      TOTOOL(LongWarehouse),
+      TOTOOL(PitWarehouse),
+      TOTOOL(Warehouse),
+      TOTOOL(MediumWarehouse),
+      TOTOOL(Mole.TriteDepo),
+      TOTOOL(LargeWarehouse),
+      TOTOOL(Mole.LargeDepo),
+      TOTOOL(GigargantuanWarehouse),
+      TOTOOL(UndergroundWarehouse),
+      TOTOOL(Mole.BuriedDepo),
+      TOTOOL(LargeUndergroundWarehouse)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(BoxStorageLodge),
+      TOTOOL(Pit-and-LadderLodge_BoxStorage),
+      TOTOOL(GloriousStorage),
+      TOTOOL(SmallWarehouse),
+      TOTOOL(Mole.SmallDepo),
+      TOTOOL(LongWarehouse),
+      TOTOOL(PitWarehouse),
+      TOTOOL(Warehouse),
+      TOTOOL(MediumWarehouse),
+      TOTOOL(Mole.TriteDepo),
+      TOTOOL(LargeWarehouse),
+      TOTOOL(Mole.LargeDepo),
+      TOTOOL(GigargantuanWarehouse),
+      TOTOOL(UndergroundWarehouse),
+      TOTOOL(Mole.BuriedDepo),
+      TOTOOL(LargeUndergroundWarehouse)
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.LeafCoats", "Order": 401001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.LeafCoats",
+      "MetalStairs.LeafCoats",
+      "MetalStaircase.LeafCoats",
+      "SpiralStairs.LeafCoats",
+      "SpiralStaircase.LeafCoats",
+      "StaircaseLog.LeafCoats",
+      "MetalSpiralStaircase.LeafCoats",
+      "DD_SlopeStairs.LeafCoats",
+      "SkyBridgeStairs.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.LeafCoats",
+      "MetalStairs.LeafCoats",
+      "MetalStaircase.LeafCoats",
+      "SpiralStairs.LeafCoats",
+      "SpiralStaircase.LeafCoats",
+      "StaircaseLog.LeafCoats",
+      "MetalSpiralStaircase.LeafCoats",
+      "DD_SlopeStairs.LeafCoats",
+      "SkyBridgeStairs.LeafCoats"
+    ]
+  }
+}

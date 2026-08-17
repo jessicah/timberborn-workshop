@@ -1,0 +1,57 @@
+{
+  "PlantablePreviewModelSpec": { "Model": "All/WillowMature/Young" },
+  "Children":
+  {
+    "#Models":
+    {
+      "Children":
+      {
+        "Seedling":
+        {
+          "Children":
+          {
+            "#Dead":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/YoungDead" }
+            },
+            "#Dying":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/YoungDry" }
+            },
+            "#Alive":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/Young" }
+            }
+          }
+        },
+        "Mature":
+        {
+          "Children":
+          {
+            "#Dead":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/GrownDead" }
+            },
+            "#Dying":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/GrownDry" }
+            },
+            "#Alive":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/WillowTree/Grown" }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": { "Model": "All/WillowTree/GrownStump" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "RecipeSpec": {
+    "Id": "oreTOsteel",
+  "DisplayLocKey": "Good.MetalBlock.PluralDisplayName",
+  "CycleDurationInHours": 80,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "Ironore",
+      "Amount": 100
+    },
+    {
+      "Id": "Coal",
+      "Amount": 50
+    },
+    {
+      "Id": "Methane",
+      "Amount": 50
+    }
+  ],
+  "Products": [
+    {
+      "Id": "MetalBlock",
+      "Amount": 20
+    }
+  ],
+  "ProducedSciencePoints": 10,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+	"BackwardCompatibleIds": []
+  }
+}

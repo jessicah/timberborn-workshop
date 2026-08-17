@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Lapantouflemagic",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/Radioactive",
+    "ChildTexture": "Materials/Beavers/Unique/Radioactive",
+    "Avatar": "Sprites/Avatars/Unique/LapanAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/Unique/LapanContaminatedAdult",
+    "ChildAvatar": "Sprites/Avatars/Unique/LapanChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/Unique/LapanContaminatedChild",
+    "BeaverFactionId": "Whitepaws",
+    "ExcludeFromNamePool": "True"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove":
+    [
+      "IceBlock"
+      "Nanobot"
+      "FrozenBeaverEmbryo"
+    ]
+  }
+}

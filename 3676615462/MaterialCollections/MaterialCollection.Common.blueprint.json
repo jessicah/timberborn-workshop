@@ -1,0 +1,30 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Common",
+    "Materials#append": [
+      // custom - might change
+      "Grauschweif/Material/Wood_Red.Grauschweif",
+      "Grauschweif/Material/Rope.Grauschweif",
+      "Grauschweif/Material/Stone.Grauschweif",
+      "Grauschweif/Material/Sand.Grauschweif",
+      "Grauschweif/Material/Dirt.Grauschweif",
+      "Grauschweif/Material/WindowsAtlas.Grauschweif",
+      "Grauschweif/Material/Details.Grauschweif",
+      // common - just refering vanilla folktails as fallback
+      "Grauschweif/Material/Common/BaseMetal.Common",
+      "Grauschweif/Material/Common/BaseWood.Common",
+      "Grauschweif/Material/Common/BaseWood_White.Common",
+      "Grauschweif/Material/Common/BaseWood_Brown.Common",
+      "Grauschweif/Material/Common/Details.Common",
+      "Grauschweif/Material/Common/IrregularPlanks.Common",
+      "Grauschweif/Material/Common/Moss.Common",
+      "Grauschweif/Material/Common/PaintedMetal.Common",
+      "Grauschweif/Material/Common/Paper.Common",
+      "Grauschweif/Material/Common/Path.Common",
+      "Grauschweif/Material/Common/Plaster.Common",
+      "Grauschweif/Material/Common/PlasteredWood.Common",
+      "Grauschweif/Material/Common/Roof.Common",
+      "Grauschweif/Material/Common/WindowsAtlas.Common"
+    ]
+  }
+}

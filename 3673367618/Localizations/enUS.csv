@@ -1,0 +1,14 @@
+ID,Text,Comment
+Grauschweif.RappellingRopes.DisplayName,"Rappelling Ropes","Menu group title for rappelling ropes"
+Grauschweif.CrappyRope.DisplayName,"Crappy Rope",
+Grauschweif.CrappyRope.Description,"Extends reach 2 down.",
+Grauschweif.CrappyRope.FlavorDescription,"A rope on a stick.",
+Grauschweif.DoubleCrappyRope.DisplayName,"Crappy double-sided Rope",
+Grauschweif.DoubleCrappyRope.Description,"Extends to both sides of a ridge.",
+Grauschweif.DoubleCrappyRope.FlavorDescription,"The inventor still brags about this…",
+Grauschweif.FastenedRope.DisplayName,"Fastended Rope",
+Grauschweif.FastenedRope.Description,"Extends reach 3 down. Works on buildings too.",
+Grauschweif.FastenedRope.FlavorDescription,"Sticky Rope 2.0",
+Grauschweif.RopeLadder.DisplayName,"Rope Ladder",
+Grauschweif.RopeLadder.Description,"Versatile alternative to stairs. Can reach 2m down.",
+Grauschweif.RopeLadder.FlavorDescription,"Should beavers build ships some day?",

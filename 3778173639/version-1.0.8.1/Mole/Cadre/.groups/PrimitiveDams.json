@@ -1,0 +1,30 @@
+#include <defines.h>
+{
+  TOGROUP(04000,PrimitiveDams),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(PrimitiveDam3x2),
+      TOTOOL(PrimitiveDam3x2Upgrade),
+      TOTOOL(PrimitiveDam3x3),
+      TOTOOL(PrimitiveDam3x3Upgrade),
+      TOTOOL(PrimitiveDam3x3Utility),
+      TOTOOL(PrimitiveDam3x3UtilityUpgrade),
+      TOTOOL(PrimitiveDam3x3Variant),
+      TOTOOL(PrimitiveDam3x3VariantUpgrade)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(PrimitiveDam3x2),
+      TOTOOL(PrimitiveDam3x2Upgrade),
+      TOTOOL(PrimitiveDam3x3),
+      TOTOOL(PrimitiveDam3x3Upgrade),
+      TOTOOL(PrimitiveDam3x3Utility),
+      TOTOOL(PrimitiveDam3x3UtilityUpgrade),
+      TOTOOL(PrimitiveDam3x3Variant),
+      TOTOOL(PrimitiveDam3x3VariantUpgrade)
+    ]
+  }
+}

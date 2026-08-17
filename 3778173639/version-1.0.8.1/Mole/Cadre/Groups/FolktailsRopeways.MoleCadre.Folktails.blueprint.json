@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Folktails", "Order": 101003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Folktails",
+      "SuspensionBridge2x1.Folktails",
+      "SuspensionBridge3x1.Folktails",
+      "SuspensionBridge4x1.Folktails",
+      "SuspensionBridge5x1.Folktails",
+      "SuspensionBridge6x1.Folktails",
+      "SuspensionBridge7x1.Folktails",
+      "SuspensionBridge8x1.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Folktails",
+      "SuspensionBridge2x1.Folktails",
+      "SuspensionBridge3x1.Folktails",
+      "SuspensionBridge4x1.Folktails",
+      "SuspensionBridge5x1.Folktails",
+      "SuspensionBridge6x1.Folktails",
+      "SuspensionBridge7x1.Folktails",
+      "SuspensionBridge8x1.Folktails"
+    ]
+  }
+}

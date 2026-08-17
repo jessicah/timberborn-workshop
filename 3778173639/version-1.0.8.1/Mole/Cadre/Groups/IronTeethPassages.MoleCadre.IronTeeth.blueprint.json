@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.IronTeeth", "Order": 201009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.IronTeeth",
+      "TE_Tunnel_1L.IronTeeth",
+      "TE_Tunnel_2L.IronTeeth",
+      "TE_Tunnel_3L.IronTeeth",
+      "TE_Tunnel_4L.IronTeeth",
+      "TE_Tunnel_5L.IronTeeth",
+      "TE_Tunnel_6L.IronTeeth",
+      "TE_Tunnel_7L.IronTeeth",
+      "TE_Tunnel_8L.IronTeeth",
+      "TE_Tunnel_9L.IronTeeth",
+      "TE_Tunnel_10L.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.IronTeeth",
+      "TE_Tunnel_1L.IronTeeth",
+      "TE_Tunnel_2L.IronTeeth",
+      "TE_Tunnel_3L.IronTeeth",
+      "TE_Tunnel_4L.IronTeeth",
+      "TE_Tunnel_5L.IronTeeth",
+      "TE_Tunnel_6L.IronTeeth",
+      "TE_Tunnel_7L.IronTeeth",
+      "TE_Tunnel_8L.IronTeeth",
+      "TE_Tunnel_9L.IronTeeth",
+      "TE_Tunnel_10L.IronTeeth"
+    ]
+  }
+}

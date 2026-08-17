@@ -1,0 +1,8 @@
+{
+  "BeaverFactionSplitBreedingSettings": {
+    "Id": "IronTeeth",
+    "Breed": false,
+    "Pod": true,
+    "Plant": false
+  }
+}

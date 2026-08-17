@@ -1,0 +1,62 @@
+{
+  "CharacterAvatarMapSpec": {
+    "AvatarMaps": [
+      {
+        "TextureName": "BeaverChild1.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild2.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild3.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult1.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult2.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult3.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult5.IronTeeth",
+        "AvatarPath": "Sprites/Avatars/IronTeethAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/IronTeethContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      }
+    ]
+  }
+}

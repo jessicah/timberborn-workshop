@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.Dirtclaws", "Order": 1122000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.Dirtclaws",
+      "TeethGrindstone.Dirtclaws",
+      "MedicalBed.Dirtclaws",
+      "MedicalTripleBed.Dirtclaws",
+      "Fixedmedicalbed_Burns.Dirtclaws",
+      "Fixedmedicalbed_Disease.Dirtclaws",
+      "Fixedmedicalbed_Injury.Dirtclaws",
+      "Clinic.Dirtclaws",
+      "DecontaminationPod.Dirtclaws",
+      "ContaminatedJail.Dirtclaws",
+      "WashingMachine.Dirtclaws",
+      "Herbalist.Dirtclaws",
+      "TankShower.Dirtclaws",
+      "Shower.Dirtclaws",
+      "DoubleShower.Dirtclaws",
+      "RiverBath.Dirtclaws",
+      "Scratcher.Dirtclaws",
+      "Massager.Dirtclaws",
+      "Sauna.Dirtclaws",
+      "Hammock.Dirtclaws",
+      "Swing.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.Dirtclaws",
+      "TeethGrindstone.Dirtclaws",
+      "MedicalBed.Dirtclaws",
+      "MedicalTripleBed.Dirtclaws",
+      "Fixedmedicalbed_Burns.Dirtclaws",
+      "Fixedmedicalbed_Disease.Dirtclaws",
+      "Fixedmedicalbed_Injury.Dirtclaws",
+      "Clinic.Dirtclaws",
+      "DecontaminationPod.Dirtclaws",
+      "ContaminatedJail.Dirtclaws",
+      "WashingMachine.Dirtclaws",
+      "Herbalist.Dirtclaws",
+      "TankShower.Dirtclaws",
+      "Shower.Dirtclaws",
+      "DoubleShower.Dirtclaws",
+      "RiverBath.Dirtclaws",
+      "Scratcher.Dirtclaws",
+      "Massager.Dirtclaws",
+      "Sauna.Dirtclaws",
+      "Hammock.Dirtclaws",
+      "Swing.Dirtclaws"
+    ]
+  }
+}

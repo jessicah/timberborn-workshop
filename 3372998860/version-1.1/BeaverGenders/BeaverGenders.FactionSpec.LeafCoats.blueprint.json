@@ -1,0 +1,16 @@
+{
+  "BeaverGendersFactionSpec": {
+    "FactionId": "LeafCoats",
+    "BeaverGenders": [
+      {
+        "GenderId": "Ace",
+        "Weight": 1,
+        "DwellingStats": {
+          "Weight": 3,
+          "Min": 0
+        }
+      }
+    ],
+    "DwellingChildWeight": 2
+  }
+}

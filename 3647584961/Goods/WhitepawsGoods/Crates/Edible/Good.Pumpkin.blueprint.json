@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "Pumpkin",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.5654056,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Pumpkin",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Pumpkin.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Pumpkin.PluralDisplayName"
+  }
+}

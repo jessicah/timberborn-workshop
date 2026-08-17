@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "MechanicalDrill.Iron.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "IRONMechanicalDrill" ]
+	}
+}

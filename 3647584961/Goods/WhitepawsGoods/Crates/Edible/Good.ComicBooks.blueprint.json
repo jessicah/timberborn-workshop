@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "ComicBooks",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "ComicBooks",
+        "Points": 1.0
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/BookIcon",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.ComicBooks.DisplayName",
+    "PluralDisplayNameLocKey": "Good.ComicBooks.PluralDisplayName"
+  }
+}

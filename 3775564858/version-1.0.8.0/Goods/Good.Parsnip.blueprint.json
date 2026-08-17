@@ -1,0 +1,37 @@
+{
+  "GoodSpec": {
+    "Id": "Parsnip",
+    "BackwardCompatibleIds":
+    [
+      "Wares.Parsnips.Emberpelts",
+      "Wares.Parsnips.Folktails",
+      "Wares.Parsnips.IronTeeth",
+      "Wares.Parsnips.LeafCoats",
+      "Wares.Parsnips.Whitepaws",
+      "Wares.Parsnips.Common",
+      "Wares.Parsnip.Emberpelts",
+      "Wares.Parsnip.Folktails",
+      "Wares.Parsnip.IronTeeth",
+      "Wares.Parsnip.LeafCoats",
+      "Wares.Parsnip.Whitepaws",
+      "Wares.Parsnip.Common"
+    ],
+    "ConsumptionEffects":
+    [
+      { "NeedId": "Hunger", "Points": 0.5 }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": { "r": 0.8, "g": 0.8, "b": 0.8, "a": 1.0 },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 16000,
+    "Icon": "Mole/Grows/Parsnips",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Wares.Parsnips.Lone",
+    "PluralDisplayNameLocKey": "Wares.Parsnips.Name"
+  }
+}

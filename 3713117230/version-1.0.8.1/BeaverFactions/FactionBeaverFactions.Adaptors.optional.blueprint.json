@@ -1,0 +1,9 @@
+{
+	"FactionBeaverFactionsSpec":
+	{
+		"BeaverFactions#append":
+		[
+			{ "BeaverFactionId": "LeafCoats", "Weight": 5 }
+		]
+	}
+}

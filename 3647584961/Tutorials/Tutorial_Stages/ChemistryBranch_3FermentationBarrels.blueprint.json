@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "3FermentationBarrels",
+    "IntroLocKey": "Tutorial.ChemistryBranch.3FermentationBarrels.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Fermenter.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    }
+  }
+}

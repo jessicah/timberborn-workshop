@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "EmberpeltsTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPEmberTrader.Whitepaws",
+			"WPEmberTrader",
+			"EmberTrader"
+		]
+	}
+}

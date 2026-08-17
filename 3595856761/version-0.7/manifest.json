@@ -1,0 +1,39 @@
+{
+  "Name": "Grauschweif's Scriptpack",
+  "Version": "0.7.3",
+  "Id": "Grauschweif.Scriptpack",
+  "MinimumGameVersion": "0.7.10.0",
+  "Description": "Scriptpack for other mods.
+  
+Provides functionality that can be used by other mod makers.
+See mod.io mod description for how to use.
+
+**Favorable Need system**
+
+Can attach to any NeedSpec, 'opposite' of the punitive needs system.
+
+{
+  \"NeedSpec\": { .. },
+  \"FavorableNeedSpec\": {
+    \"Favors\": [
+      { \"Id\": \"CarryingCapacity\", \"MultiplierDelta\": 0.3 }
+    ]
+  }
+}
+
+**Water Sources**
+
+There's three attachable specs, one making it ignore strength modifiers, one making drought half strength only and one making it ignore any contamination changes.
+
+**WhitepawsPatchSpec**
+
+can change swimming penalty and water units per voxel from json.
+",
+  "RequiredMods": [
+    {
+      // used for mod compatibility only
+      "Id": "Harmony",
+      "MinimumVersion": "2.3.3"
+    }
+  ]
+}

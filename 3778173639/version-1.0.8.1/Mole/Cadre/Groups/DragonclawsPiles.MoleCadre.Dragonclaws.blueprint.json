@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Dragonclaws", "Order": 1018000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Dragonclaws",
+      "SmallPile.Dragonclaws",
+      "SmallIndustrialPile.Dragonclaws",
+      "Mole.SmallPile.Dragonclaws",
+      "LongPile.Dragonclaws",
+      "PitPile.Dragonclaws",
+      "2x2PileRight.Dragonclaws",
+      "Pile.Dragonclaws",
+      "IndustrialPile.Dragonclaws",
+      "MediumPile.Dragonclaws",
+      "MediumIndustrialPile.Dragonclaws",
+      "LargePile.Dragonclaws",
+      "LargeIndustrialPile.Dragonclaws",
+      "Mole.TritePile.Dragonclaws",
+      "ExtraLargePile.Dragonclaws",
+      "ExtraLargeIndustrialPile.Dragonclaws",
+      "Mole.LargePile.Dragonclaws",
+      "GigargantuanPile.Dragonclaws",
+      "UndergroundPile.Dragonclaws",
+      "Mole.BuriedPile.Dragonclaws",
+      "GiantLogStorage.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.Dragonclaws",
+      "SmallPile.Dragonclaws",
+      "SmallIndustrialPile.Dragonclaws",
+      "Mole.SmallPile.Dragonclaws",
+      "LongPile.Dragonclaws",
+      "PitPile.Dragonclaws",
+      "2x2PileRight.Dragonclaws",
+      "Pile.Dragonclaws",
+      "IndustrialPile.Dragonclaws",
+      "MediumPile.Dragonclaws",
+      "MediumIndustrialPile.Dragonclaws",
+      "LargePile.Dragonclaws",
+      "LargeIndustrialPile.Dragonclaws",
+      "Mole.TritePile.Dragonclaws",
+      "ExtraLargePile.Dragonclaws",
+      "ExtraLargeIndustrialPile.Dragonclaws",
+      "Mole.LargePile.Dragonclaws",
+      "GigargantuanPile.Dragonclaws",
+      "UndergroundPile.Dragonclaws",
+      "Mole.BuriedPile.Dragonclaws",
+      "GiantLogStorage.Dragonclaws"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+#include <defines.h>
+{
+  _TOGROUP(02009,OtherPlatforms,Other),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Branch),
+      TOTOOL(TreeTrunk.Side.Branch),
+      TOTOOL(TreeTrunk.Side),
+      TOTOOL(TreeTrunk.Corner)
+    ],
+    "ChildrenOrderedIds":
+    [
+
+    ]
+  }
+}

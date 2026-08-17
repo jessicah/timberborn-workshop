@@ -1,0 +1,28 @@
+#include <defines.h>
+{
+  TOGROUP(02004,Overhangs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Overhang1x1),
+      TOTOOL(Overhang2x1),
+      TOTOOL(Overhang3x1),
+      TOTOOL(Overhang4x1),
+      TOTOOL(Overhang5x1),
+      TOTOOL(Overhang6x1),
+      TOTOOL(Overhang7x1)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Overhang1x1),
+      TOTOOL(Overhang2x1),
+      TOTOOL(Overhang3x1),
+      TOTOOL(Overhang4x1),
+      TOTOOL(Overhang5x1),
+      TOTOOL(Overhang6x1),
+      TOTOOL(Overhang7x1)
+    ]
+  }
+}

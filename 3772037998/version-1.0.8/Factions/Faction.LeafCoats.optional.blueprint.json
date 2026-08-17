@@ -1,0 +1,21 @@
+{
+  "FactionSpec":
+  {
+    "Logo": "Factions/LeafCoats/Symbol.LeafCoats",
+    "NewGameFullAvatar": "Factions/LeafCoats/NewGameAvatar.LeafCoats",
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.LeafCoats" ],
+    "GoodCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "NeedCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.LeafCoats",
+      "Actors.LeafCoats",
+      "Cadre.LeafCoats",
+      "Editing.LeafCoats",
+      "Effects.LeafCoats",
+      "Grows.LeafCoats",
+      "Parts.LeafCoats",
+      "Rides.LeafCoats"
+    ]
+  }
+}

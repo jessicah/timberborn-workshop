@@ -1,0 +1,14 @@
+﻿{
+  "ModelAttachmentSpec": {
+    "Id": "Fire.DistrictCenter.LeafCoats",
+    "Prefab": "Buildings/DistrictManagement/DistrictCenter/DistrictCenterFire",
+    "Parent": "#Finished"
+  },
+  "AttachmentTransformSpec": {
+    "Position": {
+      "X": 1.5,
+      "Y": 1.2,
+      "Z": 0.5
+    }
+  }
+}

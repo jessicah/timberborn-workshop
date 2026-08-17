@@ -1,0 +1,38 @@
+#include <defines.h>
+{
+    TOGROUP(21000,Batteries),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(GravityBattery),
+      TOTOOL(GravityBattery.TreeTrunk),
+      TOTOOL(GravityBattery.TreeTrunk2),
+      TOTOOL(SmallFlywheel),
+      TOTOOL(SmallHorizontalFramedFlywheel),
+      TOTOOL(SmallVerticalFramedFlywheel),
+      TOTOOL(MediumFlywheel),
+      TOTOOL(MediumHorizontalFramedFlywheel),
+      TOTOOL(MediumVerticalFramedFlywheel),
+      TOTOOL(LargeFlywheel),
+      TOTOOL(LargeHorizontalFramedFlywheel),
+      TOTOOL(LargeVerticalFramedFlywheel)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(GravityBattery),
+      TOTOOL(GravityBattery.TreeTrunk),
+      TOTOOL(GravityBattery.TreeTrunk2),
+      TOTOOL(SmallFlywheel),
+      TOTOOL(SmallHorizontalFramedFlywheel),
+      TOTOOL(SmallVerticalFramedFlywheel),
+      TOTOOL(MediumFlywheel),
+      TOTOOL(MediumHorizontalFramedFlywheel),
+      TOTOOL(MediumVerticalFramedFlywheel),
+      TOTOOL(LargeFlywheel),
+      TOTOOL(LargeHorizontalFramedFlywheel),
+      TOTOOL(LargeVerticalFramedFlywheel)
+    ]
+  }
+}

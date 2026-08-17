@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Log",
+    "Variant": "7x7",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -2.0
+    },
+    "LimitingAmount": 1.95,
+    "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7LogFused2880",
+    "SecondaryMesh": "",
+    "Material": "Materials/Goods/BeaverCarryingModels/BeaverCarryingModels",
+    "NonLinearity": -0.1
+  }
+}

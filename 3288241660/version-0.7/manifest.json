@@ -1,0 +1,13 @@
+{
+  "Name": "TimberApi",
+  "Version": "0.7.12.2",
+  "Id": "TimberApi",
+  "MinimumGameVersion": "0.7.3.1",
+  "Description": "TimberAPI supports modders to create new content in Timberborn.",
+  "RequiredMods": [
+    {
+      "Id": "Harmony",
+      "MinimumVersion": "2.3.3"
+    }
+  ]
+}

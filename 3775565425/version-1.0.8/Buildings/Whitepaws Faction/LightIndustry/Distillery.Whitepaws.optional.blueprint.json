@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Distillery.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Distillery" ]
+	}
+}

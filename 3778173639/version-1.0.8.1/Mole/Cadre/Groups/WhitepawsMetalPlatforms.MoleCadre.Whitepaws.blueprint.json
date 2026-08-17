@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Whitepaws", "Order": 502003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Whitepaws",
+      "LargeMetalPlatform.Whitepaws",
+      "MetalPlatform1x1.Whitepaws",
+      "MetalPlatform3x3.Whitepaws",
+      "MetalPlatform5x3.Whitepaws",
+      "MetalPlatform5x5.Whitepaws",
+      "MetalPlatform7x7.Whitepaws",
+      "MetalPlatform3x3.Ladder.Whitepaws",
+      "MetalPlatform5x5.Ladder.Whitepaws",
+      "MetalPlatform7x7.Ladder.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Whitepaws",
+      "LargeMetalPlatform.Whitepaws",
+      "MetalPlatform1x1.Whitepaws",
+      "MetalPlatform3x3.Whitepaws",
+      "MetalPlatform5x3.Whitepaws",
+      "MetalPlatform5x5.Whitepaws",
+      "MetalPlatform7x7.Whitepaws",
+      "MetalPlatform3x3.Ladder.Whitepaws",
+      "MetalPlatform5x5.Ladder.Whitepaws",
+      "MetalPlatform7x7.Ladder.Whitepaws"
+    ]
+  }
+}

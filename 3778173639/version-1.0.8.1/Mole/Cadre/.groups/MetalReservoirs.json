@@ -1,0 +1,93 @@
+#include <defines.h>
+{
+  TOGROUP(06000,MetalReservoirs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(MetalDam),
+      TOTOOL(Mole.MetalDam),
+      TOTOOL(MetalPowerDam),
+
+      TOTOOL(MetalFloodgateDam),
+      TOTOOL(MetalFloodgate),
+      TOTOOL(MetalDoubleFloodgate),
+      TOTOOL(MetalTripleFloodgate),
+      TOTOOL(MetalFloodgateDam),
+      TOTOOL(MetalFloodgate1),
+      TOTOOL(MetalFloodgate2),
+      TOTOOL(MetalFloodgate3),
+      TOTOOL(MetalFloodgate4),
+      TOTOOL(MetalFloodgate5),
+      TOTOOL(MetalFloodgate6),
+      TOTOOL(MetalFloodgate7),
+      TOTOOL(MetalFloodgate8),
+      TOTOOL(MetalFloodgate9),
+      TOTOOL(MetalFloodgate10),
+      TOTOOL(MetalFloodgate.Flat),
+      TOTOOL(MetalDoubleFloodgate.Flat),
+      TOTOOL(MetalTripleFloodgate.Flat),
+
+      TOTOOL(MetalLevee),
+      TOTOOL(Mole.MetalLevee),
+      TOTOOL(MetalLogLevee),
+      TOTOOL(MetalLogLevee2),
+      TOTOOL(MetalLevee.Curved),
+      TOTOOL(MetalTubewayLevee),
+      TOTOOL(MetalPowerLevee),
+      TOTOOL(MetalUPowerLevee),
+
+      TOTOOL(DE_SM_DiagonalW)
+
+    ],
+    "ChildrenGroupsIds":
+    [
+      TOID(MetalDamSolidLining1xN),
+      TOID(MetalDamSolidLining2xN),
+      TOID(MetalDamSolidLining3xN),
+      TOID(MetalDamDecor)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(MetalDam),
+      TOTOOL(Mole.MetalDam),
+      TOTOOL(MetalPowerDam),
+
+      TOTOOL(MetalFloodgateDam),
+      TOTOOL(MetalFloodgate),
+      TOTOOL(MetalDoubleFloodgate),
+      TOTOOL(MetalTripleFloodgate),
+      TOTOOL(MetalFloodgateDam),
+      TOTOOL(MetalFloodgate1),
+      TOTOOL(MetalFloodgate2),
+      TOTOOL(MetalFloodgate3),
+      TOTOOL(MetalFloodgate4),
+      TOTOOL(MetalFloodgate5),
+      TOTOOL(MetalFloodgate6),
+      TOTOOL(MetalFloodgate7),
+      TOTOOL(MetalFloodgate8),
+      TOTOOL(MetalFloodgate9),
+      TOTOOL(MetalFloodgate10),
+      TOTOOL(MetalFloodgate.Flat),
+      TOTOOL(MetalDoubleFloodgate.Flat),
+      TOTOOL(MetalTripleFloodgate.Flat),
+
+      TOTOOL(MetalLevee),
+      TOTOOL(Mole.MetalLevee),
+      TOTOOL(MetalLogLevee),
+      TOTOOL(MetalLogLevee2),
+      TOTOOL(MetalLevee.Curved),
+      TOTOOL(MetalTubewayLevee),
+      TOTOOL(MetalPowerLevee),
+      TOTOOL(MetalUPowerLevee),
+
+      TOTOOL(DE_SM_DiagonalW),
+
+      TOID(MetalDamSolidLining1xN),
+      TOID(MetalDamSolidLining2xN),
+      TOID(MetalDamSolidLining3xN),
+      TOID(MetalDamDecor)
+    ]
+  }
+}

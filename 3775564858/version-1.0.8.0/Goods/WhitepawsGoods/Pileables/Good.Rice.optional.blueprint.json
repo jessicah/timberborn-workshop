@@ -1,0 +1,24 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.RiceGrains.Emberpelts",
+      "Wares.RiceGrains.Folktails",
+      "Wares.RiceGrains.IronTeeth",
+      "Wares.RiceGrains.LeafCoats",
+      "Wares.RiceGrains.Whitepaws",
+      "Wares.RiceGrains.Common",
+      "Wares.Rice.Emberpelts",
+      "Wares.Rice.Folktails",
+      "Wares.Rice.IronTeeth",
+      "Wares.Rice.LeafCoats",
+      "Wares.Rice.Whitepaws",
+      "Wares.Rice.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/RiceGrains",
+    "DisplayNameLocKey": "Wares.RiceGrains.Name",
+    "PluralDisplayNameLocKey": "Wares.RiceGrains.Name"
+  }
+}

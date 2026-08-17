@@ -1,0 +1,32 @@
+{
+  "BeaverFactionSplitNeedsSpec":
+  {
+    /*
+    "Needs": [
+      "Radishes",
+      "Juice",
+      "RedJuice",
+      "CornJuice",
+      "GrilledCorn",
+      "GrilledPeppers",
+      "StuffedPeppers",
+      "Cornbread",
+    ],
+    */
+    "Needs#append": [
+      "Pepper",
+      //"AppleJuice",
+      //"TomatoJuice",
+      "PepperJuice",
+      //"GrilledBeetroot",
+      "Scone",
+      "PepperBread",
+    ],
+    "Needs#remove": [
+      "Apples",
+      "Tomatoes",
+      "ApplePie",
+      "BakedBeetroot",
+    ]
+  }
+}

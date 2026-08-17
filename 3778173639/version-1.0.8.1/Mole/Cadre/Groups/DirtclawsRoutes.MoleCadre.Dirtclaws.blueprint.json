@@ -1,0 +1,57 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Dirtclaws", "Order": 1102000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Mole.Path.Dirtclaws",
+      "Mole.DirtPath.Dirtclaws",
+      "Mole.WoodPath.Dirtclaws",
+      "Path.Dirtclaws",
+      "Path1.Dirtclaws",
+      "Path2.Dirtclaws",
+      "Path3.Dirtclaws",
+      "Path4.Dirtclaws",
+      "Path5.Dirtclaws",
+      "Path5.Dirtclaws",
+      "DistrictCrossing.Dirtclaws",
+      "BOTDistrictCrossing.Dirtclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Dirtclaws",
+      "Ladders.MoleCadre.Dirtclaws",
+      "Ropeways.MoleCadre.Dirtclaws",
+      "Bridges.MoleCadre.Dirtclaws",
+      "Walkways.MoleCadre.Dirtclaws",
+      "Branches.MoleCadre.Dirtclaws",
+      "Boosters.MoleCadre.Dirtclaws",
+      "Gates.MoleCadre.Dirtclaws",
+      "Passages.MoleCadre.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Mole.Path.Dirtclaws",
+      "Mole.DirtPath.Dirtclaws",
+      "Mole.WoodPath.Dirtclaws",
+      "Path.Dirtclaws",
+      "Path1.Dirtclaws",
+      "Path2.Dirtclaws",
+      "Path3.Dirtclaws",
+      "Path4.Dirtclaws",
+      "Path5.Dirtclaws",
+      "DistrictCrossing.Dirtclaws",
+      "BOTDistrictCrossing.Dirtclaws",
+      "Steps.MoleCadre.Dirtclaws",
+      "Ladders.MoleCadre.Dirtclaws",
+      "Ropeways.MoleCadre.Dirtclaws",
+      "Bridges.MoleCadre.Dirtclaws",
+      "Walkways.MoleCadre.Dirtclaws",
+      "Branches.MoleCadre.Dirtclaws",
+      "Boosters.MoleCadre.Dirtclaws",
+      "Gates.MoleCadre.Dirtclaws",
+      "Passages.MoleCadre.Dirtclaws"
+    ]
+  }
+}

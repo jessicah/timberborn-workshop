@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.IronTeeth", "Order": 202004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.IronTeeth",
+      "Overhang2x1.IronTeeth",
+      "Overhang3x1.IronTeeth",
+      "Overhang4x1.IronTeeth",
+      "Overhang5x1.IronTeeth",
+      "Overhang6x1.IronTeeth",
+      "Overhang7x1.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.IronTeeth",
+      "Overhang2x1.IronTeeth",
+      "Overhang3x1.IronTeeth",
+      "Overhang4x1.IronTeeth",
+      "Overhang5x1.IronTeeth",
+      "Overhang6x1.IronTeeth",
+      "Overhang7x1.IronTeeth"
+    ]
+  }
+}

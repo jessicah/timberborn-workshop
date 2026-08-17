@@ -1,0 +1,9 @@
+﻿{
+  "PrefabGroupSpec": {
+    "Id": "Landscaping.LeafCoats",
+    "Paths": [
+      "Buildings/Landscaping/Roof.LeafCoats",
+      "Buildings/Landscaping/Screw.LeafCoats"
+    ]
+  }
+}

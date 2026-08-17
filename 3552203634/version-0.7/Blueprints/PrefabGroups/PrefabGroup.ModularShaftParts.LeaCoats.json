@@ -1,0 +1,8 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "ModularShaftParts.LeafCoats",
+    "Paths": [
+      "Buildings/Power/PowerShaft/Models/ModularShaftParts.LeafCoats"
+    ]
+  }
+}

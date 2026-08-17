@@ -1,0 +1,14 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#append":
+    [
+      "Scaffolding",
+      "Rope",
+      "Anvil",
+      "MediumCauldron",
+      "Educativebooks",
+      "ChemistrySet"
+    ]
+  }
+}

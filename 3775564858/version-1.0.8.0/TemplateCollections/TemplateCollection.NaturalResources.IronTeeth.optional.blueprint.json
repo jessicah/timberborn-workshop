@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "NaturalResources/Trees/Mangrove/Mangrove.blueprint",
+      "NaturalResources/Bushes/Coffee/CoffeeBush.blueprint",
+      "NaturalResources/Crops/Canola/Canola.blueprint",
+      "NaturalResources/Crops/Cassava/Cassava.blueprint",
+      "NaturalResources/Crops/Corn/Corn.blueprint",
+      "NaturalResources/Crops/Eggplant/Eggplant.blueprint",
+      "NaturalResources/Crops/Kohlrabi/Kohlrabi.blueprint",
+      "NaturalResources/Crops/Soybean/Soybean.blueprint"
+    ]
+  }
+}

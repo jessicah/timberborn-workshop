@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.Ampears", "Order": 722000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.Ampears",
+      "TeethGrindstone.Ampears",
+      "MedicalBed.Ampears",
+      "MedicalTripleBed.Ampears",
+      "Fixedmedicalbed_Burns.Ampears",
+      "Fixedmedicalbed_Disease.Ampears",
+      "Fixedmedicalbed_Injury.Ampears",
+      "Clinic.Ampears",
+      "DecontaminationPod.Ampears",
+      "ContaminatedJail.Ampears",
+      "WashingMachine.Ampears",
+      "Herbalist.Ampears",
+      "TankShower.Ampears",
+      "Shower.Ampears",
+      "DoubleShower.Ampears",
+      "RiverBath.Ampears",
+      "Scratcher.Ampears",
+      "Massager.Ampears",
+      "Sauna.Ampears",
+      "Hammock.Ampears",
+      "Swing.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.Ampears",
+      "TeethGrindstone.Ampears",
+      "MedicalBed.Ampears",
+      "MedicalTripleBed.Ampears",
+      "Fixedmedicalbed_Burns.Ampears",
+      "Fixedmedicalbed_Disease.Ampears",
+      "Fixedmedicalbed_Injury.Ampears",
+      "Clinic.Ampears",
+      "DecontaminationPod.Ampears",
+      "ContaminatedJail.Ampears",
+      "WashingMachine.Ampears",
+      "Herbalist.Ampears",
+      "TankShower.Ampears",
+      "Shower.Ampears",
+      "DoubleShower.Ampears",
+      "RiverBath.Ampears",
+      "Scratcher.Ampears",
+      "Massager.Ampears",
+      "Sauna.Ampears",
+      "Hammock.Ampears",
+      "Swing.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+ID,Text,Comment
+GridCutting.Checkerboard.Title,Cut Trees: Checkerboard,Tool name
+GridCutting.Checkerboard.Description,Marks every other tree in a checkerboard pattern so the trees left standing reseed the gaps. Cuts about half.,Tool tooltip
+GridCutting.StripesHorizontal.Title,Cut Trees: Horizontal Stripes,Tool name
+GridCutting.StripesHorizontal.Description,Marks alternate rows of trees and leaves full horizontal seed rows between them. Cuts about half.,Tool tooltip
+GridCutting.StripesVertical.Title,Cut Trees: Vertical Stripes,Tool name
+GridCutting.StripesVertical.Description,Marks alternate columns of trees and leaves full vertical seed rows between them. Cuts about half.,Tool tooltip
+GridCutting.Thin.Title,Cut Trees: Thin,Tool name
+GridCutting.Thin.Description,Marks one tree in four — the gentlest thinning for the fastest regrowth. Cuts about a quarter.,Tool tooltip
+GridCutting.Heavy.Title,Cut Trees: Heavy,Tool name
+GridCutting.Heavy.Description,Marks three trees in four and keeps a sparse seed grid standing. Cuts about three quarters.,Tool tooltip
+GridCutting.Sparse.Title,Cut Trees: Sparse,Tool name
+GridCutting.Sparse.Description,Marks all but a widely-spaced grid of seed trees — each standing tree is ringed by empty tiles. Spawn chance does not rise with nearby trees so this is the most efficient pattern for natural reseeding. Cuts about four in five. Suggested by yo.bo.,Tool tooltip

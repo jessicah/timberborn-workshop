@@ -1,0 +1,21 @@
+{
+	"NeedSpec":
+	{
+		"Id": "GrapeJuice",
+		"BackwardCompatibleIds": [],
+		"Order": 20,
+		"NeedGroupId": "Nutrition",
+		"CharacterType": "Beaver",
+		"StartingValue": 0.0,
+		"MinimumValue": 0.0,
+		"MaximumValue": 1.0,
+		"DailyDelta": -0.05,
+		"ImportanceMultiplier": 0.5,
+		"Effectiveness": 1.0,
+		"Wastable": true,
+		"HoursWarningThreshold": 0.0,
+		"DisplayNameLocKey": "Wares.GrapeJuice.Name",
+		"FavorableWellbeing": 1,
+		"UnfavorableWellbeing": 0
+	}
+}

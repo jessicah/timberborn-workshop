@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.IslandBeavers", "Order": 822000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.IslandBeavers",
+      "TeethGrindstone.IslandBeavers",
+      "MedicalBed.IslandBeavers",
+      "MedicalTripleBed.IslandBeavers",
+      "Fixedmedicalbed_Burns.IslandBeavers",
+      "Fixedmedicalbed_Disease.IslandBeavers",
+      "Fixedmedicalbed_Injury.IslandBeavers",
+      "Clinic.IslandBeavers",
+      "DecontaminationPod.IslandBeavers",
+      "ContaminatedJail.IslandBeavers",
+      "WashingMachine.IslandBeavers",
+      "Herbalist.IslandBeavers",
+      "TankShower.IslandBeavers",
+      "Shower.IslandBeavers",
+      "DoubleShower.IslandBeavers",
+      "RiverBath.IslandBeavers",
+      "Scratcher.IslandBeavers",
+      "Massager.IslandBeavers",
+      "Sauna.IslandBeavers",
+      "Hammock.IslandBeavers",
+      "Swing.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.IslandBeavers",
+      "TeethGrindstone.IslandBeavers",
+      "MedicalBed.IslandBeavers",
+      "MedicalTripleBed.IslandBeavers",
+      "Fixedmedicalbed_Burns.IslandBeavers",
+      "Fixedmedicalbed_Disease.IslandBeavers",
+      "Fixedmedicalbed_Injury.IslandBeavers",
+      "Clinic.IslandBeavers",
+      "DecontaminationPod.IslandBeavers",
+      "ContaminatedJail.IslandBeavers",
+      "WashingMachine.IslandBeavers",
+      "Herbalist.IslandBeavers",
+      "TankShower.IslandBeavers",
+      "Shower.IslandBeavers",
+      "DoubleShower.IslandBeavers",
+      "RiverBath.IslandBeavers",
+      "Scratcher.IslandBeavers",
+      "Massager.IslandBeavers",
+      "Sauna.IslandBeavers",
+      "Hammock.IslandBeavers",
+      "Swing.IslandBeavers"
+    ]
+  }
+}

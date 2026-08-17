@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.Dirtclaws", "Order": 1124000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.Dirtclaws",
+      "Roof.Dynamic.Dirtclaws",
+      "Roof1x1.Dirtclaws",
+      "Roof1x2.Dirtclaws",
+      "Roof2x2.Dirtclaws",
+      "Roof2x3.Dirtclaws",
+      "Roof3x2.Dirtclaws",
+      "HalfRoof1x1.Dirtclaws",
+      "HalfRoof1x2.Dirtclaws",
+      "HalfRoof2x1.Dirtclaws",
+      "HalfRoof2x2.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.Dirtclaws",
+      "Roof.Dynamic.Dirtclaws",
+      "Roof1x1.Dirtclaws",
+      "Roof1x2.Dirtclaws",
+      "Roof2x2.Dirtclaws",
+      "Roof2x3.Dirtclaws",
+      "Roof3x2.Dirtclaws",
+      "HalfRoof1x1.Dirtclaws",
+      "HalfRoof1x2.Dirtclaws",
+      "HalfRoof2x1.Dirtclaws",
+      "HalfRoof2x2.Dirtclaws"
+    ]
+  }
+}

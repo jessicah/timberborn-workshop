@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.LeafCoats", "Order": 402006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.LeafCoats",
+      "ArcOverhang2x1.LeafCoats",
+      "ArcOverhang3x1.LeafCoats",
+      "ArcOverhang4x1.LeafCoats",
+      "ArcOverhang1x4.LeafCoats",
+      "ArcOverhang5x1.LeafCoats",
+      "ArcOverhang6x1.LeafCoats",
+      "ArcOverhang7x1.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.LeafCoats",
+      "ArcOverhang2x1.LeafCoats",
+      "ArcOverhang3x1.LeafCoats",
+      "ArcOverhang4x1.LeafCoats",
+      "ArcOverhang1x4.LeafCoats",
+      "ArcOverhang5x1.LeafCoats",
+      "ArcOverhang6x1.LeafCoats",
+      "ArcOverhang7x1.LeafCoats"
+    ]
+  }
+}

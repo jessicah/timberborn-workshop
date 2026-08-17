@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "ShaftBridges",
+    "Order": 32,
+    "NameLocKey": "Battery.PowerShaftExtensions.ToolGroups.ShaftBridges.DisplayName",
+    "Icon": "Battery.PowerShaftExtensions/Sprites/ShaftBridgesCategory-ico",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Power"
+    ]
+  }
+}

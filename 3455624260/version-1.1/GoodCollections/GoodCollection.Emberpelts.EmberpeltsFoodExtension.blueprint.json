@@ -1,0 +1,11 @@
+{
+  "GoodCollectionSpec": {
+    "CollectionId": "EmberpeltsAddons",
+    "Goods": [
+      "PepperJuice",
+      "GrilledBeetroot",
+      "Scone",
+      "PepperBread"
+    ]
+  }
+}

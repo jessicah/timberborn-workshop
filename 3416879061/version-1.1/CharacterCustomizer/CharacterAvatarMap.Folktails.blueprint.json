@@ -1,0 +1,62 @@
+{
+  "CharacterAvatarMapSpec": {
+    "AvatarMaps": [
+      {
+        "TextureName": "BeaverChild1.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild2.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverChild3.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsChild",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedChild",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult1.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult2.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult3.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult4.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      },
+      {
+        "TextureName": "BeaverAdult5.Folktails",
+        "AvatarPath": "Sprites/Avatars/FolktailsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/FolktailsContaminatedAdult",
+        "ChildAvatarPath": "",
+        "ContaminatedChildAvatarPath": ""
+      }
+    ]
+  }
+}

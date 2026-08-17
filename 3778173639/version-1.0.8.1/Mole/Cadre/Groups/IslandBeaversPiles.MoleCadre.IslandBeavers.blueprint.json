@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.IslandBeavers", "Order": 818000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.IslandBeavers",
+      "SmallPile.IslandBeavers",
+      "SmallIndustrialPile.IslandBeavers",
+      "Mole.SmallPile.IslandBeavers",
+      "LongPile.IslandBeavers",
+      "PitPile.IslandBeavers",
+      "2x2PileRight.IslandBeavers",
+      "Pile.IslandBeavers",
+      "IndustrialPile.IslandBeavers",
+      "MediumPile.IslandBeavers",
+      "MediumIndustrialPile.IslandBeavers",
+      "LargePile.IslandBeavers",
+      "LargeIndustrialPile.IslandBeavers",
+      "Mole.TritePile.IslandBeavers",
+      "ExtraLargePile.IslandBeavers",
+      "ExtraLargeIndustrialPile.IslandBeavers",
+      "Mole.LargePile.IslandBeavers",
+      "GigargantuanPile.IslandBeavers",
+      "UndergroundPile.IslandBeavers",
+      "Mole.BuriedPile.IslandBeavers",
+      "GiantLogStorage.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.IslandBeavers",
+      "SmallPile.IslandBeavers",
+      "SmallIndustrialPile.IslandBeavers",
+      "Mole.SmallPile.IslandBeavers",
+      "LongPile.IslandBeavers",
+      "PitPile.IslandBeavers",
+      "2x2PileRight.IslandBeavers",
+      "Pile.IslandBeavers",
+      "IndustrialPile.IslandBeavers",
+      "MediumPile.IslandBeavers",
+      "MediumIndustrialPile.IslandBeavers",
+      "LargePile.IslandBeavers",
+      "LargeIndustrialPile.IslandBeavers",
+      "Mole.TritePile.IslandBeavers",
+      "ExtraLargePile.IslandBeavers",
+      "ExtraLargeIndustrialPile.IslandBeavers",
+      "Mole.LargePile.IslandBeavers",
+      "GigargantuanPile.IslandBeavers",
+      "UndergroundPile.IslandBeavers",
+      "Mole.BuriedPile.IslandBeavers",
+      "GiantLogStorage.IslandBeavers"
+    ]
+  }
+}

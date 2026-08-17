@@ -1,0 +1,13 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "Mole/Grows/AppleTree.Mole.blueprint",
+      "Mole/Grows/MapleTree.Mole.blueprint",
+      "Mole/Grows/CanolaCrop.Mole.blueprint",
+      "Mole/Grows/CornCrop.Mole.blueprint",
+      "Mole/Grows/WheatCrop.Mole.blueprint"
+    ]
+  }
+}

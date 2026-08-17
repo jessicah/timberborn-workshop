@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "Lubricant",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Lubricant",
+        "Points": 0.3
+      }
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.5019608,
+      "g": 0.494117647,
+      "b": 0.454901963,
+      "a": 1.0
+    },
+    "ContainerMaterial": "Materials/Goods/Grease",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/GreaseIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Lubricant.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Lubricant.PluralDisplayName"
+  }
+}

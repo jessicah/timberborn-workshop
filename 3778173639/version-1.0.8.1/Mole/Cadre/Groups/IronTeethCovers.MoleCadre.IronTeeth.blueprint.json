@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.IronTeeth", "Order": 224000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.IronTeeth",
+      "Roof.Dynamic.IronTeeth",
+      "Roof1x1.IronTeeth",
+      "Roof1x2.IronTeeth",
+      "Roof2x2.IronTeeth",
+      "Roof2x3.IronTeeth",
+      "Roof3x2.IronTeeth",
+      "HalfRoof1x1.IronTeeth",
+      "HalfRoof1x2.IronTeeth",
+      "HalfRoof2x1.IronTeeth",
+      "HalfRoof2x2.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.IronTeeth",
+      "Roof.Dynamic.IronTeeth",
+      "Roof1x1.IronTeeth",
+      "Roof1x2.IronTeeth",
+      "Roof2x2.IronTeeth",
+      "Roof2x3.IronTeeth",
+      "Roof3x2.IronTeeth",
+      "HalfRoof1x1.IronTeeth",
+      "HalfRoof1x2.IronTeeth",
+      "HalfRoof2x1.IronTeeth",
+      "HalfRoof2x2.IronTeeth"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif.Ropes"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "grauschweif/buildings/path/crappyrope/crappyrope.blueprint",
+        "Modifier": "Modifiers/CrappyRope.LeafcoatsModifier.blueprint"
+      },
+      {
+        "Original": "grauschweif/buildings/path/crappyrope/doublecrappyrope.blueprint",
+        "Modifier": "Modifiers/DoubleCrappyRope.LeafcoatsModifier.blueprint"
+      },
+      {
+        "Original": "grauschweif/buildings/path/crappyrope/fastenedrope.blueprint",
+        "Modifier": "Modifiers/FastenedRope.LeafcoatsModifier.blueprint"
+      },
+      {
+        "Original": "grauschweif/buildings/path/crappyrope/ropeladder.blueprint",
+        "Modifier": "Modifiers/RopeLadder.LeafcoatsModifier.blueprint"
+      }
+    ]
+  }
+}

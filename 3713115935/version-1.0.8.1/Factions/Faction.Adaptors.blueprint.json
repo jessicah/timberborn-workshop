@@ -1,0 +1,46 @@
+{
+  "FactionSpec":
+  {
+    "Id": "Adaptors",
+    "Order": 0,
+    "Logo": "Sprites/Avatars/AdaptorsLogo",
+    "Avatar": "Sprites/Avatars/AdaptorsAdult",
+    "BotAvatar": "Sprites/Avatars/FolktailsBot",
+    "ChildAvatar": "Sprites/Avatars/AdaptorsChild",
+    "NewGameFullAvatar": "Sprites/Avatars/AdaptorsFullNewGame",
+    "ContaminatedAdultAvatar": "Sprites/Avatars/AdaptorsContaminatedAdult",
+    "ContaminatedChildAvatar": "Sprites/Avatars/AdaptorsContaminatedChild",
+    "Textures": [],
+    "ChildTextures": [],
+    "TemplateCollectionIds":
+    [
+      "Buildings.Adaptors",
+      "Characters.Adaptors",
+      "ModularShaftParts.Folktails",
+      "NaturalResources.Adaptors",
+      "Actors.Adaptors",
+      "Cadre.Adaptors",
+      "Editing.Adaptors",
+      "Effects.Adaptors",
+      "Grows.Adaptors",
+      "Parts.Adaptors",
+      "Rides.Adaptors"
+    ],
+    "MaterialCollectionIds": [ "Folktails", "IronTeeth", "Adaptors", "Lapantou" ],
+    "NeedCollectionIds": [ "Adaptors" ],
+    "GoodCollectionIds": [ "Adaptors" ],
+    "BlueprintModifiers": [],
+    "SoundId": "Common",
+    "DisplayNameLocKey": "Adaptors.Name",
+    "DescriptionLocKey": "Adaptors.Desc",
+    "GameOverMessageLocKey": "Adaptors.GameOver.Text",
+    "GameOverFlavorLocKey": "Adaptors.GameOver.Misc"
+  },
+  "FactionWonderSpec":
+  {
+    "WonderCompletionFlavorLocKey": "Adaptors.WonderCompletion.Misc",
+    "WonderCompletionMessageLocKey": "Adaptors.WonderCompletion.Text",
+    "WonderCompletionImage": "UI/Images/WonderCompletion/wonder-completion-adaptors",
+    "WonderLaunchSound": "UI.Buildings.Wonder.Congratulations"
+  }
+}

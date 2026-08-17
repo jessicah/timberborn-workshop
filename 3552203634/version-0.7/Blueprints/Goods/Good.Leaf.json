@@ -1,0 +1,18 @@
+{
+  "GoodSpec": {
+    "Id": "Leaf",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Leaf.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Leaf.PluralDisplayName",
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": { "Value": "Box" },
+    "ContainerColor": "#22E120",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "Icon": "Sprites/Goods/LeafIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

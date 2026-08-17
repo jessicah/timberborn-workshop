@@ -1,0 +1,20 @@
+{
+  "BeaverFactionSpec": {
+    "Id": "Emberpelts",
+    "DisplayNameLocKey": "Faction.Emberpelts.DisplayName",
+    "Textures": [
+      "BeaverAdult1.Emberpelts",
+      "BeaverAdult2.Emberpelts",
+      "BeaverAdult3.Emberpelts",
+      "BeaverAdult4.Emberpelts",
+      "BeaverAdult5.Emberpelts"
+    ],
+    "ChildTextures": [
+      "BeaverChild1.Emberpelts",
+      "BeaverChild2.Emberpelts",
+      "BeaverChild3.Emberpelts",
+      "BeaverChild4.Emberpelts",
+      "BeaverChild5.Emberpelts"
+    ]
+  }
+}

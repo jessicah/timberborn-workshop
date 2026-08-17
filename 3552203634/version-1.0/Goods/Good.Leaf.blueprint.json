@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Leaf",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.13333334,
+      "g": 0.882352948,
+      "b": 0.1254902,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/LeafIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Leaf.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Leaf.PluralDisplayName"
+  }
+}

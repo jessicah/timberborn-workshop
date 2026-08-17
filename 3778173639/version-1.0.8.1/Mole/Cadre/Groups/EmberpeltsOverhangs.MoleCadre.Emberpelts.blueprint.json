@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.Emberpelts", "Order": 302004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.Emberpelts",
+      "Overhang2x1.Emberpelts",
+      "Overhang3x1.Emberpelts",
+      "Overhang4x1.Emberpelts",
+      "Overhang5x1.Emberpelts",
+      "Overhang6x1.Emberpelts",
+      "Overhang7x1.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.Emberpelts",
+      "Overhang2x1.Emberpelts",
+      "Overhang3x1.Emberpelts",
+      "Overhang4x1.Emberpelts",
+      "Overhang5x1.Emberpelts",
+      "Overhang6x1.Emberpelts",
+      "Overhang7x1.Emberpelts"
+    ]
+  }
+}

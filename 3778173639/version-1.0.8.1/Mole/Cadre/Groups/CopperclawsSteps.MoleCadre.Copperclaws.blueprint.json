@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Copperclaws", "Order": 1301001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Copperclaws",
+      "MetalStairs.Copperclaws",
+      "MetalStaircase.Copperclaws",
+      "SpiralStairs.Copperclaws",
+      "SpiralStaircase.Copperclaws",
+      "StaircaseLog.Copperclaws",
+      "MetalSpiralStaircase.Copperclaws",
+      "DD_SlopeStairs.Copperclaws",
+      "SkyBridgeStairs.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Copperclaws",
+      "MetalStairs.Copperclaws",
+      "MetalStaircase.Copperclaws",
+      "SpiralStairs.Copperclaws",
+      "SpiralStaircase.Copperclaws",
+      "StaircaseLog.Copperclaws",
+      "MetalSpiralStaircase.Copperclaws",
+      "DD_SlopeStairs.Copperclaws",
+      "SkyBridgeStairs.Copperclaws"
+    ]
+  }
+}

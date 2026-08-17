@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "BadwaterRig.PurifiedWater",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Manufactory.Recipe.BadwaterRig.PurifiedWater",
+    "CycleDurationInHours": 10.0,
+    "Ingredients": [
+      {
+        "Id": "PhoenixEssence",
+        "Amount": 5
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Water",
+        "Amount": 45
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 30,
+    "Icon": "Sprites/Goods/WaterIcon"
+  }
+}

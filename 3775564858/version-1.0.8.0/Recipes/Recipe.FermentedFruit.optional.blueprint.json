@@ -1,0 +1,9 @@
+{
+  "NeedSpec#delete": {},
+  "GoodSpec#delete": {},
+  "RecipeSpec":
+  {
+    "Ingredients#remove": [ { "Id": "Grapes" } ],
+    "Ingredients#append": [ { "Id": "GreenGrapes", "Amount": 7 } ]
+  }
+}

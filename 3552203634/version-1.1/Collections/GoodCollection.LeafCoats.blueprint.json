@@ -1,0 +1,27 @@
+{
+  "GoodCollectionSpec": {
+    "CollectionId": "LeafCoats",
+    "Goods": [
+      "TreatedPlank",
+      "BotChassis",
+      "BotHead",
+      "BotLimb",
+      "Bark",
+      "Branch",
+      "Shovel",
+      "Apple",
+      "MangroveFruit",
+      "Grapes",
+      "Dandelion",
+      "MapleSyrup",
+      "Chestnut",
+      "FermentedChestnut",
+      "FermentedDandelion",
+      "FermentedFruit",
+      "FruitSalad",
+      "FancyApples",
+      "Antidote",
+      "Lubricant"
+    ]
+  }
+}

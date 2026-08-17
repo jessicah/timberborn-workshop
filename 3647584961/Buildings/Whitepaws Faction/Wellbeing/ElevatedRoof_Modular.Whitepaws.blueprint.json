@@ -1,0 +1,276 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 10
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ModularElevatedRoof.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 30,
+    "ToolShape": "Square",
+    "Layout": "TwoSegmentLine",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.ModularElevatedRoof.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.ModularElevatedRoof.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.ModularElevatedRoof.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/ElevatedRoof1x3_ALT"
+  },
+  "MergeableObjectModelSpec": {
+    "ModelNamePrefix": "Elevated_Walkway_"
+  },
+  "Children": {
+    "#Finished": {
+      "Children": {
+        "Elevated_Walkway_0000": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_0000.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.3,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.6,
+                  "Z": 0.2
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Elevated_Walkway_0001": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_0001.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.498386741,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.9967735,
+                  "Y": 0.5,
+                  "Z": 0.200000048
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Elevated_Walkway_0011": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_0011.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.7,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.55,
+                  "Y": 0.5,
+                  "Z": 0.2
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.7
+                },
+                "Size": {
+                  "X": 0.2,
+                  "Y": 0.5,
+                  "Z": 0.55
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Elevated_Walkway_0111": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_0111.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.75
+                },
+                "Size": {
+                  "X": 0.2,
+                  "Y": 0.5,
+                  "Z": 0.5
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.5,
+                  "Z": 0.2
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Elevated_Walkway_1010": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_0101.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.5,
+                  "Z": 0.2
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Elevated_Walkway_1111": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Elevated_Walkway_1111.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.5,
+                  "Z": 0.2
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.2,
+                  "Y": 0.5,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

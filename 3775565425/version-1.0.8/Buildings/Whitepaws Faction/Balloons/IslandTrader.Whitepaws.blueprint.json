@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "IslandBeaversTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPIslandTrader.Whitepaws",
+			"WPIslandTrader",
+			"IslandTrader"
+		]
+	}
+}

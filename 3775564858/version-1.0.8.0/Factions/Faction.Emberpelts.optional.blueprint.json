@@ -1,0 +1,75 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Emberpelts" ],
+    "GoodCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "NeedCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Emberpelts",
+      "Actors.Emberpelts",
+      "Cadre.Emberpelts",
+      "Editing.Emberpelts",
+      "Effects.Emberpelts",
+      "Grows.Emberpelts",
+      "Parts.Emberpelts",
+      "Rides.Emberpelts"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Emberpelts */
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetAppleTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BeetrootCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetBeetrootCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BeetrootCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddKohlrabi.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PepperCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetPepperCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PepperCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddEggplant.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RadishCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetRadishCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RadishCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddCarrot.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/TomatoCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetTomatoCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/TomatoCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/OldNames/AddPotato.optional.blueprint"
+      }
+    ]
+  }
+}

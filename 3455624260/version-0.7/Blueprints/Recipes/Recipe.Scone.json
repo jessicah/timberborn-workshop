@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "Scone",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Scone.PluralDisplayName",
+    "CycleDurationInHours": 1,
+    "CyclesCapacity": 30,
+    "Ingredients": [
+      {"Id": "WheatFlour","Amount": 1},
+      {"Id": "Berries","Amount": 1}
+    ],
+    "Products": [
+      {"Id": "Scone","Amount": 5}
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Coal",
+    "CyclesFuelLasts": 20,
+    "FuelCapacity": 5,
+    "Icon": "Sprites/Goods/SconeIcon"
+  }
+}

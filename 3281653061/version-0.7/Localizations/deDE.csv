@@ -1,0 +1,32 @@
+ID,Text,Comment
+Lapantouflemagic.Pitwarehouse.DisplayName,Hohes Lagerhaus,-
+Lapantouflemagic.Pitwarehouse.Description,"Ein oben zugänglicher Speicherort, der auch in entlegene Ecken passt.",-
+Lapantouflemagic.Pitwarehouse.FlavorDescription,"Hoffen wir, dass die Dinge am Boden nicht verrotten.",-
+Lapantouflemagic.Pitpile.DisplayName,Hoher Stapel,-
+Lapantouflemagic.Pitpile.Description,"Ein oben zugänglicher Speicherort, der auch in entlegene Ecken passt.",-
+Lapantouflemagic.Pitpile.FlavorDescription,"\u201EIch könnte leicht eine Leiche darin verstecken.\u201C
+\u2013 Jack der Knabberer",-
+Lapantouflemagic.SCoveredtank.DisplayName,Kleiner überdachter Tank,-
+Lapantouflemagic.SCoveredtank.Description,"Ein kleinerer Tank, auf dem aber gebaut werden kann.",-
+Lapantouflemagic.Longwarehouse.DisplayName,Langes Lagerhaus,-
+Lapantouflemagic.Longwarehouse.Description,"Ein etwas längerer Speicherort, der auch in entlegene Ecken passt.",-
+Lapantouflemagic.Longwarehouse.FlavorDescription,"\u201EIch frage mich, welche seltsamen Formen sich das Speicherkomitee als nächstes ausdenken wird.\u201C
+\u2013 Ein Holzfäller-Biber",-
+Lapantouflemagic.2x2pile.DisplayName,Mittlerer Stapel,-
+Lapantouflemagic.2x2pile.FlavorDescription,Der richtige Wechsel der Rohholzausrichtung ist wichtig,-
+Lapantouflemagic.Longpile.DisplayName,Langer Stapel,-
+Lapantouflemagic.Longpile.Description,"Ein etwas längerer Speicherort, der auch in entlegene Ecken passt.",-
+Lapantouflemagic.Longpile.FlavorDescription,"Um ehrlich zu sein, hatte ich eine verwinkelte Lagerung erwartet.",-
+Lapantouflemagic.PitTank.DisplayName,Hoher Tank,-
+Lapantouflemagic.PitTank.FlavorDescription,"Verliere den Eimer nicht, die Menschen haben für solche Dinge Kriege geführt.",-
+Lapantouflemagic.SCoveredtank.FlavorDescription,"Nicht die beste Art, Wasser zu lagern, aber wenigstens bleibt es sauber.",-
+Lapantouflemagic.GigargantuanPile.DisplayName,Gigantischer Stapel,-
+Lapantouflemagic.GigargantuanWarehouse.DisplayName,Gigantisches Lagerhaus,-
+Lapantouflemagic.GigargantuanStorage.Description,"Speichert eine unglaubliche Menge einer Ressource.
+<color=yellow>Erfordert Leitern für den Zugang</color>
+Die mittleren 7x1-Linien müssen nicht unterbaut werden.
+<color=#FF6EC7>Die Glasscheiben auf der Oberseite wurden freundlicherweise von den </color><b>WhitePaws</b><color=#FF6EC7> als Teil einer Eigenwerbekampagne zur Verfügung gestellt.</color>",-
+Lapantouflemagic.GigargantuanStorage.FlavorDescription,Hoffentlich ist das kein radioaktives Glas.,-
+Lapantouflemagic.GigargantuanStorageWP.Description,"Speichert eine unglaubliche Menge einer Ressource.
+Die mittleren 7x1-Linien müssen nicht unterbaut werden.",-
+Lapantouflemagic.GigargantuanStorageWP.FlavorDescription,"Dachten Sie, jemand würde Ihnen all das Glas umsonst geben? Wer würde das jemals tun?",-

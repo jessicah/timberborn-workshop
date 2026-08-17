@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Abyss.MoleCadre.Ampears", "Order": 716001, "NameLocKey": "Group.Abyss", "Icon": "Mole/Cadre/Abyss", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "AbyssElevator.Ampears",
+      "SupplementaryExplorationTeam.Ampears",
+      "NuclearWasteCollector.Ampears",
+      "GasExctractor.Ampears",
+      "AbyssExcavator.Ampears",
+      "HoomanUndergroundChemPlant.Ampears",
+      "HoomanUndergroundFactory.Ampears",
+      "DeepMinePILEstorage.Ampears",
+      "DeepMineBOXStorage.Ampears",
+      "AbyssTourismCenter.Ampears",
+      "HoomanMedicalFacility.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "AbyssElevator.Ampears",
+      "SupplementaryExplorationTeam.Ampears",
+      "NuclearWasteCollector.Ampears",
+      "GasExctractor.Ampears",
+      "AbyssExcavator.Ampears",
+      "HoomanUndergroundChemPlant.Ampears",
+      "HoomanUndergroundFactory.Ampears",
+      "DeepMinePILEstorage.Ampears",
+      "DeepMineBOXStorage.Ampears",
+      "AbyssTourismCenter.Ampears",
+      "HoomanMedicalFacility.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "1x1x2Storage.Whitepaws",
+    "Blueprints": [
+      "ModularStoragePrefabs/PitpileWP.blueprint",
+      "ModularStoragePrefabs/PitwarehouseWP.blueprint",
+      "ModularStoragePrefabs/SCoveredtankWP.blueprint",
+      "ModularStoragePrefabs/LongWarehouseWP.blueprint",
+      "ModularStoragePrefabs/2x2pileRightWP.blueprint",
+      "ModularStoragePrefabs/LongpileWP.blueprint",
+      "ModularStoragePrefabs/PitTankWP.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileWP.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseWP.blueprint"
+    ]
+  }
+}

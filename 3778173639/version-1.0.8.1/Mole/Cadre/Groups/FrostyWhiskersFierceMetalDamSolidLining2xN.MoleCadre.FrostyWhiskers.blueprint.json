@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining2xN.MoleCadre.FrostyWhiskers", "Order": 608002, "NameLocKey": "Group.FierceMetalDamSolidLining2xN", "Icon": "Mole/Cadre/DamSolidLining2xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW2x1.FrostyWhiskers",
+      "DE_A_RM_SquareW2x2.FrostyWhiskers",
+      "DE_A_RM_SquareW2x3.FrostyWhiskers",
+      "DE_A_RM_SlopeW2x.FrostyWhiskers",
+      "DE_A_RM_InvSlopeW2X.FrostyWhiskers",
+      "DE_A_RM_InvCornerW2X.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW2x1.FrostyWhiskers",
+      "DE_A_RM_SquareW2x2.FrostyWhiskers",
+      "DE_A_RM_SquareW2x3.FrostyWhiskers",
+      "DE_A_RM_SlopeW2x.FrostyWhiskers",
+      "DE_A_RM_InvSlopeW2X.FrostyWhiskers",
+      "DE_A_RM_InvCornerW2X.FrostyWhiskers"
+    ]
+  }
+}

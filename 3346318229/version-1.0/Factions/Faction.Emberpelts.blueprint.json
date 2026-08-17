@@ -1,0 +1,84 @@
+{
+  "FactionSpec": {
+    "Id": "Emberpelts",
+    "Order": 5176,
+    "Avatar": "Sprites/Avatars/EmberpeltsAdult",
+    "ChildAvatar": "Sprites/Avatars/EmberpeltsChild",
+    "BotAvatar": "Sprites/Avatars/EmberpeltsBot",
+    "ContaminatedAdultAvatar": "Sprites/Avatars/EmberpeltsContaminatedAdult",
+    "ContaminatedChildAvatar": "Sprites/Avatars/EmberpeltsContaminatedChild",
+    "Logo": "Sprites/Avatars/EmberpeltsLogo",
+    "NewGameFullAvatar": "Sprites/Avatars/EmberpeltsFullNewGame",
+    "Textures": [
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult5.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult6.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult5.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult7.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult5.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult8.Emberpelts"
+    ],
+    "ChildTextures": [
+      "Materials/Beavers/Emberpelts/Child/BeaverChild1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild5.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild6.Emberpelts"
+    ],
+    "MaterialCollectionIds": [
+      "Folktails",
+      "IronTeeth",
+      "Emberpelts"
+    ],
+    "TemplateCollectionIds": [
+      "Buildings.Emberpelts",
+      "Characters.Emberpelts",
+      "ModularShaftParts.Emberpelts",
+      "NaturalResources.Emberpelts"
+    ],
+    "PathMaterial": "Materials/UberAtlas/Emberpelts/Path.Emberpelts",
+    "BaseWoodMaterial": "Materials/UberAtlas/Emberpelts/BaseWood_DarkRed.Emberpelts",
+    "NeedCollectionIds": [
+      "Emberpelts",
+      "EmberpeltsAddons"
+    ],
+    "GoodCollectionIds": [
+      "Emberpelts",
+      "EmberpeltsAddons"
+    ],
+    "BlueprintModifiers": [
+      {
+        "Original": "buildings/paths/path/path.blueprint",
+        "Modifier": "Factions/Path.EmberpeltsModifier.blueprint"
+      },
+      {
+        "Original": "needcollections/needcollection.common.blueprint",
+        "Modifier": "Factions/NeedCollection.Common.EmberpeltsModifier.blueprint"
+      }
+    ],
+    "StartingBuildingId": "DistrictCenter.Emberpelts",
+    "SoundId": "Common",
+    "DisplayNameLocKey": "Faction.Emberpelts.DisplayName",
+    "DescriptionLocKey": "Faction.Emberpelts.Description",
+    "GameOverMessageLocKey": "Faction.Folktails.GameOver.Message",
+    "GameOverFlavorLocKey": "Faction.Folktails.GameOver.Flavor"
+  },
+  "FactionWonderSpec": {
+    "WonderCompletionImage": "Sprites/WonderCompletion/Wonder.Completion.Emberpelts",
+    "WonderLaunchSound": "UI.Buildings.Wonder.EarthRecultivator",
+    "WonderCompletionFlavorLocKey": "Faction.Emberpelts.WonderCompletionFlavor",
+    "WonderCompletionMessageLocKey": "Faction.Emberpelts.WonderCompletionMessage"
+  }
+}

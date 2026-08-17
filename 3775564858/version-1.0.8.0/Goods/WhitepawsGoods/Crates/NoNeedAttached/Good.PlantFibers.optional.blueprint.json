@@ -1,0 +1,23 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.PlantFibers.Emberpelts",
+      "Wares.PlantFibers.Folktails",
+      "Wares.PlantFibers.IronTeeth",
+      "Wares.PlantFibers.LeafCoats",
+      "Wares.PlantFibers.Whitepaws",
+      "Wares.PlantFibers.Common",
+      "Wares.PlantFiber.Emberpelts",
+      "Wares.PlantFiber.Folktails",
+      "Wares.PlantFiber.IronTeeth",
+      "Wares.PlantFiber.LeafCoats",
+      "Wares.PlantFiber.Whitepaws",
+      "Wares.PlantFiber.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/PlantFibers",
+    "DisplayNameLocKey": "Wares.PlantFibers.Lone",
+    "PluralDisplayNameLocKey": "Wares.PlantFibers.Name"
+  }
+}

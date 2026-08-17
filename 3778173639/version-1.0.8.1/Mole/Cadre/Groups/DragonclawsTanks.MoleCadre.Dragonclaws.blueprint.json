@@ -1,0 +1,41 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Dragonclaws", "Order": 1020000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Dragonclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Dragonclaws",
+      "SmallCoveredTank.Dragonclaws",
+      "SmallTank.Dragonclaws",
+      "Mole.SmallTank.Dragonclaws",
+      "PitTank.Dragonclaws",
+      "MediumTank.Dragonclaws",
+      "Mole.TriteTank.Dragonclaws",
+      "LargeTank.Dragonclaws",
+      "Mole.LargeTank.Dragonclaws",
+      "UndergroundTank.Dragonclaws",
+      "Mole.BuriedTank.Dragonclaws",
+      "LargeUndergroundTank.Dragonclaws",
+      "GazTank.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Dragonclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Dragonclaws",
+      "SmallCoveredTank.Dragonclaws",
+      "SmallTank.Dragonclaws",
+      "Mole.SmallTank.Dragonclaws",
+      "PitTank.Dragonclaws",
+      "MediumTank.Dragonclaws",
+      "Mole.TriteTank.Dragonclaws",
+      "LargeTank.Dragonclaws",
+      "Mole.LargeTank.Dragonclaws",
+      "UndergroundTank.Dragonclaws",
+      "Mole.BuriedTank.Dragonclaws",
+      "LargeUndergroundTank.Dragonclaws",
+      "GazTank.Dragonclaws"
+    ]
+  }
+}

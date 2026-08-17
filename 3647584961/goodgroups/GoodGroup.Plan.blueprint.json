@@ -1,0 +1,9 @@
+{
+  "GoodGroupSpec": {
+    "Id": "Plan",
+    "Order": 70,
+    "Icon": "Sprites/Whitepaws Sprites/Other/Plan",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "TopBar.Plan"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Badfurs", "Order": 1220000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Badfurs",
+      "Pit-and-LadderLodge_LiquidStorage.Badfurs",
+      "SmallCoveredTank.Badfurs",
+      "SmallTank.Badfurs",
+      "Mole.SmallTank.Badfurs",
+      "PitTank.Badfurs",
+      "MediumTank.Badfurs",
+      "Mole.TriteTank.Badfurs",
+      "LargeTank.Badfurs",
+      "Mole.LargeTank.Badfurs",
+      "UndergroundTank.Badfurs",
+      "Mole.BuriedTank.Badfurs",
+      "LargeUndergroundTank.Badfurs",
+      "GazTank.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Badfurs",
+      "Pit-and-LadderLodge_LiquidStorage.Badfurs",
+      "SmallCoveredTank.Badfurs",
+      "SmallTank.Badfurs",
+      "Mole.SmallTank.Badfurs",
+      "PitTank.Badfurs",
+      "MediumTank.Badfurs",
+      "Mole.TriteTank.Badfurs",
+      "LargeTank.Badfurs",
+      "Mole.LargeTank.Badfurs",
+      "UndergroundTank.Badfurs",
+      "Mole.BuriedTank.Badfurs",
+      "LargeUndergroundTank.Badfurs",
+      "GazTank.Badfurs"
+    ]
+  }
+}

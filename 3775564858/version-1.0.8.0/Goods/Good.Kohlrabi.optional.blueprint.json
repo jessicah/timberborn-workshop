@@ -1,0 +1,14 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Kohlrabi.Emberpelts",
+      "Wares.Kohlrabi.Folktails",
+      "Wares.Kohlrabi.IronTeeth",
+      "Wares.Kohlrabi.LeafCoats",
+      "Wares.Kohlrabi.Whitepaws",
+      "Wares.Kohlrabi.Common"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Name": "TimberApi",
+  "Version": "0.8.0.0",
+  "Id": "TimberApi",
+  "MinimumGameVersion": "0.7.3.1",
+  "Description": "TimberApi features are implemented in the game.",
+}

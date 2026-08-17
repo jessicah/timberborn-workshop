@@ -1,0 +1,21 @@
+{
+	"NeedSpec":
+	{
+		"Id": "BotKit",
+		"BackwardCompatibleIds": [ "FolktailsBotKit", "IronTeethBotKit", "EmberpeltsBotKit" ],
+		"Order": 9,
+		"NeedGroupId": "Boosts",
+		"CharacterType": "Bot",
+		"DisplayNameLocKey": "Wares.BotKits.Name",
+		"StartingValue": 0.0,
+		"MinimumValue": 0.0,
+		"MaximumValue": 1.0,
+		"DailyDelta": -0.75,
+		"ImportanceMultiplier": 1.0,
+		"Effectiveness": 1.0,
+		"Wastable": true,
+		"HoursWarningThreshold": 0.0,
+		"FavorableWellbeing": 10,
+		"UnfavorableWellbeing": 0
+	}
+}

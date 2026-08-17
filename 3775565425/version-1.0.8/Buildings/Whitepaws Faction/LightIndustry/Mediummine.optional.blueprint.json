@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "MediumMine.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Mediummine" ]
+	}
+}

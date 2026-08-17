@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PrimitivePapermill.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "primitivepapermill" ]
+	}
+}

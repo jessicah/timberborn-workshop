@@ -1,0 +1,35 @@
+#include <defines.h>
+{
+  TOGROUP(01004,Bridges),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(TE_Bridge_1x1),
+      TOTOOL(TE_Bridge_1x2),
+      TOTOOL(TE_Bridge_1x3),
+      TOTOOL(TE_Bridge_1x4),
+      TOTOOL(TE_Bridge_1x5),
+      TOTOOL(TE_Bridge_1x6),
+      TOTOOL(TE_BridgeF_1x7),
+      TOTOOL(TE_BridgeF_1x8),
+      TOTOOL(TE_BridgeF_1x9),
+      TOTOOL(TE_BridgeF_1x10)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(TE_Bridge_1x1),
+      TOTOOL(TE_Bridge_1x2),
+      TOTOOL(TE_Bridge_1x3),
+      TOTOOL(TE_Bridge_1x4),
+      TOTOOL(TE_Bridge_1x5),
+      TOTOOL(TE_Bridge_1x6),
+      TOTOOL(TE_BridgeF_1x7),
+      TOTOOL(TE_BridgeF_1x8),
+      TOTOOL(TE_BridgeF_1x9),
+      TOTOOL(TE_BridgeF_1x10)
+    ]
+  }
+
+}

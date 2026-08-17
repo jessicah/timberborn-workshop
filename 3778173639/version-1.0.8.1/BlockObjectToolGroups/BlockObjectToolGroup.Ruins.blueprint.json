@@ -1,0 +1,10 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Ruins",
+    "Order": 33000,
+    "NameLocKey": "ToolGroups.Ruins",
+    "Icon": "Sprites/BottomBar/BuildingGroups/Ruins",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": { "ParentIds": [ "Other" ] }
+}

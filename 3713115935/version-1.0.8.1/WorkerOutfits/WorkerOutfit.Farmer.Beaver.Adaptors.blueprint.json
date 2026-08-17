@@ -1,0 +1,10 @@
+{
+	"WorkerOutfitSpec": {
+		"Id": "Farmer",
+		"FactionId": "Adaptors",
+		"WorkerType": "Beaver",
+		"Attachments": [
+			"FarmerHat.Beaver.Folktails"
+		]
+	}
+}

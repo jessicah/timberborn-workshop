@@ -1,0 +1,8 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "GreedyEmbers",
+    "Needs#append": [
+      "WetFurBad",
+    ]
+  }
+}

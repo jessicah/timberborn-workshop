@@ -1,0 +1,243 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "Buildings.LeafCoats",
+    "Paths": [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator",
+
+      "Buildings/Decoration/Bench.LeafCoats",
+      "Buildings/Decoration/Fences/Hedge.LeafCoats",
+      "Buildings/Decoration/Fences/MetalFence.LeafCoats",
+      "Buildings/Decoration/WindGauge.LeafCoats",
+
+      "Buildings/Decoration/Shrub1.LeafCoats",
+      "Buildings/Decoration/Shrub2.LeafCoats",
+      "Buildings/Decoration/Lantern.LeafCoats",
+      "Buildings/Decoration/BeaverBust.LeafCoats",
+      "Buildings/Decoration/Scarecrow.LeafCoats",
+      "Buildings/Decoration/BeaverStatue.LeafCoats",
+      "Buildings/Decoration/Clock.LeafCoats",
+
+/*
+      "Buildings/Decoration/Roof1x1/Roof1x1.Folktails",
+      "Buildings/Decoration/Roof1x2/Roof1x2.Folktails",
+      "Buildings/Decoration/Roof2x2/Roof2x2.Folktails",
+      "Buildings/Decoration/Roof2x3/Roof2x3.Folktails",
+      "Buildings/Decoration/Roof3x2/Roof3x2.Folktails",
+*/
+
+      "Buildings/DistrictManagement/DistrictCenter.LeafCoats",
+
+      "Buildings/DistrictManagement/BuildersHut.LeafCoats",
+      "Buildings/DistrictManagement/HaulingPost.LeafCoats",
+      "Buildings/DistrictManagement/DistrictCrossing.LeafCoats",
+
+      "Buildings/DistrictManagement/DistrictGate.LeafCoats",
+
+
+      "Buildings/Food/GathererFlag.LeafCoats",
+      "Buildings/Food/Beehive.LeafCoats",
+      "Buildings/Food/FoodProcessor.LeafCoats",
+      "Buildings/Food/Fermenter.LeafCoats",
+      //"Buildings/Food/Gristmill.LeafCoats",
+
+
+      "Buildings/Housing/HousingUnit.Small.LeafCoats",
+      "Buildings/Housing/HousingUnit.Medium.LeafCoats",
+      "Buildings/Housing/HousingUnit.LeafCoats",
+      "Buildings/Housing/HousingUnit.Double.LeafCoats",
+
+
+      "Buildings/Landscaping/ToolFactory.LeafCoats",
+      //"Buildings/Landscaping/DiggerFlag.LeafCoats",
+      "Buildings/Landscaping/LooseDirt.LeafCoats",
+      "Buildings/Landscaping/LoosenDirt.LeafCoats",
+      "Buildings/Landscaping/RemoveDirt.LeafCoats",
+
+      "Buildings/Landscaping/Dam.LeafCoats",
+
+      "Buildings/Landscaping/Levee.LeafCoats",
+      "Buildings/Landscaping/Levee.Curved.LeafCoats",
+      "Buildings/Landscaping/LeveeTunnel.LeafCoats",
+
+      "Buildings/Landscaping/Floodgates/Floodgate.LeafCoats",
+      "Buildings/Landscaping/Floodgates/DoubleFloodgate.LeafCoats",
+      "Buildings/Landscaping/Floodgates/TripleFloodgate.LeafCoats",
+
+      "Buildings/Landscaping/Floodgates/Floodgate.Flat.LeafCoats",
+      "Buildings/Landscaping/Floodgates/DoubleFloodgate.Flat.LeafCoats",
+      "Buildings/Landscaping/Floodgates/TripleFloodgate.Flat.LeafCoats",
+
+      "Buildings/Landscaping/Sluice.LeafCoats",
+
+      "Buildings/Landscaping/ImpermeableFloor.LeafCoats",
+      "Buildings/Landscaping/ContaminationBarrier.LeafCoats",
+
+      "Buildings/Landscaping/Tunnel.LeafCoats",
+
+      "Buildings/Landscaping/DirtExcavator.LeafCoats",
+      "Buildings/Landscaping/TerrainBlock.LeafCoats",
+
+
+      "Buildings/Metal/Mine.LeafCoats",
+      "Buildings/Metal/ScavengerFlag.LeafCoats",
+      "Buildings/Metal/Shredder.LeafCoats",
+
+
+      "Buildings/Monuments/LaborerMonument.LeafCoats",
+      "Buildings/Monuments/FountainOfJoy.LeafCoats",
+      "Buildings/Monuments/TributeToIngenuity.LeafCoats",
+      //"Buildings/Monuments/EarthRecultivator/EarthRecultivator.Folktails",
+
+
+      "Buildings/Paths/Paths/Path.LeafCoats",
+      "Buildings/Paths/Paths/Path2.LeafCoats",
+      "Buildings/Paths/Paths/Path3.LeafCoats",
+      "Buildings/Paths/Paths/Path4.LeafCoats",
+      "Buildings/Paths/Paths/Path5.LeafCoats",
+      "Buildings/Paths/WoodenStairs.LeafCoats",
+      "Buildings/Paths/Ladders/Ladder.Simple.LeafCoats",
+      //"Buildings/Paths/Ladders/Ladder.LeafCoats",
+      "Buildings/Paths/Ladders/Ladder.Core.LeafCoats",
+      "Buildings/Paths/DecorativeFloor.LeafCoats",
+
+      "Buildings/Paths/Bridges/SuspensionBridge1x1.LeafCoats",
+      "Buildings/Paths/Bridges/SuspensionBridge2x1.LeafCoats",
+      "Buildings/Paths/Bridges/SuspensionBridge3x1.LeafCoats",
+      "Buildings/Paths/Bridges/SuspensionBridge4x1.LeafCoats",
+      "Buildings/Paths/Bridges/SuspensionBridge5x1.LeafCoats",
+      "Buildings/Paths/Bridges/SuspensionBridge6x1.LeafCoats",
+
+
+      "Buildings/TreeBuildings/TreeTrunk.Side.LeafCoats",
+      "Buildings/TreeBuildings/TreeTrunk.Side.Branch.LeafCoats",
+      "Buildings/TreeBuildings/TreeTrunk.Corner.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge1x1.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge2x1.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge3x1.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge4x1.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge5x1.LeafCoats",
+      "Buildings/TreeBuildings/Branches/Branch.Bridge6x1.LeafCoats",
+
+
+      "Buildings/Platforms/Platform.LeafCoats",
+      "Buildings/Platforms/DoublePlatform.LeafCoats",
+      "Buildings/Platforms/TriplePlatform.LeafCoats",
+
+
+      "Buildings/Platforms/Overhangs/Overhang1x1.LeafCoats",
+      "Buildings/Platforms/Overhangs/Overhang2x1.LeafCoats",
+      "Buildings/Platforms/Overhangs/Overhang3x1.LeafCoats",
+      "Buildings/Platforms/Overhangs/Overhang4x1.LeafCoats",
+      "Buildings/Platforms/Overhangs/Overhang5x1.LeafCoats",
+      "Buildings/Platforms/Overhangs/Overhang6x1.LeafCoats",
+      "Buildings/Platforms/MetalPlatforms/MetalPlatform3x3.LeafCoats",
+      "Buildings/Platforms/MetalPlatforms/MetalPlatform5x5.LeafCoats",
+
+      "Buildings/Platforms/MetalPlatforms/MetalPlatform3x3.Ladder.LeafCoats",
+      "Buildings/Platforms/MetalPlatforms/MetalPlatform5x5.Ladder.LeafCoats",
+
+
+      "Buildings/Power/WaterWheel.LeafCoats",
+      "Buildings/Power/PowerTreadmill.LeafCoats",
+
+      "Buildings/Power/PowerDam.LeafCoats",
+      "Buildings/Power/Windmill.LeafCoats",
+      //"Buildings/Power/LargeWindmill.LeafCoats",
+      "Buildings/Power/Windmill.TreeTrunk.LeafCoats",
+      "Buildings/Power/Windmill.TreeTop.LeafCoats",
+
+      "Buildings/Power/PowerLevee.LeafCoats",
+      "Buildings/Power/PowerLeveeTunnel.LeafCoats",
+
+      "Buildings/Power/PowerShaft/PowerShaft.LeafCoats",
+      "Buildings/Power/PowerShaft/VerticalPowerShaft.LeafCoats",
+      "Buildings/Power/PowerShaft/VerticalPowerShaftTunnel.LeafCoats",
+
+      "Buildings/Power/GravityBattery.LeafCoats",
+      "Buildings/Power/GravityBattery.TreeTrunk.LeafCoats",
+      "Buildings/Power/GravityBattery.TreeTrunk2.LeafCoats",
+
+
+      "Buildings/Science/Inventor.LeafCoats",
+      "Buildings/Science/Observatory.LeafCoats",
+      "Buildings/Science/BotPartFactory.LeafCoats",
+      "Buildings/Science/BotAssembler.LeafCoats",
+      "Buildings/Science/ChargingStation.LeafCoats",
+      "Buildings/Science/ChargingStation.Tree.LeafCoats",
+      "Buildings/Science/Refinery.LeafCoats",
+      "Buildings/Science/ControlTower.LeafCoats",
+
+
+      "Buildings/Storage/SmallWarehouse.LeafCoats",
+      "Buildings/Storage/Warehouse.LeafCoats",
+      "Buildings/Storage/MediumWarehouse.LeafCoats",
+      "Buildings/Storage/LargeWarehouse.LeafCoats",
+
+      "Buildings/Storage/SmallPile.LeafCoats",
+      "Buildings/Storage/Pile.LeafCoats",
+      "Buildings/Storage/MediumPile.LeafCoats",
+      "Buildings/Storage/LargePile.LeafCoats",
+
+      "Buildings/Storage/SmallTank.LeafCoats",
+      "Buildings/Storage/MediumTank.LeafCoats",
+      "Buildings/Storage/LargeTank.LeafCoats",
+
+
+      "Buildings/Water/StreamGauge.LeafCoats",
+      "Buildings/Water/WaterPump.LeafCoats",
+      "Buildings/Water/LargeWaterPump.LeafCoats",
+      "Buildings/Water/MechanicalFluidPump.LeafCoats",
+      "Buildings/Water/FluidDump.LeafCoats",
+      "Buildings/Water/BadwaterDome.LeafCoats",
+      "Buildings/Water/BadwaterRig.LeafCoats",
+
+
+      "Buildings/Wellbeing/TeethGrindstone.LeafCoats",
+      "Buildings/Wellbeing/MedicalBed.LeafCoats",
+      "Buildings/Wellbeing/MedicalTripleBed.LeafCoats",
+      "Buildings/Wellbeing/Herbalist.LeafCoats",
+
+      "Buildings/Wellbeing/Garden.LeafCoats",
+      "Buildings/Wellbeing/ObservationTerrace.LeafCoats",
+      "Buildings/Wellbeing/Detailer.LeafCoats",
+
+      "Buildings/Wellbeing/ContemplationSpot.LeafCoats",
+      "Buildings/Wellbeing/ContemplationSpot.Branch.LeafCoats",
+      "Buildings/Wellbeing/Shower.LeafCoats",
+      "Buildings/Wellbeing/MudPit.LeafCoats",
+      "Buildings/Wellbeing/SwimmingPool.LeafCoats",
+
+      "Buildings/Wellbeing/Carousel.LeafCoats",
+      "Buildings/Wellbeing/WindTunnel.LeafCoats",
+
+      "Buildings/Wellbeing/Plaza.LeafCoats",
+      //Swing
+
+
+      "Buildings/Wood/LumberjackFlag.LeafCoats",
+      "Buildings/Wood/PruningFlag.LeafCoats",
+      "Buildings/Wood/Forester.LeafCoats",
+      "Buildings/Wood/LumberPress.LeafCoats",
+      "Buildings/Wood/LumberMill.LeafCoats",
+      "Buildings/Wood/GearWorkshop.LeafCoats",
+      "Buildings/Wood/TappersShack.LeafCoats",
+      "Buildings/Wood/WoodWorkshop.LeafCoats",
+
+
+      "Buildings/Zipline/ZiplineStation.LeafCoats",
+      "Buildings/Zipline/TreeZiplineStation.LeafCoats",
+      "Buildings/Zipline/ZiplinePylon.LeafCoats",
+      "Buildings/Zipline/ZiplineBeam.LeafCoats",
+      "Buildings/Zipline/LeveeZiplineBeam.LeafCoats",
+
+
+      //"Buildings/Landscaping/ExplosivesFactory.LeafCoats",
+      //"Buildings/Landscaping/Dynamite/Dynamite.LeafCoats",
+      //"Buildings/Landscaping/Dynamite/DoubleDynamite.LeafCoats",
+      //"Buildings/Landscaping/Dynamite/TripleDynamite.LeafCoats",
+      //"Buildings/Water/BadwaterPump.LeafCoats",
+      //"Buildings/Water/Centrifuge.LeafCoats",
+    ]
+  }
+}

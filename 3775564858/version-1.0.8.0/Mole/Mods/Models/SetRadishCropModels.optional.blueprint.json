@@ -1,0 +1,62 @@
+{
+	"PlantablePreviewModelSpec":
+	{
+    "Model": "Plants/Crops/Radish/RadishMature.Model"
+  },
+	"Children":
+	{
+		"#Models":
+		{
+			"Children":
+			{
+				"Seedling":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishSeedlingDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishSeedlingDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishSeedling.Model" }
+						}
+					}
+				},
+				"Mature":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishMatureDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishMatureDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Radish/RadishMature.Model" }
+						}
+					}
+				}/*,
+				"#Leftover": {
+					"TimbermeshSpec": {
+						"Model": "Plants/Crops/Radish/RadishMatureStump.Model"
+					}
+				}*/
+			}
+		}
+	}
+}

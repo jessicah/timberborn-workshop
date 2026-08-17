@@ -1,0 +1,96 @@
+{
+  "FactionSpec":
+  {
+    "Textures#append":
+    [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats"
+    ],
+    "ChildTextures#append":
+    [
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult1.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult2.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult4.LeafCoats",
+      "Materials/Beavers/LeafCoats/Adult/BeaverAdult5.LeafCoats"
+    ],
+    "NeedCollectionIds#append":
+    [
+      "AdaptorsHaveLeafCoats",
+      "LeafCoats",
+      "LeafCoatsAddons"
+    ],
+    "GoodCollectionIds#append":
+    [
+      "AdaptorsHaveLeafCoats",
+      "LeafCoats",
+      "LeafCoatsAddons"
+    ],
+    "MaterialCollectionIds#append":
+    [
+      "AdaptorsHaveLeafCoats",
+      "LeafCoats"
+    ],
+    "TemplateCollectionIds#append":
+    [
+      "Cadre.AdaptorsHaveLeafCoats",
+      "Buildings.LeafCoats",
+      "NaturalResources.AdaptorsHaveLeafCoats",
+      "NaturalResources.LeafCoats",
+      "Actors.LeafCoats",
+      "Cadre.LeafCoats",
+      "Editing.LeafCoats",
+      "Effects.LeafCoats",
+      "Grows.LeafCoats",
+      "Parts.LeafCoats",
+      "Rides.LeafCoats"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Sate-a-Mole - LeafCoats */
+      {
+        "Original": "Needs/Need.Bot.Biofuel.blueprint",
+        "Modifier": "Mole/Mods/Needs/SetAdaptorFuel.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetAppleTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EucalyptusTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetEucalyptusTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WillowTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetWillowTreeModels.optional.blueprint"
+      },
+      /* Wack-a-Mole - LeafCoats */
+      {
+        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/LeafCoats/Goods.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/LeafCoats/Needs.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/LeafCoats/Grows.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EucalyptusTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WillowTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.LeafCoats.optional.blueprint"
+      }
+    ],
+    "PathMaterial": "Materials/UberAtlas/LeafCoats/Path.LeafCoats",
+    "BaseWoodMaterial": "Materials/UberAtlas/LeafCoats/BaseWood_White.LeafCoats",
+    "StartingBuildingId": "DistrictCenter.LeafCoats"
+  }
+}

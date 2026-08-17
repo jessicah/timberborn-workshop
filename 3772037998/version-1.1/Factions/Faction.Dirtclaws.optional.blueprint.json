@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Dirtclaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Dirtclaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Dirtclaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Dirtclaws",
+      "Actors.Dirtclaws",
+      "Cadre.Dirtclaws",
+      "Editing.Dirtclaws",
+      "Effects.Dirtclaws",
+      "Grows.Dirtclaws",
+      "Parts.Dirtclaws",
+      "Rides.Dirtclaws"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+#include <defines.h>
+{
+  TOGROUP(01001,Steps),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Stairs),
+      TOTOOL(MetalStairs),
+      TOTOOL(MetalStaircase),
+      TOTOOL(SpiralStairs),
+      TOTOOL(SpiralStaircase),
+      TOTOOL(StaircaseLog),
+      TOTOOL(MetalSpiralStaircase),
+      TOTOOL(DD_SlopeStairs),
+      TOTOOL(SkyBridgeStairs)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Stairs),
+      TOTOOL(MetalStairs),
+      TOTOOL(MetalStaircase),
+      TOTOOL(SpiralStairs),
+      TOTOOL(SpiralStaircase),
+      TOTOOL(StaircaseLog),
+      TOTOOL(MetalSpiralStaircase),
+      TOTOOL(DD_SlopeStairs),
+      TOTOOL(SkyBridgeStairs)
+    ]
+  }
+}

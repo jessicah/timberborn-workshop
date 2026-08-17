@@ -1,0 +1,17 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Common",
+    "Blueprints#remove": [
+      "MapEditor/Objects/Thorns/Thorns.blueprint",
+      "MapEditor/Objects/LargeRelic/LargeRelic.blueprint",
+      "MapEditor/Objects/MediumRelic/MediumRelic.blueprint",
+      "MapEditor/Objects/SmallRelic/SmallRelic.blueprint",
+    ],
+    "Blueprints#append": [
+      "Buildings/relics_edit/LargeRelic.blueprint",
+      "Buildings/relics_edit/MediumRelic.blueprint",
+      "Buildings/relics_edit/SmallRelic.blueprint",
+      "Buildings/relics_edit/Thorns.blueprint",
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "NeedSpec": {
+    "Id": "ObservationTerrace",
+    "BackwardCompatibleIds": [],
+    "Order": 21,
+    "NeedGroupId": "SocialLife",
+    "CharacterType": "Beaver",
+    "DisplayNameLocKey": "Building.ObservationTerrace.DisplayName",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": -0.4,
+    "ImportanceMultiplier": 1.0,
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "FavorableWellbeing": 1
+  }
+}

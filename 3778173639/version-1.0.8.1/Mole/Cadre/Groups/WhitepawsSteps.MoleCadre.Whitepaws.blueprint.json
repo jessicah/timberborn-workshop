@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Whitepaws", "Order": 501001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Whitepaws",
+      "MetalStairs.Whitepaws",
+      "MetalStaircase.Whitepaws",
+      "SpiralStairs.Whitepaws",
+      "SpiralStaircase.Whitepaws",
+      "StaircaseLog.Whitepaws",
+      "MetalSpiralStaircase.Whitepaws",
+      "DD_SlopeStairs.Whitepaws",
+      "SkyBridgeStairs.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Whitepaws",
+      "MetalStairs.Whitepaws",
+      "MetalStaircase.Whitepaws",
+      "SpiralStairs.Whitepaws",
+      "SpiralStaircase.Whitepaws",
+      "StaircaseLog.Whitepaws",
+      "MetalSpiralStaircase.Whitepaws",
+      "DD_SlopeStairs.Whitepaws",
+      "SkyBridgeStairs.Whitepaws"
+    ]
+  }
+}

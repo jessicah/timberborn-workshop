@@ -1,0 +1,13 @@
+{
+  "Id": "Coal",
+  "Variant": "2x1",
+  "LimitingAmount": 0.9,
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": -0.9
+  },
+  "PrimaryMesh": "Buildings/ModularStorageMeshies/2x1mesh",
+  "Material": "Materials/Goods/CoalPile", 
+  "NonLinearity": -0.5
+}

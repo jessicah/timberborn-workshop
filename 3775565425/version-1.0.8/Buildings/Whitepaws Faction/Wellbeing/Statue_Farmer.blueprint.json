@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Statue.Farmer.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Statue_Farmer" ]
+	}
+}

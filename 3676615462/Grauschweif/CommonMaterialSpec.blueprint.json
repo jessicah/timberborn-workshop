@@ -1,0 +1,659 @@
+{
+  "CommonMaterialSpec": {
+    "FactionMaps": [
+      {
+        "FactionId": "Common",
+        "Materials": []
+      },
+      {
+        "FactionId": "Folktails",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.Folktails"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Yellow.Folktails"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.Folktails"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.Folktails"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Folktails"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Yellow.Folktails"
+          },
+          {
+            "Replace": "Moss.Common",
+            "With": "Moss.Folktails"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Folktails"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.Folktails"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.Folktails"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.Folktails"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "ThatchedRoof.Folktails"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.Folktails"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Folktails"
+          }
+        ]
+      },
+      {
+        "FactionId": "IronTeeth",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Indigo.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_Grey.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_DarkBrown.IronTeeth"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.IronTeeth"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Indigo.IronTeeth"
+          },
+          // has no moss
+          // { "Replace": "Moss.Common", "With": "Moss.IronTeeth" },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.IronTeeth"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.IronTeeth"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_Orange.IronTeeth"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_Orange.IronTeeth"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "RoofPlanks.IronTeeth"
+          }
+        ]
+      },
+      {
+        "FactionId": "GreedyBuilders",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Indigo.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_Grey.IronTeeth"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_DarkBrown.IronTeeth"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.IronTeeth"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Indigo.IronTeeth"
+          },
+          // has no moss
+          // { "Replace": "Moss.Common", "With": "Moss.IronTeeth" },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.IronTeeth"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.IronTeeth"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_Orange.IronTeeth"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_Orange.IronTeeth"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "RoofPlanks.IronTeeth"
+          }
+        ]
+      },
+      {
+        "FactionId": "Emberpelts",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Red.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.Emberpelts"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Emberpelts"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Brown.Emberpelts"
+          },
+          // guess
+          // has no moss
+          // { "Replace": "Moss.Common", "With": "Moss.Emberpelts" },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.Emberpelts"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Emberpelts"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.Emberpelts"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood.Emberpelts"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.Emberpelts"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "RoofPlanks2.Emberpelts"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Emberpelts"
+          }
+        ]
+      },
+      {
+        "FactionId": "GreedyEmbers",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Red.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.Emberpelts"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.Emberpelts"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Emberpelts"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Brown.Emberpelts"
+          },
+          // guess
+          // has no moss
+          // { "Replace": "Moss.Common", "With": "Moss.Emberpelts" },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.Emberpelts"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Emberpelts"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.Emberpelts"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood.Emberpelts"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.Emberpelts"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "RoofPlanks2.Emberpelts"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Emberpelts"
+          }
+        ]
+      },
+      {
+        "FactionId": "LeafCoats",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Green.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.LeafCoats"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.LeafCoats"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Green.LeafCoats"
+          },
+          // guess
+          {
+            "Replace": "Moss.Common",
+            "With": "Moss.LeafCoats"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.LeafCoats"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.LeafCoats"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.LeafCoats"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.LeafCoats"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.LeafCoats"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "ThatchedRoof.LeafCoats"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.LeafCoats"
+          }
+        ]
+      },
+      {
+        "FactionId": "GreedyCoats",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Green.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.LeafCoats"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.LeafCoats"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.LeafCoats"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Green.LeafCoats"
+          },
+          // guess
+          {
+            "Replace": "Moss.Common",
+            "With": "Moss.LeafCoats"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.LeafCoats"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.LeafCoats"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.LeafCoats"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.LeafCoats"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.LeafCoats"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "ThatchedRoof.LeafCoats"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.LeafCoats"
+          }
+        ]
+      },
+      {
+        // using folktail defaults where unknown // FIXME WIP, feedback needed
+        "FactionId": "Whitepaws",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.IronTeeth"
+          },
+          // best guess
+          {
+            "Replace": "BaseWood.Common",
+            "With": "Pink_wood.Whitepaws"
+          },
+          // random guess
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "Birchlog_Custom.Common"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Whitepaws"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Whitepaws"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.Folktails"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "GrassRoof.Whitepaws"
+          },
+          // odd replacement?
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Folktails"
+          }
+        ]
+      },
+      {
+        // using folktail defaults where unknown // FIXME WIP, feedback needed
+        "FactionId": "GreedyPaws",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.IronTeeth"
+          },
+          // best guess
+          {
+            "Replace": "BaseWood.Common",
+            "With": "Pink_wood.Whitepaws"
+          },
+          // random guess
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "Birchlog_Custom.Common"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Whitepaws"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Whitepaws"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.Folktails"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "GrassRoof.Whitepaws"
+          },
+          // odd replacement?
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Folktails"
+          }
+        ]
+      },
+      {
+        "FactionId": "Badfurs",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.Badfurs"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Yellow.Badfurs"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_White.Badfurs"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_DarkBrown.Badfurs"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.Badfurs"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_DarkBrown.Badfurs"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Badfurs"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.Badfurs"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_Purple.Badfurs"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_Purple.Badfurs"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "RoofPlanks.Badfurs"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Badfurs"
+          }
+        ]
+      },
+      {
+        "FactionId": "FrostyWhiskers",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal_Rusty.FrostyWhiskers"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_Dull.Moreplants"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_Moldy.Moreplants"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "Crystal_White.FrostyWhiskers"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.FrostyWhiskers"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_Dull.Moreplants"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper_CarbonMesh.FrostyWhiskers"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_Brown.FrostyWhiskers"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_Ruin.Moreplants"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "FrostedRoofPlanks.Moreplants"
+          }
+        ]
+      },
+      {
+        "FactionId": "TWDirtclaws",
+        "Materials": [
+          {
+            "Replace": "BaseMetal.Common",
+            "With": "BaseMetal.Folktails"
+          },
+          {
+            "Replace": "BaseWood.Common",
+            "With": "BaseWood_White.Folktails"
+          },
+          {
+            "Replace": "BaseWood_White.Common",
+            "With": "BaseWood_Yellow.Folktails"
+          },
+          {
+            "Replace": "BaseWood_Brown.Common",
+            "With": "BaseWood_Brown.Folktails"
+          },
+          {
+            "Replace": "Details.Common",
+            "With": "Details.TWDirtclaws"
+          },
+          {
+            "Replace": "IrregularPlanks.Common",
+            "With": "IrregularPlanks_White.Folktails"
+          },
+          {
+            "Replace": "Moss.Common",
+            "With": "Moss.Folktails"
+          },
+          {
+            "Replace": "PaintedMetal.Common",
+            "With": "PaintedMetal.Folktails"
+          },
+          {
+            "Replace": "Paper.Common",
+            "With": "Paper.Folktails"
+          },
+          {
+            "Replace": "Plaster.Common",
+            "With": "Plaster_White.Folktails"
+          },
+          {
+            "Replace": "PlasteredWood.Common",
+            "With": "PlasteredWood_White.Folktails"
+          },
+          {
+            "Replace": "Roof.Common",
+            "With": "ThatchedRoof.Folktails"
+          },
+          {
+            "Replace": "Path.Common",
+            "With": "Path.Folktails"
+          },
+          {
+            "Replace": "WindowsAtlas.Common",
+            "With": "WindowsAtlas.Folktails"
+          }
+        ]
+      }
+    ]
+  }
+}
+

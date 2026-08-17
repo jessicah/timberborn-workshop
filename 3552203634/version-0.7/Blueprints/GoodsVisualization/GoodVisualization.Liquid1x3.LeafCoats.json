@@ -1,0 +1,8 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Liquid",
+    "Variant": "1x3.LeafCoats",
+    "PrimaryMesh": "Buildings/Storage/MediumLiquidPlane.LeafCoats",
+    "NonLinearity": -0.1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "CharacterGraphicsSetSpec": {
+    "SetId": "BeaverSilver",
+    "FactionIds": [],
+    "Textures": [
+      "CustomBeavers/Textures/BeaverAdult.Silver"
+    ],
+    "ChildTextures": [],
+    "Avatar": "CustomBeavers/Avatars/SilverAdult",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/SilverContaminatedAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/SilverChild",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/SilverContaminatedChild",
+    "BeaverFactionId": ""
+  }
+}

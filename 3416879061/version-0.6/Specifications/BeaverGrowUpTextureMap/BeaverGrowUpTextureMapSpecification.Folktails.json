@@ -1,0 +1,37 @@
+{
+    "TextureMaps": [
+        {
+            "ChildTextureName": "BeaverChild1.Folktails",
+            "AdultTextureNames":
+            [
+                "BeaverAdult5.Folktails",
+                "BeaverAdult5.Folktails",
+                "BeaverAdult5.Folktails",
+                "BeaverAdult4.Folktails",
+                "BeaverAdult4.Folktails"
+            ]
+        },
+        {
+            "ChildTextureName": "BeaverChild2.Folktails",
+            "AdultTextureNames":
+            [
+                "BeaverAdult3.Folktails",
+                "BeaverAdult3.Folktails",
+                "BeaverAdult3.Folktails",
+                "BeaverAdult2.Folktails",
+                "BeaverAdult4.Folktails"
+            ]
+        },
+        {
+            "ChildTextureName": "BeaverChild3.Folktails",
+            "AdultTextureNames":
+            [
+                "BeaverAdult1.Folktails",
+                "BeaverAdult1.Folktails",
+                "BeaverAdult1.Folktails",
+                "BeaverAdult2.Folktails",
+                "BeaverAdult2.Folktails"
+            ]
+        },
+     ]
+}

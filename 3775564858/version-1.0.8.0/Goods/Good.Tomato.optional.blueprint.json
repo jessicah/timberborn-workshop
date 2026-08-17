@@ -1,0 +1,20 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Tomatoes.Emberpelts",
+      "Wares.Tomatoes.Folktails",
+      "Wares.Tomatoes.IronTeeth",
+      "Wares.Tomatoes.LeafCoats",
+      "Wares.Tomatoes.Whitepaws",
+      "Wares.Tomatoes.Common",
+      "Wares.Tomato.Emberpelts",
+      "Wares.Tomato.Folktails",
+      "Wares.Tomato.IronTeeth",
+      "Wares.Tomato.LeafCoats",
+      "Wares.Tomato.Whitepaws",
+      "Wares.Tomato.Common"
+    ]
+  }
+}

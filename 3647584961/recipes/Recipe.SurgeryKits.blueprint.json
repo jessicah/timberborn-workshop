@@ -1,0 +1,39 @@
+{
+  "RecipeSpec": {
+    "Id": "SurgeryKits",
+  "DisplayLocKey": "Good.SurgeryKits.DisplayName",
+  "CycleDurationInHours": 1,
+  "CyclesCapacity": 100,
+  "Ingredients": [
+    {
+      "Id": "Tools",
+      "Amount": 2
+    },
+    {
+      "Id": "Alcohol",
+      "Amount": 2
+    },
+    {
+      "Id": "BadShrooms",
+      "Amount": 1
+    },
+    {
+      "Id": "BetterMedicine",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Id": "SurgeryKits",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 2,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/SurgeryKits",
+
+	"BackwardCompatibleIds": []
+  }
+}

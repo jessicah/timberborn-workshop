@@ -1,0 +1,26 @@
+#include <defines.h>
+{
+  TOGROUP(01002,Ladders),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+
+      TOTOOL(Ladder.Simple),
+      TOTOOL(Ladder),
+      TOTOOL(Ladder.Core),
+      TOTOOL(Mole.Ladder),
+      TOTOOL(SkyBridgeLadder)
+    ],
+    "ChildrenOrderedIds":
+    [
+
+      TOTOOL(Ladder.Simple),
+      TOTOOL(Ladder),
+      TOTOOL(Ladder.Core),
+      TOTOOL(Mole.Ladder),
+      TOTOOL(SkyBridgeLadder)
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints#append": [
+      "ModularStoragePrefabs/PitpileIT.blueprint",
+      "ModularStoragePrefabs/PitwarehouseIT.blueprint",
+      "ModularStoragePrefabs/SCoveredtankIT.blueprint",
+      "ModularStoragePrefabs/LongWarehouseIT.blueprint",
+      "ModularStoragePrefabs/2x2pileRightIT.blueprint",
+      "ModularStoragePrefabs/LongpileIT.blueprint",
+      "ModularStoragePrefabs/PitTankIT.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileIT.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseIT.blueprint"
+    ]
+  }
+}

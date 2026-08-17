@@ -1,0 +1,11 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients#append":
+		[
+			{ "Amount": 1, "Id": "Plank" },
+			{ "Amount": 5, "Id": "Grease" },
+			{ "Amount": 5, "Id": "BotBlock" }
+		]
+	}
+}

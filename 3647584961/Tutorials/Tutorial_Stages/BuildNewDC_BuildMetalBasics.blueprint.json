@@ -1,0 +1,35 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildMetalBasics",
+    "IntroLocKey": "Tutorial.BuildNewDC.BuildMetalBasics.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Flag_Scavenger.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PrimitiveMine.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "OreSmelter.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

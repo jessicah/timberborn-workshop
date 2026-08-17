@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Bridges.MoleCadre.Whitepaws", "Order": 501004, "NameLocKey": "Group.Bridges", "Icon": "Mole/Cadre/Bridges", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "TE_Bridge_1x1.Whitepaws",
+      "TE_Bridge_1x2.Whitepaws",
+      "TE_Bridge_1x3.Whitepaws",
+      "TE_Bridge_1x4.Whitepaws",
+      "TE_Bridge_1x5.Whitepaws",
+      "TE_Bridge_1x6.Whitepaws",
+      "TE_BridgeF_1x7.Whitepaws",
+      "TE_BridgeF_1x8.Whitepaws",
+      "TE_BridgeF_1x9.Whitepaws",
+      "TE_BridgeF_1x10.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "TE_Bridge_1x1.Whitepaws",
+      "TE_Bridge_1x2.Whitepaws",
+      "TE_Bridge_1x3.Whitepaws",
+      "TE_Bridge_1x4.Whitepaws",
+      "TE_Bridge_1x5.Whitepaws",
+      "TE_Bridge_1x6.Whitepaws",
+      "TE_BridgeF_1x7.Whitepaws",
+      "TE_BridgeF_1x8.Whitepaws",
+      "TE_BridgeF_1x9.Whitepaws",
+      "TE_BridgeF_1x10.Whitepaws"
+    ]
+  }
+}

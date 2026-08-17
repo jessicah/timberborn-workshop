@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.FrostyWhiskers", "Order": 601003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.FrostyWhiskers",
+      "SuspensionBridge2x1.FrostyWhiskers",
+      "SuspensionBridge3x1.FrostyWhiskers",
+      "SuspensionBridge4x1.FrostyWhiskers",
+      "SuspensionBridge5x1.FrostyWhiskers",
+      "SuspensionBridge6x1.FrostyWhiskers",
+      "SuspensionBridge7x1.FrostyWhiskers",
+      "SuspensionBridge8x1.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.FrostyWhiskers",
+      "SuspensionBridge2x1.FrostyWhiskers",
+      "SuspensionBridge3x1.FrostyWhiskers",
+      "SuspensionBridge4x1.FrostyWhiskers",
+      "SuspensionBridge5x1.FrostyWhiskers",
+      "SuspensionBridge6x1.FrostyWhiskers",
+      "SuspensionBridge7x1.FrostyWhiskers",
+      "SuspensionBridge8x1.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.LeafCoats", "Order": 402002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.LeafCoats",
+      "MetalPillars.LeafCoats",
+      "MetalBigPillarBase.LeafCoats",
+      "MetalBigPillarMid.LeafCoats",
+      "MetalBigPillarTop.LeafCoats",
+      "Aque_MetalBigPillarBase.LeafCoats",
+      "Aque_MetalBigPillarMid.LeafCoats",
+      "Aque_MetalBigPillarTop.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.LeafCoats",
+      "MetalPillars.LeafCoats",
+      "MetalBigPillarBase.LeafCoats",
+      "MetalBigPillarMid.LeafCoats",
+      "MetalBigPillarTop.LeafCoats",
+      "Aque_MetalBigPillarBase.LeafCoats",
+      "Aque_MetalBigPillarMid.LeafCoats",
+      "Aque_MetalBigPillarTop.LeafCoats"
+    ]
+  }
+}

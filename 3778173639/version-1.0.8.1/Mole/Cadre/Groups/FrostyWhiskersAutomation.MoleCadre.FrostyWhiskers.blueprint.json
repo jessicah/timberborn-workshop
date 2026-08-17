@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.FrostyWhiskers", "Order": 601000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.FrostyWhiskers",
+      "Lever.FrostyWhiskers",
+      "Relay.FrostyWhiskers",
+      "FlowSensor.FrostyWhiskers",
+      "DepthSensor.FrostyWhiskers",
+      "ContaminationSensor.FrostyWhiskers",
+      "Chronometer.FrostyWhiskers",
+      "WeatherStation.FrostyWhiskers",
+      "PowerMeter.FrostyWhiskers",
+      "PopulationCounter.FrostyWhiskers",
+      "ResourceCounter.FrostyWhiskers",
+      "ScienceCounter.FrostyWhiskers",
+      "Indicator.FrostyWhiskers",
+      "WallMountIndicator.FrostyWhiskers",
+      "Speaker.FrostyWhiskers",
+      "FireworkLauncher.FrostyWhiskers",
+      "Detonator.FrostyWhiskers",
+      "Timer.FrostyWhiskers",
+      "Memory.FrostyWhiskers",
+      "HttpLever.FrostyWhiskers",
+      "HttpAdapter.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.FrostyWhiskers",
+      "Lever.FrostyWhiskers",
+      "Relay.FrostyWhiskers",
+      "FlowSensor.FrostyWhiskers",
+      "DepthSensor.FrostyWhiskers",
+      "ContaminationSensor.FrostyWhiskers",
+      "Chronometer.FrostyWhiskers",
+      "WeatherStation.FrostyWhiskers",
+      "PowerMeter.FrostyWhiskers",
+      "PopulationCounter.FrostyWhiskers",
+      "ResourceCounter.FrostyWhiskers",
+      "ScienceCounter.FrostyWhiskers",
+      "Indicator.FrostyWhiskers",
+      "WallMountIndicator.FrostyWhiskers",
+      "Speaker.FrostyWhiskers",
+      "FireworkLauncher.FrostyWhiskers",
+      "Detonator.FrostyWhiskers",
+      "Timer.FrostyWhiskers",
+      "Memory.FrostyWhiskers",
+      "HttpLever.FrostyWhiskers",
+      "HttpAdapter.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "TutorialSpec": {
+    "Id": "WorkingHours",
+    "NameLocKey": "Tutorial.WorkingHours",
+    "RequiredTutorialIds": [
+      "WaterAndFood"
+    ],
+    "SkipIfTutorialFinished": "Tutorial",
+    "SortOrder": 35,
+    "Stages": [
+      "WorkingHours.SetWorkingHours"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+# Frequently Asked Questions (FAQ)
+
+## How do I get beavers to spawn?
+
+No building has been modified by this mod. If the vanilla faction needs
+<X> building to spawn beavers then you can either use the same building
+or another faction's building to spawn beavers. The game just selects a
+random texture from the list to apply to them so you could have IT born
+in a FT lodge or create FT in IT pods.
+
+## I thought you did X?
+
+This type of question typically comes from steam workshop users where
+steam has failed to auto-update their copy of the mod. A simple fix is
+to just un-subscribe then re-subscribe. A better way to do it is to go
+into Timberborn's properties dialouge that steam offers, find the
+"Verify all files" that it has (may have mis-remembered the exact text)
+and click that. That button will update not just GreedyBuilders but
+any other Timbeborn workshop mod steam had thus-far failed to update.
+
+For players using mod.io mods the mod manager is the recommended way
+to manage mods, even if it does sometimes accidently wipe the mod's
+contents altogether. In that particular case it's sufficient to just
+delete the mod folder and re-download it

@@ -1,0 +1,34 @@
+{
+  "BlockObjectNavMeshSettingsSpec#delete": {},
+  "BlockObjectSpec#delete": {},
+  "BuildingAccessibleSpec#delete": {},
+  "BuildingModelSpec#delete": {},
+  "BuildingSpec#delete": {},
+  "Children#delete": {},
+  "EnterableSpec#delete": {},
+  "LabeledEntitySpec#delete": {},
+  "PathSpec#delete": {},
+  "PlaceableBlockObjectSpec#delete": {},
+  "StockpileSpec#delete": {},
+  "StockpileGoodColumnVisualizerSpec#delete": {},
+  "StockpileGoodPileVisualizerSpec#delete": {},
+  "StockpilePlaneVisualizerSpec#delete": {},
+  "TemplateSpec#delete": {},
+  "TemplateCollectionSpec":
+  {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append":
+    [
+      //"Buildings/TallStorage/BasicDepo.Emberpelts",
+      "Buildings/TallStorage/BasicPile.Emberpelts",
+      "Buildings/TallStorage/GigaDepo.Emberpelts",
+      "Buildings/TallStorage/GigaPile.Emberpelts",
+      "Buildings/TallStorage/LongDepo.Emberpelts",
+      "Buildings/TallStorage/LongPile.Emberpelts",
+      "Buildings/TallStorage/SmallCoveredTank.Emberpelts",
+      "Buildings/TallStorage/TallDepo.Emberpelts",
+      "Buildings/TallStorage/TallPile.Emberpelts",
+      "Buildings/TallStorage/TallTank.Emberpelts"
+    ]
+  }
+}

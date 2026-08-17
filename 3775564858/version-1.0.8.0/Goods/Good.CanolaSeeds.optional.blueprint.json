@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.CanolaSeeds.Emberpelts",
+      "Wares.CanolaSeeds.Folktails",
+      "Wares.CanolaSeeds.IronTeeth",
+      "Wares.CanolaSeeds.LeafCoats",
+      "Wares.CanolaSeeds.Whitepaws",
+      "Wares.CanolaSeeds.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

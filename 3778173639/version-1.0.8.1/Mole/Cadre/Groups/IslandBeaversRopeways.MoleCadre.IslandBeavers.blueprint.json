@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.IslandBeavers", "Order": 801003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.IslandBeavers",
+      "SuspensionBridge2x1.IslandBeavers",
+      "SuspensionBridge3x1.IslandBeavers",
+      "SuspensionBridge4x1.IslandBeavers",
+      "SuspensionBridge5x1.IslandBeavers",
+      "SuspensionBridge6x1.IslandBeavers",
+      "SuspensionBridge7x1.IslandBeavers",
+      "SuspensionBridge8x1.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.IslandBeavers",
+      "SuspensionBridge2x1.IslandBeavers",
+      "SuspensionBridge3x1.IslandBeavers",
+      "SuspensionBridge4x1.IslandBeavers",
+      "SuspensionBridge5x1.IslandBeavers",
+      "SuspensionBridge6x1.IslandBeavers",
+      "SuspensionBridge7x1.IslandBeavers",
+      "SuspensionBridge8x1.IslandBeavers"
+    ]
+  }
+}

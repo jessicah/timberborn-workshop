@@ -1,0 +1,4 @@
+ID,Text,Comment
+Tool.Cursor,Cursor,
+Tool.FixedName,Nothing,Name of Tool cannot be changed
+Tool.FixedDescription,Nothing,Description of Tool cannot be changed

@@ -1,0 +1,18 @@
+{
+  "GoodSpec": {
+    "Id": "Branch",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Branch.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Branch.PluralDisplayName",
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": { "Value": "Box" },
+    "ContainerColor": "#504020",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "Icon": "Sprites/Goods/BranchIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

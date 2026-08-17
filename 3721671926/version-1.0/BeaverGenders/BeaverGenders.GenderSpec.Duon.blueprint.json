@@ -1,0 +1,11 @@
+{
+  "BeaverGendersGenderSpec": {
+    "Name": "Duon",
+    "Order": 4,
+    "CanImpregnate": true,
+    "CanBeImpregnated": true,
+    "Icon": "Sprites/GenderDuonIcon",
+    "DisplayNameLocKey": "Gender.Duon",
+    "PopulationGroupDisplayNameLocKey": "Gender.Population.Duon"
+  }
+}

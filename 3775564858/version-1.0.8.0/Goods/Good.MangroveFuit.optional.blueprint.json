@@ -1,0 +1,20 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.MangroveFruits.Emberpelts",
+      "Wares.MangroveFruits.Folktails",
+      "Wares.MangroveFruits.IronTeeth",
+      "Wares.MangroveFruits.LeafCoats",
+      "Wares.MangroveFruits.Whitepaws",
+      "Wares.MangroveFruits.Common",
+      "Wares.MangroveFruit.Emberpelts",
+      "Wares.MangroveFruit.Folktails",
+      "Wares.MangroveFruit.IronTeeth",
+      "Wares.MangroveFruit.LeafCoats",
+      "Wares.MangroveFruit.Whitepaws",
+      "Wares.MangroveFruit.Common"
+    ]
+  }
+}

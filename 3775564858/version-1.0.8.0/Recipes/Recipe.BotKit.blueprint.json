@@ -1,0 +1,17 @@
+{
+	"RecipeSpec":
+	{
+		"Id": "BotKit",
+		"BackwardCompatibleIds": [ "BentoFT", "BentoIT", "BentoEP" ],
+		"DisplayLocKey": "Wares.BotKits.Name",
+		"CycleDurationInHours": 1,
+		"CyclesCapacity": 25,
+		"Ingredients": [ { "Amount": 1, "Id": "Plank" } ],
+		"Products": [ { "Amount": 50, "Id": "BotKit" } ],
+		"ProducedSciencePoints": 0,
+		"Fuel": "",
+		"CyclesFuelLasts": 0,
+		"FuelCapacity": 0,
+		"Icon": "Mole/Depos/BotKits"
+	}
+}

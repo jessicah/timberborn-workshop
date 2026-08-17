@@ -1,0 +1,17 @@
+{
+  "BuildingSpec":
+  {
+    /* Prepwork in case any more factions add the same goods */
+    "BuildingCost#append":
+    [
+      { "Id": "Berries", "Amount": 50 },
+      { "Id": "Water", "Amount": 5 },
+      { "Id": "Log", "Amount": 20 },
+      { "Id": "ScrapMetal", "Amount": 20 },
+      { "Id": "Plank", "Amount": 10 },
+      { "Id": "PineResin", "Amount": 15 },
+      { "Id": "Gear", "Amount": 3 },
+      { "Id": "Explosives", "Amount": 15 }
+    ]
+  }
+}

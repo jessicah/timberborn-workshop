@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Eggplants.Emberpelts",
+      "Wares.Eggplants.Folktails",
+      "Wares.Eggplants.IronTeeth",
+      "Wares.Eggplants.LeafCoats",
+      "Wares.Eggplants.Whitepaws",
+      "Wares.Eggplants.Common",
+      "Wares.Eggplant.Emberpelts",
+      "Wares.Eggplant.Folktails",
+      "Wares.Eggplant.IronTeeth",
+      "Wares.Eggplant.LeafCoats",
+      "Wares.Eggplant.Whitepaws",
+      "Wares.Eggplant.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

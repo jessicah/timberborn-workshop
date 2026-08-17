@@ -1,0 +1,10 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "ScavengerFlag.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Flag_Scavenger.FrostyWhiskers"
+    ]
+  }
+}

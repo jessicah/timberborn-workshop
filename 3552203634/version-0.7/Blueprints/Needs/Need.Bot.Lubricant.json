@@ -1,0 +1,22 @@
+﻿{
+  "NeedSpec": {
+    "Id": "Lubricant",
+    "BackwardCompatibleIds": [],
+    "Order": 15,
+    "NeedGroupId": "Boosts",
+    "CharacterType": "Bot",
+    "DisplayNameLocKey": "Good.Lubricant.PluralDisplayName",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": -0.2,
+    "ImportanceMultiplier": 1.0,
+    "Bonuses": [],
+    "DeathOnMinValue": false,
+    "DeathMessageLocKey": "",
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "HoursWarningThreshold": 4.5,
+    "FavorableWellbeing": 1
+  }
+}

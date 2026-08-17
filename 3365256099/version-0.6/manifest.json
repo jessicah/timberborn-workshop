@@ -1,0 +1,13 @@
+{
+  "Name": "Power Shaft Extensions",
+  "Version": "2.1.0.5",
+  "Id": "Battery.PowerShaftExtensions",
+  "MinimumGameVersion": "0.6.1.0",
+  "Description": "Finally",
+  "RequiredMods": [
+    {
+      "Id": "TimberApi",
+      "MinimumVersion": "0.7.5.0"
+    }
+  ]
+}

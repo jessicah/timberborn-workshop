@@ -1,0 +1,7 @@
+{
+  "KeyBindingGroupSpec": {
+    "Id": "PopPerf.Profiler.KeyBindingGroup",
+    "Order": 6,
+    "LocKey": "PopPerf.Profiler.KeyBindingGroup"
+  }
+}

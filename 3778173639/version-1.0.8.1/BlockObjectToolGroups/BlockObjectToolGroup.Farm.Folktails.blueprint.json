@@ -1,0 +1,46 @@
+{
+	
+	"ToolGroupSpec":
+	{
+		"Id": "GreedyFolktailFields",
+		"DisplayNameLocKey": "ToolGroups.GreedyFolktailFields",
+		"Icon": "Sprites/BottomBar/FieldsPlantingToolGroupIcon"
+	},
+	"CustomBottomBarElementSpec": {
+		"Id": "GreedyFolktailFields",
+		"Order": 32000
+	},
+	"CustomRootElementSpec": { "Location": "Middle" },
+	"BlockObjectToolGroupSpec":
+	{
+		"Id": "GreedyFolktailFields",
+		"Order": 32000,
+		"NameLocKey": "ToolGroups.GreedyFolktailFields",
+		"Icon": "Sprites/BottomBar/FieldsPlantingToolGroupIcon",
+		"FallbackGroup": false
+	},
+	"ToolGroupChildrenSpec":
+	{
+		"ChildrenToolsTemplateNames":
+		[
+			"Planting.Plant.Carrot",
+			"Planting.Plant.Sunflower",
+			"Planting.Plant.Potato",
+			"Planting.Plant.Wheat",
+			"Planting.Plant.Spadderdock",
+			"Planting.Plant.Cattail",
+			"Planting.Plant.Cancel"
+		],
+		"ChildrenOrderedIds":
+		[
+			"Planting.Plant.Carrot",
+			"Planting.Plant.Sunflower",
+			"Planting.Plant.Potato",
+			"Planting.Plant.Wheat",
+			"Planting.Plant.Spadderdock",
+			"Planting.Plant.Cattail",
+			"Planting.Plant.Cancel"
+		]
+	},
+	"PlantingToolGroupSpec": {}
+}

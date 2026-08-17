@@ -1,0 +1,13 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove":
+    [
+      "GoldBar",
+      "GoldDust",
+      "NuclearWaste",
+      "Rock",
+      "Salt"
+    ]
+  }
+}

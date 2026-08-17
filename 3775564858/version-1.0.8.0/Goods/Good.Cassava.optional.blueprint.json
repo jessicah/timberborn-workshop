@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Cassava.Emberpelts",
+      "Wares.Cassava.Folktails",
+      "Wares.Cassava.IronTeeth",
+      "Wares.Cassava.LeafCoats",
+      "Wares.Cassava.Whitepaws",
+      "Wares.Cassava.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

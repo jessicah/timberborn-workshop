@@ -1,0 +1,33 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboTools",
+  "DisplayLocKey": "Good.Tools.PluralDisplayName",
+  "CycleDurationInHours": 4,
+  "CyclesCapacity": 6,
+  "Ingredients": [
+    {
+      "Id": "ScrapMetal",
+      "Amount": 8
+    },{
+      "Id": "Log",
+      "Amount": 8
+    },{
+      "Id": "Coal",
+      "Amount": 4
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Tools",
+      "Amount": 50
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Tools",
+
+	"BackwardCompatibleIds": []
+  }
+}

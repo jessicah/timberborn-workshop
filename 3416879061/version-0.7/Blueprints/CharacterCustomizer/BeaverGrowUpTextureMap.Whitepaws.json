@@ -1,0 +1,39 @@
+{
+    "BeaverGrowUpTextureMapSpec": {
+        "TextureMaps": [
+            {
+                "ChildTextureName": "BeaverChild.Waterbeaver_1",
+                "AdultTextureNames":
+                [
+                    "BeaverAdult4.Waterbeaver_1",
+                    "BeaverAdult4.Waterbeaver_2",
+                    "BeaverAdult4.Waterbeaver_3",
+                    "BeaverAdult4.Waterbeaver_4",
+                    "BeaverAdult4.Waterbeaver_5"
+                ]
+            },
+            {
+                "ChildTextureName": "BeaverChild.Waterbeaver_2",
+                "AdultTextureNames":
+                [
+                    "BeaverAdult4.Waterbeaver_1",
+                    "BeaverAdult4.Waterbeaver_2",
+                    "BeaverAdult4.Waterbeaver_3",
+                    "BeaverAdult4.Waterbeaver_4",
+                    "BeaverAdult4.Waterbeaver_5"
+                ]
+            },
+            {
+                "ChildTextureName": "BeaverChild.Waterbeaver_3",
+                "AdultTextureNames":
+                [
+                    "BeaverAdult4.Waterbeaver_1",
+                    "BeaverAdult4.Waterbeaver_2",
+                    "BeaverAdult4.Waterbeaver_3",
+                    "BeaverAdult4.Waterbeaver_4",
+                    "BeaverAdult4.Waterbeaver_5"
+                ]
+            },
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "FactionSpec":
+  {
+    "Logo": "Factions/Folktails/Symbol.Folktails",
+    "NewGameFullAvatar": "Factions/Folktails/NewGameAvatar.Folktails",
+    "MaterialCollectionIds#append": [ "Lapantou", "IronTeeth", "Listamole.Folktails" ],
+    "GoodCollectionIds#append": [ "Listamole.Folktails" ],
+    "NeedCollectionIds#append": [ "Listamole.Folktails" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Folktails",
+      "Actors.Folktails",
+      "Cadre.Folktails",
+      "Editing.Folktails",
+      "Effects.Folktails",
+      "Grows.Folktails",
+      "Parts.Folktails",
+      "Rides.Folktails"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"AuthorName": "zxuiji",
+	"Name": "zxuiji -m- Append Vanilla Resources",
+	"Version": "0.6.5.01",
+	"Id": "AppendVanillaMaterials",
+	"MinimumGameVersion": "0.6.1.0",
+	"Description": "Some mods may want to mix and match textures from vanilla factions and to prevent crashes caused by multiple mods appending those textures this mod was created.\n\nCredit to Knatte Anka for the thumbnail",
+	"RequiredMods": []
+}

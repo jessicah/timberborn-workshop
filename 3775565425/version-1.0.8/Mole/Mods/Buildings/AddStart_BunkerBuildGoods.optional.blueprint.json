@@ -1,0 +1,13 @@
+{
+  "BuildingSpec":
+  {
+    "BuildingCost#append":
+    [
+      { "Id": "Berries", "Amount": 50 },
+      { "Id": "Water", "Amount": 5 },
+      { "Id": "IceBlock", "Amount": 57 },
+      { "Id": "Nanobot", "Amount": 17 },
+      { "Id": "FrozenBeaverEmbryo", "Amount": 271 }
+    ]
+  }
+}

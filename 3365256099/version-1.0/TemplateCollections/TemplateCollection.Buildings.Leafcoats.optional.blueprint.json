@@ -1,0 +1,27 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.LeafCoats",
+    "Blueprints#append": [
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft3.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft4.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft5.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft6.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft7.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft8.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft9.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft10.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft11.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/BridgeShaft12.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft3.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft4.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft5.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft6.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft7.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft8.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft9.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft10.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft11.LeafCoats.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/LeafCoats/TunnelShaft12.LeafCoats.blueprint"
+    ]
+  }
+}

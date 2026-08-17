@@ -1,0 +1,8 @@
+{
+  "Id": "ShaftTunnels",
+  "GroupId": "Power",
+  "Order": "11001",
+  "Icon": "Battery.PowerShaftExtensions/Sprites/ShaftTunnelsCategory-ico",
+  "NameLocKey": "Battery.PowerShaftExtensions.ToolGroups.ShaftTunnels.DisplayName",
+  "FallbackGroup": false
+}

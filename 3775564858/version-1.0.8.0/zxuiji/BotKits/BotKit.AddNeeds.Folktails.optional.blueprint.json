@@ -1,0 +1,11 @@
+{
+	"GoodSpec":
+	{
+		"ConsumptionEffects#append":
+		[
+			{ "Points": 0.1, "NeedId": "Biofuel" },
+			{ "Points": 0.1, "NeedId": "Catalyst" },
+			{ "Points": 0.1, "NeedId": "PunchCard" }
+		]
+	}
+}

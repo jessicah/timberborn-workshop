@@ -1,0 +1,11 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "HiddenHarvesterFlag.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+      "Flag_Notharvestable.Whitepaws",
+      "Flag_Notharvestable"
+    ]
+  }
+}

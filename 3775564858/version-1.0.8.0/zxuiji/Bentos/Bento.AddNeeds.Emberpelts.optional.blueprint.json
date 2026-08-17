@@ -1,0 +1,20 @@
+{
+	"GoodSpec":
+	{
+		"ConsumptionEffects#append":
+		[
+			{ "Points": 0.1, "NeedId": "Radishes"        },
+			{ "Points": 0.1, "NeedId": "Tomatoes"        },
+			{ "Points": 0.1, "NeedId": "Apples"          },
+			{ "Points": 0.1, "NeedId": "GrilledCorn"     },
+			{ "Points": 0.1, "NeedId": "GrilledPeppers"  },
+			{ "Points": 0.1, "NeedId": "ApplePie"        },
+			{ "Points": 0.1, "NeedId": "Cornbread"       },
+			{ "Points": 0.1, "NeedId": "BakedBeetroot"   },
+			{ "Points": 0.1, "NeedId": "StuffedPeppers"  },
+			{ "Points": 0.1, "NeedId": "Juice"           },
+			{ "Points": 0.1, "NeedId": "RedJuice"        },
+			{ "Points": 0.1, "NeedId": "CornJuice"       }
+		]
+	}
+}

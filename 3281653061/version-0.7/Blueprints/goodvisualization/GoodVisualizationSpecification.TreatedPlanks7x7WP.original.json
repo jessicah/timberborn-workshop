@@ -1,0 +1,14 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "TreatedPlank",
+  "Variant": "WP7x7",
+  "LimitingAmount": 1.93,
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": -1.93
+  },
+  "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7PlankFused2880",
+  "Material": "Materials/Goods/BeaverCarryingModels/BeaverCarryingModels",
+  "NonLinearity": -0.1
+}}

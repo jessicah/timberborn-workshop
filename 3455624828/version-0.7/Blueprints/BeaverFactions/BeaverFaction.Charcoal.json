@@ -1,0 +1,51 @@
+{
+  "BeaverFactionSpec":
+  {
+    "Id": "Charcoal",
+    "DisplayNameLocKey": "Faction.Charcoal.DisplayName",
+    "Textures":
+    [
+      "BeaverAdult6.Emberpelts",
+      "BeaverAdult7.Emberpelts",
+      "BeaverAdult8.Emberpelts",
+    ],
+    "ChildTextures":
+    [
+      "BeaverChild6.Emberpelts"
+    ],
+    "Needs":
+    [
+      "Fire",
+      "WetFurBad",
+      "BeaverStatue",
+      "BeaverBust",
+      "Brazier",
+      "Clock",
+      "Lantern",
+      "Campfire",
+      "RooftopTerrace",
+      "Detailer",
+      "ContemplationSpot",
+      "Scratcher",
+      "Carousel",
+      "DanceHall",
+      "ExercisePlaza",
+      "LaborerMonument",
+      "FlameOfUnity",
+      "TributeToIngenuity",
+      "WonderEmberpelts",
+      "Apples",
+      "Radishes",
+      "Tomatoes",
+      "Juice",
+      "RedJuice",
+      "CornJuice",
+      "GrilledCorn",
+      "GrilledPeppers",
+      "ApplePie",
+      "StuffedPeppers",
+      "Cornbread",
+      "BakedBeetroot",
+    ]
+  }
+}

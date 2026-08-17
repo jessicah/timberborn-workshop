@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Emberpelts: Amenities Extension",
+    "Version": "1.1.1.0",
+    "Id": "EmberpeltsAmenitiesExtension",
+    "MinimumGameVersion": "1.1.1.0",
+    "Description": "Adds more amenities to Emberpelts.",
+    "RequiredMods": [
+        {"Id": "Emberpelts", "MinimumVersion": "1.1.1.0"},
+    ],
+    "OptionalMods": [
+        {"Id": "BobingaboutBeaverFactionSplitNeeds"},
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "MetalBlock.LeafCoats",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.MetalBlock.PluralDisplayName",
+    "CycleDurationInHours": 5.0,
+    "Ingredients": [
+      {
+        "Id": "ScrapMetal",
+        "Amount": 5
+      }
+    ],
+    "Products": [
+      {
+        "Id": "MetalBlock",
+        "Amount": 2
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 6,
+    "Icon": "Sprites/Goods/MetalBlockIcon"
+  }
+}

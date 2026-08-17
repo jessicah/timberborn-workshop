@@ -1,0 +1,9 @@
+{
+  "ToolGroupSpec": {
+    "Id": "Industry",
+    "Order": "68",
+    "NameLocKey": "ToolGroups.Industry",
+    "Icon": "Sprites/BottomBar/BuildingGroups/Industry",
+    "FallbackGroup": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Folktails",
+  "Paths#append": [
+    "Buildings/ModularStoragePrefabs/PitpileFT",
+    "Buildings/ModularStoragePrefabs/PitwarehouseFT",
+    "Buildings/ModularStoragePrefabs/SCoveredtankFT",
+    "Buildings/ModularStoragePrefabs/LongWarehouseFT",
+    
+    "Buildings/ModularStoragePrefabs/2x2pileRightFT",
+    "Buildings/ModularStoragePrefabs/LongpileFT",
+    "Buildings/ModularStoragePrefabs/PitTankFT",
+    
+    "Buildings/ModularStoragePrefabs/GigargantuanWarehouseFT",
+    "Buildings/ModularStoragePrefabs/GigargantuanPileFT",
+
+  ],
+}
+}

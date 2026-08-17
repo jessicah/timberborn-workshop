@@ -1,0 +1,119 @@
+{
+  "FactionSpec":
+  {
+    "Textures#append":
+    [
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult5.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult6.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult7.Emberpelts",
+      "Materials/Beavers/Emberpelts/Adult/BeaverAdult8.Emberpelts"
+    ],
+    "ChildTextures#append":
+    [
+      "Materials/Beavers/Emberpelts/Child/BeaverChild1.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild2.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild3.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild4.Emberpelts",
+      "Materials/Beavers/Emberpelts/Child/BeaverChild5.Emberpelts"
+    ],
+    "NeedCollectionIds#append":
+    [
+      "Emberpelts",
+      "EmberpeltsAddons",
+      "AdaptorsHaveEmberpelts"
+    ],
+    "GoodCollectionIds#append":
+    [
+      "Emberpelts",
+      "EmberpeltsAddons",
+      "AdaptorsHaveEmberpelts"
+    ],
+    "MaterialCollectionIds#append":
+    [
+      "Emberpelts",
+      "AdaptorsHaveEmberpelts"
+    ],
+    "TemplateCollectionIds#append":
+    [
+      "Buildings.Emberpelts",
+      "Cadre.AdaptorsHaveEmberpelts",
+      "NaturalResources.Emberpelts",
+      "NaturalResources.AdaptorsHaveEmberpelts",
+      "Actors.Emberpelts",
+      "Cadre.Emberpelts",
+      "Editing.Emberpelts",
+      "Effects.Emberpelts",
+      "Grows.Emberpelts",
+      "Parts.Emberpelts",
+      "Rides.Emberpelts"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Sate-a-Mole */
+      {
+        "Original": "Needs/Need.Bot.Fuel.blueprint",
+        "Modifier": "Mole/Mods/Needs/SetAdaptorFuel.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetAppleTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BeetrootCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetBeetrootCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PepperCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetPepperCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RadishCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetRadishCropModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/TomatoCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetTomatoCropModels.optional.blueprint"
+      },
+      /* Wack-a-Mole - Emberpelts */
+      {
+        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Emberpelts/Goods.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Emberpelts/Needs.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Emberpelts/Grows.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RadishCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BeetrootCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/TomatoCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PepperCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      }
+    ],
+    "PathMaterial": "Materials/UberAtlas/Emberpelts/Path.Emberpelts",
+    "BaseWoodMaterial": "Materials/UberAtlas/Emberpelts/BaseWood_DarkRed.Emberpelts",
+    "StartingBuildingId": "DistrictCenter.Emberpelts"
+  }
+}

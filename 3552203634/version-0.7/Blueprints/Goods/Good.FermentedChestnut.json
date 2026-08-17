@@ -1,0 +1,28 @@
+{
+  "GoodSpec": {
+    "Id": "FermentedChestnut",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.FermentedChestnut.DisplayName",
+    "PluralDisplayNameLocKey": "Good.FermentedChestnut.PluralDisplayName",
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "FermentedChestnut",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": "#c28ecc",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/FermentedChestnutIcon",
+    "ContainerMaterial": ""
+  }
+}

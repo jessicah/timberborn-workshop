@@ -1,0 +1,23 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Bananas.Emberpelts",
+      "Wares.Bananas.Folktails",
+      "Wares.Bananas.IronTeeth",
+      "Wares.Bananas.LeafCoats",
+      "Wares.Bananas.Whitepaws",
+      "Wares.Bananas.Common",
+      "Wares.Banana.Emberpelts",
+      "Wares.Banana.Folktails",
+      "Wares.Banana.IronTeeth",
+      "Wares.Banana.LeafCoats",
+      "Wares.Banana.Whitepaws",
+      "Wares.Banana.Common"
+    ],
+    "Icon": "Mole/Grows/Bananas",
+    "DisplayNameLocKey": "Wares.Bananas.Lone",
+    "PluralDisplayNameLocKey": "Wares.Bananas.Name"
+  }
+}

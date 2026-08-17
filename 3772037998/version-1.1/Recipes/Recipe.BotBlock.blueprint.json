@@ -1,0 +1,22 @@
+﻿{
+	"RecipeSpec":
+	{
+		"Id": "BotBlock",
+		"BackwardCompatibleIds": [],
+		"DisplayLocKey": "zxuiji.Good.BotBlock.PluralDisplayName",
+		"CycleDurationInHours": 1.5,
+		"CyclesCapacity": 5,
+		"Ingredients":
+		[
+			{ "Amount": 1, "Id": "TreatedPlank" },
+			{ "Amount": 1, "Id": "Extract" },
+			{ "Amount": 1, "Id": "Water" }
+		],
+		"Products": [ { "Amount": 10, "Id": "BotBlock" } ],
+		"ProducedSciencePoints": 0,
+		"Fuel": "ScrapMetal",
+		"CyclesFuelLasts": 1,
+		"FuelCapacity": 5,
+		"Icon": "Mole/Depos/BotBlocks"
+	}
+}

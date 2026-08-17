@@ -1,0 +1,7 @@
+{
+  "GoodVisualizationSpec":
+  {
+    "PrimaryMesh": "Buildings/Storage/1GoldBar.Model",
+    "SecondaryMesh": "Buildings/Storage/4GoldBars.Model"
+  }
+}

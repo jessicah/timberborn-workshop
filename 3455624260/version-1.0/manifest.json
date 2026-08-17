@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Emberpelts: Food Extension",
+    "Version": "1.0.10.0",
+    "Id": "EmberpeltsFoodExtension",
+    "MinimumGameVersion": "1.0.7.0",
+    "Description": "Adds more food items to Emberpelts.",
+    "RequiredMods": [
+        {"Id": "Emberpelts", "MinimumVersion": "1.0.7.0"},
+    ],
+    "OptionalMods": [
+        {"Id": "BobingaboutBeaverFactionSplitNeeds", "MinimumVersion": "1.0.0.0"},
+    ]
+}

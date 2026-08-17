@@ -1,0 +1,7 @@
+ID,Text,Comment
+NaturalResource.BeaverPlant.DisplayName,Боброва Рослина,
+NaturalResource.BeaverPlant.Description,"Рослина, яка вирощує нового бобра.",
+NaturalResource.BeaverPlant.FlavorDescription,Ми говоримо від імені дерев.,
+NaturalResource.AdultBeaverPlant.DisplayName,Доросла Боброва Рослина,
+NaturalResource.AdultBeaverPlant.Description,"Рослина, з якої виростає новий Дорослий Бобер. Їй потрібно вдвічі більше часу, щоб вирости.",
+NaturalResource.BeaverPlant.GrowthProgress,Прогрес зростання

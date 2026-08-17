@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "Id": "Apple",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Apple.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Apple.PluralDisplayName",
+    "ConsumptionEffects": [
+      {"NeedId": "Hunger","Points": 0.3},
+      {"NeedId": "Apples","Points": 0.2}
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": {"Value": "Box"},
+    "ContainerColor": "#ffb831",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/AppleIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

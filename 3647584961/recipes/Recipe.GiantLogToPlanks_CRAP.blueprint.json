@@ -1,0 +1,33 @@
+{
+  "RecipeSpec": {
+    "Id": "GiantLogToPlanks_CRAP",
+  "DisplayLocKey": "Reciepe.Ineff_Plank.PluralDisplayName",
+  "CycleDurationInHours": 576,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "GiantLog",
+      "Amount": 1
+    },{
+      "Id": "Crudesawblade",
+      "Amount": 5
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Plank",
+      "Amount": 125
+    },
+    {
+      "Id": "Sawdust",
+      "Amount": 540
+    }
+  ],
+  "ProducedSciencePoints": -5,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "Sprites/Goods/PlankIcon",
+	"BackwardCompatibleIds": []
+  }
+}

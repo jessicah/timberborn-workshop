@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Fuel.Radish",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Manufactory.Recipe.FuelRadish",
+    "CycleDurationInHours": 4.0,
+    "Ingredients": [
+      {
+        "Id": "Radish",
+        "Amount": 2
+      },
+      {
+        "Id": "Water",
+        "Amount": 2
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Fuel",
+        "Amount": 20
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 6,
+    "Icon": "Sprites/Goods/BiofuelIcon"
+  }
+}

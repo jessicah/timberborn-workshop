@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "ShaftTunnels",
+    "Order": 33,
+    "NameLocKey": "Battery.PowerShaftExtensions.ToolGroups.ShaftTunnels.DisplayName",
+    "Icon": "Battery.PowerShaftExtensions/Sprites/ShaftTunnelsCategory-ico",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Power"
+    ]
+  }
+}

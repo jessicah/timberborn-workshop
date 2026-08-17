@@ -1,0 +1,7 @@
+ID,Text,Comment
+NaturalResource.BeaverPlant.DisplayName,Beaver Plant,
+NaturalResource.BeaverPlant.Description,A plant that grows a new Beaver.,
+NaturalResource.BeaverPlant.FlavorDescription,We speak for the trees.,
+NaturalResource.AdultBeaverPlant.DisplayName,Adult Beaver Plant,
+NaturalResource.AdultBeaverPlant.Description,A plant that grows a new Adult Beaver. It takes twice as long to grow.,
+NaturalResource.BeaverPlant.GrowthProgress,Growth progress

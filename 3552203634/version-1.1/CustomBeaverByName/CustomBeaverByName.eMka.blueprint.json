@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "eMka",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/eMka",
+    "ChildTexture": "Materials/Beavers/Unique/eMka",
+    "Avatar": "Sprites/Avatars/Unique/eMkaAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/Unique/eMkaContaminatedAdult",
+    "ChildAvatar": "Sprites/Avatars/Unique/eMkaChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/Unique/eMkaContaminatedChild",
+    "BeaverFactionId": "Emberpelts",
+    "ExcludeFromNamePool": "False"
+  }
+}

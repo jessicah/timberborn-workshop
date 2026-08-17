@@ -1,0 +1,16 @@
+{
+  "AuthorName": "zxuiji",
+  "Name": "zxuiji -m- Adaptors (AD)",
+  "Version": "1.0.9.10",
+  "Id": "Adaptors",
+  "MinimumGameVersion": "1.0.12.0",
+  "Description": "For details visit https://mod.io/g/timberborn/m/adaptors#description",
+  "OptionalMods": [],
+  "RequiredMods":
+  [
+    { "Id": "TImprove4Ui", "MinimumVersion": "10.2.0" },
+    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.10" }
+  ]
+}

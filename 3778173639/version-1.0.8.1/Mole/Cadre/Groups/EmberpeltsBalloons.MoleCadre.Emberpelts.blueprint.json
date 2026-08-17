@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.Emberpelts", "Order": 316002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.Emberpelts",
+      "ScoutBalloon.Emberpelts",
+      "FolktailsTraderBalloon.Emberpelts",
+      "IronTeethTraderBalloon.Emberpelts",
+      "EmberpeltsTraderBalloon.Emberpelts",
+      "LeafCoatsTraderBalloon.Emberpelts",
+      "AmpEarsTraderBalloon.Emberpelts",
+      "IslandBeaversTraderBalloon.Emberpelts",
+      "PolarBeaversTraderBalloon.Emberpelts",
+      "WhitepawsTraderBalloon.Emberpelts",
+      "FrostyWhiskersTraderBalloon.Emberpelts",
+      "CopperClawsTraderBalloon.Emberpelts",
+      "DragonClawsTraderBalloon.Emberpelts",
+      "DirtClawsTraderBalloon.Emberpelts",
+      "BadFursTraderBalloon.Emberpelts",
+      "Airship.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.Emberpelts",
+      "ScoutBalloon.Emberpelts",
+      "FolktailsTraderBalloon.Emberpelts",
+      "IronTeethTraderBalloon.Emberpelts",
+      "EmberpeltsTraderBalloon.Emberpelts",
+      "LeafCoatsTraderBalloon.Emberpelts",
+      "AmpEarsTraderBalloon.Emberpelts",
+      "IslandBeaversTraderBalloon.Emberpelts",
+      "PolarBeaversTraderBalloon.Emberpelts",
+      "WhitepawsTraderBalloon.Emberpelts",
+      "FrostyWhiskersTraderBalloon.Emberpelts",
+      "CopperClawsTraderBalloon.Emberpelts",
+      "DragonClawsTraderBalloon.Emberpelts",
+      "DirtClawsTraderBalloon.Emberpelts",
+      "BadFursTraderBalloon.Emberpelts",
+      "Airship.Emberpelts"
+    ]
+  }
+}

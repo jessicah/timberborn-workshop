@@ -1,0 +1,10 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "GathererFlag.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Flag_Gatherer.FrostyWhiskers"
+    ]
+  }
+}

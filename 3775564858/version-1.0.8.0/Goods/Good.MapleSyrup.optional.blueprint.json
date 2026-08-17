@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+		"BackwardCompatibleIds":
+    [
+      "Wares.MapleSyrup.Emberpelts",
+      "Wares.MapleSyrup.Folktails",
+      "Wares.MapleSyrup.IronTeeth",
+      "Wares.MapleSyrup.LeafCoats",
+      "Wares.MapleSyrup.Whitepaws",
+      "Wares.MapleSyrup.Common"
+    ],
+    "GoodGroupId": "Tanks"
+  }
+}

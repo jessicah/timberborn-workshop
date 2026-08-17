@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Rock",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Rock",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 0.5773585,
+      "g": 0.5773585,
+      "b": 0.5773585,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 2,
+    "GoodGroupId": "Piles",
+    "GoodOrder": 10107,
+    "Icon": "Mole/Piles/Stone",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.Stone.Name",
+    "PluralDisplayNameLocKey": "Wares.Stone.Name"
+  }
+}

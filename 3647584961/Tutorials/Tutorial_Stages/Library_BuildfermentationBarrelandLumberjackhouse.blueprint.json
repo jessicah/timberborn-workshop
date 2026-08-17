@@ -1,0 +1,27 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildfermentationBarrelandLumberjackhouse",
+    "IntroLocKey": "Tutorial.Library.BuildfermentationBarrelandLumberjackhouse.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "BlockyLumberjackHouse.Whitepaws",
+          "LumberJackBarn.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Fermenter.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 3
+      }
+    }
+  }
+}

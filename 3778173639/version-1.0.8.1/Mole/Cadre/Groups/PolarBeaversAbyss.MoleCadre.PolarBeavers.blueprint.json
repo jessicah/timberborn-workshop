@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Abyss.MoleCadre.PolarBeavers", "Order": 916001, "NameLocKey": "Group.Abyss", "Icon": "Mole/Cadre/Abyss", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "AbyssElevator.PolarBeavers",
+      "SupplementaryExplorationTeam.PolarBeavers",
+      "NuclearWasteCollector.PolarBeavers",
+      "GasExctractor.PolarBeavers",
+      "AbyssExcavator.PolarBeavers",
+      "HoomanUndergroundChemPlant.PolarBeavers",
+      "HoomanUndergroundFactory.PolarBeavers",
+      "DeepMinePILEstorage.PolarBeavers",
+      "DeepMineBOXStorage.PolarBeavers",
+      "AbyssTourismCenter.PolarBeavers",
+      "HoomanMedicalFacility.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "AbyssElevator.PolarBeavers",
+      "SupplementaryExplorationTeam.PolarBeavers",
+      "NuclearWasteCollector.PolarBeavers",
+      "GasExctractor.PolarBeavers",
+      "AbyssExcavator.PolarBeavers",
+      "HoomanUndergroundChemPlant.PolarBeavers",
+      "HoomanUndergroundFactory.PolarBeavers",
+      "DeepMinePILEstorage.PolarBeavers",
+      "DeepMineBOXStorage.PolarBeavers",
+      "AbyssTourismCenter.PolarBeavers",
+      "HoomanMedicalFacility.PolarBeavers"
+    ]
+  }
+}

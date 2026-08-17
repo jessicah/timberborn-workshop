@@ -1,0 +1,4 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "Farmer.Folktails" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.Farmer.Folktails.Name" }
+}

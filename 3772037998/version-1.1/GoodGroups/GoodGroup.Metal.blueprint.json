@@ -1,0 +1,10 @@
+{
+  "GoodGroupSpec":
+  {
+    "Id": "Metal",
+    "Order": 1,
+    "Icon": "Sprites/Goods/MetalBlockIcon",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Group.Metal"
+  }
+}

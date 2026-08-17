@@ -1,0 +1,21 @@
+{
+  "CustomBeaverByNameListSpec": {
+    "Names": [
+      "Yula",
+      "Paddy",
+      "Bobin",
+      "Chratogad"
+    ],
+    "GraphicsSets": [
+      "BeaverGold"
+    ],
+    "Texture": "",
+    "ChildTexture": "",
+    "Avatar": "",
+    "ContaminatedAvatar": "",
+    "ChildAvatar": "",
+    "ContaminatedChildAvatar": "",
+    "BeaverFactionId": "",
+    "ExcludeFromNamePool": "True"
+  }
+}

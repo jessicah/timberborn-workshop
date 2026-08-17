@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.Whitepaws", "Order": 504000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.Whitepaws",
+      "PrimitiveDam3x2Upgrade.Whitepaws",
+      "PrimitiveDam3x3.Whitepaws",
+      "PrimitiveDam3x3Upgrade.Whitepaws",
+      "PrimitiveDam3x3Utility.Whitepaws",
+      "PrimitiveDam3x3UtilityUpgrade.Whitepaws",
+      "PrimitiveDam3x3Variant.Whitepaws",
+      "PrimitiveDam3x3VariantUpgrade.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.Whitepaws",
+      "PrimitiveDam3x2Upgrade.Whitepaws",
+      "PrimitiveDam3x3.Whitepaws",
+      "PrimitiveDam3x3Upgrade.Whitepaws",
+      "PrimitiveDam3x3Utility.Whitepaws",
+      "PrimitiveDam3x3UtilityUpgrade.Whitepaws",
+      "PrimitiveDam3x3Variant.Whitepaws",
+      "PrimitiveDam3x3VariantUpgrade.Whitepaws"
+    ]
+  }
+}

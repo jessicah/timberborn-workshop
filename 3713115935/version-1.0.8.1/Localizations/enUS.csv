@@ -1,0 +1,7 @@
+ID,Text,Comment
+Adaptors.Name,"Adaptors","Yikes that's a lot of stuff!"
+Adaptors.Desc,"Generic name for the mixed factions of the world",
+Adaptors.WonderCompletion.Text,"Well done!",
+Adaptors.WonderCompletion.Misc,"That was quite the effort wasn't it? :D",
+Adaptors.GameOver.Text,"...How did you?",
+Adaptors.GameOver.Misc,"Come on, you can do better than that!",

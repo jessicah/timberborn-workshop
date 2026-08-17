@@ -1,0 +1,12 @@
+{
+  "Name": "Population Performance Profiler",
+  "Version": "1.0.0",
+  "Id": "PopPerf.Profiler",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "See exactly what's slowing your colony. A live in-game overlay shows your simulation cost per tick, FPS, and a ranked breakdown of the heaviest systems, beaver behaviors, and workplace jobs — so you can find late-game lag instead of guessing. Optional CSV logging for deep dives. Read-only: never touches your save or the game install.",
+  "RequiredMods": [
+    { "Id": "Harmony" },
+    { "Id": "eMka.ModSettings" }
+  ],
+  "OptionalMods": []
+}

@@ -1,0 +1,9 @@
+{
+  "RemoveYieldStrategySpec": {
+    "Id": "Uncuttable",
+    "CompatibleResourceGroups#append": [
+      "Pruning"
+    ],
+    "Animation": "Working"
+  }
+}

@@ -1,0 +1,62 @@
+{
+	"PlantablePreviewModelSpec":
+	{
+    "Model": "Plants/Crops/Beetroot/BeetrootMature.Model"
+  },
+	"Children":
+	{
+		"#Models":
+		{
+			"Children":
+			{
+				"Seedling":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootSeedlingDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootSeedlingDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootSeedling.Model" }
+						}
+					}
+				},
+				"Mature":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootMatureDead.Model" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootMatureDry.Model" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "Plants/Crops/Beetroot/BeetrootMature.Model" }
+						}
+					}
+				}/*,
+				"#Leftover": {
+					"TimbermeshSpec": {
+						"Model": "Plants/Crops/Beetroot/BeetrootMatureStump.Model"
+					}
+				}*/
+			}
+		}
+	}
+}

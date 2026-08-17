@@ -1,0 +1,30 @@
+#include <defines.h>
+{
+  _TOGROUP(08001,FierceMetalDamSolidLining1xN,DamSolidLining1xN),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(DE_A_RM_SquareW1x1),
+      TOTOOL(DE_A_RM_SquareW1x2),
+      TOTOOL(DE_A_RM_SquareW1x3),
+      TOTOOL(DE_A_RM_SlopeW),
+      TOTOOL(DE_A_RM_InvSlopeW),
+      TOTOOL(DE_A_RM_InvSlopeW1x1),
+      TOTOOL(DE_A_RM_InvSlopeW1x2),
+      TOTOOL(DE_A_RM_InvCornerW)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(DE_A_RM_SquareW1x1),
+      TOTOOL(DE_A_RM_SquareW1x2),
+      TOTOOL(DE_A_RM_SquareW1x3),
+      TOTOOL(DE_A_RM_SlopeW),
+      TOTOOL(DE_A_RM_InvSlopeW),
+      TOTOOL(DE_A_RM_InvSlopeW1x1),
+      TOTOOL(DE_A_RM_InvSlopeW1x2),
+      TOTOOL(DE_A_RM_InvCornerW)
+    ]
+  }
+}

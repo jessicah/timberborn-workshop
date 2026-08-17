@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Characters.Adaptors",
+    "Blueprints": [
+      "Characters/Beaver/BeaverAdult.blueprint",
+      "Characters/Beaver/BeaverChild.blueprint",
+      "Characters/Bot/AdaptorBot.blueprint"
+    ]
+  }
+}

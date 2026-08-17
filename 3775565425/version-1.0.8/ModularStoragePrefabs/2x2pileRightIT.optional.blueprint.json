@@ -1,0 +1,34 @@
+{
+  "BlockObjectNavMeshSettingsSpec#delete": {},
+  "BlockObjectSpec#delete": {},
+  "BuildingAccessibleSpec#delete": {},
+  "BuildingModelSpec#delete": {},
+  "BuildingSpec#delete": {},
+  "Children#delete": {},
+  "EnterableSpec#delete": {},
+  "LabeledEntitySpec#delete": {},
+  "PathSpec#delete": {},
+  "PlaceableBlockObjectSpec#delete": {},
+  "StockpileSpec#delete": {},
+  "StockpileGoodColumnVisualizerSpec#delete": {},
+  "StockpileGoodPileVisualizerSpec#delete": {},
+  "StockpilePlaneVisualizerSpec#delete": {},
+  "TemplateSpec#delete": {},
+  "TemplateCollectionSpec":
+  {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints#append":
+    [
+      //"Buildings/TallStorage/BasicDepo.IronTeeth.blueprint",
+      "Buildings/TallStorage/BasicPile.IronTeeth.blueprint",
+      "Buildings/TallStorage/GigaDepo.IronTeeth.blueprint",
+      "Buildings/TallStorage/GigaPile.IronTeeth.blueprint",
+      "Buildings/TallStorage/LongDepo.IronTeeth.blueprint",
+      "Buildings/TallStorage/LongPile.IronTeeth.blueprint",
+      "Buildings/TallStorage/SmallCoveredTank.IronTeeth.blueprint",
+      "Buildings/TallStorage/TallDepo.IronTeeth.blueprint",
+      "Buildings/TallStorage/TallPile.IronTeeth.blueprint",
+      "Buildings/TallStorage/TallTank.IronTeeth.blueprint"
+    ]
+  }
+}

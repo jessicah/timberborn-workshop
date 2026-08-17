@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Engine.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Engine.WhitePaws" ]
+	}
+}

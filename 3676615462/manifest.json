@@ -1,0 +1,13 @@
+{
+  "Name": "Grauschweif Materials",
+  "Version": "2.3.2",
+  "Id": "grauschweif.materials",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "Adds 13 *.Common materials that auto-magically map to faction versions! Also holds whatever materials my mods use.",
+  "RequiredMods": [
+    {
+      "Id": "Harmony",
+      "MinimumVersion": "2.4.1"
+    }
+  ]
+}

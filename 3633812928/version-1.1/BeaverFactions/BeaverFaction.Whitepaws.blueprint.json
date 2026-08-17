@@ -1,0 +1,18 @@
+{
+  "BeaverFactionSpec": {
+    "Id": "Whitepaws",
+    "DisplayNameLocKey": "Faction.waterbeavers.DisplayName",
+    "Textures": [
+      "BeaverAdult4.Waterbeaver_1",
+      "BeaverAdult4.Waterbeaver_2",
+      "BeaverAdult4.Waterbeaver_3",
+      "BeaverAdult4.Waterbeaver_4",
+      "BeaverAdult4.Waterbeaver_5"
+    ],
+    "ChildTextures": [
+      "BeaverChild.Waterbeaver_1",
+      "BeaverChild.Waterbeaver_2",
+      "BeaverChild.Waterbeaver_3"
+    ]
+  }
+}

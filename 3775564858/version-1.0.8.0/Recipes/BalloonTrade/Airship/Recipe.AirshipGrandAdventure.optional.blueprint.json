@@ -1,0 +1,27 @@
+{
+  "RecipeSpec":
+  {
+    "Products": [
+      {
+        "Id": "Apple",
+        "Amount": 35
+      },
+      {
+        "Id": "Coconut",
+        "Amount": 35
+      },
+      {
+        "Id": "FrozenHumanMeat",
+        "Amount": 50
+      },
+      {
+        "Id": "InsectLarva",
+        "Amount": 3
+      },
+      {
+        "Id": "Seashells",
+        "Amount": 50
+      }
+    ]
+  }
+}

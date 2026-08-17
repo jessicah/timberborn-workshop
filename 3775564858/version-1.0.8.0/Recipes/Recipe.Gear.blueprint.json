@@ -1,0 +1,18 @@
+{
+  "RecipeSpec": {
+	  "Id":"Gear",
+    "CycleDurationInHours": 3.0,
+    "Ingredients": [
+      {
+        "Id": "Plank",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Gear",
+        "Amount": 5
+      }
+    ]
+  }
+}

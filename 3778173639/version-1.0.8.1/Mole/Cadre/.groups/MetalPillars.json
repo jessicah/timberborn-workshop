@@ -1,0 +1,30 @@
+#include <defines.h>
+{
+  TOGROUP(02002,MetalPillars),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(MetalPillar),
+      TOTOOL(MetalPillars),
+      TOTOOL(MetalBigPillarBase),
+      TOTOOL(MetalBigPillarMid),
+      TOTOOL(MetalBigPillarTop),
+      TOTOOL(Aque_MetalBigPillarBase),
+      TOTOOL(Aque_MetalBigPillarMid),
+      TOTOOL(Aque_MetalBigPillarTop)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(MetalPillar),
+      TOTOOL(MetalPillars),
+      TOTOOL(MetalBigPillarBase),
+      TOTOOL(MetalBigPillarMid),
+      TOTOOL(MetalBigPillarTop),
+      TOTOOL(Aque_MetalBigPillarBase),
+      TOTOOL(Aque_MetalBigPillarMid),
+      TOTOOL(Aque_MetalBigPillarTop)
+    ]
+  }
+}

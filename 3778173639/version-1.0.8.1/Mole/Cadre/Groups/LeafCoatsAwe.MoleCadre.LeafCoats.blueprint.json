@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.LeafCoats", "Order": 426000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.LeafCoats",
+      "LaborerMonument.LeafCoats",
+      "BrazierOfBonding.LeafCoats",
+      "FlameOfUnity.LeafCoats",
+      "FountainOfJoy.LeafCoats",
+      "PublicFountain.LeafCoats",
+      "TributeToIngenuity.LeafCoats",
+      "HallOfAbundance.LeafCoats",
+      "ArchOfProgress.LeafCoats",
+      "EarthRecultivator.LeafCoats",
+      "EarthRepopulator.LeafCoats",
+      "WonderOfFire.LeafCoats",
+      "Wonder.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.LeafCoats",
+      "LaborerMonument.LeafCoats",
+      "BrazierOfBonding.LeafCoats",
+      "FlameOfUnity.LeafCoats",
+      "FountainOfJoy.LeafCoats",
+      "PublicFountain.LeafCoats",
+      "TributeToIngenuity.LeafCoats",
+      "HallOfAbundance.LeafCoats",
+      "ArchOfProgress.LeafCoats",
+      "EarthRecultivator.LeafCoats",
+      "EarthRepopulator.LeafCoats",
+      "WonderOfFire.LeafCoats",
+      "Wonder.LeafCoats"
+    ]
+  }
+}

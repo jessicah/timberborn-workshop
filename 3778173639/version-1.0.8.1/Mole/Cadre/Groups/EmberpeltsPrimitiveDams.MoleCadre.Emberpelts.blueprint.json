@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.Emberpelts", "Order": 304000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.Emberpelts",
+      "PrimitiveDam3x2Upgrade.Emberpelts",
+      "PrimitiveDam3x3.Emberpelts",
+      "PrimitiveDam3x3Upgrade.Emberpelts",
+      "PrimitiveDam3x3Utility.Emberpelts",
+      "PrimitiveDam3x3UtilityUpgrade.Emberpelts",
+      "PrimitiveDam3x3Variant.Emberpelts",
+      "PrimitiveDam3x3VariantUpgrade.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.Emberpelts",
+      "PrimitiveDam3x2Upgrade.Emberpelts",
+      "PrimitiveDam3x3.Emberpelts",
+      "PrimitiveDam3x3Upgrade.Emberpelts",
+      "PrimitiveDam3x3Utility.Emberpelts",
+      "PrimitiveDam3x3UtilityUpgrade.Emberpelts",
+      "PrimitiveDam3x3Variant.Emberpelts",
+      "PrimitiveDam3x3VariantUpgrade.Emberpelts"
+    ]
+  }
+}

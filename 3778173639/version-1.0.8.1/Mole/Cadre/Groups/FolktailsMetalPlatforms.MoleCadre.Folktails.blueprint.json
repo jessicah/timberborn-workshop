@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Folktails", "Order": 102003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Folktails",
+      "LargeMetalPlatform.Folktails",
+      "MetalPlatform1x1.Folktails",
+      "MetalPlatform3x3.Folktails",
+      "MetalPlatform5x3.Folktails",
+      "MetalPlatform5x5.Folktails",
+      "MetalPlatform7x7.Folktails",
+      "MetalPlatform3x3.Ladder.Folktails",
+      "MetalPlatform5x5.Ladder.Folktails",
+      "MetalPlatform7x7.Ladder.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Folktails",
+      "LargeMetalPlatform.Folktails",
+      "MetalPlatform1x1.Folktails",
+      "MetalPlatform3x3.Folktails",
+      "MetalPlatform5x3.Folktails",
+      "MetalPlatform5x5.Folktails",
+      "MetalPlatform7x7.Folktails",
+      "MetalPlatform3x3.Ladder.Folktails",
+      "MetalPlatform5x5.Ladder.Folktails",
+      "MetalPlatform7x7.Ladder.Folktails"
+    ]
+  }
+}

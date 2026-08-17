@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "FancyApples",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.FancyApples.PluralDisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Apple",
+        "Amount": 3
+      },
+      {
+        "Id": "MangroveFruit",
+        "Amount": 3
+      },
+      {
+        "Id": "MapleSyrup",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "FancyApples",
+        "Amount": 9
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 5,
+    "Icon": "Sprites/Goods/FancyApplesIcon"
+  }
+}

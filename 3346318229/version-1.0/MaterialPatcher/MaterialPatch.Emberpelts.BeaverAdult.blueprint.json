@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "Emberpelts",
+    "MaterialName": "BeaverAdult",
+    "TextureEntries": [
+      {
+        "Name": "_BaseMap",
+        "Path": "Materials/Beavers/Emberpelts/Adult/BeaverAdult3.Emberpelts"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

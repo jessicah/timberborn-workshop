@@ -1,0 +1,28 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.GreedyBuilders",
+  "Paths#append": [
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft3.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft4.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft5.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft6.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft7.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft8.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft9.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft10.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft11.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft12.Folktails",
+
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft3.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft4.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft5.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft6.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft7.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft8.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft9.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft10.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft11.Folktails",
+    "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft12.Folktails"
+  ]
+}
+}

@@ -1,0 +1,15 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Mole/Grows/BlueberryPlant.Mole.blueprint",
+      "Mole/Grows/GrapePlant.Mole.blueprint",
+      "Mole/Grows/BirchTree.Mole.blueprint",
+      "Mole/Grows/OakTree.Mole.blueprint",
+      "Mole/Grows/PineTree.Mole.blueprint",
+      "Mole/Grows/ParsnipsCrop.Mole.blueprint",
+      "Mole/Grows/SugarCaneCrop.Mole.blueprint"
+    ]
+  }
+}

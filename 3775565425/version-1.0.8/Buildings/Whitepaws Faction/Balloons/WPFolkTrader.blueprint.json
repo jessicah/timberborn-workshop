@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "FolktailsTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPFolkTrader.Whitepaws",
+			"WPFolkTrader",
+			"FolkTrader"
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.PolarBeavers", "Order": 921000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.PolarBeavers",
+      "GravityBattery.TreeTrunk.PolarBeavers",
+      "GravityBattery.TreeTrunk2.PolarBeavers",
+      "SmallFlywheel.PolarBeavers",
+      "SmallHorizontalFramedFlywheel.PolarBeavers",
+      "SmallVerticalFramedFlywheel.PolarBeavers",
+      "MediumFlywheel.PolarBeavers",
+      "MediumHorizontalFramedFlywheel.PolarBeavers",
+      "MediumVerticalFramedFlywheel.PolarBeavers",
+      "LargeFlywheel.PolarBeavers",
+      "LargeHorizontalFramedFlywheel.PolarBeavers",
+      "LargeVerticalFramedFlywheel.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.PolarBeavers",
+      "GravityBattery.TreeTrunk.PolarBeavers",
+      "GravityBattery.TreeTrunk2.PolarBeavers",
+      "SmallFlywheel.PolarBeavers",
+      "SmallHorizontalFramedFlywheel.PolarBeavers",
+      "SmallVerticalFramedFlywheel.PolarBeavers",
+      "MediumFlywheel.PolarBeavers",
+      "MediumHorizontalFramedFlywheel.PolarBeavers",
+      "MediumVerticalFramedFlywheel.PolarBeavers",
+      "LargeFlywheel.PolarBeavers",
+      "LargeHorizontalFramedFlywheel.PolarBeavers",
+      "LargeVerticalFramedFlywheel.PolarBeavers"
+    ]
+  }
+}

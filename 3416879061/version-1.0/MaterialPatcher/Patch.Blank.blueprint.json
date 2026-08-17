@@ -1,0 +1,45 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "",
+    "MaterialName": "",
+    "TextureEntries": [],
+    "ColorEntries": [],
+    "NumberEntries": []
+  },
+  "ShaderPatchSpec": {
+    "FactionID": "",
+    "DonorName": "",
+    "MaterialNames": []
+  },
+  "WaterShaderPatchSpec": {
+    "FactionID": "",
+    "DonorName": "",
+    "MaterialNames": []
+  },
+  "LiquidGoodMaterialPatchSpec": {
+    "FactionID": "",
+    "DonorMaterialName": "",
+    "GoodNames": []
+  },
+  "LiquidGoodMaterialCloneSpec": {
+    "FactionID": "",
+    "DonorMaterialName": "",
+    "GoodName": "",
+    "TextureEntries": [],
+    "ColorEntries": [],
+    "NumberEntries": []
+  },
+  "BuildingPrefabMaterialPatchSpec": {
+    "FactionID": "",
+    "PrefabName": "",
+    "MaterialEntries": []
+  },
+  "MaterialCloneSpec": {
+    "FactionID": "",
+    "MaterialName": "",
+    "NewMaterialName": "",
+    "TextureEntries": [],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"RecipeSpec":
+	{
+		"Icon": "Mole/Grows/Grapes",
+		"DisplayLocKey": "Wares.Grapes.Name",
+		"PluralDisplayNameLocKey": "Wares.Grapes.Name",
+		"Ingredients": [ { "Id": "Metalfixation", "Amount": 30 } ],
+		"Products": [ { "Id": "Grapes", "Amount": 50 } ]
+	}
+}

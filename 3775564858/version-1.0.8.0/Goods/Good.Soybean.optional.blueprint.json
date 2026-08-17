@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+		"BackwardCompatibleIds":
+    [
+      "Wares.Soybeans.Emberpelts",
+      "Wares.Soybeans.Folktails",
+      "Wares.Soybeans.IronTeeth",
+      "Wares.Soybeans.LeafCoats",
+      "Wares.Soybeans.Whitepaws",
+      "Wares.Soybeans.Common",
+      "Wares.Soybean.Emberpelts",
+      "Wares.Soybean.Folktails",
+      "Wares.Soybean.IronTeeth",
+      "Wares.Soybean.LeafCoats",
+      "Wares.Soybean.Whitepaws",
+      "Wares.Soybean.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

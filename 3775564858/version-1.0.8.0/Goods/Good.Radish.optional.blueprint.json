@@ -1,0 +1,20 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Radishes.Emberpelts",
+      "Wares.Radishes.Folktails",
+      "Wares.Radishes.IronTeeth",
+      "Wares.Radishes.LeafCoats",
+      "Wares.Radishes.Whitepaws",
+      "Wares.Radishes.Common",
+      "Wares.Radish.Emberpelts",
+      "Wares.Radish.Folktails",
+      "Wares.Radish.IronTeeth",
+      "Wares.Radish.LeafCoats",
+      "Wares.Radish.Whitepaws",
+      "Wares.Radish.Common"
+    ]
+  }
+}

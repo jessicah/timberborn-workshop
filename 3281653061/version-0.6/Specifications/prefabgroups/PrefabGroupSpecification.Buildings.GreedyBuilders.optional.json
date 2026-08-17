@@ -1,0 +1,17 @@
+{
+  "Id": "Buildings.GreedyBuilders",
+  "Paths#append": [
+    "Buildings/ModularStoragePrefabs/PitpileIT",
+    "Buildings/ModularStoragePrefabs/PitwarehouseFT",
+    "Buildings/ModularStoragePrefabs/SCoveredtankFT",
+    "Buildings/ModularStoragePrefabs/LongWarehouseFT",
+
+    "Buildings/ModularStoragePrefabs/2x2pileRightIT",
+    "Buildings/ModularStoragePrefabs/LongpileIT",
+    "Buildings/ModularStoragePrefabs/PitTankFT",
+
+	  "Buildings/ModularStoragePrefabs/GigargantuanPileIT",
+    "Buildings/ModularStoragePrefabs/GigargantuanWarehouseFT",
+
+  ],
+}

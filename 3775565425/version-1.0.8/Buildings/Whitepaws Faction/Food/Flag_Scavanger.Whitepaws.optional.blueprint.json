@@ -1,0 +1,7 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "ScavangerFlag.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "Flag_Scavanger" ]
+  }
+}

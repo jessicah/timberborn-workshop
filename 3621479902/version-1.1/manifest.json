@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Leaf Coats: Beaver Plants",
+    "Version": "1.1.1.0",
+    "Id": "LeafCoatsBeaverPlants",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "Adds Plants that grow into Beavers for the Leaf Coats.",
+    "RequiredMods": [
+        {"Id": "LeafCoats", "MinimumVersion": "1.1.0.0"},
+    ],
+    "OptionalMods": [
+        {"Id": "BobingaboutBeaverFactionSplitBreeding"},
+    ]
+}

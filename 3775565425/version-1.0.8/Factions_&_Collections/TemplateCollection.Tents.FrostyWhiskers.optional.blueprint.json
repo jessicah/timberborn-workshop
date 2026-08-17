@@ -1,0 +1,12 @@
+{
+  "TemplateCollectionSpec": {
+    "Blueprints#remove": [
+      "Buildings/Tents/ChemistryTent.FrostyWhiskers.blueprint",
+      "Buildings/Tents/ChemistryTent.Whitepaws.blueprint",
+      "Buildings/Tents/GnawingTent.FrostyWhiskers.blueprint",
+      "Buildings/Tents/GnawingTent.Whitepaws.blueprint",
+      "Buildings/Tents/PrimitiveIronworks.FrostyWhiskers.blueprint",
+      "Buildings/Tents/PrimitiveIronworks.Whitepaws.blueprint"
+    ]
+  }
+}

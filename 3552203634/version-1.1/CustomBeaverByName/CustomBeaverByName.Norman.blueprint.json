@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Norman",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/BeaverAdult.Norman",
+    "ChildTexture": "Materials/Beavers/Unique/BeaverAdult.Norman",
+    "Avatar": "Sprites/Avatars/Unique/NormanAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/Unique/NormanContaminatedAdult",
+    "ChildAvatar": "Sprites/Avatars/Unique/NormanChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/Unique/NormanContaminatedChild",
+    "BeaverFactionId": "Charcoal",
+    "ExcludeFromNamePool": "False"
+  }
+}

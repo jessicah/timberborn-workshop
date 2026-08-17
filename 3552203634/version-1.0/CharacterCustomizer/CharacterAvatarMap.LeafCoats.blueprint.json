@@ -1,0 +1,41 @@
+{
+  "CharacterAvatarMapSpec": {
+    "AvatarMaps": [
+      {
+        "TextureName": "BeaverAdult1.LeafCoats",
+        "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+        "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+        "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+      },
+      {
+        "TextureName": "BeaverAdult2.LeafCoats",
+        "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+        "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+        "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+      },
+      {
+        "TextureName": "BeaverAdult3.LeafCoats",
+        "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+        "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+        "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+      },
+      {
+        "TextureName": "BeaverAdult4.LeafCoats",
+        "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+        "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+        "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+      },
+      {
+        "TextureName": "BeaverAdult5.LeafCoats",
+        "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+        "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+        "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+        "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+      }
+    ]
+  }
+}

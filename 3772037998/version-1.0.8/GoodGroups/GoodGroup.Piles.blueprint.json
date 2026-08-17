@@ -1,0 +1,10 @@
+{
+  "GoodGroupSpec":
+  {
+    "Id": "Piles",
+    "Order": 0,
+    "Icon": "Buildings/Storage/LargePile/LargePileIcon",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Group.Piles"
+  }
+}

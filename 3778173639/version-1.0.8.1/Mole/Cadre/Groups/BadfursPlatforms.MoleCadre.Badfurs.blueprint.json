@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Badfurs", "Order": 1203000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Badfurs",
+      "DoublePlatform.Badfurs",
+      "TriplePlatform.Badfurs",
+      "TreeTrunk.Platform.Badfurs",
+      "TreeTrunk.DoublePlatform.Badfurs",
+      "TreeTrunk.TriplePlatform.Badfurs"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Badfurs",
+      "MetalPillars.MoleCadre.Badfurs",
+      "TreeBits.MoleCadre.Badfurs",
+      "Overhangs.MoleCadre.Badfurs",
+      "MirroredOverhangs.MoleCadre.Badfurs",
+      "ArchOverhangs.MoleCadre.Badfurs",
+      "MetalPlatforms.MoleCadre.Badfurs",
+      "OtherPlatforms.MoleCadre.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Badfurs",
+      "DoublePlatform.Badfurs",
+      "TriplePlatform.Badfurs",
+      "TreeTrunk.Platform.Badfurs",
+      "TreeTrunk.DoublePlatform.Badfurs",
+      "TreeTrunk.TriplePlatform.Badfurs",
+      "Pillars.MoleCadre.Badfurs",
+      "MetalPillars.MoleCadre.Badfurs",
+      "TreeBits.MoleCadre.Badfurs",
+      "Overhangs.MoleCadre.Badfurs",
+      "MirroredOverhangs.MoleCadre.Badfurs",
+      "ArchOverhangs.MoleCadre.Badfurs",
+      "MetalPlatforms.MoleCadre.Badfurs",
+      "OtherPlatforms.MoleCadre.Badfurs"
+    ]
+  }
+}

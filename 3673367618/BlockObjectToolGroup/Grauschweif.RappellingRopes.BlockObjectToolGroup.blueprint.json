@@ -1,0 +1,24 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "RappellingRopes",
+    "Order": 6,
+    "NameLocKey": "Grauschweif.RappellingRopes.DisplayName",
+    "Icon": "Grauschweif/Icons/CrappyRopeIcon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Paths"
+    ]
+  },
+  "ToolGroupChildrenSpec": {
+    "ChildrenToolsTemplateNames": [
+      "CrappyRope.Grauschweif",
+      "DoubleCrappyRope.Grauschweif",
+      "FastenedRope.Grauschweif",
+      "RopeLadder.Grauschweif"
+    ],
+    "DoNotIncludePlaceableToolGroup": true
+  }
+}
+

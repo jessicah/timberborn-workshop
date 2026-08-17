@@ -1,0 +1,11 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.Ropes",
+    "Blueprints#append": [
+      "Grauschweif/Buildings/Path/CrappyRope/CrappyRope.blueprint",
+      "Grauschweif/Buildings/Path/CrappyRope/DoubleCrappyRope.blueprint",
+      "Grauschweif/Buildings/Path/CrappyRope/FastenedRope.blueprint",
+      "Grauschweif/Buildings/Path/CrappyRope/RopeLadder.blueprint"
+    ]
+  }
+}

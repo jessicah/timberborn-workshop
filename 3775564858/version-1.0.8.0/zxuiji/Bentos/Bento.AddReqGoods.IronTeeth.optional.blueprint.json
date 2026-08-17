@@ -1,0 +1,17 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients#append":
+		[
+			{ "Amount": 5, "Id": "Kohlrabi" },
+			{ "Amount": 5, "Id": "MangroveFruit" },
+			{ "Amount": 5, "Id": "FermentedCassava" },
+			{ "Amount": 5, "Id": "FermentedMushroom" },
+			{ "Amount": 5, "Id": "FermentedSoybean" },
+			{ "Amount": 5, "Id": "CornRation" },
+			{ "Amount": 5, "Id": "AlgaeRation" },
+			{ "Amount": 5, "Id": "EggplantRation" },
+			{ "Amount": 5, "Id": "Coffee" }
+		]
+	}
+}

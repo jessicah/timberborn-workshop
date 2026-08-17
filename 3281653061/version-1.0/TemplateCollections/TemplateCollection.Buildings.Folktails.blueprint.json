@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append": [
+      "ModularStoragePrefabs/PitpileFT.blueprint",
+      "ModularStoragePrefabs/PitwarehouseFT.blueprint",
+      "ModularStoragePrefabs/SCoveredtankFT.blueprint",
+      "ModularStoragePrefabs/LongWarehouseFT.blueprint",
+      "ModularStoragePrefabs/2x2pileRightFT.blueprint",
+      "ModularStoragePrefabs/LongpileFT.blueprint",
+      "ModularStoragePrefabs/PitTankFT.blueprint",
+      "ModularStoragePrefabs/GigargantuanWarehouseFT.blueprint",
+      "ModularStoragePrefabs/GigargantuanPileFT.blueprint"
+    ]
+  }
+}

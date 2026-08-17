@@ -1,0 +1,15 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Whitepaws",
+  "Paths#append": [
+    "Buildings/Crappy_platforms/Crappyplatform_birch_WP",
+    "Buildings/Crappy_platforms/Crappyplatform_brown_WP",
+    "Buildings/Crappy_platforms/Crappyplatform_Pink_WP",
+    "Buildings/Crappy_platforms/Crappyplatform_scramble_WP",
+
+    "Buildings/Logstairs/Logstairs_Birch_Common",
+    "Buildings/Logstairs/Logstairs_Brown_FT_WP",
+    "Buildings/Logstairs/Logstairs_Pink_Common",
+    "Buildings/Logstairs/Logstairs_Scrambled_FT_WP",
+    ]
+}}

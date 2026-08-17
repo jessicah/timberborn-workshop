@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Buildings/Decoration/Hedge/Hedge.IronTeeth.blueprint",
+      "Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint"
+    ]
+  }
+}

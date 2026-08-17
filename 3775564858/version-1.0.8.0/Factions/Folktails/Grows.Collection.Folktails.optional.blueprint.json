@@ -1,0 +1,29 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "NaturalResources/Bushes/Dandelion/Dandelion.blueprint",
+      "NaturalResources/Crops/Carrot/Carrot.blueprint",
+      "NaturalResources/Crops/Cattail/Cattail.blueprint",
+      "NaturalResources/Crops/Potato/Potato.blueprint",
+      "NaturalResources/Crops/Spadderdock/Spadderdock.blueprint",
+      "NaturalResources/Crops/Sunflower/Sunflower.blueprint",
+      "NaturalResources/Crops/Wheat/Wheat.blueprint",
+      "NaturalResources/Trees/ChestnutTree/ChestnutTree.blueprint",
+      "NaturalResources/Trees/Maple/Maple.blueprint"
+    ],
+    "Blueprints#append":
+    [
+      "Mole/Grows/ChestnutTree.Mole.blueprint",
+      "Mole/Grows/MapleTree.Mole.blueprint",
+      "Mole/Grows/DandelionPlant.Mole.blueprint",
+      "Mole/Grows/CarrotsCrop.Mole.blueprint",
+      "Mole/Grows/CattailCrop.Mole.blueprint",
+      "Mole/Grows/PotatoesCrop.Mole.blueprint",
+      "Mole/Grows/SpadderdockCrop.Mole.blueprint",
+      "Mole/Grows/SunflowerCrop.Mole.blueprint",
+      "Mole/Grows/WheatCrop.Mole.blueprint"
+    ]
+  }
+}

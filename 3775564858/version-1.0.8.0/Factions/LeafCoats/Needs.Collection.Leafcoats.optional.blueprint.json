@@ -1,0 +1,12 @@
+{
+  "NeedCollectionSpec":
+  {
+    "Needs#remove": [ "Grapes" ],
+    "Needs#append":
+    [
+      "GreenGrapes",
+      "HedgePath",
+      "HedgeGate"
+    ]
+  }
+}

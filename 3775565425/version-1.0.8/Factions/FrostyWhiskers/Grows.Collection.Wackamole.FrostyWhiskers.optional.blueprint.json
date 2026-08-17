@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Mole/Grows/RedCabbageCrop.Mole.blueprint"
+    ]
+  }
+}

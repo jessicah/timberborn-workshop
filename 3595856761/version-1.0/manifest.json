@@ -1,0 +1,64 @@
+{
+  "Name": "Grauschweif's Scriptpack",
+  "Version": "1.5.27",
+  "Id": "Grauschweif.Scriptpack",
+  "MinimumGameVersion": "1.0.13.0",
+  "Description": "Script Pack for modders.
+
+# FavorableNeedSpec
+
+```{
+  'NeedSpec': {
+    ..
+  },
+  'FavorableNeedSpec': {
+    'Favors': [
+      {
+        'Id': 'CarryingCapacity',
+        'MultiplierDelta': 0.3
+      }
+    ]
+  }
+}
+```
+
+# Grauschweif.SimpleLights.GrauschweifSimpleLightsSpec
+  
+  Night only lights - same as unity, just without attachments and such.
+        
+# WaterSourceSpecs
+
+ + Grauschweif.WaterSourceSpecs.ImmutableWaterSourceSpec -> ignores modifiers and keeps initial strength
+ + Grauschweif.WaterSourceSpecs.CleanWaterSourceSpec -> ignores badtide modifier and keeps initial strength
+ +  Grauschweif.WaterSourceSpecs.DroughtResistingWaterSourceSpec -> halves drought effect
+
+# WhitepawsPatchSpec
+
+```
+{
+  'WhitepawsPatchSpec': {
+    'FactionId': 'Whitepaws', // single faction only, or 'Common' (faction > common)
+    'SwimmingPenalty': -1.0,  // -1 would double swim speed; game default is 0.3 or 30% slowdown
+    'WaterUnitsPerVoxel': 8,  // amount of water extracted per voxel; default is 5, so 60% more here
+    'HideNeedApplicationProbability': true
+    //    'HideNeedApplicationProbabilityLocKey': 'EffectProbability.Hidden', 
+    }
+}
+```
+
+# NeedEffectDescriber patch
+
+The colours of chance effects in workspaces etc. now reflect if the change is positive or negative (i.e. points are given or taken for need).
+Vanilla decorator only based it on need having possible positive value and ignored the effect completely!
+
+Might extend that to other describers (likely json-configurable) if needed. For example a building that had range / continuous effect of injury, thirst etc, would display that in green ▲ - same if it healed instead. it's always only green.. 
+",
+  "RequiredMods": [
+    { "Id": "Harmony", "MinimumVersion": "2.4.1" }
+  ],
+  "OptionalMods": [
+    { "Id": "Timberborn.IgorZ.TimberCommons" },
+    { "Id": "ModdableWeathers" }
+  ]
+}
+

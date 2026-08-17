@@ -1,0 +1,39 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "LeafCoats",
+    "Materials": [
+      "Materials/UberAtlas/LeafCoats/BaseMetal.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/BaseWood_Brown.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/BaseWood_Dark_Brown.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/BaseWood_White.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/BaseWood_Green.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/BaseWood_Light_Green.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Details.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Flags.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Hedge.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Brown.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Dark_Brown.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_White.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Green.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Light_Green.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Metal.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/IrregularPlanks_Mossy.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Moss.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/PaintedMetal.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/PaintedMetal2.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Paper.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Path.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Plaster_White.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/PlasteredWood_White.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Shrub.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/ThatchedRoof.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/WindowsAtlas.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/Dam.LeafCoats",
+      "Materials/UberAtlas/LeafCoats/WindowsAtlasA.LeafCoats",
+      "Materials/Plants/Trees/AppleTree",
+      "Materials/Plants/Bushes/GrapesWhite.LeafCoats",
+      "Materials/Plants/Trees/Willow",
+      "Materials/Plants/Trees/Eucalyptus"
+    ]
+  }
+}

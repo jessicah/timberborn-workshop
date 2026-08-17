@@ -1,0 +1,13 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Mole/Grows/DandelionPlant.Mole.blueprint",
+      "Mole/Grows/AppleTree.Mole.blueprint",
+      "Mole/Grows/ChestnutTree.Mole.blueprint",
+      "Mole/Grows/MangroveTree.Mole.blueprint",
+      "Mole/Grows/MapleTree.Mole.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Coal",
+  "Variant": "7x7",
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": -2
+  },
+  "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7DirtPile",
+  "Material": "Materials/Goods/CoalPile", 
+  "NonLinearity": -0.5
+}}

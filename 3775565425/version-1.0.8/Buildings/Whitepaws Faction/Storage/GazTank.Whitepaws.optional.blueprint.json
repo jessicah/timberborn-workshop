@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "GazTank.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "GazTank" ]
+	}
+}

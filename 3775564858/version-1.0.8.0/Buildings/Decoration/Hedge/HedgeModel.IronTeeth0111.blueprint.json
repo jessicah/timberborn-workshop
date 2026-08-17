@@ -1,0 +1,16 @@
+{
+  "Children":
+  {
+    "one#nested":
+    {
+      "BlueprintPath":
+        "Buildings/Decoration/Hedge/HedgeModel.IronTeeth0011.blueprint"
+    },
+    "two#nested":
+    {
+      "BlueprintPath":
+        "Buildings/Decoration/Hedge/HedgeModel.IronTeeth0100.blueprint"
+    }
+  }
+}
+

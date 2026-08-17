@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Clay",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Clay",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "Materials/Goods/ClayPile",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 5,
+    "GoodGroupId": "Piles",
+    "GoodOrder": 0,
+    "Icon": "Mole/Piles/Clay",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.Clay.Name",
+    "PluralDisplayNameLocKey": "Wares.Clay.Name"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Leaf Coats",
+    "Version": "1.1.2.0",
+    "Id": "LeafCoats",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "A new faction of beavers that have an affinity for plants.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "1.1.1.0"},
+        {"Id": "Vertical Nav Mesh"},
+    ],
+    "OptionalMods": []
+}

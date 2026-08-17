@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "RibbedMetalDamSolidLining2xN.MoleCadre.IronTeeth", "Order": 207002, "NameLocKey": "Group.RibbedMetalDamSolidLining2xN", "Icon": "Mole/Cadre/DamSolidLining2xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_RM_SquareW2x1.IronTeeth",
+      "DE_RM_SquareW2x2.IronTeeth",
+      "DE_RM_SquareW2x3.IronTeeth",
+      "DE_RM_SlopeW2x.IronTeeth",
+      "DE_RM_InvSlopeW2X.IronTeeth",
+      "DE_RM_InvCornerW2X.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_RM_SquareW2x1.IronTeeth",
+      "DE_RM_SquareW2x2.IronTeeth",
+      "DE_RM_SquareW2x3.IronTeeth",
+      "DE_RM_SlopeW2x.IronTeeth",
+      "DE_RM_InvSlopeW2X.IronTeeth",
+      "DE_RM_InvCornerW2X.IronTeeth"
+    ]
+  }
+}

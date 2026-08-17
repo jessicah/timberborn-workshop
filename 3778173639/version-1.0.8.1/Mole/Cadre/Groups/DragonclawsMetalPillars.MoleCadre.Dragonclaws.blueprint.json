@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Dragonclaws", "Order": 1002002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Dragonclaws",
+      "MetalPillars.Dragonclaws",
+      "MetalBigPillarBase.Dragonclaws",
+      "MetalBigPillarMid.Dragonclaws",
+      "MetalBigPillarTop.Dragonclaws",
+      "Aque_MetalBigPillarBase.Dragonclaws",
+      "Aque_MetalBigPillarMid.Dragonclaws",
+      "Aque_MetalBigPillarTop.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Dragonclaws",
+      "MetalPillars.Dragonclaws",
+      "MetalBigPillarBase.Dragonclaws",
+      "MetalBigPillarMid.Dragonclaws",
+      "MetalBigPillarTop.Dragonclaws",
+      "Aque_MetalBigPillarBase.Dragonclaws",
+      "Aque_MetalBigPillarMid.Dragonclaws",
+      "Aque_MetalBigPillarTop.Dragonclaws"
+    ]
+  }
+}

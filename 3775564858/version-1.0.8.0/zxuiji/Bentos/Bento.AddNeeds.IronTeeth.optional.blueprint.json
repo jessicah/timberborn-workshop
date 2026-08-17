@@ -1,0 +1,16 @@
+{
+	"GoodSpec": {
+		"ConsumptionEffects#append":
+		[
+			{ "Points": 0.1, "NeedId": "Kohlrabi" },
+			{ "Points": 0.1, "NeedId": "CornRation" },
+			{ "Points": 0.1, "NeedId": "AlgaeRation" },
+			{ "Points": 0.1, "NeedId": "EggplantRation" },
+			{ "Points": 0.1, "NeedId": "FermentedCassava" },
+			{ "Points": 0.1, "NeedId": "FermentedMushroom" },
+			{ "Points": 0.1, "NeedId": "FermentedSoybean" },
+			{ "Points": 0.1, "NeedId": "MangroveFruit" },
+			{ "Points": 0.1, "NeedId": "Coffee" }
+		]
+	}
+}

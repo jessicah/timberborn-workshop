@@ -1,0 +1,27 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints#append": [
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft3.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft4.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft5.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft6.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft7.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft8.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft9.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft10.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft11.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/BridgeShaft12.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft3.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft4.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft5.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft6.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft7.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft8.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft9.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft10.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft11.IronTeeth.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/IronTeeth/TunnelShaft12.IronTeeth.blueprint"
+    ]
+  }
+}

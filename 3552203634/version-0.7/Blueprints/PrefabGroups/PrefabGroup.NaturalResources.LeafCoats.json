@@ -1,0 +1,23 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "NaturalResources.LeafCoats",
+    "Paths": [
+//Berry 1
+      "Plants/Dandelion", //2
+      "Plants/GrapeVine", // 4
+
+//Birch 5
+//Pine 6
+//Oak 9
+      
+      "Plants/Trees/Eucalyptus", //10
+      "Plants/Trees/Willow", //11 Land and Aquatic
+
+      "Plants/Trees/AppleTree", //20
+      "Plants/Trees/Mangrove", //21 Aquatic
+
+      "Plants/Trees/ChestnutTree", //30
+      "Plants/Trees/Maple", //31
+    ]
+  }
+}

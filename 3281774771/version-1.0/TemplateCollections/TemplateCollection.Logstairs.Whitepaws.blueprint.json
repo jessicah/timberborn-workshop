@@ -1,0 +1,15 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Logstairs.Whitepaws",
+    "Blueprints": [
+      "Buildings/Crappyplatform_birch_WP.blueprint",
+      "Buildings/Crappyplatform_brown_WP.blueprint",
+      "Buildings/Crappyplatform_Pink_WP.blueprint",
+      "Buildings/Crappyplatform_scramble_WP.blueprint",
+      "Buildings/Logstairs_Birch_Common.blueprint",
+      "Buildings/Logstairs_Brown_FT_WP.blueprint",
+      "Buildings/Logstairs_Pink_Common.blueprint",
+      "Buildings/Logstairs_Scrambled_FT_WP.blueprint"
+    ]
+  }
+}

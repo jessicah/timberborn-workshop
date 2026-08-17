@@ -1,0 +1,16 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Nenuphar.Emberpelts",
+      "Wares.Nenuphar.Folktails",
+      "Wares.Nenuphar.IronTeeth",
+      "Wares.Nenuphar.LeafCoats",
+      "Wares.Nenuphar.Whitepaws",
+      "Wares.Nenuphar.Common"
+    ],
+    "Icon": "Mole/Grows/Nenuphar",
+    "DisplayNameLocKey": "Wares.Nenuphar.Name",
+    "PluralDisplayNameLocKey": "Wares.Nenuphar.Name"
+  }
+}

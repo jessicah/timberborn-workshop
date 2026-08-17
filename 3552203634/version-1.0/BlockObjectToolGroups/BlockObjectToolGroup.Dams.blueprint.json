@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Dams",
+    "Order": 8,
+    "NameLocKey": "Tutorial.Dams",
+    "Icon": "Buildings/Landscaping/Dam/DamIcon",
+    "FallbackGroup": false
+  }
+}

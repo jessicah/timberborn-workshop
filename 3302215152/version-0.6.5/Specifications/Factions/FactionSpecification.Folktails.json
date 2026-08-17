@@ -1,0 +1,4 @@
+{
+	"Id": "Folktails",
+	"MaterialGroups#append": [ "IronTeeth" ]
+}

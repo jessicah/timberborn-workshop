@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Dirtclaws", "Order": 1121000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Dirtclaws",
+      "GravityBattery.TreeTrunk.Dirtclaws",
+      "GravityBattery.TreeTrunk2.Dirtclaws",
+      "SmallFlywheel.Dirtclaws",
+      "SmallHorizontalFramedFlywheel.Dirtclaws",
+      "SmallVerticalFramedFlywheel.Dirtclaws",
+      "MediumFlywheel.Dirtclaws",
+      "MediumHorizontalFramedFlywheel.Dirtclaws",
+      "MediumVerticalFramedFlywheel.Dirtclaws",
+      "LargeFlywheel.Dirtclaws",
+      "LargeHorizontalFramedFlywheel.Dirtclaws",
+      "LargeVerticalFramedFlywheel.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Dirtclaws",
+      "GravityBattery.TreeTrunk.Dirtclaws",
+      "GravityBattery.TreeTrunk2.Dirtclaws",
+      "SmallFlywheel.Dirtclaws",
+      "SmallHorizontalFramedFlywheel.Dirtclaws",
+      "SmallVerticalFramedFlywheel.Dirtclaws",
+      "MediumFlywheel.Dirtclaws",
+      "MediumHorizontalFramedFlywheel.Dirtclaws",
+      "MediumVerticalFramedFlywheel.Dirtclaws",
+      "LargeFlywheel.Dirtclaws",
+      "LargeHorizontalFramedFlywheel.Dirtclaws",
+      "LargeVerticalFramedFlywheel.Dirtclaws"
+    ]
+  }
+}

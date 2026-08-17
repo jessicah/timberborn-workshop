@@ -1,0 +1,10 @@
+{
+  "WhitepawsPatchSpec": {
+    "FactionId": "Whitepaws",
+    "SwimmingPenalty": -1.0,
+    "WaterUnitsPerVoxel": 8,
+    "HideNeedApplicationProbability": true,
+    "HideNeedApplicationProbabilityLocKey": "EffectProbability.Hidden",
+	"NoUnlimitedValveOutflow": true,
+  }
+}

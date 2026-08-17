@@ -1,0 +1,42 @@
+#include <defines.h>
+{
+  TOGROUP(20000,Tanks),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(LiquidStorageLodge),
+      TOTOOL(Pit-and-LadderLodge_LiquidStorage),
+      TOTOOL(SmallCoveredTank),
+      TOTOOL(SmallTank),
+      TOTOOL(Mole.SmallTank),
+      TOTOOL(PitTank),
+      TOTOOL(MediumTank),
+      TOTOOL(Mole.TriteTank),
+      TOTOOL(LargeTank),
+      TOTOOL(Mole.LargeTank),
+      TOTOOL(UndergroundTank),
+      TOTOOL(Mole.BuriedTank),
+      TOTOOL(LargeUndergroundTank),
+      TOTOOL(GazTank)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(LiquidStorageLodge),
+      TOTOOL(Pit-and-LadderLodge_LiquidStorage),
+      TOTOOL(SmallCoveredTank),
+      TOTOOL(SmallTank),
+      TOTOOL(Mole.SmallTank),
+      TOTOOL(PitTank),
+      TOTOOL(MediumTank),
+      TOTOOL(Mole.TriteTank),
+      TOTOOL(LargeTank),
+      TOTOOL(Mole.LargeTank),
+      TOTOOL(UndergroundTank),
+      TOTOOL(Mole.BuriedTank),
+      TOTOOL(LargeUndergroundTank),
+      TOTOOL(GazTank)
+    ]
+  }
+}

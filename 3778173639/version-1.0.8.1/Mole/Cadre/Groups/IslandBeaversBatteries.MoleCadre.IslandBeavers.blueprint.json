@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.IslandBeavers", "Order": 821000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.IslandBeavers",
+      "GravityBattery.TreeTrunk.IslandBeavers",
+      "GravityBattery.TreeTrunk2.IslandBeavers",
+      "SmallFlywheel.IslandBeavers",
+      "SmallHorizontalFramedFlywheel.IslandBeavers",
+      "SmallVerticalFramedFlywheel.IslandBeavers",
+      "MediumFlywheel.IslandBeavers",
+      "MediumHorizontalFramedFlywheel.IslandBeavers",
+      "MediumVerticalFramedFlywheel.IslandBeavers",
+      "LargeFlywheel.IslandBeavers",
+      "LargeHorizontalFramedFlywheel.IslandBeavers",
+      "LargeVerticalFramedFlywheel.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.IslandBeavers",
+      "GravityBattery.TreeTrunk.IslandBeavers",
+      "GravityBattery.TreeTrunk2.IslandBeavers",
+      "SmallFlywheel.IslandBeavers",
+      "SmallHorizontalFramedFlywheel.IslandBeavers",
+      "SmallVerticalFramedFlywheel.IslandBeavers",
+      "MediumFlywheel.IslandBeavers",
+      "MediumHorizontalFramedFlywheel.IslandBeavers",
+      "MediumVerticalFramedFlywheel.IslandBeavers",
+      "LargeFlywheel.IslandBeavers",
+      "LargeHorizontalFramedFlywheel.IslandBeavers",
+      "LargeVerticalFramedFlywheel.IslandBeavers"
+    ]
+  }
+}

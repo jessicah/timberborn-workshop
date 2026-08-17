@@ -1,0 +1,16 @@
+{
+	"GoodSpec":
+	{
+		"ConsumptionEffects#append":
+		[
+			{ "Points": 0.1, "NeedId": "Bread" },
+			{ "Points": 0.1, "NeedId": "Carrots" },
+			{ "Points": 0.1, "NeedId": "MaplePastry" },
+			{ "Points": 0.1, "NeedId": "SunflowerSeeds" },
+			{ "Points": 0.1, "NeedId": "GrilledPotatoes" },
+			{ "Points": 0.1, "NeedId": "GrilledChestnuts" },
+			{ "Points": 0.1, "NeedId": "GrilledSpadderdock" },
+			{ "Points": 0.1, "NeedId": "CattailCracker" }
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboToys",
+  "DisplayLocKey": "Good.Toys.PluralDisplayName",
+  "CycleDurationInHours": 12,
+  "CyclesCapacity": 2,
+  "Ingredients": [
+    {
+      "Id": "Crudesawblade",
+      "Amount": 1
+    },{
+      "Id": "Log",
+      "Amount": 45
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Toys",
+      "Amount": 160
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Toys",
+
+	"BackwardCompatibleIds": []
+  }
+}

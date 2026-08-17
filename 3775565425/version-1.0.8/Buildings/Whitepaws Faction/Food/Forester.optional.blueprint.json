@@ -1,0 +1,10 @@
+{
+  "PlanterBuildingSpec":
+  {
+    "PlantableResourceGroup": "Forester.Whitepaws"
+  },
+  "TemplateSpec":
+  {
+    "TemplateName": "Forester.Whitepaws"
+  }
+}

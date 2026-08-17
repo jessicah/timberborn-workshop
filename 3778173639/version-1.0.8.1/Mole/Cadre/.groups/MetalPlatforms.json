@@ -1,0 +1,34 @@
+#include <defines.h>
+{
+  TOGROUP(02003,MetalPlatforms),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(MetalPlatform),
+      TOTOOL(LargeMetalPlatform),
+      TOTOOL(MetalPlatform1x1),
+      TOTOOL(MetalPlatform3x3),
+      TOTOOL(MetalPlatform5x3),
+      TOTOOL(MetalPlatform5x5),
+      TOTOOL(MetalPlatform7x7),
+      TOTOOL(MetalPlatform3x3.Ladder),
+      TOTOOL(MetalPlatform5x5.Ladder),
+      TOTOOL(MetalPlatform7x7.Ladder)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(MetalPlatform),
+      TOTOOL(LargeMetalPlatform),
+      TOTOOL(MetalPlatform1x1),
+      TOTOOL(MetalPlatform3x3),
+      TOTOOL(MetalPlatform5x3),
+      TOTOOL(MetalPlatform5x5),
+      TOTOOL(MetalPlatform7x7),
+      TOTOOL(MetalPlatform3x3.Ladder),
+      TOTOOL(MetalPlatform5x5.Ladder),
+      TOTOOL(MetalPlatform7x7.Ladder)
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec":
+  {
+    "TemplateName": "RedGrapePlant",
+    "BackwardCompatibleTemplateNames":
+    [
+      "Grows.RedGrapesVinesPlant.Whitepaws",
+      "RedGrapesVinesPlant.Whitepaws",
+      "Grows.RedGrapeVinesPlant.Whitepaws",
+      "RedGrapeVinesPlant.Whitepaws",
+
+      "Grows.RedGrapesVinePlant.Whitepaws",
+      "RedGrapesVinePlant.Whitepaws",
+      "Grows.RedGrapeVinePlant.Whitepaws",
+      "RedGrapeVinePlant.Whitepaws",
+
+      "Grows.RedGrapesPlant.Whitepaws",
+      "RedGrapesPlant.Whitepaws",
+      "Grows.RedGrapePlant.Whitepaws",
+      "RedGrapePlant.Whitepaws",
+
+      "Grows.RedGrapesVines.Whitepaws",
+      "RedGrapesVines.Whitepaws",
+      "Grows.RedGrapeVines.Whitepaws",
+      "RedGrapeVines.Whitepaws",
+
+      "Grows.RedGrapesVine.Whitepaws",
+      "RedGrapesVine.Whitepaws",
+      "RedGrapesVine",
+      "Grows.RedGrapeVine.Whitepaws",
+      "RedGrapeVine.Whitepaws",
+      "RedGrapeVine",
+
+      "Grows.GrapesVinePlant.Whitepaws",
+      "GrapesVinePlant.Whitepaws",
+      "Grows.GrapeVinePlant.Whitepaws",
+      "GrapeVinePlant.Whitepaws",
+
+      "Grows.GrapesPlant.Whitepaws",
+      "GrapesPlant.Whitepaws",
+      "Grows.GrapePlant.Whitepaws",
+      "GrapePlant.Whitepaws",
+
+      "Grows.GrapesVines.Whitepaws",
+      "GrapesVines.Whitepaws",
+      "Grows.GrapeVines.Whitepaws",
+      "GrapeVines.Whitepaws",
+
+      "Grows.GrapesVine.Whitepaws",
+      "GrapesVine.Whitepaws",
+      "Grows.GrapeVine.Whitepaws",
+      "GrapeVine.Whitepaws",
+
+      "NewVineH",
+      "NewVineV"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": { "Order": 601 },
+  "GrowableSpec": { "GrowthTimeInDays": 5.0 },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Bush",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": { "ResourceGroup": "TreeNursery", "PlantTimeInHours": 0.2 },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 0.5,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "BushSpec": {},
+  "GatherablePollinateeSpec": {},
+  "GatherableSpec": {
+    "YieldGrowthTimeInDays": 4.0,
+    "Yielder": {
+      "YielderComponentName": "Gatherable",
+      "Yield": { "Id": "RedGrapes", "Amount": 6 },
+      "RemovalTimeInHours": 0.8,
+      "ResourceGroup": "Gatherable"
+    }
+  },
+  "WateredNaturalResourceSpec": { "DaysToDieDry": 7.0 },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Wares.RedGrapes.Name",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Grows.RedGrapes.Cite",
+    "Icon": "Mole/Grows/RedGrapes"
+  },
+  "FloodableNaturalResourceSpec":
+  {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 0,
+    "DaysToDie": 1.0
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "TransformSpec": { "Scale": { "X": 1.0, "Y": 1.5, "Z": 1.0 } },
+  "PlantablePreviewModelSpec": { "Model": "All/GrapePlant/Young" },
+    "Children": {
+    "#Models": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedling" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedling" } }
+      }
+    }
+  }
+}
+            },
+            "#Dead": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDead" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDead" } }
+      }
+    }
+  }
+}
+            },
+            "#Dying": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDry" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDry" } }
+      }
+    }
+  }
+}
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMature" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMature" } }
+      }
+    }
+  }
+}
+            },
+            "#Dead": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDead" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDead" } }
+      }
+    }
+  }
+}
+            },
+            "#Dying": {
+"Children":
+{
+  "Supports#nested":
+  {
+    "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+    "Modification":
+    {
+      "Children":
+      {
+        "Side1": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDry" } },
+        "Side2": { "TimbermeshSpec": { "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDry" } }
+      }
+    }
+  }
+}
+            }
+          }
+        }
+      }
+    }
+  }
+}

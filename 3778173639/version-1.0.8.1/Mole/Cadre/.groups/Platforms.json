@@ -1,0 +1,45 @@
+#include <defines.h>
+{
+  TOGROUP(03000,Platforms),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Platform),
+      TOTOOL(DoublePlatform),
+      TOTOOL(TriplePlatform),
+      TOTOOL(TreeTrunk.Platform),
+      TOTOOL(TreeTrunk.DoublePlatform),
+      TOTOOL(TreeTrunk.TriplePlatform)
+    ],
+    "ChildrenGroupsIds":
+    [
+      TOID(Pillars),
+      TOID(MetalPillars),
+      TOID(TreeBits),
+      TOID(Overhangs),
+      TOID(MirroredOverhangs),
+      TOID(ArchOverhangs),
+      TOID(MetalPlatforms),
+      TOID(OtherPlatforms)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Platform),
+      TOTOOL(DoublePlatform),
+      TOTOOL(TriplePlatform),
+      TOTOOL(TreeTrunk.Platform),
+      TOTOOL(TreeTrunk.DoublePlatform),
+      TOTOOL(TreeTrunk.TriplePlatform),
+      TOID(Pillars),
+      TOID(MetalPillars),
+      TOID(TreeBits),
+      TOID(Overhangs),
+      TOID(MirroredOverhangs),
+      TOID(ArchOverhangs),
+      TOID(MetalPlatforms),
+      TOID(OtherPlatforms)
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Tobbert",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/Tobbert",
+    "ChildTexture": "Materials/Beavers/Unique/Tobbert",
+    "Avatar": "Sprites/Avatars/Unique/TobbertAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/Unique/TobbertContaminatedAdult",
+    "ChildAvatar": "Sprites/Avatars/Unique/TobbertChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/Unique/TobbertContaminatedChild",
+    "BeaverFactionId": "Folktails",
+    "ExcludeFromNamePool": "True"
+  }
+}

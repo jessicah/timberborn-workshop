@@ -1,0 +1,9 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Bobingabout Script Pack",
+    "Version": "1.1.2.0",
+    "Id": "BobingaboutScriptPack",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "A collection of scripts to allow modders to use the code I've written. Featuring the Texture Patcher.",
+    "RequiredMods": []
+}

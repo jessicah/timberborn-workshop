@@ -1,0 +1,10 @@
+﻿{
+	"WorkerOutfitSpec": {
+		"Id": "Builder",
+		"FactionId": "Adaptors",
+		"WorkerType": "Bot",
+		"Attachments": [
+			"HammerBack.Bot"
+		]
+	}
+}

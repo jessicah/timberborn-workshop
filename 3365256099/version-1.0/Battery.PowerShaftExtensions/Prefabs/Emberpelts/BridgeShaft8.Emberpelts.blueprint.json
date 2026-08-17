@@ -1,0 +1,351 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Shaft",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 20
+      },
+      {
+        "Id": "Plank",
+        "Amount": 8
+      }
+    ],
+    "ScienceCost": 200,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "MechanicalNodeAnimatorSpec": {
+    "MinSpeedMultiplier": 0.0
+  },
+  "TemplateSpec": {
+    "TemplateName": "BridgeShaft8.Emberpelts",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": []
+  },
+  "BlockObjectSpec": {
+    
+      "Size": {
+        "X": 1,
+        "Y": 8,
+        "Z": 1
+      },
+      "Blocks": [
+        {
+          "MatterBelow": "GroundOrStackable",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Top, Corners, Path, Middle",
+          "Stackable": "BlockObject",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Path, Middle",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "GroundOrStackable",
+          "LegacyOccupation": "Full",
+          "UseNewOccupation": true,
+          "Occupations": "Bottom, Top, Corners, Path, Middle",
+          "Stackable": "BlockObject",
+          "OccupyAllBelow": false,
+          "Underground": false
+        }
+      ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "MechanicalNodeSpec": {
+    "PowerOutput": 0,
+    "PowerInput": 0,
+    "IsShaft": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "ShaftBridges",
+    "ToolOrder": 908,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Battery.PowerShaftExtensions.PowerShaftBridgex8.DisplayName",
+    "DescriptionLocKey": "Battery.PowerShaftExtensions.PowerShaftBridgex8.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "Battery.PowerShaftExtensions/Sprites/Prefabs/Bridges/PowerShaftBridgex8-ico"
+  },
+  "TransputProviderSpec": {
+    "Transputs": [
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Directions": "Down",
+        "ReverseRotation": true
+      },
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 7,
+          "Z": 0
+        },
+        "Directions": "Up",
+        "ReverseRotation": false
+      }
+    ],
+    "IgnoreRotation": false
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 4.0
+            },
+            "Size": {
+              "X": 0.2,
+              "Y": 0.2,
+              "Z": 6.0
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 7.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "#Support1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 8.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 180.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Battery.PowerShaftExtensions/Models/#Support_A.Emberpelts.Model"
+          }
+        },
+        "#Support2": {
+          "TimbermeshSpec": {
+            "Model": "Battery.PowerShaftExtensions/Models/#Support_A.Emberpelts.Model"
+          }
+        },
+        "#Shaft": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Battery.PowerShaftExtensions/Models/#Shaft_8.Emberpelts.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionSite1x1Top": {
+          "TimbermeshSpec": {
+            "Model": "Battery.PowerShaftExtensions/Models/#SupportBuildingSite.Emberpelts.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.5,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ConstructionSite1x1Top (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 8.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 180.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Battery.PowerShaftExtensions/Models/#SupportBuildingSite.Emberpelts.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.25,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.5,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

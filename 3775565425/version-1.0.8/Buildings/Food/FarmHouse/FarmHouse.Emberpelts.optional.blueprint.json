@@ -1,0 +1,12 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "Farmer.Emberpelts" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.Farmer.Emberpelts.Name" },
+  "TemplateSpec":
+  {
+    "TemplateName": "FarmHouse.Emberpelts",
+    "BackwardCompatibleTemplateNames#append":
+    [
+      "Farmhouse.Emberpelts"
+    ]
+  }
+}

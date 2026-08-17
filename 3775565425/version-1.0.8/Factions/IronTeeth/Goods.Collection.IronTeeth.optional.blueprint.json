@@ -1,0 +1,10 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove":
+    [
+      "Apple",
+      "MetalPart"
+    ]
+  }
+}

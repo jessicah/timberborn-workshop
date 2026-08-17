@@ -1,0 +1,16 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients#append":
+		[
+			{ "Amount": 5, "Id": "Carrot" },
+			{ "Amount": 5, "Id": "SunflowerSeeds" },
+			{ "Amount": 5, "Id": "GrilledPotato" },
+			{ "Amount": 5, "Id": "GrilledChestnut" },
+			{ "Amount": 5, "Id": "GrilledSpadderdock" },
+			{ "Amount": 5, "Id": "Bread" },
+			{ "Amount": 5, "Id": "MaplePastry" },
+			{ "Amount": 5, "Id": "CattailCracker" }
+		]
+	}
+}

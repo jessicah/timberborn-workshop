@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.LeafCoats", "Order": 402009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.LeafCoats",
+      "TreeTrunk.Side.Branch.LeafCoats",
+      "TreeTrunk.Side.LeafCoats",
+      "TreeTrunk.Corner.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

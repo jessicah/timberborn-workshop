@@ -1,0 +1,15 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Folktails",
+  "Paths#append": [
+    "Buildings/Crappy_platforms/Crappyplatform_birch_Common",
+    "Buildings/Crappy_platforms/Crappyplatform_brown_FT",
+    "Buildings/Crappy_platforms/Crappyplatform_Pink_Common",
+    "Buildings/Crappy_platforms/Crappyplatform_scramble_FT",
+
+    "Buildings/Logstairs/Logstairs_Birch_Common",
+    "Buildings/Logstairs/Logstairs_Brown_FT_WP",
+    "Buildings/Logstairs/Logstairs_Pink_Common",
+    "Buildings/Logstairs/Logstairs_Scrambled_FT_WP",
+    ]
+}}

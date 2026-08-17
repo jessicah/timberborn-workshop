@@ -1,0 +1,9 @@
+{
+  "MaterialGroupSpec": {
+  "Id": "Common",
+  "Paths#append": [
+    
+    "Materials/Logstairs/Birchlog_Custom.Common",
+    "Materials/Logstairs/Pink_wood.Whitepaws",
+  ]
+}}

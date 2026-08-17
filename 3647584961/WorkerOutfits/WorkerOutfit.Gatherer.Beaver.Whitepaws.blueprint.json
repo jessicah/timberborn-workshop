@@ -1,0 +1,12 @@
+{
+  "WorkerOutfitSpec": {
+    "Id": "Gatherer",
+    "FactionId": "Whitepaws",
+    "WorkerType": "Beaver",
+    "DiffuseTexture": "",
+    "NormalTexture": "",
+    "Attachments": [
+      "GathererHat.Beaver.Whitepaws"
+    ]
+  }
+}

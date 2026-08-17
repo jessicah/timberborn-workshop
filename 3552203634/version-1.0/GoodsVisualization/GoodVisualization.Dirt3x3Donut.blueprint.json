@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Dirt",
+    "Variant": "3x3Donut",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.9517
+    },
+    "LimitingAmount": 0.0,
+    "PrimaryMesh": "Buildings/Storage/Dirt3x3Donut",
+    "SecondaryMesh": "",
+    "Material": "Materials/Goods/DirtPile",
+    "NonLinearity": -0.5
+  }
+}

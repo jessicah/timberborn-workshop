@@ -1,0 +1,11 @@
+{
+  "CharacterGraphicsSetSpec": {
+    "SetId": "BeaverBrass",
+    "Textures": ["CustomBeavers/Textures/BeaverAdult.Brass"],
+    "ChildTextures": [],
+    "Avatar": "CustomBeavers/Avatars/BrassAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/BrassChild",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/BrassContaminatedAdult",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/BrassContaminatedChild"
+  }
+}

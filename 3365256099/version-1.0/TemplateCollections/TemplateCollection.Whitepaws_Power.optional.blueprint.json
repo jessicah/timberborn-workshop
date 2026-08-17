@@ -1,0 +1,27 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Power",
+    "Blueprints#append": [
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft3.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft4.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft5.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft6.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft7.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft8.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft9.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft10.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft11.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/BridgeShaft12.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft3.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft4.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft5.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft6.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft7.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft8.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft9.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft10.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft11.Whitepaws.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Whitepaws/TunnelShaft12.Whitepaws.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Anvil",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "Anvil",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 50,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10001,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Anvil",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Anvil.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Anvil.PluralDisplayName"
+  }
+}

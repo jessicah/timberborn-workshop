@@ -1,0 +1,18 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LogStairs.Birch.Default",
+		"BackwardCompatibleTemplateNames": [ "Logstairs_Birch" ]
+	},
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Buildings.Folktails",
+		"Blueprints#append":
+		[
+			"Buildings/Logstairs/Brown.CrappyPlatform.Folktails.blueprint",
+			"Buildings/Logstairs/Brown.Logstairs.Folktails.blueprint",
+			"Buildings/Logstairs/Scrambled.CrappyPlatform.Folktails.blueprint",
+			"Buildings/Logstairs/Scrambled.Logstairs.Folktails.blueprint"
+		]
+	}
+}

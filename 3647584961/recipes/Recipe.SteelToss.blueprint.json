@@ -1,0 +1,25 @@
+{
+  "RecipeSpec": {
+    "Id": "BombToss",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Explosives.PluralDisplayName",
+    "CycleDurationInHours": 2.0,
+    "Ingredients": [
+      {
+        "Id": "MetalBlock",
+        "Amount": 4
+      },
+      {
+        "Id": "Explosives",
+        "Amount": 10
+      }
+    ],
+    "Products": [],
+    "ProducedSciencePoints": 10,
+    "Fuel": "Rope",
+    "CyclesFuelLasts": 10,
+    "FuelCapacity": 5,
+    "CyclesCapacity": 30,
+    "Icon": "Sprites/Goods/ExplosivesIcon"
+  }
+}

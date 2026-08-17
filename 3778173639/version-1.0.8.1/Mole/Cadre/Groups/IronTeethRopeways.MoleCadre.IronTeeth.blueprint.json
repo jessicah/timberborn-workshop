@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.IronTeeth", "Order": 201003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.IronTeeth",
+      "SuspensionBridge2x1.IronTeeth",
+      "SuspensionBridge3x1.IronTeeth",
+      "SuspensionBridge4x1.IronTeeth",
+      "SuspensionBridge5x1.IronTeeth",
+      "SuspensionBridge6x1.IronTeeth",
+      "SuspensionBridge7x1.IronTeeth",
+      "SuspensionBridge8x1.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.IronTeeth",
+      "SuspensionBridge2x1.IronTeeth",
+      "SuspensionBridge3x1.IronTeeth",
+      "SuspensionBridge4x1.IronTeeth",
+      "SuspensionBridge5x1.IronTeeth",
+      "SuspensionBridge6x1.IronTeeth",
+      "SuspensionBridge7x1.IronTeeth",
+      "SuspensionBridge8x1.IronTeeth"
+    ]
+  }
+}

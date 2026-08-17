@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "BrokenKart.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "BrokenKart" ]
+	}
+}

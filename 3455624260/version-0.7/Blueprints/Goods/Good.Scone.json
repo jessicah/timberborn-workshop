@@ -1,0 +1,22 @@
+{
+  "GoodSpec": {
+    "Id": "Scone",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Scone.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Scone.PluralDisplayName",
+    "ConsumptionEffects": [
+      {"NeedId": "Hunger","Points": 0.3},
+      {"NeedId": "Scone","Points": 0.2}
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": {"Value": "Box"},
+    "ContainerColor": "#ce983a",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/SconeIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

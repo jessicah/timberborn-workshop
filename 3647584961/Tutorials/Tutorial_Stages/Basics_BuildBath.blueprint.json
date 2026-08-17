@@ -1,0 +1,19 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildBath",
+    "IntroLocKey": "Tutorial.Basics.BuildBath.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "RiverBath.Whitepaws",
+          "Shower.Whitepaws",
+          "TankShower.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

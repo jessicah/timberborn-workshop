@@ -1,0 +1,47 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.LeafCoats" ],
+    "GoodCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "NeedCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.LeafCoats",
+      "Actors.LeafCoats",
+      "Cadre.LeafCoats",
+      "Editing.LeafCoats",
+      "Effects.LeafCoats",
+      "Grows.LeafCoats",
+      "Parts.LeafCoats",
+      "Rides.LeafCoats"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - LeafCoats */
+      {
+        "Original": "Factions/LeafCoats/Goods.Collection.LeafCoats.blueprint",
+        "Modifier": "Factions/LeafCoats/Goods.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Factions/LeafCoats/Needs.Collection.LeafCoats.blueprint",
+        "Modifier": "Factions/LeafCoats/Needs.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Factions/LeafCoats/Grows.Collection.LeafCoats.blueprint",
+        "Modifier": "Factions/LeafCoats/Grows.Collection.Wackamole.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EucalyptusTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WillowTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.LeafCoats.optional.blueprint"
+      }
+    ]
+  }
+}

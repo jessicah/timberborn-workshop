@@ -1,0 +1,32 @@
+#include <defines.h>
+{
+  TOGROUP(02001,Pillars),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Pillar),
+      TOTOOL(Pillar_1),
+      TOTOOL(Pillar_2),
+      TOTOOL(Pillar_3),
+      TOTOOL(Pillar_4),
+      TOTOOL(Pillars),
+      TOTOOL(PillarTop),
+      TOTOOL(StaircasePlatform),
+      TOTOOL(StaircasePillar)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Pillar),
+      TOTOOL(Pillar_1),
+      TOTOOL(Pillar_2),
+      TOTOOL(Pillar_3),
+      TOTOOL(Pillar_4),
+      TOTOOL(Pillars),
+      TOTOOL(PillarTop),
+      TOTOOL(StaircasePlatform),
+      TOTOOL(StaircasePillar)
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Whitepaws", "Order": 518000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Whitepaws",
+      "SmallPile.Whitepaws",
+      "SmallIndustrialPile.Whitepaws",
+      "Mole.SmallPile.Whitepaws",
+      "LongPile.Whitepaws",
+      "PitPile.Whitepaws",
+      "2x2PileRight.Whitepaws",
+      "Pile.Whitepaws",
+      "IndustrialPile.Whitepaws",
+      "MediumPile.Whitepaws",
+      "MediumIndustrialPile.Whitepaws",
+      "LargePile.Whitepaws",
+      "LargeIndustrialPile.Whitepaws",
+      "Mole.TritePile.Whitepaws",
+      "ExtraLargePile.Whitepaws",
+      "ExtraLargeIndustrialPile.Whitepaws",
+      "Mole.LargePile.Whitepaws",
+      "GigargantuanPile.Whitepaws",
+      "UndergroundPile.Whitepaws",
+      "Mole.BuriedPile.Whitepaws",
+      "GiantLogStorage.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.Whitepaws",
+      "SmallPile.Whitepaws",
+      "SmallIndustrialPile.Whitepaws",
+      "Mole.SmallPile.Whitepaws",
+      "LongPile.Whitepaws",
+      "PitPile.Whitepaws",
+      "2x2PileRight.Whitepaws",
+      "Pile.Whitepaws",
+      "IndustrialPile.Whitepaws",
+      "MediumPile.Whitepaws",
+      "MediumIndustrialPile.Whitepaws",
+      "LargePile.Whitepaws",
+      "LargeIndustrialPile.Whitepaws",
+      "Mole.TritePile.Whitepaws",
+      "ExtraLargePile.Whitepaws",
+      "ExtraLargeIndustrialPile.Whitepaws",
+      "Mole.LargePile.Whitepaws",
+      "GigargantuanPile.Whitepaws",
+      "UndergroundPile.Whitepaws",
+      "Mole.BuriedPile.Whitepaws",
+      "GiantLogStorage.Whitepaws"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.Folktails", "Order": 101009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.Folktails",
+      "TE_Tunnel_1L.Folktails",
+      "TE_Tunnel_2L.Folktails",
+      "TE_Tunnel_3L.Folktails",
+      "TE_Tunnel_4L.Folktails",
+      "TE_Tunnel_5L.Folktails",
+      "TE_Tunnel_6L.Folktails",
+      "TE_Tunnel_7L.Folktails",
+      "TE_Tunnel_8L.Folktails",
+      "TE_Tunnel_9L.Folktails",
+      "TE_Tunnel_10L.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.Folktails",
+      "TE_Tunnel_1L.Folktails",
+      "TE_Tunnel_2L.Folktails",
+      "TE_Tunnel_3L.Folktails",
+      "TE_Tunnel_4L.Folktails",
+      "TE_Tunnel_5L.Folktails",
+      "TE_Tunnel_6L.Folktails",
+      "TE_Tunnel_7L.Folktails",
+      "TE_Tunnel_8L.Folktails",
+      "TE_Tunnel_9L.Folktails",
+      "TE_Tunnel_10L.Folktails"
+    ]
+  }
+}

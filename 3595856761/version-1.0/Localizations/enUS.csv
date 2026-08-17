@@ -1,0 +1,49 @@
+ID,Text,Comment
+EffectProbability.Hidden,"Chance of: {0}","Hidden effect probability. Just tell there's any chance, like - Chance of: Injury"
+Grauschweif.Seasons.TooltipHeader,"<b>{0}</b> (year {1} day {2})",
+Grauschweif.Seasons.TooltipNextSeason,"Next season in {0} days.",
+Grauschweif.Seasons.Effect.PlantEffectsHeader,"<u>Plants</u>",
+Grauschweif.Seasons.Effect.Plant.GrowthBoost,"Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>","It indicates growth boost, it's a good effect."
+Grauschweif.Seasons.Effect.Plant.GrowthSlowdown,"Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>","It indicates growth penalty, it's a bad effect."
+Grauschweif.Seasons.Effect.Plant.DryingSlowdown,"Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>","It indicates drying slowdown, it's a good effect."
+Grauschweif.Seasons.Effect.Plant.DryingBoost,"Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>","It indicates drying penalty, it's a bad effect."
+Grauschweif.Seasons.Effect.Plant.YieldBoost,"Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>","It indicates yield growth boost, it's a good effect."
+Grauschweif.Seasons.Effect.Plant.YieldSlowdown,"Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>","It indicates yield growth penalty, it's a bad effect."
+Grauschweif.Seasons.Effect.WaterSourceEffectsHeader,"<u>Water</u>",
+Grauschweif.Seasons.Effect.WaterSourceStrengthBoost,"Strength up <GreenHighlight>{0:0.#}%▲</GreenHighlight>","More water, it's a good effect."
+Grauschweif.Seasons.Effect.WaterSourceStrengthSlowdown,"Strength down <RedHighlight>{0:0.#}%▼</RedHighlight>","Less water, it's a bad effect."
+Grauschweif.Seasons.Effect.WaterSourceContaminationBoost,"Contamination up <RedHighlight>{0:0.#}%▲</RedHighlight>","More contamination, it's a bad  effect."
+Grauschweif.Seasons.Effect.WaterSourceContaminationSlowdown,"Contamination down <GreenHighlight>{0:0.#}%▼</GreenHighlight>","Less contamination, it's a good effect."
+Grauschweif.Seasons.Effect.NeedEffectsHeader,"<u>Needs</u>",
+Grauschweif.Seasons.Effect.NeedChangeBoost,"{1} down <GreenHighlight>{0:0.#}%▼</GreenHighlight>","Need declines slower. Might be positive."
+Grauschweif.Seasons.Effect.NeedChangeSlowdown,"{1} up <RedHighlight>{0:0.#}%▲</RedHighlight>","Need declines faster. Might be negative."
+Grauschweif.Seasons.Effect.BonusEffectsHeader,"<u>Boni</u>",
+Grauschweif.Seasons.Effect.BonusChangeBoost,"{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>","Need declines slower. Might be positive."
+Grauschweif.Seasons.Effect.BonusChangeSlowdown,"{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>","Need declines faster. Might be negative."
+Grauschweif.Seasons.Effect.SoilMoistureEffectsHeader,"Moisture",
+Grauschweif.Seasons.Effect.SoilMoistureBoost,"Wet soil <GreenHighlight>+{0:0.#}%▼</GreenHighlight>",
+Grauschweif.Seasons.Effect.SoilMoistureSlowdown,"Dry soil <RedHighlight>-{0:0.#}%▼</RedHighlight>",
+Grauschweif.Seasons.Effect.WindMoistureEffectsHeader,"Wind",
+Grauschweif.Seasons.Effect.WindBoost,"Stronger wind (+{0:0.#})",
+Grauschweif.Seasons.Effect.WindSlowdown,"Weaker wind (-{0:0.#})",
+Grauschweif.Season.Weather.Badtide.Autumn,Badtide,
+Grauschweif.Season.Weather.Badtide.Spring,Badtide,
+Grauschweif.Season.Weather.Badtide.Summer,Badtide,
+Grauschweif.Season.Weather.Badtide.Winter,Badtide,
+Grauschweif.Season.Weather.Drought.Autumn,Drought,
+Grauschweif.Season.Weather.Drought.Spring,Drought,
+Grauschweif.Season.Weather.Drought.Summer,Drought,
+Grauschweif.Season.Weather.Drought.Winter,Drought,
+Grauschweif.Season.Weather.Monsoon.Autumn,Monsoon,
+Grauschweif.Season.Weather.Monsoon.Summer,Monsoon,
+Grauschweif.Season.Weather.Monsoon.Winter,Monsoon,
+Grauschweif.Season.Weather.Rain.Autumn,Rain,
+Grauschweif.Season.Weather.Rain.Spring,Rain,
+Grauschweif.Season.Weather.ShortTemperate.Summer,"Short Temperate",
+Grauschweif.Season.Weather.Snow.Winter,Snow,
+Grauschweif.Season.Weather.SurprisinglyRefreshing.Autumn,"Surprisingly Refreshing",
+Grauschweif.Season.Weather.SurprisinglyRefreshing.Spring,"Surprisingly Refreshing",
+Grauschweif.Season.Weather.Temperate.Autumn,Temperate,
+Grauschweif.Season.Weather.Temperate.Spring,Temperate,
+Grauschweif.Season.Weather.Temperate.Summer,Temperate,
+Grauschweif.Season.Weather.Temperate.Winter,Temperate,

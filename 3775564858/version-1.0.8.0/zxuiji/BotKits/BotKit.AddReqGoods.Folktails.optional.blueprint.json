@@ -1,0 +1,11 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients#append":
+		[
+			{ "Amount": 5, "Id": "Biofuel" },
+			{ "Amount": 5, "Id": "Catalyst" },
+			{ "Amount": 5, "Id": "PunchCard" }
+		]
+	}
+}

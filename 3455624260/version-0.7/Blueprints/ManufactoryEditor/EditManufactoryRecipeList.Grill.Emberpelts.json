@@ -1,0 +1,7 @@
+{
+  "EditManufactoryRecipeListSpec": {
+    "PrefabName": "Grill.Emberpelts",
+    "AddRecipes": ["GrilledBeetroot"],
+    "RemoveRecipes": []
+  }
+}

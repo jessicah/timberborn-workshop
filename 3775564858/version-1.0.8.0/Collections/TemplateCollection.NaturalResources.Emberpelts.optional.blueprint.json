@@ -1,0 +1,17 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "NaturalResources/Crops/Wheat/Wheat.blueprint",
+      "NaturalResources/Crops/Canola/Canola.blueprint",
+      "NaturalResources/Crops/Corn/Corn.blueprint",
+      "NaturalResources/Trees/Maple/Maple.blueprint",
+      "Plants/Trees/AppleTree/AppleTree.blueprint",
+      "Plants/Crops/Beetroot/Beetroot.blueprint",
+      "Plants/Crops/Pepper/Pepper.blueprint",
+      "Plants/Crops/Radish/Radish.blueprint",
+      "Plants/Crops/Tomato/Tomato.blueprint"
+    ]
+  }
+}

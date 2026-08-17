@@ -1,0 +1,13 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Bobingabout",
+    "ExcludeFromNamePool": "True",
+    "Texture": "Materials/Beavers/Unique/Bobingabout",
+    "ChildTexture": "Materials/Beavers/Unique/Bobingabout",
+    "Avatar": "Sprites/Avatars/Bobingabout",
+    "ChildAvatar": "Sprites/Avatars/BobingaboutChild",
+    "ContaminatedAvatar": "Sprites/Avatars/BobingaboutContaminatedAdult",
+    "ContaminatedChildAvatar": "Sprites/Avatars/BobingaboutContaminatedChild",
+    "BeaverFactionId": "Emberpelts"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "1x1x2Storage",
+  "Version": "3.0.6",
+  "Id": "Lapantouflemagic.1x1x2Storage",
+  "MinimumGameVersion": "1.0.5.1",
+  "Description": "This mod adds small storage options to fit in remote corners.\nAlso adds Excessively large storage because why not.",
+  "RequiredMods": [
+  ],
+  "OptionalMods": [
+  ]
+}

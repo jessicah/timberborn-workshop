@@ -1,0 +1,36 @@
+{
+  "BeaverGrowUpTextureMapSpec": {
+    "TextureMaps": [
+      {
+        "ChildTextureName": "BeaverChild1.IronTeeth",
+        "AdultTextureNames": [
+          "BeaverAdult1.IronTeeth",
+          "BeaverAdult2.IronTeeth",
+          "BeaverAdult3.IronTeeth",
+          "BeaverAdult4.IronTeeth",
+          "BeaverAdult5.IronTeeth"
+        ]
+      },
+      {
+        "ChildTextureName": "BeaverChild2.IronTeeth",
+        "AdultTextureNames": [
+          "BeaverAdult1.IronTeeth",
+          "BeaverAdult2.IronTeeth",
+          "BeaverAdult3.IronTeeth",
+          "BeaverAdult4.IronTeeth",
+          "BeaverAdult5.IronTeeth"
+        ]
+      },
+      {
+        "ChildTextureName": "BeaverChild3.IronTeeth",
+        "AdultTextureNames": [
+          "BeaverAdult1.IronTeeth",
+          "BeaverAdult2.IronTeeth",
+          "BeaverAdult3.IronTeeth",
+          "BeaverAdult4.IronTeeth",
+          "BeaverAdult5.IronTeeth"
+        ]
+      }
+    ]
+  }
+}

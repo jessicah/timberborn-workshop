@@ -1,0 +1,24 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PrimitiveDam3x3VariantUpgrade.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"primitivedam3x3variantupgrade.Whitepaws",
+			"primitivedam3x3variantupgrade"
+		]
+	},
+	"LabeledEntitySpec":
+	{
+		"DisplayNameLocKey": "Lapantouflemagic.primitivedam3x3variantupgrade.DisplayName"
+	},
+	"UnderstructureConstraintSpec": {
+		"UnderstructureTemplateNames":
+		[
+			"PrimitiveDam3x2.Whitepaws",
+			"PrimitiveDam3x3.Whitepaws",
+			"PrimitiveDam3x3Utility.Whitepaws",
+			"PrimitiveDam3x3Variant.Whitepaws"
+		]
+	}
+}

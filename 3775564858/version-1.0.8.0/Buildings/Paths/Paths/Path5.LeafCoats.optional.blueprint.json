@@ -1,0 +1,19 @@
+{
+	"RangedEffectBuildingSpec": { "EffectRadius": 0 },
+	"ContinuousEffectBuildingSpec":
+	{
+		"Effects":
+		[
+			{
+				"NeedId": "Greenery",
+				"PointsPerHour": 0.64,
+				"SatisfyToMaxValue": false
+			},
+			{
+				"NeedId": "HedgePath",
+				"PointsPerHour": 0.64,
+				"SatisfyToMaxValue": false
+			}
+		]
+	}
+}

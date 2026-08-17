@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.Copperclaws", "Order": 1324000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.Copperclaws",
+      "Roof.Dynamic.Copperclaws",
+      "Roof1x1.Copperclaws",
+      "Roof1x2.Copperclaws",
+      "Roof2x2.Copperclaws",
+      "Roof2x3.Copperclaws",
+      "Roof3x2.Copperclaws",
+      "HalfRoof1x1.Copperclaws",
+      "HalfRoof1x2.Copperclaws",
+      "HalfRoof2x1.Copperclaws",
+      "HalfRoof2x2.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.Copperclaws",
+      "Roof.Dynamic.Copperclaws",
+      "Roof1x1.Copperclaws",
+      "Roof1x2.Copperclaws",
+      "Roof2x2.Copperclaws",
+      "Roof2x3.Copperclaws",
+      "Roof3x2.Copperclaws",
+      "HalfRoof1x1.Copperclaws",
+      "HalfRoof1x2.Copperclaws",
+      "HalfRoof2x1.Copperclaws",
+      "HalfRoof2x2.Copperclaws"
+    ]
+  }
+}

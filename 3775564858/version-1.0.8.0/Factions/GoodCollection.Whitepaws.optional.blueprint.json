@@ -1,0 +1,6 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#remove": [ "Apple_WP", "Grapes", "GrapeJuice" ]
+  }
+}

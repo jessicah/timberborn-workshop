@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "LeafCoats",
+    "MaterialName": "BeaverAdult",
+    "TextureEntries": [
+      {
+        "Name": "_BaseMap",
+        "Path": "Materials/Beavers/LeafCoats/Adult/BeaverAdult3.LeafCoats"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

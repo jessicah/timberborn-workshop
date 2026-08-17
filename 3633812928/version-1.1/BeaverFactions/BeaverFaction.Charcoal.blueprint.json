@@ -1,0 +1,15 @@
+{
+  "BeaverFactionSpec": {
+    "Id": "Charcoal",
+    "DisplayNameLocKey": "Faction.Charcoal.DisplayName",
+    "Textures": [
+      "BeaverAdult6.Emberpelts",
+      "BeaverAdult7.Emberpelts",
+      "BeaverAdult8.Emberpelts",
+      "BeaverAdult.Cokenose"
+    ],
+    "ChildTextures": [
+      "BeaverChild6.Emberpelts"
+    ]
+  }
+}

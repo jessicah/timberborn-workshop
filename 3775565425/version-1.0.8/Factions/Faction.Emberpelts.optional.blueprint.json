@@ -1,0 +1,55 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Emberpelts" ],
+    "GoodCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "NeedCollectionIds#append": [ "Listamole.Emberpelts" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Emberpelts",
+      "Actors.Emberpelts",
+      "Cadre.Emberpelts",
+      "Editing.Emberpelts",
+      "Effects.Emberpelts",
+      "Grows.Emberpelts",
+      "Parts.Emberpelts",
+      "Rides.Emberpelts"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - Emberpelts */
+      {
+        "Original": "Factions/Emberpelts/Goods.Collection.Emberpelts.blueprint",
+        "Modifier": "Factions/Emberpelts/Goods.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Emberpelts/Needs.Collection.Emberpelts.blueprint",
+        "Modifier": "Factions/Emberpelts/Needs.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Emberpelts/Grows.Collection.Emberpelts.blueprint",
+        "Modifier": "Factions/Emberpelts/Grows.Collection.Wackamole.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RadishCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BeetrootCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/TomatoCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PepperCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Emberpelts.optional.blueprint"
+      }
+    ]
+  }
+}

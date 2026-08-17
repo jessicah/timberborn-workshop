@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Dragonclaws", "Order": 1003000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Dragonclaws",
+      "DoublePlatform.Dragonclaws",
+      "TriplePlatform.Dragonclaws",
+      "TreeTrunk.Platform.Dragonclaws",
+      "TreeTrunk.DoublePlatform.Dragonclaws",
+      "TreeTrunk.TriplePlatform.Dragonclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Dragonclaws",
+      "MetalPillars.MoleCadre.Dragonclaws",
+      "TreeBits.MoleCadre.Dragonclaws",
+      "Overhangs.MoleCadre.Dragonclaws",
+      "MirroredOverhangs.MoleCadre.Dragonclaws",
+      "ArchOverhangs.MoleCadre.Dragonclaws",
+      "MetalPlatforms.MoleCadre.Dragonclaws",
+      "OtherPlatforms.MoleCadre.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Dragonclaws",
+      "DoublePlatform.Dragonclaws",
+      "TriplePlatform.Dragonclaws",
+      "TreeTrunk.Platform.Dragonclaws",
+      "TreeTrunk.DoublePlatform.Dragonclaws",
+      "TreeTrunk.TriplePlatform.Dragonclaws",
+      "Pillars.MoleCadre.Dragonclaws",
+      "MetalPillars.MoleCadre.Dragonclaws",
+      "TreeBits.MoleCadre.Dragonclaws",
+      "Overhangs.MoleCadre.Dragonclaws",
+      "MirroredOverhangs.MoleCadre.Dragonclaws",
+      "ArchOverhangs.MoleCadre.Dragonclaws",
+      "MetalPlatforms.MoleCadre.Dragonclaws",
+      "OtherPlatforms.MoleCadre.Dragonclaws"
+    ]
+  }
+}

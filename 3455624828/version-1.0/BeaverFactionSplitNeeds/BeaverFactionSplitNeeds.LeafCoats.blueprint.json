@@ -1,0 +1,37 @@
+{
+  "BeaverFactionSplitNeedsSpec": {
+    "Id": "LeafCoats",
+    "Needs": [
+      "BeaverStatue",
+      "Detailer",
+      "Lantern",
+      "WetFur",
+      "ContemplationSpot",
+      "Carousel",
+      "MudPit",
+      "SwimmingPool",
+      "Scarecrow",
+      "BeaverBust",
+      "DecorativeClock",
+      "WindTunnel",
+      "Garden",
+      "ObservationTerrace",
+      "Plaza",
+      "PlantMurderer",
+      "LaborerMonument",
+      "FountainOfJoy",
+      "TributeToIngenuity",
+      "Weathervane",
+      "Apples",
+      "MangroveFruit",
+      "Grapes",
+      "FermentedChestnut",
+      "FermentedDandelion",
+      "FermentedFruit",
+      "FruitSalad",
+      "FancyApples",
+      "Greenery",
+      "WonderLeafCoats"
+    ]
+  }
+}

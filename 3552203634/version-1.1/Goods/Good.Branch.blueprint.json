@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Branch",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.3137255,
+      "g": 0.2509804,
+      "b": 0.1254902,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/BranchIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Branch.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Branch.PluralDisplayName"
+  }
+}

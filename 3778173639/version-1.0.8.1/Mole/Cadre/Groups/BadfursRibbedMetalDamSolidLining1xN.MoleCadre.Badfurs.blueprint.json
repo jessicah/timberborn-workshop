@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "RibbedMetalDamSolidLining1xN.MoleCadre.Badfurs", "Order": 1207001, "NameLocKey": "Group.RibbedMetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_RM_SquareW1x1.Badfurs",
+      "DE_RM_SquareW1x2.Badfurs",
+      "DE_RM_SquareW1x3.Badfurs",
+      "DE_RM_SlopeW.Badfurs",
+      "DE_RM_InvSlopeW.Badfurs",
+      "DE_RM_InvSlopeW1x1.Badfurs",
+      "DE_RM_InvSlopeW1x2.Badfurs",
+      "DE_RM_InvCornerW.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_RM_SquareW1x1.Badfurs",
+      "DE_RM_SquareW1x2.Badfurs",
+      "DE_RM_SquareW1x3.Badfurs",
+      "DE_RM_SlopeW.Badfurs",
+      "DE_RM_InvSlopeW.Badfurs",
+      "DE_RM_InvSlopeW1x1.Badfurs",
+      "DE_RM_InvSlopeW1x2.Badfurs",
+      "DE_RM_InvCornerW.Badfurs"
+    ]
+  }
+}

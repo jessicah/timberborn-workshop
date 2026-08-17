@@ -1,0 +1,17 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Buildings/Tents/ChemistryTent.FrostyWhiskers.blueprint",
+      "Buildings/Tents/GnawingTent.FrostyWhiskers.blueprint",
+      "Buildings/Tents/PrimitiveIronWorks.FrostyWhiskers.blueprint"
+    ],
+    "Blueprints#remove":
+    [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+      "Buildings/Water/DevWaterSource/DevWaterSource.blueprint",
+      "Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint"
+    ]
+  }
+}

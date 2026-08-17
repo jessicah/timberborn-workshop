@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Branches.MoleCadre.Dragonclaws", "Order": 1001006, "NameLocKey": "Group.Branches", "Icon": "Mole/Cadre/Branches", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Bridge1x1.Dragonclaws",
+      "Branch.Bridge2x1.Dragonclaws",
+      "Branch.Bridge3x1.Dragonclaws",
+      "Branch.Bridge4x1.Dragonclaws",
+      "Branch.Bridge5x1.Dragonclaws",
+      "Branch.Bridge6x1.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Branch.Bridge1x1.Dragonclaws",
+      "Branch.Bridge2x1.Dragonclaws",
+      "Branch.Bridge3x1.Dragonclaws",
+      "Branch.Bridge4x1.Dragonclaws",
+      "Branch.Bridge5x1.Dragonclaws",
+      "Branch.Bridge6x1.Dragonclaws"
+    ]
+  }
+}

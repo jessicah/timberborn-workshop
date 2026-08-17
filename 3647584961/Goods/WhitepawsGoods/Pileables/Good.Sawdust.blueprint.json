@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Sawdust",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Sawdust",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.9052241,
+      "b": 0.50377357,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10109,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Sawdust",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Sawdust.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Sawdust.PluralDisplayName"
+  }
+}

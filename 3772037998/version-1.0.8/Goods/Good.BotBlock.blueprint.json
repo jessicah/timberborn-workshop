@@ -1,0 +1,27 @@
+{
+	"GoodSpec":
+	{
+		"Id": "BotBlock",
+		"BackwardCompatibleIds": [],
+		"DisplayNameLocKey": "Wares.BotBlocks.Lone",
+		"PluralDisplayNameLocKey": "Wares.BotBlocks.Name",
+		"ConsumptionEffects":
+		[
+			{
+				"NeedId": "Energy",
+				"Points": 0.3
+			}
+		],
+		"GoodType": "Box",
+		"StockpileVisualization": "Box",
+		"VisibleContainer": "Box",
+		"ContainerColor": { "r": .6, "g": 0.6, "b": 0.6, "a": 1.0 },
+		"ContainerMaterial": "",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 1,
+		"GoodGroupId": "Depos",
+		"GoodOrder": 900020,
+		"ForceImport": false,
+		"Icon": "Mole/Depos/BotBlocks"
+	}
+}

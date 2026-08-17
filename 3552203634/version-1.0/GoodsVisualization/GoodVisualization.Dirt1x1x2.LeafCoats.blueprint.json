@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Dirt",
+    "Variant": "1x1.LeafCoats",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.7
+    },
+    "LimitingAmount": 1.8,
+    "PrimaryMesh": "Buildings/Storage/Dirt1x1.LeafCoats",
+    "SecondaryMesh": "",
+    "Material": "Materials/Goods/DirtPile",
+    "NonLinearity": -0.5
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"GoodSpec": {
+		"Id": "BotKit",
+		"BackwardCompatibleIds": [ "FolktailsBotKit", "IronTeethBotKit", "EmberpeltsBotKit" ],
+		"DisplayNameLocKey": "Wares.BotKits.Lone",
+		"PluralDisplayNameLocKey": "Wares.BotKits.Name",
+		"ConsumptionEffects": [ { "Points": 0.5, "NeedId": "BotKit" } ],
+		"GoodType": "Box",
+		"StockpileVisualization": "Box",
+		"VisibleContainer": "Box",
+		"ContainerColor": { "r": .6, "g": 1.0, "b": 0.8, "a": 1.0 },
+		"ContainerMaterial": "",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 1,
+		"GoodGroupId": "Depos",
+		"GoodOrder": 900030,
+		"ForceImport": false,
+		"Icon": "Mole/Depos/BotKits"
+	}
+}

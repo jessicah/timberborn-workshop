@@ -1,0 +1,28 @@
+{
+  "GoodSpec": {
+    "Id": "Grapes",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.Grapes.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Grapes.PluralDisplayName",
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Grapes",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": "#7f1869",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "Icon": "Sprites/Goods/GrapesIcon",
+    "ForceImport": true,
+    "ContainerMaterial": ""
+  }
+}

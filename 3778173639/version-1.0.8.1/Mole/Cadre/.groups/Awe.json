@@ -1,0 +1,40 @@
+#include <defines.h>
+{
+  TOGROUP(26000,Awe),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(FarmerMonument),
+      TOTOOL(LaborerMonument),
+      TOTOOL(BrazierOfBonding),
+      TOTOOL(FlameOfUnity),
+      TOTOOL(FountainOfJoy),
+      TOTOOL(PublicFountain),
+      TOTOOL(TributeToIngenuity),
+      TOTOOL(HallOfAbundance),
+      TOTOOL(ArchOfProgress),
+      TOTOOL(EarthRecultivator),
+      TOTOOL(EarthRepopulator),
+      TOTOOL(WonderOfFire),
+      TOTOOL(Wonder)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(FarmerMonument),
+      TOTOOL(LaborerMonument),
+      TOTOOL(BrazierOfBonding),
+      TOTOOL(FlameOfUnity),
+      TOTOOL(FountainOfJoy),
+      TOTOOL(PublicFountain),
+      TOTOOL(TributeToIngenuity),
+      TOTOOL(HallOfAbundance),
+      TOTOOL(ArchOfProgress),
+      TOTOOL(EarthRecultivator),
+      TOTOOL(EarthRepopulator),
+      TOTOOL(WonderOfFire),
+      TOTOOL(Wonder)
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.IslandBeavers" ],
+    "GoodCollectionIds#append": [ "Listamole.IslandBeavers" ],
+    "NeedCollectionIds#append": [ "Listamole.IslandBeavers" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.IslandBeavers",
+      "Actors.IslandBeavers",
+      "Cadre.IslandBeavers",
+      "Editing.IslandBeavers",
+      "Effects.IslandBeavers",
+      "Grows.IslandBeavers",
+      "Parts.IslandBeavers",
+      "Rides.IslandBeavers"
+    ]
+  }
+}

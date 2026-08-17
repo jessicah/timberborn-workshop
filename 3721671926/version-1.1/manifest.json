@@ -1,0 +1,35 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Genders: A procreation overhaul",
+    "Version": "1.1.1.0",
+    "Id": "BobGenders",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "Adds Genders to beavers.
+Features include:
+Pregnancy, Beavers aren't just created instantly when 2 Adults occupy a house at the same time, they take time to grow.
+Pregnency 'Need' debuff. Pregnant beavers have a speed penalty applied.
+Prioritizes Adult housing slots based on Gender (to try and balance them out).
+Splits the Adults list by Gender on the Population page.
+Different factions will have different Gender ratios. Folktails are a 50/50 Male/Female split, where IronTeeth are all Ace.
+
+Definition of the Genders used in this mod.
+Male: Can impregnate
+Female: Can be impregnated
+Ace: Unable or unwilling to procreate
+Duon: Can both impregnate or be impregnated
+
+A lot of compatibility is untested.
+It will probably work with Second Shift, and Housing Optimise but no specific compatibility code has been written for it, so it may try and group beavers together in the same house where new gender based rules would normally not put them in the same house.
+
+Should be compatible with all of my mods.
+Compatible with Beaver Factions: It will read a beaver faction and use that faction's gender ratios if one is defined. (Most just use Default, 50/50 split of Male and Female)
+Compatible with Commute Balancer, it will check if a beaver should be able to live there before moving them into a house.
+Housing Optimise does check CanMoveIn, but since it makes all beavers homeless first then moves them all into new houses, it skips over the gender balancing code.
+",
+    "RequiredMods": [
+    	{"Id": "Harmony"}
+    ],
+    "OptionalMods": [
+    	{"Id": "BobingaboutBeaverFactions"}
+    ]
+}

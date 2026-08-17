@@ -1,0 +1,29 @@
+{
+  "RecipeSpec": {
+    "Id": "BetterAlcohol",
+  "DisplayLocKey": "Reciepe.BetterAlcohol.DisplayName",
+  "CycleDurationInHours": 6,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "Rice",
+      "Amount": 25
+    },{
+      "Id": "Water",
+      "Amount": 20
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Alcohol",
+      "Amount": 30
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "ChemistrySet",
+  "CyclesFuelLasts": 50,
+  "FuelCapacity": 8,
+  "Icon": "sprites/Whitepaws Sprites/Goods/RiceGrain",
+	"BackwardCompatibleIds": []
+  }
+}

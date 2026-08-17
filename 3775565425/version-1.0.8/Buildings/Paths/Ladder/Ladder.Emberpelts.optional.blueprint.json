@@ -1,0 +1,7 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "Ladder.Emberpelts",
+    "BackwardCompatibleTemplateNames": [ "Ladder" ]
+  }
+}

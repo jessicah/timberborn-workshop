@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Ampears", "Order": 718000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Ampears",
+      "SmallPile.Ampears",
+      "SmallIndustrialPile.Ampears",
+      "Mole.SmallPile.Ampears",
+      "LongPile.Ampears",
+      "PitPile.Ampears",
+      "2x2PileRight.Ampears",
+      "Pile.Ampears",
+      "IndustrialPile.Ampears",
+      "MediumPile.Ampears",
+      "MediumIndustrialPile.Ampears",
+      "LargePile.Ampears",
+      "LargeIndustrialPile.Ampears",
+      "Mole.TritePile.Ampears",
+      "ExtraLargePile.Ampears",
+      "ExtraLargeIndustrialPile.Ampears",
+      "Mole.LargePile.Ampears",
+      "GigargantuanPile.Ampears",
+      "UndergroundPile.Ampears",
+      "Mole.BuriedPile.Ampears",
+      "GiantLogStorage.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.Ampears",
+      "SmallPile.Ampears",
+      "SmallIndustrialPile.Ampears",
+      "Mole.SmallPile.Ampears",
+      "LongPile.Ampears",
+      "PitPile.Ampears",
+      "2x2PileRight.Ampears",
+      "Pile.Ampears",
+      "IndustrialPile.Ampears",
+      "MediumPile.Ampears",
+      "MediumIndustrialPile.Ampears",
+      "LargePile.Ampears",
+      "LargeIndustrialPile.Ampears",
+      "Mole.TritePile.Ampears",
+      "ExtraLargePile.Ampears",
+      "ExtraLargeIndustrialPile.Ampears",
+      "Mole.LargePile.Ampears",
+      "GigargantuanPile.Ampears",
+      "UndergroundPile.Ampears",
+      "Mole.BuriedPile.Ampears",
+      "GiantLogStorage.Ampears"
+    ]
+  }
+}

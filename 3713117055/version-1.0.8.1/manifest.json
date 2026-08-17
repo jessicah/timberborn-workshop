@@ -1,0 +1,18 @@
+{
+  "AuthorName": "zxuiji",
+  "Name": "zxuiji -m- Adaptors Have Emberpelts (AD+EP)",
+  "Version": "1.0.9.10",
+  "Id": "AdaptorsHaveEmberpelts",
+  "MinimumGameVersion": "1.0.12.0",
+  "Description": "For details visit https://mod.io/g/timberborn/m/adaptorshaveemberpelts#description",
+  "OptionalMods": [],
+  "RequiredMods":
+  [
+    { "Id": "BobingaboutScriptPack", "MinimumVersion": "1.0.10.3" },
+    { "Id": "Emberpelts", "MinimumVersion":"1.0.12.1" },
+    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Adaptors", "MinimumVersion": "1.0.9.10" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "Plants/Bushes/Dandelion.blueprint",
+      "Plants/Bushes/GrapeVine.blueprint",
+      "Plants/Trees/Eucalyptus.blueprint",
+      "Plants/Trees/Willow.blueprint",
+      "Plants/Trees/AppleTree.blueprint",
+      "Plants/Trees/Mangrove.blueprint",
+      "Plants/Trees/ChestnutTree.blueprint",
+      "Plants/Trees/Maple.blueprint"
+    ]
+  }
+}

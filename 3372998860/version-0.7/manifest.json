@@ -1,0 +1,11 @@
+{
+	"AuthorName": "Bobingabout",
+	"Name": "No Breeding: Emberpelts and Leaf Coats",
+	"Version": "0.7.10.0",
+	"Id": "EmberpeltsNoBreeding",
+	"MinimumGameVersion": "0.7.6.0",
+	"Description": "Disables breeding in homes for Emberpelts and Leaf Coats. For that Iron Teeth breeding style, when you play with mods that add other breeding options, like Project Phoenix for Emberpelts.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "0.7.6.0"},
+    ],
+}

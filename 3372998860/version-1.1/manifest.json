@@ -1,0 +1,13 @@
+{
+	"AuthorName": "Bobingabout",
+	"Name": "No Breeding: Emberpelts and Leaf Coats",
+	"Version": "1.1.1.0",
+	"Id": "EmberpeltsNoBreeding",
+	"MinimumGameVersion": "1.1.1.0",
+	"Description": "Disables breeding in homes for Emberpelts and Leaf Coats. For that Iron Teeth breeding style, when you play with mods that add other breeding options, like Project Phoenix for Emberpelts.",
+    "RequiredMods": [],
+    "OptionalMods": [
+        {"Id": "BobingaboutBeaverFactionSplitBreeding"},
+        {"Id": "BobGenders"},
+    ]
+}

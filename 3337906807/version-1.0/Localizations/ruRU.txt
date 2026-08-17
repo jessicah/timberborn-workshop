@@ -1,0 +1,36 @@
+ID,Text,Comment
+IgorZ.TimberCommons.WaterTower.Utilization,"Используемый потенциал: {0:0.#}%",
+IgorZ.TimberCommons.WaterTower.IrrigatedArea,"Площадь покрытия: {0}",
+IgorZ.TimberCommons.WaterTower.EffectiveRange,"Дистанция орошения: {0}",
+IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,"Нет доступных клеток для орошения",
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,"Ускорение роста: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%",
+IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,"Замедление роста: <RedHighlight>🡇</RedHighlight>{0:0.#}%",
+IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,"Остановить при глубине на водосбросе: {0}",
+IgorZ.TimberCommons.InjuryProbability,"Вероятность ранения: {0} каждый час",
+IgorZ.TimberCommons.InjuryProbabilityDaily,"Вероятность ранения: {0} в течение дня",
+IgorZ.TimberCommons.Settings.TimeAndDurationSection,"Формат времени и продолжительности",
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,"Показывать 'запаса хватит' в формате дни/часы",
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,"Показывать время роста в формате дни/часы",
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,"Показывать длительность рецепта в формате дни/часы",
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,"Показывать затраты топлива в рецепте с большей точностью",
+IgorZ.TimberCommons.Settings.IrrigationSystemSection,"Система орошения",
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,"Показывать орошаемые клетки как хорошо увлажненные",
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,"Указывает, что такие клетки должны отображаться ярко-зелеными (хорошо увлажненные). В противном случае стандартная
+логика будет показывать их как 'едва увлаженные', так как орошающие башни дают только базовый уровень влажности.",
+IgorZ.TimberCommons.Settings.WaterBuildingsSection,"Водные сооружения",
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,"Позволять менять максимальный уровень воды на водосбросе универсальных насосов",
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,"Позволять менять максимальный уровень воды на водосбросе сливов для жидкостей",
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,"Показывать текущую скорость потока воды в шлюзе",
+IgorZ.TimberCommons.Settings.InjuryProbabilitySection,"Вероятность ранения",
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,"Показывать вероятность получения травмы на панели справа",
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,"Отображать индикатор на аватаре строения",
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,"Наведите курсор на индикатор, чтобы увидеть вероятность получения травмы",
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAsDailyProbability,"Показывать вероятность за целый день",
+=,=,"TimberDev_Utils"
+TimberDev_Utils.Settings.Debug.VerboseLogging,"Детальные журналы",
+TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip,"В журналы игры будет записываться больше полезной информации,
+но это может повлиять на производительность игры."
+TimberDev_Utils.Settings.DebugSection,"Отладка и устранение неполадок",
+=,=,"Keep UI compact! Strings that line-wrap break UI"
+Mechanical.NetworkPower,Генерация/потребление в сети: {0} / {1},{0} stands for supply amount {1} stands for demand amount followed by PowerSymbol
+Mechanical.PowerInputMaximum,Энергия на входе: {0} из {1} ({2}%),{0} stands for input amount {1} stands for maximum amount followed by PowerSymbol {2} stands for efficency ratio in percent

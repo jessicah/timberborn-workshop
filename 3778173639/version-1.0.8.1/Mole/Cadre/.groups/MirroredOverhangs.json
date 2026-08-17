@@ -1,0 +1,26 @@
+#include <defines.h>
+{
+  TOGROUP(02005,MirroredOverhangs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Overhang2x1.Centered),
+      TOTOOL(Overhang3x1.Centered),
+      TOTOOL(Overhang4x1.Centered),
+      TOTOOL(Overhang5x1.Centered),
+      TOTOOL(Overhang6x1.Centered),
+      TOTOOL(Overhang7x1.Centered)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Overhang2x1.Centered),
+      TOTOOL(Overhang3x1.Centered),
+      TOTOOL(Overhang4x1.Centered),
+      TOTOOL(Overhang5x1.Centered),
+      TOTOOL(Overhang6x1.Centered),
+      TOTOOL(Overhang7x1.Centered)
+    ]
+  }
+}

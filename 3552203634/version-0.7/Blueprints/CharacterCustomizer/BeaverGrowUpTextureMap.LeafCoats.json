@@ -1,0 +1,26 @@
+{
+    "BeaverGrowUpTextureMapSpec": {
+        "TextureMaps": [
+            {
+                "ChildTextureName": "BeaverAdult1.LeafCoats",
+                "AdultTextureNames": ["BeaverAdult1.LeafCoats"]
+            },
+            {
+                "ChildTextureName": "BeaverAdult2.LeafCoats",
+                "AdultTextureNames": ["BeaverAdult2.LeafCoats"]
+            },
+            {
+                "ChildTextureName": "BeaverAdult3.LeafCoats",
+                "AdultTextureNames": ["BeaverAdult3.LeafCoats"]
+            },
+            {
+                "ChildTextureName": "BeaverAdult4.LeafCoats",
+                "AdultTextureNames": ["BeaverAdult4.LeafCoats"]
+            },
+            {
+                "ChildTextureName": "BeaverAdult5.LeafCoats",
+                "AdultTextureNames": ["BeaverAdult5.LeafCoats"]
+            },
+        ]
+    }
+}

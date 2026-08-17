@@ -1,0 +1,14 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.SunflowerSeeds.Emberpelts",
+      "Wares.SunflowerSeeds.Folktails",
+      "Wares.SunflowerSeeds.IronTeeth",
+      "Wares.SunflowerSeeds.LeafCoats",
+      "Wares.SunflowerSeeds.Whitepaws",
+      "Wares.SunflowerSeeds.Common"
+    ]
+  }
+}

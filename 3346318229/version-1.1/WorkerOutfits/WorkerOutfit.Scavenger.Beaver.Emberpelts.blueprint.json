@@ -1,0 +1,12 @@
+{
+  "WorkerOutfitSpec": {
+    "Id": "Scavenger",
+    "FactionId": "Emberpelts",
+    "WorkerType": "Beaver",
+    "DiffuseTexture": "",
+    "NormalTexture": "",
+    "Attachments": [
+      "ScavengerHat.Beaver.Folktails"
+    ]
+  }
+}

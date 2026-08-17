@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LeafCoatsTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPLeafTrader.Whitepaws",
+			"WPLeafTrader",
+			"LeafTrader"
+		]
+	}
+}

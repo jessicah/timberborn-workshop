@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Folktails", "Order": 121000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Folktails",
+      "GravityBattery.TreeTrunk.Folktails",
+      "GravityBattery.TreeTrunk2.Folktails",
+      "SmallFlywheel.Folktails",
+      "SmallHorizontalFramedFlywheel.Folktails",
+      "SmallVerticalFramedFlywheel.Folktails",
+      "MediumFlywheel.Folktails",
+      "MediumHorizontalFramedFlywheel.Folktails",
+      "MediumVerticalFramedFlywheel.Folktails",
+      "LargeFlywheel.Folktails",
+      "LargeHorizontalFramedFlywheel.Folktails",
+      "LargeVerticalFramedFlywheel.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Folktails",
+      "GravityBattery.TreeTrunk.Folktails",
+      "GravityBattery.TreeTrunk2.Folktails",
+      "SmallFlywheel.Folktails",
+      "SmallHorizontalFramedFlywheel.Folktails",
+      "SmallVerticalFramedFlywheel.Folktails",
+      "MediumFlywheel.Folktails",
+      "MediumHorizontalFramedFlywheel.Folktails",
+      "MediumVerticalFramedFlywheel.Folktails",
+      "LargeFlywheel.Folktails",
+      "LargeHorizontalFramedFlywheel.Folktails",
+      "LargeVerticalFramedFlywheel.Folktails"
+    ]
+  }
+}

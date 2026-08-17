@@ -1,0 +1,15 @@
+{
+  "KeyBindingSpec": {
+    "Id": "PopPerf.Profiler.KeyBind.ToggleOverlay",
+    "GroupId": "PopPerf.Profiler.KeyBindingGroup",
+    "LocKey": "PopPerf.Profiler.KeyBind.ToggleOverlay",
+    "Order": 0,
+    "AllowOtherModifiers": false,
+    "DevModeOnly": false
+  },
+  "PrimaryInputBindingSpec": {
+    "Path": "/Keyboard/p",
+    "InputModifiers": "Ctrl",
+    "Unchangeable": false
+  }
+}

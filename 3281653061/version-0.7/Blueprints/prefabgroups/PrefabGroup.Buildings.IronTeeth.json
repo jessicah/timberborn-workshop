@@ -1,0 +1,19 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.IronTeeth",
+  "Paths#append": [
+    "Buildings/ModularStoragePrefabs/PitpileIT",
+    "Buildings/ModularStoragePrefabs/PitwarehouseIT",
+    "Buildings/ModularStoragePrefabs/SCoveredtankIT",
+    "Buildings/ModularStoragePrefabs/LongWarehouseIT",
+    
+    "Buildings/ModularStoragePrefabs/2x2pileRightIT",
+    "Buildings/ModularStoragePrefabs/LongpileIT",
+    "Buildings/ModularStoragePrefabs/PitTankIT",
+
+    "Buildings/ModularStoragePrefabs/GigargantuanPileIT",
+    "Buildings/ModularStoragePrefabs/GigargantuanWarehouseIT",
+
+  ],
+}
+}

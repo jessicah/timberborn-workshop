@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Folktails", "Order": 102002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Folktails",
+      "MetalPillars.Folktails",
+      "MetalBigPillarBase.Folktails",
+      "MetalBigPillarMid.Folktails",
+      "MetalBigPillarTop.Folktails",
+      "Aque_MetalBigPillarBase.Folktails",
+      "Aque_MetalBigPillarMid.Folktails",
+      "Aque_MetalBigPillarTop.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Folktails",
+      "MetalPillars.Folktails",
+      "MetalBigPillarBase.Folktails",
+      "MetalBigPillarMid.Folktails",
+      "MetalBigPillarTop.Folktails",
+      "Aque_MetalBigPillarBase.Folktails",
+      "Aque_MetalBigPillarMid.Folktails",
+      "Aque_MetalBigPillarTop.Folktails"
+    ]
+  }
+}

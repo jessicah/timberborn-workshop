@@ -1,0 +1,28 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Emberpelts",
+  "Paths#append": [
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft3.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft4.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft5.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft6.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft7.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft8.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft9.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft10.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft11.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft12.Emberpelts",
+
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft3.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft4.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft5.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft6.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft7.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft8.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft9.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft10.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft11.Emberpelts",
+    "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft12.Emberpelts"
+  ]
+}
+}

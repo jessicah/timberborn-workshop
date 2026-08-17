@@ -1,0 +1,9 @@
+{
+  "TimberApiToolGroupSpec": {
+  "Id": "ShaftTunnels",
+  "GroupId": "Power",
+  "Order": "33",
+  "Icon": "Battery.PowerShaftExtensions/Sprites/ShaftTunnelsCategory-ico",
+  "NameLocKey": "Battery.PowerShaftExtensions.ToolGroups.ShaftTunnels.DisplayName",
+  "FallbackGroup": false
+}}

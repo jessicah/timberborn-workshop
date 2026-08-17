@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Statue.UpsideDown.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Statue_UpsideDown" ]
+	}
+}

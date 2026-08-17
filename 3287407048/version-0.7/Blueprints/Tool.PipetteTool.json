@@ -1,0 +1,17 @@
+{
+  "ToolSpec": {
+    "Id": "PipetteTool",
+    "Type": "GenericTool",
+    "Layout": "Blue",
+    "Order": 81,
+    "Icon": "Tobbert/PipetteToolIcon",
+    "NameLocKey": "Tobbert.PipetteTool.DisplayName",
+    "DescriptionLocKey": "Tobbert.PipetteTool.Description"
+  },
+  "BottomBarSpec": {
+    "Section": 0
+  },
+  "GenericToolSpec": {
+    "ClassName": "PipetteTool.PipetteToolSystem.PipetteTool"
+  }
+}

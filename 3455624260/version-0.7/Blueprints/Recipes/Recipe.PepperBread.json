@@ -1,0 +1,22 @@
+﻿{
+  "RecipeSpec": {
+    "Id": "PepperBread",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.PepperBread.PluralDisplayName",
+    "CycleDurationInHours": 1.4,
+    "CyclesCapacity": 30,
+    "Ingredients": [
+      {"Id": "PepperJuice","Amount": 1},
+      {"Id": "WheatFlour","Amount": 1},
+      {"Id": "MapleSyrup","Amount": 1}
+    ],
+    "Products": [
+      {"Id": "PepperBread","Amount": 7}
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Coal",
+    "CyclesFuelLasts": 20,
+    "FuelCapacity": 5,
+    "Icon": "Sprites/Goods/PepperBreadIcon"
+  }
+}

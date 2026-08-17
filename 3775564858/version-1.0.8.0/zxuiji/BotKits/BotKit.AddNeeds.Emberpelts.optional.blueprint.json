@@ -1,0 +1,10 @@
+{
+	"GoodSpec":
+	{
+		"ConsumptionEffects#append":
+		[
+			{ "Points": 0.1, "NeedId": "Fuel" },
+			{ "Points": 0.1, "NeedId": "Lubricant" }
+		]
+	}
+}

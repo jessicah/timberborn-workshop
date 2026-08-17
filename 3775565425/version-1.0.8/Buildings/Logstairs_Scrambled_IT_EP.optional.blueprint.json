@@ -1,0 +1,18 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "LogStairs.Scrambled.IronTeeth",
+    "BackwardCompatibleTemplateNames": []
+  },
+  "TemplateCollectionSpec":
+  {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append":
+    [
+      "Buildings/Logstairs/Brown.CrappyPlatform.Emberpelts.blueprint",
+      "Buildings/Logstairs/Brown.Logstairs.Emberpelts.blueprint",
+      "Buildings/Logstairs/Scrambled.CrappyPlatform.Emberpelts.blueprint",
+      "Buildings/Logstairs/Scrambled.Logstairs.Emberpelts.blueprint"
+    ]
+  }
+}

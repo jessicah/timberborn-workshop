@@ -1,0 +1,14 @@
+{
+  "BeaverGrowUpTextureMapSpec": {
+    "TextureMaps": [
+      {
+        "ChildTextureName": "BeaverChild6.Emberpelts",
+        "AdultTextureNames": [
+          "BeaverAdult6.Emberpelts",
+          "BeaverAdult7.Emberpelts",
+          "BeaverAdult8.Emberpelts"
+        ]
+      }
+    ]
+  }
+}

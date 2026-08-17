@@ -1,0 +1,27 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append": [
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft3.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft4.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft5.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft6.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft7.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft8.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft9.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft10.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft11.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/BridgeShaft12.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft3.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft4.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft5.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft6.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft7.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft8.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft9.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft10.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft11.Emberpelts.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Emberpelts/TunnelShaft12.Emberpelts.blueprint"
+    ]
+  }
+}

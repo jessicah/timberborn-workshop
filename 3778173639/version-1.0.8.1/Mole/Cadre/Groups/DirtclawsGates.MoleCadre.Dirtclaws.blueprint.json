@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Dirtclaws", "Order": 1101008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Dirtclaws",
+      "Tubeway.Gate.Dirtclaws",
+      "DistrictGate.Dirtclaws",
+      "DistrictGateTubeway.Dirtclaws",
+      "DecoSmallGate.Dirtclaws",
+      "SmallGate.Dirtclaws",
+      "HedgeGate.Dirtclaws",
+      "MetalGate.Dirtclaws",
+      "GoldGate.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Dirtclaws",
+      "Tubeway.Gate.Dirtclaws",
+      "DistrictGate.Dirtclaws",
+      "DistrictGateTubeway.Dirtclaws",
+      "DecoSmallGate.Dirtclaws",
+      "SmallGate.Dirtclaws",
+      "HedgeGate.Dirtclaws",
+      "MetalGate.Dirtclaws",
+      "GoldGate.Dirtclaws"
+    ]
+  }
+}

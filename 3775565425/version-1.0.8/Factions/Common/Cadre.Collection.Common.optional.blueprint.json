@@ -1,0 +1,13 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+      "Buildings/Water/DevWaterSource/DevWaterSource.blueprint",
+      "Buildings/MoreFlags/AquaFarmerFlag.blueprint",
+      "Buildings/MoreFlags/ForesterFlag.blueprint",
+      "Buildings/MoreFlags/FarmerFlag.blueprint"
+    ]
+  }
+}

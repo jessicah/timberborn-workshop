@@ -1,0 +1,11 @@
+{
+  "BeaverGendersGenderSpec": {
+    "Name": "Male",
+    "Order": 1,
+    "CanImpregnate": true,
+    "CanBeImpregnated": false,
+    "Icon": "Sprites/GenderMaleIcon",
+    "DisplayNameLocKey": "Gender.Male",
+    "PopulationGroupDisplayNameLocKey": "Gender.Population.Male"
+  }
+}

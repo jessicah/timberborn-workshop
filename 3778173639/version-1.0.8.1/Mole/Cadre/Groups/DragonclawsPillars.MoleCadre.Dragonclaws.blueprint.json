@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.Dragonclaws", "Order": 1002001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.Dragonclaws",
+      "Pillar_1.Dragonclaws",
+      "Pillar_2.Dragonclaws",
+      "Pillar_3.Dragonclaws",
+      "Pillar_4.Dragonclaws",
+      "Pillars.Dragonclaws",
+      "PillarTop.Dragonclaws",
+      "StaircasePlatform.Dragonclaws",
+      "StaircasePillar.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.Dragonclaws",
+      "Pillar_1.Dragonclaws",
+      "Pillar_2.Dragonclaws",
+      "Pillar_3.Dragonclaws",
+      "Pillar_4.Dragonclaws",
+      "Pillars.Dragonclaws",
+      "PillarTop.Dragonclaws",
+      "StaircasePlatform.Dragonclaws",
+      "StaircasePillar.Dragonclaws"
+    ]
+  }
+}

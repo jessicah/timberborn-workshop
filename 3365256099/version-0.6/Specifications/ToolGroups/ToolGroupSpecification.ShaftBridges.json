@@ -1,0 +1,8 @@
+{
+  "Id": "ShaftBridges",
+  "GroupId": "Power",
+  "Order": "11000",
+  "Icon": "Battery.PowerShaftExtensions/Sprites/ShaftBridgesCategory-ico",
+  "NameLocKey": "Battery.PowerShaftExtensions.ToolGroups.ShaftBridges.DisplayName",
+  "FallbackGroup": false
+}

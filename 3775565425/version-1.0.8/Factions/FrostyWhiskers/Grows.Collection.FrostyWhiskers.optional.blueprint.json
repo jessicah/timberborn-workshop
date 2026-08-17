@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "Blueprints#remove":
+    [
+      "Mole/Grows/RedCabbageCrop.Mole.blueprint"
+    ]
+  }
+}

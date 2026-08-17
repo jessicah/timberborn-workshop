@@ -1,0 +1,13 @@
+{
+  "Id": "Dirt",
+  "Variant": "2x2RIGHT",
+  "LimitingAmount": 0.9,
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": -0.9
+  },
+  "PrimaryMesh": "Buildings/ModularStorageMeshies/2x2RIGHTmesh",
+  "Material": "Materials/Goods/DirtPile", 
+  "NonLinearity": -0.5
+}

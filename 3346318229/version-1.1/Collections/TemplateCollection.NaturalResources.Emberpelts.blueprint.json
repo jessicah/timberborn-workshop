@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "NaturalResources.Emberpelts",
+    "Blueprints": [
+      "NaturalResources/Crops/Wheat/Wheat.blueprint",
+      "NaturalResources/Crops/Canola/Canola.blueprint",
+      "NaturalResources/Crops/Corn/Corn.blueprint",
+      "Plants/Crops/Radish/Radish.blueprint",
+      "Plants/Crops/Beetroot/Beetroot.blueprint",
+      "Plants/Crops/Tomato/Tomato.blueprint",
+      "Plants/Crops/Pepper/Pepper.blueprint",
+      "NaturalResources/Trees/Maple/Maple.blueprint",
+      "Plants/Trees/AppleTree/AppleTree.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "GoodCollectionSpec":
+  {
+    "Goods#append":
+    [
+      "Grapes",
+      "GrapeJuice",
+      "Parsnip",
+      "SugarCane",
+      "Bento",
+      "BotKit"
+    ]
+  }
+}

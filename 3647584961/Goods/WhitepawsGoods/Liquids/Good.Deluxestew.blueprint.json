@@ -1,0 +1,46 @@
+{
+  "GoodSpec": {
+    "Id": "Deluxestew",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Stew_Deluxe",
+        "Points": 0.2
+      },
+      {
+        "NeedId": "MinorInjury",
+        "Points": 0.05
+      },
+      {
+        "NeedId": "MinorBurns",
+        "Points": 0.02
+      },
+      {
+        "NeedId": "MildDisease",
+        "Points": 0.08
+      }
+    ],
+    "GoodType": "Warm",
+    "StockpileVisualization": "WarmLiquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.554717,
+      "g": 0.554717,
+      "b": 0.554717,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/Deluxestewtextureball",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Food",
+    "GoodOrder": 10209,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Deluxestew",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Deluxestew.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Deluxestew.PluralDisplayName"
+  }
+}

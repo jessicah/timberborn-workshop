@@ -1,0 +1,18 @@
+{
+  "AuthorName": "zxuiji",
+  "Name": "zxuiji -m- Adaptors Have Folktails (AD+FT)",
+  "Version": "1.0.9.10",
+  "Id": "AdaptorsHaveFolktails",
+  "MinimumGameVersion": "1.0.12.0",
+  "Description": "For details visit https://mod.io/g/timberborn/m/adaptorshavefolktails",
+  "OptionalMods": [],
+  "RequiredMods":
+  [
+    { "Id": "XtraPlzNoCrashes", "MinimumVersion": "10.2.0" },
+		{ "Id": "Lapantouflemagic.TexturePack", "MinimumVersion": "1.3.0" },
+    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.10" },
+    { "Id": "Adaptors", "MinimumVersion": "1.0.9.10" }
+  ]
+}

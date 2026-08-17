@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Zipline",
+    "Order": 4,
+    "NameLocKey": "Zipline.DisplayName",
+    "Icon": "Buildings/Paths/ZiplineStation/ZiplineStationIcon",
+    "FallbackGroup": false
+  }
+}

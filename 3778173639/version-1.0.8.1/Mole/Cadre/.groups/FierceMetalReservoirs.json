@@ -1,0 +1,93 @@
+#include <defines.h>
+{
+  TOGROUP(08000,FierceMetalReservoirs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(FierceMetalDam),
+      TOTOOL(Mole.FierceMetalDam),
+      TOTOOL(FierceMetalPowerDam),
+
+      TOTOOL(FierceMetalFloodgateDam),
+      TOTOOL(FierceMetalFloodgate),
+      TOTOOL(FierceMetalDoubleFloodgate),
+      TOTOOL(FierceMetalTripleFloodgate),
+      TOTOOL(FierceMetalFloodgateDam),
+      TOTOOL(FierceMetalFloodgate1),
+      TOTOOL(FierceMetalFloodgate2),
+      TOTOOL(FierceMetalFloodgate3),
+      TOTOOL(FierceMetalFloodgate4),
+      TOTOOL(FierceMetalFloodgate5),
+      TOTOOL(FierceMetalFloodgate6),
+      TOTOOL(FierceMetalFloodgate7),
+      TOTOOL(FierceMetalFloodgate8),
+      TOTOOL(FierceMetalFloodgate9),
+      TOTOOL(FierceMetalFloodgate10),
+      TOTOOL(FierceMetalFloodgate.Flat),
+      TOTOOL(FierceMetalDoubleFloodgate.Flat),
+      TOTOOL(FierceMetalTripleFloodgate.Flat),
+
+      TOTOOL(FierceMetalLevee),
+      TOTOOL(Mole.FierceMetalLevee),
+      TOTOOL(FierceMetalLogLevee),
+      TOTOOL(FierceMetalLogLevee2),
+      TOTOOL(FierceMetalLevee.Curved),
+      TOTOOL(FierceMetalTubewayLevee),
+      TOTOOL(FierceMetalPowerLevee),
+      TOTOOL(FierceMetalUPowerLevee),
+
+      TOTOOL(DE_A_RM_DiagonalW)
+
+    ],
+    "ChildrenGroupsIds":
+    [
+      TOID(FierceMetalDamSolidLining1xN),
+      TOID(FierceMetalDamSolidLining2xN),
+      TOID(FierceMetalDamSolidLining3xN),
+      TOID(FierceMetalDamDecor)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(FierceMetalDam),
+      TOTOOL(Mole.FierceMetalDam),
+      TOTOOL(FierceMetalPowerDam),
+
+      TOTOOL(FierceMetalFloodgateDam),
+      TOTOOL(FierceMetalFloodgate),
+      TOTOOL(FierceMetalDoubleFloodgate),
+      TOTOOL(FierceMetalTripleFloodgate),
+      TOTOOL(FierceMetalFloodgateDam),
+      TOTOOL(FierceMetalFloodgate1),
+      TOTOOL(FierceMetalFloodgate2),
+      TOTOOL(FierceMetalFloodgate3),
+      TOTOOL(FierceMetalFloodgate4),
+      TOTOOL(FierceMetalFloodgate5),
+      TOTOOL(FierceMetalFloodgate6),
+      TOTOOL(FierceMetalFloodgate7),
+      TOTOOL(FierceMetalFloodgate8),
+      TOTOOL(FierceMetalFloodgate9),
+      TOTOOL(FierceMetalFloodgate10),
+      TOTOOL(FierceMetalFloodgate.Flat),
+      TOTOOL(FierceMetalDoubleFloodgate.Flat),
+      TOTOOL(FierceMetalTripleFloodgate.Flat),
+
+      TOTOOL(FierceMetalLevee),
+      TOTOOL(Mole.FierceMetalLevee),
+      TOTOOL(FierceMetalLogLevee),
+      TOTOOL(FierceMetalLogLevee2),
+      TOTOOL(FierceMetalLevee.Curved),
+      TOTOOL(FierceMetalTubewayLevee),
+      TOTOOL(FierceMetalPowerLevee),
+      TOTOOL(FierceMetalUPowerLevee),
+
+      TOTOOL(DE_A_RM_DiagonalW),
+
+      TOID(FierceMetalDamSolidLining1xN),
+      TOID(FierceMetalDamSolidLining2xN),
+      TOID(FierceMetalDamSolidLining3xN),
+      TOID(FierceMetalDamDecor)
+    ]
+  }
+}

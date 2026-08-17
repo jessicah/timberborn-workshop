@@ -1,0 +1,392 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "TimeriumFormation_Red.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames": [
+      "Oak"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 5
+  },
+  "TreeComponentSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 5.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Default",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "Forester",
+    "PlantTimeInHours": 0.56
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 1.2,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "CuttableSpec": {
+    "RemoveOnCut": false,
+    "LeftoverModelName": "#Leftover",
+    "Yielder": {
+      "YielderComponentName": "Cuttable",
+      "Yield": {
+        "Id": "Log",
+        "Amount": 3
+      },
+      "RemovalTimeInHours": 1.2,
+      "ResourceGroup": "Cuttable"
+    }
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "Buildings/Environment_Replace/Ice_Crystal_Large.Model"
+  },
+  "ReproducibleSpec": {
+    "ReproductionChance": 0.01
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 999.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.Cristal_Large.FrostyWhiskers.DisplayName",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Cristal_Large.FrostyWhiskers.FlavorDescription",
+    "Icon": "sprites/FrostyWhiskers Sprites/BuildingPlantsETC/LargeCristal"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 999,
+    "DaysToDie": 999.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": false,
+    "MinHeightScaleFactor": 0.8,
+    "MaxHeightScaleFactor": 1.2,
+    "MinWidthScaleFactor": 0.8,
+    "MaxWidthScaleFactor": 1.2,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 360.0
+  },
+  "TreeCuttingRadiusSpec": {
+    "Radius": 0.1
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "ExtendedReproducibleSpec": {
+    "CanSpread": "All"
+  },
+  "ContaminationResistingResourceSpec": {},
+  "UndryableNaturalResourceSpec": {},
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "MainCristal": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Timberium_Crystal_Red.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.45,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.9,
+                        "Axis": "Y"
+                      }
+                    ]
+                  }
+                },
+                "ChildCristal1": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/TimeriumFormation_Red_Growing.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.3,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.0,
+                        "Axis": "Y"
+                      }
+                    ]
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.95,
+                      "Y": 0.0,
+                      "Z": 0.85
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 155.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Timberium_Crystal_Red.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.45,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.9,
+                        "Axis": "Y"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/Timberium_Crystal_Red.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.45,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.9,
+                        "Axis": "Y"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/TimeriumFormation_Red_Growing.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.3,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.0,
+                        "Axis": "Y"
+                      }
+                    ]
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/TimeriumFormation_Leftover_Red.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.1,
+                          "Z": 0.44
+                        },
+                        "Size": {
+                          "X": 0.7,
+                          "Y": 0.2,
+                          "Z": 0.8
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Environment_Replace/TimeriumFormation_Red_Growing.Model"
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [],
+                    "SphereColliders": [],
+                    "CapsuleColliders": [
+                      {
+                        "Center": {
+                          "X": 0.39,
+                          "Y": 0.3,
+                          "Z": 0.39
+                        },
+                        "Radius": 0.3,
+                        "Height": 0.0,
+                        "Axis": "Y"
+                      }
+                    ]
+                  },
+                  "TransformSpec": {
+                    "Position": {
+                      "X": 0.25,
+                      "Y": 0.0,
+                      "Z": 0.25
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Environment_Replace/TimeriumFormation_Leftover_Red.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.05,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.1,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

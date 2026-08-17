@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Badfurs", "Order": 1201003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Badfurs",
+      "SuspensionBridge2x1.Badfurs",
+      "SuspensionBridge3x1.Badfurs",
+      "SuspensionBridge4x1.Badfurs",
+      "SuspensionBridge5x1.Badfurs",
+      "SuspensionBridge6x1.Badfurs",
+      "SuspensionBridge7x1.Badfurs",
+      "SuspensionBridge8x1.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Badfurs",
+      "SuspensionBridge2x1.Badfurs",
+      "SuspensionBridge3x1.Badfurs",
+      "SuspensionBridge4x1.Badfurs",
+      "SuspensionBridge5x1.Badfurs",
+      "SuspensionBridge6x1.Badfurs",
+      "SuspensionBridge7x1.Badfurs",
+      "SuspensionBridge8x1.Badfurs"
+    ]
+  }
+}

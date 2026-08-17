@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.LeafCoats", "Order": 416002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.LeafCoats",
+      "ScoutBalloon.LeafCoats",
+      "FolktailsTraderBalloon.LeafCoats",
+      "IronTeethTraderBalloon.LeafCoats",
+      "EmberpeltsTraderBalloon.LeafCoats",
+      "LeafCoatsTraderBalloon.LeafCoats",
+      "AmpEarsTraderBalloon.LeafCoats",
+      "IslandBeaversTraderBalloon.LeafCoats",
+      "PolarBeaversTraderBalloon.LeafCoats",
+      "WhitepawsTraderBalloon.LeafCoats",
+      "FrostyWhiskersTraderBalloon.LeafCoats",
+      "CopperClawsTraderBalloon.LeafCoats",
+      "DragonClawsTraderBalloon.LeafCoats",
+      "DirtClawsTraderBalloon.LeafCoats",
+      "BadFursTraderBalloon.LeafCoats",
+      "Airship.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.LeafCoats",
+      "ScoutBalloon.LeafCoats",
+      "FolktailsTraderBalloon.LeafCoats",
+      "IronTeethTraderBalloon.LeafCoats",
+      "EmberpeltsTraderBalloon.LeafCoats",
+      "LeafCoatsTraderBalloon.LeafCoats",
+      "AmpEarsTraderBalloon.LeafCoats",
+      "IslandBeaversTraderBalloon.LeafCoats",
+      "PolarBeaversTraderBalloon.LeafCoats",
+      "WhitepawsTraderBalloon.LeafCoats",
+      "FrostyWhiskersTraderBalloon.LeafCoats",
+      "CopperClawsTraderBalloon.LeafCoats",
+      "DragonClawsTraderBalloon.LeafCoats",
+      "DirtClawsTraderBalloon.LeafCoats",
+      "BadFursTraderBalloon.LeafCoats",
+      "Airship.LeafCoats"
+    ]
+  }
+}

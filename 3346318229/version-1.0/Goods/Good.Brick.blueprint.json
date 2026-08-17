@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Brick",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.8862745,
+      "g": 0.31764707,
+      "b": 0.1254902,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 5,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/BrickIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Brick.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Brick.PluralDisplayName"
+  }
+}

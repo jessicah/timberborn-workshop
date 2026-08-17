@@ -1,0 +1,255 @@
+{
+	"BlockObjectSpec": {
+		"Size": {
+			"X": 1,
+			"Y": 1,
+			"Z": 1
+		},
+		"Blocks": [
+			{
+				"MatterBelow": "Ground",
+				"Occupations": "Floor, Bottom, Corners, Path, Middle",
+				"Stackable": "None",
+				"OccupyAllBelow": false,
+				"Underground": false
+			}
+		],
+		"Entrance": {
+			"HasEntrance": false,
+			"Coordinates": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		"BaseZ": 0,
+		"Overridable": false,
+		"Flippable": false
+	},
+	"TemplateSpec": {
+		"TemplateName": "Parsnip",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Grows.ParsnipCrop.Common",
+			"Grows.Parsnip.Common"
+		],
+		"RequiredFeatureToggle": "",
+		"DisablingFeatureToggle": ""
+	},
+	"NaturalResourceSpec": {
+		"Order": 1
+	},
+	"CropSpec": {},
+	"GrowableSpec": {
+		"GrowthTimeInDays": 2.5
+	},
+	"BasicSelectionSoundSpec": {
+		"SoundName": "Bush",
+		"AlternativeSoundName": ""
+	},
+	"PlantableSpec": {
+		"ResourceGroup": "Farmhouse",
+		"PlantTimeInHours": 0.1
+	},
+	"DemolishableSpec": {
+		"DemolishTimeInHours": 0.5,
+		"ShowDemolishButtonInEntityPanel": false
+	},
+	"CuttableSpec": {
+		"RemoveOnCut": true,
+		"LeftoverModelName": "",
+		"Yielder": {
+			"YielderComponentName": "Cuttable",
+			"Yield": { "Id": "Parsnip", "Amount": 2 },
+			"RemovalTimeInHours": 1.1,
+			"ResourceGroup": "Farmhouse"
+		}
+	},
+	"PlantablePreviewModelSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotSeedling" },
+	"WateredNaturalResourceSpec": {
+		"DaysToDieDry": 4.0
+	},
+	"LabeledEntitySpec": {
+		"DisplayNameLocKey": "Wares.Parsnips.Name",
+		"DescriptionLocKey": "",
+		"FlavorDescriptionLocKey": "Grows.Parsnips.Cite",
+		"Icon": "Mole/Grows/Parsnips"
+	},
+	"FloodableNaturalResourceSpec": {
+		"MinWaterHeight": 0,
+		"MaxWaterHeight": 0,
+		"DaysToDie": 1.0
+	},
+	"CuttableYieldGoodIdProviderSpec": {},
+	"ContaminatedNaturalResourceSpec": {},
+	"BlockObjectModelSpec": {
+		"FullModelName": "#Models",
+		"UncoveredModelName": "",
+		"UndergroundModelName": "",
+		"UndergroundModelDepth": 0
+	},
+	"Children": {
+		"#Models": {
+			"Children": {
+				"Seedling": {
+					"Children": {
+						"#Alive": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotSeedling" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoSeedling" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.05,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.1,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						},
+						"#Dead": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotSeedlingDead" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoSeedlingDead" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.05,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.1,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						},
+						"#Dying": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotSeedlingDry" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoSeedlingDry" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.05,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.1,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						}
+					}
+				},
+				"Mature": {
+					"Children": {
+						"#Alive": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotMature" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoMature" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.1,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.2,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						},
+						"#Dead": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotMatureDead" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoMatureDead" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.1,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.2,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						},
+						"#Dying": {
+"Children":
+{
+"Part1": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Carrot/CarrotMatureDry" } },
+"Part2": { "TimbermeshSpec": { "Model": "NaturalResources/Crops/Potato/PotatoMatureDry" } }
+},
+							"CollidersSpec": {
+								"BoxColliders": [
+									{
+										"Center": {
+											"X": 0.5,
+											"Y": 0.1,
+											"Z": 0.5
+										},
+										"Size": {
+											"X": 1.0,
+											"Y": 0.2,
+											"Z": 1.0
+										}
+									}
+								],
+								"SphereColliders": [],
+								"CapsuleColliders": []
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

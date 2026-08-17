@@ -1,0 +1,7 @@
+{
+  "EditManufactoryRecipeListSpec": {
+    "PrefabName": "Bakery.Emberpelts",
+    "AddRecipes": ["Scone", "PepperBread"],
+    "RemoveRecipes": []
+  }
+}

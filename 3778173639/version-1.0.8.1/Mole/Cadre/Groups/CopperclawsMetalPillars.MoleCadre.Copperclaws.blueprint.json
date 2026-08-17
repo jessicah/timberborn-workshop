@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Copperclaws", "Order": 1302002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Copperclaws",
+      "MetalPillars.Copperclaws",
+      "MetalBigPillarBase.Copperclaws",
+      "MetalBigPillarMid.Copperclaws",
+      "MetalBigPillarTop.Copperclaws",
+      "Aque_MetalBigPillarBase.Copperclaws",
+      "Aque_MetalBigPillarMid.Copperclaws",
+      "Aque_MetalBigPillarTop.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Copperclaws",
+      "MetalPillars.Copperclaws",
+      "MetalBigPillarBase.Copperclaws",
+      "MetalBigPillarMid.Copperclaws",
+      "MetalBigPillarTop.Copperclaws",
+      "Aque_MetalBigPillarBase.Copperclaws",
+      "Aque_MetalBigPillarMid.Copperclaws",
+      "Aque_MetalBigPillarTop.Copperclaws"
+    ]
+  }
+}

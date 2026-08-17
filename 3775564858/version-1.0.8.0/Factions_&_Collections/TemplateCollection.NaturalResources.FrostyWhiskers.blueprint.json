@@ -1,0 +1,16 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "NaturalResources.FrostyWhiskers",
+    "Blueprints#remove": [
+      //"Buildings/Plants_ish/Cristal_Large.FrostyWhiskers.blueprint",
+      //"Buildings/Plants_ish/Cristal_Medium.FrostyWhiskers.blueprint",
+      "Buildings/Plants_ish/Pine.FrostyWhiskers.blueprint",
+      "Buildings/Plants_ish/RedCabbage.FrostyWhiskers.blueprint",
+      "Buildings/Plants_ish/Birch.FrostyWhiskers.blueprint"
+      //"Buildings/Plants_ish/SnowField.FrostyWhiskers.blueprint",
+      //"Buildings/Plants_ish/TimeriumFormation_Blue.FrostyWhiskers.blueprint",
+      //"Buildings/Plants_ish/TimeriumFormation_Green.FrostyWhiskers.blueprint",
+      //"Buildings/Plants_ish/TimeriumFormation_red.FrostyWhiskers.blueprint",
+    ]
+  }
+}

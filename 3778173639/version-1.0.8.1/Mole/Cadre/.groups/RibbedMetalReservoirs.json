@@ -1,0 +1,87 @@
+#include <defines.h>
+{
+  TOGROUP(07000,RibbedMetalReservoirs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(RibbedMetalDam),
+      TOTOOL(Mole.RibbedMetalDam),
+      TOTOOL(RibbedMetalPowerDam),
+
+      TOTOOL(RibbedMetalFloodgateDam),
+      TOTOOL(RibbedMetalFloodgate),
+      TOTOOL(RibbedMetalDoubleFloodgate),
+      TOTOOL(RibbedMetalTripleFloodgate),
+      TOTOOL(RibbedMetalFloodgateDam),
+      TOTOOL(RibbedMetalFloodgate1),
+      TOTOOL(RibbedMetalFloodgate2),
+      TOTOOL(RibbedMetalFloodgate3),
+      TOTOOL(RibbedMetalFloodgate4),
+      TOTOOL(RibbedMetalFloodgate5),
+      TOTOOL(RibbedMetalFloodgate6),
+      TOTOOL(RibbedMetalFloodgate7),
+      TOTOOL(RibbedMetalFloodgate8),
+      TOTOOL(RibbedMetalFloodgate9),
+      TOTOOL(RibbedMetalFloodgate10),
+      TOTOOL(RibbedMetalFloodgate.Flat),
+      TOTOOL(RibbedMetalDoubleFloodgate.Flat),
+      TOTOOL(RibbedMetalTripleFloodgate.Flat),
+
+      TOTOOL(RibbedMetalLevee),
+      TOTOOL(Mole.RibbedMetalLevee),
+      TOTOOL(RibbedMetalLogLevee),
+      TOTOOL(RibbedMetalLogLevee2),
+      TOTOOL(RibbedMetalLevee.Curved),
+      TOTOOL(RibbedMetalTubewayLevee),
+      TOTOOL(RibbedMetalPowerLevee),
+      TOTOOL(RibbedMetalUPowerLevee),
+
+      TOTOOL(DE_RM_DiagonalW)
+
+    ],
+    "ChildrenGroupsIds":
+    [
+      TOID(RibbedMetalDamDecor)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(RibbedMetalDam),
+      TOTOOL(Mole.RibbedMetalDam),
+      TOTOOL(RibbedMetalPowerDam),
+
+      TOTOOL(RibbedMetalFloodgateDam),
+      TOTOOL(RibbedMetalFloodgate),
+      TOTOOL(RibbedMetalDoubleFloodgate),
+      TOTOOL(RibbedMetalTripleFloodgate),
+      TOTOOL(RibbedMetalFloodgateDam),
+      TOTOOL(RibbedMetalFloodgate1),
+      TOTOOL(RibbedMetalFloodgate2),
+      TOTOOL(RibbedMetalFloodgate3),
+      TOTOOL(RibbedMetalFloodgate4),
+      TOTOOL(RibbedMetalFloodgate5),
+      TOTOOL(RibbedMetalFloodgate6),
+      TOTOOL(RibbedMetalFloodgate7),
+      TOTOOL(RibbedMetalFloodgate8),
+      TOTOOL(RibbedMetalFloodgate9),
+      TOTOOL(RibbedMetalFloodgate10),
+      TOTOOL(RibbedMetalFloodgate.Flat),
+      TOTOOL(RibbedMetalDoubleFloodgate.Flat),
+      TOTOOL(RibbedMetalTripleFloodgate.Flat),
+
+      TOTOOL(RibbedMetalLevee),
+      TOTOOL(Mole.RibbedMetalLevee),
+      TOTOOL(RibbedMetalLogLevee),
+      TOTOOL(RibbedMetalLogLevee2),
+      TOTOOL(RibbedMetalLevee.Curved),
+      TOTOOL(RibbedMetalTubewayLevee),
+      TOTOOL(RibbedMetalPowerLevee),
+      TOTOOL(RibbedMetalUPowerLevee),
+
+      TOTOOL(DE_RM_DiagonalW),
+
+      TOID(RibbedMetalDamDecor)
+    ]
+  }
+}

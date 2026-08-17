@@ -1,0 +1,18 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Emberpelts",
+  "Paths#append": [
+    "Buildings/ModularStoragePrefabs/PitpileEP",
+    "Buildings/ModularStoragePrefabs/PitwarehouseEP",
+    "Buildings/ModularStoragePrefabs/SCoveredtankEP",
+    "Buildings/ModularStoragePrefabs/LongWarehouseEP",
+
+    "Buildings/ModularStoragePrefabs/2x2pileRightEP",
+    "Buildings/ModularStoragePrefabs/LongpileEP",
+    "Buildings/ModularStoragePrefabs/PitTankEP",
+
+	  "Buildings/ModularStoragePrefabs/GigargantuanPileEP",
+    "Buildings/ModularStoragePrefabs/GigargantuanWarehouseEP",
+
+  ],
+}}

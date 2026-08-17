@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Trebuchet.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Trebuchet_Attraction.Whitepaws",
+			"Trebuchet_Attraction",
+			"Trebuchet"
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "NuclearWasteCollector.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "NuclearWasteCollector" ]
+	}
+}

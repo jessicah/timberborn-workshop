@@ -1,0 +1,25 @@
+{
+	"GoodSpec":
+	{
+		"Id": "Bento",
+		"BackwardCompatibleIds": [ "FolktailsBento", "IronTeethBento", "EmberpeltsBento" ],
+		"DisplayNameLocKey": "Wares.Bentos.Lone",
+		"PluralDisplayNameLocKey": "Wares.Bentos.Name",
+		"ConsumptionEffects":
+		[
+			{ "Points": 0.5, "NeedId": "Bento" },
+			{ "Points": 0.1, "NeedId": "Hunger" }
+		],
+		"GoodType": "Box",
+		"StockpileVisualization": "Box",
+		"VisibleContainer": "Box",
+		"ContainerColor": { "r": .6, "g": 1.0, "b": 0.8, "a": 1.0 },
+		"ContainerMaterial": "",
+		"CarryingAnimation": "CarryInHands",
+		"Weight": 1,
+		"GoodGroupId": "Food",
+		"GoodOrder": 900070,
+		"ForceImport": false,
+		"Icon": "Mole/Food/Bentos"
+	}
+}

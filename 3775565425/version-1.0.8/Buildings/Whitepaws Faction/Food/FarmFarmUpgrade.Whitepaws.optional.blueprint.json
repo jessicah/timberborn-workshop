@@ -1,0 +1,9 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "FarmerAid.Whitepaws" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.FarmerAid.Whitepaws.Name" },
+  "TemplateSpec":
+  {
+    "TemplateName": "FarmFarmUpgrade.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "FarmFarmUpgrade" ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "CharacterGraphicsSetSpec": {
+    "SetId": "BeaverGold",
+    "Textures": ["CustomBeavers/Textures/BeaverAdult.Gold"],
+    "ChildTextures": [],
+    "Avatar": "CustomBeavers/Avatars/GoldAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/GoldChild",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/GoldContaminatedAdult",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/GoldContaminatedChild"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "BeaverFactionSpec": {
+    "Id": "Folktails",
+    "DisplayNameLocKey": "Faction.Folktails.DisplayName",
+    "Textures": [
+      "BeaverAdult1.Folktails",
+      "BeaverAdult2.Folktails",
+      "BeaverAdult3.Folktails",
+      "BeaverAdult4.Folktails",
+      "BeaverAdult5.Folktails"
+    ],
+    "ChildTextures": [
+      "BeaverChild1.Folktails",
+      "BeaverChild2.Folktails",
+      "BeaverChild3.Folktails"
+    ]
+  }
+}

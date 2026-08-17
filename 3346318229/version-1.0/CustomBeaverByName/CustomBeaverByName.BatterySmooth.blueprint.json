@@ -1,0 +1,14 @@
+{
+  "CustomBeaverByNameSpec": {
+    "Name": "Battery Smooth",
+    "GraphicsSets": [],
+    "Texture": "Materials/Beavers/Unique/BatterySmooth",
+    "ChildTexture": "Materials/Beavers/Unique/BatterySmooth",
+    "Avatar": "Sprites/Avatars/Unique/BatterySmoothAdult",
+    "ContaminatedAvatar": "Sprites/Avatars/Unique/BatterySmoothContaminatedAdult",
+    "ChildAvatar": "Sprites/Avatars/Unique/BatterySmoothChild",
+    "ContaminatedChildAvatar": "Sprites/Avatars/Unique/BatterySmoothContaminatedChild",
+    "BeaverFactionId": "AmpEars",
+    "ExcludeFromNamePool": "True"
+  }
+}

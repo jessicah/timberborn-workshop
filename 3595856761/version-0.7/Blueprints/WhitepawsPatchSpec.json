@@ -1,0 +1,7 @@
+{
+  "WhitepawsPatchSpec": {
+      "FactionId": "Common", // single faction only, or "Common" (faction > common)
+//      "SwimmingPenalty": -1.0,  // -1 would double swim speed; game default is 0.3
+//      "WaterUnitsPerVoxel": 8,   // amount of water extracted per voxel
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.Emberpelts", "Order": 324000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.Emberpelts",
+      "Roof.Dynamic.Emberpelts",
+      "Roof1x1.Emberpelts",
+      "Roof1x2.Emberpelts",
+      "Roof2x2.Emberpelts",
+      "Roof2x3.Emberpelts",
+      "Roof3x2.Emberpelts",
+      "HalfRoof1x1.Emberpelts",
+      "HalfRoof1x2.Emberpelts",
+      "HalfRoof2x1.Emberpelts",
+      "HalfRoof2x2.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.Emberpelts",
+      "Roof.Dynamic.Emberpelts",
+      "Roof1x1.Emberpelts",
+      "Roof1x2.Emberpelts",
+      "Roof2x2.Emberpelts",
+      "Roof2x3.Emberpelts",
+      "Roof3x2.Emberpelts",
+      "HalfRoof1x1.Emberpelts",
+      "HalfRoof1x2.Emberpelts",
+      "HalfRoof2x1.Emberpelts",
+      "HalfRoof2x2.Emberpelts"
+    ]
+  }
+}

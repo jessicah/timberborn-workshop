@@ -1,0 +1,10 @@
+{
+  "GoodSpec": {
+    "ConsumptionEffects": [
+      {"NeedId": "Hunger","Points": 0.3},
+      {"NeedId": "Pepper","Points": 0.2}
+    ],
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Abyss.MoleCadre.LeafCoats", "Order": 416001, "NameLocKey": "Group.Abyss", "Icon": "Mole/Cadre/Abyss", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "AbyssElevator.LeafCoats",
+      "SupplementaryExplorationTeam.LeafCoats",
+      "NuclearWasteCollector.LeafCoats",
+      "GasExctractor.LeafCoats",
+      "AbyssExcavator.LeafCoats",
+      "HoomanUndergroundChemPlant.LeafCoats",
+      "HoomanUndergroundFactory.LeafCoats",
+      "DeepMinePILEstorage.LeafCoats",
+      "DeepMineBOXStorage.LeafCoats",
+      "AbyssTourismCenter.LeafCoats",
+      "HoomanMedicalFacility.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "AbyssElevator.LeafCoats",
+      "SupplementaryExplorationTeam.LeafCoats",
+      "NuclearWasteCollector.LeafCoats",
+      "GasExctractor.LeafCoats",
+      "AbyssExcavator.LeafCoats",
+      "HoomanUndergroundChemPlant.LeafCoats",
+      "HoomanUndergroundFactory.LeafCoats",
+      "DeepMinePILEstorage.LeafCoats",
+      "DeepMineBOXStorage.LeafCoats",
+      "AbyssTourismCenter.LeafCoats",
+      "HoomanMedicalFacility.LeafCoats"
+    ]
+  }
+}

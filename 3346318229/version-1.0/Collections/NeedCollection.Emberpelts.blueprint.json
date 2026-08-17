@@ -1,0 +1,39 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "Emberpelts",
+    "Needs": [
+      "BeaverStatue",
+      "Detailer",
+      "ContemplationSpot",
+      "Carousel",
+      "DanceHall",
+      "Brazier",
+      "BeaverBust",
+      "DecorativeClock",
+      "Scratcher",
+      "ExercisePlaza",
+      "LaborerMonument",
+      "FlameOfUnity",
+      "TributeToIngenuity",
+      "ControlTower",
+      "Fire",
+      "WetFurBad",
+      "Apples",
+      "Radishes",
+      "Tomatoes",
+      "Juice",
+      "RedJuice",
+      "CornJuice",
+      "GrilledCorn",
+      "GrilledPeppers",
+      "ApplePie",
+      "StuffedPeppers",
+      "Cornbread",
+      "BakedBeetroot",
+      "WonderEmberpelts",
+      "Fuel",
+      "Lubricant",
+      "Weathervane"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "Methane2",
+  "DisplayLocKey": "Good.Methane.PluralDisplayName",
+  "CycleDurationInHours": 8,
+  "CyclesCapacity": 8,
+  "Ingredients": [
+    {
+      "Id": "Nenuphar",
+      "Amount": 30
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Methane",
+      "Amount": 60
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Methane",
+	"BackwardCompatibleIds": []
+  }
+}

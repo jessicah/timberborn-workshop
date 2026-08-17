@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "IronTeethTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPIronTrader.Whitepaws",
+			"WPIronTrader",
+			"IronTrader"
+		]
+	}
+}

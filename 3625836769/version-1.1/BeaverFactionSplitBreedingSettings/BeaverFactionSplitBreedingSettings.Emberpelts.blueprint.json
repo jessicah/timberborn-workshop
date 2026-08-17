@@ -1,0 +1,8 @@
+{
+  "BeaverFactionSplitBreedingSettings": {
+    "Id": "Emberpelts",
+    "Breed": true,
+    "Pod": false,
+    "Plant": false
+  }
+}

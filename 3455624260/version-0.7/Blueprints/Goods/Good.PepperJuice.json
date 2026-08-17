@@ -1,0 +1,24 @@
+{
+  "GoodSpec": {
+    "Id": "PepperJuice",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.PepperJuice.DisplayName",
+    "PluralDisplayNameLocKey": "Good.PepperJuice.PluralDisplayName",
+    "ConsumptionEffects": [
+      {"NeedId": "Thirst","Points": 0.33},
+      {"NeedId": "Juice","Points": 0.2},
+      {"NeedId": "PepperJuice","Points": 0.2}
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": {"Value": "Barrel"},
+    "ContainerColor": "#ffff31",
+    "ContainerMaterial": "Materials/Goods/PepperJuice",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Juice",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/PepperJuiceIcon",
+    "RequiredFeatureToggle": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Whitepaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Whitepaws",
+      "Actors.Whitepaws",
+      "Cadre.Whitepaws",
+      "Editing.Whitepaws",
+      "Effects.Whitepaws",
+      "Grows.Whitepaws",
+      "Parts.Whitepaws",
+      "Rides.Whitepaws"
+    ],
+    "TemplateCollectionIds#remove":
+    [
+      "1x1x2Storage.Whitepaws",
+      "Logstairs.Whitepaws"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - Whitepaws */
+      {
+        "Original": "Factions/Whitepaws/Goods.Collection.Whitepaws.blueprint",
+        "Modifier": "Factions/Whitepaws/Goods.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Whitepaws/Needs.Collection.Whitepaws.blueprint",
+        "Modifier": "Factions/Whitepaws/Needs.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Whitepaws/Grows.Collection.Whitepaws.blueprint",
+        "Modifier": "Factions/Whitepaws/Grows.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BananaTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BramblesPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CabbageCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EverblossomTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GiantBambooPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GiantSequoiaTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GreenPeasCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/LotusPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PumpkinCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RiceCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RedCabbageCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Aid/SetFarmerAid.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RedGrapePlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WildBramblesPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Hidden/SetHiddenForester.Whitepaws.optional.blueprint"
+      },
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+#include <defines.h>
+{
+  TOGROUP(01006,Branches),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Branch.Bridge1x1),
+      TOTOOL(Branch.Bridge2x1),
+      TOTOOL(Branch.Bridge3x1),
+      TOTOOL(Branch.Bridge4x1),
+      TOTOOL(Branch.Bridge5x1),
+      TOTOOL(Branch.Bridge6x1)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Branch.Bridge1x1),
+      TOTOOL(Branch.Bridge2x1),
+      TOTOOL(Branch.Bridge3x1),
+      TOTOOL(Branch.Bridge4x1),
+      TOTOOL(Branch.Bridge5x1),
+      TOTOOL(Branch.Bridge6x1)
+    ]
+  }
+}

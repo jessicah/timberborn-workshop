@@ -1,0 +1,16 @@
+{
+  "PrefabGroupSpec": {
+  "Id": "Buildings.Emberpelts",
+  "Paths#append": [
+    "Buildings/Crappy_platforms/Crappyplatform_birch_Common",
+    "Buildings/Crappy_platforms/Crappyplatform_Darkbrown_IT_EP",
+    "Buildings/Crappy_platforms/Crappyplatform_Pink_Common",
+    "Buildings/Crappy_platforms/Crappyplatform_scramble_IT_EP",
+
+    "Buildings/Logstairs/Logstairs_Birch_Common",
+    "Buildings/Logstairs/Logstairs_DarkBrown_IT_EP",
+    "Buildings/Logstairs/Logstairs_Pink_Common",
+    "Buildings/Logstairs/Logstairs_Scrambled_IT_EP",
+    ]
+
+}}

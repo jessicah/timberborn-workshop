@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining1xN.MoleCadre.Ampears", "Order": 705001, "NameLocKey": "Group.WoodenDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW1x1.Ampears",
+      "DD_SquareW1x2.Ampears",
+      "DD_SquareW1x3.Ampears",
+      "DD_SlopeW.Ampears",
+      "DD_InvSlopeW.Ampears",
+      "DD_InvSlopeW1x1.Ampears",
+      "DD_InvSlopeW1x2.Ampears",
+      "DD_InvCornerW.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW1x1.Ampears",
+      "DD_SquareW1x2.Ampears",
+      "DD_SquareW1x3.Ampears",
+      "DD_SlopeW.Ampears",
+      "DD_InvSlopeW.Ampears",
+      "DD_InvSlopeW1x1.Ampears",
+      "DD_InvSlopeW1x2.Ampears",
+      "DD_InvCornerW.Ampears"
+    ]
+  }
+}

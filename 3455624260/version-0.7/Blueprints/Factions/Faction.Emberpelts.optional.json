@@ -1,0 +1,20 @@
+{
+  "FactionSpec": {
+    "Needs#append":
+    [
+      "Pepper",
+      "AppleJuice",
+      "TomatoJuice",
+      "PepperJuice",
+      "GrilledBeetroot",
+      "Scone",
+      "PepperBread",
+    ],
+    "Goods#append": [
+      "PepperJuice",
+      "GrilledBeetroot",
+      "Scone",
+      "PepperBread",
+    ]
+  }
+}

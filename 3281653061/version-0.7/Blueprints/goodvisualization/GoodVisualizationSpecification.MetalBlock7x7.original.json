@@ -1,0 +1,14 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "MetalBlock",
+  "Variant": "7x7",
+  "LimitingAmount": 1.90,
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": -1.95
+  },
+  "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7MetalBlockFused2880",
+  "Material": "Materials/Goods/BeaverCarryingModels/BeaverCarryingModels",
+  "NonLinearity": -0.1
+}}

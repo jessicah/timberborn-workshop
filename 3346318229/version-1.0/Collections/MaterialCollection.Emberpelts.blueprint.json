@@ -1,0 +1,37 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Emberpelts",
+    "Materials": [
+      "Materials/UberAtlas/Emberpelts/BaseMetal.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/PaintedMetal.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/BaseWood_Brown.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/BaseWood_White.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/BaseWood_Red.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/BaseWood_DarkRed.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/IrregularPlanks_Brown.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/IrregularPlanks_White.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/IrregularPlanks_Red.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/IrregularPlanks_DarkRed.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/IrregularPlanks_Metal.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Details.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Paper.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Plaster.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Plaster_White.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Plaster_Black.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/PlasteredWood.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/RoofPlanks2.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/WindowsAtlas.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/WindowsAtlas2.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Path.Emberpelts",
+      "Materials/UberAtlas/Emberpelts/Dam.Emberpelts",
+      "Materials/Goods/PhoenixEssence",
+      "Materials/Plants/Crops/RadishCrops",
+      "Materials/Plants/Crops/RadishCropsDead",
+      "Materials/Plants/Crops/RadishCropsDry",
+      "Materials/Plants/Crops/Tomato",
+      "Materials/Plants/Crops/Beetroot",
+      "Materials/Plants/Crops/PepperCrop",
+      "Materials/Plants/Trees/AppleTree"
+    ]
+  }
+}

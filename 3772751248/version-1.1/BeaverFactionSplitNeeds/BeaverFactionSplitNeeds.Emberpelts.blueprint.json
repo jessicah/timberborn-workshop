@@ -1,0 +1,15 @@
+{
+  "BeaverFactionSplitNeedsSpec":
+  {
+    "Needs#append": [
+      "BulletinPole",
+      "Sauna.Emberpelts",
+      "SandBlasted",
+    ],
+    "Needs#remove": [
+      "DecorativeClock",
+      "Carousel",
+      "Scratcher",
+    ]
+  }
+}

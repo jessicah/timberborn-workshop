@@ -1,0 +1,27 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append": [
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft3.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft4.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft5.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft6.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft7.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft8.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft9.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft10.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft11.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/BridgeShaft12.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft3.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft4.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft5.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft6.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft7.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft8.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft9.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft10.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft11.Folktails.blueprint",
+      "Battery.PowerShaftExtensions/Prefabs/Folktails/TunnelShaft12.Folktails.blueprint"
+    ]
+  }
+}

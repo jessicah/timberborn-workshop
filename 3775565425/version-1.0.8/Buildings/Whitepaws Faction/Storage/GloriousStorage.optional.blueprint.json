@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "GloriousStorage.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "GloriousStorage" ]
+	}
+}

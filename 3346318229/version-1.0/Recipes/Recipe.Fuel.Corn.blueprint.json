@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Fuel.Corn",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Manufactory.Recipe.FuelCorn",
+    "CycleDurationInHours": 10.0,
+    "Ingredients": [
+      {
+        "Id": "Corn",
+        "Amount": 2
+      },
+      {
+        "Id": "Water",
+        "Amount": 3
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Fuel",
+        "Amount": 50
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 3,
+    "Icon": "Sprites/Goods/BiofuelIcon"
+  }
+}

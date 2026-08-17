@@ -1,0 +1,21 @@
+{
+  "TutorialStageSpec": {
+    "Id": "PlantSunflowersandStorage",
+    "IntroLocKey": "Tutorial.Library.PlantSunflowersandStorage.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Sunflower.Whitepaws",
+        "RequiredAmount": 30
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "SunflowerSeeds"
+      }
+    }
+  }
+}

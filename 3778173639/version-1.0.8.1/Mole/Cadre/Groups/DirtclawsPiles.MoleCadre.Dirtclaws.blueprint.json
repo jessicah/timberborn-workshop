@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Dirtclaws", "Order": 1118000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Dirtclaws",
+      "SmallPile.Dirtclaws",
+      "SmallIndustrialPile.Dirtclaws",
+      "Mole.SmallPile.Dirtclaws",
+      "LongPile.Dirtclaws",
+      "PitPile.Dirtclaws",
+      "2x2PileRight.Dirtclaws",
+      "Pile.Dirtclaws",
+      "IndustrialPile.Dirtclaws",
+      "MediumPile.Dirtclaws",
+      "MediumIndustrialPile.Dirtclaws",
+      "LargePile.Dirtclaws",
+      "LargeIndustrialPile.Dirtclaws",
+      "Mole.TritePile.Dirtclaws",
+      "ExtraLargePile.Dirtclaws",
+      "ExtraLargeIndustrialPile.Dirtclaws",
+      "Mole.LargePile.Dirtclaws",
+      "GigargantuanPile.Dirtclaws",
+      "UndergroundPile.Dirtclaws",
+      "Mole.BuriedPile.Dirtclaws",
+      "GiantLogStorage.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    "Pit-and-LadderLodge_PowderStorage.Dirtclaws",
+      "SmallPile.Dirtclaws",
+      "SmallIndustrialPile.Dirtclaws",
+      "Mole.SmallPile.Dirtclaws",
+      "LongPile.Dirtclaws",
+      "PitPile.Dirtclaws",
+      "2x2PileRight.Dirtclaws",
+      "Pile.Dirtclaws",
+      "IndustrialPile.Dirtclaws",
+      "MediumPile.Dirtclaws",
+      "MediumIndustrialPile.Dirtclaws",
+      "LargePile.Dirtclaws",
+      "LargeIndustrialPile.Dirtclaws",
+      "Mole.TritePile.Dirtclaws",
+      "ExtraLargePile.Dirtclaws",
+      "ExtraLargeIndustrialPile.Dirtclaws",
+      "Mole.LargePile.Dirtclaws",
+      "GigargantuanPile.Dirtclaws",
+      "UndergroundPile.Dirtclaws",
+      "Mole.BuriedPile.Dirtclaws",
+      "GiantLogStorage.Dirtclaws"
+    ]
+  }
+}

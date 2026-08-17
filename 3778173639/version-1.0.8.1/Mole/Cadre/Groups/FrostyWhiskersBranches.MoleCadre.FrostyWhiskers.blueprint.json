@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Branches.MoleCadre.FrostyWhiskers", "Order": 601006, "NameLocKey": "Group.Branches", "Icon": "Mole/Cadre/Branches", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Bridge1x1.FrostyWhiskers",
+      "Branch.Bridge2x1.FrostyWhiskers",
+      "Branch.Bridge3x1.FrostyWhiskers",
+      "Branch.Bridge4x1.FrostyWhiskers",
+      "Branch.Bridge5x1.FrostyWhiskers",
+      "Branch.Bridge6x1.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Branch.Bridge1x1.FrostyWhiskers",
+      "Branch.Bridge2x1.FrostyWhiskers",
+      "Branch.Bridge3x1.FrostyWhiskers",
+      "Branch.Bridge4x1.FrostyWhiskers",
+      "Branch.Bridge5x1.FrostyWhiskers",
+      "Branch.Bridge6x1.FrostyWhiskers"
+    ]
+  }
+}

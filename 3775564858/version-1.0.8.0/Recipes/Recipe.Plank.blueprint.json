@@ -1,0 +1,18 @@
+{
+  "RecipeSpec": {
+	  "Id":"Plank",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Log",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Plank",
+        "Amount": 5
+      }
+    ]
+  }
+}

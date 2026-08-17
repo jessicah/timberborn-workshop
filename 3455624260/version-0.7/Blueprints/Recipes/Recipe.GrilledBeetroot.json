@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "GrilledBeetroot",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.GrilledBeetroot.PluralDisplayName",
+    "CycleDurationInHours": 1.875,
+    "CyclesCapacity": 10,
+    "Ingredients": [
+      {"Id": "Beetroot","Amount": 4},
+      {"Id": "CanolaOil","Amount": 3}
+    ],
+    "Products": [
+      {"Id": "GrilledBeetroot","Amount": 12}
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Log",
+    "CyclesFuelLasts": 4,
+    "FuelCapacity": 5,
+    "Icon": "Sprites/Goods/GrilledBeetrootIcon"
+  }
+}

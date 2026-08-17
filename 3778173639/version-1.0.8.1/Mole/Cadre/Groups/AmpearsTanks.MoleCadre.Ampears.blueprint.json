@@ -1,0 +1,41 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Ampears", "Order": 720000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Ampears",
+      "Pit-and-LadderLodge_LiquidStorage.Ampears",
+      "SmallCoveredTank.Ampears",
+      "SmallTank.Ampears",
+      "Mole.SmallTank.Ampears",
+      "PitTank.Ampears",
+      "MediumTank.Ampears",
+      "Mole.TriteTank.Ampears",
+      "LargeTank.Ampears",
+      "Mole.LargeTank.Ampears",
+      "UndergroundTank.Ampears",
+      "Mole.BuriedTank.Ampears",
+      "LargeUndergroundTank.Ampears",
+      "GazTank.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Ampears",
+      "Pit-and-LadderLodge_LiquidStorage.Ampears",
+      "SmallCoveredTank.Ampears",
+      "SmallTank.Ampears",
+      "Mole.SmallTank.Ampears",
+      "PitTank.Ampears",
+      "MediumTank.Ampears",
+      "Mole.TriteTank.Ampears",
+      "LargeTank.Ampears",
+      "Mole.LargeTank.Ampears",
+      "UndergroundTank.Ampears",
+      "Mole.BuriedTank.Ampears",
+      "LargeUndergroundTank.Ampears",
+      "GazTank.Ampears"
+    ]
+  }
+}

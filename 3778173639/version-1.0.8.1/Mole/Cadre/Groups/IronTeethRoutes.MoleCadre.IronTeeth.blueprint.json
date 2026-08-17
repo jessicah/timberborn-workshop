@@ -1,0 +1,57 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.IronTeeth", "Order": 202000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Mole.Path.IronTeeth",
+      "Mole.DirtPath.IronTeeth",
+      "Mole.WoodPath.IronTeeth",
+      "Path.IronTeeth",
+      "Path1.IronTeeth",
+      "Path2.IronTeeth",
+      "Path3.IronTeeth",
+      "Path4.IronTeeth",
+      "Path5.IronTeeth",
+      "Path5.IronTeeth",
+      "DistrictCrossing.IronTeeth",
+      "BOTDistrictCrossing.IronTeeth"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.IronTeeth",
+      "Ladders.MoleCadre.IronTeeth",
+      "Ropeways.MoleCadre.IronTeeth",
+      "Bridges.MoleCadre.IronTeeth",
+      "Walkways.MoleCadre.IronTeeth",
+      "Branches.MoleCadre.IronTeeth",
+      "Boosters.MoleCadre.IronTeeth",
+      "Gates.MoleCadre.IronTeeth",
+      "Passages.MoleCadre.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Mole.Path.IronTeeth",
+      "Mole.DirtPath.IronTeeth",
+      "Mole.WoodPath.IronTeeth",
+      "Path.IronTeeth",
+      "Path1.IronTeeth",
+      "Path2.IronTeeth",
+      "Path3.IronTeeth",
+      "Path4.IronTeeth",
+      "Path5.IronTeeth",
+      "DistrictCrossing.IronTeeth",
+      "BOTDistrictCrossing.IronTeeth",
+      "Steps.MoleCadre.IronTeeth",
+      "Ladders.MoleCadre.IronTeeth",
+      "Ropeways.MoleCadre.IronTeeth",
+      "Bridges.MoleCadre.IronTeeth",
+      "Walkways.MoleCadre.IronTeeth",
+      "Branches.MoleCadre.IronTeeth",
+      "Boosters.MoleCadre.IronTeeth",
+      "Gates.MoleCadre.IronTeeth",
+      "Passages.MoleCadre.IronTeeth"
+    ]
+  }
+}

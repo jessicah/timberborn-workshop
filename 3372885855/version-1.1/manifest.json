@@ -1,0 +1,14 @@
+{
+	"AuthorName": "Bobingabout",
+	"Name": "Emberpelts: Project Phoenix",
+	"Version": "1.1.1.0",
+	"Id": "Emberpelts.ProjectPhoenix",
+	"MinimumGameVersion": "1.1.1.0",
+	"Description": "Project Phoenix adds Phoenix pods to Emberpelts. They're functionally the same as Iron Teeth Breeding Pods.",
+	"RequiredMods": [
+		{"Id": "Emberpelts", "MinimumVersion": "1.1.1.0"},
+	],
+    "OptionalMods": [
+        {"Id": "BobingaboutBeaverFactionSplitBreeding"},
+    ]
+}

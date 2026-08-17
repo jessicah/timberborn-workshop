@@ -1,0 +1,10 @@
+{
+  "TemplateSpec":
+  {
+    "BackwardCompatibleTemplateNames#append":
+    [
+      "Stairs.Folktails",
+      "WoodenStairs.Folktails"
+    ]
+  }
+}

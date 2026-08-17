@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "NuclearFuel",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.06780493,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 10,
+    "GoodGroupId": "Tanks",
+    "GoodOrder": 0,
+    "Icon": "Mole/Tanks/NuclearFuel",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.NuclearFuel.Name",
+    "PluralDisplayNameLocKey": "Wares.NuclearFuel.Name"
+  }
+}

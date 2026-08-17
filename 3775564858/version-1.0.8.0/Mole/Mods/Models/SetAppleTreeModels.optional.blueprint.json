@@ -1,0 +1,59 @@
+{
+	"PlantablePreviewModelSpec": { "Model": "All/AppleTree/Young" },
+	"Children":
+	{
+		"#Models":
+		{
+			"Children":
+			{
+				"Seedling":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/YoungDead" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/YoungDry" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/Young" }
+						}
+					}
+				},
+				"Mature":
+				{
+					"Children":
+					{
+						"#Dead":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/GrownDead" }
+						},
+						"#Dying":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/GrownDry" }
+						},
+						"#Alive":
+						{
+							"Children#delete": {},
+							"TimbermeshSpec": { "Model": "All/AppleTree/Grown" }
+						}
+					}
+				},
+				"#Leftover": {
+					"TimbermeshSpec": {
+						"Model": "All/AppleTree/GrownStump"
+					}
+				}
+			}
+		}
+	}
+}

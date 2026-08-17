@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.Folktails", "Order": 101000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.Folktails",
+      "Lever.Folktails",
+      "Relay.Folktails",
+      "FlowSensor.Folktails",
+      "DepthSensor.Folktails",
+      "ContaminationSensor.Folktails",
+      "Chronometer.Folktails",
+      "WeatherStation.Folktails",
+      "PowerMeter.Folktails",
+      "PopulationCounter.Folktails",
+      "ResourceCounter.Folktails",
+      "ScienceCounter.Folktails",
+      "Indicator.Folktails",
+      "WallMountIndicator.Folktails",
+      "Speaker.Folktails",
+      "FireworkLauncher.Folktails",
+      "Detonator.Folktails",
+      "Timer.Folktails",
+      "Memory.Folktails",
+      "HttpLever.Folktails",
+      "HttpAdapter.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.Folktails",
+      "Lever.Folktails",
+      "Relay.Folktails",
+      "FlowSensor.Folktails",
+      "DepthSensor.Folktails",
+      "ContaminationSensor.Folktails",
+      "Chronometer.Folktails",
+      "WeatherStation.Folktails",
+      "PowerMeter.Folktails",
+      "PopulationCounter.Folktails",
+      "ResourceCounter.Folktails",
+      "ScienceCounter.Folktails",
+      "Indicator.Folktails",
+      "WallMountIndicator.Folktails",
+      "Speaker.Folktails",
+      "FireworkLauncher.Folktails",
+      "Detonator.Folktails",
+      "Timer.Folktails",
+      "Memory.Folktails",
+      "HttpLever.Folktails",
+      "HttpAdapter.Folktails"
+    ]
+  }
+}

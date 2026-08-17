@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.Whitepaws", "Order": 502004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.Whitepaws",
+      "Overhang2x1.Whitepaws",
+      "Overhang3x1.Whitepaws",
+      "Overhang4x1.Whitepaws",
+      "Overhang5x1.Whitepaws",
+      "Overhang6x1.Whitepaws",
+      "Overhang7x1.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.Whitepaws",
+      "Overhang2x1.Whitepaws",
+      "Overhang3x1.Whitepaws",
+      "Overhang4x1.Whitepaws",
+      "Overhang5x1.Whitepaws",
+      "Overhang6x1.Whitepaws",
+      "Overhang7x1.Whitepaws"
+    ]
+  }
+}

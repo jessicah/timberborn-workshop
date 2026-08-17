@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.IslandBeavers", "Order": 816002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.IslandBeavers",
+      "ScoutBalloon.IslandBeavers",
+      "FolktailsTraderBalloon.IslandBeavers",
+      "IronTeethTraderBalloon.IslandBeavers",
+      "EmberpeltsTraderBalloon.IslandBeavers",
+      "LeafCoatsTraderBalloon.IslandBeavers",
+      "AmpEarsTraderBalloon.IslandBeavers",
+      "IslandBeaversTraderBalloon.IslandBeavers",
+      "PolarBeaversTraderBalloon.IslandBeavers",
+      "WhitepawsTraderBalloon.IslandBeavers",
+      "FrostyWhiskersTraderBalloon.IslandBeavers",
+      "CopperClawsTraderBalloon.IslandBeavers",
+      "DragonClawsTraderBalloon.IslandBeavers",
+      "DirtClawsTraderBalloon.IslandBeavers",
+      "BadFursTraderBalloon.IslandBeavers",
+      "Airship.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.IslandBeavers",
+      "ScoutBalloon.IslandBeavers",
+      "FolktailsTraderBalloon.IslandBeavers",
+      "IronTeethTraderBalloon.IslandBeavers",
+      "EmberpeltsTraderBalloon.IslandBeavers",
+      "LeafCoatsTraderBalloon.IslandBeavers",
+      "AmpEarsTraderBalloon.IslandBeavers",
+      "IslandBeaversTraderBalloon.IslandBeavers",
+      "PolarBeaversTraderBalloon.IslandBeavers",
+      "WhitepawsTraderBalloon.IslandBeavers",
+      "FrostyWhiskersTraderBalloon.IslandBeavers",
+      "CopperClawsTraderBalloon.IslandBeavers",
+      "DragonClawsTraderBalloon.IslandBeavers",
+      "DirtClawsTraderBalloon.IslandBeavers",
+      "BadFursTraderBalloon.IslandBeavers",
+      "Airship.IslandBeavers"
+    ]
+  }
+}

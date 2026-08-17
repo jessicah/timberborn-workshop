@@ -1,0 +1,13 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Beaver Factions",
+    "Version": "1.1.1.0",
+    "Id": "BobingaboutBeaverFactions",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "A core mod for assigning a faction to a beaver on player factions that contain more than one beaver faction.
+Required by mods such as Beaver Faction Split Needs and Beaver Faction Split Breeding.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "1.1.0.0"},
+    ],
+    "OptionalMods": []
+}

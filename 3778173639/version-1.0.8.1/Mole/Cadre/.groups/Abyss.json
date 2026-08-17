@@ -1,0 +1,36 @@
+#include <defines.h>
+{
+  TOGROUP(16001,Abyss),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(AbyssElevator),
+      TOTOOL(SupplementaryExplorationTeam),
+      TOTOOL(NuclearWasteCollector),
+      TOTOOL(GasExctractor),
+      TOTOOL(AbyssExcavator),
+      TOTOOL(HoomanUndergroundChemPlant),
+      TOTOOL(HoomanUndergroundFactory),
+      TOTOOL(DeepMinePILEstorage),
+      TOTOOL(DeepMineBOXStorage),
+      TOTOOL(AbyssTourismCenter),
+      TOTOOL(HoomanMedicalFacility)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(AbyssElevator),
+      TOTOOL(SupplementaryExplorationTeam),
+      TOTOOL(NuclearWasteCollector),
+      TOTOOL(GasExctractor),
+      TOTOOL(AbyssExcavator),
+      TOTOOL(HoomanUndergroundChemPlant),
+      TOTOOL(HoomanUndergroundFactory),
+      TOTOOL(DeepMinePILEstorage),
+      TOTOOL(DeepMineBOXStorage),
+      TOTOOL(AbyssTourismCenter),
+      TOTOOL(HoomanMedicalFacility)
+    ]
+  }
+}

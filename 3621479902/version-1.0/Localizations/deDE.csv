@@ -1,0 +1,7 @@
+ID,Text,Comment
+NaturalResource.BeaverPlant.DisplayName,Biber-Pflanze,
+NaturalResource.BeaverPlant.Description,"Eine Pflanze, an der ein neuer Biber wächst.",
+NaturalResource.BeaverPlant.FlavorDescription,Wir sprechen im Namen der Bäume.,
+NaturalResource.AdultBeaverPlant.DisplayName,Erwachsener Biber-Pflanze,
+NaturalResource.AdultBeaverPlant.Description,"Eine Pflanze, an der ein neuer erwachsener Biber wächst. Das Wachstum dauert doppelt so lange.",
+NaturalResource.BeaverPlant.GrowthProgress,Wachstumsfortschritt,

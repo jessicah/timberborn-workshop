@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.Dirtclaws", "Order": 1102004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.Dirtclaws",
+      "Overhang2x1.Dirtclaws",
+      "Overhang3x1.Dirtclaws",
+      "Overhang4x1.Dirtclaws",
+      "Overhang5x1.Dirtclaws",
+      "Overhang6x1.Dirtclaws",
+      "Overhang7x1.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.Dirtclaws",
+      "Overhang2x1.Dirtclaws",
+      "Overhang3x1.Dirtclaws",
+      "Overhang4x1.Dirtclaws",
+      "Overhang5x1.Dirtclaws",
+      "Overhang6x1.Dirtclaws",
+      "Overhang7x1.Dirtclaws"
+    ]
+  }
+}

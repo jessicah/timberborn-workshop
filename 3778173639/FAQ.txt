@@ -1,0 +1,97 @@
+# Frequently Asked Questions (FAQ)
+
+## How do I get beavers to spawn?
+
+If you're encountering a problem on getting beavers to spawn then you
+must be insisting on using the IronTeeth housing instead of the
+Fokltail housing. No building has been modified by this mod. If it did
+then I could not do speedy updates when a patch/update breaks the
+faction. Lodges and pods spawn beavers because they have a spawn rate,
+barracks do not because they never had one to begin with.
+
+## Could you add X from Y mod?
+
+The author of said mod is responsible for adding those tools to
+GreedyBuilder's tool list, not me. If I do it my end then I would not
+be able to quickly update GreedyBuilders whenever a patch/update breaks
+it because of the need to wait for the mod you wanted me to support.
+
+All the author has to do in general is create a copy of their Folktail
+prefab group and rename a couple of things from "Folktails" to
+"GreedyBuilders" (excluding the tool names of course). If any of their
+IronTeeth variants has more functionality (for example the Industrial
+Lumbermill of IronTeeth has more than the Lumbermill of the Folktails
+so it was chosen instead) then that building should replace the
+Folktails variant in the GreedyBuilders prefab group they make.
+
+## Why did you not include every building from each faction?
+
+Not a FAQ at the moment but I wouldn't be surprised if it does become
+one so I'll address it here. The game shares names for some buildings
+which causes TB to crash if both are defined to be included in the same
+faction. For this reason I chose to prioritise functionality over looks.
+When functionality was the same (such as in the forester case) I chose
+to focus on the looks of the Folktails faction since I like their
+aesthetics more than IronTeeth's.
+
+## Why do the bot's walk below ziplines instead of riding them?
+
+I did try setting the required bot to the Folktail variant but that
+crashed the game. I could add a custom bot for the faction but that
+would remove the ability to quickly update the mod to support the
+newest Timberborn update and/or patch so glitchy bot ziplining is
+what you get ¯\_(ツ)_/¯
+
+That said at the time of writing this FAQ file I have been considering
+a separate mod to address that issue specifically. By doing it
+separatly it means I can keep GreedyBuilders easy to update quickly
+and if the fix breaks then it's not a big deal, just disable the fix
+and carry on :D
+
+## I thought you did X?
+
+This type of question typically comes from steam workshop users where
+steam has failed to auto-update their copy of the mod. A simple fix is
+to just un-subscribe then re-subscribe. A better way to do it is to go
+into Timberborn's properties dialouge that steam offers, find the
+"Verify all files" that it has (may have mis-remembered the exact text)
+and click that. That button will update not just GreedyBuilders but
+any other Timbeborn workshop mod steam had thus-far failed to update.
+
+For players using mod.io mods the mod manager is the recommended way
+to manage mods, even if it does sometimes accidently wipe the mod's
+contents altogether. In that particular case it's sufficient to just
+delete the mod folder and re-download it.
+
+## How do I unlock the faction?
+
+It used to be the case GreedyBuilders required 45 well being from the
+IronTeeth faction to be achieved. At the time I wanted to encourage
+playing both vanilla factions prior to playing this merger of the 2.
+Then for one reason or another I removed it temporarily and never got
+round to restoring the requirement.
+
+I've since decided to leave it as auto unlocked however players that
+had the mod installed prior to this change will still have the boolean
+stored in `<My Documents>/Timberborn/PlayerData/player.data/data.json`
+set to false. There's a few ways to resolve this:
+
+A. The easiest way is to enter dev mode (`[shift]+[alt]+[z]`) in the
+   main menu then enter the settings menu and click
+   "Unlock All Factions". This will however effect other locked
+   factions which you may want to unlock normally, if so try one of the
+   next 2.
+B. Just enter a session with any unlocked faction for the game to
+   trigger the unlock.
+C. This one is not recommended, in fact the devs have explcitly
+   recommended against this sort of thing after I queried the saftey
+   of it, then again I'm not your mom so you do you ¯\_(ツ)_/¯.
+   1. Rename `player.data` to `player.zip`
+   2. Extract the `data.json` from it
+   3. Edit the `data.json` to say GreedyBuilders is unlocked
+   4. Overwrite the `player.zip`'s `data.json` with the newly edited
+      version
+   5. Rename the `player.zip` back to `player.data`
+   Linux users can skip the renaming steps since linux apps tend to
+   ignore the file extension in favour of the detected mimetype (done
+   for security I think).

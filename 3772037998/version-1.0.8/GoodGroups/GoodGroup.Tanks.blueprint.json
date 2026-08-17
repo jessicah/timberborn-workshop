@@ -1,0 +1,10 @@
+{
+  "GoodGroupSpec":
+  {
+    "Id": "Tanks",
+    "Order": 3,
+    "Icon": "Buildings/Storage/LargeTank/LargeTankIcon",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Group.Tanks"
+  }
+}

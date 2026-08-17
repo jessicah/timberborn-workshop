@@ -1,0 +1,14 @@
+﻿{
+    "Name": "Moddable Timberborn",
+    "Version": "11.0.3",
+    "Id": "ModdableTimberborn",
+    "MinimumGameVersion": "1.1.1",
+    "Description": "Provide various APIs to mod Timberborn",
+    "RequiredMods": [
+        { "Id": "Harmony" },
+        {
+            "Id": "TimberUi",
+            "MinimumVersion": "11.0.0"
+        }
+    ]
+}

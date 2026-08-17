@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Copperclaws", "Order": 1303000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Copperclaws",
+      "DoublePlatform.Copperclaws",
+      "TriplePlatform.Copperclaws",
+      "TreeTrunk.Platform.Copperclaws",
+      "TreeTrunk.DoublePlatform.Copperclaws",
+      "TreeTrunk.TriplePlatform.Copperclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Copperclaws",
+      "MetalPillars.MoleCadre.Copperclaws",
+      "TreeBits.MoleCadre.Copperclaws",
+      "Overhangs.MoleCadre.Copperclaws",
+      "MirroredOverhangs.MoleCadre.Copperclaws",
+      "ArchOverhangs.MoleCadre.Copperclaws",
+      "MetalPlatforms.MoleCadre.Copperclaws",
+      "OtherPlatforms.MoleCadre.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Copperclaws",
+      "DoublePlatform.Copperclaws",
+      "TriplePlatform.Copperclaws",
+      "TreeTrunk.Platform.Copperclaws",
+      "TreeTrunk.DoublePlatform.Copperclaws",
+      "TreeTrunk.TriplePlatform.Copperclaws",
+      "Pillars.MoleCadre.Copperclaws",
+      "MetalPillars.MoleCadre.Copperclaws",
+      "TreeBits.MoleCadre.Copperclaws",
+      "Overhangs.MoleCadre.Copperclaws",
+      "MirroredOverhangs.MoleCadre.Copperclaws",
+      "ArchOverhangs.MoleCadre.Copperclaws",
+      "MetalPlatforms.MoleCadre.Copperclaws",
+      "OtherPlatforms.MoleCadre.Copperclaws"
+    ]
+  }
+}

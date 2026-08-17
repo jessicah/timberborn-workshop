@@ -1,0 +1,20 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Peppers.Emberpelts",
+      "Wares.Peppers.Folktails",
+      "Wares.Peppers.IronTeeth",
+      "Wares.Peppers.LeafCoats",
+      "Wares.Peppers.Whitepaws",
+      "Wares.Peppers.Common",
+      "Wares.Pepper.Emberpelts",
+      "Wares.Pepper.Folktails",
+      "Wares.Pepper.IronTeeth",
+      "Wares.Pepper.LeafCoats",
+      "Wares.Pepper.Whitepaws",
+      "Wares.Pepper.Common"
+    ]
+  }
+}

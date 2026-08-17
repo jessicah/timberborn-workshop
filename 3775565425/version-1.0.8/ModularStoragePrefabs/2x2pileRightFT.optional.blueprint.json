@@ -1,0 +1,34 @@
+{
+  "BlockObjectNavMeshSettingsSpec#delete": {},
+  "BlockObjectSpec#delete": {},
+  "BuildingAccessibleSpec#delete": {},
+  "BuildingModelSpec#delete": {},
+  "BuildingSpec#delete": {},
+  "Children#delete": {},
+  "EnterableSpec#delete": {},
+  "LabeledEntitySpec#delete": {},
+  "PathSpec#delete": {},
+  "PlaceableBlockObjectSpec#delete": {},
+  "StockpileSpec#delete": {},
+  "StockpileGoodColumnVisualizerSpec#delete": {},
+  "StockpileGoodPileVisualizerSpec#delete": {},
+  "StockpilePlaneVisualizerSpec#delete": {},
+  "TemplateSpec#delete": {},
+  "TemplateCollectionSpec":
+  {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append":
+    [
+      //"Buildings/TallStorage/BasicDepo.Folktails.blueprint",
+      "Buildings/TallStorage/BasicPile.Folktails.blueprint",
+      "Buildings/TallStorage/GigaDepo.Folktails.blueprint",
+      "Buildings/TallStorage/GigaPile.Folktails.blueprint",
+      "Buildings/TallStorage/LongDepo.Folktails.blueprint",
+      "Buildings/TallStorage/LongPile.Folktails.blueprint",
+      "Buildings/TallStorage/SmallCoveredTank.Folktails.blueprint",
+      "Buildings/TallStorage/TallDepo.Folktails.blueprint",
+      "Buildings/TallStorage/TallPile.Folktails.blueprint",
+      "Buildings/TallStorage/TallTank.Folktails.blueprint"
+    ]
+  }
+}

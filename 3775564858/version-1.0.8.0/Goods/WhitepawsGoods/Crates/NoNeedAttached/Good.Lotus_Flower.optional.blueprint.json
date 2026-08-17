@@ -1,0 +1,23 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.LotusFlowers.Emberpelts",
+      "Wares.LotusFlowers.Folktails",
+      "Wares.LotusFlowers.IronTeeth",
+      "Wares.LotusFlowers.LeafCoats",
+      "Wares.LotusFlowers.Whitepaws",
+      "Wares.LotusFlowers.Common",
+      "Wares.LotusFlower.Emberpelts",
+      "Wares.LotusFlower.Folktails",
+      "Wares.LotusFlower.IronTeeth",
+      "Wares.LotusFlower.LeafCoats",
+      "Wares.LotusFlower.Whitepaws",
+      "Wares.LotusFlower.Common"
+    ],
+    "GoodGroupId": "Depos",
+    "Icon": "Mole/Grows/LotusFlower",
+    "DisplayNameLocKey": "Wares.LotusFlowers.Lone",
+    "PluralDisplayNameLocKey": "Wares.LotusFlowers.Name"
+  }
+}

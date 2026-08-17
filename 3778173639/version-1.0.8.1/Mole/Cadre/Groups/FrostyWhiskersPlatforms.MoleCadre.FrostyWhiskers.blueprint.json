@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.FrostyWhiskers", "Order": 603000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.FrostyWhiskers",
+      "DoublePlatform.FrostyWhiskers",
+      "TriplePlatform.FrostyWhiskers",
+      "TreeTrunk.Platform.FrostyWhiskers",
+      "TreeTrunk.DoublePlatform.FrostyWhiskers",
+      "TreeTrunk.TriplePlatform.FrostyWhiskers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.FrostyWhiskers",
+      "MetalPillars.MoleCadre.FrostyWhiskers",
+      "TreeBits.MoleCadre.FrostyWhiskers",
+      "Overhangs.MoleCadre.FrostyWhiskers",
+      "MirroredOverhangs.MoleCadre.FrostyWhiskers",
+      "ArchOverhangs.MoleCadre.FrostyWhiskers",
+      "MetalPlatforms.MoleCadre.FrostyWhiskers",
+      "OtherPlatforms.MoleCadre.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.FrostyWhiskers",
+      "DoublePlatform.FrostyWhiskers",
+      "TriplePlatform.FrostyWhiskers",
+      "TreeTrunk.Platform.FrostyWhiskers",
+      "TreeTrunk.DoublePlatform.FrostyWhiskers",
+      "TreeTrunk.TriplePlatform.FrostyWhiskers",
+      "Pillars.MoleCadre.FrostyWhiskers",
+      "MetalPillars.MoleCadre.FrostyWhiskers",
+      "TreeBits.MoleCadre.FrostyWhiskers",
+      "Overhangs.MoleCadre.FrostyWhiskers",
+      "MirroredOverhangs.MoleCadre.FrostyWhiskers",
+      "ArchOverhangs.MoleCadre.FrostyWhiskers",
+      "MetalPlatforms.MoleCadre.FrostyWhiskers",
+      "OtherPlatforms.MoleCadre.FrostyWhiskers"
+    ]
+  }
+}

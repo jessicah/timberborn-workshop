@@ -1,0 +1,46 @@
+{
+  "RecipeSpec": {
+    "Id": "MasterInMetallurgy",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Lapantouflemagic.MasterInMetallurgy.DisplayName",
+    "CycleDurationInHours": 2000.0,
+    "Ingredients": [
+      {
+        "Id": "Pencils",
+        "Amount": 200
+      },
+      {
+        "Id": "Paper",
+        "Amount": 500
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 300
+      },
+      {
+        "Id": "Quartz",
+        "Amount": 200
+      },
+      {
+        "Id": "Methane",
+        "Amount": 500
+      },
+      {
+        "Id": "BrainSalts",
+        "Amount": 200
+      }
+    ],
+    "Products": [
+      {
+        "Id": "MasterInMetallurgy",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 100,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 1,
+    "Icon": "sprites/Whitepaws Sprites/Goods/AdvancedPlan2"
+  }
+}

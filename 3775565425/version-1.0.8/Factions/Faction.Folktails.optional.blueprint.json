@@ -1,0 +1,71 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Folktails" ],
+    "GoodCollectionIds#append": [ "Listamole.Folktails" ],
+    "NeedCollectionIds#append": [ "Listamole.Folktails" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Folktails",
+      "Actors.Folktails",
+      "Cadre.Folktails",
+      "Editing.Folktails",
+      "Effects.Folktails",
+      "Grows.Folktails",
+      "Parts.Folktails",
+      "Rides.Folktails"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - Folktails */
+      {
+        "Original": "Factions/Folktails/Goods.Collection.Folktails.blueprint",
+        "Modifier": "Factions/Folktails/Goods.Collection.Wackamole.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Folktails/Needs.Collection.Folktails.blueprint",
+        "Modifier": "Factions/Folktails/Needs.Collection.Wackamole.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Folktails/Grows.Collection.Folktails.blueprint",
+        "Modifier": "Factions/Folktails/Grows.Collection.Wackamole.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/DandelionPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CarrotsCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PotatoesCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/SunflowerCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WheatCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CattailCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetAquaFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/SpadderdockCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetAquaFarmer.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/ChestnutTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Folktails.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/MapleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Folktails.optional.blueprint"
+      }
+    ]
+  }
+}

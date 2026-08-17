@@ -1,0 +1,19 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.Copperclaws" ],
+    "GoodCollectionIds#append": [ "Listamole.Copperclaws" ],
+    "NeedCollectionIds#append": [ "Listamole.Copperclaws" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.Copperclaws",
+      "Actors.Copperclaws",
+      "Cadre.Copperclaws",
+      "Editing.Copperclaws",
+      "Effects.Copperclaws",
+      "Grows.Copperclaws",
+      "Parts.Copperclaws",
+      "Rides.Copperclaws"
+    ]
+  }
+}

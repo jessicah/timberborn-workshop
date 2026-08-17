@@ -1,0 +1,31 @@
+{
+  "RecipeSpec": {
+    "Id": "Badpaper",
+  "DisplayLocKey": "Good.Paper.PluralDisplayName",
+  "CycleDurationInHours": 20,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "Sawdust",
+      "Amount": 5
+    }, {
+      "Id": "PineResin",
+      "Amount": 2
+    }, {
+      "Id": "Water",
+      "Amount": 3
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Paper",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 20,
+  "FuelCapacity": 3,
+	"BackwardCompatibleIds": []
+  }
+}

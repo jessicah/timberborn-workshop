@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "Cabbage",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.11825528,
+      "g": 0.5924529,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Cabbage",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Cabbage2.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Cabbage2.PluralDisplayName"
+  }
+}

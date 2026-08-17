@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "NaturalResources.LeafCoats",
+    "Blueprints": [
+      "Plants/BeaverPlant.blueprint",
+      "Plants/AdultBeaverPlant.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Wheat.Emberpelts",
+      "Wares.Wheat.Folktails",
+      "Wares.Wheat.IronTeeth",
+      "Wares.Wheat.LeafCoats",
+      "Wares.Wheat.Whitepaws",
+      "Wares.Wheat.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

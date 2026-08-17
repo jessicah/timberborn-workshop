@@ -1,0 +1,18 @@
+
+{  
+  "Id": "Buildings.Whitepaws",
+  "Paths#append": [
+    "Buildings/ModularStoragePrefabs/PitpileWP",
+    "Buildings/ModularStoragePrefabs/PitwarehouseWP",
+    "Buildings/ModularStoragePrefabs/SCoveredtankWP",
+    "Buildings/ModularStoragePrefabs/LongWarehouseWP",
+    
+    "Buildings/ModularStoragePrefabs/2x2pileRightWP",
+    "Buildings/ModularStoragePrefabs/LongpileWP",
+    "Buildings/ModularStoragePrefabs/PitTankWP",
+
+    "Buildings/ModularStoragePrefabs/GigargantuanPileWP",
+    "Buildings/ModularStoragePrefabs/GigargantuanWarehouseWP",
+
+  ],
+}

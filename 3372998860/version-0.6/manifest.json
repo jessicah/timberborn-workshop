@@ -1,0 +1,11 @@
+{
+	"AuthorName": "Bobingabout",
+	"Name": "Emberpelts Don't Breed",
+	"Version": "0.6.0.0",
+	"Id": "EmberpeltsNoBreeding",
+	"MinimumGameVersion": "0.6.1.0",
+	"Description": "Disables breeding in homes, for that Iron Teeth breeding style, when you play with mods that add other breeding options, like Project Phoenix.",
+	"RequiredMods": [
+        {"Id": "Emberpelts"},
+    ]
+}

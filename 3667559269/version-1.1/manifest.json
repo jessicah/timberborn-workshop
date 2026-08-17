@@ -1,0 +1,11 @@
+﻿{
+    "Name": "Building Blueprints",
+    "Version": "11.0.0",
+    "Id": "BuildingBlueprints",
+    "MinimumGameVersion": "1.1.0",
+    "Description": "Save and copy your buildings",
+    "RequiredMods": [
+        { "Id": "ModdableTimberborn", "MinimumVersion": "11.0.0" },
+        { "Id": "ModdableToolGroups" }
+    ]
+}

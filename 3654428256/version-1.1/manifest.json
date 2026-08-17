@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Beaver Faction District Control",
+    "Version": "1.1.1.0",
+    "Id": "BobingaboutBeaverFactionDistrictControl",
+    "MinimumGameVersion": "1.1.0.0",
+    "Description": "Adds controls for migrating beavers belonging to a specific Faction.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack", "MinimumVersion": "1.1.0.0"},
+        {"Id": "BobingaboutBeaverFactions", "MinimumVersion": "1.1.0.0"},
+        {"Id": "Harmony"},
+    ],
+    "OptionalMods": []
+}

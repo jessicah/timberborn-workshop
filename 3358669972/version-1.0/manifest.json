@@ -1,0 +1,13 @@
+{
+  "Name": "Tool Finder",
+  "Version": "0.1.0",
+  "Id": "ToolFinder",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "Quick find that tool",
+  "RequiredMods": [
+    {
+      "Id": "Harmony",
+      "MinimumVersion": "2.3.3"
+    }
+  ]
+}

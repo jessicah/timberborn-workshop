@@ -1,0 +1,6 @@
+{
+	"FactionSpec": {
+		"Id": "Folktails",
+		"MaterialGroups#append": [ "IronTeeth" ]
+	}
+}

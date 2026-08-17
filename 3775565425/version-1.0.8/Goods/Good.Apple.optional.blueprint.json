@@ -1,0 +1,13 @@
+{
+	"GoodSpec":
+	{
+		"BackwardCompatibleIds":
+		[
+			"Wares.Apple.Emberpelts",
+			"Wares.Apple.Folktails",
+			"Wares.Apple.IronTeeth",
+			"Wares.Apple.LeafCoats",
+			"Wares.Apple.Whitepaws"
+		]
+	}
+}

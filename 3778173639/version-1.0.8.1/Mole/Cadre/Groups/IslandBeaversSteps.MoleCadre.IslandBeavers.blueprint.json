@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.IslandBeavers", "Order": 801001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.IslandBeavers",
+      "MetalStairs.IslandBeavers",
+      "MetalStaircase.IslandBeavers",
+      "SpiralStairs.IslandBeavers",
+      "SpiralStaircase.IslandBeavers",
+      "StaircaseLog.IslandBeavers",
+      "MetalSpiralStaircase.IslandBeavers",
+      "DD_SlopeStairs.IslandBeavers",
+      "SkyBridgeStairs.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.IslandBeavers",
+      "MetalStairs.IslandBeavers",
+      "MetalStaircase.IslandBeavers",
+      "SpiralStairs.IslandBeavers",
+      "SpiralStaircase.IslandBeavers",
+      "StaircaseLog.IslandBeavers",
+      "MetalSpiralStaircase.IslandBeavers",
+      "DD_SlopeStairs.IslandBeavers",
+      "SkyBridgeStairs.IslandBeavers"
+    ]
+  }
+}

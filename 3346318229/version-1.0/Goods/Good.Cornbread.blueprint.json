@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "Cornbread",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Cornbread",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.819607854,
+      "g": 0.419607848,
+      "b": 0.34117648,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/CornbreadIcon",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Cornbread.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Cornbread.PluralDisplayName"
+  }
+}

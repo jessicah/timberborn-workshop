@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "GoldBar",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "GoldBar7x7",
+    "VisibleContainer": "MetalBlock",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.9374845,
+      "b": 0.186792374,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 50,
+    "GoodGroupId": "Metal",
+    "GoodOrder": 10104,
+    "Icon": "Mole/Metal/GoldBar",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.GoldBars.Lone",
+    "PluralDisplayNameLocKey": "Wares.GoldBars.Name"
+  }
+}

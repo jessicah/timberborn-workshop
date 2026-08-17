@@ -1,0 +1,15 @@
+{
+  "YieldCollectionNeedApplierSpec":{
+    "FactionId": "LeafCoats",
+    "Id": "PlantMurderer",
+    "YieldGoodId": "Log",
+    "CooldownDurationInHours": 0.0,
+    "MinimumAttemptsThreshold": 1,
+    "AppliedCooldown": false,
+    "Effect": {
+      "NeedId": "PlantMurderer",
+      "Points": -1.0,
+      "Probability": 1.0
+    }
+  }
+}

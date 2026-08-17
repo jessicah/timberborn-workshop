@@ -1,0 +1,45 @@
+body {
+  background-color: #22362a;
+  color: white;
+  font-family: sans-serif;
+  font-size: 75%;
+}
+.loading {
+  visibility: hidden;
+}
+table {
+  border-spacing: 2px 4px;
+}
+th {
+  text-align: center;
+}
+tr.row {
+  outline: #af9866 1px solid;
+}
+td {
+  padding: 1px 5px;
+  background-color: #22362a;
+  outline: 2.5px solid #152722;
+}
+td:has(> img) {
+  padding: 1px;
+}
+img {
+  vertical-align: bottom;
+}
+.age {
+  text-align: right;
+}
+.wellbeing {
+  text-align: center;
+  padding: 2px 4px;
+  border: #af9866 1px solid;
+  border-radius: 2px;
+  margin-right: 2px;
+}
+.wellbeing--positive {
+  background-color: #008000;
+}
+.wellbeing--negative {
+  background-color: #7e100e;
+}

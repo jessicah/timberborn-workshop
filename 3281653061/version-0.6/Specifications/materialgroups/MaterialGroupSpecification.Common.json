@@ -1,0 +1,9 @@
+{
+  "Id": "Common",
+  "Paths#append": [
+    
+    "Materials/1x1x2Storage/Bluewood_Custom",
+    "Materials/1x1x2Storage/Glass.Whitepaws",
+   
+  ]
+}

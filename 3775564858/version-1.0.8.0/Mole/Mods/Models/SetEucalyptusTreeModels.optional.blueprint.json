@@ -1,0 +1,57 @@
+{
+  "PlantablePreviewModelSpec": { "Model": "All/EucalyptusTree/Young" },
+  "Children":
+  {
+    "#Models":
+    {
+      "Children":
+      {
+        "Young":
+        {
+          "Children":
+          {
+            "#Dead":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/YoungDead" }
+            },
+            "#Dying":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/YoungDry" }
+            },
+            "#Alive":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/Young" }
+            }
+          }
+        },
+        "Grown":
+        {
+          "Children":
+          {
+            "#Dead":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/GrownDead" }
+            },
+            "#Dying":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/GrownDry" }
+            },
+            "#Alive":
+            {
+              "Children#delete": {},
+              "TimbermeshSpec": { "Model": "All/EucalyptusTree/Grown" }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": { "Model": "All/EucalyptusTree/GrownStump" }
+        }
+      }
+    }
+  }
+}

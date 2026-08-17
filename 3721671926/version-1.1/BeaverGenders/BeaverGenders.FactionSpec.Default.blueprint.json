@@ -1,0 +1,24 @@
+{
+  "BeaverGendersFactionSpec": {
+    "FactionId": "Default",
+    "BeaverGenders": [
+      {
+        "GenderId": "Male",
+        "Weight": 1,
+        "DwellingStats": {
+          "Weight": 0,
+          "Min": 1
+        }
+      },
+      {
+        "GenderId": "Female",
+        "Weight": 1,
+        "DwellingStats": {
+          "Weight": 1,
+          "Min": 0
+        }
+      }
+    ],
+    "DwellingChildWeight": 1
+  }
+}

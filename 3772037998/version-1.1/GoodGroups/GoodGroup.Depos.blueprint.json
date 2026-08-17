@@ -1,0 +1,10 @@
+{
+  "GoodGroupSpec":
+  {
+    "Id": "Depos",
+    "Order": 2,
+    "Icon": "Buildings/Storage/LargeWarehouse/LargeWarehouseIcon",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Group.Depos"
+  }
+}

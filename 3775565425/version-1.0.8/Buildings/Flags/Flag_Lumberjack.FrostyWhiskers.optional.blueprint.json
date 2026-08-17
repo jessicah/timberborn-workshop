@@ -1,0 +1,10 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "LumberjackFlag.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Flag_Lumberjack.FrostyWhiskers"
+    ]
+  }
+}

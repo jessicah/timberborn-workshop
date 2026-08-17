@@ -1,0 +1,13 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "HiddenForester.Whitepaws" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.HiddenForester.Whitepaws.Name" },
+  "TemplateSpec":
+  {
+    "TemplateName": "HiddenForester.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+      "UnplantablePlanter.Whitepaws",
+      "UnplantablePlanter"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "FrostBalm",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "MajorBurns",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "MinorBurns",
+        "Points": 0.3
+      }
+    ],
+    "GoodType": "Unstorable",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.968911648,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/FrostBalm",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.FrostBalm.DisplayName",
+    "PluralDisplayNameLocKey": "Good.FrostBalm.PluralDisplayName"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "FactionSpec":
+  {
+    "Textures#append":
+    [
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_1",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_2",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_3",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_4",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_5"
+    ],
+    "ChildTextures#append":
+    [
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_1",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_2",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_3"
+    ],
+    "MaterialCollectionIds#remove":  [ "Lapantou" ],
+    "MaterialCollectionIds#append":
+    [
+      "AdaptorsHaveWhitepaws",
+      "Whitepaws",
+      "Billboards.Whitepaws"
+    ],
+    "GoodCollectionIds#append":
+    [
+      "AdaptorsHaveWhitepaws",
+      "Whitepaws"
+    ],
+    "NeedCollectionIds#append":
+    [
+      "AdaptorsHaveWhitepaws",
+      "Whitepaws"
+    ],
+    "TemplateCollectionIds#append":
+    [
+      "Buildings.Whitepaws",
+      "Cadre.AdaptorsHaveWhitepaws",
+      "NaturalResources.AdaptorsHaveWhitepaws",
+      "NaturalResources.Whitepaws",
+      "Whitepaws_Zipline",
+      "Whitepaws_Dams",
+      "Whitepaws_Essentials",
+      "Whitepaws_Food",
+      "Whitepaws_Waterstuff",
+      "Whitepaws_Housing",
+      "Whitepaws_Townsstuff",
+      "Whitepaws_LightIndustry",
+      "Whitepaws_Science",
+      "Whitepaws_Balloon",
+      "Whitepaws_Power",
+      "Whitepaws_Storage",
+      "Whitepaws_Automation",
+      "Whitepaws_Wellbeing",
+      "Whitepaws_AdvancedBuildings",
+      "Billboards.Whitepaws",
+      "Actors.Whitepaws",
+      "Cadre.Whitepaws",
+      "Editing.Whitepaws",
+      "Effects.Whitepaws",
+      "Grows.Whitepaws",
+      "Parts.Whitepaws",
+      "Rides.Whitepaws"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Sate-a-Mole */
+      {
+        "Original": "Mole/Grows/ChestnutTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/YieldAmounts/SetGatherAmount6.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/SunflowerCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/YieldAmounts/SetCuttingAmount3.optional.blueprint"
+      },
+      /* Wack-a-Mole - Whitepaws */
+      {
+        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Whitepaws/Goods.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Whitepaws/Needs.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/Whitepaws/Grows.Collection.Wackamole.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/GoodCollection.Common.blueprint",
+        "Modifier": "Mole/Mods/Goods/AddBrokenKartGoods.optional.blueprint"
+      },
+      {
+        "Original": "Factions/GoodCollection.Whitepaws.blueprint",
+        "Modifier": "Mole/Mods/Goods/RemBrokenKartGoods.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.Emberpelts.blueprint",
+        "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.Folktails.blueprint",
+        "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.IronTeeth.blueprint",
+        "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/RobotBuildings/Bunker.FrostyWhiskers.blueprint",
+        "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/DistrictManagement/DistrictCenter.LeafCoats.blueprint",
+        "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BananaTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/BramblesPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CabbageCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EverblossomTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GiantBambooPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GiantSequoiaTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/GreenPeasCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/LotusPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/PumpkinCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RiceCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/RedGrapePlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Careful/SetCarefulForester.Whitepaws.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WildBramblesPlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/Hidden/SetHiddenForester.Whitepaws.optional.blueprint"
+      },
+      /* Whitepaws */
+      {
+        "Original": "removeyieldstrategies/removeyieldstrategy.cuttable.blueprint",
+        "Modifier": "Modifiers/RemoveYieldStrategy.Cuttable_WhitepawsModifier.optional.blueprint"
+      }
+    ],
+    "PathMaterial": "Buildings/Paths/Path/Path.Folktails",
+    "BaseWoodMaterial": "Materials/UberAtlas/Materials/Folktails/BaseWood_White.Folktails",
+    "StartingBuildingId": "BrokenKart.Whitepaws"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "PlanterBuildingSpec": { "PlantableResourceGroup": "Farmer.FrostyWhiskers" },
+  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.Farmer.FrostyWhiskers.Name" },
+  "TemplateSpec":
+  {
+    "TemplateName": "FarmerFlag.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames":
+    [
+      "Flag_Farmer.FrostyWhiskers"
+    ]
+  }
+}

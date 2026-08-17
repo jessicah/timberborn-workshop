@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Clay",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Dirt",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "Materials/Goods/ClayPile",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 5,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/ClayIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Clay.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Clay.PluralDisplayName"
+  }
+}

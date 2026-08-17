@@ -1,0 +1,22 @@
+{
+  "Name": "Rappelling Ropes",
+  "Version": "1.4.3",
+  "Id": "grauschweif.crappyrope",
+  "MinimumGameVersion": "1.0.10.1",
+  "Description": "Rework of lapantouflemagic's idea.",
+  "RequiredMods": [
+  	{ "Id": "grauschweif.materials", "MinimumVersion": "2.3.0" },
+    { "Id": "ModdableToolGroups", "MinimumVersion": "10.4.0" }
+  ],
+  "OptionalMods": [
+  	{ "Id": "Lapantoufleagic.WhitepawsFaction" },
+  	{ "Id": "Emberpelts" },
+  	{ "Id": "Leafcoats" },
+  	{ "Id": "GreedyEmbers" },
+  	{ "Id": "GreedyCoats" },
+  	{ "Id": "GreedyBuilders" },
+  	{ "Id": "Adaptors" },
+    { "Id": "LoneFaerie.Badfurs" }
+  ]
+}
+

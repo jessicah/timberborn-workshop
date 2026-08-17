@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Copperclaws", "Order": 1321000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Copperclaws",
+      "GravityBattery.TreeTrunk.Copperclaws",
+      "GravityBattery.TreeTrunk2.Copperclaws",
+      "SmallFlywheel.Copperclaws",
+      "SmallHorizontalFramedFlywheel.Copperclaws",
+      "SmallVerticalFramedFlywheel.Copperclaws",
+      "MediumFlywheel.Copperclaws",
+      "MediumHorizontalFramedFlywheel.Copperclaws",
+      "MediumVerticalFramedFlywheel.Copperclaws",
+      "LargeFlywheel.Copperclaws",
+      "LargeHorizontalFramedFlywheel.Copperclaws",
+      "LargeVerticalFramedFlywheel.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Copperclaws",
+      "GravityBattery.TreeTrunk.Copperclaws",
+      "GravityBattery.TreeTrunk2.Copperclaws",
+      "SmallFlywheel.Copperclaws",
+      "SmallHorizontalFramedFlywheel.Copperclaws",
+      "SmallVerticalFramedFlywheel.Copperclaws",
+      "MediumFlywheel.Copperclaws",
+      "MediumHorizontalFramedFlywheel.Copperclaws",
+      "MediumVerticalFramedFlywheel.Copperclaws",
+      "LargeFlywheel.Copperclaws",
+      "LargeHorizontalFramedFlywheel.Copperclaws",
+      "LargeVerticalFramedFlywheel.Copperclaws"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "RecipeSpec":
+  {
+    "Icon": "Mole/Grows/Apples",
+    "Products": [ { "Id": "Apple", "Amount": 50 } ]
+  }
+}

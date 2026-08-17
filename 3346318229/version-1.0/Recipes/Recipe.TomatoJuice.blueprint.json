@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "TomatoJuice",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.TomatoJuice.PluralDisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Tomato",
+        "Amount": 2
+      }
+    ],
+    "Products": [
+      {
+        "Id": "TomatoJuice",
+        "Amount": 3
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 15,
+    "Icon": "Sprites/Goods/TomatoJuiceIcon"
+  }
+}

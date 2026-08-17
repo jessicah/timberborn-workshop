@@ -1,0 +1,11 @@
+{
+  "PlanterBuildingSpec":
+  {
+    "PlantableResourceGroup": "CarefulFarmer.Whitepaws"
+  },
+  "TemplateSpec":
+  {
+    "TemplateName": "LargeFarmhouse.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "largefarmhouse" ]
+  }
+}

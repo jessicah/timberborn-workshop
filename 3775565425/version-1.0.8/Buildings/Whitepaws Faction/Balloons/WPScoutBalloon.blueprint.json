@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "ScoutBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPScoutBalloon.Whitepaws",
+			"WPScoutBalloon",
+			"ScoutBalloon"
+		]
+	}
+}

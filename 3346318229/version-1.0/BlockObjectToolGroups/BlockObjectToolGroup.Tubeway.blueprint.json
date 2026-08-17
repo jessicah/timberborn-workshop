@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Tubeway",
+    "Order": 4,
+    "NameLocKey": "Building.Tubeway.DisplayName",
+    "Icon": "Buildings/Paths/Tubeway/TubewayIcon",
+    "FallbackGroup": false
+  }
+}

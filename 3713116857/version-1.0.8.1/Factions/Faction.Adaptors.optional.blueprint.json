@@ -1,0 +1,87 @@
+{
+  "FactionSpec":
+  {
+    "Textures#append":
+    [
+      "Materials/Beavers/IronTeeth/Adult/BeaverAdult1.IronTeeth",
+      "Materials/Beavers/IronTeeth/Adult/BeaverAdult2.IronTeeth",
+      "Materials/Beavers/IronTeeth/Adult/BeaverAdult3.IronTeeth",
+      "Materials/Beavers/IronTeeth/Adult/BeaverAdult4.IronTeeth",
+      "Materials/Beavers/IronTeeth/Adult/BeaverAdult5.IronTeeth"
+    ],
+    "ChildTextures#append":
+    [
+      "Materials/Beavers/IronTeeth/Child/BeaverChild1.IronTeeth",
+      "Materials/Beavers/IronTeeth/Child/BeaverChild2.IronTeeth",
+      "Materials/Beavers/IronTeeth/Child/BeaverChild3.IronTeeth"
+    ],
+    "NeedCollectionIds#append": [ "AdaptorsHaveIronTeeth", "IronTeeth" ],
+    "GoodCollectionIds#append": [ "AdaptorsHaveIronTeeth", "IronTeeth" ],
+    "TemplateCollectionIds#append":
+    [
+      "Cadre.AdaptorsHaveIronTeeth",
+      "Buildings.IronTeeth",
+      "NaturalResources.AdaptorsHaveIronTeeth",
+      "NaturalResources.IronTeeth",
+      "Planes.IronTeeth",
+      "Actors.IronTeeth",
+      "Cadre.IronTeeth",
+      "Editing.IronTeeth",
+      "Effects.IronTeeth",
+      "Grows.IronTeeth",
+      "Parts.IronTeeth",
+      "Rides.IronTeeth"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - IronTeeth */
+      {
+        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/IronTeeth/Goods.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/IronTeeth/Needs.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Modifier": "Factions/IronTeeth/Grows.Collection.Wackamole.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CoffeePlant.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CanolaCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CassavaCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/CornCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/KohlrabiCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EggplantCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/SoybeansCrop.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetFarmer.IronTeeth.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/MangroveTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Planters/_/SetForester.IronTeeth.optional.blueprint"
+      }
+    ],
+    "PathMaterial": "Buildings/Paths/Path/Path.IronTeeth",
+    "BaseWoodMaterial": "Materials/UberAtlas/Materials/IronTeeth/BaseWood_Grey.IronTeeth",
+    "StartingBuildingId": "DistrictCenter.IronTeeth"
+  }
+}

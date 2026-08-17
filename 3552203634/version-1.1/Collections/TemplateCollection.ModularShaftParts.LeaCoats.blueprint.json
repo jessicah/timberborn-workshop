@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ModularShaftParts.LeafCoats",
+    "Blueprints": [
+      "Buildings/Power/PowerShaft/Models/ModularShaftParts.LeafCoats.blueprint"
+    ]
+  }
+}

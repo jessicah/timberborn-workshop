@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.CoffeeBeans.Emberpelts",
+      "Wares.CoffeeBeans.Folktails",
+      "Wares.CoffeeBeans.IronTeeth",
+      "Wares.CoffeeBeans.LeafCoats",
+      "Wares.CoffeeBeans.Whitepaws",
+      "Wares.CoffeeBeans.Common",
+      "Wares.CoffeeBean.Emberpelts",
+      "Wares.CoffeeBean.Folktails",
+      "Wares.CoffeeBean.IronTeeth",
+      "Wares.CoffeeBean.LeafCoats",
+      "Wares.CoffeeBean.Whitepaws",
+      "Wares.CoffeeBean.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

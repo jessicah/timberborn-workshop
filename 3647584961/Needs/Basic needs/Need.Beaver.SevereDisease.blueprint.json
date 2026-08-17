@@ -1,0 +1,37 @@
+{
+  "NeedSpec": {
+    "Id": "SevereDisease",
+    "BackwardCompatibleIds": [],
+    "Order": 83,
+    "NeedGroupId": "BasicNeeds",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": -1.0,
+    "MaximumValue": 0.0,
+    "DailyDelta": 0.0,
+    "ImportanceMultiplier": 5.0,
+    "Effectiveness": 1.0,
+    "Wastable": true,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Lapantouflemagic.SevereDisease.DisplayName",
+    "FavorableWellbeing": 0,
+    "UnfavorableWellbeing": -30
+  },
+  "LethalNeedSpec": {
+    "DeathWarningLocKey": "Needs.Beaver.DeathWarning",
+    "DeathMessageLocKey": "Lapantouflemagic.SevereDisease.DeathMessage"
+  },
+  "CriticalNeedSpec": {
+    "CriticalNeedType": "StateWithAlert",
+    "SpriteName": "SevereDisease",
+    "DescriptionLocKey": "Lapantouflemagic.SevereDisease.CriticalDescription",
+    "DescriptionShortLocKey": "Lapantouflemagic.SevereDisease.CriticalDescriptionShort"
+  },
+  "PunitiveNeedSpec": {
+    "Penalties": []
+  },
+  "NeedPreventingWorkSpec": {
+    "WorkRefusalWarningLocKey": "Work.WorkRefusalWarning"
+  },
+  "InactiveHiddenNeedSpec": {}
+}

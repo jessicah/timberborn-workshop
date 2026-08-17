@@ -1,0 +1,39 @@
+{
+  "MaterialGroupSpec": {
+    "Id": "LeafCoats",
+    "Paths": [
+      "Materials/UberAtlas/Materials/LeafCoats/BaseMetal.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/BaseWood_Brown.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/BaseWood_Dark_Brown.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/BaseWood_White.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/BaseWood_Green.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/BaseWood_Light_Green.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Details.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Flags.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Hedge.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Brown.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Dark_Brown.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_White.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Green.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Light_Green.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Metal.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/IrregularPlanks_Mossy.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Moss.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/PaintedMetal.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/PaintedMetal2.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Paper.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Path.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Plaster_White.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/PlasteredWood_White.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/Shrub.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/ThatchedRoof.LeafCoats",
+      "Materials/UberAtlas/Materials/LeafCoats/WindowsAtlas.LeafCoats",
+
+  /* My crops and trees */
+      "Plants/Trees/Materials/AppleTree.LeafCoats",
+      "Plants/Trees/Materials/AppleTreeDry.LeafCoats",
+
+      "Plants/Materials/GrapesWhite.LeafCoats"
+    ]
+  }
+}

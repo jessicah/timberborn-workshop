@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.Whitepaws", "Order": 522000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.Whitepaws",
+      "TeethGrindstone.Whitepaws",
+      "MedicalBed.Whitepaws",
+      "MedicalTripleBed.Whitepaws",
+      "Fixedmedicalbed_Burns.Whitepaws",
+      "Fixedmedicalbed_Disease.Whitepaws",
+      "Fixedmedicalbed_Injury.Whitepaws",
+      "Clinic.Whitepaws",
+      "DecontaminationPod.Whitepaws",
+      "ContaminatedJail.Whitepaws",
+      "WashingMachine.Whitepaws",
+      "Herbalist.Whitepaws",
+      "TankShower.Whitepaws",
+      "Shower.Whitepaws",
+      "DoubleShower.Whitepaws",
+      "RiverBath.Whitepaws",
+      "Scratcher.Whitepaws",
+      "Massager.Whitepaws",
+      "Sauna.Whitepaws",
+      "Hammock.Whitepaws",
+      "Swing.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.Whitepaws",
+      "TeethGrindstone.Whitepaws",
+      "MedicalBed.Whitepaws",
+      "MedicalTripleBed.Whitepaws",
+      "Fixedmedicalbed_Burns.Whitepaws",
+      "Fixedmedicalbed_Disease.Whitepaws",
+      "Fixedmedicalbed_Injury.Whitepaws",
+      "Clinic.Whitepaws",
+      "DecontaminationPod.Whitepaws",
+      "ContaminatedJail.Whitepaws",
+      "WashingMachine.Whitepaws",
+      "Herbalist.Whitepaws",
+      "TankShower.Whitepaws",
+      "Shower.Whitepaws",
+      "DoubleShower.Whitepaws",
+      "RiverBath.Whitepaws",
+      "Scratcher.Whitepaws",
+      "Massager.Whitepaws",
+      "Sauna.Whitepaws",
+      "Hammock.Whitepaws",
+      "Swing.Whitepaws"
+    ]
+  }
+}

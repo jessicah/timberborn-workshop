@@ -1,0 +1,13 @@
+{
+	"GoodSpec":
+	{
+		"BackwardCompatibleIds":
+		[
+			"Wares.Bark.Emberpelts",
+			"Wares.Bark.Folktails",
+			"Wares.Bark.IronTeeth",
+			"Wares.Bark.LeafCoats",
+			"Wares.Bark.Whitepaws"
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "NuclearWaste",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Unstorable",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.814829767,
+      "g": 1.0,
+      "b": 0.0823529363,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 5,
+    "GoodGroupId": "Tanks",
+    "GoodOrder": 0,
+    "Icon": "Mole/Tanks/NuclearWaste",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.NuclearWaste.Name",
+    "PluralDisplayNameLocKey": "Wares.NuclearWaste.Name"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "StartingFactionSpec#delete": {},
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.FrostyWhiskers" ],
+    "GoodCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "NeedCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.FrostyWhiskers",
+      "Actors.FrostyWhiskers",
+      "Cadre.FrostyWhiskers",
+      "Editing.FrostyWhiskers",
+      "Effects.FrostyWhiskers",
+      "Grows.FrostyWhiskers",
+      "Parts.FrostyWhiskers",
+      "Rides.FrostyWhiskers"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* Wack-a-Mole - FrostyWhiskers */
+      {
+        "Original": "Factions/ForstyWhiskers/Goods.Collection.FrostyWhiskers.blueprint",
+        "Modifier": "Factions/FrostyWhiskers/Goods.Collection.Wackamole.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Factions/ForstyWhiskers/Needs.Collection.FrostyWhiskers.blueprint",
+        "Modifier": "Factions/FrostyWhiskers/Needs.Collection.Wackamole.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Factions/ForstyWhiskers/Grows.Collection.FrostyWhiskers.blueprint",
+        "Modifier": "Factions/FrostyWhiskers/Grows.Collection.Wackamole.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Buildings/Townstuff/Stairs.FrostyWhiskers",
+        "Modifier": "Mole/Mods/OldNames/AddStairs.Folktails.optional.blueprint"
+      }
+    ]
+  }
+}

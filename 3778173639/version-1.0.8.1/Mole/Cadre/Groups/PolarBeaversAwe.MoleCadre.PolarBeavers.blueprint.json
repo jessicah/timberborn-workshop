@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.PolarBeavers", "Order": 926000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.PolarBeavers",
+      "LaborerMonument.PolarBeavers",
+      "BrazierOfBonding.PolarBeavers",
+      "FlameOfUnity.PolarBeavers",
+      "FountainOfJoy.PolarBeavers",
+      "PublicFountain.PolarBeavers",
+      "TributeToIngenuity.PolarBeavers",
+      "HallOfAbundance.PolarBeavers",
+      "ArchOfProgress.PolarBeavers",
+      "EarthRecultivator.PolarBeavers",
+      "EarthRepopulator.PolarBeavers",
+      "WonderOfFire.PolarBeavers",
+      "Wonder.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.PolarBeavers",
+      "LaborerMonument.PolarBeavers",
+      "BrazierOfBonding.PolarBeavers",
+      "FlameOfUnity.PolarBeavers",
+      "FountainOfJoy.PolarBeavers",
+      "PublicFountain.PolarBeavers",
+      "TributeToIngenuity.PolarBeavers",
+      "HallOfAbundance.PolarBeavers",
+      "ArchOfProgress.PolarBeavers",
+      "EarthRecultivator.PolarBeavers",
+      "EarthRepopulator.PolarBeavers",
+      "WonderOfFire.PolarBeavers",
+      "Wonder.PolarBeavers"
+    ]
+  }
+}

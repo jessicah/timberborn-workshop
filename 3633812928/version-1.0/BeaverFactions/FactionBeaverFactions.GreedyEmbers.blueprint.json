@@ -1,0 +1,23 @@
+{
+  "FactionBeaverFactionsSpec": {
+    "FactionId": "GreedyEmbers",
+    "BeaverFactions": [
+      {
+        "BeaverFactionId": "Folktails",
+        "Weight": 6
+      },
+      {
+        "BeaverFactionId": "IronTeeth",
+        "Weight": 6
+      },
+      {
+        "BeaverFactionId": "Emberpelts",
+        "Weight": 5
+      },
+      {
+        "BeaverFactionId": "Charcoal",
+        "Weight": 1
+      }
+    ]
+  }
+}

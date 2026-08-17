@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.PolarBeavers", "Order": 902006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.PolarBeavers",
+      "ArcOverhang2x1.PolarBeavers",
+      "ArcOverhang3x1.PolarBeavers",
+      "ArcOverhang4x1.PolarBeavers",
+      "ArcOverhang1x4.PolarBeavers",
+      "ArcOverhang5x1.PolarBeavers",
+      "ArcOverhang6x1.PolarBeavers",
+      "ArcOverhang7x1.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.PolarBeavers",
+      "ArcOverhang2x1.PolarBeavers",
+      "ArcOverhang3x1.PolarBeavers",
+      "ArcOverhang4x1.PolarBeavers",
+      "ArcOverhang1x4.PolarBeavers",
+      "ArcOverhang5x1.PolarBeavers",
+      "ArcOverhang6x1.PolarBeavers",
+      "ArcOverhang7x1.PolarBeavers"
+    ]
+  }
+}

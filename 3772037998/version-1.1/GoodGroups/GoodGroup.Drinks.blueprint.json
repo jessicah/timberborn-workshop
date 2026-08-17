@@ -1,0 +1,10 @@
+{
+  "GoodGroupSpec":
+  {
+    "Id": "Drinks",
+    "Order": 4,
+    "Icon": "Sprites/Goods/CoffeeIcon",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "Group.Drinks"
+  }
+}

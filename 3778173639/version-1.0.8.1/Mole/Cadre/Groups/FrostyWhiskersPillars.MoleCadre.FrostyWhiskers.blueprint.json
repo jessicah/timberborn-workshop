@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.FrostyWhiskers", "Order": 602001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.FrostyWhiskers",
+      "Pillar_1.FrostyWhiskers",
+      "Pillar_2.FrostyWhiskers",
+      "Pillar_3.FrostyWhiskers",
+      "Pillar_4.FrostyWhiskers",
+      "Pillars.FrostyWhiskers",
+      "PillarTop.FrostyWhiskers",
+      "StaircasePlatform.FrostyWhiskers",
+      "StaircasePillar.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.FrostyWhiskers",
+      "Pillar_1.FrostyWhiskers",
+      "Pillar_2.FrostyWhiskers",
+      "Pillar_3.FrostyWhiskers",
+      "Pillar_4.FrostyWhiskers",
+      "Pillars.FrostyWhiskers",
+      "PillarTop.FrostyWhiskers",
+      "StaircasePlatform.FrostyWhiskers",
+      "StaircasePillar.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.FrostyWhiskers" ],
+    "GoodCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "NeedCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.FrostyWhiskers",
+      "Actors.FrostyWhiskers",
+      "Cadre.FrostyWhiskers",
+      "Editing.FrostyWhiskers",
+      "Effects.FrostyWhiskers",
+      "Grows.FrostyWhiskers",
+      "Parts.FrostyWhiskers",
+      "Rides.FrostyWhiskers"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* FrostyWhiskers *
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.FrostyWhiskers.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.FrostyWhiskers.optional.blueprint"
+      }
+      /* */
+    ]
+  }
+}

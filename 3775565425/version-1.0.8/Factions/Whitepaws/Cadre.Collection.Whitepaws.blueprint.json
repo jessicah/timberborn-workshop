@@ -1,0 +1,11 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+      "Buildings/Water/DevWaterSource/DevWaterSource.blueprint",
+      "Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint"
+    ]
+  }
+}

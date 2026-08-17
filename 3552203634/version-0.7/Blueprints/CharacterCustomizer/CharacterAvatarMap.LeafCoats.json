@@ -1,0 +1,42 @@
+{
+    "CharacterAvatarMapSpec": {
+        "AvatarMaps":
+        [
+            {
+                "TextureName": "BeaverAdult1.LeafCoats",
+                "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+                "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+                "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverAdult2.LeafCoats",
+                "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+                "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+                "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverAdult3.LeafCoats",
+                "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+                "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+                "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverAdult4.LeafCoats",
+                "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+                "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+                "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverAdult5.LeafCoats",
+                "AvatarPath": "Sprites/Avatars/LeafCoatsAdult",
+                "ChildAvatarPath": "Sprites/Avatars/LeafCoatsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedAdult",
+                "ContaminatedChildAvatarPath": "Sprites/Avatars/LeafCoatsContaminatedChild"
+            },
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "GoldBar",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "GoldBar",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.9374845,
+      "b": 0.186792374,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 50,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10104,
+    "Icon": "sprites/Whitepaws Sprites/Goods/GoldBar",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.GoldBar.DisplayName",
+    "PluralDisplayNameLocKey": "Good.GoldBar.PluralDisplayName"
+  }
+}

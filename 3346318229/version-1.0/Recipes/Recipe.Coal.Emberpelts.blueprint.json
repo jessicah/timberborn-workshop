@@ -1,0 +1,28 @@
+{
+  "RecipeSpec": {
+    "Id": "Coal.Emberpelts",
+    "BackwardCompatibleIds": [
+      "Coal"
+    ],
+    "DisplayLocKey": "Good.Coal.PluralDisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Log",
+        "Amount": 3
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Coal",
+        "Amount": 2
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 10,
+    "Icon": "Sprites/Goods/CoalIcon"
+  }
+}

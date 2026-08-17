@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "Cornmeal",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Cornmeal.PluralDisplayName",
+    "CycleDurationInHours": 0.25,
+    "Ingredients": [
+      {
+        "Id": "Corn",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Cornmeal",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 30,
+    "Icon": "Sprites/Goods/CornmealIcon"
+  }
+}

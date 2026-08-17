@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Copperclaws", "Order": 1301008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Copperclaws",
+      "Tubeway.Gate.Copperclaws",
+      "DistrictGate.Copperclaws",
+      "DistrictGateTubeway.Copperclaws",
+      "DecoSmallGate.Copperclaws",
+      "SmallGate.Copperclaws",
+      "HedgeGate.Copperclaws",
+      "MetalGate.Copperclaws",
+      "GoldGate.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Copperclaws",
+      "Tubeway.Gate.Copperclaws",
+      "DistrictGate.Copperclaws",
+      "DistrictGateTubeway.Copperclaws",
+      "DecoSmallGate.Copperclaws",
+      "SmallGate.Copperclaws",
+      "HedgeGate.Copperclaws",
+      "MetalGate.Copperclaws",
+      "GoldGate.Copperclaws"
+    ]
+  }
+}

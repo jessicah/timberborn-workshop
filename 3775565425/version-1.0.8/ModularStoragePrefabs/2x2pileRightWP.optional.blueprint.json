@@ -1,0 +1,34 @@
+{
+  "BlockObjectNavMeshSettingsSpec#delete": {},
+  "BlockObjectSpec#delete": {},
+  "BuildingAccessibleSpec#delete": {},
+  "BuildingModelSpec#delete": {},
+  "BuildingSpec#delete": {},
+  "Children#delete": {},
+  "EnterableSpec#delete": {},
+  "LabeledEntitySpec#delete": {},
+  "PathSpec#delete": {},
+  "PlaceableBlockObjectSpec#delete": {},
+  "StockpileSpec#delete": {},
+  "StockpileGoodColumnVisualizerSpec#delete": {},
+  "StockpileGoodPileVisualizerSpec#delete": {},
+  "StockpilePlaneVisualizerSpec#delete": {},
+  "TemplateSpec#delete": {},
+  "TemplateCollectionSpec":
+  {
+    "CollectionId": "Buildings.Whitepaws",
+    "Blueprints#append":
+    [
+      //"Buildings/TallStorage/BasicDepo.Whitepaws.blueprint",
+      "Buildings/TallStorage/BasicPile.Whitepaws.blueprint",
+      "Buildings/TallStorage/GigaDepo.Whitepaws.blueprint",
+      "Buildings/TallStorage/GigaPile.Whitepaws.blueprint",
+      "Buildings/TallStorage/LongDepo.Whitepaws.blueprint",
+      "Buildings/TallStorage/LongPile.Whitepaws.blueprint",
+      "Buildings/TallStorage/SmallCoveredTank.Whitepaws.blueprint",
+      "Buildings/TallStorage/TallDepo.Whitepaws.blueprint",
+      "Buildings/TallStorage/TallPile.Whitepaws.blueprint",
+      "Buildings/TallStorage/TallTank.Whitepaws.blueprint"
+    ]
+  }
+}

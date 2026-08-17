@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Salt",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Salt",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.5641509,
+      "b": 0.926960349,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 10108,
+    "Icon": "Mole/Depos/Salt",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.Salt.Name",
+    "PluralDisplayNameLocKey": "Wares.Salt.Name"
+  }
+}

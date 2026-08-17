@@ -1,0 +1,20 @@
+{
+	"RangedEffectBuildingSpec": { "EffectRadius": 3 },
+	"ContinuousEffectBuildingSpec":
+	{
+		"Effects":
+		[
+			{
+				"NeedId": "Greenery",
+				"PointsPerHour": 0.64,
+				"SatisfyToMaxValue": false
+			},
+			{
+				"NeedId": "Hedge",
+				"PointsPerHour": 0.64,
+				"SatisfyToMaxValue": false
+			}
+		]
+	},
+	"BuildingSpec": { "SelectionSoundName": "Brazier" }
+}

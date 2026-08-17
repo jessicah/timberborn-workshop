@@ -1,0 +1,14 @@
+﻿{
+	"WorkerOutfitSpec":
+	{
+		"Id": "Builder",
+		"FactionId": "Adaptors",
+		"WorkerType": "Beaver",
+		"DiffuseTexture": "Materials/Beavers/Common/WorkerOutfits/WorkerHammerStrings_D",
+		"NormalTexture": "Materials/Beavers/Common/WorkerOutfits/WorkerHammerStrings_N",
+		"Attachments":
+		[
+			"HammerBack.Beaver"
+		]
+	}
+}

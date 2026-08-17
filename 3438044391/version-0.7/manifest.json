@@ -1,0 +1,14 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Bobingabout's Housing Optimize",
+    "Version": "0.7.9.0",
+    "Id": "BobHousingOptimize",
+    "MinimumGameVersion": "0.7.9.0",
+    "Description": "Based on the original mod by AllTheNamesAreGone.
+At the beginning of each workday, all beavers are shuffled between houses to minimize travel distance between their homes and workplaces.
+
+The Path Nav calculations seem to always return distance 0, so the current calculations are based on literal distance between the entrances, not path distance.
+The algorithm used is based on a first come first served ordering.
+The calculations are therefore not guaranteed to make the best result, but it does execute quickly and gives a far better result than assignment to homes and jobs at random that the game uses by default.",
+    "RequiredMods": []
+}

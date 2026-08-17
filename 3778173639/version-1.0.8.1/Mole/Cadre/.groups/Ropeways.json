@@ -1,0 +1,31 @@
+#include <defines.h>
+{
+  TOGROUP(01003,Ropeways),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(SuspensionBridge1x1),
+      TOTOOL(SuspensionBridge2x1),
+      TOTOOL(SuspensionBridge3x1),
+      TOTOOL(SuspensionBridge4x1),
+      TOTOOL(SuspensionBridge5x1),
+      TOTOOL(SuspensionBridge6x1),
+      TOTOOL(SuspensionBridge7x1),
+      TOTOOL(SuspensionBridge8x1)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(SuspensionBridge1x1),
+      TOTOOL(SuspensionBridge2x1),
+      TOTOOL(SuspensionBridge3x1),
+      TOTOOL(SuspensionBridge4x1),
+      TOTOOL(SuspensionBridge5x1),
+      TOTOOL(SuspensionBridge6x1),
+      TOTOOL(SuspensionBridge7x1),
+      TOTOOL(SuspensionBridge8x1)
+    ]
+  }
+
+}

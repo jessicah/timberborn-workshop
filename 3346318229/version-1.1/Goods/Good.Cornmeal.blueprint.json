@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Cornmeal",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.7372549,
+      "g": 0.6156863,
+      "b": 0.521568656,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/CornmealIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Cornmeal.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Cornmeal.PluralDisplayName"
+  }
+}

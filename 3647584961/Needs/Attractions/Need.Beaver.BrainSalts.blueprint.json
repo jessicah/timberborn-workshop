@@ -1,0 +1,37 @@
+{
+  "NeedSpec": {
+    "Id": "BrainSalts",
+    "BackwardCompatibleIds": [],
+    "Order": 100,
+    "NeedGroupId": "BasicNeeds",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": -0.1,
+    "ImportanceMultiplier": 1.0,
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Good.BrainSalts.DisplayName",
+    "FavorableWellbeing": 1,
+    "UnfavorableWellbeing": 0
+  },
+  "FavorableNeedSpec": {
+    "Favors": [
+      {
+        "Id": "MovementSpeed",
+        "MultiplierDelta": 0.05
+      },
+      {
+        "Id": "CarryingCapacity",
+        "MultiplierDelta": 0.1
+      },
+      {
+        "Id": "WorkingSpeed",
+        "MultiplierDelta": 0.05
+      }
+    ],
+    "Icon": "sprites/Whitepaws Sprites/Goods/BrainSalts"
+  }
+}

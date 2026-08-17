@@ -1,0 +1,19 @@
+{
+	"GoodSpec":
+	{
+		"Id": "RedGrapeJuice",
+		"BackwardCompatibleIds": [],
+		"GoodGroupId": "Drinks",
+		"Icon": "Mole/Drinks/RedGrapeJuice",
+		"DisplayNameLocKey": "Wares.RedGrapeJuice.Name",
+		"PluralDisplayNameLocKey": "Wares.RedGrapeJuice.Name",
+		"ConsumptionEffects#append":
+		[
+			{ "NeedId": "Thirst", "Points": 0.33 },
+			{ "NeedId": "Grapes", "Points": 0.2 },
+			{ "NeedId": "RedGrapes", "Points": 0.2 },
+			{ "NeedId": "Juice", "Points": 0.2 },
+			{ "NeedId": "GrapeJuice", "Points": 0.2 }
+		]
+	}
+}

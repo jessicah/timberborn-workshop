@@ -1,0 +1,9 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Common",
+    "Materials#append": [
+      "Materials/Logstairs/Birchlog_Custom.Common",
+      "Materials/Logstairs/Pink_wood.Whitepaws"
+    ]
+  }
+}

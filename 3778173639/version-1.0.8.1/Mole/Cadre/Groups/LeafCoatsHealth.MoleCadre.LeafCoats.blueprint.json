@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.LeafCoats", "Order": 422000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.LeafCoats",
+      "TeethGrindstone.LeafCoats",
+      "MedicalBed.LeafCoats",
+      "MedicalTripleBed.LeafCoats",
+      "Fixedmedicalbed_Burns.LeafCoats",
+      "Fixedmedicalbed_Disease.LeafCoats",
+      "Fixedmedicalbed_Injury.LeafCoats",
+      "Clinic.LeafCoats",
+      "DecontaminationPod.LeafCoats",
+      "ContaminatedJail.LeafCoats",
+      "WashingMachine.LeafCoats",
+      "Herbalist.LeafCoats",
+      "TankShower.LeafCoats",
+      "Shower.LeafCoats",
+      "DoubleShower.LeafCoats",
+      "RiverBath.LeafCoats",
+      "Scratcher.LeafCoats",
+      "Massager.LeafCoats",
+      "Sauna.LeafCoats",
+      "Hammock.LeafCoats",
+      "Swing.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.LeafCoats",
+      "TeethGrindstone.LeafCoats",
+      "MedicalBed.LeafCoats",
+      "MedicalTripleBed.LeafCoats",
+      "Fixedmedicalbed_Burns.LeafCoats",
+      "Fixedmedicalbed_Disease.LeafCoats",
+      "Fixedmedicalbed_Injury.LeafCoats",
+      "Clinic.LeafCoats",
+      "DecontaminationPod.LeafCoats",
+      "ContaminatedJail.LeafCoats",
+      "WashingMachine.LeafCoats",
+      "Herbalist.LeafCoats",
+      "TankShower.LeafCoats",
+      "Shower.LeafCoats",
+      "DoubleShower.LeafCoats",
+      "RiverBath.LeafCoats",
+      "Scratcher.LeafCoats",
+      "Massager.LeafCoats",
+      "Sauna.LeafCoats",
+      "Hammock.LeafCoats",
+      "Swing.LeafCoats"
+    ]
+  }
+}

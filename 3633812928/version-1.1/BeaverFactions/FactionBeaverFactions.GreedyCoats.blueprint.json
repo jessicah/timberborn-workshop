@@ -1,0 +1,19 @@
+{
+  "FactionBeaverFactionsSpec": {
+    "FactionId": "GreedyCoats",
+    "BeaverFactions": [
+      {
+        "BeaverFactionId": "Folktails",
+        "Weight": 1
+      },
+      {
+        "BeaverFactionId": "IronTeeth",
+        "Weight": 1
+      },
+      {
+        "BeaverFactionId": "LeafCoats",
+        "Weight": 1
+      }
+    ]
+  }
+}

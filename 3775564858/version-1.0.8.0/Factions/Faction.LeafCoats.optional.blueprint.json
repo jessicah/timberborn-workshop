@@ -1,0 +1,52 @@
+{
+  "FactionSpec":
+  {
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.LeafCoats" ],
+    "GoodCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "NeedCollectionIds#append": [ "Listamole.LeafCoats" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.LeafCoats",
+      "Actors.LeafCoats",
+      "Cadre.LeafCoats",
+      "Editing.LeafCoats",
+      "Effects.LeafCoats",
+      "Grows.LeafCoats",
+      "Parts.LeafCoats",
+      "Rides.LeafCoats"
+    ],
+    "BlueprintModifiers#append":
+    [
+      /* LeafCoats *
+      {
+        "Original": "Goods/Good.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddNeeds.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Bento.blueprint",
+        "Modifier": "zxuiji/Bentos/Bento.AddReqGoods.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Goods/Good.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddNeeds.LeafCoats.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.BotKit.blueprint",
+        "Modifier": "zxuiji/BotKits/BotKit.AddReqGoods.LeafCoats.optional.blueprint"
+      }
+      /* */
+      {
+        "Original": "Mole/Grows/AppleTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetAppleTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/EucalyptusTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetEucalyptusTreeModels.optional.blueprint"
+      },
+      {
+        "Original": "Mole/Grows/WillowTree.Mole.blueprint",
+        "Modifier": "Mole/Mods/Models/SetWillowTreeModels.optional.blueprint"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "TimbermeshSpec": {
+    "Model": "Buildings/Decoration/Shrub/Shrub.IronTeeth.Model"
+  },
+  "TransformSpec":
+  {
+      "Position": { "X": 0.3, "Y": 0.0, "Z": 0.0 },
+      "Scale": { "X": 0.4, "Y": 0.5, "Z": 1.0 }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Bobingabout Commute Balancer",
+    "Version": "1.0.13.2",
+    "Id": "BobCommuteBalancer",
+    "MinimumGameVersion": "1.0.12.0",
+    "Description": "At the beginning of each workday, all beavers are added to a processing list. Each Tick, a beaver on the list is evaluated. The processing will check Travel Distance from Work, and see if they can be moved closer.
+They will move into an Empty home that is closer, if the best house is occupied, it will check if it can swap with someone living there, and only proceed if the advantage is more than the inconvenience to the other beaver.
+This will be an ongoing process where over several days, all beavers will live an optimal (but not always shortest) distance from work.",
+    "RequiredMods": [],
+    "OptionalMods": []
+}

@@ -1,0 +1,20 @@
+{
+  "NeedSpec": {
+    "Id": "GrilledBeetroot",
+    "BackwardCompatibleIds": [],
+    "Order": 52,
+    "NeedGroupId": "Nutrition",
+    "CharacterType": "Beaver",
+    "DisplayNameLocKey": "Good.GrilledBeetroot.PluralDisplayName",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": -0.05,
+    "ImportanceMultiplier": 1.0,
+    "DeathOnMinValue": false,
+    "DeathMessageLocKey": "",
+    "Effectiveness": 1.0,
+    "Wastable": true,
+    "FavorableWellbeing": 2
+  }
+}

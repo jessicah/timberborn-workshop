@@ -1,0 +1,10 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "Characters.LeafCoats",
+    "Paths": [
+      "Characters/Beaver/BeaverAdult",
+      "Characters/Beaver/BeaverChild",
+      "Characters/Bot/Bot.LeafCoats"
+    ]
+  }
+}

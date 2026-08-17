@@ -1,0 +1,10 @@
+{
+  "NeedCollectionSpec":
+  {
+    "Needs#append":
+    [
+      "Apples",
+      "SunflowerSeeds"
+    ]
+  }
+}

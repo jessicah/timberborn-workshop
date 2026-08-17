@@ -1,0 +1,23 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Copperclaws", "Order": 1301002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Ladder.Simple.Copperclaws",
+      "Ladder.Copperclaws",
+      "Ladder.Core.Copperclaws",
+      "Mole.Ladder.Copperclaws",
+      "SkyBridgeLadder.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Ladder.Simple.Copperclaws",
+      "Ladder.Copperclaws",
+      "Ladder.Core.Copperclaws",
+      "Mole.Ladder.Copperclaws",
+      "SkyBridgeLadder.Copperclaws"
+    ]
+  }
+}

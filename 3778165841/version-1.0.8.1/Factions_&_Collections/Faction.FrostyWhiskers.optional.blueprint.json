@@ -1,0 +1,12 @@
+{
+  "FactionSpec":
+  {
+    "BlueprintModifiers#append":
+    [
+      {
+        "Original": "Mole/PileVisuals/GoldBar.PileVisuals.blueprint",
+        "Modifier": "Mole/Mods/PileVisuals/SetGoldBar.PileVisuals.optional.blueprint"
+      }
+    ]
+  }
+}

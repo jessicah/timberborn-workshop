@@ -1,0 +1,35 @@
+{
+  "BeaverFactionSplitNeedsSpec": {
+    "Id": "Folktails",
+    "Needs": [
+      "Agora",
+      "BeaverStatue",
+      "Books",
+      "BrazierOfBonding",
+      "Bread",
+      "BulletinPole",
+      "Campfire",
+      "Carousel",
+      "Carrots",
+      "CattailCracker",
+      "ContemplationSpot",
+      "DanceHall",
+      "Detailer",
+      "EarthRecultivator",
+      "FarmerMonument",
+      "FountainOfJoy",
+      "GrilledChestnuts",
+      "GrilledPotatoes",
+      "GrilledSpadderdock",
+      "Lantern",
+      "Lido",
+      "MaplePastry",
+      "MudPit",
+      "RooftopTerrace",
+      "Scarecrow",
+      "SunflowerSeeds",
+      "WetFur",
+      "Weathervane"
+    ]
+  }
+}

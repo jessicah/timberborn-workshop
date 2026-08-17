@@ -1,0 +1,28 @@
+{
+  "GoodSpec": {
+    "Id": "FancyApples",
+    "BackwardCompatibleIds": [],
+    "DisplayNameLocKey": "Good.FancyApples.DisplayName",
+    "PluralDisplayNameLocKey": "Good.FancyApples.PluralDisplayName",
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "FancyApples",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": "#11905d",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "ForceImport": true,
+    "Icon": "Sprites/Goods/FancyApplesIcon",
+    "ContainerMaterial": ""
+  }
+}

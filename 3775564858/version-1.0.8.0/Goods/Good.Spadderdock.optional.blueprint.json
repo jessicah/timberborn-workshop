@@ -1,0 +1,15 @@
+{
+  "GoodSpec":
+  {
+		"BackwardCompatibleIds":
+    [
+      "Wares.Spadderdock.Emberpelts",
+      "Wares.Spadderdock.Folktails",
+      "Wares.Spadderdock.IronTeeth",
+      "Wares.Spadderdock.LeafCoats",
+      "Wares.Spadderdock.Whitepaws",
+      "Wares.Spadderdock.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

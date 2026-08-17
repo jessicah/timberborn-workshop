@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Nuclear",
+    "Order": 110,
+    "NameLocKey": "Toolgroup.Nuclear.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Nuclear",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Power"
+    ]
+  }
+}

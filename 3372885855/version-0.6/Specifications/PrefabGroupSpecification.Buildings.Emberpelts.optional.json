@@ -1,0 +1,7 @@
+{
+  "Id": "Buildings.Emberpelts",
+  "Paths#append": [
+    "Buildings/Housing/BreedingPod/BreedingPod.Emberpelts",
+    "Buildings/Housing/AdvancedBreedingPod/AdvancedBreedingPod.Emberpelts",
+  ]
+}

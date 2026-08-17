@@ -1,0 +1,57 @@
+{
+    "CharacterAvatarMapSpec": {
+        "AvatarMaps":
+        [
+            {
+                "TextureName": "BeaverChild1.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverChild2.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverChild3.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverChild4.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverChild5.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsChild",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedChild"
+            },
+            {
+                "TextureName": "BeaverAdult1.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult"
+            },
+            {
+                "TextureName": "BeaverAdult2.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult"
+            },
+            {
+                "TextureName": "BeaverAdult3.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult"
+            },
+            {
+                "TextureName": "BeaverAdult4.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult"
+            },
+            {
+                "TextureName": "BeaverAdult5.Emberpelts",
+                "AvatarPath": "Sprites/Avatars/EmberpeltsAdult",
+                "ContaminatedAvatarPath": "Sprites/Avatars/EmberpeltsContaminatedAdult"
+            },
+        ]
+    }
+}

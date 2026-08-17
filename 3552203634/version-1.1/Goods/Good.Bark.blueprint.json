@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Bark",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.2509804,
+      "g": 0.1882353,
+      "b": 0.1254902,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/BarkIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Bark.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Bark.PluralDisplayName"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#remove":
+    [
+      "NaturalResources/Trees/Mangrove/Mangrove.blueprint",
+      "NaturalResources/Bushes/Coffee/CoffeeBush.blueprint",
+      "NaturalResources/Crops/Canola/Canola.blueprint",
+      "NaturalResources/Crops/Cassava/Cassava.blueprint",
+      "NaturalResources/Crops/Corn/Corn.blueprint",
+      "NaturalResources/Crops/Eggplant/Eggplant.blueprint",
+      "NaturalResources/Crops/Kohlrabi/Kohlrabi.blueprint",
+      "NaturalResources/Crops/Soybean/Soybean.blueprint"
+    ],
+    "Blueprints#append":
+    [
+      "Mole/Grows/AppleTree.Mole.blueprint",
+      "Mole/Grows/MangroveTree.Mole.blueprint",
+      "Mole/Grows/CoffeePlant.Mole.blueprint",
+      "Mole/Grows/CanolaCrop.Mole.blueprint",
+      "Mole/Grows/CassavaCrop.Mole.blueprint",
+      "Mole/Grows/CornCrop.Mole.blueprint",
+      "Mole/Grows/EggplantCrop.Mole.blueprint",
+      "Mole/Grows/KohlrabiCrop.Mole.blueprint",
+      "Mole/Grows/SoybeansCrop.Mole.blueprint"
+    ]
+  }
+}

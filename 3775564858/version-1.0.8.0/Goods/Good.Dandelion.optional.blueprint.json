@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.Dandelions.Emberpelts",
+      "Wares.Dandelions.Folktails",
+      "Wares.Dandelions.IronTeeth",
+      "Wares.Dandelions.LeafCoats",
+      "Wares.Dandelions.Whitepaws",
+      "Wares.Dandelions.Common",
+      "Wares.Dandelion.Emberpelts",
+      "Wares.Dandelion.Folktails",
+      "Wares.Dandelion.IronTeeth",
+      "Wares.Dandelion.LeafCoats",
+      "Wares.Dandelion.Whitepaws",
+      "Wares.Dandelion.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

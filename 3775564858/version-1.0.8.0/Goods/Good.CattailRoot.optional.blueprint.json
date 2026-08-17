@@ -1,0 +1,21 @@
+{
+  "GoodSpec":
+  {
+    "BackwardCompatibleIds":
+    [
+      "Wares.CattailRoots.Emberpelts",
+      "Wares.CattailRoots.Folktails",
+      "Wares.CattailRoots.IronTeeth",
+      "Wares.CattailRoots.LeafCoats",
+      "Wares.CattailRoots.Whitepaws",
+      "Wares.CattailRoots.Common",
+      "Wares.CattailRoot.Emberpelts",
+      "Wares.CattailRoot.Folktails",
+      "Wares.CattailRoot.IronTeeth",
+      "Wares.CattailRoot.LeafCoats",
+      "Wares.CattailRoot.Whitepaws",
+      "Wares.CattailRoot.Common"
+    ],
+    "GoodGroupId": "Depos"
+  }
+}

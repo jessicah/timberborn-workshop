@@ -1,0 +1,38 @@
+{
+  "GoodSpec": {
+    "Id": "CerealBar",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Berries",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "SunflowerSeeds",
+        "Points": 0.1
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5698112,
+      "g": 0.3815932,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/CerealBar",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.CerealBar.DisplayName",
+    "PluralDisplayNameLocKey": "Good.CerealBar.PluralDisplayName"
+  }
+}

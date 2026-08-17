@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "Emberpelts",
+    "MaterialName": "BeaverCarryingModels",
+    "TextureEntries": [
+      {
+        "Name": "_MainTex",
+        "Path": "Materials/Textures/BeaverCarryingModels.Emberpelts"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

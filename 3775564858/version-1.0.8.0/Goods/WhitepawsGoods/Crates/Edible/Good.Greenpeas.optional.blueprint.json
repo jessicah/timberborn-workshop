@@ -1,0 +1,16 @@
+{
+  "GoodSpec": {
+    "BackwardCompatibleIds":
+    [
+      "Wares.GreenPeas.Emberpelts",
+      "Wares.GreenPeas.Folktails",
+      "Wares.GreenPeas.IronTeeth",
+      "Wares.GreenPeas.LeafCoats",
+      "Wares.GreenPeas.Whitepaws",
+      "Wares.GreenPeas.Common"
+    ],
+    "Icon": "Mole/Grows/GreenPeas",
+    "DisplayNameLocKey": "Wares.GreenPeas.Lone",
+    "PluralDisplayNameLocKey": "Wares.GreenPeas.Name"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "PlanterBuildingSpec":
+  {
+    "PlantableResourceGroup": "CarefulForester.Whitepaws"
+  },
+  "TemplateSpec":
+  {
+    "TemplateName": "CarefulForester.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+      "TreeNursery.Whitepaws",
+      "TreeNursery"
+    ]
+  }
+}

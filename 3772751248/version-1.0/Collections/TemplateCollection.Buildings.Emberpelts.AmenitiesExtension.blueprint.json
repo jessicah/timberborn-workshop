@@ -1,0 +1,13 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints": [
+      "Buildings/Decoration/Bell/Bell.Emberpelts.blueprint",
+      "Buildings/Decoration/BulletinPole/BulletinPole.Emberpelts.blueprint",
+      "Buildings/Decoration/Scarecrow/Scarecrow.Emberpelts.blueprint",
+      "Buildings/Wellbeing/Sauna/Sauna.Emberpelts.blueprint",
+      "Buildings/Wellbeing/Sauna/GeothermalSauna.Emberpelts.blueprint",
+      "Buildings/Wellbeing/Sandblaster/Sandblaster.Emberpelts.blueprint"
+    ]
+  }
+}

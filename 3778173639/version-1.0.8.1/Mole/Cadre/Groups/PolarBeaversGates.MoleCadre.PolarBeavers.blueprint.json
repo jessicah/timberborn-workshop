@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.PolarBeavers", "Order": 901008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.PolarBeavers",
+      "Tubeway.Gate.PolarBeavers",
+      "DistrictGate.PolarBeavers",
+      "DistrictGateTubeway.PolarBeavers",
+      "DecoSmallGate.PolarBeavers",
+      "SmallGate.PolarBeavers",
+      "HedgeGate.PolarBeavers",
+      "MetalGate.PolarBeavers",
+      "GoldGate.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.PolarBeavers",
+      "Tubeway.Gate.PolarBeavers",
+      "DistrictGate.PolarBeavers",
+      "DistrictGateTubeway.PolarBeavers",
+      "DecoSmallGate.PolarBeavers",
+      "SmallGate.PolarBeavers",
+      "HedgeGate.PolarBeavers",
+      "MetalGate.PolarBeavers",
+      "GoldGate.PolarBeavers"
+    ]
+  }
+}

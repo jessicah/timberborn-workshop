@@ -1,0 +1,10 @@
+{
+  "PlanterBuildingSpec":
+  {
+    "PlantableResourceGroup": "HiddenForester.FrostyWhiskers"
+  },
+  "TemplateSpec": {
+    "TemplateName": "HiddenForester.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames": [ "UnplantablePlanter.FrostyWhiskers" ]
+  }
+}

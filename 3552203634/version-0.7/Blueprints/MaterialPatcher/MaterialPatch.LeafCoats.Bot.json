@@ -1,0 +1,11 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "LeafCoats",
+    "MaterialName": "Bot.IronTeeth",
+    "TextureEntries": [
+      { "Name": "_BaseMap", "Path": "Materials/Bots/LeafCoats/Bot.LeafCoats" }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

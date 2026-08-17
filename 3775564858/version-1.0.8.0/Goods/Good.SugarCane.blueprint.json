@@ -1,0 +1,31 @@
+{
+  "GoodSpec": {
+    "Id": "SugarCane",
+    "BackwardCompatibleIds":
+    [
+      "Wares.SugarCane.Emberpelts",
+      "Wares.SugarCane.Folktails",
+      "Wares.SugarCane.IronTeeth",
+      "Wares.SugarCane.LeafCoats",
+      "Wares.SugarCane.Whitepaws",
+      "Wares.SugarCane.Common"
+    ],
+    "ConsumptionEffects":
+    [
+      { "NeedId": "Hunger", "Points": 0.3 }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": { "r": 0.8, "g": 0.0, "b": 0.0, "a": 1.0 },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 19000,
+    "Icon": "Mole/Grows/SugarCane",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Wares.SugarCane.Name",
+    "PluralDisplayNameLocKey": "Wares.SugarCane.Name"
+  }
+}

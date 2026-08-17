@@ -1,0 +1,15 @@
+{
+  "YieldCollectionNeedApplierSpec":{
+    "FactionId": "",
+    "Id": "",
+    "YieldGoodId": "",
+    "CooldownDurationInHours": 12.0,
+    "MinimumAttemptsThreshold": 5,
+    "AppliedCooldown": true,
+    "Effect": {
+      "NeedId": "",
+      "Points": 0,
+      "Probability": 0
+    }
+  }
+}

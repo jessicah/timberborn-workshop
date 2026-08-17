@@ -1,0 +1,17 @@
+{
+  "BlockObjectNavMeshSettingsSpec#delete": {},
+  "BlockObjectSpec#delete": {},
+  "BuildingAccessibleSpec#delete": {},
+  "BuildingModelSpec#delete": {},
+  "BuildingSpec#delete": {},
+  "Children#delete": {},
+  "EnterableSpec#delete": {},
+  "LabeledEntitySpec#delete": {},
+  "PathSpec#delete": {},
+  "PlaceableBlockObjectSpec#delete": {},
+  "StockpileSpec#delete": {},
+  "StockpileGoodColumnVisualizerSpec#delete": {},
+  "StockpileGoodPileVisualizerSpec#delete": {},
+  "StockpilePlaneVisualizerSpec#delete": {},
+  "TemplateSpec#delete": {}
+}

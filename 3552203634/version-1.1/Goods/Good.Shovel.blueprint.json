@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Shovel",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 2,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "Sprites/Goods/ShovelIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Shovel.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Shovel.PluralDisplayName"
+  }
+}

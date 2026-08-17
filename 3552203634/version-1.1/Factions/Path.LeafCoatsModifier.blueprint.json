@@ -1,0 +1,10 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "Path",
+    "BackwardCompatibleTemplateNames": [
+      "Path.LeafCoats"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  }
+}

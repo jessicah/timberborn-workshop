@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "SkyExploration",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Scroll",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.6754716,
+      "g": 0.223033011,
+      "b": 0.4436873,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Plan",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/SkyExploration",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.SkyExploration.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.SkyExploration.PluralDisplayName"
+  }
+}

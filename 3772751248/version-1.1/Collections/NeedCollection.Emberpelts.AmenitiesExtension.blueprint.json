@@ -1,0 +1,12 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "EmberpeltsAddons",
+    "Needs": [
+      "Bell",
+      "BulletinPole",
+      "Scarecrow",
+      "Sauna.Emberpelts",
+      "SandBlasted"
+    ]
+  }
+}

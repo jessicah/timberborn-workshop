@@ -1,0 +1,172 @@
+{
+  "Name": "Whitepaws Faction 1.0",
+  "Version": "6.3.4.1",
+  "Id": "Lapantoufleagic.WhitepawsFaction",
+  "MinimumGameVersion": "1.0.12.5",
+  "Description": "Add an entire custom faction
+  
+[h1]Follow the true beaver path, you are a beaver, your Village is your dam, and everything is a house.[/h1]
+  
+The Whitepaws do not build their dams out of levees and dam blocks, their town is their dam.
+Mostly everything is a house, and most houses are also dams.
+Arrange them correctly and you might succeed in building the grandest dam of all beaverkind
+
+Or you might starve and die of thirst because your population got out of control
+
+[h1]Youtuber Warning ![/h1]
+
+Play it for yourself off-camera first ! Also, ACTIVATE THE TUTORIAL !
+
+I've seen a few YouTubers make playthroughs of this faction, and I think it only makes good content of you already know your way around the mod. You may think it will be nice to discover it along with your audience but no, that is a terrible, terrible idea.
+Most YouTubers during their first playthrough spend a good half of the time (at BEST) stumbling around, trying to find stuff in the menus, trying to figure out where this item is made, where that one is stored etc. Trust me, it is painful to watch, that will be hell to edit, and people won't enjoy it.
+
+BUT, if you know what you're doing, know what your want to show, what you think you need to explain, and are generally used to the mod, I honestly think that makes some pretty good content.
+
+So if you wants to give make a let's play of this faction, please play it for yourself off camera first. I'd argue to go at least to the point of making and duplicating your first blueprints, possibly go as far as getting the tree nursery unlocked and build. If you manage to reliably reach that (and if course, if you enjoy playing the mod) then you're probably ripe for a nice playthrough series
+
+And for the love of god, don't play this on hard mode :/
+
+[h1]Short Guide [/h1]
+- Your population will grow to fill every available bed, but mostly everything is a house. overbuild and you will starve.
+- First thing you need to do is get food, water, and a bath or showers.
+
+- Then you need to make planks
+- Use planks to rebuild your town center (you start with a broken kart)
+- ONLY THEN can you raze the broken kart
+- This will drop an Anvil, a Library set, a Cauldron and the Chemistry glassware, thus unlocking ironworking, paparmaking, science and chemistry.
+- From then you can build the library and get access to most simple science-locked buildings like stairs and platforms and other basic industry.
+
+At this point you're mostly free. You will eventually need to unlock and build the Architect's lodge and Mechanic's lodge, they can make blueprints that unlocks larger and more efficient buildings.
+[h3]General Explanation[/h3]
+
+I started making this mod a few month before Update4, I felt the game was far too easy and unchallenging, and still is, but more importantly lacked purpose. Why are we doing all this ? Back then we coul survive on a tiny dam and carrots for all eternity, so why do more ? Well here I'll have you race against your own population that keeps growing near-uncontrollably, so you are constantly pressured to build more to unlock better stuff to get more breathing room so you have workforce to dedicate to more improvements.
+Concretely, to make the game more interesting (and challenging) the basic dam and levees are removed, but a lot of buildings are now made watertight. Arrange them into a dam whichever way you like, but they are most likely houses too so that will cause your population to expand.
+
+If a building is blocky enough to look watertight, then it most likely is. 
+
+[h1]Warning ![/h1]
+[h3]Make sure you have all the dependencies, and only the dependencies ![/h3]
+There is too many mods for me to keep track of which is compatible or not.
+
+[h3]RULE :[/h3]
+Pausing watertight buildings or keeping them disconnected to use them as dams without having to deal with the population is cheating.
+Pausing water pumps even when part of a dam during droughts is fair enough\nPausing houses that are not part of a dam is always okay.
+I'm not your mom, play as you like.
+
+[h1]Dependencies:[/h1]
+- 1x1x2Storage
+- Logstairs
+- Lapantouflemagic's TexturePack
+- Harmony
+- ModdableToolGroups
+- ModSettings
+- TimberCommons
+- Grauschweif Scriptpack
+- BobHousingOptimize / BobCommuteBalancer
+- BobingaboutScriptPack
+
+[h1]Compatible Recommended mods:[/h1]
+- Ladder
+- Pipette Tool
+- TimberUI
+- TImprove 4 UI
+- Vertical Nav Mesh
+- Power Shaft Extensions
+
+[h1]NON-Compatible:[/h1]
+- Water Extension (causes a crash when closing a valve)
+
+[h1]Special thanks, credits and contributions:[/h1]
+
+Most of the assets are derived from timberborn base game.
+Most of what is not comes from various free asset found online.
+Some of the rest are my direct creations.
+
+Curly stairs model are from Knatte's Staircaise mod.
+Ladders models are slightly modified from Tobbert's Ladder mod.
+
+Huge thanks to Wolfess for the white beaver skins and other custom textures.
+Huge thanks to Thorlak for a large number of icons.
+Huge thanks to Battery_Smooth for his custom scritps.
+Huge thanks to Bobingabout for his help in setting up some scripts and for the T-shaft intersections.
+Huge thanks to Igor for his work in Timbercommons (irrigation towers).
+Huge thanks to all of the other people who helped me with this mod, including my dedicated testers :-)
+",
+
+
+  "RequiredMods": [
+    {
+      "Id": "Lapantouflemagic.1x1x2Storage",
+      "MinimumVersion": "3.0.2"
+    },
+    {
+      "Id": "Lapantouflemagic.Logstairs",
+      "MinimumVersion": "3.0.1"
+    },
+    {
+      "Id": "Lapantouflemagic.TexturePack",
+      "MinimumVersion": "1.3.1"
+    },
+    {
+      "Id": "Harmony",
+      "MinimumVersion": "2.4.1"
+    },
+    {
+      "Id": "ModdableToolGroups",
+      "MinimumVersion": "10.4.3"
+    },
+    {
+      "Id": "eMka.ModSettings",
+      "MinimumVersion": "1.0.6.0"
+    },
+    {
+      "Id": "Timberborn.IgorZ.TimberCommons",
+      "MinimumVersion": "1.15.2"
+    },
+    {
+      "Id": "Grauschweif.Scriptpack",
+      "MinimumVersion": "1.5.5"
+    },
+    {
+      "Id": "BobCommuteBalancer",
+      "MinimumVersion": "1.0.10.0"
+    },
+    {
+      "Id": "BobingaboutScriptPack",
+      "MinimumVersion": "1.0.7.1"
+    },
+    {
+      "Id": "Tobbert.Ladder",
+      "MinimumVersion": "1.0.0.2"
+    },
+    /*
+    {
+      "Id": "TimberApi",
+      "MinimumVersion": "0.7.12.2"
+    },
+    {
+      "Id": "KnatteAnka.MoreGroups",
+      "MinimumVersion": "7.0.0"
+    },
+    {
+      "Id": "KnatteAnka.Staircase",
+      "MinimumVersion": "3.0.5"
+    },
+    {
+      "Id": "Tobbert.Ladder",
+      "MinimumVersion": "3.0.4"
+    }
+    {
+      "Id": "Lapantouflemagic.Billboards",
+      "MinimumVersion": "4.1.0"
+    },
+    {
+      "Id": "ToolFinder",
+      "MinimumVersion": "0.0.3"
+    },
+    {
+      "Id": "",
+      "MinimumVersion": "1.0.0"
+    },*/
+  ]
+}

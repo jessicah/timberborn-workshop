@@ -1,0 +1,9 @@
+{
+  "Name": "Logstairs",
+  "Version": "3.0.4",
+  "Id": "Lapantouflemagic.Logstairs",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "This mod adds crappy platforms and log stairs (3 variants).\nCan be used as decoration or when you're low on planks.",
+  "RequiredMods": [
+  ]
+}

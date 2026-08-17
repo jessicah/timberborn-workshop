@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Emberpelts", "Order": 321000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Emberpelts",
+      "GravityBattery.TreeTrunk.Emberpelts",
+      "GravityBattery.TreeTrunk2.Emberpelts",
+      "SmallFlywheel.Emberpelts",
+      "SmallHorizontalFramedFlywheel.Emberpelts",
+      "SmallVerticalFramedFlywheel.Emberpelts",
+      "MediumFlywheel.Emberpelts",
+      "MediumHorizontalFramedFlywheel.Emberpelts",
+      "MediumVerticalFramedFlywheel.Emberpelts",
+      "LargeFlywheel.Emberpelts",
+      "LargeHorizontalFramedFlywheel.Emberpelts",
+      "LargeVerticalFramedFlywheel.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Emberpelts",
+      "GravityBattery.TreeTrunk.Emberpelts",
+      "GravityBattery.TreeTrunk2.Emberpelts",
+      "SmallFlywheel.Emberpelts",
+      "SmallHorizontalFramedFlywheel.Emberpelts",
+      "SmallVerticalFramedFlywheel.Emberpelts",
+      "MediumFlywheel.Emberpelts",
+      "MediumHorizontalFramedFlywheel.Emberpelts",
+      "MediumVerticalFramedFlywheel.Emberpelts",
+      "LargeFlywheel.Emberpelts",
+      "LargeHorizontalFramedFlywheel.Emberpelts",
+      "LargeVerticalFramedFlywheel.Emberpelts"
+    ]
+  }
+}

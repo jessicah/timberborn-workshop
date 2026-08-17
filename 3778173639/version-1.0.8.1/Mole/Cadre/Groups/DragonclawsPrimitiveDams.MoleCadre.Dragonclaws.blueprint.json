@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.Dragonclaws", "Order": 1004000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.Dragonclaws",
+      "PrimitiveDam3x2Upgrade.Dragonclaws",
+      "PrimitiveDam3x3.Dragonclaws",
+      "PrimitiveDam3x3Upgrade.Dragonclaws",
+      "PrimitiveDam3x3Utility.Dragonclaws",
+      "PrimitiveDam3x3UtilityUpgrade.Dragonclaws",
+      "PrimitiveDam3x3Variant.Dragonclaws",
+      "PrimitiveDam3x3VariantUpgrade.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.Dragonclaws",
+      "PrimitiveDam3x2Upgrade.Dragonclaws",
+      "PrimitiveDam3x3.Dragonclaws",
+      "PrimitiveDam3x3Upgrade.Dragonclaws",
+      "PrimitiveDam3x3Utility.Dragonclaws",
+      "PrimitiveDam3x3UtilityUpgrade.Dragonclaws",
+      "PrimitiveDam3x3Variant.Dragonclaws",
+      "PrimitiveDam3x3VariantUpgrade.Dragonclaws"
+    ]
+  }
+}

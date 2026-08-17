@@ -1,0 +1,35 @@
+{
+	"Children":
+	{
+		"Frame":
+		{
+			"TimbermeshSpec": { "Model": "MapEditor/Water/WaterSource/WaterSource.Model" },
+			"TransformSpec":
+			{
+				"Position": { "X": 0.45, "Y": 0.0, "Z": 0.0 },
+				"Scale": { "X": 0.1, "Y": 1.0, "Z": 1.0 }
+			}
+		},
+		"Side1":
+		{
+			/* Placeholder indicating not overwritten yet */
+			"TimbermeshSpec": { "Model": "MapEditor/Objects/Blockage/Blockage.Model" },
+			"TransformSpec":
+			{
+				"Rotation": { "X": 0.0, "Y": 0.0, "Z": 90.0 },
+				"Position": { "X": 0.45, "Y": 0.0, "Z": 0.0 },
+				"Scale": { "X": 1.0, "Y": 0.2, "Z": 1.0 }
+			}
+		},
+		"Side2":
+		{
+			"TimbermeshSpec": { "Model": "MapEditor/Objects/Blockage/Blockage.Model" },
+			"TransformSpec":
+			{
+				"Rotation": { "X": 0.0, "Y": 0.0, "Z": -90.0 },
+				"Position": { "X": 0.55, "Y": 1.0, "Z": 0.0 },
+				"Scale": { "X": 1.0, "Y": 0.2, "Z": 1.0 }
+			}
+		}
+	}
+}

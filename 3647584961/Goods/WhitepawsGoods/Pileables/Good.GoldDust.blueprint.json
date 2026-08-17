@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "GoldDust",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "GoldDust",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 0.932075441,
+      "g": 0.871017456,
+      "b": 0.258519024,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10105,
+    "Icon": "sprites/Whitepaws Sprites/Goods/GoldDust",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.GoldDust.DisplayName",
+    "PluralDisplayNameLocKey": "Good.GoldDust.PluralDisplayName"
+  }
+}

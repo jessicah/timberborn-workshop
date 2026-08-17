@@ -1,0 +1,14 @@
+{
+  "MaterialPatchSpec": {
+    "FactionID": "LeafCoats",
+    "MaterialName": "ZiplineCable",
+    "TextureEntries": [
+      {
+        "Name": "_MainTex",
+        "Path": "Materials/Textures/ZiplineCable.LeafCoats"
+      }
+    ],
+    "ColorEntries": [],
+    "NumberEntries": []
+  }
+}

@@ -1,0 +1,38 @@
+﻿ID,Text,Comment
+LV.T4UI.ScrollableEntityPanel,"Scrollable Entity Panel",
+LV.T4UI.ScrollableEntityPanelDesc,"Add a scroll bar to the entity panel (the panel on the right).
+Useful when you have many mods that add stuff to it.",
+LV.T4UI.RemovePathHighlight,"Remove Path Highlight",
+LV.T4UI.RemovePathHighlightDesc,"Paths are no longer highlighted when you select a building. You can still see it when selecting a path",
+LV.T4UI.ToolDescPos,"Tool description location",
+LV.T4UI.ToolDescPosDesc,"Choose a location for the tool description panel (the one in the middle when you are building). Game default: center.",
+LV.T4UI.ToolDescPosLeft,"Left",
+LV.T4UI.ToolDescPosCenter,"Center",
+LV.T4UI.ToolDescPosRight,"Right",
+LV.T4UI.AutoExpandCounter,"Auto-expand material counters",
+LV.T4UI.AutoExpandCounterDesc,"Close all material counters (top-left corner) on start.
+Automatically expand any closed counter when you hover over them.",
+LV.T4UI.NeverHideCounter,"Never hide unlocked counters",
+LV.T4UI.NeverHideCounterDesc,"Never hide unlocked material counters even when you have 0 of that material.",
+LV.T4UI.HighlightSimilar,"Highlight similar objects",
+LV.T4UI.HighlightSimilarDesc,"When you select an object, all objects of the same type will be highlighted.",
+LV.T4UI.HighlightSimilarColor,"Highlight similar objects color",
+LV.T4UI.HighlightSimilarColorDesc,"Color of the highlight for similar objects.",
+LV.T4UI.HighlightTubeway,"Highlight Tubeway path",
+LV.T4UI.HighlightTubewayDesc,"Highlight all the connected Tubeways when you select a Tubeway.
+This is useful to see the whole path of a Tubeway when you select it.",
+LV.T4UI.HighlightStorage,"Highlight & Select Material Buildings",
+LV.T4UI.HighlightStorageDesc,"Hover over a material counter to highlight all buildings that are containing that material.
+Clicking it will cycle through those buildings.
+Holding Alternate key (default: Shift) to cycle through them in selecting district only.",
+LV.T4UI.DisableShadows,"Disable shadows",
+LV.T4UI.DisableShadowsDesc,"Disable shadows from the sun.",
+LV.T4UI.AddNegativeNeeds,"Add buildings' debuff info",
+LV.T4UI.AddNegativeNeedsDesc,"For example, Injury or Bee Sting chance.",
+LV.T4UI.ExitToMenu,"Exit to menu",
+LV.T4UI.ShowDisablePauseIcon,"Show disable pause icon option",
+LV.T4UI.ShowDisablePauseIconDesc,"Show an option to disable the floating icon on paused buildings",
+LV.T4UI.DisablePauseIcon,"Disable pause icons on all {0}",
+LV.T4UI.AutoCollapseManagementGroups,"Auto-collapse management groups",
+LV.T4UI.AutoCollapseManagementGroupsDesc,"When opening the management panel, automatically collapse all groups (like Population, Workplaces, etc.)",
+LV.T4UI.Update7_10_2,"This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings.",

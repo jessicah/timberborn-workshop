@@ -1,0 +1,91 @@
+#include <defines.h>
+{
+  TOGROUP(05000,WoodenReservoirs),
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      TOTOOL(Dam),
+      TOTOOL(Mole.Dam),
+      TOTOOL(PowerDam),
+
+      TOTOOL(FloodgateDam),
+      TOTOOL(Floodgate),
+      TOTOOL(DoubleFloodgate),
+      TOTOOL(TripleFloodgate),
+      TOTOOL(FloodgateDam),
+      TOTOOL(Floodgate1),
+      TOTOOL(Floodgate2),
+      TOTOOL(Floodgate3),
+      TOTOOL(Floodgate4),
+      TOTOOL(Floodgate5),
+      TOTOOL(Floodgate6),
+      TOTOOL(Floodgate7),
+      TOTOOL(Floodgate8),
+      TOTOOL(Floodgate9),
+      TOTOOL(Floodgate10),
+      TOTOOL(Floodgate.Flat),
+      TOTOOL(DoubleFloodgate.Flat),
+      TOTOOL(TripleFloodgate.Flat),
+
+      TOTOOL(Levee),
+      TOTOOL(Mole.Levee),
+      TOTOOL(LogLevee),
+      TOTOOL(LogLevee2),
+      TOTOOL(Levee.Curved),
+      TOTOOL(TubewayLevee),
+      TOTOOL(PowerLevee),
+      TOTOOL(UPowerLevee),
+      TOTOOL(DD_DiagonalW)
+    ],
+    "ChildrenGroupsIds":
+    [
+      TOID(WoodenDamSolidLining1xN),
+      TOID(WoodenDamSolidLining2xN),
+      TOID(WoodenDamSolidLining3xN),
+      TOID(WoodenDamDecor)
+    ],
+    "ChildrenOrderedIds":
+    [
+      TOTOOL(Dam),
+      TOTOOL(Mole.Dam),
+      TOTOOL(PowerDam),
+
+      TOTOOL(FloodgateDam),
+      TOTOOL(Floodgate),
+      TOTOOL(DoubleFloodgate),
+      TOTOOL(TripleFloodgate),
+      TOTOOL(FloodgateDam),
+      TOTOOL(Floodgate1),
+      TOTOOL(Floodgate2),
+      TOTOOL(Floodgate3),
+      TOTOOL(Floodgate4),
+      TOTOOL(Floodgate5),
+      TOTOOL(Floodgate6),
+      TOTOOL(Floodgate7),
+      TOTOOL(Floodgate8),
+      TOTOOL(Floodgate9),
+      TOTOOL(Floodgate10),
+      TOTOOL(Floodgate.Flat),
+      TOTOOL(DoubleFloodgate.Flat),
+      TOTOOL(TripleFloodgate.Flat),
+
+      TOTOOL(Levee),
+      TOTOOL(Mole.Levee),
+      TOTOOL(LogLevee),
+      TOTOOL(LogLevee2),
+      TOTOOL(Levee.Curved),
+      TOTOOL(TubewayLevee),
+      TOTOOL(PowerLevee),
+      TOTOOL(UPowerLevee),
+
+      TOTOOL(DD_DiagonalW),
+
+      TOID(WoodenDamSolidLining1xN),
+      TOID(WoodenDamSolidLining2xN),
+      TOID(WoodenDamSolidLining3xN),
+      TOID(WoodenDamDecor)
+    ]
+  }
+}

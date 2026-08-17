@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "TreeBuildings",
+    "Order": 6,
+    "NameLocKey": "ToolGroups.TreeBuildings",
+    "Icon": "Sprites/BottomBar/BuildingGroups/TreeBuildings",
+    "FallbackGroup": false
+  }
+}

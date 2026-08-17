@@ -1,0 +1,40 @@
+{
+  "GoodSpec":
+  {
+    "Id": "GreenGrapes",
+    "BackwardCompatibleIds":
+    [
+      "Wares.GreenGrapes.Emberpelts",
+      "Wares.GreenGrapes.Folktails",
+      "Wares.GreenGrapes.IronTeeth",
+      "Wares.GreenGrapes.LeafCoats",
+      "Wares.GreenGrapes.Whitepaws",
+      "Wares.GreenGrapes.Common",
+      "Wares.GreenGrape.Emberpelts",
+      "Wares.GreenGrape.Folktails",
+      "Wares.GreenGrape.IronTeeth",
+      "Wares.GreenGrape.LeafCoats",
+      "Wares.GreenGrape.Whitepaws",
+      "Wares.GreenGrape.Common"
+    ],
+    "ConsumptionEffects":
+    [
+      { "NeedId": "Hunger", "Points": 0.3 },
+      { "NeedId": "Grapes", "Points": 0.2 },
+      { "NeedId": "GreenGrapes", "Points": 0.2 }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": { "r": 0.5, "g": 0.1, "b": 0.4, "a": 1.0 },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "Mole/Grows/GreenGrapes",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Wares.GreenGrapes.Name",
+    "PluralDisplayNameLocKey": "Wares.GreenGrapes.Name",
+  }
+}

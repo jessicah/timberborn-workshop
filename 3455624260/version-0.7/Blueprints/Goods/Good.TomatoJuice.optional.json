@@ -1,0 +1,9 @@
+{
+  "GoodSpec": {
+    "ConsumptionEffects": [
+      {"NeedId": "Thirst","Points": 0.33},
+      {"NeedId": "Juice","Points": 0.2},
+      {"NeedId": "TomatoJuice","Points": 0.2}
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "FactionSpec":
+  {
+    "Logo": "Factions/FrostyWhiskers/Symbol.FrostyWhiskers",
+    "NewGameFullAvatar": "Factions/FrostyWhiskers/NewGameAvatar.FrostyWhiskers",
+    "MaterialCollectionIds#append": [ "Lapantou", "Listamole.FrostyWhiskers" ],
+    "GoodCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "NeedCollectionIds#append": [ "Listamole.FrostyWhiskers" ],
+    "TemplateCollectionIds#append":
+    [
+      "Listamole.FrostyWhiskers",
+      "Actors.FrostyWhiskers",
+      "Cadre.FrostyWhiskers",
+      "Editing.FrostyWhiskers",
+      "Effects.FrostyWhiskers",
+      "Grows.FrostyWhiskers",
+      "Parts.FrostyWhiskers",
+      "Rides.FrostyWhiskers"
+    ]
+  }
+}

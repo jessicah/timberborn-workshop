@@ -1,0 +1,21 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients#append":
+		[
+			{ "Amount": 5, "Id": "Radish" },
+			{ "Amount": 5, "Id": "Tomato" },
+			{ "Amount": 5, "Id": "Apple" },
+			{ "Amount": 5, "Id": "GrilledCorn" },
+			{ "Amount": 5, "Id": "GrilledPepper" },
+			{ "Amount": 5, "Id": "ApplePie" },
+			{ "Amount": 5, "Id": "Cornbread" },
+			{ "Amount": 5, "Id": "BakedBeetroot" },
+			{ "Amount": 5, "Id": "StuffedPepper" },
+			{ "Amount": 5, "Id": "AppleJuice" },
+			{ "Amount": 5, "Id": "TomatoJuice" },
+			{ "Amount": 5, "Id": "RedJuice" },
+			{ "Amount": 5, "Id": "CornJuice" }
+		]
+	}
+}

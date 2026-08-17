@@ -1,0 +1,175 @@
+{
+  "GoodCollectionSpec": {
+    "CollectionId": "Whitepaws",
+    "Goods": [
+
+    // Fruits & drinks
+
+      "Grapes",
+      "Banana",
+      "Coconut",
+      "Apple_WP",
+      "FruitParfait",
+      
+    //Foods
+
+      "Cabbage",
+      "Mushrooms",
+      "Pumpkin",
+      "Greenpeas",
+      "SunflowerSeeds",
+      "Chestnut",
+      "Nenuphar",
+      "FriedPumpkinChips",
+      "ForeignFood",
+
+    // Cooked foods
+
+      "OnigiriSalt",
+      "CerealBar",
+
+    // Possessions
+
+      "ComicBooks",
+      "Toys",
+      "Sandals",
+      "Satchel",
+      "Tools",
+      "Pillow",
+      "Shellnecklace",
+
+    // medical supplies
+    
+      "FrostBalm",
+      "Antibiotics",
+      "SurgeryKits",
+      "Cure",
+
+
+    //Other stuff
+
+      "Anvil",
+      "Drillbits",
+      "ChemistrySet",
+      "Educativebooks",
+      "ClayPot",
+      "MediumCauldron",
+      "Processor",
+      "ClockWorkController",
+      "Steelsawblade",
+      "GiantLog",
+      "GiantHalfLog",
+      "LyophilizedArtificialNaturalDirtBlock",
+
+      "MintEssence",
+      "Methane",
+      "Hydrogen",
+
+    //No Neeed Attached
+      "BadShrooms",
+      "Balloon",
+      "BrainSalts",
+      "Clay",
+      "ExoticSeeds",
+      "FrozenHumanMeat",
+      "HoomanRelic",
+      "IceBlock",
+      "InsectLarva",
+      "Librarybooks",
+      "Lotus_Flower",
+      "MeanFlower",
+      "Metalfixation",
+      "MintyBambooShoot",
+      "NuclearFuel",
+      "NuclearWaste",
+      "Pencils",
+      "PlantFibers",
+      "Quartz",
+      "RobotParts",
+      "Rope",
+      "Scaffolding",
+      "Seashells",
+      "Paper",
+
+
+    // Liquids
+    
+      "Berryjuice",
+      "GrapeJuice",
+      "Amazake",
+      "LotusTea",
+      "ChestnutBeer",
+      "Wine",
+      "RedSoda",
+
+      "Kimchi",
+      "BraisedCabbage",
+      "FriedRice",
+      "GreenStew",
+      "ChestnutStew",
+      "Deluxestew",
+      "Awfulstew",
+
+      "Alcohol",
+      "Sunfloweroil",
+      "Nitroglycerin",
+      "Tar",
+      "Glowfluid",
+      "BetterMedicine",
+
+
+    // Pileables
+    
+      "Coal",
+      "Crudesawblade",
+      "GlassPane",
+      "GoldBar",
+      "GoldDust",
+      "Ironore",
+      "Rock",
+      "Salt",
+      "Saltpeter",
+      "Sawdust",
+      "Screwaxle",
+      "SiliconMetal",
+      "SolarCell",
+
+      "Rice",
+
+    // diplomas etc
+
+      "RuinExploration",
+      "SkyExploration",
+      
+      "SAquiferPumpBlueprint",
+      "SAquiferPumpBlueprintStar",
+      "ZiplineSystemBlueprint",
+      "ZiplineSystemBlueprintStar",
+      "LargeFarmhouseBlueprint",
+      "LargeFarmhouseBlueprintOriginal",
+      "FloodgateDamBlueprint",
+      "FloodgateDamBlueprintStar",
+      "SFITBBlueprint",
+      "SFITBBlueprintStar",
+      "WashingMachineBlueprint", 
+      "WashingMachineBlueprintOriginal",
+      "GiantLogDamBlueprint",
+      "GiantLogDamBlueprintStar",
+      "WaterWheelBlueprintOriginal",
+      "WaterWheelBlueprint",
+      "ENSBlueprintBlue",
+      "ENSBlueprintBlueStar",
+      "ENSBlueprintGreen",
+      "ENSBlueprintGreenStar",
+
+      "BachelorInHoomanities",
+      "BachelorInAgronomy",
+      "MasterInMetallurgy",
+      "NursingLicense",
+      "PhDInNuclearPhysics",
+      "PhDInRobotics",
+      "PilotsLicense",
+
+    ]
+  }
+}

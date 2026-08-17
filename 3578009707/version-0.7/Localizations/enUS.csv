@@ -1,0 +1,6 @@
+ID,Text,Comment
+LV.MT.ActiveEffects,"Active effects",
+LV.MT.ActiveEffect,"• <b>{0}</b>
+{1}",
+LV.MT.ActiveEffectTime,"{0:0.00}d remaining",
+Name_EntityEffectDescriberFragment,"Active effects",
