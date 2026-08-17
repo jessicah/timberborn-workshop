@@ -25,7 +25,7 @@
     "MinSpeedMultiplier": 0.0
   },
   "TemplateSpec": {
-    "TemplateName": "VerticalPowerShaft.Folktails",
+    "TemplateName": "VerticalPowerShaft.Whitepaws",
     "BackwardCompatibleTemplateNames": [
       "PowerShaftTurn.Whitepaws"
     ],
