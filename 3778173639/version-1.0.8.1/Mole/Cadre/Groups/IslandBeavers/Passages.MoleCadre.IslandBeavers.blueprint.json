@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.IslandBeavers", "Order": 1001009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.IslandBeavers",
+      "TE_Tunnel_1L.IslandBeavers",
+      "TE_Tunnel_2L.IslandBeavers",
+      "TE_Tunnel_3L.IslandBeavers",
+      "TE_Tunnel_4L.IslandBeavers",
+      "TE_Tunnel_5L.IslandBeavers",
+      "TE_Tunnel_6L.IslandBeavers",
+      "TE_Tunnel_7L.IslandBeavers",
+      "TE_Tunnel_8L.IslandBeavers",
+      "TE_Tunnel_9L.IslandBeavers",
+      "TE_Tunnel_10L.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.IslandBeavers",
+      "TE_Tunnel_1L.IslandBeavers",
+      "TE_Tunnel_2L.IslandBeavers",
+      "TE_Tunnel_3L.IslandBeavers",
+      "TE_Tunnel_4L.IslandBeavers",
+      "TE_Tunnel_5L.IslandBeavers",
+      "TE_Tunnel_6L.IslandBeavers",
+      "TE_Tunnel_7L.IslandBeavers",
+      "TE_Tunnel_8L.IslandBeavers",
+      "TE_Tunnel_9L.IslandBeavers",
+      "TE_Tunnel_10L.IslandBeavers"
+    ]
+  }
+}

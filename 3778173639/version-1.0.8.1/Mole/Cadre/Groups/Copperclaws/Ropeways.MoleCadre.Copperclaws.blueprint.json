@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Copperclaws", "Order": 1501003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Copperclaws",
+      "SuspensionBridge2x1.Copperclaws",
+      "SuspensionBridge3x1.Copperclaws",
+      "SuspensionBridge4x1.Copperclaws",
+      "SuspensionBridge5x1.Copperclaws",
+      "SuspensionBridge6x1.Copperclaws",
+      "SuspensionBridge7x1.Copperclaws",
+      "SuspensionBridge8x1.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Copperclaws",
+      "SuspensionBridge2x1.Copperclaws",
+      "SuspensionBridge3x1.Copperclaws",
+      "SuspensionBridge4x1.Copperclaws",
+      "SuspensionBridge5x1.Copperclaws",
+      "SuspensionBridge6x1.Copperclaws",
+      "SuspensionBridge7x1.Copperclaws",
+      "SuspensionBridge8x1.Copperclaws"
+    ]
+  }
+}

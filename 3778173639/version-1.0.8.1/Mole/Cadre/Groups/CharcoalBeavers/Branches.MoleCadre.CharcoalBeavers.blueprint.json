@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Branches.MoleCadre.CharcoalBeavers", "Order": 601006, "NameLocKey": "Group.Branches", "Icon": "Mole/Cadre/Branches", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Bridge1x1.CharcoalBeavers",
+      "Branch.Bridge2x1.CharcoalBeavers",
+      "Branch.Bridge3x1.CharcoalBeavers",
+      "Branch.Bridge4x1.CharcoalBeavers",
+      "Branch.Bridge5x1.CharcoalBeavers",
+      "Branch.Bridge6x1.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Branch.Bridge1x1.CharcoalBeavers",
+      "Branch.Bridge2x1.CharcoalBeavers",
+      "Branch.Bridge3x1.CharcoalBeavers",
+      "Branch.Bridge4x1.CharcoalBeavers",
+      "Branch.Bridge5x1.CharcoalBeavers",
+      "Branch.Bridge6x1.CharcoalBeavers"
+    ]
+  }
+}

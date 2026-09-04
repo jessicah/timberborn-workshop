@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.Whitepaws", "Order": 702009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Whitepaws",
+      "TreeTrunk.Side.Branch.Whitepaws",
+      "TreeTrunk.Side.Whitepaws",
+      "TreeTrunk.Corner.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

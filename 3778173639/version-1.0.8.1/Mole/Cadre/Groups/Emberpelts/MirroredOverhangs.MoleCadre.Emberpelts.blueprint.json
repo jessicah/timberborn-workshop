@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MirroredOverhangs.MoleCadre.Emberpelts", "Order": 402005, "NameLocKey": "Group.MirroredOverhangs", "Icon": "Mole/Cadre/MirroredOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang2x1.Centered.Emberpelts",
+      "Overhang3x1.Centered.Emberpelts",
+      "Overhang4x1.Centered.Emberpelts",
+      "Overhang5x1.Centered.Emberpelts",
+      "Overhang6x1.Centered.Emberpelts",
+      "Overhang7x1.Centered.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang2x1.Centered.Emberpelts",
+      "Overhang3x1.Centered.Emberpelts",
+      "Overhang4x1.Centered.Emberpelts",
+      "Overhang5x1.Centered.Emberpelts",
+      "Overhang6x1.Centered.Emberpelts",
+      "Overhang7x1.Centered.Emberpelts"
+    ]
+  }
+}

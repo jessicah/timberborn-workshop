@@ -1,0 +1,71 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      // TODO migrate to use Common variants
+      "Buildings.Grauschweif.Folktails",
+      // might only want the yellow?
+      "Buildings.Grauschweif.IronTeeth",
+      // might only want the indigo and brown?
+      "Buildings.Grauschweif.Whitepaws"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "buildings/decoration/lantern/stonelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/stonesquarelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/lantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/Lantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/smalllantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/SmallLantern.Grauschweif.Folktails.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/paperlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/PaperLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/fairylights.grauschweif.blueprint",
+        "Modifier": "Modifiers/FairyLights.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festiveclantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveCLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivedlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveDLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivexlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveXLantern.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/gate/hugegate.grauschweif.common.blueprint",
+        "Modifier": "Modifiers/HugeGate.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/gate/hugegate.grauschweif.blueprint",
+        "Modifier": "Modifiers/HugeGate.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/gate/mediumgate.grauschweif.blueprint",
+        "Modifier": "Modifiers/MediumGate.Grauschweif.Whitepaws.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/waterdecoration/waterplant.grauschweif.blueprint",
+        "Modifier": "Modifiers/BuildingCost.WaterPlant.Grauschweif.Whitepaws.Modifier.blueprint"
+      }
+    ]
+  }
+}

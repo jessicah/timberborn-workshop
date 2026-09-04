@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboNecklace",
+  "DisplayLocKey": "Good.Shellnecklace.PluralDisplayName",
+  "CycleDurationInHours": 4,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "Seashells",
+      "Amount": 40
+    },{
+      "Id": "Quartz",
+      "Amount": 12
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Shellnecklace",
+      "Amount": 40
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Shellnecklace",
+
+	"BackwardCompatibleIds": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.FrostyWhiskers", "Order": 802003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.FrostyWhiskers",
+      "LargeMetalPlatform.FrostyWhiskers",
+      "MetalPlatform1x1.FrostyWhiskers",
+      "MetalPlatform3x3.FrostyWhiskers",
+      "MetalPlatform5x3.FrostyWhiskers",
+      "MetalPlatform5x5.FrostyWhiskers",
+      "MetalPlatform7x7.FrostyWhiskers",
+      "MetalPlatform3x3.Ladder.FrostyWhiskers",
+      "MetalPlatform5x5.Ladder.FrostyWhiskers",
+      "MetalPlatform7x7.Ladder.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.FrostyWhiskers",
+      "LargeMetalPlatform.FrostyWhiskers",
+      "MetalPlatform1x1.FrostyWhiskers",
+      "MetalPlatform3x3.FrostyWhiskers",
+      "MetalPlatform5x3.FrostyWhiskers",
+      "MetalPlatform5x5.FrostyWhiskers",
+      "MetalPlatform7x7.FrostyWhiskers",
+      "MetalPlatform3x3.Ladder.FrostyWhiskers",
+      "MetalPlatform5x5.Ladder.FrostyWhiskers",
+      "MetalPlatform7x7.Ladder.FrostyWhiskers"
+    ]
+  }
+}

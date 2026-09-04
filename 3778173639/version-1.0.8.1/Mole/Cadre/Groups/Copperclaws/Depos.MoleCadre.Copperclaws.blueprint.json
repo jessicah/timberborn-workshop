@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Copperclaws", "Order": 1519000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Copperclaws",
+      "Pit-and-LadderLodge_BoxStorage.Copperclaws",
+      "GloriousStorage.Copperclaws",
+      "SmallWarehouse.Copperclaws",
+      "SmallAquaDepo.Copperclaws.Mole",
+      "LongWarehouse.Copperclaws",
+      "PitWarehouse.Copperclaws",
+      "Warehouse.Copperclaws",
+      "MediumWarehouse.Copperclaws",
+      "BasicAquaDepo.Copperclaws.Mole",
+      "LargeWarehouse.Copperclaws",
+      "LargeAquaDepo.Copperclaws.Mole",
+      "GigargantuanWarehouse.Copperclaws",
+      "UndergroundWarehouse.Copperclaws",
+      "BuriedAquaDepo.Copperclaws.Mole",
+      "LargeUndergroundWarehouse.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Copperclaws",
+      "Pit-and-LadderLodge_BoxStorage.Copperclaws",
+      "GloriousStorage.Copperclaws",
+      "SmallWarehouse.Copperclaws",
+      "SmallAquaDepo.Copperclaws.Mole",
+      "LongWarehouse.Copperclaws",
+      "PitWarehouse.Copperclaws",
+      "Warehouse.Copperclaws",
+      "MediumWarehouse.Copperclaws",
+      "BasicAquaDepo.Copperclaws.Mole",
+      "LargeWarehouse.Copperclaws",
+      "LargeAquaDepo.Copperclaws.Mole",
+      "GigargantuanWarehouse.Copperclaws",
+      "UndergroundWarehouse.Copperclaws",
+      "BuriedAquaDepo.Copperclaws.Mole",
+      "LargeUndergroundWarehouse.Copperclaws"
+    ]
+  }
+}

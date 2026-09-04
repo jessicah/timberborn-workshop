@@ -1,0 +1,14 @@
+{
+	/* Stored here to follow standard set for optional factions */
+	"NeedCollectionSpec": { "CollectionId": "TNF.Folktails", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.Folktails" ],
+		"GoodCollectionIds#append": [ "TNF.Folktails" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.Folktails",
+			"NaturalResources.TNF.Folktails"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "Folktails",
+    "Needs#append": [
+      "Campfire",
+      "Lantern",
+      "RooftopTerrace",
+      "Shrub",
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.IronTeeth", "Order": 303000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.IronTeeth",
+      "DoublePlatform.IronTeeth",
+      "TriplePlatform.IronTeeth",
+      "TreeTrunk.Platform.IronTeeth",
+      "TreeTrunk.DoublePlatform.IronTeeth",
+      "TreeTrunk.TriplePlatform.IronTeeth"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.IronTeeth",
+      "MetalPillars.MoleCadre.IronTeeth",
+      "TreeBits.MoleCadre.IronTeeth",
+      "Overhangs.MoleCadre.IronTeeth",
+      "MirroredOverhangs.MoleCadre.IronTeeth",
+      "ArchOverhangs.MoleCadre.IronTeeth",
+      "MetalPlatforms.MoleCadre.IronTeeth",
+      "OtherPlatforms.MoleCadre.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.IronTeeth",
+      "DoublePlatform.IronTeeth",
+      "TriplePlatform.IronTeeth",
+      "TreeTrunk.Platform.IronTeeth",
+      "TreeTrunk.DoublePlatform.IronTeeth",
+      "TreeTrunk.TriplePlatform.IronTeeth",
+      "Pillars.MoleCadre.IronTeeth",
+      "MetalPillars.MoleCadre.IronTeeth",
+      "TreeBits.MoleCadre.IronTeeth",
+      "Overhangs.MoleCadre.IronTeeth",
+      "MirroredOverhangs.MoleCadre.IronTeeth",
+      "ArchOverhangs.MoleCadre.IronTeeth",
+      "MetalPlatforms.MoleCadre.IronTeeth",
+      "OtherPlatforms.MoleCadre.IronTeeth"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Copperclaws", "Order": 1526000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Copperclaws",
+      "LaborerMonument.Copperclaws",
+      "BrazierOfBonding.Copperclaws",
+      "FlameOfUnity.Copperclaws",
+      "FountainOfJoy.Copperclaws",
+      "PublicFountain.Copperclaws",
+      "TributeToIngenuity.Copperclaws",
+      "HallOfAbundance.Copperclaws",
+      "ArchOfProgress.Copperclaws",
+      "EarthRecultivator.Copperclaws",
+      "EarthRepopulator.Copperclaws",
+      "WonderOfFire.Copperclaws",
+      "Wonder.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Copperclaws",
+      "LaborerMonument.Copperclaws",
+      "BrazierOfBonding.Copperclaws",
+      "FlameOfUnity.Copperclaws",
+      "FountainOfJoy.Copperclaws",
+      "PublicFountain.Copperclaws",
+      "TributeToIngenuity.Copperclaws",
+      "HallOfAbundance.Copperclaws",
+      "ArchOfProgress.Copperclaws",
+      "EarthRecultivator.Copperclaws",
+      "EarthRepopulator.Copperclaws",
+      "WonderOfFire.Copperclaws",
+      "Wonder.Copperclaws"
+    ]
+  }
+}

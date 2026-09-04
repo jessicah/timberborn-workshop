@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.IslandBeavers", "Order": 1019000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.IslandBeavers",
+      "Pit-and-LadderLodge_BoxStorage.IslandBeavers",
+      "GloriousStorage.IslandBeavers",
+      "SmallWarehouse.IslandBeavers",
+      "SmallAquaDepo.IslandBeavers.Mole",
+      "LongWarehouse.IslandBeavers",
+      "PitWarehouse.IslandBeavers",
+      "Warehouse.IslandBeavers",
+      "MediumWarehouse.IslandBeavers",
+      "BasicAquaDepo.IslandBeavers.Mole",
+      "LargeWarehouse.IslandBeavers",
+      "LargeAquaDepo.IslandBeavers.Mole",
+      "GigargantuanWarehouse.IslandBeavers",
+      "UndergroundWarehouse.IslandBeavers",
+      "BuriedAquaDepo.IslandBeavers.Mole",
+      "LargeUndergroundWarehouse.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.IslandBeavers",
+      "Pit-and-LadderLodge_BoxStorage.IslandBeavers",
+      "GloriousStorage.IslandBeavers",
+      "SmallWarehouse.IslandBeavers",
+      "SmallAquaDepo.IslandBeavers.Mole",
+      "LongWarehouse.IslandBeavers",
+      "PitWarehouse.IslandBeavers",
+      "Warehouse.IslandBeavers",
+      "MediumWarehouse.IslandBeavers",
+      "BasicAquaDepo.IslandBeavers.Mole",
+      "LargeWarehouse.IslandBeavers",
+      "LargeAquaDepo.IslandBeavers.Mole",
+      "GigargantuanWarehouse.IslandBeavers",
+      "UndergroundWarehouse.IslandBeavers",
+      "BuriedAquaDepo.IslandBeavers.Mole",
+      "LargeUndergroundWarehouse.IslandBeavers"
+    ]
+  }
+}

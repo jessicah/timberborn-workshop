@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.CharcoalBeavers", "Order": 619000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.CharcoalBeavers",
+      "Pit-and-LadderLodge_BoxStorage.CharcoalBeavers",
+      "GloriousStorage.CharcoalBeavers",
+      "SmallWarehouse.CharcoalBeavers",
+      "SmallAquaDepo.CharcoalBeavers.Mole",
+      "LongWarehouse.CharcoalBeavers",
+      "PitWarehouse.CharcoalBeavers",
+      "Warehouse.CharcoalBeavers",
+      "MediumWarehouse.CharcoalBeavers",
+      "BasicAquaDepo.CharcoalBeavers.Mole",
+      "LargeWarehouse.CharcoalBeavers",
+      "LargeAquaDepo.CharcoalBeavers.Mole",
+      "GigargantuanWarehouse.CharcoalBeavers",
+      "UndergroundWarehouse.CharcoalBeavers",
+      "BuriedAquaDepo.CharcoalBeavers.Mole",
+      "LargeUndergroundWarehouse.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.CharcoalBeavers",
+      "Pit-and-LadderLodge_BoxStorage.CharcoalBeavers",
+      "GloriousStorage.CharcoalBeavers",
+      "SmallWarehouse.CharcoalBeavers",
+      "SmallAquaDepo.CharcoalBeavers.Mole",
+      "LongWarehouse.CharcoalBeavers",
+      "PitWarehouse.CharcoalBeavers",
+      "Warehouse.CharcoalBeavers",
+      "MediumWarehouse.CharcoalBeavers",
+      "BasicAquaDepo.CharcoalBeavers.Mole",
+      "LargeWarehouse.CharcoalBeavers",
+      "LargeAquaDepo.CharcoalBeavers.Mole",
+      "GigargantuanWarehouse.CharcoalBeavers",
+      "UndergroundWarehouse.CharcoalBeavers",
+      "BuriedAquaDepo.CharcoalBeavers.Mole",
+      "LargeUndergroundWarehouse.CharcoalBeavers"
+    ]
+  }
+}

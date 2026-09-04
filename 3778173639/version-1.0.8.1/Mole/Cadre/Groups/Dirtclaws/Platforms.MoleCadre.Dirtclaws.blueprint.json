@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Dirtclaws", "Order": 1303000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Dirtclaws",
+      "DoublePlatform.Dirtclaws",
+      "TriplePlatform.Dirtclaws",
+      "TreeTrunk.Platform.Dirtclaws",
+      "TreeTrunk.DoublePlatform.Dirtclaws",
+      "TreeTrunk.TriplePlatform.Dirtclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Dirtclaws",
+      "MetalPillars.MoleCadre.Dirtclaws",
+      "TreeBits.MoleCadre.Dirtclaws",
+      "Overhangs.MoleCadre.Dirtclaws",
+      "MirroredOverhangs.MoleCadre.Dirtclaws",
+      "ArchOverhangs.MoleCadre.Dirtclaws",
+      "MetalPlatforms.MoleCadre.Dirtclaws",
+      "OtherPlatforms.MoleCadre.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Dirtclaws",
+      "DoublePlatform.Dirtclaws",
+      "TriplePlatform.Dirtclaws",
+      "TreeTrunk.Platform.Dirtclaws",
+      "TreeTrunk.DoublePlatform.Dirtclaws",
+      "TreeTrunk.TriplePlatform.Dirtclaws",
+      "Pillars.MoleCadre.Dirtclaws",
+      "MetalPillars.MoleCadre.Dirtclaws",
+      "TreeBits.MoleCadre.Dirtclaws",
+      "Overhangs.MoleCadre.Dirtclaws",
+      "MirroredOverhangs.MoleCadre.Dirtclaws",
+      "ArchOverhangs.MoleCadre.Dirtclaws",
+      "MetalPlatforms.MoleCadre.Dirtclaws",
+      "OtherPlatforms.MoleCadre.Dirtclaws"
+    ]
+  }
+}

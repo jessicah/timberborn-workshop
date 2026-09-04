@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.PolarBeavers", "Order": 1102002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.PolarBeavers",
+      "MetalPillars.PolarBeavers",
+      "MetalBigPillarBase.PolarBeavers",
+      "MetalBigPillarMid.PolarBeavers",
+      "MetalBigPillarTop.PolarBeavers",
+      "Aque_MetalBigPillarBase.PolarBeavers",
+      "Aque_MetalBigPillarMid.PolarBeavers",
+      "Aque_MetalBigPillarTop.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.PolarBeavers",
+      "MetalPillars.PolarBeavers",
+      "MetalBigPillarBase.PolarBeavers",
+      "MetalBigPillarMid.PolarBeavers",
+      "MetalBigPillarTop.PolarBeavers",
+      "Aque_MetalBigPillarBase.PolarBeavers",
+      "Aque_MetalBigPillarMid.PolarBeavers",
+      "Aque_MetalBigPillarTop.PolarBeavers"
+    ]
+  }
+}

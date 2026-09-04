@@ -1,0 +1,10 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Planters.TNF.LeafCoats",
+		"Blueprints":
+		[
+			"Buildings/Wood/Forester.LeafCoats.blueprint"
+		]
+	}
+}

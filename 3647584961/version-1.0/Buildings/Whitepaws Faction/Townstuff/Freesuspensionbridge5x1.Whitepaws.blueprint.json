@@ -1,0 +1,365 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 14
+      },
+      {
+        "Id": "Plank",
+        "Amount": 20
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 4
+      },
+      {
+        "Id": "Rope",
+        "Amount": 5
+      }
+    ],
+    "ScienceCost": 100,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": true,
+    "DrawRangeBoundsOnIt": true
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "Freesuspensionbridge5x1.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Freesuspensionbridge5x1"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 7,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 3,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 3,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 4,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 4,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 5,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 5,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 6,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 6,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 7,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Subgroup_MGBridges",
+    "ToolOrder": 305,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 0.5,
+        "Y": 1.9,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.SuspensionBridge5x1.DisplayName",
+    "DescriptionLocKey": "Building.SuspensionBridge.Description",
+    "FlavorDescriptionLocKey": "Building.SuspensionBridgeMetal.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/Bridge 5"
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.0,
+              "Z": 3.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.1,
+              "Z": 7.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/Bridge5x1.Whitepaws.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "Meshy_Holder (1)": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/BridgeConstruction.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.2,
+                  "Z": 1.0
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.4,
+                  "Z": 2.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Meshy_Holder (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/BridgeConstruction.Model"
+          }
+        }
+      }
+    }
+  }
+}

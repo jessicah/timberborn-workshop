@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.Copperclaws", "Order": 1516002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.Copperclaws",
+      "ScoutBalloon.Copperclaws",
+      "FolktailsTraderBalloon.Copperclaws",
+      "IronTeethTraderBalloon.Copperclaws",
+      "EmberpeltsTraderBalloon.Copperclaws",
+      "LeafCoatsTraderBalloon.Copperclaws",
+      "AmpEarsTraderBalloon.Copperclaws",
+      "IslandBeaversTraderBalloon.Copperclaws",
+      "PolarBeaversTraderBalloon.Copperclaws",
+      "WhitepawsTraderBalloon.Copperclaws",
+      "FrostyWhiskersTraderBalloon.Copperclaws",
+      "CopperClawsTraderBalloon.Copperclaws",
+      "DragonClawsTraderBalloon.Copperclaws",
+      "DirtClawsTraderBalloon.Copperclaws",
+      "BadFursTraderBalloon.Copperclaws",
+      "Airship.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.Copperclaws",
+      "ScoutBalloon.Copperclaws",
+      "FolktailsTraderBalloon.Copperclaws",
+      "IronTeethTraderBalloon.Copperclaws",
+      "EmberpeltsTraderBalloon.Copperclaws",
+      "LeafCoatsTraderBalloon.Copperclaws",
+      "AmpEarsTraderBalloon.Copperclaws",
+      "IslandBeaversTraderBalloon.Copperclaws",
+      "PolarBeaversTraderBalloon.Copperclaws",
+      "WhitepawsTraderBalloon.Copperclaws",
+      "FrostyWhiskersTraderBalloon.Copperclaws",
+      "CopperClawsTraderBalloon.Copperclaws",
+      "DragonClawsTraderBalloon.Copperclaws",
+      "DirtClawsTraderBalloon.Copperclaws",
+      "BadFursTraderBalloon.Copperclaws",
+      "Airship.Copperclaws"
+    ]
+  }
+}

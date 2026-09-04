@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.IronTeeth", "Order": 321000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.IronTeeth",
+      "GravityBattery.TreeTrunk.IronTeeth",
+      "GravityBattery.TreeTrunk2.IronTeeth",
+      "SmallFlywheel.IronTeeth",
+      "SmallHorizontalFramedFlywheel.IronTeeth",
+      "SmallVerticalFramedFlywheel.IronTeeth",
+      "MediumFlywheel.IronTeeth",
+      "MediumHorizontalFramedFlywheel.IronTeeth",
+      "MediumVerticalFramedFlywheel.IronTeeth",
+      "LargeFlywheel.IronTeeth",
+      "LargeHorizontalFramedFlywheel.IronTeeth",
+      "LargeVerticalFramedFlywheel.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.IronTeeth",
+      "GravityBattery.TreeTrunk.IronTeeth",
+      "GravityBattery.TreeTrunk2.IronTeeth",
+      "SmallFlywheel.IronTeeth",
+      "SmallHorizontalFramedFlywheel.IronTeeth",
+      "SmallVerticalFramedFlywheel.IronTeeth",
+      "MediumFlywheel.IronTeeth",
+      "MediumHorizontalFramedFlywheel.IronTeeth",
+      "MediumVerticalFramedFlywheel.IronTeeth",
+      "LargeFlywheel.IronTeeth",
+      "LargeHorizontalFramedFlywheel.IronTeeth",
+      "LargeVerticalFramedFlywheel.IronTeeth"
+    ]
+  }
+}

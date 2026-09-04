@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "GiantLog",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "GiantLog_Type",
+    "StockpileVisualization": "GiantLog",
+    "VisibleContainer": "Log",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 100,
+    "GoodGroupId": "Logs",
+    "GoodOrder": 10011,
+    "Icon": "sprites/Whitepaws Sprites/Goods/GiantLogicon",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.GiantLog.DisplayName",
+    "PluralDisplayNameLocKey": "Good.GiantLog.PluralDisplayName"
+  }
+}

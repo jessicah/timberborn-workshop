@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "RibbedMetalDamSolidLining1xN.MoleCadre.Folktails", "Order": 207001, "NameLocKey": "Group.RibbedMetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_RM_SquareW1x1.Folktails",
+      "DE_RM_SquareW1x2.Folktails",
+      "DE_RM_SquareW1x3.Folktails",
+      "DE_RM_SlopeW.Folktails",
+      "DE_RM_InvSlopeW.Folktails",
+      "DE_RM_InvSlopeW1x1.Folktails",
+      "DE_RM_InvSlopeW1x2.Folktails",
+      "DE_RM_InvCornerW.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_RM_SquareW1x1.Folktails",
+      "DE_RM_SquareW1x2.Folktails",
+      "DE_RM_SquareW1x3.Folktails",
+      "DE_RM_SlopeW.Folktails",
+      "DE_RM_InvSlopeW.Folktails",
+      "DE_RM_InvSlopeW1x1.Folktails",
+      "DE_RM_InvSlopeW1x2.Folktails",
+      "DE_RM_InvCornerW.Folktails"
+    ]
+  }
+}

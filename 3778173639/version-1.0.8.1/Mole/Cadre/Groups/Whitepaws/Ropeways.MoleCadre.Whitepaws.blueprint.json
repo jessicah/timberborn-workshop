@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Whitepaws", "Order": 701003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Whitepaws",
+      "SuspensionBridge2x1.Whitepaws",
+      "SuspensionBridge3x1.Whitepaws",
+      "SuspensionBridge4x1.Whitepaws",
+      "SuspensionBridge5x1.Whitepaws",
+      "SuspensionBridge6x1.Whitepaws",
+      "SuspensionBridge7x1.Whitepaws",
+      "SuspensionBridge8x1.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Whitepaws",
+      "SuspensionBridge2x1.Whitepaws",
+      "SuspensionBridge3x1.Whitepaws",
+      "SuspensionBridge4x1.Whitepaws",
+      "SuspensionBridge5x1.Whitepaws",
+      "SuspensionBridge6x1.Whitepaws",
+      "SuspensionBridge7x1.Whitepaws",
+      "SuspensionBridge8x1.Whitepaws"
+    ]
+  }
+}

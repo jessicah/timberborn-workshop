@@ -1,0 +1,11 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "RushedGoal.PlaceLoggingMarkers",
+    "IntroLocKey": "RushedGoalText.PlaceLoggingMarkers"
+  },
+  "Children": {
+    "Step1": {
+      "MarkTreesTutorialStepSpec": {}
+    }
+  }
+}

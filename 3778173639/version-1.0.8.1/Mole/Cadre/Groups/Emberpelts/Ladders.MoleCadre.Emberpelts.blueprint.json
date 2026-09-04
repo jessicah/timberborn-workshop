@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Emberpelts", "Order": 401002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Emberpelts.Mole",
+      "Ladder.Emberpelts.Mole",
+      "Ladder.Simple.Emberpelts",
+      "Ladder.Emberpelts",
+      "Ladder.Core.Emberpelts",
+      "SkyBridgeLadder.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Emberpelts.Mole",
+      "Ladder.Emberpelts.Mole",
+      "Ladder.Simple.Emberpelts",
+      "Ladder.Emberpelts",
+      "Ladder.Core.Emberpelts",
+      "SkyBridgeLadder.Emberpelts"
+    ]
+  }
+}

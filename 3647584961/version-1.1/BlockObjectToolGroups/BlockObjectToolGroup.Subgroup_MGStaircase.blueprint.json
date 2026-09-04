@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Subgroup_MGStaircase",
+    "Order": 29,
+    "NameLocKey": "Knatte.Subgroup_MGStaircase.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Other/Subgroup_MGStaircase",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Paths"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Dirtclaws", "Order": 1301002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Dirtclaws.Mole",
+      "Ladder.Dirtclaws.Mole",
+      "Ladder.Simple.Dirtclaws",
+      "Ladder.Dirtclaws",
+      "Ladder.Core.Dirtclaws",
+      "SkyBridgeLadder.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Dirtclaws.Mole",
+      "Ladder.Dirtclaws.Mole",
+      "Ladder.Simple.Dirtclaws",
+      "Ladder.Dirtclaws",
+      "Ladder.Core.Dirtclaws",
+      "SkyBridgeLadder.Dirtclaws"
+    ]
+  }
+}

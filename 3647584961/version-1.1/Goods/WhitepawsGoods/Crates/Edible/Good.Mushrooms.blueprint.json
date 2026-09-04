@@ -1,0 +1,32 @@
+{
+  "GoodSpec": {
+    "Id": "Mushrooms",
+    "BackwardCompatibleIds": [
+      "MangroveFruit"
+    ],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.7433963,
+      "g": 0.0,
+      "b": 0.393561333,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Mushrooms",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Mushroom.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Mushroom.PluralDisplayName"
+  }
+}

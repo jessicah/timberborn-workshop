@@ -1,0 +1,30 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif",
+    "Blueprints#append": [
+      "Grauschweif/Float.blueprint",
+      "Grauschweif/FloatDispatch.blueprint",
+      "Buildings/Decoration/Lantern/FairyLights.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/Lantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/SmallLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/PaperLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/StoneLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/StoneSquareLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/FestiveLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/FestiveCLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/FestiveDLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Lantern/FestiveXLantern.Grauschweif.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.blueprint",
+      "Buildings/Decoration/Gate/SmallGate.Grauschweif.blueprint",
+      "Buildings/Decoration/Gate/MediumGate.Grauschweif.blueprint",
+      "Buildings/Decoration/Gate/HugeGate.Grauschweif.blueprint",
+      "Buildings/Decoration/Gate/SmallGate.Grauschweif.Common.blueprint",
+      "Buildings/Decoration/Gate/HugeGate.Grauschweif.Common.blueprint",
+      "Grauschweif/Float.blueprint",
+      "Grauschweif/FloatDispatch.blueprint",
+      "Grauschweif/Fish.Koi.Grauschweif.blueprint",
+      "Buildings/Decoration/WaterDecoration/WaterPlant.Grauschweif.blueprint"
+    ]
+  }
+}
+

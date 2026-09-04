@@ -1,0 +1,12 @@
+{
+	"NeedCollectionSpec":
+	{
+		"Needs#remove":
+		[
+			"Campfire",
+			"RooftopTerrace",
+			"Injury",
+			"WetFur"
+		]
+	}
+}

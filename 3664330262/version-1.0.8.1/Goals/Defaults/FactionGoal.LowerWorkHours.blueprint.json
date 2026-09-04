@@ -1,0 +1,13 @@
+{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.LowerWorkHours",
+    "IntroLocKey": "FactionGoalText.LowerWorkHours"
+  },
+  "Children": {
+    "Step1": {
+      "SetWorkingHoursStepSpec": {
+        "TargetWorkingHours": 16
+      }
+    }
+  }
+}

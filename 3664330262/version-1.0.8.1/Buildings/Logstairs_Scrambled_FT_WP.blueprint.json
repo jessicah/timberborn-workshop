@@ -1,0 +1,18 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LogStairs.Scrambled.Folktails",
+		"BackwardCompatibleTemplateNames": []
+	},
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Buildings.TNF.LeafCoats",
+		"Blueprints#append":
+		[
+			"Buildings/Crappyplatform_brown_FT.blueprint",
+			"Buildings/Crappyplatform_scramble_FT.blueprint",
+			"Buildings/Logstairs_Brown_FT_WP.blueprint",
+			"Buildings/Logstairs_Scrambled_FT_WP.blueprint"
+		]
+	}
+}

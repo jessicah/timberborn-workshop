@@ -1,0 +1,10 @@
+{
+	"RecipeSpec":
+	{
+		"Id": "RedGrapeJuice",
+		"BackwardCompatibleIds": [],
+		"DisplayLocKey": "Good.RedGrapeJuice.PluralDisplayName",
+		"Ingredients":[ { "Id": "RedGrapes", "Amount": 10 } ],
+		"Products": [ { "Id": "RedGrapeJuice", "Amount": 20 } ]
+	}
+}

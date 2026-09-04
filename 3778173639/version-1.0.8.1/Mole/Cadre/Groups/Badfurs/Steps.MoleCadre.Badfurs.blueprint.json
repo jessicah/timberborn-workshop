@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Badfurs", "Order": 1401001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Badfurs",
+      "MetalStairs.Badfurs",
+      "MetalStaircase.Badfurs",
+      "SpiralStairs.Badfurs",
+      "SpiralStaircase.Badfurs",
+      "StaircaseLog.Badfurs",
+      "MetalSpiralStaircase.Badfurs",
+      "DD_SlopeStairs.Badfurs",
+      "SkyBridgeStairs.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Badfurs",
+      "MetalStairs.Badfurs",
+      "MetalStaircase.Badfurs",
+      "SpiralStairs.Badfurs",
+      "SpiralStaircase.Badfurs",
+      "StaircaseLog.Badfurs",
+      "MetalSpiralStaircase.Badfurs",
+      "DD_SlopeStairs.Badfurs",
+      "SkyBridgeStairs.Badfurs"
+    ]
+  }
+}

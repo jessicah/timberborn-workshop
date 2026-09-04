@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Badfurs", "Order": 1401002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Badfurs.Mole",
+      "Ladder.Badfurs.Mole",
+      "Ladder.Simple.Badfurs",
+      "Ladder.Badfurs",
+      "Ladder.Core.Badfurs",
+      "SkyBridgeLadder.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Badfurs.Mole",
+      "Ladder.Badfurs.Mole",
+      "Ladder.Simple.Badfurs",
+      "Ladder.Badfurs",
+      "Ladder.Core.Badfurs",
+      "SkyBridgeLadder.Badfurs"
+    ]
+  }
+}

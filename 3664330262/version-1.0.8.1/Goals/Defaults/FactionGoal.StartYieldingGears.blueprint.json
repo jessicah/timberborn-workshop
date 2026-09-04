@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingGears",
+    "IntroLocKey": "FactionGoalText.StartYieldingGears"
+  }
+}

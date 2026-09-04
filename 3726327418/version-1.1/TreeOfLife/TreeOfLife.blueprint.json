@@ -1,0 +1,4198 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 4
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": true,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": -2,
+        "Z": 2
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "TreeOfLife",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 900
+  },
+  "GrowableSpec": {
+    "GrowthTimeInDays": 9.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Tree",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "Unplantable.TreeOfLife",
+    "PlantTimeInHours": 12.0
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 12.0,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "DemolishableScienceRewardSpec": {
+    "SciencePoints": -10000
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "TreeOfLife/AshMature13"
+  },
+  "ReproducibleSpec": {
+    "ReproductionChance": 0.0
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 1.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "NaturalResource.TreeOfLife.DisplayName",
+    "DescriptionLocKey": "NaturalResource.TreeOfLife.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "TreeOfLife/AshIcon"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 1,
+    "MaxWaterHeight": 2,
+    "DaysToDie": 1.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": true,
+    "MinHeightScaleFactor": 1.0,
+    "MaxHeightScaleFactor": 1.0,
+    "MinWidthScaleFactor": 1.0,
+    "MaxWidthScaleFactor": 1.0,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 0.0
+  },
+  "TreeCuttingRadiusSpec": {
+    "Radius": 0.3
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "WaterSourceSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 0
+      }
+    ],
+    "DefaultStrength": 0.0
+  },
+  "WaterSourceContaminationSpec": {
+    "DefaultContamination": 0.0
+  },
+  "WaterDepthStrengthModifierSpec": {
+    "DepthLimit": 1.5
+  },
+  "BadtideWaterSourceContaminationControllerSpec": {},
+  "DroughtResistingWaterSourceSpec": {},
+  "CleanWaterSourceSpec": {},
+  "LevelingNaturalResourceWaterSeepSpec": {
+    "EffectDelta": 0.4,
+    "EffectExponent": 0.99,
+    "MinLevel": 10
+  },
+  "LevelingNaturalResourceParticleControllerSpec": {
+    "MinLevel": 10,
+    "ParticleSystem": "Particles/TreeGlowParticle"
+  },
+  "LevelingNaturalResourceSpec": {
+    "Levels": [
+      {
+        "ModelName": "Mature1",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription1",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMinor",
+            "PointsPerHour": -0.01,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.01,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature2",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription1",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMinor",
+            "PointsPerHour": -0.02,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.02,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature3",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription1",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMinor",
+            "PointsPerHour": -0.03,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.03,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature4",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription4",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMinor",
+            "PointsPerHour": -0.04,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.04,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature5",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription4",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMinor",
+            "PointsPerHour": -0.05,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.05,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature6",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription4",
+        "Curses": [
+          {
+            "NeedId": "TreeCurse",
+            "PointsPerHour": -0.03,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.06,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.02,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature7",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription7",
+        "Curses": [
+          {
+            "NeedId": "TreeCurse",
+            "PointsPerHour": -0.04,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.07,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.03,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature8",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription7",
+        "Curses": [
+          {
+            "NeedId": "TreeCurse",
+            "PointsPerHour": -0.04,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.08,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.04,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature9",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription7",
+        "Curses": [
+          {
+            "NeedId": "TreeCurse",
+            "PointsPerHour": -0.05,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.09,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.05,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature10",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription10",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMajor",
+            "PointsPerHour": -0.04,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "FruitOfLife",
+            "PointsPerHour": -0.005,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.05,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.1,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature11",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription10",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMajor",
+            "PointsPerHour": -0.045,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "FruitOfLife",
+            "PointsPerHour": -0.0075,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.055,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.11,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature12",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription10",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMajor",
+            "PointsPerHour": -0.05,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "FruitOfLife",
+            "PointsPerHour": -0.01,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.06,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.12,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      },
+      {
+        "ModelName": "Mature13",
+        "Description": "",
+        "FlavorDescription": "NaturalResource.TreeOfLife.FlavorDescription13",
+        "Curses": [
+          {
+            "NeedId": "TreeCurseMajor",
+            "PointsPerHour": -0.06,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "FruitOfLife",
+            "PointsPerHour": -0.0125,
+            "SatisfyToMaxValue": false
+          }
+        ],
+        "Blessings": [
+          {
+            "NeedId": "TreeBlessing",
+            "PointsPerHour": 0.065,
+            "SatisfyToMaxValue": false
+          },
+          {
+            "NeedId": "TreeBlessingMinor",
+            "PointsPerHour": 0.13,
+            "SatisfyToMaxValue": false
+          }
+        ]
+      }
+    ],
+    "RevivalDaysToComplete": 3.0,
+    "RevivalCostBase": 50,
+    "RevivalCostExponent": 1.0,
+    "EffectRangeBase": 2.5,
+    "EffectRangeExponent": 1.003
+  },
+  "LevelingNaturalResourceGrowthEffectSpec": {
+    "EffectDelta": 0.2,
+    "EffectExponent": 0.99,
+    "MinLevel": 5
+  },
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshSeedling"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.63,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.36,
+                    "Height": 1.69,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshSeedlingDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.425,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.3,
+                    "Height": 1.4,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshSeedlingDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.31,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.36,
+                    "Height": 1.66,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.549799442,
+                      "Y": 3.305718,
+                      "Z": 0.4234175
+                    },
+                    "Radius": 0.86,
+                    "Height": 1.72,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMatureDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.550661,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMatureDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5497994,
+                      "Y": 3.305718,
+                      "Z": 0.4234175
+                    },
+                    "Radius": 0.86,
+                    "Height": 1.72,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.550661,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature1": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature1"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5353235,
+                      "Y": 3.582121,
+                      "Z": 0.399087
+                    },
+                    "Radius": 1.05,
+                    "Height": 1.4,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.22,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature1Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.22,
+                    "Height": 1.550661,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature1Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5353235,
+                      "Y": 3.582121,
+                      "Z": 0.399087
+                    },
+                    "Radius": 1.05,
+                    "Height": 1.4,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.59048,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.22,
+                    "Height": 1.550661,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature2": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature2"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.2727149,
+                      "Y": 3.0,
+                      "Z": 0.332539082
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.16100383,
+                      "Z": 0.9156468
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7759468,
+                      "Y": 3.01379967,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7305368,
+                      "Y": 3.32646847,
+                      "Z": 0.506157339
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.04423654,
+                      "Y": 3.25125647,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.984874964,
+                      "Y": 3.827673,
+                      "Z": 0.95225656
+                    },
+                    "Radius": 0.55
+                  },
+                  {
+                    "Center": {
+                      "X": -0.019497633,
+                      "Y": 3.87277651,
+                      "Z": 0.619898558
+                    },
+                    "Radius": 0.55
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6383851,
+                      "Y": 3.87277651,
+                      "Z": -0.161819667
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4787593,
+                      "Y": 2.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.12,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature2Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.2727149,
+                      "Y": 3.0,
+                      "Z": 0.332539082
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.0344165862,
+                      "Y": 3.55803347,
+                      "Z": 0.4147541
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.217125267,
+                      "Y": 3.72235775,
+                      "Z": -0.2776073
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.632164,
+                      "Y": 3.66413879,
+                      "Z": 1.22774732
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7204021,
+                      "Y": 3.35959864,
+                      "Z": 1.13165236
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.16100383,
+                      "Z": 0.9156468
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7759468,
+                      "Y": 3.01379967,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7305368,
+                      "Y": 3.32646847,
+                      "Z": 0.506157339
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7305368,
+                      "Y": 3.58838725,
+                      "Z": 0.2489962
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.213666886,
+                      "Y": 3.319829,
+                      "Z": 0.06420022
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.213666886,
+                      "Y": 3.47910428,
+                      "Z": -0.125182569
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.26458061,
+                      "Y": 3.55733776,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.04423654,
+                      "Y": 3.25125647,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4787593,
+                      "Y": 2.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.12,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature2Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.2727149,
+                      "Y": 3.0,
+                      "Z": 0.332539082
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.16100383,
+                      "Z": 0.9156468
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7759468,
+                      "Y": 3.01379967,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7305368,
+                      "Y": 3.32646847,
+                      "Z": 0.506157339
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.04423654,
+                      "Y": 3.25125647,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.984874964,
+                      "Y": 3.827673,
+                      "Z": 0.95225656
+                    },
+                    "Radius": 0.55
+                  },
+                  {
+                    "Center": {
+                      "X": -0.019497633,
+                      "Y": 3.87277651,
+                      "Z": 0.619898558
+                    },
+                    "Radius": 0.55
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6383851,
+                      "Y": 3.87277651,
+                      "Z": -0.161819667
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4787593,
+                      "Y": 2.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.12,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature3": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature3"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.220601678,
+                      "Y": 3.09172916,
+                      "Z": 0.332539082
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.26944375,
+                      "Z": 0.986834049
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7759468,
+                      "Y": 3.125012,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.04423654,
+                      "Y": 3.32988214,
+                      "Z": 0.7619575
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4913726,
+                      "Y": 2.35649562,
+                      "Z": 0.4885679
+                    },
+                    "Radius": 0.15,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.638064444,
+                      "Y": 4.056237,
+                      "Z": 0.648138642
+                    },
+                    "Radius": 0.55,
+                    "Height": 3.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.692338943,
+                      "Y": 3.95635557,
+                      "Z": 0.4749905
+                    },
+                    "Radius": 0.55,
+                    "Height": 3.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature3Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.2727149,
+                      "Y": 3.0,
+                      "Z": 0.303031623
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.110513538,
+                      "Y": 3.64336276,
+                      "Z": 0.495291024
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.192471892,
+                      "Y": 3.776795,
+                      "Z": -0.381901443
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.730906844,
+                      "Y": 3.66413879,
+                      "Z": 1.34748316
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7204021,
+                      "Y": 3.48223114,
+                      "Z": 1.13165236
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.276747,
+                      "Z": 0.9156468
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.832926333,
+                      "Y": 3.08416724,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.770922542,
+                      "Y": 3.505873,
+                      "Z": 0.506157339
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7305368,
+                      "Y": 3.81007075,
+                      "Z": 0.2280334
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.181064874,
+                      "Y": 3.410408,
+                      "Z": 0.06420022
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.153390437,
+                      "Y": 3.58105063,
+                      "Z": -0.175984949
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.3684628,
+                      "Y": 3.55733776,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.088008,
+                      "Y": 3.30546713,
+                      "Z": 0.676927567
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4787593,
+                      "Y": 2.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.12,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature3Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.220601678,
+                      "Y": 3.09172916,
+                      "Z": 0.332539082
+                    },
+                    "Size": {
+                      "X": 0.25,
+                      "Y": 0.5,
+                      "Z": 0.25
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7835939,
+                      "Y": 3.26944375,
+                      "Z": 0.986834049
+                    },
+                    "Size": {
+                      "X": 0.15,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.7759468,
+                      "Y": 3.125012,
+                      "Z": 0.7654973
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.6220906,
+                      "Y": 2.82873178,
+                      "Z": 0.562954843
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.04423654,
+                      "Y": 3.32988214,
+                      "Z": 0.7619575
+                    },
+                    "Size": {
+                      "X": 0.2,
+                      "Y": 0.3,
+                      "Z": 0.2
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4913726,
+                      "Y": 2.35649562,
+                      "Z": 0.4885679
+                    },
+                    "Radius": 0.15,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.638064444,
+                      "Y": 4.056237,
+                      "Z": 0.648138642
+                    },
+                    "Radius": 0.55,
+                    "Height": 3.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.692338943,
+                      "Y": 3.95635557,
+                      "Z": 0.4749905
+                    },
+                    "Radius": 0.55,
+                    "Height": 3.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature4": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature4"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.6135933,
+                      "Y": 4.20822525,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.95,
+                    "Height": 2.6,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.456575751,
+                      "Y": 2.59048,
+                      "Z": 0.479995459
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature4Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4565758,
+                      "Y": 2.59048,
+                      "Z": 0.4799955
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.55,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature4Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.6135933,
+                      "Y": 4.20822525,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.95,
+                    "Height": 2.6,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.456575751,
+                      "Y": 2.59048,
+                      "Z": 0.479995459
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.55066144,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature5": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature5"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 1.37204921,
+                      "Y": 4.574784,
+                      "Z": 1.55660582
+                    },
+                    "Radius": 0.6
+                  },
+                  {
+                    "Center": {
+                      "X": 0.07165769,
+                      "Y": 4.574784,
+                      "Z": -0.497591138
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.62935096,
+                      "Y": 4.58093739,
+                      "Z": 0.388900459
+                    },
+                    "Radius": 0.9,
+                    "Height": 2.8,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.456575751,
+                      "Y": 2.78658485,
+                      "Z": 0.4603382
+                    },
+                    "Radius": 0.22,
+                    "Height": 1.8,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature5Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.71,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.35,
+                    "Height": 2.1,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature5Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 1.37204921,
+                      "Y": 4.574784,
+                      "Z": 1.55660582
+                    },
+                    "Radius": 0.6
+                  },
+                  {
+                    "Center": {
+                      "X": 0.07165769,
+                      "Y": 4.574784,
+                      "Z": -0.497591138
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.62935096,
+                      "Y": 4.58093739,
+                      "Z": 0.388900459
+                    },
+                    "Radius": 0.9,
+                    "Height": 2.8,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.456575751,
+                      "Y": 2.78658485,
+                      "Z": 0.4603382
+                    },
+                    "Radius": 0.22,
+                    "Height": 1.8,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature6": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature6"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 1.37204921,
+                      "Y": 5.125815,
+                      "Z": 1.57322085
+                    },
+                    "Radius": 0.8
+                  },
+                  {
+                    "Center": {
+                      "X": 0.106622308,
+                      "Y": 5.11084032,
+                      "Z": -0.497591138
+                    },
+                    "Radius": 0.9
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.62935096,
+                      "Y": 5.11046,
+                      "Z": 0.388900459
+                    },
+                    "Radius": 0.95,
+                    "Height": 3.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.401512623,
+                      "Y": 3.03320313,
+                      "Z": 0.4343113
+                    },
+                    "Radius": 0.25,
+                    "Height": 2.3,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature6Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 2.71,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.35,
+                    "Height": 2.1,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature6Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 1.37204921,
+                      "Y": 5.125815,
+                      "Z": 1.57322085
+                    },
+                    "Radius": 0.8
+                  },
+                  {
+                    "Center": {
+                      "X": 0.106622308,
+                      "Y": 5.11084032,
+                      "Z": -0.497591138
+                    },
+                    "Radius": 0.9
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.62935096,
+                      "Y": 5.11046,
+                      "Z": 0.388900459
+                    },
+                    "Radius": 0.95,
+                    "Height": 3.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.401512623,
+                      "Y": 3.03320313,
+                      "Z": 0.4343113
+                    },
+                    "Radius": 0.25,
+                    "Height": 2.3,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature7": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature7"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.11324549,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.2,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.35,
+                    "Height": 3.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.582456,
+                      "Z": 1.33956575
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.202138841,
+                      "Y": 5.629052,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.582456,
+                      "Z": -0.782638669
+                    },
+                    "Radius": 0.55,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature7Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.2,
+                      "Z": 0.43
+                    },
+                    "Radius": 0.35,
+                    "Height": 3.0,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature7Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.11324549,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.2,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.35,
+                    "Height": 3.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.582456,
+                      "Z": 1.33956575
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.202138841,
+                      "Y": 5.629052,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.582456,
+                      "Z": -0.782638669
+                    },
+                    "Radius": 0.55,
+                    "Height": 4.0,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature8": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature8"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 4.771605,
+                      "Z": 0.309115767
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.2,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.4,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.713,
+                      "Z": 1.71101141
+                    },
+                    "Radius": 0.8,
+                    "Height": 4.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3839814,
+                      "Y": 5.9937377,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.8,
+                    "Height": 4.6,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.685868,
+                      "Z": -1.086112
+                    },
+                    "Radius": 0.65,
+                    "Height": 4.2,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature8Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.2,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.4,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature8Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 4.771605,
+                      "Z": 0.309115767
+                    },
+                    "Radius": 0.6
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.2,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.4,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.713,
+                      "Z": 1.71101141
+                    },
+                    "Radius": 0.8,
+                    "Height": 4.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3839814,
+                      "Y": 5.9937377,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.8,
+                    "Height": 4.6,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.685868,
+                      "Z": -1.086112
+                    },
+                    "Radius": 0.65,
+                    "Height": 4.2,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature9": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature9"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 4.87303638,
+                      "Z": 0.309115767
+                    },
+                    "Radius": 0.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.3,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.44,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.859921,
+                      "Z": 1.92398143
+                    },
+                    "Radius": 0.85,
+                    "Height": 4.8,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3839814,
+                      "Y": 6.138415,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.85,
+                    "Height": 5.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.88911057,
+                      "Z": -1.36337841
+                    },
+                    "Radius": 0.75,
+                    "Height": 4.4,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature9Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.3,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.44,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature9Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 4.87303638,
+                      "Z": 0.309115767
+                    },
+                    "Radius": 0.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4068756,
+                      "Y": 3.3,
+                      "Z": 0.432860732
+                    },
+                    "Radius": 0.44,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5500895,
+                      "Y": 5.859921,
+                      "Z": 1.92398143
+                    },
+                    "Radius": 0.85,
+                    "Height": 4.8,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3839814,
+                      "Y": 6.138415,
+                      "Z": 0.368884861
+                    },
+                    "Radius": 0.85,
+                    "Height": 5.4,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4736545,
+                      "Y": 5.88911057,
+                      "Z": -1.36337841
+                    },
+                    "Radius": 0.75,
+                    "Height": 4.4,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature10": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature10"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 6.7,
+                      "Z": 0.4
+                    },
+                    "Radius": 1.6
+                  },
+                  {
+                    "Center": {
+                      "X": -2.4,
+                      "Y": 6.6,
+                      "Z": -1.2
+                    },
+                    "Radius": 0.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.48,
+                    "Height": 3.8,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3,
+                      "Y": 6.1,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.9,
+                    "Height": 6.5,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.2,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.5,
+                      "Y": 5.8,
+                      "Z": 0.9
+                    },
+                    "Radius": 0.6,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 5.9,
+                      "Z": 0.6
+                    },
+                    "Radius": 0.8,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.2,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.0,
+                      "Z": 2.5
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.6,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature10Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 2.756407,
+                      "Y": 5.826224,
+                      "Z": 2.13676786
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.82403851,
+                      "Y": 5.430233,
+                      "Z": 1.56060541
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.8,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.97683525,
+                      "Y": 6.04469967,
+                      "Z": -2.4
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.72002232,
+                      "Y": 5.70627,
+                      "Z": -1.786051
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.58312821,
+                      "Y": 5.453938,
+                      "Z": -1.2
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.24593985,
+                      "Y": 5.083617,
+                      "Z": -0.7934335
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 0.8186668,
+                      "Y": 4.73161745,
+                      "Z": -0.2944672
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.3838917,
+                      "Y": 4.920502,
+                      "Z": -0.227843508
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.09051466,
+                      "Y": 5.270188,
+                      "Z": -0.388768137
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.71727455,
+                      "Y": 5.58024645,
+                      "Z": -0.868144631
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.29030657,
+                      "Y": 5.80746269,
+                      "Z": -1.34769917
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.4,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.306207657,
+                      "Y": 4.771067,
+                      "Z": 0.9015423
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.8846502,
+                      "Y": 5.19526243,
+                      "Z": 1.24188781
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.47497177,
+                      "Y": 5.466001,
+                      "Z": 1.73268664
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.126264,
+                      "Y": 5.64443636,
+                      "Z": 2.15213251
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.148313,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.48,
+                    "Height": 3.6,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.8111682,
+                      "Y": 5.924872,
+                      "Z": 1.0
+                    },
+                    "Radius": 0.4,
+                    "Height": 2.6,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.921783,
+                      "Y": 5.21415329,
+                      "Z": 1.78246593
+                    },
+                    "Radius": 0.3,
+                    "Height": 3.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature10Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 6.7,
+                      "Z": 0.4
+                    },
+                    "Radius": 1.6
+                  },
+                  {
+                    "Center": {
+                      "X": -2.4,
+                      "Y": 6.6,
+                      "Z": -1.2
+                    },
+                    "Radius": 0.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.48,
+                    "Height": 3.8,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.3,
+                      "Y": 6.1,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.9,
+                    "Height": 6.5,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.2,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.5,
+                      "Y": 5.8,
+                      "Z": 0.9
+                    },
+                    "Radius": 0.6,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 5.9,
+                      "Z": 0.6
+                    },
+                    "Radius": 0.8,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.2,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 6.0,
+                      "Z": 2.5
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.6,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature11": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature11"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.2,
+                      "Z": 0.2
+                    },
+                    "Radius": 1.8
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 6.8,
+                      "Z": -1.3
+                    },
+                    "Radius": 1.2
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.53,
+                    "Height": 3.8,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.3,
+                      "Z": 0.8
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.4,
+                      "Z": 0.6
+                    },
+                    "Radius": 0.9,
+                    "Height": 8.6,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.5,
+                      "Z": 0.9
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.3,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.4,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.75,
+                      "Y": 6.4,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.6,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature11Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 3.78624535,
+                      "Y": 6.307113,
+                      "Z": 2.93976188
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.756407,
+                      "Y": 5.982404,
+                      "Z": 2.320985
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.82403851,
+                      "Y": 5.553104,
+                      "Z": 1.56060541
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.8,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.164142,
+                      "Y": 6.23963,
+                      "Z": -2.4
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.474299,
+                      "Y": 6.438454,
+                      "Z": -3.0
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.99524653,
+                      "Y": 5.94369555,
+                      "Z": -1.786051
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.88316894,
+                      "Y": 5.59328,
+                      "Z": -1.2
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.4,
+                      "Y": 5.354586,
+                      "Z": -0.7934335
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.02855659,
+                      "Y": 4.957095,
+                      "Z": -0.2944672
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.494914234,
+                      "Y": 5.18728876,
+                      "Z": -0.227843508
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.193439,
+                      "Y": 5.56376028,
+                      "Z": -0.5123731
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.84863174,
+                      "Y": 5.83276224,
+                      "Z": -0.9589749
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.56381416,
+                      "Y": 6.078965,
+                      "Z": -1.34769917
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.4,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.306207657,
+                      "Y": 5.00082541,
+                      "Z": 0.9015423
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.8846502,
+                      "Y": 5.37525034,
+                      "Z": 1.359813
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.47497177,
+                      "Y": 5.604367,
+                      "Z": 1.931005
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.126264,
+                      "Y": 5.80738974,
+                      "Z": 2.481717
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.02312326,
+                      "Y": 5.90688467,
+                      "Z": 3.04034281
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.000864,
+                      "Y": 5.979386,
+                      "Z": 2.5135932
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 0.4
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.06595945,
+                      "Y": 6.189976,
+                      "Z": -1.67342031
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.5,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.53,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.0,
+                      "Y": 6.4,
+                      "Z": 1.0
+                    },
+                    "Radius": 0.4,
+                    "Height": 2.6,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.2,
+                      "Y": 5.567305,
+                      "Z": 2.41090035
+                    },
+                    "Radius": 0.3,
+                    "Height": 3.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature11Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.2,
+                      "Z": 0.2
+                    },
+                    "Radius": 1.8
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 6.8,
+                      "Z": -1.3
+                    },
+                    "Radius": 1.2
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.53,
+                    "Height": 3.8,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.3,
+                      "Z": 0.8
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.4,
+                      "Z": 0.6
+                    },
+                    "Radius": 0.9,
+                    "Height": 8.6,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.5,
+                      "Z": 0.9
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.3,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.4,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.75,
+                      "Y": 6.4,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.6,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature12": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature12"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.2,
+                      "Z": 0.35
+                    },
+                    "Radius": 2.1
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 7.2,
+                      "Z": -1.21699166
+                    },
+                    "Radius": 1.2
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.53,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.5,
+                      "Z": 1.1
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.5,
+                      "Z": 0.7
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.5,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.6,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.2,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.9,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.3,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.0,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature12Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 4.034579,
+                      "Y": 6.51969051,
+                      "Z": 2.98832822
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 3.034579,
+                      "Y": 6.22771835,
+                      "Z": 2.48754168
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.034579,
+                      "Y": 5.75193167,
+                      "Z": 1.78605139
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.8,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.33778739,
+                      "Y": 6.28960943,
+                      "Z": -2.4
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.58505321,
+                      "Y": 6.499608,
+                      "Z": -3.0
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.16982412,
+                      "Y": 5.88786125,
+                      "Z": -1.786051
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.87674308,
+                      "Y": 5.531599,
+                      "Z": -1.2
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.4,
+                      "Y": 5.321873,
+                      "Z": -0.7934335
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.02849007,
+                      "Y": 5.04661274,
+                      "Z": -0.2944672
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.494914234,
+                      "Y": 5.066866,
+                      "Z": -0.227843508
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.193439,
+                      "Y": 5.4948945,
+                      "Z": -0.5123731
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.84863174,
+                      "Y": 5.838187,
+                      "Z": -0.9589749
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.56381416,
+                      "Y": 6.114237,
+                      "Z": -1.34769917
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.4,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.14184856,
+                      "Y": 6.272892,
+                      "Z": -1.60018134
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.3,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.306207657,
+                      "Y": 4.83121252,
+                      "Z": 0.9015423
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.8846502,
+                      "Y": 5.3590045,
+                      "Z": 1.359813
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.66940343,
+                      "Y": 5.70897245,
+                      "Z": 1.931005
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.38513756,
+                      "Y": 5.935647,
+                      "Z": 2.481717
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.35752749,
+                      "Y": 6.05295658,
+                      "Z": 3.20428538
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.2598052,
+                      "Y": 5.90094042,
+                      "Z": 2.57499313
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 0.4
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.347413,
+                      "Y": 6.2859025,
+                      "Z": -2.258835
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.5,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.0,
+                      "Y": 6.386847,
+                      "Z": 1.0
+                    },
+                    "Radius": 0.6,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.2,
+                      "Y": 5.56339073,
+                      "Z": 2.41090035
+                    },
+                    "Radius": 0.3,
+                    "Height": 4.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature12Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.2,
+                      "Z": 0.35
+                    },
+                    "Radius": 2.1
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 7.2,
+                      "Z": -1.21699166
+                    },
+                    "Radius": 1.2
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.3,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.53,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.5,
+                      "Z": 1.1
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.5,
+                      "Z": 0.7
+                    },
+                    "Radius": 1.0,
+                    "Height": 8.5,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.6,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.2,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.3,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.9,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.3,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.0,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature13": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature13"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.5,
+                      "Z": 0.2
+                    },
+                    "Radius": 2.2
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 7.2,
+                      "Z": -1.5
+                    },
+                    "Radius": 1.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.5,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.55,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.7,
+                      "Z": 1.0
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.7,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.7,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.5,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.6,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.6,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature13Dead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 4.034579,
+                      "Y": 6.806469,
+                      "Z": 3.262769
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 3.034579,
+                      "Y": 6.509939,
+                      "Z": 2.48754168
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.5,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.034579,
+                      "Y": 5.96607351,
+                      "Z": 1.78605139
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.8,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.33778739,
+                      "Y": 6.46351147,
+                      "Z": -2.4
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.39699388,
+                      "Y": 6.822533,
+                      "Z": -3.0
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 2.16982412,
+                      "Y": 6.16148043,
+                      "Z": -1.786051
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.87674308,
+                      "Y": 5.818362,
+                      "Z": -1.2
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.4,
+                      "Y": 5.511023,
+                      "Z": -0.7934335
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": 1.19343877,
+                      "Y": 5.13805151,
+                      "Z": -0.2944672
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.494914234,
+                      "Y": 5.334906,
+                      "Z": -0.227843508
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.193439,
+                      "Y": 5.56376028,
+                      "Z": -0.5123731
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.84863174,
+                      "Y": 6.08815861,
+                      "Z": -0.9589749
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.56381416,
+                      "Y": 6.45722771,
+                      "Z": -1.34769917
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.4,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.21292067,
+                      "Y": 6.55856752,
+                      "Z": -1.88851237
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.3,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.306207657,
+                      "Y": 5.00082541,
+                      "Z": 0.9015423
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -0.8846502,
+                      "Y": 5.527564,
+                      "Z": 1.359813
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.6,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -1.66940343,
+                      "Y": 6.00517273,
+                      "Z": 1.931005
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.38513756,
+                      "Y": 6.27324867,
+                      "Z": 2.481717
+                    },
+                    "Size": {
+                      "X": 0.6,
+                      "Y": 0.5,
+                      "Z": 0.6
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -2.49291754,
+                      "Y": 6.38433743,
+                      "Z": 3.46929526
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.2598052,
+                      "Y": 6.38433743,
+                      "Z": 2.788237
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 0.4
+                    }
+                  },
+                  {
+                    "Center": {
+                      "X": -3.455019,
+                      "Y": 6.62232351,
+                      "Z": -2.2502408
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.5,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.6,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.0,
+                      "Y": 6.67231226,
+                      "Z": 1.0
+                    },
+                    "Radius": 0.6,
+                    "Height": 3.3,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 1.2,
+                      "Y": 5.97407341,
+                      "Z": 2.41090035
+                    },
+                    "Radius": 0.3,
+                    "Height": 4.0,
+                    "Axis": "Z"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "TreeOfLife/AshMature13Dry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.8,
+                      "Y": 7.5,
+                      "Z": 0.2
+                    },
+                    "Radius": 2.2
+                  },
+                  {
+                    "Center": {
+                      "X": -3.0,
+                      "Y": 7.2,
+                      "Z": -1.5
+                    },
+                    "Radius": 1.8
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.4,
+                      "Y": 3.5,
+                      "Z": 0.4
+                    },
+                    "Radius": 0.55,
+                    "Height": 4.0,
+                    "Axis": "Y"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 6.7,
+                      "Z": 1.0
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 2.0,
+                      "Y": 6.7,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 9.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 3.8,
+                      "Y": 6.7,
+                      "Z": 0.8
+                    },
+                    "Radius": 0.8,
+                    "Height": 7.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": -2.0,
+                      "Y": 6.5,
+                      "Z": 1.6
+                    },
+                    "Radius": 1.0,
+                    "Height": 6.0,
+                    "Axis": "Z"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.6,
+                      "Z": 0.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  },
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 6.6,
+                      "Z": 2.5
+                    },
+                    "Radius": 1.0,
+                    "Height": 10.5,
+                    "Axis": "X"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

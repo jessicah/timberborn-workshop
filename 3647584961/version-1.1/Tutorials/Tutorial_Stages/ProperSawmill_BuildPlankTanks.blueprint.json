@@ -1,0 +1,24 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildPlankTanks",
+    "IntroLocKey": "Tutorial.ProperSawmill.BuildPlankTanks.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PlankTank.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 6
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "PlankTank.Whitepaws",
+        "RequiredAmount": 6,
+        "GoodId": "Water"
+      }
+    }
+  }
+}

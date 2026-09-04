@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Forestry.BuildLoggers.Whitepaws",
+    "IntroLocKey": "Tutorial.Wood.FinishLumberjacks"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "LumberjackFlag.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.FrostyWhiskers", "Order": 801001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.FrostyWhiskers",
+      "MetalStairs.FrostyWhiskers",
+      "MetalStaircase.FrostyWhiskers",
+      "SpiralStairs.FrostyWhiskers",
+      "SpiralStaircase.FrostyWhiskers",
+      "StaircaseLog.FrostyWhiskers",
+      "MetalSpiralStaircase.FrostyWhiskers",
+      "DD_SlopeStairs.FrostyWhiskers",
+      "SkyBridgeStairs.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.FrostyWhiskers",
+      "MetalStairs.FrostyWhiskers",
+      "MetalStaircase.FrostyWhiskers",
+      "SpiralStairs.FrostyWhiskers",
+      "SpiralStaircase.FrostyWhiskers",
+      "StaircaseLog.FrostyWhiskers",
+      "MetalSpiralStaircase.FrostyWhiskers",
+      "DD_SlopeStairs.FrostyWhiskers",
+      "SkyBridgeStairs.FrostyWhiskers"
+    ]
+  }
+}

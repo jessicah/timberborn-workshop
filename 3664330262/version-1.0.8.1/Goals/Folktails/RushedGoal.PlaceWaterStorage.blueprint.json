@@ -1,0 +1,18 @@
+﻿{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "SmallTank.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 3
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "SmallTank.Folktails",
+        "RequiredAmount": 3,
+        "GoodId": "Water"
+      }
+    }
+  }
+}

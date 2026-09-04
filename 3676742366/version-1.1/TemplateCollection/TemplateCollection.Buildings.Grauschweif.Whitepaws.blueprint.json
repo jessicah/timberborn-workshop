@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.Whitepaws",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Pink.WP.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Birch.WP.blueprint"
+    ]
+  }
+}

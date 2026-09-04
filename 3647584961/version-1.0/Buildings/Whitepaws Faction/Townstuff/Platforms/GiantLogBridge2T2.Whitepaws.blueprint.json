@@ -1,0 +1,445 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "GiantHalfLog",
+        "Amount": 1
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 4
+      },
+      {
+        "Id": "Glowfluid",
+        "Amount": 9
+      }
+    ],
+    "ScienceCost": 100,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": true,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "GiantLogBridge2T2.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "GiantLogBridge2T2"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 5,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": 3,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Aqueducts",
+    "ToolOrder": 70,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.8,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.GiantLogBridge4.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.GiantLogBridge.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.GiantLogBridge.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/GiantLogBridge2T2"
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 2,
+      "Z": 1
+    }
+  },
+  "MechanicalNodeAnimatorSpec": {
+    "MinSpeedMultiplier": 0.0
+  },
+  "MechanicalNodeSpec": {
+    "PowerOutput": 0,
+    "PowerInput": 0,
+    "IsShaft": true
+  },
+  "TransputProviderSpec": {
+    "Transputs": [
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Directions": "Down",
+        "ReverseRotation": true
+      },
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 4,
+          "Z": 0
+        },
+        "Directions": "Up",
+        "ReverseRotation": true
+      },
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 1,
+          "Z": 0
+        },
+        "Directions": "Top",
+        "ReverseRotation": true
+      }
+    ],
+    "IgnoreRotation": false
+  },
+  "DrivewayModelSpec": {
+    "Driveway": "StraightPath",
+    "HasCustomCoordinates": true,
+    "CustomCoordinates": {
+      "X": 0,
+      "Y": 1,
+      "Z": 1
+    },
+    "CustomDirection": "Down",
+    "DrivewayMode": "Bidirectional"
+  },
+  "Children": {
+    "#Finished": {
+      "Children": {
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/AdvancedBuildings_Meshies/GiantHalfLogBridgeWithShaft.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": -0.25,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.9,
+                  "Y": 0.4,
+                  "Z": 5.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Meshy_Holder (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.15,
+              "Y": 0.0,
+              "Z": 2.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.7,
+              "Y": 0.7,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/ExtraDoor.Model"
+          }
+        },
+        "Meshy_Holder (3)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.85,
+              "Y": 0.0,
+              "Z": 3.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 180.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.7,
+              "Y": 0.7,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/ExtraDoor.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "TransformSpec": {
+        "Position": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Children": {
+        "Meshy_Holder (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": -1.0,
+              "Z": 2.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/OverhangConstructionSite.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": -0.5,
+                  "Z": 1.0
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Meshy_Holder (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.0,
+              "Y": -1.0,
+              "Z": 3.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.996353,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/OverhangConstructionSite.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": -0.5,
+                  "Z": 1.0
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

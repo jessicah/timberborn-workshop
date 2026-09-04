@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.IronTeeth", "Order": 316001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.IronTeeth",
+      "SteamVentMiningSite.IronTeeth",
+      "FrozenAquifer.IronTeeth",
+      "IceBergMiningSite.IronTeeth",
+      "OilWell_Artificial.IronTeeth",
+      "OilDrill.IronTeeth",
+      "OilDrill2.IronTeeth",
+      "AbyssElevator.IronTeeth",
+      "SupplementaryExplorationTeam.IronTeeth",
+      "NuclearWasteCollector.IronTeeth",
+      "GasExctractor.IronTeeth",
+      "AbyssExcavator.IronTeeth",
+      "HoomanUndergroundChemPlant.IronTeeth",
+      "HoomanUndergroundFactory.IronTeeth",
+      "DeepMinePILEstorage.IronTeeth",
+      "DeepMineBOXStorage.IronTeeth",
+      "AbyssTourismCenter.IronTeeth",
+      "HoomanMedicalFacility.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.IronTeeth",
+      "SteamVentMiningSite.IronTeeth",
+      "FrozenAquifer.IronTeeth",
+      "IceBergMiningSite.IronTeeth",
+      "OilWell_Artificial.IronTeeth",
+      "OilDrill.IronTeeth",
+      "OilDrill2.IronTeeth",
+      "AbyssElevator.IronTeeth",
+      "SupplementaryExplorationTeam.IronTeeth",
+      "NuclearWasteCollector.IronTeeth",
+      "GasExctractor.IronTeeth",
+      "AbyssExcavator.IronTeeth",
+      "HoomanUndergroundChemPlant.IronTeeth",
+      "HoomanUndergroundFactory.IronTeeth",
+      "DeepMinePILEstorage.IronTeeth",
+      "DeepMineBOXStorage.IronTeeth",
+      "AbyssTourismCenter.IronTeeth",
+      "HoomanMedicalFacility.IronTeeth"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Essentials",
+    "Blueprints#Append": [
+      "TreeOfLife/PlantingGround.Whitepaws.blueprint",
+      "TreeOfLife/TreeOfLife.Whitepaws.blueprint"
+    ]
+  }
+}

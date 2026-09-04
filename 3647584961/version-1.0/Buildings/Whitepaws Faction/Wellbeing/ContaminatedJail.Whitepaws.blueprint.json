@@ -1,0 +1,344 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 45
+      },
+      {
+        "Id": "Plank",
+        "Amount": 2
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Sleeping",
+        "Animation": "Sleeping",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      },
+      {
+        "SlotKeyword": "Seat",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      },
+      {
+        "SlotKeyword": "standing1",
+        "Animation": "ForcedIdle",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "ContaminatedJail.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "ContaminatedJail"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "FixedSlotManagerSpec": {},
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.1,
+      "Z": 0.1
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Wellbeing",
+    "ToolOrder": 0,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.ContaminatedJail.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.ContaminatedJail.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.ContaminatedJail.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/BeaverJail"
+  },
+  "AttractionSpec": {
+    "Effects": [
+      {
+        "NeedId": "BadwaterContamination",
+        "PointsPerHour": 0.01,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "EnterableIlluminatorSpec": {},
+  "EntererNeedSuspendingBuildingSpec": {
+    "NeedSuspender": {
+      "SuspendableNeedIds": [
+        "Sleep",
+        "Shelter",
+        "Hunger",
+        "Thirst",
+        "Filth"
+      ]
+    }
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 3,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.05,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 0.1,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "#Slot#Sleeping": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.796,
+              "Y": 0.102,
+              "Z": 1.268
+            },
+            "Rotation": {
+              "X": 0.5122289,
+              "Y": 38.1212,
+              "Z": 0.440028876
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.73,
+              "Y": 0.134,
+              "Z": 1.456
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 189.999985,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.332,
+              "Y": 0.134,
+              "Z": 1.626
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 144.554855,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.454,
+              "Y": 0.134,
+              "Z": 0.765
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 16.0656452,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#standing1 (10)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.82,
+              "Y": 0.084999904,
+              "Z": 1.131
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 89.90829,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#standing1 (11)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.889,
+              "Y": 0.084999904,
+              "Z": 0.222
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.908279,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#standing1 (12)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.124,
+              "Y": 0.084999904,
+              "Z": 0.868
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 269.908264,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Wellbeing_Meshies/BeaverJail.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

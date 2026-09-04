@@ -3,6 +3,7 @@
   {
     "Goods#append":
     [
+      "MetalPart",
       "Dandelion",
       "Chestnut",
       "MapleSyrup",

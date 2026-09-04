@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.Copperclaws", "Order": 1501009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.Copperclaws",
+      "TE_Tunnel_1L.Copperclaws",
+      "TE_Tunnel_2L.Copperclaws",
+      "TE_Tunnel_3L.Copperclaws",
+      "TE_Tunnel_4L.Copperclaws",
+      "TE_Tunnel_5L.Copperclaws",
+      "TE_Tunnel_6L.Copperclaws",
+      "TE_Tunnel_7L.Copperclaws",
+      "TE_Tunnel_8L.Copperclaws",
+      "TE_Tunnel_9L.Copperclaws",
+      "TE_Tunnel_10L.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.Copperclaws",
+      "TE_Tunnel_1L.Copperclaws",
+      "TE_Tunnel_2L.Copperclaws",
+      "TE_Tunnel_3L.Copperclaws",
+      "TE_Tunnel_4L.Copperclaws",
+      "TE_Tunnel_5L.Copperclaws",
+      "TE_Tunnel_6L.Copperclaws",
+      "TE_Tunnel_7L.Copperclaws",
+      "TE_Tunnel_8L.Copperclaws",
+      "TE_Tunnel_9L.Copperclaws",
+      "TE_Tunnel_10L.Copperclaws"
+    ]
+  }
+}

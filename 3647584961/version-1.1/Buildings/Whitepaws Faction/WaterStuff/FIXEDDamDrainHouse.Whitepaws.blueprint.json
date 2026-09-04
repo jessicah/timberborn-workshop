@@ -1,0 +1,598 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "MechanicalPump",
+    "LoopingSoundName": "WaterPump",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 50
+      },
+      {
+        "Id": "Plank",
+        "Amount": 12
+      },
+      {
+        "Id": "PineResin",
+        "Amount": 16
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 30
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 4
+      },
+      {
+        "Id": "Gear",
+        "Amount": 2
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "FIXEDDamDrainHouse.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 5,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 2,
+        "Y": 1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Damhouses",
+    "ToolOrder": 60,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.BetterDamDrain.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.DamDrain.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.BetterDamDrainPIPE.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/DamDrainPIPE"
+  },
+  "WaterMoverSpec": {
+    "WaterPerSecond": 0.4
+  },
+  "MechanicalBuildingSpec": {},
+  "MechanicalNodeSpec": {
+    "PowerOutput": 0,
+    "PowerInput": 200,
+    "IsShaft": false
+  },
+  "MechanicalNodeAnimatorSpec": {
+    "MinSpeedMultiplier": 0.0
+  },
+  "WaterMoverParticleControllerSpec": {
+    "AttachmentIds": [
+      "Water.DamDrainHouse"
+    ]
+  },
+  "WaterOutputSpec": {
+    "WaterCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 1
+    },
+    "DistanceToGroundOffset": 0.0,
+    "OverflowAllowed": false
+  },
+  "WaterOutputParticleSpec": {
+    "AttachmentId": "Water.DamDrainHouse",
+    "SpawnOffset": 0.0,
+    "FadeDistance": 0.0,
+    "MinimumLifetime": 0.0
+  },
+  "WaterInputSpec": {
+    "WaterInputCoordinates": {
+      "X": 0,
+      "Y": 4,
+      "Z": 0
+    }
+  },
+  "WaterInputPipeSpec": {
+    "PipeSegmentPrefabPath": "Buildings/Water/DeepMechanicalPump/DeepMechanicalPumpPipeSegment.IronTeeth",
+    "PipeParentName": "#PipeHolder",
+    "MaxDepth": 1
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 3
+      },
+      {
+        "X": 1,
+        "Y": 3
+      },
+      {
+        "X": 2,
+        "Y": 3
+      },
+      {
+        "X": 0,
+        "Y": 2
+      },
+      {
+        "X": 1,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 2
+      },
+      {
+        "X": 0,
+        "Y": 1
+      }
+    ]
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "TransputProviderSpec": {
+    "Transputs": [
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Directions": "Down",
+        "ReverseRotation": false
+      },
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 4,
+          "Z": 0
+        },
+        "Directions": "Up",
+        "ReverseRotation": true
+      }
+    ],
+    "IgnoreRotation": false
+  },
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "ProcreationHouseSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "EnterableIlluminatorSpec": {},
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 2.5,
+      "Y": 0.0,
+      "Z": 2.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "Water.DamDrainHouse",
+        "Prefab": "Buildings/Whitepaws Faction/Fires/DamDrainHouseParticles",
+        "Parent": "#WaterOutput",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "FloodableObjectBlockerSpec": {},
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/WaterStuff_Meshies/DamDrainHouse3.Whitepaws.Model"
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.5,
+                  "Z": 3.0
+                },
+                "Size": {
+                  "X": 3.0,
+                  "Y": 1.0,
+                  "Z": 2.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.5,
+                  "Z": 3.0
+                },
+                "Size": {
+                  "X": 0.6,
+                  "Y": 0.6,
+                  "Z": 3.2
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.5,
+                  "Z": 3.0
+                },
+                "Size": {
+                  "X": 0.2,
+                  "Y": 0.2,
+                  "Z": 4.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.5,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "#PipeHolder": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.5,
+              "Y": 0.0,
+              "Z": 2.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.0009999999,
+              "Y": 0.0009999999,
+              "Z": 0.0009999999
+            }
+          }
+        },
+        "#WaterOutput": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": 0.3,
+              "Z": 0.900000036
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x2#nested": {
+          "BlueprintPath": "constructionbases/constructionbase3x2/ConstructionBase3x2.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 2.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

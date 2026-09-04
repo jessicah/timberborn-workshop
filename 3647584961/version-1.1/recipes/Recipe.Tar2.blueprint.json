@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "Tar2",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Tar.PluralDisplayName",
+    "CycleDurationInHours": 5.0,
+    "Ingredients": [
+      {
+        "Id": "SunflowerSeeds",
+        "Amount": 4
+      },
+      {
+        "Id": "PineResin",
+        "Amount": 2
+      },
+      {
+        "Id": "Log",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Tar",
+        "Amount": 3
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Methane",
+    "CyclesFuelLasts": 5,
+    "FuelCapacity": 10,
+    "CyclesCapacity": 50,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Tar"
+  }
+}

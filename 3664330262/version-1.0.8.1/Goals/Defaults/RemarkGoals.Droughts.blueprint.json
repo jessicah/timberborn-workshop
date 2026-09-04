@@ -1,0 +1,10 @@
+{
+  "TutorialSpec": {
+    "Id": "RemarkGoals.Droughts",
+    "NameLocKey": "RemarkGoalsText.Congrats",
+    "RequiredTutorialIds": [ "SurvivedFirstDroughtTrigger" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 150,
+    "Stages": [ "RemarkGoal.Droughts" ]
+  }
+}

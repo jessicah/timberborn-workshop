@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Billboards",
+    "Order": 60,
+    "NameLocKey": "ToolGroups.Billboards",
+    "Icon": "Buildings/images/Billboard_Help",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Village"
+    ]
+  }
+}

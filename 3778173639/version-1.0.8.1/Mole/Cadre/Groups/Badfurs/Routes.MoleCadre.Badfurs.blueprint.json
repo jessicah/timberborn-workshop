@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Badfurs", "Order": 1402000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.Badfurs.Mole",
+      "StonePath.Badfurs.Mole",
+      "WoodenPath.Badfurs.Mole",
+      "Path.Badfurs",
+      "Path1.Badfurs",
+      "Path2.Badfurs",
+      "Path3.Badfurs",
+      "Path4.Badfurs",
+      "Path5.Badfurs",
+      "DistrictCrossing.Badfurs",
+      "BOTDistrictCrossing.Badfurs"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Badfurs",
+      "Ladders.MoleCadre.Badfurs",
+      "Ropeways.MoleCadre.Badfurs",
+      "Bridges.MoleCadre.Badfurs",
+      "Walkways.MoleCadre.Badfurs",
+      "Branches.MoleCadre.Badfurs",
+      "Boosters.MoleCadre.Badfurs",
+      "Gates.MoleCadre.Badfurs",
+      "Passages.MoleCadre.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.Badfurs.Mole",
+      "StonePath.Badfurs.Mole",
+      "WoodenPath.Badfurs.Mole",
+      "Path.Badfurs",
+      "Path1.Badfurs",
+      "Path2.Badfurs",
+      "Path3.Badfurs",
+      "Path4.Badfurs",
+      "Path5.Badfurs",
+      "DistrictCrossing.Badfurs",
+      "BOTDistrictCrossing.Badfurs",
+      "Steps.MoleCadre.Badfurs",
+      "Ladders.MoleCadre.Badfurs",
+      "Ropeways.MoleCadre.Badfurs",
+      "Bridges.MoleCadre.Badfurs",
+      "Walkways.MoleCadre.Badfurs",
+      "Branches.MoleCadre.Badfurs",
+      "Boosters.MoleCadre.Badfurs",
+      "Gates.MoleCadre.Badfurs",
+      "Passages.MoleCadre.Badfurs"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Dirtclaws", "Order": 1302002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Dirtclaws",
+      "MetalPillars.Dirtclaws",
+      "MetalBigPillarBase.Dirtclaws",
+      "MetalBigPillarMid.Dirtclaws",
+      "MetalBigPillarTop.Dirtclaws",
+      "Aque_MetalBigPillarBase.Dirtclaws",
+      "Aque_MetalBigPillarMid.Dirtclaws",
+      "Aque_MetalBigPillarTop.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Dirtclaws",
+      "MetalPillars.Dirtclaws",
+      "MetalBigPillarBase.Dirtclaws",
+      "MetalBigPillarMid.Dirtclaws",
+      "MetalBigPillarTop.Dirtclaws",
+      "Aque_MetalBigPillarBase.Dirtclaws",
+      "Aque_MetalBigPillarMid.Dirtclaws",
+      "Aque_MetalBigPillarTop.Dirtclaws"
+    ]
+  }
+}

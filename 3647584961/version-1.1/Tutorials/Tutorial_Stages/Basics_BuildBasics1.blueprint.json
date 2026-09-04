@@ -1,0 +1,38 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildBasics1",
+    "IntroLocKey": "Tutorial.Basics.BuildBasics1.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Flag_Lumberjack.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 3
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Flag_Gatherer.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Flag_Tappers.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step4": {
+      "MarkTreesTutorialStepSpec": {}
+    }
+  }
+}

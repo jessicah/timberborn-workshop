@@ -1,0 +1,7 @@
+{
+  "NeedGroupSpec": {
+    "Id": "Drinks",
+    "Order": 11,
+    "DisplayNameLocKey": "Lapantouflemagic.DrinksNeedGroup.DisplayName"
+  }
+}

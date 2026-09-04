@@ -1,0 +1,16 @@
+{
+  "TutorialSpec": {
+    "Id": "Priorities",
+    "NameLocKey": "Tutorial.Priorities.Whitepaws",
+    "RequiredTutorialIds": [
+      "PlanksAndSawdust"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 480,
+    "Stages": [
+      "BuildHaulerHouse",
+      "MaxPrioFarm",
+      "MinPriorityMushroomGrower"
+    ]
+  }
+}

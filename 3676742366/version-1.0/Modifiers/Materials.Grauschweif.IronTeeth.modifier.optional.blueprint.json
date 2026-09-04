@@ -1,0 +1,9 @@
+{
+  "MaterialCollectionSpec": {
+    "Materials#append": [
+      "naturalresources/crops/wheat/materials/Wheat",
+      "naturalresources/crops/cattail/materials/Cattail",
+      "naturalresources/crops/spadderdock/materials/Spadderdock",
+	]
+  }
+}

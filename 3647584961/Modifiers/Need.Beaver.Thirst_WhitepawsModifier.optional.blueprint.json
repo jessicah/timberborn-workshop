@@ -1,7 +1,0 @@
-{
-  "NeedSpec": {
-    "StartingValue": 2,
-    "MinimumValue": -2.0,
-    "MaximumValue": 2.0,
-  }
-}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.CharcoalBeavers", "Order": 601002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.CharcoalBeavers.Mole",
+      "Ladder.CharcoalBeavers.Mole",
+      "Ladder.Simple.CharcoalBeavers",
+      "Ladder.CharcoalBeavers",
+      "Ladder.Core.CharcoalBeavers",
+      "SkyBridgeLadder.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.CharcoalBeavers.Mole",
+      "Ladder.CharcoalBeavers.Mole",
+      "Ladder.Simple.CharcoalBeavers",
+      "Ladder.CharcoalBeavers",
+      "Ladder.Core.CharcoalBeavers",
+      "SkyBridgeLadder.CharcoalBeavers"
+    ]
+  }
+}

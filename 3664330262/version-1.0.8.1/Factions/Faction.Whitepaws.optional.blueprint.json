@@ -1,0 +1,285 @@
+{
+	"StartingFactionSpec#delete": {},
+	"FactionSpec":
+	{
+		"StartingBuildingId": "BrokenKart.Whitepaws",
+		"TemplateCollectionIds#append": [ "Whitepaws_TNF" ],
+		"BlueprintModifiers#append":
+		[
+			{
+				"Original": "Buildings/Whitepaws Faction/Townstuff/Ladder.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/Ladder.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Townstuff/Woodenstairs.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/Stairs.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Paths/MetalStaircase/MetalStaircase.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/MetalStaircase.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/LightIndustry/ClayPit.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Minerals/ClayPit.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/LightIndustry/ClayPit.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Minerals/ClayPit.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Wellbeing/DanceHall.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Wellbeing/DanceHall.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NormalAquiferDrill.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Fluids/AquiferDrill.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/Lido.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Wellbeing/Lido.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Power/PowerShafts/Clutch.Folktails.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Power/Name.Clutch.Folktails.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftStraight.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Power/Shafts/Name.PowerShaft.Folktails.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftTurn.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Power/Shafts/Name.VerticalPowerShaft.Folktails.optional.blueprint"
+			},
+			/* Pump fixes */
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonM.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonM.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonM.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonM.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonL.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonL.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonL.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonL.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonH.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonH.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonH.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pumps/NewWaterCannonH.optional.blueprint"
+			},
+			/* Housing fixes */
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_BoxStorage.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_BoxStorage.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_BoxStorage.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_BoxStorage.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Builders.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Builders.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Builders.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Builders.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Builders_Doorless.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Builders_Doorless.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Builders_Doorless.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Builders_Doorless.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Doubledoor.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Housing/Pit-and-LadderLodge_Doubledoor.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Doubledoor.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Housing/Pit-and-LadderLodge_Doubledoor.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Haulers.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Haulers.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Haulers.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Haulers.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Haulers_Doorless.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Haulers_Doorless.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_Haulers_Doorless.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Pit-and-LadderLodge_Haulers_Doorless.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_LiquidStorage.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_LiquidStorage.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_LiquidStorage.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_LiquidStorage.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_PowderStorage.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_PowderStorage.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Whitepaws Faction/Housing/Pit-and-LadderLodge_PowderStorage.Whitepaws.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Pit-and-LadderLodge_PowderStorage.optional.blueprint"
+			},
+			/* 2 Tall Storage */
+			{
+				"Original": "ModularStoragePrefabs/2x2pileRightWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.2x2pileRight.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanPileWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanWarehouseWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongpileWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongWarehouseWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitpileWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitTankWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitTank.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitwarehouseWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/SCoveredtankWP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.SCoveredTank.optional.blueprint"
+			},
+			/* Crappy platform fixes */
+			{
+				"Original": "TemplateCollections/TemplateCollection.Buildings.Common.blueprint",
+				"Modifier": "X/TemplateNameFixes/Collections/Remove.CrappyPlatform.Default.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_birch_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Birch.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_Pink_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Pink.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_brown_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_scramble_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Scrambled.optional.blueprint"
+			},
+			/* Logstairs fixes */
+			{
+				"Original": "Buildings/Logstairs_Brown_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Logstairs_Scrambled_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Scrambled.optional.blueprint"
+			},
+			/* Tutorials */
+			{
+				"Original": "Tutorials/Tutorials.Badtides.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Badtides.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Basics.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Basics.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Dams.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Dams.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Droughts.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Droughts.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Forestry.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Forestry.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.HaulersAndWorkforce.blueprint",
+				"Modifier": "Tutorials/Whitepaws/HaulersAndWorkforce.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Housing.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Housing.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.LayerTool.blueprint",
+				"Modifier": "Tutorials/Whitepaws/LayerTool.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.MoreBeavers.blueprint",
+				"Modifier": "Tutorials/Whitepaws/MoreBeavers.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.PowerAndPlanks.blueprint",
+				"Modifier": "Tutorials/Whitepaws/PowerAndPlanks.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Science.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Science.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Storage.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Storage.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Tutorial.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Tutorial.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.VerticalArchitecture.blueprint",
+				"Modifier": "Tutorials/Whitepaws/VerticalArchitecture.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.WaterAndFood.blueprint",
+				"Modifier": "Tutorials/Whitepaws/WaterAndFood.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Wellbeing.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Wellbeing.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.Wood.blueprint",
+				"Modifier": "Tutorials/Whitepaws/Wood.optional.blueprint"
+			},
+			{
+				"Original": "Tutorials/Tutorials.WorkingHours.blueprint",
+				"Modifier": "Tutorials/Whitepaws/WorkingHours.optional.blueprint"
+			}
+		]
+	}
+}

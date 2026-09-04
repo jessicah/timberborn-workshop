@@ -1,0 +1,37 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Wellbeing",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Wellbeing/Clinic.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ContaminatedJail.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/DanceHall.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Fixedmedicalbed_Disease.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Fixedmedicalbed_Injury.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Fixedmedicalbed_Burns.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/GoldFence.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Hedge.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/GoldGate.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/NerdyAttic.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/PetanqueCourt.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/PublicFountain.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/IncenseBurner.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x1.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x1Corner.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x1_Stair.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x3.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x3_ALT.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/ElevatedRoof1x4.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_PAIN.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Dunking.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Farmer.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Lumberjack.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Metalworker.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Pointer.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_Pregnant.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Statue_UpsideDown.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/TeethGrindstone.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/Trebuchet_Attraction.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Wellbeing/WashingMachine.Whitepaws.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"NeedCollectionSpec":
+	{
+		"Needs#remove":
+		[
+			// Whitepaw additions that should've gone in it's own colection
+			"MinorInjury",
+			"SevereInjury",
+			"MinorBurns",
+			"MajorBurns",
+			"MildDisease",
+			"SevereDisease",
+			// Incase EP, LC & WP are disabled
+			"Campfire",
+			"RooftopTerrace",
+			"Injury",
+			"WetFur"
+		]
+	}
+}

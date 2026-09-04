@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.CharcoalBeavers", "Order": 601001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.CharcoalBeavers",
+      "MetalStairs.CharcoalBeavers",
+      "MetalStaircase.CharcoalBeavers",
+      "SpiralStairs.CharcoalBeavers",
+      "SpiralStaircase.CharcoalBeavers",
+      "StaircaseLog.CharcoalBeavers",
+      "MetalSpiralStaircase.CharcoalBeavers",
+      "DD_SlopeStairs.CharcoalBeavers",
+      "SkyBridgeStairs.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.CharcoalBeavers",
+      "MetalStairs.CharcoalBeavers",
+      "MetalStaircase.CharcoalBeavers",
+      "SpiralStairs.CharcoalBeavers",
+      "SpiralStaircase.CharcoalBeavers",
+      "StaircaseLog.CharcoalBeavers",
+      "MetalSpiralStaircase.CharcoalBeavers",
+      "DD_SlopeStairs.CharcoalBeavers",
+      "SkyBridgeStairs.CharcoalBeavers"
+    ]
+  }
+}

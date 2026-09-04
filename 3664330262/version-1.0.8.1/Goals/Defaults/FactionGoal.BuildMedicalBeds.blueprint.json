@@ -1,0 +1,6 @@
+{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.BuildMedicalBeds",
+    "IntroLocKey": "FactionGoalText.BuildMedicalBeds"
+  }
+}

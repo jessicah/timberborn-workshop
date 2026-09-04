@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Dirtclaws", "Order": 1320000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Dirtclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Dirtclaws",
+      "SmallCoveredTank.Dirtclaws",
+      "SmallTank.Dirtclaws",
+      "SmallAquaTank.Dirtclaws.Mole",
+      "PitTank.Dirtclaws",
+      "MediumTank.Dirtclaws",
+      "BasicAquaTank.Dirtclaws.Mole",
+      "LargeTank.Dirtclaws",
+      "LargeAquaTank.Dirtclaws.Mole",
+      "UndergroundTank.Dirtclaws",
+      "BuriedAquaTank.Dirtclaws.Mole",
+      "LargeUndergroundTank.Dirtclaws",
+      "GazTank.Dirtclaws",
+      "GasTank.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Dirtclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Dirtclaws",
+      "SmallCoveredTank.Dirtclaws",
+      "SmallTank.Dirtclaws",
+      "SmallAquaTank.Dirtclaws.Mole",
+      "PitTank.Dirtclaws",
+      "MediumTank.Dirtclaws",
+      "BasicAquaTank.Dirtclaws.Mole",
+      "LargeTank.Dirtclaws",
+      "LargeAquaTank.Dirtclaws.Mole",
+      "UndergroundTank.Dirtclaws",
+      "BuriedAquaTank.Dirtclaws.Mole",
+      "LargeUndergroundTank.Dirtclaws",
+      "GazTank.Dirtclaws",
+      "GasTank.Dirtclaws"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboBrambles",
+  "DisplayLocKey": "Good.MeanFlower.DisplayName",
+  "CycleDurationInHours": 2,
+  "CyclesCapacity": 50,
+  "Ingredients": [
+    {
+      "Id": "Clay",
+      "Amount": 1
+    },{
+      "Id": "Water",
+      "Amount": 2
+    }
+  ],
+  "Products": [
+    {
+      "Id": "MeanFlower",
+      "Amount": 10
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Glowfluid",
+  "CyclesFuelLasts": 50,
+  "FuelCapacity": 10,
+  "Icon": "sprites/Whitepaws Sprites/Goods/MeanFlower",
+
+	"BackwardCompatibleIds": []
+  }
+}

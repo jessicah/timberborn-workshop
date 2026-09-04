@@ -1,0 +1,26 @@
+{
+  "BuildingSpec": {
+    "BuildingCost": [
+      {
+        "Id": "Gear",
+        "Amount": 7
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 12
+      },
+      {
+        "Id": "Screwaxle",
+        "Amount": 1
+      },
+      {
+        "Id": "Drillbits",
+        "Amount": 1
+      },
+      {
+        "Id": "SAquiferPumpBlueprint",
+        "Amount": 1
+      },
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "HOTSunfloweroil",
+  "DisplayLocKey": "Good.Sunfloweroil.PluralDisplayName",
+  "CycleDurationInHours": 5,
+  "CyclesCapacity": 5,
+  "Ingredients":[ 
+    {
+      "Id": "SunflowerSeeds",
+      "Amount": 60
+    },
+    {
+      "Id": "Water",
+      "Amount": 10
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Sunfloweroil",
+      "Amount": 45
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Sunfloweroil",
+	"BackwardCompatibleIds": []
+  }
+}

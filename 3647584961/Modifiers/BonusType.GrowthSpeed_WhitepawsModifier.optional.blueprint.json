@@ -1,9 +1,0 @@
-{
-  "BonusTypeSpec": {
-    "Id": "GrowthSpeed",
-    "MinimumValue": 0.1,
-    "MaximumValue": 5.0,
-    "Icon": "Sprites/Bonuses/GrowthSpeed",
-    "LocKey": "Bonus.GrowthSpeed"
-  }
-}

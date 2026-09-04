@@ -86,10 +86,10 @@
         "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
         "Modifier": "Factions/Whitepaws/Grows.Collection.Wackamole.Whitepaws.optional.blueprint"
       },
-      /*{
+      {
         "Original": "Factions/Common/GoodCollection.Common.blueprint",
         "Modifier": "Mole/Mods/Goods/AddBrokenKartGoods.optional.blueprint"
-      },*/
+      },
       {
         "Original": "Factions/GoodCollection.Whitepaws.blueprint",
         "Modifier": "Mole/Mods/Goods/RemBrokenKartGoods.optional.blueprint"
@@ -106,10 +106,10 @@
         "Original": "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.IronTeeth.blueprint",
         "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
       },
-      /*{
+      {
         "Original": "Buildings/RobotBuildings/Bunker.FrostyWhiskers.blueprint",
         "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"
-      },*/
+      },
       {
         "Original": "Buildings/DistrictManagement/DistrictCenter.LeafCoats.blueprint",
         "Modifier": "Mole/Mods/Buildings/AddBrokenKartBuildGoods.optional.blueprint"

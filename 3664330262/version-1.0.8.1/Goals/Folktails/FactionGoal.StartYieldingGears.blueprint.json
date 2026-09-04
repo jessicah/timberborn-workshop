@@ -1,0 +1,43 @@
+﻿{
+  "Children": {
+			"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "GearWorkshop.Folktails" } },
+			"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "GearWorkshop.Folktails" } },
+			"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "GearWorkshop.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+			},
+			"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "GearWorkshop.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+			},
+			"Step5": {
+					"BuildingTutorialStepSpec": {
+							"TemplateNames": [ "MediumWarehouse.Folktails" ],
+							"OnlyFinishedBuildings": true,
+							"RequiredAmount": 1
+					}
+			},
+			"Step6": {
+					"SelectStockpileGoodTutorialStepSpec": {
+							"TemplateName": "MediumWarehouse.Folktails",
+							"RequiredAmount": 1,
+							"GoodId": "Gear"
+					}
+			},
+			"Step3": {
+					"ConnectBuildingsTutorialStepSpec": {
+							"TemplateName": "MediumWarehouse.Folktails",
+							"RequiredAmount": 1,
+							"CountUnfinishedBuildings": false,
+							"HighlightableBuildingIds": [ "Path.Folktails" ]
+					}
+			}
+  }
+}

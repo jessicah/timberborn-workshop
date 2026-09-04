@@ -1,0 +1,73 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec":
+	{
+		"Needs#append":
+		[
+			"BeaverStatue",
+			"Detailer",
+			"Antidote",
+			"BeeSting",
+			"ContemplationSpot",
+			"Carousel",
+			"MudPit",
+			"SwimmingPool",
+			"Scarecrow",
+			"BeaverBust",
+			"DecorativeClock",
+			"WindTunnel",
+			"Garden",
+			"Plaza",
+			"PlantMurderer",
+			"LaborerMonument",
+			"FountainOfJoy",
+			"TributeToIngenuity",
+			"Apples",
+			"MangroveFruit",
+			"ControlTower",
+			"Energy",
+			"Weathervane",
+			"Lubricant",
+			"Injury",
+			"WetFur"
+		]
+	},
+	"FactionSpec":
+	{
+		"StartingBuildingId": "DistrictCenter.LeafCoats",
+		"GoodCollectionIds#append": [ "TNF" ],
+		"BlueprintModifiers#append":
+		[
+			{
+				"Original": "Buildings/Paths/Ladder/Ladder.LeafCoats.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/Ladder.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Paths/MetalStaircase/MetalStaircase.LeafCoats.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/MetalStaircase.optional.blueprint"
+			},
+			{
+				"Original": "NeedCollections/NeedCollection.Common.blueprint",
+				"Modifier": "Collections/NeedCollection.Folktails.LeafCoatsModifier.optional.blueprint"
+			},
+			/* Crappy platform fixes */
+			{
+				"Original": "Buildings/Crappyplatform_brown_FT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_scramble_FT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Scrambled.optional.blueprint"
+			},
+			/* Logstairs fixes */
+			{
+				"Original": "Buildings/Logstairs_Brown_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Logstairs_Scrambled_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Scrambled.optional.blueprint"
+			}
+		]
+	}
+}

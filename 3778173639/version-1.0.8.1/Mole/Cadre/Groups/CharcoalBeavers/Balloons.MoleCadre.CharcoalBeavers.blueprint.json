@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.CharcoalBeavers", "Order": 616002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.CharcoalBeavers",
+      "ScoutBalloon.CharcoalBeavers",
+      "FolktailsTraderBalloon.CharcoalBeavers",
+      "IronTeethTraderBalloon.CharcoalBeavers",
+      "EmberpeltsTraderBalloon.CharcoalBeavers",
+      "LeafCoatsTraderBalloon.CharcoalBeavers",
+      "AmpEarsTraderBalloon.CharcoalBeavers",
+      "IslandBeaversTraderBalloon.CharcoalBeavers",
+      "PolarBeaversTraderBalloon.CharcoalBeavers",
+      "WhitepawsTraderBalloon.CharcoalBeavers",
+      "FrostyWhiskersTraderBalloon.CharcoalBeavers",
+      "CopperClawsTraderBalloon.CharcoalBeavers",
+      "DragonClawsTraderBalloon.CharcoalBeavers",
+      "DirtClawsTraderBalloon.CharcoalBeavers",
+      "BadFursTraderBalloon.CharcoalBeavers",
+      "Airship.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.CharcoalBeavers",
+      "ScoutBalloon.CharcoalBeavers",
+      "FolktailsTraderBalloon.CharcoalBeavers",
+      "IronTeethTraderBalloon.CharcoalBeavers",
+      "EmberpeltsTraderBalloon.CharcoalBeavers",
+      "LeafCoatsTraderBalloon.CharcoalBeavers",
+      "AmpEarsTraderBalloon.CharcoalBeavers",
+      "IslandBeaversTraderBalloon.CharcoalBeavers",
+      "PolarBeaversTraderBalloon.CharcoalBeavers",
+      "WhitepawsTraderBalloon.CharcoalBeavers",
+      "FrostyWhiskersTraderBalloon.CharcoalBeavers",
+      "CopperClawsTraderBalloon.CharcoalBeavers",
+      "DragonClawsTraderBalloon.CharcoalBeavers",
+      "DirtClawsTraderBalloon.CharcoalBeavers",
+      "BadFursTraderBalloon.CharcoalBeavers",
+      "Airship.CharcoalBeavers"
+    ]
+  }
+}

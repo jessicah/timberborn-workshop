@@ -1,0 +1,5 @@
+{
+  "NeedSpec": { "StartingValue": 5.0, "MaximumValue": 5.0 },
+  "NeedPreventingWorkSpec#delete": {},
+  "CriticalNeedSpec#delete": {}
+}

@@ -1,0 +1,162 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "SmallRelic_WP",
+    "BackwardCompatibleTemplateNames": [
+      "SmallRelic"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "MapEditorObjects",
+    "ToolOrder": 1300,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": true
+  },
+  "StartableMarkerPositionUpdaterSpec": {},
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.Relic.DisplayName",
+    "DescriptionLocKey": "Building.Relic.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "MapEditor/Objects/SmallRelic/SmallRelicIcon"
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Relic",
+    "AlternativeSoundName": ""
+  },
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Model",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "#Underground",
+    "UndergroundModelDepth": 1
+  },
+  "BlockObjectNavMeshAdderSpec": {},
+  "DemolishableScienceRewardSpec": {
+    "SciencePoints": 50
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 35.0,
+    "ShowDemolishButtonInEntityPanel": true
+  },
+  "DemolishableFromTopSpec": {},
+  "DemolishableEffectsSpec": {
+    "Effects": [
+      {
+        "NeedId": "BadwaterContamination",
+        "Points": -0.5,
+        "Probability": "Low"
+      }
+    ]
+  },
+  "FireSpec": {
+    "AttachmentId": "NuclearGlow"
+  },
+  "FloodableFireSpec": {},
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "NuclearGlow",
+        "Prefab": "Buildings/Whitepaws Faction/Fires/NuclearGlowMini",
+        "Parent": "#Model",
+        "Position": {
+          "X": 0.5,
+          "Y": 0.2,
+          "Z": 0.5
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "WaterObjectSpec": {
+    "WaterCoordinates": {
+      "X": 1,
+      "Y": 99,
+      "Z": 0
+    }
+  },
+  "FloodableBuildingSpec": {},
+  "Children": {
+    "#Model": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/SmallRelicCustom"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.0487027019,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.8,
+              "Y": 0.0974054039,
+              "Z": 0.75
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Underground": {
+      "TimbermeshSpec": {
+        "Model": "MapEditor/Objects/SmallRelic/SmallRelic.Underground.Model"
+      }
+    }
+  }
+}

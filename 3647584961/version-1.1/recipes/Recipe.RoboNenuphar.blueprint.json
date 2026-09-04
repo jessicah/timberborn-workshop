@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboNenuphar",
+  "DisplayLocKey": "Lapantouflemagic.Nenuphar.PluralDisplayName",
+  "CycleDurationInHours": 0.48,
+  "CyclesCapacity": 50,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "Nenuphar",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 100,
+  "FuelCapacity": 1,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Nenuphar",
+	"BackwardCompatibleIds": []
+  }
+}

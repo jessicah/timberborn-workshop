@@ -1,0 +1,35 @@
+{
+  "Name": "Grauschweif's Decorations",
+  "Version": "4.0",
+  "Id": "grauschweif.decoration",
+  "MinimumGameVersion": "1.1.0.2",
+  "Description": "Some extra decorations. Some aesthetics needs. Floating lanterns.",
+  "RequiredMods": [
+  	{
+  		"Id": "grauschweif.materials",
+		"MinimumVersion": "2.3"
+	},
+    {
+      "Id": "eMka.TimberPhysics",
+      "MinimumVersion": "1.0.10.3"
+    },
+    {
+      "Id": "Grauschweif.Scriptpack",
+      "MinimumVersion": "1.6.0"
+    },
+    {
+      "Id": "ModdableToolGroups",
+      "MinimumVersion": "10.4.0"
+    }
+  ],
+  "OptionalMods": [
+  	{ "Id": "Lapantoufleagic.WhitepawsFaction" },
+  	{ "Id": "Emberpelts" },
+  	{ "Id": "Leafcoats" },
+  	{ "Id": "GreedyEmbers" },
+  	{ "Id": "GreedyCoats" },
+  	{ "Id": "GreedyBuilders" },
+    { "Id": "LoneFaerie.Badfurs" },
+  	{ "Id": "eMka.Riverborne" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Badfurs", "Order": 1419000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Badfurs",
+      "Pit-and-LadderLodge_BoxStorage.Badfurs",
+      "GloriousStorage.Badfurs",
+      "SmallWarehouse.Badfurs",
+      "SmallAquaDepo.Badfurs.Mole",
+      "LongWarehouse.Badfurs",
+      "PitWarehouse.Badfurs",
+      "Warehouse.Badfurs",
+      "MediumWarehouse.Badfurs",
+      "BasicAquaDepo.Badfurs.Mole",
+      "LargeWarehouse.Badfurs",
+      "LargeAquaDepo.Badfurs.Mole",
+      "GigargantuanWarehouse.Badfurs",
+      "UndergroundWarehouse.Badfurs",
+      "BuriedAquaDepo.Badfurs.Mole",
+      "LargeUndergroundWarehouse.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Badfurs",
+      "Pit-and-LadderLodge_BoxStorage.Badfurs",
+      "GloriousStorage.Badfurs",
+      "SmallWarehouse.Badfurs",
+      "SmallAquaDepo.Badfurs.Mole",
+      "LongWarehouse.Badfurs",
+      "PitWarehouse.Badfurs",
+      "Warehouse.Badfurs",
+      "MediumWarehouse.Badfurs",
+      "BasicAquaDepo.Badfurs.Mole",
+      "LargeWarehouse.Badfurs",
+      "LargeAquaDepo.Badfurs.Mole",
+      "GigargantuanWarehouse.Badfurs",
+      "UndergroundWarehouse.Badfurs",
+      "BuriedAquaDepo.Badfurs.Mole",
+      "LargeUndergroundWarehouse.Badfurs"
+    ]
+  }
+}

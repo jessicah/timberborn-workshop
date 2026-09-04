@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "Rope",
+  "DisplayLocKey": "Good.Rope.PluralDisplayName",
+  "CycleDurationInHours": 6,
+  "CyclesCapacity": 50,
+  "Ingredients": [
+    {
+      "Id": "PlantFibers",
+      "Amount": 2
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Rope",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Rope",
+	"BackwardCompatibleIds": []
+  }
+}

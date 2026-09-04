@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Whitepaws", "Order": 701002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Whitepaws.Mole",
+      "Ladder.Whitepaws.Mole",
+      "Ladder.Simple.Whitepaws",
+      "Ladder.Whitepaws",
+      "Ladder.Core.Whitepaws",
+      "SkyBridgeLadder.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Whitepaws.Mole",
+      "Ladder.Whitepaws.Mole",
+      "Ladder.Simple.Whitepaws",
+      "Ladder.Whitepaws",
+      "Ladder.Core.Whitepaws",
+      "SkyBridgeLadder.Whitepaws"
+    ]
+  }
+}

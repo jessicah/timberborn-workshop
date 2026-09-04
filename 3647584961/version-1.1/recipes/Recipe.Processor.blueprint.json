@@ -1,0 +1,46 @@
+{
+  "RecipeSpec": {
+    "Id": "Processor",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Processor.PluralDisplayName",
+    "CycleDurationInHours": 48.0,
+    "Ingredients": [
+      {
+        "Id": "Hydrogen",
+        "Amount": 20
+      },
+      {
+        "Id": "Sunfloweroil",
+        "Amount": 10
+      },
+      {
+        "Id": "MintEssence",
+        "Amount": 20
+      },
+      {
+        "Id": "Salt",
+        "Amount": 10
+      },
+      {
+        "Id": "GoldDust",
+        "Amount": 1
+      },
+      {
+        "Id": "SiliconMetal",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Processor",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 3,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 20,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Processor"
+  }
+}

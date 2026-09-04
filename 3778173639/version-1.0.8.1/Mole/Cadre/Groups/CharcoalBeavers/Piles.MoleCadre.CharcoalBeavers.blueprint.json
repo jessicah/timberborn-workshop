@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.CharcoalBeavers", "Order": 618000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.CharcoalBeavers",
+      "SmallPile.CharcoalBeavers",
+      "SmallIndustrialPile.CharcoalBeavers",
+      "SmallAquaPile.CharcoalBeavers.Mole",
+      "LongPile.CharcoalBeavers",
+      "PitPile.CharcoalBeavers",
+      "2x2PileRight.CharcoalBeavers",
+      "Pile.CharcoalBeavers",
+      "IndustrialPile.CharcoalBeavers",
+      "MediumPile.CharcoalBeavers",
+      "MediumIndustrialPile.CharcoalBeavers",
+      "LargePile.CharcoalBeavers",
+      "LargeIndustrialPile.CharcoalBeavers",
+      "BasicAquaPile.CharcoalBeavers.Mole",
+      "ExtraLargePile.CharcoalBeavers",
+      "ExtraLargeIndustrialPile.CharcoalBeavers",
+      "LargeAquaPile.CharcoalBeavers.Mole",
+      "GigargantuanPile.CharcoalBeavers",
+      "UndergroundPile.CharcoalBeavers",
+      "BuriedAquaPile.CharcoalBeavers.Mole",
+      "GiantLogStorage.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.CharcoalBeavers",
+      "SmallPile.CharcoalBeavers",
+      "SmallIndustrialPile.CharcoalBeavers",
+      "SmallAquaPile.CharcoalBeavers.Mole",
+      "LongPile.CharcoalBeavers",
+      "PitPile.CharcoalBeavers",
+      "2x2PileRight.CharcoalBeavers",
+      "Pile.CharcoalBeavers",
+      "IndustrialPile.CharcoalBeavers",
+      "MediumPile.CharcoalBeavers",
+      "MediumIndustrialPile.CharcoalBeavers",
+      "LargePile.CharcoalBeavers",
+      "LargeIndustrialPile.CharcoalBeavers",
+      "BasicAquaPile.CharcoalBeavers.Mole",
+      "ExtraLargePile.CharcoalBeavers",
+      "ExtraLargeIndustrialPile.CharcoalBeavers",
+      "LargeAquaPile.CharcoalBeavers.Mole",
+      "GigargantuanPile.CharcoalBeavers",
+      "UndergroundPile.CharcoalBeavers",
+      "BuriedAquaPile.CharcoalBeavers.Mole",
+      "GiantLogStorage.CharcoalBeavers"
+    ]
+  }
+}

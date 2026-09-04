@@ -1,0 +1,34 @@
+{
+  "Name": "Tree Of Life",
+  "Version": "1.6.6",
+  "Id": "grauschweif.treeoflife",
+  "MinimumGameVersion": "1.1.1.0",
+  "Description": "# Tree of Life
+
+A monumental tree evolving slowly if cared for.
+
+This mod adds a sacred tree to the game that will bring blessings if cared for. Fail the trees needs and it will turn into a curse.
+
+The Tree of Life will take multiple cycles going through many stages growing to enourmous size and accommondating more and more beavers as an attraction.
+It can make them (very) happy, provide them with some gifts and bountiful harvest.
+
+A cozy gathering spot for your colony.
+",
+  "RequiredMods": [
+    { "Id": "Harmony", "MinimumVersion": "2.4.1" },
+    {
+      "Id": "Grauschweif.Scriptpack",
+      "MinimumVersion": "1.6.1"
+    },
+    {
+      "Id": "grauschweif.materials",
+      "MinimumVersion": "2.2.0"
+    }
+  ],
+  "OptionalMods": [
+    { "Id": "Lapantoufleagic.WhitepawsFaction" },
+    { "Id": "Emberpelts" },
+    { "Id": "Leafcoats" }
+  ]
+}
+

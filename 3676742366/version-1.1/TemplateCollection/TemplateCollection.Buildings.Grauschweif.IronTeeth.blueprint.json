@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.IronTeeth",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Indigo.IT.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.White.IT.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Brown.IT.blueprint"
+    ]
+  }
+}

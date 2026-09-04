@@ -1,0 +1,18 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildValveHouse",
+    "IntroLocKey": "Tutorial.IrrigationBranch.BuildValveHouse.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "TrueSluiceHouse.Whitepaws",
+          "SluiceHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.YieldEvenMoreBeavers",
+    "IntroLocKey": "FactionGoalText.YieldEvenMoreBeavers"
+  },
+  "Children": {
+    "Child": {
+      "BeaverBirthStepSpec": {}
+    }
+  }
+}

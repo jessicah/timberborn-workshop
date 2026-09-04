@@ -3,6 +3,7 @@
   {
     "Goods#remove":
     [
+      "MetalPart",
       "Dandelion",
       "Chestnut",
       "MapleSyrup",

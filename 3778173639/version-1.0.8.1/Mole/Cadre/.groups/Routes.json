@@ -6,15 +6,14 @@
     "DoNotIncludePlaceableToolGroup": true,
     "ChildrenToolsTemplateNames":
     [
-      TOTOOL(Mole.Path),
-      TOTOOL(Mole.DirtPath),
-      TOTOOL(Mole.WoodPath),
+      TOMOLE(Path),
+      TOMOLE(StonePath),
+      TOMOLE(WoodenPath),
       TOTOOL(Path),
       TOTOOL(Path1),
       TOTOOL(Path2),
       TOTOOL(Path3),
       TOTOOL(Path4),
-      TOTOOL(Path5),
       TOTOOL(Path5),
       TOTOOL(DistrictCrossing),
       TOTOOL(BOTDistrictCrossing)
@@ -33,9 +32,9 @@
     ],
     "ChildrenOrderedIds":
     [
-      TOTOOL(Mole.Path),
-      TOTOOL(Mole.DirtPath),
-      TOTOOL(Mole.WoodPath),
+      TOMOLE(Path),
+      TOMOLE(StonePath),
+      TOMOLE(WoodenPath),
       TOTOOL(Path),
       TOTOOL(Path1),
       TOTOOL(Path2),

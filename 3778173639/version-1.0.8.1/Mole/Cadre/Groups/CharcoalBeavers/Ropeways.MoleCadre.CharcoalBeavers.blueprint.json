@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.CharcoalBeavers", "Order": 601003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.CharcoalBeavers",
+      "SuspensionBridge2x1.CharcoalBeavers",
+      "SuspensionBridge3x1.CharcoalBeavers",
+      "SuspensionBridge4x1.CharcoalBeavers",
+      "SuspensionBridge5x1.CharcoalBeavers",
+      "SuspensionBridge6x1.CharcoalBeavers",
+      "SuspensionBridge7x1.CharcoalBeavers",
+      "SuspensionBridge8x1.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.CharcoalBeavers",
+      "SuspensionBridge2x1.CharcoalBeavers",
+      "SuspensionBridge3x1.CharcoalBeavers",
+      "SuspensionBridge4x1.CharcoalBeavers",
+      "SuspensionBridge5x1.CharcoalBeavers",
+      "SuspensionBridge6x1.CharcoalBeavers",
+      "SuspensionBridge7x1.CharcoalBeavers",
+      "SuspensionBridge8x1.CharcoalBeavers"
+    ]
+  }
+}

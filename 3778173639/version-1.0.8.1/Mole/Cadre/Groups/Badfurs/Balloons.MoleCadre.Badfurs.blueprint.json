@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.Badfurs", "Order": 1416002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.Badfurs",
+      "ScoutBalloon.Badfurs",
+      "FolktailsTraderBalloon.Badfurs",
+      "IronTeethTraderBalloon.Badfurs",
+      "EmberpeltsTraderBalloon.Badfurs",
+      "LeafCoatsTraderBalloon.Badfurs",
+      "AmpEarsTraderBalloon.Badfurs",
+      "IslandBeaversTraderBalloon.Badfurs",
+      "PolarBeaversTraderBalloon.Badfurs",
+      "WhitepawsTraderBalloon.Badfurs",
+      "FrostyWhiskersTraderBalloon.Badfurs",
+      "CopperClawsTraderBalloon.Badfurs",
+      "DragonClawsTraderBalloon.Badfurs",
+      "DirtClawsTraderBalloon.Badfurs",
+      "BadFursTraderBalloon.Badfurs",
+      "Airship.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.Badfurs",
+      "ScoutBalloon.Badfurs",
+      "FolktailsTraderBalloon.Badfurs",
+      "IronTeethTraderBalloon.Badfurs",
+      "EmberpeltsTraderBalloon.Badfurs",
+      "LeafCoatsTraderBalloon.Badfurs",
+      "AmpEarsTraderBalloon.Badfurs",
+      "IslandBeaversTraderBalloon.Badfurs",
+      "PolarBeaversTraderBalloon.Badfurs",
+      "WhitepawsTraderBalloon.Badfurs",
+      "FrostyWhiskersTraderBalloon.Badfurs",
+      "CopperClawsTraderBalloon.Badfurs",
+      "DragonClawsTraderBalloon.Badfurs",
+      "DirtClawsTraderBalloon.Badfurs",
+      "BadFursTraderBalloon.Badfurs",
+      "Airship.Badfurs"
+    ]
+  }
+}

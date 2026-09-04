@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Irrigation",
+    "Order": 1,
+    "NameLocKey": "Lapantouflemagic.Irrigation.group.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/LeakyTub",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Water"
+    ]
+  }
+}

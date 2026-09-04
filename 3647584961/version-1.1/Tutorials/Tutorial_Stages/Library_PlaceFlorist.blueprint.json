@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "PlaceFlorist",
+    "IntroLocKey": "Tutorial.Library.PlaceFlorist.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Florist.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 2
+      }
+    }
+  }
+}

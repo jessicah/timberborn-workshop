@@ -1,0 +1,12 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Planters.TNF.Folktails",
+		"Blueprints":
+		[
+			"Buildings/Wood/Forester/Forester.Folktails.blueprint",
+			"Buildings/Food/EfficientFarmHouse/EfficientFarmHouse.Folktails.blueprint",
+			"Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint"
+		]
+	}
+}

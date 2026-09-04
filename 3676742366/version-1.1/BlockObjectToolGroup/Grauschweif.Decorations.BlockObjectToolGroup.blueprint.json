@@ -1,0 +1,47 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Grauschweif.Decorations",
+    "Order": 21,
+    "NameLocKey": "Grauschweif.DecorationGroup.DisplayName",
+    "Icon": "Grauschweif/Icons/DecorationsIcon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Decoration"
+    ]
+  },
+  "ToolGroupChildrenSpec": {
+    "ChildrenToolsTemplateNames": [
+      "Lantern.Grauschweif",
+      "SmallLantern.Grauschweif",
+      "StoneLantern.Grauschweif",
+      "StoneSquareLantern.Grauschweif",
+      "PaperLantern.Grauschweif",
+      "FestiveLantern.Grauschweif",
+      "FestiveCLantern.Grauschweif",
+      "FestiveDLantern.Grauschweif",
+      "FestiveXLantern.Grauschweif",
+      // TODO temporary - remove when not possible
+      "FairyLights.Grauschweif",
+      // Benches
+      "Bench.Grauschweif.Custom",
+      "Bench.Grauschweif.Brown.IT",
+      "Bench.Grauschweif.Yellow.FT",
+      "Bench.Grauschweif.Indigo.IT",
+      "Bench.Grauschweif.White.FT",
+      "Bench.Grauschweif.Birch.WP",
+      "Bench.Grauschweif.Red.EP",
+      "Bench.Grauschweif.Pink.WP",
+      "Bench.Grauschweif.Brown.FT",
+      "Bench.Grauschweif.White.IT",
+      "Bench.Grauschweif.Green.LC",
+      // Gates
+      "SmallGate.Grauschweif",
+      "SmallGate.Grauschweif.Common",
+      "MediumGate.Grauschweif"
+      // "HugeGate.Grauschweif", // is a monument
+    ],
+    "DoNotIncludePlaceableToolGroup": true
+  }
+}

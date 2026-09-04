@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.FrostyWhiskers", "Order": 801008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.FrostyWhiskers",
+      "Tubeway.Gate.FrostyWhiskers",
+      "DistrictGate.FrostyWhiskers",
+      "DistrictGateTubeway.FrostyWhiskers",
+      "DecoSmallGate.FrostyWhiskers",
+      "SmallGate.FrostyWhiskers",
+      "HedgeGate.FrostyWhiskers",
+      "MetalGate.FrostyWhiskers",
+      "GoldGate.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.FrostyWhiskers",
+      "Tubeway.Gate.FrostyWhiskers",
+      "DistrictGate.FrostyWhiskers",
+      "DistrictGateTubeway.FrostyWhiskers",
+      "DecoSmallGate.FrostyWhiskers",
+      "SmallGate.FrostyWhiskers",
+      "HedgeGate.FrostyWhiskers",
+      "MetalGate.FrostyWhiskers",
+      "GoldGate.FrostyWhiskers"
+    ]
+  }
+}

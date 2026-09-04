@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Dragonclaws", "Order": 1216001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Dragonclaws",
+      "SteamVentMiningSite.Dragonclaws",
+      "FrozenAquifer.Dragonclaws",
+      "IceBergMiningSite.Dragonclaws",
+      "OilWell_Artificial.Dragonclaws",
+      "OilDrill.Dragonclaws",
+      "OilDrill2.Dragonclaws",
+      "AbyssElevator.Dragonclaws",
+      "SupplementaryExplorationTeam.Dragonclaws",
+      "NuclearWasteCollector.Dragonclaws",
+      "GasExctractor.Dragonclaws",
+      "AbyssExcavator.Dragonclaws",
+      "HoomanUndergroundChemPlant.Dragonclaws",
+      "HoomanUndergroundFactory.Dragonclaws",
+      "DeepMinePILEstorage.Dragonclaws",
+      "DeepMineBOXStorage.Dragonclaws",
+      "AbyssTourismCenter.Dragonclaws",
+      "HoomanMedicalFacility.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Dragonclaws",
+      "SteamVentMiningSite.Dragonclaws",
+      "FrozenAquifer.Dragonclaws",
+      "IceBergMiningSite.Dragonclaws",
+      "OilWell_Artificial.Dragonclaws",
+      "OilDrill.Dragonclaws",
+      "OilDrill2.Dragonclaws",
+      "AbyssElevator.Dragonclaws",
+      "SupplementaryExplorationTeam.Dragonclaws",
+      "NuclearWasteCollector.Dragonclaws",
+      "GasExctractor.Dragonclaws",
+      "AbyssExcavator.Dragonclaws",
+      "HoomanUndergroundChemPlant.Dragonclaws",
+      "HoomanUndergroundFactory.Dragonclaws",
+      "DeepMinePILEstorage.Dragonclaws",
+      "DeepMineBOXStorage.Dragonclaws",
+      "AbyssTourismCenter.Dragonclaws",
+      "HoomanMedicalFacility.Dragonclaws"
+    ]
+  }
+}

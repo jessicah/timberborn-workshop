@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.Emberpelts", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.Emberpelts" ],
+		"GoodCollectionIds#append": [ "TNF.Emberpelts" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.Emberpelts",
+			"NaturalResources.TNF.Emberpelts"
+		]
+	}
+}

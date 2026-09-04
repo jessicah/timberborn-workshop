@@ -1,0 +1,35 @@
+{
+  "RecipeSpec": {
+    "Id": "SiliconMetal",
+  "DisplayLocKey": "Good.SiliconMetal.DisplayName",
+  "CycleDurationInHours": 2000,
+  "CyclesCapacity": 10,
+  "Ingredients": [
+    {
+      "Id": "Quartz",
+      "Amount": 60
+    },
+    {
+      "Id": "Coal",
+      "Amount": 200
+    },
+    {
+      "Id": "Methane",
+      "Amount": 500
+    }
+  ],
+  "Products": [
+    {
+      "Id": "SiliconMetal",
+      "Amount": 3
+    }
+  ],
+  "ProducedSciencePoints": 2,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/SiliconMetal",
+
+	"BackwardCompatibleIds": []
+  }
+}

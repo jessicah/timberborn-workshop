@@ -1,0 +1,13 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Zipline",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Zipline/Addon_LargeFarmhouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Zipline/ScavengerDen.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Zipline/Zipline_Balloon_Relay.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Zipline/Zipline_SmallTower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Zipline/Zipline_Woodupgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Zipline/ZiplinePylon.Whitepaws.blueprint"
+    ]
+  }
+}

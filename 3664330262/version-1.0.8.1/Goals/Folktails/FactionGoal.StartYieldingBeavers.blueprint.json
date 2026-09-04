@@ -1,0 +1,19 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "Lodge.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 4
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "Lodge.Folktails",
+        "RequiredAmount": 4,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    }
+  }
+}

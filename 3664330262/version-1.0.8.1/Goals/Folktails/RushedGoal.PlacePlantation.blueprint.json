@@ -1,0 +1,23 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "EfficientFarmHouse.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Carrot",
+        "RequiredAmount": 50
+      }
+    },
+    "Step3": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Sunflower",
+        "RequiredAmount": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.FrostyWhiskers", "Order": 802009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.FrostyWhiskers",
+      "TreeTrunk.Side.Branch.FrostyWhiskers",
+      "TreeTrunk.Side.FrostyWhiskers",
+      "TreeTrunk.Corner.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

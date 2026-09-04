@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Flags",
+    "Order": 10,
+    "NameLocKey": "Toolgroup.Flags.DisplayName",
+    "Icon": "Buildings/Wood/LumberjackFlag/LumberjackFlagIcon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Village"
+    ]
+  }
+}

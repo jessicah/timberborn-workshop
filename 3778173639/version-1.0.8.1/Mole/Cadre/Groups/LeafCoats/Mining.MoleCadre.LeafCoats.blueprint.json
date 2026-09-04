@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.LeafCoats", "Order": 516001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.LeafCoats",
+      "SteamVentMiningSite.LeafCoats",
+      "FrozenAquifer.LeafCoats",
+      "IceBergMiningSite.LeafCoats",
+      "OilWell_Artificial.LeafCoats",
+      "OilDrill.LeafCoats",
+      "OilDrill2.LeafCoats",
+      "AbyssElevator.LeafCoats",
+      "SupplementaryExplorationTeam.LeafCoats",
+      "NuclearWasteCollector.LeafCoats",
+      "GasExctractor.LeafCoats",
+      "AbyssExcavator.LeafCoats",
+      "HoomanUndergroundChemPlant.LeafCoats",
+      "HoomanUndergroundFactory.LeafCoats",
+      "DeepMinePILEstorage.LeafCoats",
+      "DeepMineBOXStorage.LeafCoats",
+      "AbyssTourismCenter.LeafCoats",
+      "HoomanMedicalFacility.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.LeafCoats",
+      "SteamVentMiningSite.LeafCoats",
+      "FrozenAquifer.LeafCoats",
+      "IceBergMiningSite.LeafCoats",
+      "OilWell_Artificial.LeafCoats",
+      "OilDrill.LeafCoats",
+      "OilDrill2.LeafCoats",
+      "AbyssElevator.LeafCoats",
+      "SupplementaryExplorationTeam.LeafCoats",
+      "NuclearWasteCollector.LeafCoats",
+      "GasExctractor.LeafCoats",
+      "AbyssExcavator.LeafCoats",
+      "HoomanUndergroundChemPlant.LeafCoats",
+      "HoomanUndergroundFactory.LeafCoats",
+      "DeepMinePILEstorage.LeafCoats",
+      "DeepMineBOXStorage.LeafCoats",
+      "AbyssTourismCenter.LeafCoats",
+      "HoomanMedicalFacility.LeafCoats"
+    ]
+  }
+}

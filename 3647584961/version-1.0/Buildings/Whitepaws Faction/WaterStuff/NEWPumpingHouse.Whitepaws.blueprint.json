@@ -1,0 +1,404 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "WaterPump",
+    "LoopingSoundName": "WaterPump",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 25
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "PumpingHouse.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.1,
+      "Y": 0.0,
+      "Z": 0.99
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Waterpumps",
+    "ToolOrder": 0,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.WaterPump.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.NewWaterPump.Description",
+    "FlavorDescriptionLocKey": "Building.WaterPump.FlavorDescription",
+    "Icon": "Buildings/Water/WaterPump/WaterPumpIcon"
+  },
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "ProcreationHouseSpec": {},
+  "WorkplaceSpec": {
+    "MaxWorkers": 1,
+    "DefaultWorkers": 1,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "Water"
+    ]
+  },
+  "WorkplaceWorkerOutfitSpec": {
+    "WorkerOutfit": "Waterpumper"
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "ManufactoryWaterConsumerSpec": {},
+  "WorkshopSpec": {},
+  "EnterableIlluminatorSpec": {},
+  "WaterInputSpec": {
+    "WaterInputCoordinates": {
+      "X": 0,
+      "Y": 2,
+      "Z": 0
+    },
+    "MaxDepth": 3,
+    "PipeSegmentPrefabPath": "Buildings/Whitepaws Faction/Pipes/WaterPumpPipeSegment.Whitepaws",
+    "PipeParentName": "#Finished"
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 1
+      }
+    ]
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "SoilBarrierSpec": {
+    "BlockAboveMoisture": true,
+    "BlockFullMoisture": false,
+    "BlockContamination": true
+  },
+  "WorkshopAnimationControllerSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": -1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 1,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 1,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": 0,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "DrivewayModelSpec": {
+    "Driveway": "NarrowCenter",
+    "HasCustomCoordinates": false,
+    "CustomCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CustomDirection": "Down",
+    "DrivewayMode": "Unidirectional"
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "FloodableObjectBlockerSpec": {},
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.5,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 1.0,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 1.25,
+              "Z": 1.0
+            },
+            "Radius": 0.9,
+            "Height": 0.0,
+            "Axis": "Y"
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 1.25,
+              "Z": 2.5
+            },
+            "Radius": 0.25,
+            "Height": 1.0,
+            "Axis": "Y"
+          }
+        ]
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/WaterStuff_Meshies/NEWPumpingHouse.Whitepaws.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

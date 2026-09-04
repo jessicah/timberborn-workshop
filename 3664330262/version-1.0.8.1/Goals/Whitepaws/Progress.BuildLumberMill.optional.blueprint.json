@@ -1,0 +1,23 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Progress.BuildLumberMill.Whitepaws",
+    "IntroLocKey": "Tutorial.PowerAndPlanks.LumberMill"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PrimitiveSawmill.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "PowerBuildingsTutorialStepSpec": {
+        "TemplateName": "PrimitiveSawmill.Whitepaws",
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

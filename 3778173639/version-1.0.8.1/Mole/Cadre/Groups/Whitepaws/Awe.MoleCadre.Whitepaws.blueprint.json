@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Whitepaws", "Order": 726000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Whitepaws",
+      "LaborerMonument.Whitepaws",
+      "BrazierOfBonding.Whitepaws",
+      "FlameOfUnity.Whitepaws",
+      "FountainOfJoy.Whitepaws",
+      "PublicFountain.Whitepaws",
+      "TributeToIngenuity.Whitepaws",
+      "HallOfAbundance.Whitepaws",
+      "ArchOfProgress.Whitepaws",
+      "EarthRecultivator.Whitepaws",
+      "EarthRepopulator.Whitepaws",
+      "WonderOfFire.Whitepaws",
+      "Wonder.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Whitepaws",
+      "LaborerMonument.Whitepaws",
+      "BrazierOfBonding.Whitepaws",
+      "FlameOfUnity.Whitepaws",
+      "FountainOfJoy.Whitepaws",
+      "PublicFountain.Whitepaws",
+      "TributeToIngenuity.Whitepaws",
+      "HallOfAbundance.Whitepaws",
+      "ArchOfProgress.Whitepaws",
+      "EarthRecultivator.Whitepaws",
+      "EarthRepopulator.Whitepaws",
+      "WonderOfFire.Whitepaws",
+      "Wonder.Whitepaws"
+    ]
+  }
+}

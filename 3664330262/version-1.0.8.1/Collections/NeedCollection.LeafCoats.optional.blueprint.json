@@ -1,0 +1,7 @@
+{
+	"NeedCollectionSpec":
+	{
+		"Needs#append": [ "GreenGrapes" ],
+		"Needs#remove": [ "Grapes", "PlantMurderer" ]
+	}
+}

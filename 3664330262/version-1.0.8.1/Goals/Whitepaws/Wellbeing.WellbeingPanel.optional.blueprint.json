@@ -1,0 +1,11 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Wellbeing.WellbeingPanel.Whitepaws",
+    "IntroLocKey": "Tutorial.Wellbeing.WellbeingPanel"
+  },
+  "Children": {
+    "Child": {
+      "OpenWellbeingPanelStepSpec": {}
+    }
+  }
+}

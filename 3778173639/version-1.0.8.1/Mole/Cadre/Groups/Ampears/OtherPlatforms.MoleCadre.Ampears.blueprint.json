@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.Ampears", "Order": 902009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Ampears",
+      "TreeTrunk.Side.Branch.Ampears",
+      "TreeTrunk.Side.Ampears",
+      "TreeTrunk.Corner.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

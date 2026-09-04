@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "ArchitectBranch",
+    "NameLocKey": "Tutorial.ArchitectBranch.Whitepaws",
+    "RequiredTutorialIds": [
+      "Library"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 40,
+    "Stages": [
+      "ArchitectText",
+      "BuildArchitect",
+      "FarmOrForestryUpgrade",
+      "BuildLargeWarehouse",
+      "BlueprintIntroBText"
+    ]
+  }
+}

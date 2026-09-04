@@ -1,0 +1,27 @@
+﻿{
+  "Children": {
+			"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "Forester.Folktails" } },
+			"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "Forester.Folktails" } },
+			"Step3": {
+					"BuildingTutorialStepSpec": {
+							"TemplateNames": [ "Forester.Folktails" ],
+							"OnlyFinishedBuildings": true,
+							"RequiredAmount": 1
+					}
+			},
+			"Step4": {
+					"ConnectBuildingsTutorialStepSpec": {
+							"TemplateName": "Forester.Folktails",
+							"RequiredAmount": 1,
+							"CountUnfinishedBuildings": false,
+							"HighlightableBuildingIds": [ "Path.Folktails" ]
+					}
+			},
+			"Step5": {
+					"MarkPlantablesTutorialStepSpec": {
+							"TemplateName": "Oak",
+							"RequiredAmount": 20
+					}
+			}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Progress.BuildWaterWheel.Whitepaws",
+    "IntroLocKey": "Tutorial.PowerAndPlanks.WaterWheel"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "CrappyWaterWheel.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

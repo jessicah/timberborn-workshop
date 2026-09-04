@@ -1,0 +1,390 @@
+{
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BuildingSpec": {
+    "SelectionSoundName": "Bakery",
+    "LoopingSoundName": "Bakery",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 6
+      },
+      {
+        "Id": "ClayPot",
+        "Amount": 1
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 2,
+    "DefaultWorkers": 2,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "BraisedCabbage",
+      "OnigiriSalt",
+      "FriedPumpkinChips",
+      "Awfulstew",
+      "CerealBarFast"
+    ]
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "TemplateSpec": {
+    "TemplateName": "CookingTent.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Cookingtent"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Entrance",
+        "Animation": "Working",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "DrivewayModelSpec": {
+    "Driveway": "NarrowLeft",
+    "HasCustomCoordinates": false,
+    "CustomCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CustomDirection": "Down",
+    "DrivewayMode": "Unidirectional"
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.6,
+      "Y": 0.13,
+      "Z": 0.6
+    },
+    "ForceOneFinalAccess": false
+  },
+  "ProductionIncreaserSpec": {},
+  "FloodableFireSpec": {},
+  "FixedSlotManagerSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Cooking",
+    "ToolOrder": 30,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.Cookingtent.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Cookingtent.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Cookingtent.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/Cooking tent"
+  },
+  "WorkshopSpec": {},
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "WorkshopParticleControllerSpec": {
+    "AttachmentIds": [
+      "Fire.CookingTent"
+    ]
+  },
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "Fire.CookingTent",
+        "Prefab": "Buildings/DistrictManagement/DistrictCenter/DistrictCenterFire",
+        "Parent": "#Finished",
+        "Position": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 0.5,
+          "Y": 0.1,
+          "Z": 0.5
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "FireSpec": {
+    "AttachmentId": "Fire.CookingTent"
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 4,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [],
+        "SphereColliders": [],
+        "CapsuleColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.5,
+              "Z": 1.0
+            },
+            "Radius": 1.0,
+            "Height": 1.0,
+            "Axis": "Y"
+          }
+        ]
+      },
+      "Children": {
+        "Gristmill": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.017,
+              "Y": 0.0,
+              "Z": -0.214
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "#Slot#Entrance": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.017,
+                  "Y": -1.22464636E-17,
+                  "Z": 1.68800008
+                },
+                "Rotation": {
+                  "X": -7.01670659E-15,
+                  "Y": 180.000015,
+                  "Z": -7.01670955E-15
+                },
+                "Scale": {
+                  "X": 0.95,
+                  "Y": 0.95,
+                  "Z": 0.95
+                }
+              }
+            },
+            "#Slot#Entrance (1)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.45148349,
+                  "Y": 1.21140932E-18,
+                  "Z": 1.51959157
+                },
+                "Rotation": {
+                  "X": 6.94086431E-16,
+                  "Y": 229.01091,
+                  "Z": -9.89882E-15
+                },
+                "Scale": {
+                  "X": 0.95,
+                  "Y": 0.95,
+                  "Z": 0.95
+                }
+              }
+            },
+            "#Slot#Entrance (2)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.25491369,
+                  "Y": -1.6924299E-17,
+                  "Z": 0.887111068
+                },
+                "Rotation": {
+                  "X": 9.69690857E-15,
+                  "Y": 327.2576,
+                  "Z": 2.10675115E-15
+                },
+                "Scale": {
+                  "X": 0.95,
+                  "Y": 0.95,
+                  "Z": 0.95
+                }
+              }
+            },
+            "#Slot#Entrance (3)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.673182964,
+                  "Y": 1.82952383E-17,
+                  "Z": 0.9847909
+                },
+                "Rotation": {
+                  "X": -5.760034E-16,
+                  "Y": 48.3277054,
+                  "Z": 9.906394E-15
+                },
+                "Scale": {
+                  "X": 0.95,
+                  "Y": 0.95,
+                  "Z": 0.95
+                }
+              }
+            }
+          }
+        },
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.05,
+              "Y": 0.0,
+              "Z": -0.1
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.95,
+              "Y": 0.95,
+              "Z": 0.95
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/CookingTent.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.IslandBeavers", "Order": 1002004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.IslandBeavers",
+      "Overhang2x1.IslandBeavers",
+      "Overhang3x1.IslandBeavers",
+      "Overhang4x1.IslandBeavers",
+      "Overhang5x1.IslandBeavers",
+      "Overhang6x1.IslandBeavers",
+      "Overhang7x1.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.IslandBeavers",
+      "Overhang2x1.IslandBeavers",
+      "Overhang3x1.IslandBeavers",
+      "Overhang4x1.IslandBeavers",
+      "Overhang5x1.IslandBeavers",
+      "Overhang6x1.IslandBeavers",
+      "Overhang7x1.IslandBeavers"
+    ]
+  }
+}

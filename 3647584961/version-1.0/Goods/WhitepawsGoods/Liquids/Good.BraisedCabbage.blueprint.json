@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "BraisedCabbage",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "BraisedCabbage",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Warm",
+    "StockpileVisualization": "WarmGranular",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5169811,
+      "g": 0.5169811,
+      "b": 0.5169811,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/BraisedCabbageBall",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 10206,
+    "Icon": "sprites/Whitepaws Sprites/Goods/BraisedCabbage",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.BraisedCabbage.DisplayName",
+    "PluralDisplayNameLocKey": "Good.BraisedCabbage.PluralDisplayName"
+  }
+}

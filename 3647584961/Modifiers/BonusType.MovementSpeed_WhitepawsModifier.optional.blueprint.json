@@ -1,9 +1,0 @@
-{
-  "BonusTypeSpec": {
-    "Id": "MovementSpeed",
-    "MinimumValue": 0.25,
-    "MaximumValue": 5.0,
-    "Icon": "Sprites/Bonuses/MovementSpeed",
-    "LocKey": "Bonus.MovementSpeed"
-  }
-}

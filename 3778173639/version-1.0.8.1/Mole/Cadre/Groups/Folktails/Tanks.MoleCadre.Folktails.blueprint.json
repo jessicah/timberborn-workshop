@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Folktails", "Order": 220000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Folktails",
+      "Pit-and-LadderLodge_LiquidStorage.Folktails",
+      "SmallCoveredTank.Folktails",
+      "SmallTank.Folktails",
+      "SmallAquaTank.Folktails.Mole",
+      "PitTank.Folktails",
+      "MediumTank.Folktails",
+      "BasicAquaTank.Folktails.Mole",
+      "LargeTank.Folktails",
+      "LargeAquaTank.Folktails.Mole",
+      "UndergroundTank.Folktails",
+      "BuriedAquaTank.Folktails.Mole",
+      "LargeUndergroundTank.Folktails",
+      "GazTank.Folktails",
+      "GasTank.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Folktails",
+      "Pit-and-LadderLodge_LiquidStorage.Folktails",
+      "SmallCoveredTank.Folktails",
+      "SmallTank.Folktails",
+      "SmallAquaTank.Folktails.Mole",
+      "PitTank.Folktails",
+      "MediumTank.Folktails",
+      "BasicAquaTank.Folktails.Mole",
+      "LargeTank.Folktails",
+      "LargeAquaTank.Folktails.Mole",
+      "UndergroundTank.Folktails",
+      "BuriedAquaTank.Folktails.Mole",
+      "LargeUndergroundTank.Folktails",
+      "GazTank.Folktails",
+      "GasTank.Folktails"
+    ]
+  }
+}

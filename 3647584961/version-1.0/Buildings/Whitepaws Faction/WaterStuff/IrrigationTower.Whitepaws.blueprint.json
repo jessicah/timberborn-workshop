@@ -1,0 +1,469 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 35
+      },
+      {
+        "Id": "Plank",
+        "Amount": 10
+      },
+      {
+        "Id": "PineResin",
+        "Amount": 8
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "IrrigationTower.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 4
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Irrigation",
+    "ToolOrder": 10,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.0,
+      "Z": 0.4
+    },
+    "ForceOneFinalAccess": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.IrrigationLodge.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.IrrigationLodge.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.IrrigationLodge.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/IrrigationHouse"
+  },
+  "EnterableIlluminatorSpec": {},
+  "DrivewayModelSpec": {
+    "Driveway": "NarrowCenter",
+    "HasCustomCoordinates": false,
+    "CustomCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CustomDirection": "Down",
+    "DrivewayMode": "Unidirectional"
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "Irrigation.Whitepaws",
+      "Detox_Irrigation.Whitepaws"
+    ]
+  },
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "ProcreationHouseSpec": {},
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 1
+      }
+    ]
+  },
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "ManufactoryIrrigationTowerSpec": {
+    "IrrigationRange": 10,
+    "IrrigateFromGroundTilesOnly": true,
+    "Effects": [
+      "Detox_Irrigation.Whitepaws=BlockContamination"
+    ]
+  },
+  "MultiGoodAmountTransformHeightSpec": {
+    "GoodAmounts": [
+      {
+        "TargetName": "#Misc#Water",
+        "MaxHeight": 3.85,
+        "Good": "Water",
+        "NonLinearity": 0.0
+      },
+      {
+        "TargetName": "#Misc#Water3",
+        "MaxHeight": 3.85,
+        "Good": "Cure",
+        "NonLinearity": 0.0
+      }
+    ]
+  },
+  "BlockContaminationRangeEffectSpec": {
+    "EffectGroup": "BlockContamination"
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.7,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 1.4,
+              "Z": 2.0
+            }
+          },
+          {
+            "Center": {
+              "X": 0.58,
+              "Y": 2.75,
+              "Z": 0.55
+            },
+            "Size": {
+              "X": 0.9,
+              "Y": 2.5,
+              "Z": 0.9
+            }
+          },
+          {
+            "Center": {
+              "X": 1.48,
+              "Y": 2.2,
+              "Z": 0.55
+            },
+            "Size": {
+              "X": 0.7,
+              "Y": 1.6,
+              "Z": 0.7
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "#Misc#Water": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.6,
+              "Y": 1.57,
+              "Z": 0.544
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.95,
+              "Y": 1.0,
+              "Z": 0.95
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Not_Powder_Pilables_Meshes/SmallLiquidPlane_Water.Model"
+          },
+          "Children": {
+            "#Slot#Floating": {
+              "TransformSpec": {
+                "Position": {
+                  "X": -0.01,
+                  "Y": -0.05,
+                  "Z": -0.01
+                },
+                "Rotation": {
+                  "X": -9.47114E-06,
+                  "Y": 224.8322,
+                  "Z": -3.906835E-06
+                },
+                "Scale": {
+                  "X": 1.0526315,
+                  "Y": 1.0,
+                  "Z": 1.0526315
+                }
+              }
+            }
+          }
+        },
+        "#Misc#Water2": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.6,
+              "Y": 1.57,
+              "Z": 0.544
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.95,
+              "Y": 1.0,
+              "Z": 0.95
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Not_Powder_Pilables_Meshes/SmallLiquidPlane_Water.Model"
+          },
+          "Children": {
+            "#Slot#Floating": {
+              "TransformSpec": {
+                "Position": {
+                  "X": -0.01,
+                  "Y": -0.05,
+                  "Z": -0.01
+                },
+                "Rotation": {
+                  "X": -9.47114E-06,
+                  "Y": 224.8322,
+                  "Z": -3.906835E-06
+                },
+                "Scale": {
+                  "X": 1.0526315,
+                  "Y": 1.0,
+                  "Z": 1.0526315
+                }
+              }
+            }
+          }
+        },
+        "#Misc#Water3": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.6,
+              "Y": 1.57,
+              "Z": 0.544
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.03,
+              "Y": 1.03,
+              "Z": 1.03
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/WaterStuff_Meshies/SmallCurePlane"
+          }
+        },
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/WaterStuff_Meshies/IrrigationTower.Whitepaws"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

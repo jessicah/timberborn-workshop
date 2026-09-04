@@ -1,0 +1,15 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "DeepRuin",
+    "Order": 100,
+    "NameLocKey": "Lapantouflemagic.DeepRuin.Group.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Deepmineelevator",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Metal",
+      "Science"
+    ]
+  }
+}

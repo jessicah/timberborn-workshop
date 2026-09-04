@@ -1,0 +1,31 @@
+{
+  "RecipeSpec": {
+    "Id": "RedSoda",
+  "DisplayLocKey": "Good.RedSoda.PluralDisplayName",
+  "CycleDurationInHours": 1,
+  "CyclesCapacity": 50,
+  "Ingredients":[ 
+    {
+      "Id": "MeanFlower",
+      "Amount": 5
+    },
+    {
+      "Id": "Water",
+      "Amount": 10
+    },
+  ],
+  "Products": [
+    {
+      "Id": "RedSoda",
+      "Amount": 12
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/RedSoda",
+
+	"BackwardCompatibleIds": []
+  }
+}

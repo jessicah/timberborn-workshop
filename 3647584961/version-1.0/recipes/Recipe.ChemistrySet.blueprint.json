@@ -1,0 +1,31 @@
+{
+  "RecipeSpec": {
+    "Id": "ChemistrySet",
+  "DisplayLocKey": "Good.ChemistrySet.DisplayName",
+  "CycleDurationInHours": 100,
+  "CyclesCapacity": 1,
+  "Ingredients": [
+    {
+      "Id": "Quartz",
+      "Amount": 100
+    },
+    {
+      "Id": "Methane",
+      "Amount": 75
+    }
+  ],
+  "Products": [
+    {
+      "Id": "ChemistrySet",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/ChemistrySet",
+
+	"BackwardCompatibleIds": []
+  }
+}

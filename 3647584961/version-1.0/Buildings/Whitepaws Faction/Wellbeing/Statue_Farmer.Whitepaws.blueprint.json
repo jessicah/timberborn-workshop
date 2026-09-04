@@ -1,0 +1,309 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "LaborerMonument",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 100
+      },
+      {
+        "Id": "Plank",
+        "Amount": 75
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 35
+      },
+      {
+        "Id": "GiantLog",
+        "Amount": 1
+      },
+      {
+        "Id": "GoldBar",
+        "Amount": 1
+      }
+    ],
+    "ScienceCost": 1000,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "Statue_Farmer.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Statue_Farmer"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 7
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 4
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Monuments",
+    "ToolOrder": 310,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.Statue_Farmer.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Statue_Farmer.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Statue_Farmer.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/Statue_Farmer"
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Statue_Farmer",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.303518951,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 0.6070379,
+              "Z": 2.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.01771,
+              "Y": 1.05320382,
+              "Z": 0.9837752
+            },
+            "Size": {
+              "X": 0.914895058,
+              "Y": 0.8834599,
+              "Z": 0.907663941
+            }
+          },
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 1.69875813,
+              "Z": 1.00291288
+            },
+            "Size": {
+              "X": 1.44074607,
+              "Y": 0.391489029,
+              "Z": 1.43491387
+            }
+          }
+        ],
+        "SphereColliders": [
+          {
+            "Center": {
+              "X": 1.451292,
+              "Y": 3.2886076,
+              "Z": 0.9502064
+            },
+            "Radius": 0.377517223
+          },
+          {
+            "Center": {
+              "X": 0.9614457,
+              "Y": 3.2886076,
+              "Z": 1.38189733
+            },
+            "Radius": 0.350681067
+          }
+        ],
+        "CapsuleColliders": [
+          {
+            "Center": {
+              "X": 1.0018549,
+              "Y": 2.69112086,
+              "Z": 0.9764739
+            },
+            "Radius": 0.4016713,
+            "Height": 1.969605,
+            "Axis": "Y"
+          }
+        ]
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Statues_Meshies/Statue_Farmer.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

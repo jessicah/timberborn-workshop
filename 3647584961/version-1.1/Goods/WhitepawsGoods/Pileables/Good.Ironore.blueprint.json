@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Ironore",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Ironore",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.5988804,
+      "b": 0.330188572,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10106,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Ironore",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Ironore.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Ironore.PluralDisplayName"
+  }
+}

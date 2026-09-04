@@ -1,0 +1,35 @@
+{
+  "RecipeSpec": {
+    "Id": "NuclearFuelFast",
+  "DisplayLocKey": "Lapantouflemagic.NuclearFuelFast.DisplayName",
+  "CycleDurationInHours": 24,
+  "CyclesCapacity": 60,
+  "Ingredients": [
+    {
+      "Id": "NuclearWaste",
+      "Amount": 9
+    },
+    {
+      "Id": "Cure",
+      "Amount": 3
+    },
+    {
+      "Id": "Water",
+      "Amount": 5
+    }
+  ],
+  "Products": [
+    {
+      "Id": "NuclearFuel",
+      "Amount": 3
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Gear",
+  "CyclesFuelLasts": 150,
+  "FuelCapacity": 5,
+  "Icon": "sprites/Whitepaws Sprites/Other/FastShrooms",
+
+	"BackwardCompatibleIds": []
+  }
+}

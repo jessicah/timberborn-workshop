@@ -1,0 +1,27 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Forestry.BuildForester.Whitepaws",
+    "IntroLocKey": "Tutorial.Forestry.Forester"
+  },
+  "Children": {
+    "Step1": {
+      "AccumulateScienceForBuildingStepSpec": {
+        "TemplateName": "Forester.Whitepaws"
+      }
+    },
+    "Step2": {
+      "UnlockBuildingTutorialStepSpec": {
+        "TemplateName": "Forester.Whitepaws"
+      }
+    },
+    "Step3": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Forester.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

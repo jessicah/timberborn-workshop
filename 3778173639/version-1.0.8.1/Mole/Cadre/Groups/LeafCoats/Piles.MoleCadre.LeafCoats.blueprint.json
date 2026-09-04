@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.LeafCoats", "Order": 518000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.LeafCoats",
+      "SmallPile.LeafCoats",
+      "SmallIndustrialPile.LeafCoats",
+      "SmallAquaPile.LeafCoats.Mole",
+      "LongPile.LeafCoats",
+      "PitPile.LeafCoats",
+      "2x2PileRight.LeafCoats",
+      "Pile.LeafCoats",
+      "IndustrialPile.LeafCoats",
+      "MediumPile.LeafCoats",
+      "MediumIndustrialPile.LeafCoats",
+      "LargePile.LeafCoats",
+      "LargeIndustrialPile.LeafCoats",
+      "BasicAquaPile.LeafCoats.Mole",
+      "ExtraLargePile.LeafCoats",
+      "ExtraLargeIndustrialPile.LeafCoats",
+      "LargeAquaPile.LeafCoats.Mole",
+      "GigargantuanPile.LeafCoats",
+      "UndergroundPile.LeafCoats",
+      "BuriedAquaPile.LeafCoats.Mole",
+      "GiantLogStorage.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.LeafCoats",
+      "SmallPile.LeafCoats",
+      "SmallIndustrialPile.LeafCoats",
+      "SmallAquaPile.LeafCoats.Mole",
+      "LongPile.LeafCoats",
+      "PitPile.LeafCoats",
+      "2x2PileRight.LeafCoats",
+      "Pile.LeafCoats",
+      "IndustrialPile.LeafCoats",
+      "MediumPile.LeafCoats",
+      "MediumIndustrialPile.LeafCoats",
+      "LargePile.LeafCoats",
+      "LargeIndustrialPile.LeafCoats",
+      "BasicAquaPile.LeafCoats.Mole",
+      "ExtraLargePile.LeafCoats",
+      "ExtraLargeIndustrialPile.LeafCoats",
+      "LargeAquaPile.LeafCoats.Mole",
+      "GigargantuanPile.LeafCoats",
+      "UndergroundPile.LeafCoats",
+      "BuriedAquaPile.LeafCoats.Mole",
+      "GiantLogStorage.LeafCoats"
+    ]
+  }
+}

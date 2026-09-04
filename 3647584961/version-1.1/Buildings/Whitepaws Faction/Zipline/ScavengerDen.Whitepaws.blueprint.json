@@ -1,0 +1,979 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Gristmill",
+    "LoopingSoundName": "Gristmill",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 50
+      },
+      {
+        "Id": "Plank",
+        "Amount": 40
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 20
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 30
+      },
+      {
+        "Id": "Tools",
+        "Amount": 32
+      },
+      {
+        "Id": "Gear",
+        "Amount": 10
+      },
+      {
+        "Id": "Rope",
+        "Amount": 15
+      },
+      {
+        "Id": "ZiplineSystemBlueprintStar",
+        "Amount": 1
+      }
+    ],
+    "ScienceCost": 100,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ScavengerDen.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 3,
+      "Z": 6
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Top, Corners",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Metal",
+    "ToolOrder": 50,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.ScavengerDen.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.ScavengerDen.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.ScavengerDen.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/ScavengerDen"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": -1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": 1,
+              "Z": 0
+            },
+            "IsTwoWay": true
+          }
+        ]
+      },
+      {
+        "Cost": 0.0,
+        "Group": {
+          "UseGroup": true,
+          "GroupName": "Zipline"
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": 0,
+              "Z": 5
+            },
+            "IsTwoWay": true
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [
+      {
+        "Group": "Zipline",
+        "Coordinates": {
+          "X": 1,
+          "Y": 1,
+          "Z": 5
+        }
+      }
+    ],
+    "BlockedEdges": []
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "ZiplineTowerSpec": {
+    "CableAnchorPoint": {
+      "X": 0.5,
+      "Y": 5.85,
+      "Z": 0.5
+    },
+    "MaxConnections": 6,
+    "MaxDistance": 30,
+    "UnobstructedCoordinates": [
+      {
+        "X": 0,
+        "Y": 0,
+        "Z": 4
+      }
+    ]
+  },
+  "MovementSpeedBoostingBuildingSpec": {
+    "BoostPercentage": 200
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.0,
+      "Z": 0.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "ZiplineStationSpec": {},
+  "BlockObjectAccessesSpec": {
+    "BlockingCoordinates": [
+      {
+        "X": 0,
+        "Y": 0,
+        "Z": 5
+      }
+    ],
+    "AllowedCoordinates": []
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 2,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 2,
+        "Y": 1
+      },
+      {
+        "X": 0,
+        "Y": 2
+      },
+      {
+        "X": 1,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 2
+      }
+    ]
+  },
+  "SoilBarrierSpec": {
+    "BlockAboveMoisture": true,
+    "BlockFullMoisture": false,
+    "BlockContamination": false
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 8,
+    "DefaultWorkers": 2,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "ProcreationHouseSpec": {},
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "EnterableIlluminatorSpec": {},
+  "ScavengerSpec": {},
+  "YieldRemovingBuildingSpec": {
+    "ResourceGroup": "Ruin"
+  },
+  "SimpleOutputInventorySpec": {
+    "Capacity": 200,
+    "IgnorableCapacity": false
+  },
+  "WorkplaceBonusesSpec": {
+    "WorkerBonuses": [
+      {
+        "Id": "WorkingSpeed",
+        "MultiplierDelta": 1.0
+      },
+      {
+        "Id": "CarryingCapacity",
+        "MultiplierDelta": 2.0
+      },
+      {
+        "Id": "MovementSpeed",
+        "MultiplierDelta": 1.0
+      }
+    ]
+  },
+  "UnconnectedBuildingBlockerSpec": {},
+  "FloodableObjectBlockerSpec": {},
+  "Children": {
+    "#Finished": {
+      "Children": {
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": -4.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/LightIndustry_Meshies/ScavengerDen.Whitepaws.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 5.5,
+                  "Y": 0.75,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 3.0,
+                  "Y": 1.5,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 6.4,
+                  "Y": 2.0,
+                  "Z": 0.6
+                },
+                "Size": {
+                  "X": 1.1,
+                  "Y": 1.0,
+                  "Z": 1.1
+                }
+              },
+              {
+                "Center": {
+                  "X": 5.2,
+                  "Y": 1.75,
+                  "Z": 1.9
+                },
+                "Size": {
+                  "X": 1.8,
+                  "Y": 0.5,
+                  "Z": 1.8
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "Fipline_Pylon": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.1,
+              "Y": 0.900000036,
+              "Z": 0.1
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.95,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.8,
+                  "Y": 0.1,
+                  "Z": 0.8
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 4.8,
+                  "Z": 0.5
+                },
+                "Radius": 0.5,
+                "Height": 1.0,
+                "Axis": "Y"
+              }
+            ]
+          },
+          "Children": {
+            "rotated_hitbox": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.200000018,
+                  "Y": 2.0,
+                  "Z": 0.200000018
+                },
+                "Rotation": {
+                  "X": 5.00000238,
+                  "Y": -1.33911708E-08,
+                  "Z": 354.999969
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.1,
+                      "Y": 4.0,
+                      "Z": 0.1
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "rotated_hitbox (1)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.200000018,
+                  "Y": 2.0,
+                  "Z": 0.8
+                },
+                "Rotation": {
+                  "X": 354.999969,
+                  "Y": 1.33911708E-08,
+                  "Z": 354.999969
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.1,
+                      "Y": 4.0,
+                      "Z": 0.1
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "rotated_hitbox (2)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.8,
+                  "Y": 2.0,
+                  "Z": 0.8
+                },
+                "Rotation": {
+                  "X": 354.999969,
+                  "Y": -1.33911708E-08,
+                  "Z": 5.00000143
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.1,
+                      "Y": 4.0,
+                      "Z": 0.1
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "rotated_hitbox (3)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.8,
+                  "Y": 2.0,
+                  "Z": 0.199999988
+                },
+                "Rotation": {
+                  "X": 5.000002,
+                  "Y": 0.0,
+                  "Z": 5.00000143
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.1,
+                      "Y": 4.0,
+                      "Z": 0.1
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x3#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase3x3/ConstructionBase3x3.blueprint"
+        }
+      }
+    }
+  }
+}

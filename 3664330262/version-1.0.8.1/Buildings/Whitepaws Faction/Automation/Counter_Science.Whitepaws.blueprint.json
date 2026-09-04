@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "ScienceCounter.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Counter_Science.Whitepaws"
+		]
+	}
+}

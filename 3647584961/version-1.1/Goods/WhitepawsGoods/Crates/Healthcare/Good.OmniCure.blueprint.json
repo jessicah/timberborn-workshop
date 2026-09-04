@@ -1,0 +1,58 @@
+{
+  "GoodSpec": {
+    "Id": "OmniCure",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "SevereInjury",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "MinorInjury",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "MajorBurns",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "MinorBurns",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "SevereDisease",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "MildDisease",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "BadwaterContamination",
+        "Points": 0.1
+      },
+      {
+        "NeedId": "Maimed",
+        "Points": 0.1
+      }
+    ],
+    "GoodType": "Unstorable",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.262264073,
+      "b": 0.838076055,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Cure",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.OmniCure.DisplayName",
+    "PluralDisplayNameLocKey": "Good.OmniCure.PluralDisplayName"
+  }
+}

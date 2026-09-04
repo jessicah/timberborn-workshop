@@ -1,0 +1,11 @@
+{
+  "TutorialStageSpec": {
+    "Id": "StatusGoal.FactionWellbeing",
+    "IntroLocKey": "StatusGoalText.FactionWellbeing"
+  },
+  "Children": {
+    "Child": {
+      "OpenWellbeingPanelStepSpec": {}
+    }
+  }
+}

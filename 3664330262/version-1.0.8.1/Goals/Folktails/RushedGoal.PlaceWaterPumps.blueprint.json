@@ -1,0 +1,11 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "WaterPump.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.Dragonclaws", "Order": 1222000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.Dragonclaws",
+      "TeethGrindstone.Dragonclaws",
+      "MedicalBed.Dragonclaws",
+      "MedicalTripleBed.Dragonclaws",
+      "Fixedmedicalbed_Burns.Dragonclaws",
+      "Fixedmedicalbed_Disease.Dragonclaws",
+      "Fixedmedicalbed_Injury.Dragonclaws",
+      "Clinic.Dragonclaws",
+      "DecontaminationPod.Dragonclaws",
+      "ContaminatedJail.Dragonclaws",
+      "WashingMachine.Dragonclaws",
+      "Herbalist.Dragonclaws",
+      "TankShower.Dragonclaws",
+      "Shower.Dragonclaws",
+      "DoubleShower.Dragonclaws",
+      "RiverBath.Dragonclaws",
+      "Scratcher.Dragonclaws",
+      "Massager.Dragonclaws",
+      "Sauna.Dragonclaws",
+      "Hammock.Dragonclaws",
+      "Swing.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.Dragonclaws",
+      "TeethGrindstone.Dragonclaws",
+      "MedicalBed.Dragonclaws",
+      "MedicalTripleBed.Dragonclaws",
+      "Fixedmedicalbed_Burns.Dragonclaws",
+      "Fixedmedicalbed_Disease.Dragonclaws",
+      "Fixedmedicalbed_Injury.Dragonclaws",
+      "Clinic.Dragonclaws",
+      "DecontaminationPod.Dragonclaws",
+      "ContaminatedJail.Dragonclaws",
+      "WashingMachine.Dragonclaws",
+      "Herbalist.Dragonclaws",
+      "TankShower.Dragonclaws",
+      "Shower.Dragonclaws",
+      "DoubleShower.Dragonclaws",
+      "RiverBath.Dragonclaws",
+      "Scratcher.Dragonclaws",
+      "Massager.Dragonclaws",
+      "Sauna.Dragonclaws",
+      "Hammock.Dragonclaws",
+      "Swing.Dragonclaws"
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "BlockObjectToolGroupSpec": {
-    "Id": "Damhouses",
-    "Order": 5,
-    "NameLocKey": "ToolGroups.Damhouses",
-    "Icon": "Sprites/Whitepaws Sprites/Other/houseterraforming",
-    "FallbackGroup": false
-  }
-}

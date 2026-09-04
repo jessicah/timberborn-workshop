@@ -1,0 +1,423 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "primitivedam3x3variant.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "primitivedam3x3variant"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingSpec": {
+    "SelectionSoundName": "Floodgate",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 80
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 20
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 3,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Dams",
+    "ToolOrder": 30,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.primitivedam.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.primitivedam.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.primitivedam.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/dams/dam3x3_X"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 0.65
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 1
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "FinishableHorizontalWaterObstacleSpec": {
+    "Obstacles": [
+      {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      },
+      {
+        "X": 0,
+        "Y": 2,
+        "Z": 0
+      },
+      {
+        "X": 1,
+        "Y": 0,
+        "Z": 0
+      },
+      {
+        "X": 1,
+        "Y": 1,
+        "Z": 0
+      },
+      {
+        "X": 1,
+        "Y": 2,
+        "Z": 0
+      },
+      {
+        "X": 2,
+        "Y": 0,
+        "Z": 0
+      },
+      {
+        "X": 2,
+        "Y": 1,
+        "Z": 0
+      },
+      {
+        "X": 2,
+        "Y": 2,
+        "Z": 0
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.1,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 0.2,
+              "Z": 3.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Dam_3_Wide.Model"
+          }
+        },
+        "Meshy_Holder (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 3.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 89.9998245,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Dams_and_Fences_Meshies/Dam_3_Wide.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x3#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase3x3/ConstructionBase3x3.blueprint",
+          "Modification": {
+            "TimbermeshSpec": {
+              "Model": "ConstructionBases/ConstructionBase3x3EdgesOnly/ConstructionBase3x3EdgesOnly.Model"
+            },
+            "CollidersSpec": {
+              "BoxColliders#remove": [
+                {
+                  "Center": {
+                    "X": 1.5,
+                    "Y": 0.05,
+                    "Z": 1.5
+                  },
+                  "Size": {
+                    "X": 3.0,
+                    "Y": 0.1,
+                    "Z": 3.0
+                  }
+                }
+              ],
+              "BoxColliders#append": [
+                {
+                  "Center": {
+                    "X": 0.1,
+                    "Y": 0.175,
+                    "Z": 1.5
+                  },
+                  "Size": {
+                    "X": 0.2,
+                    "Y": 0.35,
+                    "Z": 3.0
+                  }
+                },
+                {
+                  "Center": {
+                    "X": 2.9,
+                    "Y": 0.175,
+                    "Z": 1.5
+                  },
+                  "Size": {
+                    "X": 0.2,
+                    "Y": 0.35,
+                    "Z": 3.0
+                  }
+                },
+                {
+                  "Center": {
+                    "X": 1.5,
+                    "Y": 0.175,
+                    "Z": 0.1
+                  },
+                  "Size": {
+                    "X": 2.6,
+                    "Y": 0.35,
+                    "Z": 0.2
+                  }
+                },
+                {
+                  "Center": {
+                    "X": 1.5,
+                    "Y": 0.175,
+                    "Z": 2.9
+                  },
+                  "Size": {
+                    "X": 2.6,
+                    "Y": 0.35,
+                    "Z": 0.2
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

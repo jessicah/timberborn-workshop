@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "BetterMedicine",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.5169811,
+      "g": 0.5169811,
+      "b": 0.5169811,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/Medicine",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10205,
+    "Icon": "Sprites/Goods/AntidoteIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.BetterMedicine.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.BetterMedicine.PluralDisplayName"
+  }
+}

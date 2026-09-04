@@ -1,0 +1,32 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Power",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Power/CrappyWaterWheel.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/Engine.WhitePaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/HeavyGravityBattery.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/LargeWaterWheel.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/LightGravityBattery.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/MediumGravityBattery.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/NuclearPowerPlant_Basic.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/SolarArray.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/WaterWheel.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/NuclearWaterCollector.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/NuclearWaterCollector_Build.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/NuclearPowerPlant_Overdrive.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Flat_Universal.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Stackable_DownwardT.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Stackable_HorizontalT.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Stackable_Universal.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Stackable_UpwardT.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaft_Stackable_VerticalT.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftDownTurn.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftStraight.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftTurn.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftUpTurn.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/PowerShaftVertical.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Power/PowerShafts/Clutch.Folktails.blueprint",
+      "Buildings/Whitepaws Faction/Power/CrappyGeothermalEngine.Whitepaws.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"GigargantuanWarehouse",
+			"GigargantuanWarehouseIT",
+			"GigargantuanWarehouseft",
+			"GigargantuanWarehouseEP",
+			"GigargantuanWarehouseWP"
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.LeafCoats", "Order": 502003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.LeafCoats",
+      "LargeMetalPlatform.LeafCoats",
+      "MetalPlatform1x1.LeafCoats",
+      "MetalPlatform3x3.LeafCoats",
+      "MetalPlatform5x3.LeafCoats",
+      "MetalPlatform5x5.LeafCoats",
+      "MetalPlatform7x7.LeafCoats",
+      "MetalPlatform3x3.Ladder.LeafCoats",
+      "MetalPlatform5x5.Ladder.LeafCoats",
+      "MetalPlatform7x7.Ladder.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.LeafCoats",
+      "LargeMetalPlatform.LeafCoats",
+      "MetalPlatform1x1.LeafCoats",
+      "MetalPlatform3x3.LeafCoats",
+      "MetalPlatform5x3.LeafCoats",
+      "MetalPlatform5x5.LeafCoats",
+      "MetalPlatform7x7.LeafCoats",
+      "MetalPlatform3x3.Ladder.LeafCoats",
+      "MetalPlatform5x5.Ladder.LeafCoats",
+      "MetalPlatform7x7.Ladder.LeafCoats"
+    ]
+  }
+}

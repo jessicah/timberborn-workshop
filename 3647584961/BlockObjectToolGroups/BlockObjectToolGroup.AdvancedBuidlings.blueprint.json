@@ -1,9 +1,0 @@
-{
-  "BlockObjectToolGroupSpec": {
-    "Id": "AdvancedBuildings",
-    "Order": 61,
-    "NameLocKey": "ToolGroups.Lapantouflemagic.AdvancedBuildings",
-    "Icon": "Sprites/Whitepaws Sprites/Other/AdvancedBuildings",
-    "FallbackGroup": false
-  }
-}

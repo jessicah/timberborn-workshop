@@ -1,0 +1,7 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "WarmGranular",
+  "Variant": "4x4",
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/warmRicePlane",
+  "NonLinearity": 0
+}}

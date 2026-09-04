@@ -1,0 +1,14 @@
+{
+  "TutorialStageSpec": {
+    "Id": "StatusGoal.BeaverWellbeing",
+    "IntroLocKey": "StatusGoalText.BeaverWellbeing"
+  },
+  "Children": {
+    "Child": {
+      "SelectEntityStepSpec": {
+        "TemplateNames": [ "BeaverAdult", "BeaverChild" ],
+        "DescriptionLocKey": "StatusGoalText.Beavers"
+      }
+    }
+  }
+}

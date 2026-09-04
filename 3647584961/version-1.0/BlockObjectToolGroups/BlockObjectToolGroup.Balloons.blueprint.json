@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Balloons",
+    "Order": 90,
+    "NameLocKey": "Lapantouflemagic.BalloonGroup.DisplayName",
+    "Icon": "sprites/Balloons/Balloons",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Village"
+    ]
+  }
+}

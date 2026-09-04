@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.PolarBeavers", "Order": 1102003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.PolarBeavers",
+      "LargeMetalPlatform.PolarBeavers",
+      "MetalPlatform1x1.PolarBeavers",
+      "MetalPlatform3x3.PolarBeavers",
+      "MetalPlatform5x3.PolarBeavers",
+      "MetalPlatform5x5.PolarBeavers",
+      "MetalPlatform7x7.PolarBeavers",
+      "MetalPlatform3x3.Ladder.PolarBeavers",
+      "MetalPlatform5x5.Ladder.PolarBeavers",
+      "MetalPlatform7x7.Ladder.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.PolarBeavers",
+      "LargeMetalPlatform.PolarBeavers",
+      "MetalPlatform1x1.PolarBeavers",
+      "MetalPlatform3x3.PolarBeavers",
+      "MetalPlatform5x3.PolarBeavers",
+      "MetalPlatform5x5.PolarBeavers",
+      "MetalPlatform7x7.PolarBeavers",
+      "MetalPlatform3x3.Ladder.PolarBeavers",
+      "MetalPlatform5x5.Ladder.PolarBeavers",
+      "MetalPlatform7x7.Ladder.PolarBeavers"
+    ]
+  }
+}

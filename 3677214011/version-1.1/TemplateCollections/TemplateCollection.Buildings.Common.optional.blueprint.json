@@ -1,0 +1,17 @@
+{
+	"TemplateCollectionSpec":
+	{
+		/* Prevents crash if devs ever move their additions
+		 * out of the faction specific collections */
+		"Blueprints#remove":
+		[
+			"Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+			"Buildings/Water/DevWaterSource/DevWaterSource.blueprint"
+		],
+		"Blueprints#append":
+		[
+			"Buildings/Power/DevPowerGenerator/DevPowerGenerator.blueprint",
+			"Buildings/Water/DevWaterSource/DevWaterSource.blueprint"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+﻿{
+	"Children": {
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "Dynamite.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "Dynamite.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "Dynamite.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		}
+	}
+}

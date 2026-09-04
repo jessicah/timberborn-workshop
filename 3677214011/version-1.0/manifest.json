@@ -1,0 +1,15 @@
+{
+	"AuthorName": "zxuiji",
+	"Name": "zxuiji -m- TNF Collections",
+	"Version": "1.0.8.70",
+	"Id": "TNFCollections",
+	"MinimumGameVersion": "1.0.0.0",
+	"Description": "Makes it easier for mods to sit in front of TNF by enabling the collection definitions to be higher up in mod order while TNF itself remains low in mod order",
+	"OptionalMods": [],
+	"RequiredMods":
+	[
+		{ "Id": "Emberpelts", "MinimumVersion":"1.0.12.1" },
+		{ "Id": "LeafCoats", "MinimumVersion":"1.0.12.1"},
+		{ "Id": "Lapantoufleagic.WhitepawsFaction", "MinimumVersion": "6.2.8" }
+	]
+}

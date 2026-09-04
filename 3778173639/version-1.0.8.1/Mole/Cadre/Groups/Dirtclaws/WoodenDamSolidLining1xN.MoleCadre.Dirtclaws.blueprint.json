@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining1xN.MoleCadre.Dirtclaws", "Order": 1305001, "NameLocKey": "Group.WoodenDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW1x1.Dirtclaws",
+      "DD_SquareW1x2.Dirtclaws",
+      "DD_SquareW1x3.Dirtclaws",
+      "DD_SlopeW.Dirtclaws",
+      "DD_InvSlopeW.Dirtclaws",
+      "DD_InvSlopeW1x1.Dirtclaws",
+      "DD_InvSlopeW1x2.Dirtclaws",
+      "DD_InvCornerW.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW1x1.Dirtclaws",
+      "DD_SquareW1x2.Dirtclaws",
+      "DD_SquareW1x3.Dirtclaws",
+      "DD_SlopeW.Dirtclaws",
+      "DD_InvSlopeW.Dirtclaws",
+      "DD_InvSlopeW1x1.Dirtclaws",
+      "DD_InvSlopeW1x2.Dirtclaws",
+      "DD_InvCornerW.Dirtclaws"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "Forestry.MarkForLogging.Whitepaws",
+    "IntroLocKey": "Tutorial.Wood.MarkTrees"
+  },
+  "Children": {
+    "Step1": {
+      "MarkTreesTutorialStepSpec": {}
+    }
+  }
+}

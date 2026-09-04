@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PetanqueCourt.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "PetanqueCourt" ]
+	}
+}

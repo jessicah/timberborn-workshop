@@ -1,9 +1,9 @@
 {
     "AuthorName": "Bobingabout",
     "Name": "Bobingabout's Housing Optimize",
-    "Version": "1.0.13.0",
+    "Version": "1.0.13.1",
     "Id": "BobHousingOptimize",
-    "MinimumGameVersion": "1.0.7.0",
+    "MinimumGameVersion": "1.0.12.0",
     "Description": "Based on the original mod by AllTheNamesAreGone.
 At the beginning of each workday, all beavers are shuffled between houses to minimize travel distance between their homes and workplaces.
 

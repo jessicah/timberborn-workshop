@@ -1,0 +1,59 @@
+ID,Text,Comment
+Building.TreeOfLife.DisplayName,"Tree of Life",
+Building.TreeOfLife.Description,"Prepares the grounds for the <YellowHighlight>Tree of Life</YellowHighlight>.
+
+Placement requires plenty of space for the final tree:
+
+A wide flat ground (5x5, 2 deep).
+Space for all it's future growth (15m wide).
+Its roots reach deep deep down.
+The 'X' marks where it expects water to flow in from.
+
+<YellowHighlight>Once finished beavers wont remove it!</YellowHighlight>
+",
+Building.TreeOfLife.LeafCoats.Description,"Prepares the grounds for the <YellowHighlight>Tree of Life</YellowHighlight>.
+
+Must be a tree-topper. Its roots reach deep down, it must have nothing but terrain below.
+<YellowHighlight>Once finished beavers dont want to remove it again.</YellowHighlight>
+",
+Building.TreeOfLifeGround.DisplayName,"Tree Grounds",
+NaturalResource.TreeOfLife.DisplayName,"Tree of Life",
+NaturalResource.TreeOfLife.FlavorDescription,"The tree is still very small","Seedling flavor text"
+NaturalResource.TreeOfLife.FlavorDescription1,"A fine tree!","lvl 1-3 flavour text for living tree"
+NaturalResource.TreeOfLife.FlavorDescription4,"A splendid tree!","lvl 4-6 flavour text for living tree"
+NaturalResource.TreeOfLife.FlavorDescription7,"A squirrel was seen stealing offerings!","lvl 7-9 flavour text for living tree"
+NaturalResource.TreeOfLife.FlavorDescription10,"A tree shrouded in mists!","lvl 10-12 flavour text for living tree"
+NaturalResource.TreeOfLife.FlavorDescription13,"This marvelous tree is blessing our colony!","lvl 13+ flavour text for living tree"
+NaturalResources.DaysToLevel,"Next level in: {0} days","Text on progress bar"
+Need.FruitOfLife.DisplayName,"Fruit of Life",
+NeedGroup.TreeOfLife.DisplayName,"Tree of Life",
+Need.TreeOfLife.BlessingMinor.DisplayName,"Minor Blessing",
+Need.TreeOfLife.BlessingMajor.DisplayName,"Major Blessing",
+Need.TreeOfLife.Blessing.DisplayName,"Blessing",
+Need.TreeOfLife.CurseMinor.DisplayName,"Minor Curse",
+Need.TreeOfLife.CurseMajor.DisplayName,"Major Curse",
+Need.TreeOfLife.Curse.DisplayName,"Curse",
+Need.TreeOfLife.Cursed.CriticalDescription,"Cursed by the Tree",
+Need.TreeOfLife.Cursed.CriticalDescriptionShort,"Cursed",
+Goods.FruitOfLife.DisplayName,"Fruit of Life",
+Goods.FruitOfLife.PluralDisplayName,"Fruits of Life",
+Grauschweif.LevelingResource.Effects.Header,"Effects (range {0})",
+Grauschweif.LevelingResource.Effect.Blessing,"<GreenHighlight>{0}▲</GreenHighlight>",
+Grauschweif.LevelingResource.Effect.Curse,"<RedHighlight>{0}▼</RedHighlight>",
+Grauschweif.LevelingResource.Entity.GrowthEffect,"<GreenHighlight>Makes plants grow faster ({0}%)</GreenHighlight>",
+Grauschweif.LevelingResource.Entity.WaterSeep,"<YellowHighlight>Is a water seep</YellowHighlight>",
+Grauschweif.LevelingResource.Entity.Seedling,"<GreenHighlight>The tree is still very small.</GreenHighlight>",
+Grauschweif.LevelingResource.Entity.Level,"<GreenHighlight>A splendid tree (<YellowHighlight>level {0}</YellowHighlight>).</GreenHighlight>",
+Grauschweif.LevelingResource.Entity.Dying,"<YellowHighlight>The dying tree stopped all blessings!</YellowHighlight>",
+Grauschweif.LevelingResource.Entity.Died,"<RedHighlight>The dead remains curse your colony!</RedHighlight>",
+Grauschweif.LevelingResource.Entity.Reviving,"<b>Reviving in {0} days.</b>",
+Grauschweif.LevelingResource.Entity.RevivalButton,"<b>» Revive ({0} science points) «</b>",
+Grauschweif.LevelingResource.Ground.EntitySeedPlanted,"<GreenHighlight>A tree was planted and will soon appear.</GreenHighlight>",
+Grauschweif.LevelingResource.Ground.LevelDescription,"<YellowHighlight>Current level {0}.</YellowHighlight>",
+Grauschweif.LevelingResource.Ground.NoLevelDescription,"<YellowHighlight>This site is still very fresh and bare. It might develop as the tree grows.</YellowHighlight>",
+Grauschweif.LevelingResource.Ground.Gift.Header,"Gifts from the tree:",
+Grauschweif.LevelingResource.Ground.Gift.GoodAmount,"{0} at nightfall",
+Grauschweif.LevelingResource.Ground.Gift.NoneYet,"{0} will unlock with bigger tree",
+Grauschweif.UngroupedStorage.DisplayName,"Unstorable",
+Status.TreeOfLife.Dying,"This tree is dying!",
+Status.TreeOfLife.Dying.Short,"Dying Tree",

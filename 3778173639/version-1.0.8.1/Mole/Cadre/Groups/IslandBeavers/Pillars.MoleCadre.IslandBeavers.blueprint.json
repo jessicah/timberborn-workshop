@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.IslandBeavers", "Order": 1002001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.IslandBeavers",
+      "Pillar_1.IslandBeavers",
+      "Pillar_2.IslandBeavers",
+      "Pillar_3.IslandBeavers",
+      "Pillar_4.IslandBeavers",
+      "Pillars.IslandBeavers",
+      "PillarTop.IslandBeavers",
+      "StaircasePlatform.IslandBeavers",
+      "StaircasePillar.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.IslandBeavers",
+      "Pillar_1.IslandBeavers",
+      "Pillar_2.IslandBeavers",
+      "Pillar_3.IslandBeavers",
+      "Pillar_4.IslandBeavers",
+      "Pillars.IslandBeavers",
+      "PillarTop.IslandBeavers",
+      "StaircasePlatform.IslandBeavers",
+      "StaircasePillar.IslandBeavers"
+    ]
+  }
+}

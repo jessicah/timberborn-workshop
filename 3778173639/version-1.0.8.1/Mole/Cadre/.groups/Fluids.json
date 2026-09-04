@@ -44,7 +44,8 @@
       TOTOOL(AquiferDrill),
       TOTOOL(AquiferPump_TriangleUpgrade_Source),
       TOTOOL(AquiferPump_TriangleUpgrade_Build),
-      TOTOOL(Gyser)
+      TOMOLE(Gyser),
+      TOMOLE(BadGyser)
     ],
     "ChildrenOrderedIds":
     [
@@ -85,7 +86,8 @@
       TOTOOL(AquiferDrill),
       TOTOOL(AquiferPump_TriangleUpgrade_Source),
       TOTOOL(AquiferPump_TriangleUpgrade_Build),
-      TOTOOL(Gyser)
+      TOMOLE(Gyser),
+      TOMOLE(BadGyser)
     ]
   }
 }

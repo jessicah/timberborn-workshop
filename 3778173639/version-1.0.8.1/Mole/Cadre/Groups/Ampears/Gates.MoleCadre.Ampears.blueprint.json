@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Ampears", "Order": 901008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Ampears",
+      "Tubeway.Gate.Ampears",
+      "DistrictGate.Ampears",
+      "DistrictGateTubeway.Ampears",
+      "DecoSmallGate.Ampears",
+      "SmallGate.Ampears",
+      "HedgeGate.Ampears",
+      "MetalGate.Ampears",
+      "GoldGate.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Ampears",
+      "Tubeway.Gate.Ampears",
+      "DistrictGate.Ampears",
+      "DistrictGateTubeway.Ampears",
+      "DecoSmallGate.Ampears",
+      "SmallGate.Ampears",
+      "HedgeGate.Ampears",
+      "MetalGate.Ampears",
+      "GoldGate.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Village",
+    "Order": 30,
+    "NameLocKey": "ToolGroups.village",
+    "Icon": "Sprites/Whitepaws Sprites/Other/village",
+    "FallbackGroup": false
+  }
+}

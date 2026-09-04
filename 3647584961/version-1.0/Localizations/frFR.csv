@@ -1,0 +1,1511 @@
+ID,Text,Comment
+Good.Stew.PluralDisplayName,Ragoût,�
+Faction.waterbeavers.DisplayName,Les Pattesblanches,2
+Faction.waterbeavers.Description,"
+
+
+
+
+
+
+
+<color=red> !!! ACTIVEZ LE TUTORIAL !!!</color>
+Adeptes de la Vraie Voie du Castor, tout ce qui retient l’eau est une maison, et toute maison retient l’eau. Leur croissance démographique est incontrôlable, l’eau et la nourriture vont manquer, la science est un luxe, et votre échec inévitable
+
+Oubliez ce que les autres factions vous ont enseigné, et embrassez ce cauchemar en rose.
+<color=red> !!! ACTIVEZ LE TUTORIAL !!!</color>
+
+
+
+<color=black>Énorme merci a Wolfess pour les peaux de castor personnalisée !
+Grand merci a Thorlak pour de nombreuses icônes !
+Méga-merci a Grauschweif pour les scripts intégrés !</color>",3
+trashdump.DisplayName,Chariot d’expédition brisé,4
+trashdump.Description,"Votre premier centre de district, si on peut l’appeller ainsi…
+Ne le démantelez qu’après avoir construit un centre de district digne de ce nom.",5
+trashdump.FlavorDescription,"« Impossible d’aller plus loin, mais on peut s’installer ici. »
+- Le chef d’expédition",6
+Luc.Primitivemine.DisplayName,Mine Primitive,7
+Luc.Primitivemine.Description,Un tunnel étroit et peu efficace pour aller chercher des ressources minérales.,8
+Luc.Primitivemine.FlavorDescription,« Les castors ne sont pas faits pour ça. »,9
+Lapantouflemagic.Mediummine.DisplayName,Mine Moyenne,10
+Lapantouflemagic.Mediummine.Description,"Une mine plus grande et plus profonde permettant d’exploiter de meilleurs gisements, et donne acces à des éléments plus rares.
+Est livré avec des barrières pour éviter que les chatons un peu bêtes ne tombent dans le trou.
+<color=green>Doit être placé dans un trou de profondeur 4 !
+L’entrée de la mine et les barrières doivent reposer sur du sol !
+La rampe d’accès est à fabriquer soi-même</color>",11
+Lapantouflemagic.Mediummine.FlavorDescription,"« Je ne crois pas à vos histoires de monstres et de fantômes, et puis c’est sencé etre quoi au juste une ‘grue’ ? »
+- Zork le Mineur, dernières paroles.",12
+Lapantouflemagic.Primitivesmetler.DisplayName,Bas Fourneau,13
+Lapantouflemagic.Primitivesmetler.Description,"Un mélange de charbon et de minerai de fer dans un creuset en argile, le tout en feu.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",14
+Lapantouflemagic.Primitivesmetler.FlavorDescription,« On est sûrs de la recette au moins ? »,15
+Lapantouflemagic.Woodburner.DisplayName,Charbonnier,16
+Lapantouflemagic.Woodburner.Description,"Une fosse à feu dans laquelle on transforme du bois en charbon.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",17
+Lapantouflemagic.Woodburner.FlavorDescription,"« Oh, ça a l’air pratique pour se débarrasser d’un cad… d’un excès de sciure...oui... »
+- Jack l’Érongeur",18
+Lapantouflemagic.Screwpress.DisplayName,Pressoir à Vis,19
+Lapantouflemagic.Screwpress.Description,"Une puissante presse pour extraire de l’huile a partir de graines, ou préparer des jus de fruits.
+<color=#00FFFF>Bâtiment étanche</color>",20
+Lapantouflemagic.Screwpress.FlavorDescription,"« L’huile de tournesol, vital autant pour les machines que pour les salades »",21
+Lapantouflemagic.Alchemist.DisplayName,Alchimiste,22
+Lapantouflemagic.Alchemist.Description,"Un petit laboratoire pour réaliser des réactions chimiques basiques.
+<color=#00FFFF>Bâtiment étanche</color>",23
+Lapantouflemagic.Alchemist.FlavorDescription,« Espérons que ça n’explose pas »,24
+Lapantouflemagic.Handicrafter.DisplayName,Loge d’artisan,25
+Lapantouflemagic.Handicrafter.FlavorDescription,« Du moment qu’on en a pas besoin de beaucoup... »,26
+Lapantouflemagic.Copistlodge.DisplayName,Loge de Copiste,27
+Lapantouflemagic.Copistlodge.Description,"Une maison citadine dans laquelle on copie les plans.
+<color=#00FFFF>Bâtiment étanche</color>",28
+Lapantouflemagic.Copistlodge.FlavorDescription,"« La première étape de mon travail, c’est d’effacer toutes ces décorations à la noix »
+- Le castor copiste",29
+Lapantouflemagic.Artsylodge.DisplayName,Loge d’Artiste,30
+Lapantouflemagic.Artsylodge.Description,"Une maison citadine dans laquelle on embelli les copies de plans.
+<color=#00FFFF>Bâtiment étanche</color>",31
+Lapantouflemagic.Artsylodge.FlavorDescription,"« Oui, les plans DOIVENT avoir leurs enluminures pour être utilisables ! »
+- Le castor artiste",32
+Lapantouflemagic.Builderslodge.DisplayName,Loge de Charpentier,33
+Lapantouflemagic.Builderslodge.Description,"Une maison citadine qui sert d’atelier pour deux castors constructeurs.
+<color=#00FFFF>Bâtiment étanche</color>",34
+Lapantouflemagic.Builderslodge.FlavorDescription,"« Mon propre bureau, enfin ! »",35
+Luc.Lodge.Description,"Une petite maison pour un camionneur.
+<color=#00FFFF>Bâtiment étanche</color>",41
+Lapantouflemagic.primitivedam.DisplayName,Barrage Primitif,42
+Lapantouflemagic.primitivedam.Description,Une structure semi-étanche à la mode des castors d’autrefois,43
+Lapantouflemagic.primitivedamupgrade.DisplayName,Amélioration de Barrage Primitif,44
+Lapantouflemagic.primitivedamupgrade.Description,Un barrage plus élevé rajouté sur le précédent.,45
+Lapantouflemagic.primitivedamupgrade.FlavorDescription,« On arrivera peut-être à survivre avec ça »,46
+Lapantouflemagic.primitivedamUtility.DisplayName,Barrage Utilitaire,47
+Lapantouflemagic.primitivedamUtility.FlavorDescription,« Pratique ! »,49
+Lapantouflemagic.LogstairsWB.DisplayName,Escaliers en Rondins,50
+Lapantouflemagic.logstairsWB.DisplayName,Escaliers en Rondins de Chêne,51
+Lapantouflemagic.BirchlogstairsWB.DisplayName,Escaliers en Rondins de Boulot,52
+Lapantouflemagic.ScramblelogstairsWB.DisplayName,Escaliers en Rondins Mélangés,53
+Lapantouflemagic.logstairsWB.Description,Une pile de rondins arrangés en un escalier primitif.,54
+Lapantouflemagic.logstairsWB.FlavorDescription,"« Et voici pourquoi nous avons besoin d’éducation »
+- Un scientifique castor ",55
+Lapantouflemagic.CrappyplatformWB.DisplayName,Plateformes Merdiques,56
+Lapantouflemagic.CrappyplatformWB_brown.DisplayName,Plateforme Merdique en Chêne,57
+Lapantouflemagic.CrappyplatformWB_birch.DisplayName,Plateforme Merdique en Boulot,58
+Lapantouflemagic.CrappyplatformWB_scramble.DisplayName,Plateforme Merdique Mélangée,59
+Lapantouflemagic.CrappyplatformWB.Description,"Un pathétique assemblage de bois se faisant passer pour une plateforme, une honte pour les castors du monde entier.",60
+Lapantouflemagic.CrappyplatformWB.FlavorDescription,"« Et voilà <i>encore</i> pourquoi nous avons besoin d’éducation »
+- Un scientifique castor ",61
+Lapantouflemagic.crappyWaterWheel.DisplayName,Roue à Aube Merdique,62
+Lapantouflemagic.crappyWaterWheel.Description,Une roue a aube mal fichue mais facile a construite.,63
+Lapantouflemagic.crappyWaterWheel.FlavorDescription,"« Avec autant de friction, je suis surpris que ce truc n’ait pas encore pris feu. »
+- Un castor alchimiste",64
+Lapantouflemagic.doublewatertightlodge.DisplayName,Loge Étanche à Deux Étages,89
+Lapantouflemagic.doublewatertightlodgeBottom.Description,"Une maison moyenne pour deux camionneurs.
+<color=#00FFFF>Bâtiment étanche</color>",91
+Lapantouflemagic.doublewatertightlodge.FlavorDescription,« Ça commence à faire du monde ! »,92
+Lapantouflemagic.triplewatertightlodge.DisplayName,Loge Étanche Triple,93
+Lapantouflemagic.triplewatertightlodge.FlavorDescription,"« Est-ce qu’on va arriver a nourrir tout ces gens ? »
+- Un castor paysan",95
+Luc.Gnawingtent.DisplayName,Poste de Rongeage,102
+Luc.Gnawingtent.Description,Une sorte de scierie primitive qui marche à la force de nos dents.,103
+Luc.Gnawingtent.FlavorDescription,"« On a vraiment besoin d’une meilleure solution. »
+- Un castor dentiste",104
+Luc.primitiveironworks.DisplayName,Forge Primitive,105
+Luc.primitiveironworks.Description,Une fosse à feu et une enclume essayant de se faire passer pour une forge.,106
+Luc.primitiveironworks.FlavorDescription,« T’imagines faire ça avec tes dents ? »,107
+Luc.primitivepapermill.DisplayName,Papeterie Primitive,108
+Luc.primitivepapermill.Description,Une méthode ancienne de fabrication du papier.,109
+Luc.primitivepapermill.FlavorDescription,"« On dirait une sort de soupe »
+- Mathilda la cinglée",110
+Luc.sawmill.DisplayName,Scierie Rudimentaire,111
+Luc.sawmill.Description,"Une scierie utilisant l’énergie mécanique du réseau.
+Consomme des scies circulaires pour un plus haut rendement en planches.
+<color=#00FFFF>Bâtiment étanche</color> ",112
+Luc.sawmill.FlavorDescription,"« Cette nouvelle machine est pratique, enfin à condition que la lame n’explose pas et blesse quelqu’un. »
+- Maman Castor",113
+Lapantouflemagic.largefarmhouse.DisplayName,Grande Ferme,114
+Lapantouflemagic.largefarmhouse.FlavorDescription,"« Ca serait pas un peu… COMMUNISTE ? »
+- Papy Castor",115
+Lapantouflemagic.Mushroomtent.DisplayName,Champignonnière,116
+Lapantouflemagic.Mushroomtent.Description,"Un coin abrité ou faire pousser des champignons à partir de bois ou de sciure.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",117
+Lapantouflemagic.Mushroomtent.FlavorDescription,"« Est-ce que je mange ce champi rouge a pois blancs ? Il a l’air bon ! »
+- Kevin le crétin, dernières paroles",118
+Lapantouflemagic.Cookingtent.DisplayName,Tente de Cuisson,119
+Lapantouflemagic.Cookingtent.Description,"Une petite cuisine en extérieur pour préparer des plats simples.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",120
+Lapantouflemagic.Cookingtent.FlavorDescription,"« Qu’est-ce qu’on peut mettre dans mon ragoût ? Ha ! Qu’est-ce qu’on ne peut PAS y mettre ?
+- Mathilda la cinglée",121
+Lapantouflemagic.IndustrialKitchen.DisplayName,Cuisine Industrielle,122
+Lapantouflemagic.IndustrialKitchen.Description,"Une grande cuisine à assistance mécanique pour nourrir toute une colonie.
+<color=#00FFFF>Bâtiment étanche</color>",123
+Lapantouflemagic.IndustrialKitchen.FlavorDescription,« Les légendes parlent d’un cuistot qui aurait un jour disparu sans laisser de trace. »,124
+Luc.Library.DisplayName,Bibliothèque,125
+Luc.Library.FlavorDescription,"« Ces trucs ont l’air délicieux... »
+- Kévin le crétin",126
+Luc.Architect.DisplayName,Loge d’Architecte,127
+Luc.Architect.Description,"Un bâtiment fantaisiste qui permet aux architectes de montrer qu’ils valent mieux que nous. Accessoirement là ou ils tracent les plans de bâtiments complexes qui ne s’effondrent pas betement.
+<color=green>Fonctionne comme un grand escalier</color>
+<color=#00FFFF>Bâtiment étanche</color>",128
+Luc.Architect.FlavorDescription,"« Il n’y a rien de pire qu’un architecte. »
+- Un castor ingénieur anonyme",129
+Luc.Engineer.DisplayName,Loge de Mécanicien,130
+Luc.Engineer.Description,"Un bâtiment fantaisiste qui permet aux ingénieurs de montrer qu’ils sont plus intelligents que nous. Accessoirement là ou ils tracent les plans de systèmes mécaniques qui n’explosent pas sans raison. 
+<color=#00FFFF>Bâtiment étanche</color>",131
+Luc.Engineer.FlavorDescription,"« Il n’y a rien de pire qu’un ingénieur. »
+- Un castor architecte anonyme",132
+Building.PlankTank.DisplayName,Petite Citerne en Planches,136
+Building.PlankTank.Description,Une meilleur citerne de stockage.,137
+Lapantouflemagic.NewLido.Description,"Une piscine pour barboter dans l’eau.
+Si le bassin ne contient pas déjà de l’eau, un <color=green>déversoir</color> peut etre installé.",138
+Lapantouflemagic.WaterDump.Description,"Déverse de l’eau.
+Doit etre construit dans une <color=green>Piscine en plein air</color>
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",139
+Lapantouflemagic.GazTank.DisplayName,Citerne de Gaz,154
+Lapantouflemagic.GazTank.Description,Une citerne pressurisée pour stocker des gaz tels que le Méthane ou l’Hydrogène.,155
+Lapantouflemagic.GazTank.FlavorDescription,"« Héhéhé, j’ai pété à l’intérieur »
+- Papy castor",156
+Lapantouflemagic.IrrigationTower2.DisplayName,Loge Tour d’Irrigation,158
+Lapantouflemagic.Injury.DeathMessage,<color=green>s’est fait happer par une grosse machine et est mort</color>,159
+Need.Stew.DisplayName,Ragoût,164
+Need.Minedeath.DisplayName,Accident de spéléologie,171
+Need.Minedeath.DeathMessage,<color=green>s’est aventuré dans un tunnel sombre et s’est fait dévorer par une Grue</color>,172
+Need.Juice.DisplayName,Jus de Fruits,173
+Need.Coconut.DisplayName,Noix de Coco,174
+Need.Ananas.DisplayName,Ananas,175
+Good.WaterWheelBlueprint.DisplayName,Plan de Roue à Aube Améliorée,182
+Good.WaterWheelBlueprint.PluralDisplayName,Plans de Roue à Aube Améliorée,183
+Good.WaterWheelFancyBlueprint.DisplayName,Plan de Roue à Aube Améliorée Enluminé,206
+Good.WaterWheelFancyBlueprint.PluralDisplayName,Plans de Roue à Aube Améliorée Enluminés,215
+Good.LargeFarmhouseBlueprint.DisplayName,Plan de Grande Ferme,186
+Good.LargeFarmhouseBlueprint.PluralDisplayName,Plans de Grande Ferme,187
+Good.LargeFarmhouseFancyBlueprint.DisplayName,Plan de Grande Ferme Enluminé,208
+Good.LargeFarmhouseFancyBlueprint.PluralDisplayName,Plans de Grande Ferme Enluminés,217
+Reciepe.Charcoal.DisplayName,Charbon de Bois,236
+Reciepe.HomebrewAlcohol.DisplayName,Distillation d’Alcool,238
+Good.BadCogs.PluralDisplayName,Engrenages faits à la patte,242
+Good.Sawdust.PluralDisplayName,Sciure,245
+Good.Sawdust.DisplayName,Sciure,246
+Good.Mushrooms.DisplayName,Champignons,247
+Good.Mushrooms.PluralDisplayName,Champignons,248
+Good.Mushrooms1.PluralDisplayName,Croissance Lente,249
+Good.Mushrooms2.PluralDisplayName,Croissance Rapide,250
+Good.Awfulstew.DisplayName,Ragoût Abominable,251
+Good.Awfulstew.PluralDisplayName,Ragoût Abominable,252
+Good.Stew.DisplayName,Ragoût,253
+Good.Deluxestew.DisplayName,Ragoût Divin,264
+Good.Deluxestew.PluralDisplayName,Ragoût Divin,265
+Good.Sunfloweroil.DisplayName,Huile de Tournesol,268
+Good.Sunfloweroil.PluralDisplayName,Huile de Tournesol,269
+Good.Nitroglycerin.DisplayName,Nitroglycerine,270
+Good.Nitroglycerin.PluralDisplayName,Nitroglycerine,271
+Good.Tar.DisplayName,Goudron,272
+Good.Tar.PluralDisplayName,Goudron,273
+Good.Ironore.DisplayName,Minerai de Fer,274
+Good.Ironore.PluralDisplayName,Minerai de Fer,275
+Good.Saltpeter.DisplayName,Salpêtre ,276
+Good.Saltpeter.PluralDisplayName,Salpêtre ,277
+Good.coal.DisplayName,Charbon,278
+Good.coal.PluralDisplayName,Charbon,279
+Good.Crudesawblade.DisplayName,Scie circulaire rudimentaire,282
+Good.Crudesawblade.PluralDisplayName,Scies circulaires rudimentaires,283
+Good.Steelsawblade.DisplayName,Scie circulaire en Acier,284
+Good.Steelsawblade.PluralDisplayName,Scies circulaires en Acier,285
+Good.Anvil.DisplayName,Enclume,286
+Good.Anvil.PluralDisplayName,Enclumes,287
+Good.Screwaxle.DisplayName,Axe Fileté,292
+Good.Screwaxle.PluralDisplayName,Axes Filetés,293
+Good.Metalfixation.DisplayName,Fixations en Métal,294
+Good.Metalfixation.PluralDisplayName,Fixations en Métal,295
+Good.Educativebooks.DisplayName,Livres de bibliothèque incroyablement compacts,296
+Good.Educativebooks.PluralDisplayName,Livres de bibliothèque incroyablement compacts,297
+Good.ScrapMetal1.DisplayName,Fonte,302
+Good.ScrapMetal1.PluralDisplayName,Fonte,303
+Good.Pencils.DisplayName,Crayons,304
+Good.Pencils.PluralDisplayName,Crayons,305
+Good.Berryjuice.DisplayName,Jus de Baies,308
+Good.Berryjuice.PluralDisplayName,Jus de Baies,309
+Good.Rail.DisplayName,Rail,316
+Good.Rail.PluralDisplayName,Rails,317
+Good.Librarybooks.DisplayName,Livre de bibliothèque,318
+Good.Librarybooks.PluralDisplayName,Livres de bibliothèque,319
+Good.Coconut.DisplayName,Noix de Coco,320
+Good.Coconut.PluralDisplayName,Noix de Coco,321
+Good.Ananas.DisplayName,Ananas,322
+Good.Ananas.PluralDisplayName,Ananas,323
+Good.Seashells.DisplayName,Coquillages,324
+Good.Seashells.PluralDisplayName,Coquillages,325
+Good.Shellnecklace.DisplayName,Collier,326
+Good.Shellnecklace.PluralDisplayName,Colliers,327
+Good.Methane.DisplayName,Méthane,328
+Good.Methane.PluralDisplayName,Méthane,329
+Good.Alcohol.DisplayName,Alcool Fort,330
+Good.Alcohol.PluralDisplayName,Alcool Fort,331
+Good.ExoticSeeds.DisplayName,Graine Exotique,332
+Good.ExoticSeeds.PluralDisplayName,Graines Exotiques,333
+Good.Pumpkin.DisplayName,Courge,336
+Good.Pumpkin.PluralDisplayName,Gourges,337
+Lapantouflemagic.Pumpkin.FlavorDescription,"« … et une fois par an, lors de la plus sombre des nuits, elles ouvrent des yeux brillants et une grande bouche… pour MANGER les vilains chatons ! »
+- Mamie castor, histoires au coin du feu",339
+TopBar.Special,Noyaux de bâtiments,340
+TopBar.Plan,Plans,341
+TopBar.Constructionmaterials,Matériaux de construction,342
+TopBar.Drinkable,Boissons,343
+ToolGroups.village,Bâtiments Essentiels de Village,344
+ToolGroups.Basicbuildings,Bâtiments Basiques,345
+ToolGroups.intermediatebuildings,Bâtiments Intermédiaires,346
+ToolGroups.advancedbuildings,Bâtiments Avancés,347
+ToolGroups.lightindustry,Bâtiments Industriels,348
+ToolGroups.heavyindustrybuildings,Bâtiments Industriels Avancés,349
+ToolGroups.Damhouses,"Maisons, Barrages, et Maisons-Barrages",350
+Lapantouflemagic.Loglevee.Description,"Une levée faite en agglutinants de nombreux rondins plantés dans la boue, pour des ajustements minimes au lit de rivière.",352
+Lapantouflemagic.primitivedam.FlavorDescription,"« En fin de compte, c’est pas si moche ! »
+- Un castor urbaniste",353
+Lapantouflemagic.4Wdistrictcenter.DisplayName,Centre de District en Croisement,355
+Lapantouflemagic.Unstorablestorage.DisplayName,Ressource non stockable,356
+Lapantouflemagic.StorageHouseW.DisplayName,Magasin de Liquides,357
+Lapantouflemagic.StorageHouseW.Description,"Une maison à deux étages dont le premier est dédié au stockage de liquides.
+<color=#00FFFF>Bâtiment étanche</color>",358
+Lapantouflemagic.StorageHouseB.FlavorDescription,"« Je… Je vous jure, j’ai essayé ! J’ai fait de mon mieux, mais j’ai pas pu m’en empêcher, il FALLAIT que ça soit aussi une maison ! »
+- Un castor architecte",359
+Lapantouflemagic.StorageHouseB.DisplayName,Magasin de Caisses,360
+Lapantouflemagic.StorageHouseB.Description,"Une grande maison à deux étages dont celui du haut est dédié au stockage de caisses.
+<color=#00FFFF>Bâtiment étanche</color>",361
+Lapantouflemagic.StorageHouseW.FlavorDescription,« Fait à l’Image du pinacle de l’architecture hoomaine : Un cube. »,362
+Lapantouflemagic.BIT.DisplayName,École Normale Subeaveure,366
+Lapantouflemagic.BIT.FlavorDescription,"« Selon nos archives, le nom traditionnel remonterait a une ancienne tribu d’hoomains mangeurs de grenouilles »
+- Ernest sans-dents, Doyen castor",367
+Lapantouflemagic.triplewatertightlodgeBottom.DisplayName,Loge Étanche Triple,368
+Lapantouflemagic.triplewatertightlodgeBottom.Description,"Une grande maison pour cinq camionneurs.
+<color=#00FFFF>Bâtiment étanche</color>",91
+Lapantouflemagic.triplewatertightlodgeBottom.FlavorDescription,"« Est-ce que quelqu’un supervise tout ça ? »
+- Le même castor paysan",370
+Lapantouflemagic.DeepWaterPumpUpgrade.DisplayName,Amélioration de Pompe à Eau Profonde,371
+Lapantouflemagic.DeepWaterPumpUpgrade.FlavorDescription,"« On peut faire tout un barrage en les alignant ! »
+- Ernest sans-dents, Doyen castor",372
+Lapantouflemagic.waterpumpUpgrade.DisplayName,Amélioration de Pompe à Eau,373
+Lapantouflemagic.waterpumpUpgrade.FlavorDescription,"« Si seulement le tube était plus long... »
+- Un castor Pompiste",374
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.DisplayName,Segment Terminal d’Améliorations de Pompe à Eau Profonde,375
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.Description,"Un morceau de bâtiment étanche sans fonction particulière, si ce n’est de terminer proprement une chaîne d’améliorations de pompe à eau profonde.
+<color=red>Enfoncez la caméra dans le bâtiment si le placement est difficile</color>
+<color=#00FFFF>Bâtiment étanche</color>",376
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.FlavorDescription,"« Nous, on construit nos barrages comme il faut, on est pas des sauvages ! »
+- Le chef d’expédition",377
+Lapantouflemagic.Waterpumpupgradewallsegment.DisplayName,Segment terminal d’Améliorations de Pompe à Eau,378
+Lapantouflemagic.Waterpumpupgradewallsegment.Description,"Un morceau de bâtiment étanche sans fonction particulière, si ce n’est de terminer proprement une chaîne d’améliorations de pompe à eau.
+<color=red>Enfoncez la caméra dans le bâtiment si le placement est difficile</color>
+<color=#00FFFF>Bâtiment étanche</color>",379
+Lapantouflemagic.Waterpumpupgradewallsegment.FlavorDescription,"« Et si on construisait uniquement ce morceau sans la pompe pour bloquer...Naaan, c’est une idée idiote ! »
+- Un ingénieur castor",380
+Good.ComicBooks.DisplayName,Bande Dessinnée,383
+Good.ComicBooks.PluralDisplayName,Bandes Dessniées,384
+Lapantouflemagic.Lightgravitybattery.DisplayName,Batterie à Gravité Légère,388
+Lapantouflemagic.Lightgravitybattery.Description,Une batterie à gravité facile a construire et utilisant des rondins comme poids,389
+Lapantouflemagic.Lightgravitybattery.FlavorDescription,Une punition typique pour les enfants est d’être laissés à pendouiller là-dessus pendant quelques heure,390
+Good.Scaffolding.DisplayName,Échafaudage,394
+Good.Scaffolding.PluralDisplayName,Échafaudages,395
+Good.Balloon.DisplayName,Montgolfière,396
+Good.Balloon.PluralDisplayName,Montgolfières,397
+Good.Clay.DisplayName,Argile,398
+Good.Clay.PluralDisplayName,Argile,399
+Good.MeanFlower.DisplayName,Fleur de Ronces,400
+Good.MeanFlower.PluralDisplayName,Fleurs de Ronces,401
+Good.Cabbage2.DisplayName,Choux,402
+Good.Cabbage2.PluralDisplayName,Choux,403
+Lapantouflemagic.Brambles.FlavorDescription,"« Un jour, le monde sera recouvert de ces saletés »
+- Un castor bûcheron",405
+Lapantouflemagic.Cabbage.DisplayName,Choux,406
+Lapantouflemagic.Cabbage.FlavorDescription,"« Si tu croque dedans, tu le MANGE ! »
+- Mamie castor",407
+Lapantouflemagic.GiantSequoia.DisplayName,Séquoia doré,408
+Lapantouflemagic.GiantSequoia.FlavorDescription,"« Tu imagines jusqu’à quelle hauteur on va pouvoir construire avec ça ? »
+- Un castor architecte",409
+Good.RedGrapes.DisplayName,Raisins,410
+Good.RedGrapes.PluralDisplayName,Raisins,411
+Lapantouflemagic.grapevine.DisplayName,Pied de Vigne,412
+Lapantouflemagic.NewVine.FlavorDescription,"« Aaah, le retour de la civilisation ! Enfin ! »
+- Un castor fermenteur",413
+Lapantouflemagic.Rice.DisplayName,Rizière,417
+Lapantouflemagic.Rice.FlavorDescription,Ne remuez pas la boue.,418
+Good.Rice.DisplayName,Riz,419
+Good.Rice.PluralDisplayName,Riz,420
+Good.FriedRice.DisplayName,Riz Sauté,421
+Good.FriedRice.PluralDisplayName,Riz Sauté,422
+Good.ChestnutStew.DisplayName,Ragoût de Champignons,423
+Good.ChestnutStew.PluralDisplayName,Ragoût de Champignons,424
+Good.GreenStew.DisplayName,Ragoût de Légumes,425
+Good.GreenStew.PluralDisplayName,Ragoût de Légumes,426
+NaturalResource.PinkBirch.DisplayName,Fleurier,428
+Good.BraisedCabbage.PluralDisplayName,Choux Braisé,433
+Good.BraisedCabbage.DisplayName,Choux Braisé,434
+Lapantouflemagic.2x2LousyWarehouse.DisplayName,Entrepôt merdique,435
+Lapantouflemagic.2x2LousyWarehouse.Description,Un espace a peu près propre pour y empiler des ressources.,436
+Lapantouflemagic.2x2LousyWarehouse.FlavorDescription,"« Vous m’avez appelé pour ça ? Y’a rien ! Pas de toit, pas de murs, rien ! »
+- Un castor charpentier",437
+Lapantouflemagic.LousyWarehouseS.DisplayName,Mini Entrepôt Merdique,438
+Lapantouflemagic.LousyWarehouseS.Description,Un exemple de paresse majeure appliquée à une tâche qui le mérite bien.,439
+Lapantouflemagic.LousyWarehouseS.FlavorDescription,"« Je refuse de perdre mon temps avec ça »
+- Un castor charpentier",440
+Lapantouflemagic.Cabbage2.DisplayName,Choux,441
+Lapantouflemagic.Cabbage2.FlavorDescription,"« Si tu croque dedans, tu le MANGE ! »
+- Mamie castor",442
+NaturalResource.PinkBirch.FlavorDescription,"« Mais c’est quoi la ‘’Barbapapa’’ ? Pourquoi tout le monde les appelle comme ça ? »
+- Un castor paysan",443
+Good.Salt.DisplayName,Sel de Montagne,445
+Good.Salt.PluralDisplayName,Sel de Montagne,446
+Lapantouflemagic.GreenPeas.DisplayName,Petits Pois,452
+Lapantouflemagic.GreenPeas.FlavorDescription,"« Vous saviez que les petits pois crûs c’est délicieux ? »
+- Une maman castor",453
+Lapantouflemagic.NewWaterPump.Description,"Pompe et filtre l’eau pour que les castors puissent boire.
+<color=#00FFFF>Bâtiment étanche</color>",454
+Good.MediumCauldron.DisplayName,Chaudron en Métal,456
+Good.MediumCauldron.PluralDisplayName,Chaudrons en Métal,457
+Need.Filth.CriticalDescription,Ce castor est couvert de crasse et refuse de travailler si on ne le laisse pas aller se débarbouiller.,458
+Need.Filth.CriticalDescriptionShort,Castor Sale !,459
+Good.Toys.DisplayName,Jouet en Bois,460
+Good.Toys.PluralDisplayName,Jouets en Bois,461
+Lapantouflemagic.ClayPot.DisplayName,Fait-tout en Terre Cuite,462
+Lapantouflemagic.ClayPot.PluralDisplayName,Fait-tout en Terre Cuite,463
+Lapantouflemagic.Filth.DisplayName,Fourrure propre,464
+Lapantouflemagic.ClayPit.DisplayName,Fosse à Argile,465
+Lapantouflemagic.ClayPit.Description,Un segment de rivière abrité du courant dans laquelle les castors creusent la boue pour récoler de l’argile.,466
+Lapantouflemagic.ClayPit.FlavorDescription,"« Berk ! Ça colle ! Dégeu ! »
+- Un castor creuseur d’argile",467
+Lapantouflemagic.Foundry.DisplayName,Haut Fourneau,468
+Lapantouflemagic.Foundry.FlavorDescription,"« Tous les déchets sont combustibles, si on y met assez de volonté »
+Le contremaître du haut-fourneau",469
+Lapantouflemagic.RiverBath.DisplayName,Bain de Rivière,470
+Lapantouflemagic.RiverBath.Description,Un espace communal ou les castors se retrouvent pour se laver après une dure journée de travail.,471
+Lapantouflemagic.RiverBath.FlavorDescription,"« C’est moi qui prend le seau rose ! » « Non il est à moi, c’est toujours moi qui le prend ! »
+- Chamailleries de chatons typiques",472
+Lapantouflemagic.Florist.DisplayName,Fleuriste,475
+Lapantouflemagic.Florist.Description,"Une petite maison monopolisant une quantité invraisemblable de ressources dans le seul et unique but de permettre a un castor de vivre de sa passion.
+Peut sauver votre colonie si vous avez bêtement laissé mourir tous vos buissons à baies, ou si vous avez trouvé le moyen d’éradiquer les ronces.
+La terrasse doit être <color=yellow>au dessus du sol</color>.
+<color=#00FFFF>Bâtiment étanche</color>",476
+Lapantouflemagic.Florist.FlavorDescription,"« Tu vois, les pissenlits et les baies ne germent que dans un type bien précis de sol, très difficile à répliquer. C’est pour ça qu’on ne peut pas en planter partout »
+- Un castor fleuriste",477
+Lapantouflemagic.Overhang.DisplayName,Corniche,478
+Lapantouflemagic.Overhang.FlavorDescription,"« Je n’ai pas peur du vide ! »
+- Kevin le crétin",479
+Lapantouflemagic.CornerOverhang.DisplayName,Corniche d’Angle,480
+Lapantouflemagic.RPG.PluralDisplayName,Jeux de Rôle,484
+Lapantouflemagic.FarmUpgradeA.DisplayName,Amélioration de Ferme : Bureau de Charpentiers,485
+Lapantouflemagic.FarmUpgradeA.FlavorDescription,"« Travailler depuis chez soi, c’est pratique, mais quand on a des chatons qui courent dans tous les sens, c’est bien mieux d’avoir un bureau dédié. »
+- Un castor charpentier",487
+Lapantouflemagic.FarmUpgradeB.DisplayName,Amélioration de Ferme : Entrepot des Camionneurs,488
+Lapantouflemagic.FarmUpgradeB.FlavorDescription,"« Pouruoi on doit compter le nombre de choux qu’on a ? Les nombres c’est compliqué ! »
+- Kevin le Crétin, à propos du concept d’inventaire.",490
+Lapantouflemagic.FarmUpgradeC.DisplayName,Amélioration de Ferme : Grenier des Geeks,491
+Lapantouflemagic.FarmUpgradeC.FlavorDescription,"« Après que l’immense porte se soit refermée derrière vous et que vos yeux se soient habitués à la pénombre, vous pouvez enfin discerner les traits du génie du mal qui menace le monde… Sa terrible Louche de la Damnation en main, Mathilda sourit et vous demande : « Voulez-vous rejoindre ma Soupe ? »
+Passez un test de terreur ou prenez 2d6 de dégats ! »",493
+Lapantouflemagic.FarmUpgradeD.DisplayName,Amélioration de Ferme : Fermiers Assistants,496
+Lapantouflemagic.FarmUpgradeD.FlavorDescription,"« Nous devrions essayer d’inventer des machines pour ce genre de tâches. Le travail manuel va finir par montrer ses limites »
+- Un castor ingénieur",497
+Lapantouflemagic.GathererHouse.DisplayName,Bureau des Cueilleurs,498
+Lapantouflemagic.GathererHouse.Description,"Une maison moyenne dans laquelle un groupe de cueilleurs se regroupent pour se répartir les tâches efficacement.
+<color=#00FFFF>Bâtiment étanche</color>",499
+Lapantouflemagic.GathererHouse.FlavorDescription,"« Que je ne t’attrappe pas dans ma maison couvert de boue et de jus de baies ! Va te doucher ou je te lance dans la rivière moi-même ! »
+- Maman castor, tous les soirs.",500
+Lapantouflemagic.LumberjackHouse.DisplayName,Loge de Planification des Abattages,501
+Lapantouflemagic.LumberjackHouse.Description,"Une maison à deux étages qui sert aussi de camp de travail à un groupe de bûcherons, une bonne planification augmentant leur efficacité.
+<color=#00FFFF>Bâtiment étanche</color>",502
+Lapantouflemagic.LumberjackHouse.FlavorDescription,"« Mon papa c’est le plus fort ! Il peut porter un sequoia entier sur son dos ! »
+- Fanfaronnade typique de chaton",503
+Lapantouflemagic.PassthroughHouse.DisplayName,Loge Traversante,504
+Lapantouflemagic.PassthroughHouse.Description,"Une maison légèrement élargie pour accueillir un sas permettant aux castors de passer d’un coté à l’autre du barrage.
+Emploie <color=green>un camionneur</color>.
+<color=#00FFFF>Bâtiment étanche</color>",505
+Lapantouflemagic.PassthroughHouse.FlavorDescription,« Vous vous dites que j’ai une plus grande maison hein ? Ben non ! Le mécanisme du sas est énorme et en plus est bruyant. Enfin heureusement que personne ne s’en sert la nuit. »,506
+Lapantouflemagic.TappersFlag.DisplayName,Drapeau de saigneur,507
+Lapantouflemagic.TappersFlag.Description,Récolte la résine des pins ou autres essences sur certains arbres.,508
+Lapantouflemagic.TappersFlag.FlavorDescription,"« ça à l’air facile, mais il faut un certain degré de technique pour ne pas se retrouver la fourrure engluée de ce truc »",509
+Lapantouflemagic.MechanizedSeaweedfarm.DisplayName,Automates Cultivateurs Hydroponiques,514
+Lapantouflemagic.MechanizedSeaweedfarm.Description,"Une machine infernale qui transforme l’énergie mécanique en délicieux produits agricoles.
+Requiert du bois pour les opérations de maintenance.",519
+Lapantouflemagic.MechanizedSeaweedfarm.FlavorDescription,"« La règle la plus importante de l’ingénierie castorine, c’est de ne surtout pas regarder les mécanismes de trop près.
+- Papy castor, à propos de son absence de moustaches.",520
+Lapantouflemagic.NEWPaperMill.Description,"Une papeterie mécanisée.
+Casse des engrenages de temps en temps.
+<color=#00FFFF>Bâtiment étanche</color>",521
+Lapantouflemagic.MechanicalDrill.DisplayName,Foreuse Mécanique,525
+Lapantouflemagic.IronMechanicalDrill.DisplayName,Foreuse Mécanique (Minerai de Fer),526
+Lapantouflemagic.MechanicalDrillBlueprint.Fancy.DisplayName,Plan de Foreuse Mécanique Enluminé,527
+Lapantouflemagic.MechanicalDrillBlueprint.Fancy.PluralDisplayName,Plans de Foreuse Mécanique Enluminés,528
+Lapantouflemagic.MechanicalDrillBlueprint.DisplayName,Plan de Foreuse Mécanique,529
+Lapantouflemagic.MechanicalDrillBlueprint.PluralDisplayName,Plans de Foreuse Mécanique,530
+Lapantouflemagic.IronMechanicalDrill.Description,"Une foreuse mécanique qui broie la roche pour extraire du minerai de Fer.
+La tête de forage doit être changée régulièrement.
+<color=red>Supprimer la rocaille c’est tricher !</color>",531
+Lapantouflemagic.IronMechanicalDrill.FlavorDescription,"« C’est incroyable qu’on puisse continuellement forer au même endroit pendant des jours, et toujours trouver autant de minerai ! »
+- Maman castor",532
+Lapantouflemagic.CoalMechanicalDrill.DisplayName,Foreuse Mécanique (Charbon),533
+Lapantouflemagic.CoalMechanicalDrill.Description,"Une foreuse mécanique qui broie la roche pour extraire du Charbon.
+La tête de forage doit être changée régulièrement.
+<color=red>Supprimer la rocaille c’est tricher !</color>",534
+Lapantouflemagic.CoalMechanicalDrill.FlavorDescription,"« Si tu fais tourner la foreuse trop vite, le filon de charbon risque de prendre feu et BOUM la montagne ! »
+- Un mauvais castor alchimiste",535
+Good.Drillbits.DisplayName,Tête de Foreuse,541
+Good.Drillbits.PluralDisplayName,Têtes de Foreuse,542
+Lapantouflemagic.Factory.DisplayName,Atelier,543
+Lapantouflemagic.Factory.FlavorDescription,"« Si il faut une enclume pour faire d’autres enclumes, d’où vient la première enclume ? »
+- Armok, castor métallurgiste",544
+Good.Quartz.DisplayName,Quartz,546
+Good.Quartz.PluralDisplayName,Quartz,547
+Good.Kimchi.DisplayName,Kimchi,550
+Good.Kimchi.PluralDisplayName,Kimchi,551
+Good.RedSoda.DisplayName,Soda Piquant,552
+Good.RedSoda.PluralDisplayName,Soda Piquant,553
+Lapantouflemagic.Brewery.DisplayName,Brasserie,554
+Lapantouflemagic.Brewery.Description,"Une grande maison organisée de sorte à permettre aux castors de gérer facilement un grand nombre de barils de fermentation.
+<color=#00FFFF>Bâtiment étanche</color>",555
+Lapantouflemagic.Brewery.FlavorDescription,"« Le jus de champignons est la pire chose que l’on puisse boire, et pourtant en ajouter a certaines choses les rend bien meilleures. On devrait étudier ça un jour. »
+- Un scientifique castor",556
+Lapantouflemagic.Winery.DisplayName,Cave à Vin,564
+Lapantouflemagic.Winery.FlavorDescription,"« Non Kevin, tu es tombé dedans quand tu étais petit, tu te souviens ? »",566
+NaturalResource.Waterbamboo.DisplayName,Bambou Incroyablement Grand,569
+NaturalResource.Waterbamboo.FlavorDescription,"« Si on attends assez longtemps, on peut l’escalader pour aller jusqu’à la Lune »",570
+Blueprint.ENSGreen.DisplayName,Plan architectural de l’ENS,571
+Blueprint.ENSGreen.PluralDisplayName,Plans architecturaux de l’ENS,572
+Blueprint.ENSGreen.Fancy.DisplayName,Plan architectural enluminé de l’ENS ,573
+Blueprint.ENSGreen.Fancy.PluralDisplayName,Plans architecturaux enluminés de l’ENS ,574
+Blueprint.ENSBlue.DisplayName,Plan mécanique de l’ENS,575
+Blueprint.ENSBlue.PluralDisplayName,Plans mécaniques de l’ENS,576
+Blueprint.ENSBlue.Fancy.DisplayName,Plan mécanique enluminé de l’ENS ,577
+Blueprint.ENSBlue.Fancy.PluralDisplayName,Plans mécaniques enluminés de l’ENS ,578
+Lapantouflemagic.BachelorInMycology.DisplayName,Licence d’Agronomie,579
+Lapantouflemagic.BachelorInMycology.PluralDisplayName,Licences d’Agronomie,580
+Lapantouflemagic.TreeNursery.DisplayName,Pépinière,584
+Lapantouflemagic.TreeNursery.FlavorDescription,"« Vous saviez que le ragoût violet est un super fertilisant ? »
+- Un castor pépiniériste",585
+Lapantouflemagic.MechanizedCabbagefarm.DisplayName,"Automate Cultivateur Hydroponique
+Ferme à Choux",586
+Lapantouflemagic.MechanizedSunflowerfarm.DisplayName,"Automate Cultivateur Hydroponique 
+Ferme de Tournesols",587
+Lapantouflemagic.MechanizedGreenPeasfarm.DisplayName,"Automate Cultivateur Hydroponique
+Ferme de Petits Pois",588
+Reciepe.ChestnutBeerBarrel.DisplayName,Bière de châtaignes,589
+Good.ChestnutBeer.DisplayName,Bière de châtaignes,590
+Good.ChestnutBeer.PluralDisplayName,Bière de châtaignes,591
+Good.Wine.DisplayName,Vin,592
+Good.Wine.PluralDisplayName,Vin,593
+Good.GrapeJuice.DisplayName,Jus de Raisin,599
+Good.GrapeJuice.PluralDisplayName,Jus de Raisin,600
+Building.GiantLogStorage.DisplayName,Dépôt de Rondins Géants,601
+Building.GiantLogStorage.Description,Stocke les rondins géants obtenus en abattant des sequoias dorés,602
+Building.GiantLogStorage.FlavorDescription,« Comment on a réussi à porter ça ? »,603
+Good.GiantLog.DisplayName,Rondin Géant,604
+Good.GiantLog.PluralDisplayName,Rondins Géants,605
+Building.GiantLogFeller.DisplayName,Abatteur de Séquoias Dorés,606
+Building.GiantLogFeller.Description,Abat les séquoias dorés et stocke quelques rondins géants,607
+Building.GiantLogFeller.FlavorDescription,"« Si ça me tombe sur la figure, au moins je n’aurais pas à subir la nourriture de l’hôpital »",608
+Lapantouflemagic.StoragePiles.DisplayName,Tas de stockage,609
+Lapantouflemagic.BoxStorage.DisplayName,Entrepôts,610
+Lapantouflemagic.LiquidStorage.DisplayName,Citernes,611
+Good.WasteRock.DisplayName,Rocaille,612
+Good.WasteRock.PluralDisplayName,Rocaille,613
+Lapantouflemagic.Trebuchet.DisplayName,Trébuchet,614
+Lapantouflemagic.Trebuchet.FlavorDescription,Qui ne voudrait pas avoir un tébuchet ?,615
+Need.Trebuchetdeath.DisplayName,Accident de Trébuchet,616
+Good.Grapes.DisplayName,Raisins,620
+Good.Iceblock.DisplayName,Bloc de Glace,622
+Good.Iceblock.PluralDisplayName,Blocs de Glace,623
+Good.FrozenHumanMeat.DisplayName,Viande Hoomaine Congelée,626
+Good.FrozenHumanMeat.PluralDisplayName,Viande Hoomaine Congelée,627
+Lapantouflemagic.VillageJobs.DisplayName,Bâtiments de Village,632
+Lapantouflemagic.MasterInMetallurgy.DisplayName,Maîtrise en Métallurgie,637
+Lapantouflemagic.MasterInMetallurgy.PluralDisplayName,Maîtrises en Métallurgie,638
+Lapantouflemagic.NursingLicense.DisplayName,Licence d’infirmerie,639
+Lapantouflemagic.NursingLicense.PluralDisplayName,Licences d’infirmerie,640
+Good.GlassPane.DisplayName,Plaque de Verre,641
+Good.GlassPane.PluralDisplayName,Plaques de Verre,642
+Good.FriedPumpkinChips.DisplayName,Chips de Courge,643
+Good.FriedPumpkinChips.PluralDisplayName,Chips de Courge,644
+Lapantouflemagic.Clinic.DisplayName,Clinique,652
+Lapantouflemagic.Clinic.Description,"Une grande maison avec des infirmiers de garde qui s’occupent des castors blessés.
+Traite les affections bénignes avec deux fois l’efficacité d’un lit médical.
+Peut aussi fabriquer des médicaments avancés pour traiter les affections graves.
+<color=#00FFFF>Bâtiment étanche</color>",653
+Lapantouflemagic.Clinic.FlavorDescription,Tout le monde adore une jolie infirmière.,654
+Billboard.Newsboard.DisplayName,Panneau d’Informations,655
+Billboard.Newsboard.Description,"Un grand panneau affichant les informations relatives à la dernière mise à jour.
+Peut être placé au dessus des choux.",656
+Lapantouflemagic.UndergroundColdStorage.DisplayName,Glacière Souterraine,659
+Lapantouflemagic.UndergroundColdStorage.Description,Un entrepôt enfoui utilisant la fraîcheur du sol comme isolant thermique,660
+Lapantouflemagic.UndergroundColdStorage.FlavorDescription,"« l’endroit idéal pour stocker de la glace, des sorbets, ou des cadavres ! … Quoi ? Pourquoi vous me regardez comme ça ? C’est VOUS qui avez ramené ces trucs dégeulasses ! »
+- Jack L’Érongeur",661
+Lapantouflemagic.MinorInjury.DisplayName,Blessure Mineure,662
+Lapantouflemagic.SevereInjury.DisplayName,Blessure Grave,663
+Lapantouflemagic.SevereInjury.CriticalDescription,"Ce castor a une blessure grave, ça ne guérira pas sans un traitement adapté.",664
+Lapantouflemagic.SevereInjury.CriticalDescriptionShort,Blessure Grave !,665
+Lapantouflemagic.MinorBurns.DisplayName,Brûlure Mineure,666
+Lapantouflemagic.MinorBurns.CriticalDescription,Ce castor s’est brûlé et a besoin de repos.,667
+Lapantouflemagic.MinorBurns.CriticalDescriptionShort,Brûlure Mineure !,668
+Lapantouflemagic.MinorBurns.DeathMessage,<color=green>a pris feu et fini rôti à cause de sa propre négligence. Comme quoi les créatures poilues sont assez inflammables.</color>,669
+Lapantouflemagic.MajorBurns.DisplayName,Brûlure Grave,670
+Lapantouflemagic.MajorBurns.CriticalDescription,"Ce castor a été gravement brûlé, ça ne guérira pas sans un traitement adapté.",671
+Lapantouflemagic.MajorBurns.CriticalDescriptionShort,Brûlure Grave !,672
+Lapantouflemagic.MajorBurns.DeathMessage,<color=green>est tombé dans une cuve de matière en fusion en hurlant « Mon prrréécieeuuuux ! ». Il était vraiment bizarre dernièrement.</color>,673
+Lapantouflemagic.MildDisease.DisplayName,Maladie Bénigne,674
+Lapantouflemagic.MildDisease.CriticalDescription,Ce castor est malade et devrait rester au lit.,675
+Lapantouflemagic.MildDisease.CriticalDescriptionShort,Maladie Bénigne !,676
+Lapantouflemagic.MildDisease.DeathMessage,<color=green>a vu son état de santé se détériorer rapidement et est libéré de ses souffrances. Espérons surtout que ça n’était pas contagieux.</color>,677
+Lapantouflemagic.SevereDisease.DisplayName,Maladie Grave,678
+Lapantouflemagic.SevereDisease.CriticalDescription,"Ce castor a attrapé une vraie saleté, on dirait que ça ne va pas guérir sans un traitement adapté.",679
+Lapantouflemagic.SevereDisease.CriticalDescriptionShort,Maladie Grave !,680
+Lapantouflemagic.SevereDisease.DeathMessage,<color=green>a contracté ce qui semble être « tout à la fois ». Les docteurs ont été contraints de le piquer quand la troisième tête à commencé à pousser.</color>,681
+Lapantouflemagic.Maimed.DisplayName,Estropié,682
+Lapantouflemagic.Maimed.CriticalDescription,Ce pauvre castor a perdu un membre en effectuant un travail dangereux ! Il aura besoin d’une prothèse pour revivre une vie normale un jour.,683
+Lapantouflemagic.Maimed.CriticalDescriptionShort,Castor Estropié !,684
+Lapantouflemagic.FancyStorage.DisplayName,Dépôt Glorieux,686
+Lapantouflemagic.FancyStorage.Description,Stocke les précieux noyaux de bâtiment et les expose sur un glorieux coussin.,687
+Lapantouflemagic.FancyStorage.FlavorDescription,Assurément la meilleure façon de préserver du matériel inestimable en verre.,688
+Good.Tools.DisplayName,Outil,689
+Good.Tools.PluralDisplayName,Outils,690
+Lapantouflemagic.Megaplatform.DisplayName,Méga Plateforme,696
+Lapantouflemagic.Megaplatform.FlavorDescription,"« Donc on doit recharger les lampes quand le joueur a le dos tou-
+- Chuuut ! C’est un secret ! »
+- Deux castors anonymes",697
+Lapantouflemagic.Verydeep_mine_elevator.DisplayName,Ascenseur vers les Abysses,698
+Lapantouflemagic.Verydeep_mine_elevator.FlavorDescription,"« Allons ! Cessez de vous comporter comme des chatons ! Le danger ? J’aime le danger ! Je me ris du danger, Ah-Ah-Ah-Arghbllglblbglbl »
+- Chef de l’équipe d’exploration No 3, dernières paroles.",699
+Lapantouflemagic.NarrowLodge.DisplayName,Loge Haute et Étroite,700
+Lapantouflemagic.NarrowLodge.Description,"Une maison haute et étroite pour un camionneur.
+Utile pour boucher une faille étroite.
+<color=#00FFFF>Bâtiment étanche</color>",701
+Lapantouflemagic.NarrowLodge.FlavorDescription,"« Urgh, mais qui a imaginé que ça serait vivable ? Ça doit être l’œuvre d’un architecte ! »
+- Un castor ingénieur",702
+Lapantouflemagic.MechanizedRicefarm.DisplayName,"Automate Cultivateur Hydroponique
+Rizière",703
+Lapantouflemagic.WPBeaverStatue.FlavorDescription.Folktails,"« Le meilleur usage possible d’une ressource limitée... »
+- Le chef d’expédition.",712
+Good.MintyBambooShoot.DisplayName,Pousse de bambou mentholée,716
+Good.MintyBambooShoot.PluralDisplayName,Pousses de bambou mentholée,717
+Lapantouflemagic.Deprecated.DisplayName,<color=red>Entité Obsolète !</color>,718
+Lapantouflemagic.Deprecated.Description,"<color=red>Ce truc est obsolète et a des fonctions manquantes !
+Replacez le avec la nouvelle version dès que possible.</color>",719
+Lapantouflemagic.Deprecated.FlavorDescription,"<color=red>Ce truc est obsolète et a des fonctions manquantes !
+Replacez le avec la nouvelle version dès que possible.</color>",720
+Lapantouflemagic.BetterMedicine.DisplayName,Baume Médical,735
+Lapantouflemagic.BetterMedicine.PluralDisplayName,Baumes Médicaux,736
+Lapantouflemagic.WaterCannon.DisplayName,Cannon à Eau,737
+Lapantouflemagic.WaterCannon.FlavorDescription,"« Je me demande si je peux arriver à me faufiler dans le canon juste avant qu’il ne se mette en marche... »
+- Encore un castor crétin",738
+Good.SiliconMetal.DisplayName,Lingot de Silicone Métallique,739
+Good.SiliconMetal.PluralDisplayName,Lingots de Silicone Métallique,740
+Lapantouflemagic.SolarArray.DisplayName,Centrale Solaire,741
+Lapantouflemagic.SolarArray.Description,"Capture l’énergie du soleil et la transforme en ce truc bizarre que les hoomains appelaient « électricité ». On ferait mieux de garder un œil dessus, et un autre sur la ou vous mettez les pieds.",742
+Lapantouflemagic.SolarArray.FlavorDescription,"« Ce qui est sympa dans ce job, c’est de faire cuire des tranches de courge sur les surfaces chaudes en été ! »
+- Le castor surveillant la centrale",743
+Lapantouflemagic.Unplantable.,Implantable,744
+Reciepe.GoldPanning.DisplayName,Orpaillage,745
+Good.GoldDust.DisplayName,Pépite d’Or,746
+Good.GoldDust.PluralDisplayName,Pépites d’Or,747
+Good.GoldBar.DisplayName,Lingot d’Or,748
+Good.GoldBar.PluralDisplayName,Lingots d’Or,749
+Good.SurgeryKits.DisplayName,Ensemble de Chirurgie,750
+Good.SurgeryKits.PluralDisplayName,Ensembles de Chirurgie,751
+Good.AntibioticsAndDisinfectant.DisplayName,Antibiotiques,752
+Good.AntibioticsAndDisinfectant.PluralDisplayName,Antibiotiques,753
+Good.FrostBalm.DisplayName,Baume Glacial,754
+Good.FrostBalm.PluralDisplayName,Baumes Glaciaux,755
+Lapantouflemagic.TankShower.DisplayName,Douche à Citerne,756
+Lapantouflemagic.TankShower.Description,"Une douche qui tire son eau d’une citerne de stockage.
+Surtout utile pour les barjos qui ne peuvent pas s’empêcher de jouer en mode « Difficile ».
+Accommode deux castors à la fois.",757
+Lapantouflemagic.TankShower.FlavorDescription,Pourquoi est-ce que vous vous infligez ça ?,758
+Lapantouflemagic.HoomanRuins.DisplayName,Visite des Ruines Hoomaines,759
+Lapantouflemagic.NEWForester.Description,"Plante les arbres basiques
+<color=#FFA500>Petite Tour</color>, <color=#FF6EC7>Peut porter une amélioration</color>.
+<color=#00FFFF>Bâtiment étanche</color>",760
+Lapantouflemagic.Handicrafter.Description,"Une maison villageoise dans laquelle divers objets sont fabriqués.
+<color=#00FFFF>Bâtiment étanche</color>",762
+Lapantouflemagic.IrrigationTower.Description,"Irrigue le sol alentour en consommant de l’eau.
+<color=#FFA500>Petite Tour</color>, <color=#FF6EC7>Peut porter une amélioration</color>.
+<color=#00FFFF>Bâtiment étanche</color>",764
+Lapantouflemagic.Smallcookhouse.Description,"Une maison moyenne gérant une charmante terrasse ou les castors peuvent venir prendre une boisson fraîche.
+La terrasse doit être <color=yellow>au dessus du sol</color>.
+<color=#00FFFF>Bâtiment étanche</color>",765
+Lapantouflemagic.KitchenHouse.Description,"Une grande maison équipée d’une cuisine mécanisée permettant de nourrir de nombreux castors.
+<color=#00FFFF>Bâtiment étanche</color>",766
+Lapantouflemagic.waterpumpUpgrade.Description,"Un module d’amélioration à placer entre deux pompes à eau adjacentes.
+<color=#00FFFF>Bâtiment étanche</color>
+<color=green>Placement sensible à l’orientation de la caméra</color>",768
+Lapantouflemagic.DeepWaterPumpUpgrade.Description,"Un module d’amélioration à placer entre deux pompes à eau profondes adjacentes.
+<color=#00FFFF>Bâtiment étanche</color>
+<color=green>Placement sensible à l’orientation de la caméra</color>",769
+Good.HoomanRelic.DisplayName,Relique Hoomaine,770
+Good.HoomanRelic.PluralDisplayName,Reliques Hoomaines,771
+Good.NuclearWaste.DisplayName,Déchet Nucléaire,772
+Good.NuclearWaste.PluralDisplayName,Déchets Nucléaires,773
+Lapantouflemagic.AdvancedSawmill.DisplayName,Scierie Avancée,774
+Lapantouflemagic.AdvancedSawmill.Description,"Un bâtiment gigantesque qui pourrait barrer une rivière à lui seul.
+Débite les rondins géants en différents produits.
+<color=#00FFFF>Bâtiment étanche</color>",775
+Lapantouflemagic.AdvancedSawmill.FlavorDescription,"« Je ne m’arrêterais que quand j’aurais coupé le monde en deux ! »
+- Un castor mécanicien",776
+Good.GiantHalfLog.DisplayName,Demi Rondin Géant,777
+Good.GiantHalfLog.PluralDisplayName,Demi Rondins Géants,778
+Lapantouflemagic.Verydeep_mine_elevator.Description,"Permet aux castors de descendre dans les ruines et explorer l’ancien complexe hoomain.
+L’aventure d’une vie ! Quels terribles secrets allons-nous découvrir ?",783
+Lapantouflemagic.WarmStorage.DisplayName,Marmite de Stockage Chauffée,784
+Lapantouflemagic.WarmStorage.Description,"Un énorme pot en argile placé au dessus d’un feu pour garder la nourriture chaude.
+<color=green>Placement sensible à l’orientation de la caméra</color>",785
+Lapantouflemagic.WarmStorage.FlavorDescription,"« Mais… comment ? Ce truc est plus gros qu’une maison ! »
+- Un castor architecte",786
+Lapantouflemagic.WarmStorageBase.Description,Un bâtiment brûlant du bois pour garder une grande quantité de nourriture chaude,789
+Lapantouflemagic.WarmStorageBase.FlavorDescription,"Apparemment les hoomains avaient une règle comme quoi tout bon jeu a besoin d’un bâtiment en forme de patte, mais pourquoi on s’est senti obligés d’en construire un dans la vraie vie ?
+- Mathilda, avant qu’elle ne devienne cinglée.",790
+Lapantouflemagic.ContaminatedJail.DisplayName,Prison à Castors Contaminés,791
+Lapantouflemagic.ContaminatedJail.FlavorDescription,"« Une prison en bois pour enfermer des castors c’est idiot, mais il sont trop polis pour s’enfuir. »",793
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.DisplayName,Loge à Fosse et Échelle (Camionneur + Entrepôt),794
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.Description,"Une maison de taille moyenne pour un camionneur bâtie autour d'une échelle. 
+Gère une zone de stockage pour des caisses.
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",795
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.FlavorDescription,"« Si on peint toute la tour en vert et qu’on descend dedans par le haut, ça nous enverra vers un monde délirant peuplé de tortues qui volent et champignons qui marchent ! »
+- Mathilda la cinglée",796
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.DisplayName,Loge à Fosse et Échelle (Camionneur + Citerne),797
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.Description,"Une maison de taille moyenne pour un camionneur bâtie autour d'une échelle. 
+Gère une citerne de stockage pour liquides.
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",798
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.FlavorDescription,"« Les architectes ont vraiment du se faire violence pour arriver à pondre quelque chose de simple et efficace. »
+- Un castor ingénieur",799
+Lapantouflemagic.Topentrancewatertightlodge.DisplayName,Loge à Fosse et Échelle (Camionneurs + Porte Latérale),800
+Lapantouflemagic.Topentrancewatertightlodge.Description,"Une maison de taille moyenne pour deux camionneurs bâtie autour d'une échelle. 
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",801
+Lapantouflemagic.Topentrancewatertightlodge.FlavorDescription,"« Grâce aux dernières évolutions des technologies seau-t-esques, l’eau n’entrera même pas dans le puis central ! »
+- Le PDG de CastoX Technologies",802
+Lapantouflemagic.Topentrancewatertightlodge_segment.DisplayName,"Loge à Fosse et Échelle (Camionneurs, Segment Lisse)",803
+Lapantouflemagic.Topentrancewatertightlodge_segment.Description,"Une maison de taille moyenne pour deux camionneurs bâtie autour d'une échelle. 
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",804
+Lapantouflemagic.Topentrancewatertightlodge_segment.FlavorDescription,"« Tu penses qu’on pourrait monter à quelle hauteur en continuant de les empiler? »
+- Un castor bûcheron",805
+Lapantouflemagic.BadwaterPump.Description,"Une pompe à eau polluée entièrement automatisée.
+La turbine a besoin d’être submergée.
+<color=#00FFFF>Bâtiment étanche</color>",808
+Lapantouflemagic.BadwaterPump.FlavorDescription,"« Le créateur du mod est un maniaque sadique ? C’est quoi un ‘‘mod’’ ? De quoi vous parlez ? Vous avez bu de ce truc ? »
+- Une infirmière castor inquiète",809
+Need.Injury.DeathMessage,<color=red>Pouet ! Personne ne devrait jamais voir ce message</color>,810
+Billboard.TechTreeBoard.DisplayName,Panneau d’Arbre Technologique,812
+Billboard.TechTreeBoard.Description,"Un panneau d’affichage indiquant la progression technologique de la faction des PatteBlanches.
+Utile pour savoir si vous essayez de construire quelque chose carrément hors de portée.
+Indique aussi qu’est-ce qui est produit et ou.",813
+Good.CerealBar.DisplayName,Barre de Céréales,815
+Good.CerealBar.PluralDisplayName,Barres de Céréales,816
+Lapantouflemagic.SAquiferPumpBlueprint.Fancy.DisplayName,Plan de Pompe d’Aquifère Enluminé,825
+Lapantouflemagic.SAquiferPumpBlueprint.Fancy.PluralDisplayName,Plans de Pompe d’Aquifère Enluminés,826
+Lapantouflemagic.SAquiferPumpBlueprint.DisplayName,Plan de Pompe d’Aquifère,827
+Lapantouflemagic.SAquiferPumpBlueprint.PluralDisplayName,Plans de Pompe d’Aquifère,828
+Lapantouflemagic.TameBrambles.DisplayName,Ronces Domestiquées,833
+Lapantouflemagic.TameBrambles.FlavorDescription,« Qu’est-ce qu’un castor ne ferait pas pour ajouter un peu de piquant à la vie ? »,834
+Lapantouflemagic.Brambles.DisplayName,Ronces Sauvages,835
+Lapantouflemagic.Handicrafter.Toggle,Artisan,837
+Lapantouflemagic.PitandLadder.Group,Loge à Fosse et Échelle,840
+Lapantouflemagic.Topentrancewatertightlodge_Builders.DisplayName,Loge à Fosse et Échelle (Charpentiers + Porte Latérale),841
+Lapantouflemagic.Topentrancewatertightlodge_Builders.Description,"Une maison de taille moyenne pour deux camionneurs bâtie autour d'une échelle. 
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",842
+Lapantouflemagic.Topentrancewatertightlodge_Builders.FlavorDescription,"« Construire en hauteur c’est bien et tout, mais on serait pas en train de faire exactement comme les hoomains ? »
+-Un castor charpentier inquiet ",843
+Lapantouflemagic.Topentrancewatertightlodge_BuildersDoorless.Description,"Une maison de taille moyenne pour deux constructeurs bâtie autour d'une échelle. 
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",844
+Lapantouflemagic.Topentrancewatertightlodge_BuildersDoorless.DisplayName,"Loge à Fosse et Échelle (Charpentiers, Segment Lisse)",845
+Lapantouflemagic.WashingMachine.DisplayName,Machine à Laver les Castors,846
+Lapantouflemagic.WashingMachine.Description,"Un appareil bizarre conçu dans le but de laver et décontaminer les castors en utilisant de l’énergie mécanique.
+Fonctionne en partie par vidange gastrique.",847
+Lapantouflemagic.WashingMachine.FlavorDescription,"« Beeeeuuuuaaaargh ! »
+-Tous les castors pendant leur tour de manège",848
+Good.MechanicalWaterpumpBlueprint.DisplayName,Plan de Machine à Laver les Castors,849
+Good.MechanicalWaterpumpBlueprint.PluralDisplayName,Plans de Machine à Laver les Castors,850
+Good.MechanicalWaterpumpFancyBlueprint.DisplayName,Plan de Machine à Laver les Castors Enluminé,851
+Good.MechanicalWaterpumpFancyBlueprint.PluralDisplayName,Plans de Machine à Laver les Castors Enluminés,853
+Lapantouflemagic.CrappyIrrigationTower.DisplayName,Petit Bain Merdique,854
+Lapantouflemagic.CrappyIrrigationTower.Description,"Un petit bain merdique, construit délibérément à l’arrache pour que les fuites d’eau sale irriguent un peu le sol.
+Surtout utile pour les sociopathes qui ne peuvent pas s’empêcher de jouer en mode difficile alors on leur a dit de ne pas le faire.",855
+Lapantouflemagic.CrappyIrrigationTower.FlavorDescription,"« On ne va pas tenir longtemps avec ça, il nous faut un barrage »
+-Un castor paysan",856
+Lapantouflemagic.MedicalTreatment.DisplayName,Traitement médical,857
+Lapantouflemagic.MedicalTreatment.CriticalDescription,Ce castor à reçu sa dose quotidienne,858
+Lapantouflemagic.TerrainBlock.Description,Un bloc de terre artificielle construit par les castors afin de se débarrasser de manière utile de la terre générée par les <color=red>Foreuses Mécanique</color>,859
+Lapantouflemagic.Overhang.Description,"Une petite plateforme qui peut être attachée à un mur pour former une passerelle.
+<color=green>Peut être attachée à la plupart des bâtiments solides et aux rebords de falaises.</color>
+<color=red>Plusieurs plateformes ou ponts ne peuvent pas partager le même support !</color>",860
+Good.BrainSalts.DisplayName,Sels de Stimulation Cérébrale,862
+Good.BrainSalts.PluralDisplayName,Sels de Stimulation Cérébrale,863
+Good.BadShrooms.DisplayName,Champignon de Stimulation Cérébrale,864
+Good.BadShrooms.PluralDisplayName,Champignons de Stimulation Cérébrale,865
+Good.Amazake.DisplayName,Saké Semi-Fermenté,866
+Good.Amazake.PluralDisplayName,Saké Semi-Fermenté,867
+Good.ChemistrySet.DisplayName,Verrerie de Laboratoire,869
+Good.ChemistrySet.PluralDisplayName,Verrerie de Laboratoire,870
+Lapantouflemagic.SmallBadwaterPump.DisplayName,Petite Pompe à Eau Polluée,871
+Lapantouflemagic.SmallBadwaterPump.Description,"Une petite pompe manuelle pour l’eau polluée.
+Probablement mise au point par un castor dérangé.
+La turbine doit être submergée.
+<color=#00FFFF>Bâtiment étanche</color>",872
+Lapantouflemagic.SmallBadwaterPump.FlavorDescription,"« Mais qui a conçu un truc pareil ? Les jeunes de nos jours... »
+- Ernest sans-dents, Doyen castor",873
+Need.Trebuchetdeath.DeathMessage,"<color=green>s’est dit que ça serait hilarant de se planquer dans le panier du trébuchet. Et franchement, oui.</color>",874
+Lapantouflemagic.DrinksNeedGroup.DisplayName,Boissons,875
+Lapantouflemagic.SciencePoints.bad,Science Inefficace,876
+Lapantouflemagic.SciencePoints.Good,Science Efficace,877
+Lapantouflemagic.Distillery.DisplayName,Distillerie,878
+Lapantouflemagic.Distillery.Description,"Un bâtiment spécialisé dans la purification d’éléments issus de ressources naturelles ou manufacturées.
+<color=#00FFFF>Bâtiment étanche</color>",879
+Lapantouflemagic.Distillery.FlavorDescription,"« Pourquoi c’est pas l’alchimiste qui s’en charge ? »
+-Maman castor",880
+Good.Cure.DisplayName,Facteur de Résistance à la Pollution,881
+Good.Cure.PluralDisplayName,Facteur de Résistance à la Pollution,882
+Lapantouflemagic.4Dynamite.DisplayName,Quadruple Dynamite,883
+Lapantouflemagic.SmallAquiferPumpCopy.DisplayName,Pompe d’Aquifère,884
+Lapantouflemagic.DamDrain.FlavorDescription,"Merci de ne pas obstruer les pales avec des branches, rondins, ou les corps brisés de vos ennemis.",886
+Lapantouflemagic.WaterCannonH.DisplayName,Canon à Eau 70°,887
+Lapantouflemagic.WaterCannonH.Description,"Une évolution amusante de la pompe à eau mécanique des autres factions.
+Tire de l’eau à un angle de 70° pour irriguer à distance.
+Élévation importante mais à courte distance.
+<color=green>Le canon remplira le réservoir jusqu’au drapeau bleu</color>",888
+Lapantouflemagic.WaterCannonL.DisplayName,Canon à Eau 30°,889
+Lapantouflemagic.WaterCannonL.Description,"Une évolution amusante de la pompe à eau mécanique des autres factions.
+Tire de l’eau à un angle de 30° pour irriguer à distance.
+Maximise la distance au prix de l’élévation.
+<color=green>Le canon remplira le réservoir jusqu’au drapeau bleu</color>",890
+Lapantouflemagic.WaterCannonM.DisplayName,Canon à Eau 45°,891
+Lapantouflemagic.WaterCannonM.Description,"Une évolution amusante de la pompe à eau mécanique des autres factions.
+Tire de l’eau à un angle de 45° pour irriguer à distance.
+Donne un bon équilibre entre distance et élévation.
+<color=green>Le canon remplira le réservoir jusqu’au drapeau bleu</color>",892
+Lapantouflemagic.BananaTree.DisplayName,Bananier,893
+Lapantouflemagic.BananaTree.FlavorDescription,Il ne manque plus que le chocolat et la crème glacée…,894
+Lapantouflemagic.Banana.DisplayName,Banane,895
+Lapantouflemagic.Banana.PluralDisplayName,Bananes,896
+Lapantouflemagic.GreenHouse.DisplayName,Serre,897
+Lapantouflemagic.GreenHouse.Description,"Une grande serre pour garder les bananiers bien au chaud.
+<color=red>Bâtiment écrasable ! Faites attention ! N’accepte que des bananiers !
+Ce bâtiment n’est pas étanche</color>",898
+Lapantouflemagic.GreenHouse.FlavorDescription,"« Si tu ne mange que des bananes, tu ne va pas user tes dents, et elle vont pousser, pousser, pousser… et un jour elles te transperceront le cerveau ! »
+- Maman castor",899
+Lapantouflemagic.Trebuchet.Description,La seule façon pratique pour se débarrasser de toute cette rocaille inutile. Permet également à un castor un peu étrange d’étudier la balistique.,900
+Lapantouflemagic.Badbucket.DisplayName,Poste d’ Écopage d’Eau Polluée,901
+Lapantouflemagic.Badbucket.Description,"Quelques rondins et planches assemblées vite fait en une sorte de plateforme juste assez stable pour écoper de l’eau polluée avec un seau, sans s’en mettre de partout. Peut être.",902
+Lapantouflemagic.Badbucket.FlavorDescription,"« On doit pouvoir faire quelque chose d’utile avec ce liquide, il nous faut juste quelqu’un d’assez idiot pour accepter d’aller en chercher. Je suis sur que Kevin sera à la hauteur. »
+- Un scientifique castor ",903
+Lapantouflemagic.ZauerKrautBarrel.DisplayName,Tonneaux de Fermentation,906
+Lapantouflemagic.ZauerKrautBarrel.Description,"Un tas de tonneaux qui peuvent être remplis de différents ingrédients que l’on laisse mariner, fermenter, ou se décomposer.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",907
+Lapantouflemagic.ZauerKrautBarrel.FlavorDescription,"« Un espace clos que personne n’ouvre jamais ? Intéressant… »
+- Jack L’Érongeur",908
+Lapantouflemagic.Factory.Description,"Un grand bâtiment industriel destiné à raffiner la ferraille en acier, ainsi qu’a fabriquer des pièces sur-mesure.
+<color=#00FFFF>Bâtiment étanche</color>",912
+Lapantouflemagic.TreeNursery.Description,"Un bâtiment spécialisé dans lequel des castors forestier expérimentés prennent soin de petites pousses et font germer des plantes exotiques avant de les planter à l’extérieur.
+<color=red>Le bâtiment peut se connecter à une échelle ou à une loge à fosse et échelle par en-dessous</color>",914
+Lapantouflemagic.LargeWaterWheel.Description,"Une roue à aube plus grande et plus efficace, soutenue par les cotés.",915
+Lapantouflemagic.BIT.Description,"Une institution scientifique avancée dans laquelle les castors les plus brillants développent de nouvelles technologies.
+<color=#00FFFF>Bâtiment étanche</color>",917
+Lapantouflemagic.Fireflyfarm.DisplayName,Tente de Toilettage de Luciole,920
+Lapantouflemagic.Fireflyfarm.Description,"Un lieu de travail réservé aux castors les plus courageux. Éleve des lucioles géantes carnivores a partir de petites larves afin de récolter le fluide luminescent de leur abdomen.
+La bête vorace est maintenue attachée en permanence pour garantir une <i>parfaite</i> sécurité pour les travailleurs.",921
+Lapantouflemagic.Fireflyfarm.FlavorDescription,"« Vous voyez mes petits, pour un mal, un bien ! S’occuper de ces bestioles est plutôt facile, et qu’est-ce qu’elle va me faire ? Bouffer ma prothèse ? Ha ! »
+- Papy castor, sur le secret du bonheur.",922
+Lapantouflemagic.RobotParts.DisplayName,Bras Articulé,923
+Lapantouflemagic.RobotParts.PluralDisplayName,Bras Articulés,924
+Lapantouflemagic.InsectLarva.DisplayName,Larve d’Insecte,925
+Lapantouflemagic.InsectLarva.PluralDisplayName,Larves d’Insectes,926
+Need.Insectdeath.DisplayName,Mort par luciole,927
+Need.Insectdeath.DeathMessage,"<color=green>ne savait pas ce que ""carnivore"" signifiait et a essayé de caresser une luciolee géante, prouvant ainsi qu’il ne faut jamais hésiter à poser une question au professeur.</color>",928
+Lapantouflemagic.Glowfluid.DisplayName,Fluide Luminescent,929
+Lapantouflemagic.Glowfluid.PluralDisplayName,Fluide Luminescent,930
+Lapantouflemagic.GiantLogBridge.Description,"Un demi séquoia, artistiquement emmanché dans pas-demi séquoia de sorte a créer une coursive.
+Livré avec des lampes en dessous parce que personne n’aime vivre dans le noir.",935
+Lapantouflemagic.GiantLogBridge.FlavorDescription,"« Ça n’a pas l’air très stable... »
+- Un castor fermier",936
+Lapantouflemagic.MintEssence.DisplayName,Essence Endothermique,946
+Lapantouflemagic.MintEssence.PluralDisplayName,Essence Endothermique,947
+Lapantouflemagic.Mushroomfarm.DisplayName,Laboratoire à OGM,957
+Lapantouflemagic.Mushroomfarm.Description,"Un grand bâtiment hermétique dans lequel on fait pousser des champignons et des plantes génétiquement modifiées dans des conditions optimales, résultant en une vitesse de pousse incroyable et des rendement délirants.
+<color=#00FFFF>Bâtiment étanche</color>",958
+Lapantouflemagic.Mushroomfarm.FlavorDescription,"« Est-ce que je devrais manger de champignon rouge et blanc ? Il a l’air délicieux. »
+- Kévin le crétin, dernières paroles",959
+Lapantouflemagic.MechanizedPinkwoodFarm.DisplayName,"Automate Cultivateur Hydroponique
+Fleuriers",960
+Lapantouflemagic.MechanizedPinkwoodFarm.Description,"Une machine infernale qui transforme l’énergie mécanique en rondins.
+Les scies circulaires doivent être changées régulièrement.
+",961
+Lapantouflemagic.MechanizedPinkwoodFarm.FlavorDescription,"« La règle la plus importante de l’ingénierie castorine, c’est de ne surtout pas regarder les mécanismes de trop près.
+- Papy castor, à propos de son absence de moustaches.",962
+Lapantouflemagic.WarmStorageBaseR.DisplayName,Main de la Soupe,969
+Lapantouflemagic.Woodupgrade.DisplayName,Amélioration de Petite Tour : Camionneurs,973
+Lapantouflemagic.Woodupgrade.FlavorDescription,"« Et donc... la plateforme vous sert à quoi déjà ? »
+- Un castor bûcheron confus",975
+ToolGroups.Lapantouflemagic.AdvancedBuildings,Bâtiments Avancés,976
+Lapantouflemagic.NewCentrifuge.DisplayName,Centrifugeuse,977
+Lapantouflemagic.NewCentrifuge.Description,"Une centrifugeuse en forme de sablier, utilisée pour recycler du combustible nucléaire à partir de déchets nucléaires des hoomains.
+Fait aussi office de logement en dépit du bon sens parce que la tradition l’impose.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>
+<color=#00FFFF>Bâtiment étanche</color>",978
+Lapantouflemagic.NewCentrifuge.FlavorDescription,"Par chance, certains castors sont capables de dormir même dans les endroit les plus improbables…",979
+Lapantouflemagic.NuclearPress.DisplayName,Presse Chaude Nucléaire,980
+Lapantouflemagic.NuclearPress.Description,"Une presse démesurée utilisant la chaleur nucléaire pour soutirer jusqu’à la dernière goutte d’huile des graines de tournesol.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>
+<color=#00FFFF>Bâtiment étanche</color>",981
+Lapantouflemagic.NuclearPress.FlavorDescription,« Un logement probablement sain »,982
+Lapantouflemagic.NuclearFuel.DisplayName,Combustible Nucléaire,983
+Lapantouflemagic.NuclearFuel.PluralDisplayName,Combustible Nucléaire,984
+Lapantouflemagic.NuclearFuelFast.DisplayName,Purification Catalysée,985
+Lapantouflemagic.NuclearFuelSlow.DisplayName,Purification Lente,986
+Lapantouflemagic.FermentationHouse.DisplayName,Maison de Fermentation,987
+Lapantouflemagic.FermentationHouse.Description,"Une petite loge dont les habitants ont pour tâche de remplir et de s’occuper des tonneaux de fermentation installés à l’étage.
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>
+<color=#00FFFF>Bâtiment étanche</color>
+",988
+Lapantouflemagic.FermentationHouse.FlavorDescription,"« Si j’en garde un peu pour moi, personne n’y verra rien... »
+- Un castor fermenteur",989
+Lapantouflemagic.AdvancedWarmstorage.DisplayName,Stockage Chauffé Avancé,990
+Lapantouflemagic.AdvancedWarmstorage.Description,"Un vieux modèle de tour recyclé pour en faire un stockage chauffé gargantuesque.
+La chaleur est fournie gratuitement et pour l’éternité par une énorme barre de matière radioactive en son centre.",991
+Lapantouflemagic.AdvancedWarmstorage.FlavorDescription,"« Le mieux, c’est que la nourriture qu’on y place ne pourrit jamais, et que les idiots qui la remplissent n’ont jamais de chatons »
+- Un castor eugéniste",992
+Lapantouflemagic.NewFloodgateDam.DisplayName,Barrage Rétractable,993
+Lapantouflemagic.NewFloodgateDam.Description,Un élément de barrage complexe mais incroyablement pratique dont le mur peut être rétracté pour contrôler le flux d’eau.,994
+Lapantouflemagic.NewFloodgateDam.FlavorDescription,"« Aaah, le progrès »
+- Un castor mécanicien",995
+Good.Onigiri_Salt.DisplayName,Boule de Riz,997
+Good.Onigiri_Salt.PluralDisplayName,Boules de Riz,998
+Lapantouflemagic.Lotus.DisplayName,Lotus,999
+Lapantouflemagic.Lotus.PluralDisplayName,Lotus,1000
+Lapantouflemagic.Lotus.FlavorDescription,"« Si tu en trouve un noir, tu peux le fourguer aux geeks contre des milliers de choux ! »
+- Un castor paysan",1001
+Lapantouflemagic.Nenuphar.DisplayName,Nenuphar,1002
+Lapantouflemagic.Nenuphar.PluralDisplayName,Nenuphars,1003
+Lapantouflemagic.Lotus_Flower.DisplayName,Fleur de Lotus,1006
+Lapantouflemagic.Lotus_Flower.PluralDisplayName,Fleur de Lotus,1007
+Good.DandelTea.DisplayName,Thé de Lotus,1009
+Good.DandelTea.PluralDisplayName,Thé de Lotus,1010
+Lapantouflemagic.FloodgateDamBlueprint.DisplayName,Plan de Barrage Rétractable,1015
+Lapantouflemagic.FloodgateDamBlueprint.PluralDisplayName,Plans de Barrage Rétractable,1016
+Lapantouflemagic.FloodgateDamFancyBlueprint.DisplayName,Plan de Barrage Rétractable Enluminé,1017
+Lapantouflemagic.FloodgateDamFancyBlueprint.PluralDisplayName,Plans de Barrage Rétractable Enluminés,1018
+Lapantouflemagic.SFITBFancyBlueprint.DisplayName,Plan de Bain Public Surélevé à Irrigation,1019
+Lapantouflemagic.SFITBFancyBlueprint.PluralDisplayName,Plans de Bain Public Surélevé à Irrigation,1020
+Lapantouflemagic.SFITBBlueprint.DisplayName,Plan de Bain Public Surélevé à Irrigation Enluminé,1021
+Lapantouflemagic.SFITBBlueprint.PluralDisplayName,Plans de Bain Public Surélevé à Irrigation Enluminés,1022
+Lapantouflemagic.MechanizedSpadderdockfarm.DisplayName,"Automate Cultivateur Hydroponique :
+Ferme à Nénuphars",1023
+Good.Hydrogen.DisplayName,Hydrogène,1024
+Good.Hydrogen.PluralDisplayName,Hydrogène,1025
+Lapantouflemagic.RuinExploration.DisplayName,Exploration des Ruines,1026
+Lapantouflemagic.RuinExploration.PluralDisplayName,Exploration des Ruines,1027
+Lapantouflemagic.SkyExploration.DisplayName,Exploration Aérienne,1028
+Lapantouflemagic.SkyExploration.PluralDisplayName,Exploration Aérienne,1029
+Group.PowerShafts.DisplayName,Arbres de Transmission,1030
+Lapantouflemagic.ScrollHolder.DisplayName,Présentoir à Parchemins,1031
+Lapantouflemagic.ScrollHolder.Description,"Stocke des plans, diplômes, ou cartes d’exploration.",1032
+Lapantouflemagic.ScrollHolder.FlavorDescription,Seuls les coussins rouges sont glorieux.,1033
+Lapantouflemagic.NuclearPowerPlant.Group.DisplayName,Centrale Nucléaire,1058
+Lapantouflemagic.PhDInNuclearPhysics.DisplayName,Doctorat en Physique Nucléaire,1075
+Lapantouflemagic.PhDInNuclearPhysics.PluralDisplayName,Doctorats en Physique Nucléaire,1076
+Lapantouflemagic.BetterDamDrain.DisplayName,Loge à Valve,1077
+Lapantouflemagic.DamDrain.Description,"Une petite loge qui contrôle une vanne.
+Permet au barrage de ne pas complètement bloquer l’écoulement de l’eau.
+<color=#00FFFF>Bâtiment étanche</color>",1078
+Lapantouflemagic.NEWEngine.Description,"Brûle du méthane pour produire de l’énergie mécanique.
+<color=#00FFFF>Bâtiment étanche</color>",1084
+Lapantouflemagic.MedicalBed_Injury.DisplayName,Lit médical : Blessures Mineures,1093
+Lapantouflemagic.MedicalBed_Injury.Description,Permet aux castors blessés de se reposer pendant que quelqu’un ajuste le <color=green>baume médical</color> pour en faire un cataplasme à base de <color=green>résine de pin</color>.,1094
+Lapantouflemagic.MedicalBed_Burns.DisplayName,Lit médical : Brûlure Mineure,1095
+Lapantouflemagic.MedicalBed_Burns.Description,Permet aux castors souffrant de brûlures de se reposer  pendant que quelqu’un ajuste le <color=green>baume médical</color> pour en faire un baume huileux à base de <color=green>graines de tournesol</color>.,1096
+Lapantouflemagic.MedicalBed_Disease.DisplayName,Lit médical : Maladie Bénigne,1097
+Lapantouflemagic.MedicalBed_DiseaseDescription,Permet aux castors souffrant de maladies bénignes de se reposer  pendant que quelqu’un ajuste le <color=green>baume médical</color> pour en faire une potion à base de <color=green>fleur de ronces</color>.,1098
+Lapantouflemagic.IrrigationLodge.DisplayName,Loge d’Irrigation,1099
+Lapantouflemagic.WonderIrrigationTower.DisplayName,Bain Public Surélevé à Irrigation,1102
+Lapantouflemagic.WonderIrrigationTower.FlavorDescription,"« Si les gens trouvent que les tours d’irrigation sont nulles, ils suffit de les améliorer jusqu’à ce que les gens les apprécient. »
+- Un castor charpentier",1103
+Lapantouflemagic.WonderIrrigationTower.Description,"La tour d’irrigation ultime : un bain public placé en hauteur qui irrigue les cultures en utilisant l’eau sale, ce qui les fertilise, le tout avec une empreinte au sol minimale.
+<color=green>La consommation d’eau est proportionnelle à la surface irriguée.
+Croissance des plantes +15%</color>
+<color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>",1104
+Lapantouflemagic.Irrigation.group.DisplayName,Irrigation,1106
+Good.SolarCell.DisplayName,Panneau Solaire,1107
+Good.SolarCell.PluralDisplayName,Panneaux Solaires,1108
+Lapantouflemagic.DeepRuin.Group.DisplayName,Exploration de l’Abysse,1109
+Lapantouflemagic.HoomanUndergroundFactory.DisplayName,Équipe de Manutention de l’Usine Souterraine Hoomaine,1115
+Lapantouflemagic.HoomanUndergroundFactory.Description,"Envoie dans l’abysse une équipe de castors spécialisés en mécanique hoomaine qui vont réparer et réactiver des fabricateurs dépassant de loin notre niveau technologique.
+<color=#FF6EC7>Des taches qui auraient pris des jours à des artisans qualifiés peuvent être réalisées en quelque heures à peine !</color>",1116
+Lapantouflemagic.HoomanUndergroundFactory.FlavorDescription,"« Apparemment une des plus grande peurs des hoomains était que leurs machines ne se révoltent contre eux, quels idiots ! Comment ce gros tas de ferraille pourrait – Aie ! Ça m’a zappé ! »",1117
+Lapantouflemagic.GasExctractor.DisplayName,Extracteur de Gaz,1118
+Lapantouflemagic.GasExctractor.Description,Une pompe mécanique qui va exploiter les diverses poches de gaz identifiées par les équipes d’exploration.,1119
+Lapantouflemagic.GasExctractor.FlavorDescription,« Vous n’imaginez pas toutes les odeurs qu’on rencontre là-dessous... »,1120
+Lapantouflemagic.DeepMinePILEstorage.DisplayName,Tas de Stockage Profond,1121
+Lapantouflemagic.DeepMinestorage.Description,Réutilise un secteur vide du complexe hoomain abandonné pour y stocker une quantité excessive de ressources,1122
+Lapantouflemagic.DeepMinePILEstorage.FlavorDescription,"« Ce complexe est si immense qu’on pourrait passer toute une vie à l’explorer. »
+- Un castor explorateur",1123
+Lapantouflemagic.DeepMineBOXStorage.DisplayName,Entrepôt de Stockage Profond,1124
+Lapantouflemagic.DeepMineBOXStorage.FlavorDescription,"« Mais pourquoi avaient-ils besoin d’autant d’espace ? Ils ne comptaient quand même pas vivre là-dedans ? »
+- Un castor explorateur",1125
+Lapantouflemagic.NuclearWasteCollector.DisplayName,Centre d’Expédition de Minage de Déchets Nucléaires,1126
+Lapantouflemagic.NuclearWasteCollector.Description,"Envoie dans l’abysse une équipe de castors spécialisés dans la récupération des trucs bizarrement chauds que les hoomains on enterré ici il y a des lustres, afin qu’on puisse le raffiner en quelque chose d’utile.",1127
+Lapantouflemagic.NuclearWasteCollector.FlavorDescription,"« Explorer ? Ah non, non, non, c’est pas mon travail. J’ai choisi ce poste parce que ne veux pas être tué par un truc sournois et invisible ! »",1128
+Reciepe.BetterAlcohol.DisplayName,Fermentation et Distillation Combinée d’Alcool de Riz,1129
+Reciepe.ResinSynthesis.DisplayName,Synthèse de Résine Artificielle,1130
+Reciepe.Cubane.DisplayName,Synthèse d’Octanitrocubane,1131
+Lapantouflemagic.AbyssTourismOffice.DisplayName,Office du Tourisme de l’Abysse,1132
+Lapantouflemagic.AbyssTourismOffice.Description,"Organise des visites guidées des secteurs sûrs et déjà explorés des ruines souterraines.
+Garanti 100% Grue-free",1133
+Lapantouflemagic.AbyssTourismOffice.FlavorDescription,"« Tout le frisson de l’aventure et du risque de se faire manger par une Grue, sans effectivement se faire manger par une Grue. »",1134
+Reciepe.Incinerate_sawdust.DisplayName,Brûler le trop-plein de sciure,1137
+Lapantouflemagic.HoomanUndergroundChemPlant.DisplayName,Équipe de Manutention du Laboratoire Souterrain Hoomain,1138
+Lapantouflemagic.HoomanUndergroundChemPlant.Description,"Envoie dans l’abysse une équipe de castors chimistes qui vont étudier et réactiver un ancien laboratoire de synthèse chimique hoomain.
+<color=#FF6EC7>Leur procédés étaient bien plus avancés que les nôtres, nous allons sûrement tant apprendre !</color>",1139
+Lapantouflemagic.HoomanUndergroundChemPlant.FlavorDescription,« Fabriquer de la résine à partir d’éléments de base ? C’est incroyable ! »,1140
+Lapantouflemagic.NEWLumberjackHouse.DisplayName,Grange des Bûcherons,1141
+Lapantouflemagic.NEWLumberjackHouse.Description,"Un bâtiment mi-grange mi-loge servant de lieu de travail pour un groupe de bûcherons. Contient des outils pour les aider à faire leur travail efficacement.
+",1142
+Lapantouflemagic.NEWLumberjackHouse.FlavorDescription,"« Mon papa c’est le meilleur ! Il a construit toute la maison ! »
+- Fanfaronnade typique de chaton",1143
+Lapantouflemagic.TappersShack.Description,"Emploie une équipe de saigneurs pour récolter la résine des pins
+<color=#FF6EC7>Peut porter une amélioration</color>
+<color=#00FFFF>Bâtiment étanche</color>",761
+Lapantouflemagic.TriangleGatheringHouse.DisplayName,Chalet des Cueilleurs,1144
+Lapantouflemagic.TriangleGatheringHouse.Description,"Une ferme modifiée pour permettre a un groupe de cueilleurs de se retrouver et se répartir les tâches.
+<color=#FF6EC7>Peut porter une amélioration</color>
+<color=#00FFFF>Bâtiment étanche</color>",1145
+Lapantouflemagic.TriangleGatheringHouse.FlavorDescription,"« Que je ne te prenne pas à entrer couvert de boue et de jus de baies ! Va te doucher ou je te jette dans la rivière moi-même ! »
+- Maman castor, tous les soirs.",1146
+Lapantouflemagic.NEWFarmhouse.Description,"Emploie un paysan qui plante et récolte des cultures.
+<color=#FF6EC7>Peut porter une amélioration</color>
+<color=#00FFFF>Bâtiment étanche</color>",494
+Lapantouflemagic.Woodupgrade.Description,"Un module d’amélioration à placer sur une <color=#FFA500>Petite Tour</color> (gauche) adjacente à un bâtiment à <color=#FF6EC7>Toit Triangulaire</color> (droite).
+Emploie <color=green>10 Camionneurs</color>"".
+<color=#00FFFF>Bâtiment étanche</color>",974
+Lapantouflemagic.NiceView.DisplayName,Plateforme d'Observation,455
+Lapantouflemagic.ContaminatedJail.Description,"Une geôle pour isoler les castors contaminés du reste de la population.
+Les castors enfermés n’auront pas besoin d’abri, de se laver, ni de boire, de manger ou dormir jusqu’à ce qu’ils se sentent mieux.",792
+Reciepe.NitrateSynthesis.PluralDisplayName,Synthèse de Nitrates,1150
+Lapantouflemagic.AssemblyLine.DisplayName,Ligne d’Assemblage,1151
+Lapantouflemagic.AssemblyLine.Description,"Un grand bâtiment industriel dans lequel on transforme à la chaîne des ressources en biens de consommation.
+<color=#00FFFF>Bâtiment étanche</color>",1152
+Lapantouflemagic.AssemblyLine.FlavorDescription,« La grue à l’étage est purement décorative ? »,1153
+Bot.DisplayName.WaterBeaver,Robot Camionneur {0},1156
+Lapantouflemagic.PhDInRobotics.DisplayName,Doctorat en Robotique,1157
+Lapantouflemagic.PhDInRobotics.PluralDisplayName,Doctorats en Robotique,1158
+Lapantouflemagic.Heavygravitybattery.DisplayName,Centrale à Gravité Lourde,1159
+Lapantouflemagic.Heavygravitybattery.Description,Une centrale à gravité renforcée utilisant des matériaux extrêmement denses comme poids.,1160
+Lapantouflemagic.Heavygravitybattery.FlavorDescription,"« Franchement c’est du gâchis, mais les gens aiment bien la lueur du poids. »",1161
+Lapantouflemagic.BotHaulingStation.DisplayName,Aire d’Attente pour Robots Camionneurs,1162
+Lapantouflemagic.BotHaulingStation.Description,"Fournit un point de départ pour le programme de livraison des robots.
+Les robots n’ayant pas de livraison a effectuer attendront ici.",1163
+Lapantouflemagic.BotHaulingStation.FlavorDescription,« Reste là et sois sage. »,1164
+Lapantouflemagic.Toggle.Arrow,►,1168
+Lapantouflemagic.FarmLumberjackUpgrade.DisplayName,Combles de Bûcheronnage,1169
+Lapantouflemagic.FarmLumberjackUpgrade.Description,"Un module d’amélioration à placer entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+Plus de bûcherons ! Mort aux arbres !
+A un grand espace de stockage.
+<color=#00FFFF>Bâtiment étanche</color>",1170
+Lapantouflemagic.FarmLumberjackUpgrade.FlavorDescription,« T’imagines l’enfer si on avait pas insisté pour avoir une grue ? »,1171
+Lapantouflemagic.FarmUpgradeA.Description,"Un module d’amélioration à placer entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+Emploie <color=green>4 constructeurs</color>.
+Peut stocker beaucoup de bazar récupéré  dans les débris.
+<color=#00FFFF>Bâtiment étanche</color>",486
+Lapantouflemagic.FarmUpgradeC.Description,"Un module d’amélioration à placer entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+L’endroit idéal pour jouer a ""Tunnels et Hoomains"" !
+Stocke également des caisses.
+<color=#00FFFF>Bâtiment étanche</color>",492
+Lapantouflemagic.FarmUpgradeD.Description,"Un module d’amélioration à placer entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+Plus de paysans ! Nous vaincrons les choux !
+A un grand espace de stockage pour les récoltes.
+<color=#00FFFF>Plantez des choux rouges près de ce bâtiment pour enlever l’alerte ""rien à faire à portée""</color>
+<color=#00FFFF>Bâtiment étanche</color>
+<color=red>NE PEUT PAS PLANTER LES CULTURES</color>",807
+Lapantouflemagic.Woodupgrade_Gatherer.DisplayName,Tour de Séchage des Cueilleurs,1172
+Lapantouflemagic.Woodupgrade_Gatherer.Description,"Un module d’amélioration à placer sur une <color=#FFA500>Petite Tour</color> (gauche) adjacente à un bâtiment à <color=#FF6EC7>Toit Triangulaire</color> (droite).
+Encore plus de cueillette ! Les baies n’ont qu’à bien se tenir !
+<color=#00FFFF>Bâtiment étanche</color>",1173
+Lapantouflemagic.Woodupgrade_Gatherer.FlavorDescription,"« Tu as juste à l’attacher la-haut pour la nuit, et quand tu reviendra, il se comportera beaucoup mieux. »",1174
+Lapantouflemagic.Statue_Dunking.DisplayName,Statue du Plongeon,1175
+Lapantouflemagic.Statue_Dunking.Description,Une statue pour honorer les… heuu… qui a fait ça ?,1176
+Lapantouflemagic.Statue_Dunking.FlavorDescription,Gblublbulbluglgll !,1177
+Lapantouflemagic.Statue_Farmer.DisplayName,Statue de Paysan,1178
+Lapantouflemagic.Statue_Farmer.Description,"Une statue pour honorer les paysans, sans qui nous mourrions tous de faim.",1179
+Lapantouflemagic.Statue_Farmer.FlavorDescription,« Et un gros sac de graines ! Un ! »,1180
+Lapantouflemagic.Statue_Lumberjack.DisplayName,Statue de Bûcheron,1181
+Lapantouflemagic.Statue_Lumberjack.Description,"Une statue pour honorer les bûcherons, sans qui on ne pourrait rien construire.",1182
+Lapantouflemagic.Statue_Lumberjack.FlavorDescription,« Quels arbres ont le meilleur gôut ? C’est notre secret ! »,1183
+Lapantouflemagic.Statue_Metalworker.DisplayName,Statue de Forgeron,1184
+Lapantouflemagic.Statue_Metalworker.Description,"Une statue pour honorer les forgerons, sans qui il n’y aurait pas de progrès.",1185
+Lapantouflemagic.Statue_Metalworker.FlavorDescription,« Bim ! Bam ! Et une lame de scie en plus ! »,1186
+Lapantouflemagic.Statue_Pointer.DisplayName,Statue du Curseur,1187
+Lapantouflemagic.Statue_Pointer.Description,Une statue montrant le rêve de tout castor : attraper le truc pointu qui vole.,1188
+Lapantouflemagic.Statue_Pointer.FlavorDescription,« Je souhaite que toute l’eau polluée se transforme en limonade ! »,1189
+Lapantouflemagic.Statue_Pregnant.DisplayName,Statue Enceinte,1190
+Lapantouflemagic.Statue_Pregnant.Description,Une statue d’une très grosse et très enceinte future maman castor.,1191
+Lapantouflemagic.Statue_Pregnant.FlavorDescription,"« Si jamais elle accouche pour de vrai, FUYEZ ! »",1192
+Lapantouflemagic.Statue_UpsideDown.DisplayName,Statue à l’Envers,1193
+Lapantouflemagic.Statue_UpsideDown.Description,"Une statue d’un castor faisant le pitre, faite par un castor farceur.
+Taillée d’un seul tenant dans un énorme rondin.",711
+Lapantouflemagic.Statue_UpsideDown.FlavorDescription,« ¡ ᴉdno⅄ »,1195
+Lapantouflemagic.MechanicalComputerBlueprint.DisplayName,Ordinateur Mécanique pour Automate,1011
+Lapantouflemagic.MechanicalComputerBlueprint.PluralDisplayName,Ordinateurs Mécaniques pour Automate,1012
+Lapantouflemagic.GoldFence.DisplayName,Clôture en Or,1194
+Lapantouflemagic.GoldFence.Description,"Une clôture en or massif pour les gens qui en ont des tonnes à portée de patte, allez savoir pourquoi.",1195
+Lapantouflemagic.GoldFence.FlavorDescription,"« Oooh, ça brille ! »",1196
+Lapantouflemagic.FenceGate.DisplayName,Portique en Or,1197
+Lapantouflemagic.FenceGate.Description,Permet aux castors d’entrer et sortir avec classe d’une zone clôturée.,1198
+Lapantouflemagic.FenceGate.FlavorDescription,"« À ce qu’il paraît, si on y met le feu ça ouvre une porte vers une autre dimension ! »",1199
+Lapantouflemagic.largefarmhouse.Description,"Une grande ferme communale pour permettre a une grande équipe de fermiers de travailler efficacement.
+<color=#00FFFF>Les Lotus ont besoin de 2m d’eau !</color>
+<color=red>Le corps de ferme peut se connecter par le bas a une échelle ou une loge à fosse et échelle !
+Plante uniquement des Courges et des Lotus</color>",911
+Lapantouflemagic.WoodFenceGate.DisplayName,Portique en Bois,1203
+Lapantouflemagic.WoodFenceGate.Description,Permet aux castors d’entrer et sortir d’une zone clôturée.,1204
+Lapantouflemagic.WoodFenceGate.FlavorDescription,« C’est plus joli de séparer les cultures avec des barrière. »,1205
+Lapantouflemagic.NewVineH.DisplayName,Pied de Vigne,568
+Lapantouflemagic.Foundry.Description,"Raffine les matériaux les plus avancés avec une efficacité sans pareille.
+<color=#FF6EC7>Une vraie merveille de technologie castorine. Sa silhouette marque le coeur d’un centre industriel de premier plan !</color>
+<color=#00FFFF>Certaines parties sont étanches</color>",918
+Lapantouflemagic.IrrigationLodge.Description,"Irrigue le sol sur une superficie modérée.
+<color=green>La consommation d’eau est proportionnelle a la surface irriguée.
+Peut repousser la contamination du sol.</color>
+<color=#FFA500>Petite Tour</color>, <color=#FF6EC7>Peut porter une amélioration</color>.
+<color=#00FFFF>Bâtiment étanche</color>",1100
+Lapantouflemagic.IrrigationLodge.FlavorDescription,"« Si seulement ce réservoir était plus large, on pourrait en faire un bain... »
+- Ernest sans-dents, Doyen castor",1101
+NeedGroup.Possessions.DisplayName,Possessions,1206
+Lapantouflemagic.Petanque.DisplayName,Pétanque,1218
+Lapantouflemagic.PetanqueCourt.DisplayName,Terrain de Pétanque,1219
+Lapantouflemagic.PetanqueCourt.Description,Un terrain plat en terre battue pour que les castors puissent jouer à la pétanque.,1220
+Lapantouflemagic.PetanqueCourt.FlavorDescription,"« Si vous y jouez au 22ème étage, tachez de ne pas tirer trop loin... »",1221
+Lapantouflemagic.Winery.Description,"Une grande maison dans laquelle des castors spécialisés dans toutes sortes de fermentations s’occupent de transformer des ingrédients avec une vitesse et efficacité sans égale.
+<color=#00FFFF>Bâtiment étanche</color>",565
+Good.Processor.DisplayName,Processeur,1222
+Good.Processor.PluralDisplayName,Processeur,1223
+Lapantouflemagic.AbyssExcavator.DisplayName,Foreuse d’Excavation des Abysses,1224
+Lapantouflemagic.AbyssExcavator.Description,"Une foreuse mécanique miniaturisée faite pour dégager des débris et des tunnels éboulés dans les profondeurs de l’abysse, et occasionnellement quelque minerai précieux. Requiert un repérage préalable par les équipes d’exploration.",1225
+Lapantouflemagic.AbyssExcavator.FlavorDescription,"""Brothers of the mine rejoice!
+Swing, swing, swing with me
+Raise your pick and raise your voice
+Sing, sing, sing with me…""",1226
+Lapantouflemagic.SupplementaryExplorationTeam.DisplayName,Équipe d’Exploration Supplémentaire,1227
+Lapantouflemagic.SupplementaryExplorationTeam.Description,Emploie cinq castors pour former une équipe d’exploration supplémentaire.,1228
+Lapantouflemagic.SupplementaryExplorationTeam.FlavorDescription,"« J’ai toujours voulu une grue apprivoisée, tu pense qu’on peut en trouver une ? »",1229
+Reciepe.Ineff_Plank.PluralDisplayName,Débitage grossier en planches,1230
+Reciepe.Ineff_Log.PluralDisplayName,Débitage grossier en rondins,1231
+Lapantouflemagic.REDCabbage.DisplayName,Choux Rouge,1232
+Lapantouflemagic.REDCabbage.FlavorDescription,À peu pres le même goût qu’un choux vert.,1233
+Lapantouflemagic.NewDistrictCenter.Description,"Une grand hutte marquant le centre d’un village.
+<color=red>Peut se connecter par le bas a une échelle ou une loge à fosse et échelle !</color>
+<color=#00FFFF>Bâtiment étanche</color>",916
+Building.WoodFence_Whitepaws.Description,Une petite clôture pour contenir ces saletés de <color=red>Ronces</color>,1234
+Lapantouflemagic.Irrigation.Displayname,Irrigation,1235
+Lapantouflagic.DetoxIrrigation.Whitepaws,Irrigation décontaminant le sol,1237
+Lapantouflemagic.Aqueduct_Short.DisplayName,Segment d’Aqueduc Court,1238
+Lapantouflemagic.Aqueduct_Short.Description,"Un pont robuste pour porter toute une rivière.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",1239
+Lapantouflemagic.Aqueduct_Long.DisplayName,Segment d’Aqueduc Long,1240
+Lapantouflemagic.Aqueduct_Long.Description,"Un pont robuste pour porter toute une rivière.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",1241
+Lapantouflemagic.Aqueduct_L-Piece.DisplayName,Segment d’Aqueduc Coudé,1242
+Lapantouflemagic.Aqueduct_L-Piece.Description,"Un pont robuste pour porter toute une rivière.
+La solution à tous vos problèmes de direction de rivière.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",1243
+Lapantouflemagic.Aqueduct_T-Piece.DisplayName,Segment d’Aqueduc en T,1244
+Lapantouflemagic.Aqueduct_T-Piece.Description,"Un pont robuste pour porter toute une rivière.
+La solution à tous vos problèmes de partage de rivière.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",1245
+Lapantouflemagic.Aqueduct.FlavorDescription,« Construit-en un en pente et tu aura l’attraction la plus cool au monde ! »,1246
+Lapantouflemagic.Aqueduct_LT-Piece.FlavorDescription,« Construit-en un en pente et tu va... probablement t’éclater la tête dans un mur. »,1247
+Lapantouflemagic.Megaplatform.Description,"Une plateforme gigantesque capable de supporter les pires charges. Livré avec des lumières éternelles grâce au pouvoir des expérimentations animales douteuses.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",782
+Lapantouflemagic.MECHwaterpump.DisplayName,Énorme Pompe à Eau ,1248
+Lapantouflemagic.MECHwaterpump.Description,"Une énorme pompe à eau équipée de nombreux filtres de sorte a fonctionner de manière autonome.
+Équivaut à <color=red>cinq</color> pompes à eau basiques.
+Consomme des planches pour réparer les pales de la turbine.",1249
+Lapantouflemagic.MECHwaterpump.FlavorDescription,"« En fait on ne devrait pas avoir besoin de tant de filtres, ceux là, c’est pour arrêter ces mystérieuses tripes, viande et os qui sortent du Curseur sait ou. 
+Au passage tu as vu Jean-Mich ? »
+- Un castor maintenancier",1250
+Good.MECHWaterpumpBlueprint.DisplayName,Plan de Grand Barrage,1251
+Good.MECHWaterpumpBlueprint.PluralDisplayName,Plans de  Grand Barrage,1252
+Good.MECHWaterpumpFancyBlueprint.DisplayName,Plan de Grand Barrage Enluminé,1253
+Good.MECHWaterpumpFancyBlueprint.PluralDisplayName,Plans de  Grand Barrage Enluminés,1254
+Need.WaterpumpDeath.DeathMessage,<color=green>à nagé trop près d’une énorme pompe à eau et a disparu sans laisser de traces. Il a sûrement été invoqué pour devenir le héros d’un monde fantastique</color>,1255
+Need.WaterpumpDeath.DisplayName,Accident de Natation,1256
+Recipe.AirshipGrandAdventure.DisplayName,Grand Tour,1257
+Lapantouflemagic.Airship.DisplayName,Dirigeable,1258
+Lapantouflemagic.Airship.Description,"Un dirigeable mis au point par les plus grands experts pour voyager de part le monde à une vitesse incroyable, tout en ramenant monts et merveilles.
+<color=#FF6EC7>Plus besoin de faire du commerce, les castors de toutes les tribus donneraient n’importe quoi en échange de l’aventure de toute une vie !</color>
+<color=green>À l’efficacité de 10 ballons</color>",1259
+Lapantouflemagic.Airship.FlavorDescription,« J’espère qu’il ne va s’éventrer en frappant un skyberg »,1260
+Lapantouflemagic.PilotsLicense.DisplayName,Licence de Pilotage,1261
+Lapantouflemagic.PilotsLicense.PluralDisplayName,Licences de Pilotage,1262
+Building.PowerShaftVerticalTIntersection.DisplayName,Intersection d’Arbre de Transmission en T Vertical,taken from Emberpelts Faction
+Building.PowerShaftUpwardTIntersection.DisplayName,Intersection d’Arbre de Transmission en T Vers le Haut,taken from Emberpelts Faction
+Building.PowerShaftDownwardTIntersection.DisplayName,Intersection d’Arbre de Transmission en T Vers le Bas,taken from Emberpelts Faction
+Lapantouflemagic.Aqueduct_Bridge.DisplayName,Segment de Jointure d’Aqueduc,1263
+Lapantouflemagic.Aqueduct_Bridge.Description,Un petit morceau d’aqueduc fait de matériaux légers pour faire la jonction entre deux aqueducs,1264
+Lapantouflemagic.Aqueduct_Deadend.DisplayName,Segment d’Aqueduc en Cul-de-Sac,1265
+Lapantouflemagic.Aqueduct_Deadend.Description,"Un pont robuste pour porter toute une rivière.
+Fermé sur trois cotés pour diriger un flux d’eau venant d’en haut dans la direction désirée. Ou pour faire un labyrinthe d’eau si ça vous amuse.
+Les anneaux en métal doivent s’attacher a un <color=green>Pilier Géant</color>",1266
+Lapantouflemagic.NuclearWaterCollector.DisplayName,Sortie d’Eau de la Centrale Nucléaire Abyssale,1267
+Lapantouflemagic.NuclearWaterCollector.Description,"Permet à la centrale nucléaire d’être connectée au réseau et être mise en marche.
+L’eau de refroidissement pompée dans la nappe phréatique par le réacteur est libérée par en haut.
+<color=green>La source ne se tarit jamais et n’est pas affectée par les pollutions des eaux.</color>",1268
+Lapantouflemagic.NuclearWaterCollector.FlavorDescription,"« Sans les plaques en fer du toit pour dissiper la chaleur, ça serait bouillant ! »",1269
+Lapantouflemagic.NuclearReactor3.DisplayName,Centrale Nucléaire Abyssale,1069
+Lapantouflemagic.NuclearReactor3.Description,"Un réacteur nucléaire de haute puissance fonctionnant au combustible nucléaire.
+Utilise les profondeurs de l’abysse pour puiser de l’eau de refroidissement dans la nappe phréatique.
+<color=green>Se construit de l’intérieur comme une merveille</color>
+<color=#00FFFF>Génère de l’eau propre</color>
+Requiert la <color=green>sortie d’eau de la centrale nucléaire abyssale</color> pour être connecté au réseau.",1070
+Lapantouflemagic.NuclearReactor2.DisplayName,Centrale Nucléaire à Surgénération,1067
+Lapantouflemagic.NuclearReactor2.Description,"Un réacteur nucléaire de moyenne puissance fonctionnant avec un mélange de déchets et de combustible nucléaire.
+Consumme les éléments radioactifs contenus dans l’eau polluée pour générer de la chaleur, maintenant le cœur actif perpétuellement.
+<color=red>Supprime 1.5 m² de liquide par seconde</color>",1068
+Lapantouflemagic.NuclearReactor1.DisplayName,Centrale Nucléaire Basique,1065
+Lapantouflemagic.NuclearReactor1.Description,"Un réacteur nucléaire de faible puissance consommant des déchets nucléaires et les éléments radioactifs contenus dans l’eau polluée.
+<color=red>Doit être construit sur une source d’eau polluée</color>",1066
+Lapantouflemagic.NuclearReactor.FlavorDescription,"« Tous les matins, quelqu’un doit appuyer sur le gros bouton rouge, et si tu as pas de bol, BOUM !
+Sinon tout va bien jusqu’au lendemain. En tout cas c’est ce que les hoomain faisaient si on en croit leurs médias »
+-Un castor historien de l’hoomanité",1071
+Luc.Library.Description,"Un grand bâtiment rempli de livres pour étudier.
+La seule façon de générer de la science.
+<color=green>Se construit de l’intérieur comme une merveille</color>",910
+Good.FruitParfait.DisplayName,Crème Glacée,1294
+Good.FruitParfait.PluralDisplayName,Crèmes Glacées,1295
+Building.RangedCrossing.Whitepaws.DisplayName,Passage Interdistrict à Tyrolienne,1296
+Building.RangedCrossing24.Whitepaws.Description,Transfère les ressources entre les districts séparés de 24m,1297
+Building.RangedCrossing48.Whitepaws.Description,Transfère les ressources entre les districts séparés de 48m,1298
+Building.RangedCrossing72.Whitepaws.Description,Transfère les ressources entre les districts séparés de 72m,1299
+Building.RangedCrossing96.Whitepaws.Description,Transfère les ressources entre les districts séparés de 96m,1300
+Building.RangedCrossing.Whitepaws.FlavorDescription,"« Une vitesse incroyable ? Bah oui !  On est dans un jeu je vous dit ! Mais vous me croyez pas les morveux, vous me regardez comme si j’étais cinglée ! Tout est faux ! »
+- Mathilda la cinglée",1301
+Lapantouflemagic.Woodupgrade_Builders.Description,"Un module d’amélioration à placer sur une <color=#FFA500>Petite Tour</color> (gauche) adjacente à un bâtiment à <color=#FF6EC7>Toit Triangulaire</color> (droite).
+Emploie <color=green>8 Constructeurs</color>"".
+<color=#00FFFF>Bâtiment étanche</color>",1302
+Lapantouflemagic.Woodupgrade_Builders.DisplayName,Amélioration de Petite Tour : Charpentier,1303
+Lapantouflemagic.Woodupgrade_Builders.FlavorDescription,"« Et la tour sert à quoi, donc ? »
+-Un castor bûcheron confus",1304
+Lapantouflemagic.FarmUpgradeB.Description,"Un module d’amélioration à placer entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+Emploie <color=green>6 Camionneurs</color>
+A un grand espace de stockage.
+<color=#00FFFF>Bâtiment étanche</color>",489
+Building.PublicFountain.DisplayName,Fontaine Publique,1307
+Building.PublicFountain.Description,Une fontaine décorative,1308
+Building.PublicFountain.FlavorDescription,« Merci de ne pas laisser vos chatons uriner dans l’eau »,1309
+Building.DrinkingFountain.DisplayName,Abreuvoir,1310
+Lapantouflemagic.Rocket.DisplayName,Triomphe,1314
+Building.MissileSilo.Whitepaws.DisplayName,Projet Triomphe,1316
+Building.MissileSilo.Whitepaws.Description,"<color=#FF6EC7>Nous avons fait une percée majeure dans notre compréhension des technologies hoomaines ! Celle-ci ouvre des possibilités exictantes !
+Si on y arrive, ce sera assurément la plus grande réussite de la Castorité !</color>
+<color=#00FFFF>Requiert d’être placé dans un bassin d’eau claire de 6m de profondeur</color>
+<color=red>L’entrée doit être accessible pour que la construction commence.</color>",1317
+Building.MissileSilo.Whitepaws.FlavorDescription,"« Nous devrions le construire au centre de la colonie, pour que tout le monde puisse profiter du spectacle »
+- Ernest sans-dents, Doyen castor",1318
+Need.Rocketdeath.DeathMessage,<color=green>a rôti dans les flammes d’un lancement de fusée et est mort fracassé par l’onde de choc. C’est entièrement de votre faute.</color>,1319
+Need.OnFire.CriticalDescriptionLocKey,En Feu !,1320
+Faction.Whitepaws.WonderCompletionFlavor,"Malgré certains… accidents… vous avez non seulement apprivoisé cette terre, mais aussi découvert les secret des anciennes technologies hoomaines, ouvrant ainsi l’espace au bénéfice de toute la Castorité.
+Grâce à vous, même si la terre venait à défaillir, nous serions capable de trouver refuge parmi les étoiles.
+
+Ha ! Ces crétins n’y ont sûrement jamais pensé !",1321
+Faction.Whitepaws.WonderCompletionMessage,"Félicitations ! En dépit de circonstances défavorables, vous avez survécu et bâti une grande cité dans des terres inhospitalières.
+Vous pouvez à présent prendre une pause de cette folie furieuse et laisser vos PattesBlanches se débrouiller sans vous, ils s’en sortiront.",1322
+Faction.Whitepaws.GameOver.Message,Votre colonie de PattesBlanches a péri. Tout est perdu.,1323
+Faction.Whitepaws.GameOver.Flavor,"On vous a dit que ça ne serait pas facile, maintenant qu’est-ce qui est allé de travers ? Un barrage trop petit ? Un usage chaotique des priorités ? 
+Vous avez mis trop de zèle à étendre votre colonie ? Apprenez de vos erreurs et réessayez !
+Vous y arriverez, après tout qui s’inquiète des vies brisées dans cette affaire ?",1324
+Lapantouflemagic.PowerShaftFlatUniversal.DisplayName,Arbre de Transmission Horizontal Adaptatif,1325
+Lapantouflemagic.UniversalPowerShaft.DisplayName,Arbre de Transmission Universel,1326
+Lapantouflemagic.PowerShaftStraightVertical.DisplayName,Arbre de Transmission Vertical,1327
+Lapantouflemagic.PowerShaftHorizontalStraight.DisplayName,Arbre de Transmission,1328
+Lapantouflemagic.PowerShaftTurn.DisplayName,Coude d’Arbre de Transmission,1329
+Lapantouflemagic.PitandLadderDoubleDoor.DisplayName,Loge à Fosse et Échelle (Deux Portes),1330
+Lapantouflemagic.PitandLadderDoubleDoor.Description,"Une maison de taille moyenne pour un camionneur bâtie autour d'une échelle
+Livrée avec <color=green>deux</color> portes latérales !
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",1331
+Lapantouflemagic.PitandLadderDoubleDoor.FlavorDescription,« Qui n’adore pas vivre à coté d’une autoroute ? »,1332
+Lapantouflemagic.Topentrancewatertightlodge_PowderStorage.DisplayName,Loge à Fosse et Échelle (Deux Portes),1336
+Lapantouflemagic.Topentrancewatertightlodge_PowderStorage.Description,"Une maison de taille moyenne pour un camionneur bâtie autour d'une échelle.
+Gère un tas de stockage.
+Peut être empilée sur elle-même, sur d’autres variants, et peut porter certains bâtiments.
+<color=#00FFFF>Bâtiment étanche</color>",1337
+Lapantouflemagic.Topentrancewatertightlodge_PowderStorage.FlavorDescription,"« Oh Curseur Sacré ! On a passé commande pour ce type de bâtiment il y a des plombes, il était temps ! »
+-Un castor camionneur frustré.",1338
+Lapantouflemagic.Crappyplatform_tunnel.DisplayName,Plateforme Merdique de Tunnel,1339
+Lapantouflemagic.Crappyplatform_tunnel.Description,Évite que le plafond d’un tunnel ne s’effondre. Peut être retiré si vous êtes sûr de vous.,1340
+Lapantouflemagic.Crappyplatform_tunnel.FlavorDescription,« Livré avec des lanternes pour repousser les grues. »,1341
+Lapantouflemagic.primitivedamUtility.Description,"Une version améliorée du barrage en croix, permet le passage des castors dans un sens, et contient un arbre de transmission dans l’autre.
+Peut être placé sur une <color=green>loge à fosse et échelle</color>.",48
+Lapantouflemagic.primitivedam3x3Utilityupgrade.DisplayName,Amélioration de Barrage Utilitaire,940
+Lapantouflemagic.primitivedam3x3Utilityupgrade.Description,Un barrage plus élevé rajouté sur le précédent.,941
+Lapantouflemagic.primitivedam3x3Utilityupgrade.FlavorDescription,"« Admirez le pouvoir des bâtons et de la colle ! Ainsi que des vis, planches, poutres en métal et d’une planification minutieuse, évidemment. »",942
+Good.ZiplineSystemBlueprint.DisplayName,Plan de Système de Tyrolienne,1342
+Good.ZiplineSystemBlueprint.PluralDisplayName,Plans de Système de Tyrolienne,1343
+Good.ZiplineSystemFancyBlueprint.DisplayName,Plan de Système de Tyrolienne Enluminé,1344
+Good.ZiplineSystemFancyBlueprint.PluralDisplayName,Plans de Système de Tyrolienne Enluminés,1345
+Lapantouflemagic.Woodupgrade_Zipline.Description,"Un module d’amélioration à placer sur une <color=#FFA500>Petite Tour</color> (gauche) adjacente à un bâtiment à <color=#FF6EC7>Toit Triangulaire</color> (droite).
+Un système de transport rapide qu’aucun castor sain d’esprit n’accepterait d’utiliser
+Emploie <color=green>4 Camionneurs</color>"".
+<color=green>Connections: 4</color>
+<color=#00FFFF>Bâtiment étanche</color>",1346
+Lapantouflemagic.ZiplineStation.FlavorDescription,"« Eh, ça a l’air marrant ! »
+-Papy castor, dernières paroles.",1347
+Lapantouflemagic.ZiplineBalloon.DisplayName,Pylône de Tyrolienne Flottant,1348
+Lapantouflemagic.ZiplineBalloon.Description,"Un ballon portant les câbles de tyrolienne entre des stations.
+<color=green>Connections: 3</color>",1349
+Lapantouflemagic.ZiplineBalloon.FlavorDescription,"« Mieux vaut ne pas rester dessous les jours venteux.
+Quoi ? Mais non il va pas tomber, c’est juste pour ne pas se trouver couvert de vomi. »",1350
+Lapantouflemagic.ZiplineUpgradePylon.DisplayName,Pylône de Tyrolienne pour Grande Ferme,1351
+Lapantouflemagic.ZiplineUpgradePylon.Description,"Un pylône donnant un accès direct au réseau de tyrolienne à une <color=green>Grande Ferme</color>
+<color=green>Connections: 1</color>
+<color=#FF6EC7>Doit être placé sur le toit de la ferme.</color>",1352
+Lapantouflemagic.ZiplineUpgradePylon.FlavorDescription,"« Si on peut avoir un accès quasi-immédiat au centre-ville, qui ne choisirait pas de vivre à la campagne ? »
+-Maman castor",1353
+Good.PlantFibers.DisplayName,Fibres Végétales,1354
+Good.PlantFibers.PluralDisplayName,Fibres Végétales,1355
+Good.Rope.DisplayName,Corde,1356
+Good.Rope.PluralDisplayName,Cordes,1357
+Lapantouflemagic.Ropemaker.DisplayName,Cordier,1361
+Lapantouflemagic.Ropemaker.Description,Fabrique des cordes à partir de fibres végétales,1362
+Lapantouflemagic.Ropemaker.FlavorDescription,Un des jeux favoris des castors est de jeter des trucs divers et variés dans le fuseau pour les voir se faire broyer,1363
+Recipe.NormalRope.PluralDisplayName,Cordages (rapide),1364
+Lapantouflemagic.ZiplineTerminusBalloon.DisplayName,Terminus de Pylône de Tyrolienne Flottant,1365
+Lapantouflemagic.ZiplineTerminusBalloon.Description,"Un ballon portant les câbles de tyrolienne.
+Permet aux castors de descendre au sol pour travailler.
+<color=green>Connections: 1</color>
+<color=red>Donne un accès mais ne constitue pas une route</color>",1366
+Lapantouflemagic.ZiplineTerminusBalloon.FlavorDescription,"« Ça pourrait être sympa de plonger dans un lac depuis là-haut... »
+- Ernest sans-dents, Doyen castor",1367
+Lapantouflemagic.ScavengerDen.DisplayName,Décharge des Éclaireurs,1368
+Lapantouflemagic.ScavengerDen.Description,"Un énorme broyeur qui sert aussi d’habitat pour des raisons évidentes.
+Donne aux éclaireurs une base idéale depuis laquelle planifier leur travail, préparer leur équipement, et recycler tout le merdier que ces satanés humains on laissé traîner un peu partout.
+Donne un accès direct au réseau de tyrolienne pour une portée d’action maximale
+<color=green>Connections: 6</color>
+<color=#00FFFF>Bâtiment étanche</color>
+<color=red>Peut se connecter par le bas a une échelle ou une loge à fosse et échelle !</color>",1369
+Lapantouflemagic.ScavengerDen.FlavorDescription,"« Merci de garder en tête que les blessures causées par les trappes à pieux, lames oscillantes, pieges à boule de pierre et fléchettes empoisonnées ne sont pas couvertes par la compagnie d’assurance.
+Bonne chasse aux trésors ! »
+-Panneau des toilettes",1370
+Lapantouflemagic.Zipline_SmallTower.Description,"Un moyen de transport rapide et terrifiant
+<color=#FFA500>Petite Tour</color>, <color=#FF6EC7>Peut porter une amélioration</color>.
+<color=green>Connections: 2</color>
+<color=#00FFFF>Bâtiment étanche</color>",1371
+Lapantouflemagic.Zipline_SmallTower.FlavorDescription,"« Un pot de fleurs quelques mètres pile au dessus d’un banc ? L’endroit idéal pour un… accident. »
+- Jack l’Érongeur, rapport de sécurité",1372
+Reciepe.ZiplineSystemDuplication.DisplayName,Système de Tyrolienne,1373
+Lapantouflemagic.SmallAquiferPump.DisplayName,Petite Pompe Phréatique,522
+Lapantouflemagic.SmallAquiferPump.Description,"Un Appareil diabolique utilisant un pouvoir surnaturel pour extraire de l’eau du sol.
+Est affecté par les sécheresses, mais pas par la pollution des eaux.
+Doit être placé entre deux bâtiments à <color=#FF6EC7>Toit Triangulaire</color>.
+<color=#00FFFF>Bâtiment étanche</color>",523
+Lapantouflemagic.SmallAquiferPump.FlavorDescription,"« Le manuel indique que seul un castor cuivré unijambiste, dansant sous la pleine lune entouré de douze statuettes de dents de fer enroulée dans des feuilles de chou, pourra soulever le cache de sécurité et appuyer sur le bouton de démarrage. »
+- Un castor pompiste un peu trop crédule",524
+Lapantouflemagic.BIGAquiferPump.DisplayName,Grosse Pompe Phréatique,829
+Lapantouflemagic.BIGAquiferPump.Description,"Une machine du Diable, torturant la terre pour en extraire encore plus d’eau, utilisant une énergie venue du Curseur sait ou.",830
+Lapantouflemagic.BIGAquiferPump.FlavorDescription,"« Si on le construit sur un volcan, tu pense que ça fera sortir de la lave ? »
+- Un castor architecte",831
+Good.Sandals.DisplayName,Sandales,1374
+Good.Sandals.PluralDisplayName,Sandales,1375
+Good.Satchel.DisplayName,Sacoche,1376
+Good.Satchel.PluralDisplayName,Sacoches,1377
+Good.Pillow.DisplayName,Oreiller toujours frais,1378
+Good.Pillow.PluralDisplayName,Oreillers toujours frais,1379
+Lapantouflemagic.Seamstress.DisplayName,Loge de Couturière,1380
+Lapantouflemagic.Seamstress.Description,"Fabrique divers objets qui améliorent la vie des castors
+<color=#FFA500>Petite Tour</color>, <color=#FF6EC7>Peut porter une amélioration</color>.
+<color=#00FFFF>Bâtiment étanche</color>",1381
+Lapantouflemagic.Seamstress.FlavorDescription,"« Ils disent qu’elle doit être très haute pour ""tester les coussins"", quoi que ça veuille dire. »
+- Un castor charpentier confus",1382
+Lapantouflemagic.DoubleRopestairs.DisplayName,Escalier Double en Corde,1383
+Lapantouflemagic.DoubleRopestairs.Description,"Donne accès à des lieus élevés sans avoir besoin de support en dessous.
+<color=red>Les case de support ne peuvent pas être partagées avec des 
+plateformes en encorbellement ou des ponts !</color>",1384
+Lapantouflemagic.DoubleRopestairs.FlavorDescription,"« Garde tes pattes sur les cordes, et les yeux vers le haut ! »",1385
+Lapantouflemagic.GiantPillar.DisplayName,Pilier Géant,713
+Lapantouflemagic.GiantPillarbase.Description,"Un demi séquoia, replanté dans le sol pour servir de support à d’autres choses.
+Peut se voir attacher des plateformes en encorbellement.",714
+Lapantouflemagic.GiantPillar.FlavorDescription,Ça c’est du lourd !,715
+Lapantouflemagic.GiantPillarbase.DisplayName,Pilier Géant (base),1386
+Lapantouflemagic.GiantPillar.Description,"Un demi séquoia, artistiquement emmanché dans un autres afin de l’allonger et servir de support à d’autres choses.
+Peut se voir attacher des plateformes en encorbellement.",1387
+Lapantouflemagic.GrandDam.DisplayName,Grand Barrage,1388
+Lapantouflemagic.GrandDam.Description,"Un barrage au style audacieux, interprétant de manière tendancieuse les règles d’urbanisme.
+Pompe l’eau de manière autonome.
+Consomme des planches pour la maintenance.
+<color=#00FFFF>Bâtiment étanche</color>
+<color=red>L’énergie mécanique doit être apportée par les cotés de l’emplacement marqué par un drapeau sur le chantier.</color>",1389
+Lapantouflemagic.GrandDam.FlavorDescription,"« Donc… au sens strict, le barrage… n’est pas… la maison ? Je ne sais pas si je dois applaudir ou appeler la Gesta-paw... »
+- Le chef d’expédition",1390
+Lapantouflemagic.8WayCorneroverhang.DisplayName,Plateforme Annulaire pour Pillier Géant,1391
+Lapantouflemagic.8WayCorneroverhang.Description,"Une coursive à installer autour d’un pillier géant, ",1392
+Lapantouflemagic.8WayCorneroverhang.FlavorDescription,"« Hmm… quelle idée horrible. »
+-Un castor qui a le vertige",1393
+Lapantouflemagic.ClockWorkKitchen.DisplayName,Automate de Cuisine,1397
+Lapantouflemagic.ClockWorkKitchen.Description,"Une machine infernale qui transforme l’énergie mécanique et les ingrédients crus en trucs délicieux.
+Casse des roues dentées de temps en temps.
+Cuisine accidentellement un castor de temps en temps.
+<color=red>L’énergie mécanique doit être apportée par en dessous de l’emplacement marqué par un drapeau sur le chantier.</color>",1398
+Lapantouflemagic.ClockWorkKitchen.FlavorDescription,"« Ça reste moins risqué que Mathilda. »
+- Ernest sans-dents, Doyen castor",1399
+Need.CWKitchDeath.DisplayName,Cuisiné Vivant !,1400
+Need.CWKitchDeath.DeathMessage,<color=green>a accidentellement été happé par le robot et délicieusement cuisiné à mort. Le ragoût fut divin ce soir-là. </color>,1401
+Lapantouflemagic.OverhangSquewer_Short.DisplayName,Plateforme en Encorbellement (Courte),1402
+Lapantouflemagic.OverhangSquewer_Short.Description,"Une petite plateforme qui peut être attachée à un bâtiment pour former une coursive.
+<color=red>Plusieurs plateformes ou ponts ne peuvent pas partager le même support !</color>",1403
+Lapantouflemagic.OverhangSquewer_Long.DisplayName,Plateforme en Encorbellement (Longue),1404
+Lapantouflemagic.OverhangSquewer_Long.Description,"Une petite plateforme qui peut être attachée à un bâtiment pour former une coursive.
+Peut être étendue une fois.
+<color=red>Plusieurs plateformes ou ponts ne peuvent pas partager le même support !</color>",1405
+Lapantouflemagic.PowerShaft_Stackable_HorizontalT.Whitepaws.DisplayName,Intersection d’Arbre de Transmission en T Horizontal,taken from Emberpelts Faction
+Building.PowerShaftUpward.DisplayName,Coude d’Arbre de Transmission Vers le Haut,1407
+Building.PowerShaftDownward.DisplayName,Coude d’Arbre de Transmission Vers le Bas,1408
+Good.Apple.DisplayName,Pomme,1409
+Good.Apple.PluralDisplayName,Pommes,1410
+Lapantouflemagic.KABOOM.DisplayName ,Boum ?,1411
+Lapantouflemagic.BalloonLandingPad.DisplayName,Plateforme d’Atterrissage pour Montgolfière de Commerce,a1
+Lapantouflemagic.BalloonLandingPad.Description,"Une grande tour destinée a accueillir les montgolfières de commerce, afin qu’ils puissent atterrir en toute sécurité.
+<color=red>Consume du méthane pour alimenter les ballons.</color>",a3
+Lapantouflemagic.BalloonLandingPad.FlavorDescription,"« Personne ne sait ce que cette marque signifie, mais elle doit y être ! C’est la règle ! »
+- Un commercant aérien des Dents de Fer",a4
+Need.Balloon.DisplayName,Montgolfière,a5
+Lapantouflemagic.BalloonGroup.DisplayName,Montgolfière de Commerce,a6
+Lapantouflemagic.ScoutBalloon.DisplayName,Ballon de Reconnaissance,a8
+Lapantouflemagic.ScoutBalloon.Description,"Une montgolfière basique ayant pour tâche d’explorer les régions alentours, dans l’espoir de trouver des villes avec qui commercer.",a9
+Lapantouflemagic.ScoutBalloon.FlavorDescription,« I believe I can flyyyy~ »,a10
+Lapantouflemagic.AmpTrader.DisplayName,Commercer avec les AmpEars,a11
+Lapantouflemagic.AmpTrader.Description,"Les AmpEars sont d’encore pires hérétiques que les Dents de Fer : Ils se sont consacrés à l’étude des technologies hoomaines et ont trouvé le moyen de conclure qu’être immergé jusqu’au ventre dans l’eau serait dangereux à proximité de leurs machines ou quelque autre absurdité du genre.  Ils acceptent d’échanger leurs bidules électriques qu’ils prétendent comprendre, mais seuls quelques-uns valent vraiment qu’on s’y intéresse.  En plus, ils nous appellent les « CulsMouillés », donc note bien où ils vivent, qu’on puisse régler le trébuchet correctement.",a12
+Lapantouflemagic.AmpTrader.FlavorDescription,« Je reviendrais ! »,a13
+Lapantouflemagic.PawsTrader.DisplayName,Commercer avec d’autres PattesBlanches,a14
+Lapantouflemagic.PawsTrader.Description,"Notre expédition n’est ni la première, ni la dernière à avoir été envoyée depuis notre patrie.
+Si nous parvenons à trouver d’autres colonies de notre espèce, elles feraient d’excellents partenaires commerciaux, car aucun de ces barbares que nous avons rencontrés n’est capable de mijoter ne serait-ce qu’un ragoût digne de ce nom.",a15
+Lapantouflemagic.PawsTrader.FlavorDescription,« Noooooon ! Je vais me faire enlever par les hoomains ! »,a16
+Lapantouflemagic.IslandTrader.DisplayName,Commercer avec les Castors des Îles,a17
+Lapantouflemagic.IslandTrader.Description,"Les Castors des Îles sont des hippies paresseux qui passent leurs journées à faire la fête sur la plage et ne s’intéressent à rien qui ne soit amusant.
+Le bon côté, c’est que nous pouvons facilement leur échanger des produits manufacturés, puisqu’ils sont pas fichus d’en fabriquer eux-mêmes. Mais en contrepartie, ils n’ont pas grand-chose à offrir — peut-être quelques babioles brillantes et du sel, histoire de nous épargner la corvée des mines.",a18
+Lapantouflemagic.IslandTrader.FlavorDescription,« Youpi ! »,a19
+Lapantouflemagic.PolarTrader.DisplayName,Commercer avec les Castors Polaires,a20
+Lapantouflemagic.PolarTrader.Description,"Les rustiques Polarbeavers vivent dans — et explorent — les ruines gelées d’une étrange cité circulaire hoomaine.
+Ils vendraient leurs propres mères en esclavage contre ces « roches éternellement chaudes » dont ils parlent mais qui n’existent certainement pas.
+Sinon, ils réclameront de la nourriture ou du charbon, et nous céderont avec le plus grand plaisir autant de glace et de bric-à-brac que nous pourrons emporter.
+À moins que vous ne soyez le genre de dégénéré qui collectionne les restes hoomains.",a21
+Lapantouflemagic.PolarTrader.FlavorDescription,« J’ai le vertiiiiiige ! »,a22
+Lapantouflemagic.IronTrader.DisplayName,Commercer avec les Dents de Fer,a23
+Lapantouflemagic.IronTrader.Description,"Les Dents de Fer sont passionnés par tout ce qui touche à l’industrie, et ils détestent commercer — surtout quand il s’agit de leur café.
+Heureusement, ils sont incapables de résister à un bon défi industriel : une commande sur mesure, vraiment complexe à réaliser, pourrait éveiller leur intérêt.
+Ils semblent apprécier nos produits manufacturés, mais ne peuvent pas les fabriquer eux-mêmes parce qu’ils « ne font pas dans la dentelle », allez comprendre…
+Ce sont aussi les seuls à vous prendre au sérieux lorsque vous demandez à être payé en mottes de terre.",a24
+Lapantouflemagic.IronTrader.FlavorDescription,« Je sais pas comment ça maaaarche ! »,a25
+Lapantouflemagic.FolkTrader.DisplayName,Commercer avec les Rustiqueues,a26
+Lapantouflemagic.FolkTrader.Description,"Nos cousins les Rustiqueues apprécient une vie simple, principalement rythmée par l’agriculture, la danse et la bonne chère.
+Ils peuvent nous fournir des graines de nouvelles espèces végétales intéressantes.
+Mais si vous leur apportez quelque chose d’assez extraordinaire, ils pourraient bien vous initier à leur étrange hobby secret.",a27
+Lapantouflemagic.FolkTrader.FlavorDescription,« Je vooooole ! »,a28
+Lapantouflemagic.ForeignFood.DisplayName,Plat Étranger,a32
+Lapantouflemagic.ForeignFood.PluralDisplayName,Plats Étrangers,a33
+Lapantouflemagic.TradeBalloon.ToggleEntry,Échanger :,a34
+Lapantouflemagic.EmberTrader.DisplayName,Commercer avec les Peaux de Braise,a35
+Lapantouflemagic.EmberTrader.Description,"Encore une tribu de sales hérétiques, qui l’aurait cru ?
+Ces types ont développé une obsession malsaine pour le feu et détestent se mouiller. Ce qui soulève la question de savoir comment ils font pour se laver — mais évitons les questions dérangeantes.
+Ils possèdent des arbres gigantesques, mais refusent de nous révéler comment les cultiver, et leurs pommes sont absolument divines.
+Ramenez tout ce que vous pourrez.",a36
+Lapantouflemagic.EmberTrader.FlavorDescription,"« Non, pas par là ! Pas par lààààààà ! »",a37
+Lapantouflemagic.LeafTrader.DisplayName,Commercer avec les ManteauxFeuillus,a38
+Lapantouflemagic.LeafTrader.Description,"Les Leafcoats sont, faute de meilleur terme… des illuminés.
+Il est difficile de savoir si leurs feuilles poussent depuis leur peau, ou s’ils se les collent partout chaque matin.
+Quoi qu’il en soit, ils détestent qu’on tue des plantes et se vexent si vous leur demandez des produits d’origine végétale. Pourtant, ils acceptent volontiers les nôtres, ce qui fait d’eux de parfaits hypocrites.
+Quoi qu’il en soit, nos cerveaux souhaitent étudier les magnifiques insectes lumineux qui vivent sur leurs terres. Essayez de nous en rapporter quelques spécimens.",a39
+Lapantouflemagic.LeafTrader.FlavorDescription,"« C’est pas vous qui vous débarrassez de moi, mais moi de vous ! »",a40
+Need.GeneticEnhancement.DisplayName,Amélioration Génétique Somatique,1414
+Lapantouflemagic.HoomanMedicalFacility.DisplayName,Équipe de Réactivation du Centre Médical Hoomain,1415
+Lapantouflemagic.HoomanMedicalFacility.Description,"Réactive un centre médical hoomain d’une niveau technologique incompréhensible.
+<color=#FF6EC7>Comment une espèce aussi avancée à pu s’éteindre ? Ces systèmes sont capables de nous rendre plus forts, plus rapides, améliore notre santé, et est capable de guérir pratiquement n’importe quoi !</color>",1416
+Lapantouflemagic.HoomanMedicalFacility.FlavorDescription,"« Ne tuez pas vos ennemis… Survivez-leur ! »
+- Ancien affichage motivationnel",1417
+Lapantouflemagic.RuinsTour.DisplayName,Visite des Ruines Hoomaines,1418
+Lapantouflemagic.BeaverCafe.DisplayName,Maison de Thé avec Terrasse,1419
+Knatte.Subgroup_MGPiles.DisplayName,Tas de stockage,K1
+Knatte.Subgroup_MGWarehouses.DisplayName,Entrepôts,K2
+Knatte.Subgroup_MGTanks.DisplayName,Citernes,K3
+Knatte.Subgroup_MGDynamite.DisplayName,Dynamite,K4
+Knatte.Subgroup_MGBridges.DisplayName,Ponts Suspendus,K5
+Knatte.Subgroup_MGPlatforms.DisplayName,Plateformes,K6
+Knatte.Subgroup_MGStaircase.DisplayName,Escaliers,K7
+ToolGroups.Billboards,Panneau d’Affichage Partiellement Utiles,-
+Lapantouflemagic.Billboard.Description,Un message de première importance...,-
+Lapantouflemagic.VitalBillboard.Description,Information vraiment importante pour les PattesBlanches,-
+Lapantouflemagic.BadorderBoard.DisplayName,Mauvais Ordre,-
+Lapantouflemagic.GoodorderBoard.DisplayName,Bon Ordre,-
+Lapantouflemagic.AwfulBoard.DisplayName,A Propos du Ragoût Abominable,-
+Lapantouflemagic.Watertight1Board.DisplayName,Étanchéité des bâtiments,-
+Lapantouflemagic.PileplatformBoard.DisplayName,C’est possible,-
+Lapantouflemagic.MathBoard1.DisplayName,Comment ne pas mourir de faim,-
+Lapantouflemagic.MathBoard2.DisplayName,Comment ne pas mourir de soif,-
+Lapantouflemagic.ShaftBoard.DisplayName,Comment connecter l’énergie,-
+Lapantouflemagic.FarmUpgradeBoard.DisplayName,Panneau d’amélioration de ferme,-
+Lapantouflemagic.WaterpumpUpgradeBoard.DisplayName,Panneau d’amélioration de pompe à eau,-
+Lapantouflemagic.MediumMineBoard.DisplayName,Panneau de Mine Moyenne,-
+Lapantouflemagic.Billboard1.DisplayName,Trop facile ?,-
+ToolGroup.HaulersHouses.DisplayName,Maisons de Camionneurs,1420
+ToolGroup.BuildersHouses.DisplayName,Maisons de Charpentiers,1421
+ToolGroup.StorageHouses.DisplayName,Maisons de Stockage,1422
+Toolgroup.Flags.DisplayName,Drapeaux,1423
+ToolGroup.Gathering.DisplayName,Cueillette,1424
+ToolGroup.Farms.DisplayName,Fermes,1425
+ToolGroup.Cooking.DisplayName,Cuisine,1426
+Toolgroup.Logging.DisplayName,Sylviculture,1427
+Toolgroup.Mining.DisplayName,Extraction Primaire,1428
+Toolgroup.Nuclear.DisplayName,Énergie Nucléaire,1429
+Toolgroup.Aqueducts.DisplayName,Aqueducs,1430
+ToolGroups.WaterandBadWater,Eau et Eau Contaminée,1431
+Lapantouflemagic.BadPlank.Reciepe,Planches rongées,1432
+Lapantouflemagic.ModularUpgradeBoard.DisplayName,Panneau sur les Modules d’Amélioration ,1433
+Lapantouflemagic.SteelBoard.DisplayName,Panneau sur la Reproduction des Enclumes,1434
+Lapantouflemagic.GiantLogBridge4.DisplayName,Pont en Rondin Géant,1435
+Good.Mushrooms3.PluralDisplayName,Champignons ultra-rapides,1436
+Lapantouflemagic.BachelorInHoomanities.DisplayName,Licence en Sciences Hoomaines,1437
+Lapantouflemagic.NEWEngine.DisplayName,Moteur au Méthane,1438
+Lapantouflemagic.ElevatedRoof1x1Corner.DisplayName,Passerelle Couverte (Coude),1439
+Lapantouflemagic.ElevatedRoof1x1Corner.Description,"Un coude de passerelle, n’a pas de lampes.",1440
+Lapantouflemagic.ElevatedRoof1x1Stair.DisplayName,Passerelle Couverte (Escaliers),1440
+Lapantouflemagic.ElevatedRoof1x1Stair.Description,Un petit segment de passerelle à placer sur des escaliers,1440
+Lapantouflemagic.ElevatedRoof1x1.DisplayName,Passerelle Couverte (Mini),1440
+Lapantouflemagic.ElevatedRoof1x1.Description,"Un petit segment de passerelle, n’a pas de lampes.",1440
+Lapantouflemagic.ElevatedRoof1x3_ALT.DisplayName,Passerelle Couverte (Zigzag),1441
+Lapantouflemagic.ElevatedRoof1x3.DisplayName,Passerelle Couverte (Intersection),1441
+Lapantouflemagic.ElevatedRoof1x3.Description,Une passerelle couverte équipée de lampes.,1442
+Lapantouflemagic.ElevatedRoof1x4.DisplayName,Passerelle Couverte (Long),1443
+Lapantouflemagic.IncenseBurner.DisplayName,Brûloir Aromatique,1446
+Lapantouflemagic.IncenseBurner.Description,Un petit piédestal sur lequel des sels de stimulation cérébrales sont brûlés lentement pour leur odeur.,1447
+Lapantouflemagic.IncenseBurner.FlavorDescription,« A tous les coups un crétin va planter sa truffe directement dedans… »,1448
+Lapantouflemagic.GigargantuanTank.DisplayName,Citerne Gigargantuesque,1449
+Lapantouflemagic.GigargantuanTank.Description,Une citerne de stockage aux proportions épiques.,1450
+Lapantouflemagic.GigargantuanTank.FlavorDescription,"« Mon rêve de nager dans du kimchi peut enfin se réaliser ! »
+- Mathilda la cinglée",1451
+Good.LyophilizedArtificialNaturalDirtBlock.DisplayName,Bloc de Terre Synthétique Lyophilisé,1452
+Good.LyophilizedArtificialNaturalDirtBlock.PluralDisplayName,Blocs de Terre Synthétique Lyophilisés,1453
+Lapantouflemagic.primitivedamupgradeMK3.DisplayName,Barrage en Rondins Géants,1454
+Lapantouflemagic.primitivedamupgradeMK3.Description,Un barrage encore plus élevé rajouté sur l’amélioration précédente.,1455
+Lapantouflemagic.primitivedamupgradeMK3.FlavorDescription,"« Là, je veux bien commencer à y croire. »
+- Un castor sceptique",1456
+Good.GiantLogDamBlueprint.PluralDisplayName,Plan de Barrage en Rondins Géants,1457
+Good.GiantLogDamBlueprint.DisplayName,Plans de Barrage en Rondins Géants,1458
+Good.GiantLogDamFancyBlueprint.PluralDisplayName,Plan de Barrage en Rondins Géants Enluminé,1459
+Good.GiantLogDamFancyBlueprint.DisplayName,Plans de Barrage en Rondins Géants Enluminés,1460
+Building.LyophilizedTerrainBlock.DisplayName,Bloc de Terre Synthétique Reconstituée,1461
+Lapantouflemagic.LyophilizedTerrainBlock.Description,Un bloc de terre synthétique produit par les castors afin de remodeler l’environnement de manière efficace.,1462
+Lapantouflemagic.Calculatorium.DisplayName,Calculatorium,1463
+Lapantouflemagic.Calculatorium.Description,"Un bâtiment administratif où les castors centralisent les informations et émettent les ordres appropriés, évitant ainsi de devoir agir directement.",1464
+Lapantouflemagic.Calculatorium.FlavorDescription,« Ouvrez les vannes ! Arrêtez les pompes à eau ! RELÂCHEZ LE KRAKEN ! »,1465
+Recipe.BerryWine.DisplayName,Vin de Baies,1466
+Lapantouflemagic.Smallcookhouse.FlavorDescription,"Les chatons qui passent a travers le sol ne relèvent pas de notre responsabilité, adressez vos plaintes aux architectes.",1467
+Lapantouflemagic.SmallForge.DisplayName,Forge,1468
+Lapantouflemagic.SmallForge.Description,"Un logis digne de ce nom pour une enclume et les castors qui s’en servent.
+<color=#FF6EC7>Peut porter une amélioration</color>
+<color=#00FFFF>Bâtiment étanche</color>",1469
+Lapantouflemagic.SmallForge.FlavorDescription,« Bim ! Un coup pour papa. Bam ! Un coup pour maman. Vlan ! Un coup dans les gencives de Kevin... »,1470
+Lapantouflemagic.GnawingHall.DisplayName,Hall de Rongeage,1471
+Lapantouflemagic.GnawingHall.Description,"Une maison longue dans laquelle on ronge des arbres, par plaisir ou par nécessité
+<color=#FF6EC7>Peut porter une amélioration</color>
+<color=#00FFFF>Bâtiment étanche</color>",1472
+Lapantouflemagic.GnawingHall.FlavorDescription,« On n’pab pas la boub’ pleine ! »,1473

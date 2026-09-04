@@ -1,0 +1,68 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "WoodWorkshop.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "WoodWorkshop.Folktails" } },
+		"Step3": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "PaperMill.Folktails" } },
+		"Step4": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "PaperMill.Folktails" } },
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames":
+						[
+							"WoodWorkshop.Folktails",
+							"LargePile.Folktails",
+							"PaperMill.Folktails",
+							"MediumWarehouse.Folktails"
+						],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "WoodWorkshop.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step7": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "LargePile.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "TreatedPlank"
+				}
+		},
+		"Step8": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "LargePile.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step9": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "PaperMill.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step10": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "Paper"
+				}
+		},
+		"Step11": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Dirtclaws", "Order": 1319000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Dirtclaws",
+      "Pit-and-LadderLodge_BoxStorage.Dirtclaws",
+      "GloriousStorage.Dirtclaws",
+      "SmallWarehouse.Dirtclaws",
+      "SmallAquaDepo.Dirtclaws.Mole",
+      "LongWarehouse.Dirtclaws",
+      "PitWarehouse.Dirtclaws",
+      "Warehouse.Dirtclaws",
+      "MediumWarehouse.Dirtclaws",
+      "BasicAquaDepo.Dirtclaws.Mole",
+      "LargeWarehouse.Dirtclaws",
+      "LargeAquaDepo.Dirtclaws.Mole",
+      "GigargantuanWarehouse.Dirtclaws",
+      "UndergroundWarehouse.Dirtclaws",
+      "BuriedAquaDepo.Dirtclaws.Mole",
+      "LargeUndergroundWarehouse.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Dirtclaws",
+      "Pit-and-LadderLodge_BoxStorage.Dirtclaws",
+      "GloriousStorage.Dirtclaws",
+      "SmallWarehouse.Dirtclaws",
+      "SmallAquaDepo.Dirtclaws.Mole",
+      "LongWarehouse.Dirtclaws",
+      "PitWarehouse.Dirtclaws",
+      "Warehouse.Dirtclaws",
+      "MediumWarehouse.Dirtclaws",
+      "BasicAquaDepo.Dirtclaws.Mole",
+      "LargeWarehouse.Dirtclaws",
+      "LargeAquaDepo.Dirtclaws.Mole",
+      "GigargantuanWarehouse.Dirtclaws",
+      "UndergroundWarehouse.Dirtclaws",
+      "BuriedAquaDepo.Dirtclaws.Mole",
+      "LargeUndergroundWarehouse.Dirtclaws"
+    ]
+  }
+}

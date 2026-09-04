@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.CharcoalBeavers", "Order": 602006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.CharcoalBeavers",
+      "ArcOverhang2x1.CharcoalBeavers",
+      "ArcOverhang3x1.CharcoalBeavers",
+      "ArcOverhang4x1.CharcoalBeavers",
+      "ArcOverhang1x4.CharcoalBeavers",
+      "ArcOverhang5x1.CharcoalBeavers",
+      "ArcOverhang6x1.CharcoalBeavers",
+      "ArcOverhang7x1.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.CharcoalBeavers",
+      "ArcOverhang2x1.CharcoalBeavers",
+      "ArcOverhang3x1.CharcoalBeavers",
+      "ArcOverhang4x1.CharcoalBeavers",
+      "ArcOverhang1x4.CharcoalBeavers",
+      "ArcOverhang5x1.CharcoalBeavers",
+      "ArcOverhang6x1.CharcoalBeavers",
+      "ArcOverhang7x1.CharcoalBeavers"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.CharcoalBeavers", "Order": 601005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.CharcoalBeavers",
+      "SkyBridgeLadder.CharcoalBeavers",
+      "SkyBridge.CharcoalBeavers",
+      "SkyBridgeEntrance.CharcoalBeavers",
+      "SkyBridge.Bridge2x1.CharcoalBeavers",
+      "SkyBridge.Bridge3x1.CharcoalBeavers",
+      "SkyBridge.Bridge4x1.CharcoalBeavers",
+      "SkyBridge.Bridge5x1.CharcoalBeavers",
+      "SkyBridge.Bridge6x1.CharcoalBeavers",
+      "SkyBridge.Bridge7x1.CharcoalBeavers",
+      "SkyBridgeEntrance.CharcoalBeavers",
+      "TubewaySkyBridge.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.CharcoalBeavers",
+      "SkyBridgeLadder.CharcoalBeavers",
+      "SkyBridge.CharcoalBeavers",
+      "SkyBridgeEntrance.CharcoalBeavers",
+      "SkyBridge.Bridge2x1.CharcoalBeavers",
+      "SkyBridge.Bridge3x1.CharcoalBeavers",
+      "SkyBridge.Bridge4x1.CharcoalBeavers",
+      "SkyBridge.Bridge5x1.CharcoalBeavers",
+      "SkyBridge.Bridge6x1.CharcoalBeavers",
+      "SkyBridge.Bridge7x1.CharcoalBeavers",
+      "SkyBridgeEntrance.CharcoalBeavers",
+      "TubewaySkyBridge.CharcoalBeavers"
+    ]
+  }
+}

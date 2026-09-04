@@ -1,0 +1,13 @@
+{
+  "TutorialStageSpec": {
+    "Id": "RushedGoal.RaiseWorkHours",
+    "IntroLocKey": "RushedGoalText.RaiseWorkHours"
+  },
+  "Children": {
+    "Step1": {
+      "SetWorkingHoursStepSpec": {
+        "TargetWorkingHours": 18
+      }
+    }
+  }
+}

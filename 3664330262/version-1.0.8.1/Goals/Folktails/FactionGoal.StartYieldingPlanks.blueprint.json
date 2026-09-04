@@ -1,0 +1,54 @@
+﻿{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "WaterWheel.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "LumberMill.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "PowerBuildingsTutorialStepSpec": {
+        "TemplateName": "LumberMill.Folktails",
+        "RequiredAmount": 1
+      }
+    },
+    "Step4": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "LumberMill.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    },
+    "Step5": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "LargePile.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step6": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Folktails",
+        "RequiredAmount": 1,
+        "GoodId": "Plank"
+      }
+    },
+    "Step7": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "LargePile.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LogStairs.Pink.Default",
+		"BackwardCompatibleTemplateNames": [ "Logstairs_Pink" ]
+	},
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Buildings.Common",
+		"Blueprints#append":
+		[
+			"Buildings/Crappyplatform_birch_Common.blueprint",
+			"Buildings/Crappyplatform_Pink_Common.blueprint",
+			"Buildings/Logstairs_Birch_Common.blueprint",
+			"Buildings/Logstairs_Pink_Common.blueprint"
+		]
+	}
+}

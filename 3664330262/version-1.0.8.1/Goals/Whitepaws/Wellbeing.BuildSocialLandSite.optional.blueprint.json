@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Wellbeing.BuildSocialLandSite.Whitepaws",
+    "IntroLocKey": "Tutorial.Wellbeing.Campfire"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PetanqueCourt.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

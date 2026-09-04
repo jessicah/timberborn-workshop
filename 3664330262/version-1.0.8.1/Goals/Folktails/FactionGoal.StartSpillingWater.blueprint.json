@@ -1,0 +1,43 @@
+﻿{
+	"Children": {
+			"Step1": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MediumTank.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step2": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "Water"
+				}
+		},
+		"Step3": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step4": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "FluidDump.Folktails" } },
+		"Step5": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "FluidDump.Folktails" } },
+		"Step6": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "FluidDump.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "FluidDump.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+	}
+}

@@ -1,0 +1,371 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Discharge",
+    "LoopingSoundName": "WaterWheel",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 6
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 2
+      },
+      {
+        "Id": "Log",
+        "Amount": 10
+      }
+    ],
+    "ScienceCost": 100,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "PublicFountain.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 1,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.PublicFountain.DisplayName",
+    "DescriptionLocKey": "Building.PublicFountain.Description",
+    "FlavorDescriptionLocKey": "Building.PublicFountain.FlavorDescription",
+    "Icon": "Buildings/Monuments/FountainOfJoy/FountainOfJoyIcon"
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "PublicFountain",
+        "PointsPerHour": 0.4,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 3
+  },
+  "BlockableObjectParticleControllerSpec": {
+    "AttachmentIds": [
+      "Water.PublicFountain.Whitepaws"
+    ]
+  },
+  "FloodableBuildingSpec": {},
+  "BlockableFloodableObjectSpec": {},
+  "WaterObjectSpec": {
+    "WaterCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 1
+    }
+  },
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "Water.PublicFountain.Whitepaws",
+        "Prefab": "Buildings/Whitepaws Faction/Fires/PublicFountainWater",
+        "Parent": "#Finished",
+        "Position": {
+          "X": 1.0,
+          "Y": 0.82,
+          "Z": 1.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 0.4,
+          "Y": 0.4,
+          "Z": 0.4
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/Wellbeing_Meshies/PublicFountain.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.4,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.8,
+              "Z": 1.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.4,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 1.6,
+              "Y": 0.3,
+              "Z": 1.6
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "constructionbases/constructionbase2x2/ConstructionBase2x2.blueprint"
+        },
+        "ConstructionStage0": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.100000024,
+              "Y": 0.006,
+              "Z": 0.118000031
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.36,
+              "Y": 0.3,
+              "Z": 0.36
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Monuments/FountainOfJoy/FountainOfJoy.Folktails.ConstructionStage0.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.05,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 3.0,
+                  "Y": 0.1,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.48259687,
+                  "Y": 0.370268971,
+                  "Z": 2.485641
+                },
+                "Size": {
+                  "X": 1.70109558,
+                  "Y": 0.527221859,
+                  "Z": 1.73038769
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.500863,
+                  "Y": 1.39113057,
+                  "Z": 2.50086284
+                },
+                "Size": {
+                  "X": 0.2900498,
+                  "Y": 1.5135901,
+                  "Z": 0.287367344
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ConstructionStage1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.100000024,
+              "Y": 0.006,
+              "Z": 0.118000031
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.36,
+              "Y": 0.3,
+              "Z": 0.36
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Monuments/FountainOfJoy/FountainOfJoy.Folktails.ConstructionStage1.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.05,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 3.0,
+                  "Y": 0.1,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.48259687,
+                  "Y": 1.240952,
+                  "Z": 2.485641
+                },
+                "Size": {
+                  "X": 1.70109558,
+                  "Y": 2.268588,
+                  "Z": 1.73038769
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.48259687,
+                  "Y": 1.42766261,
+                  "Z": 2.485641
+                },
+                "Size": {
+                  "X": 3.95388865,
+                  "Y": 0.332383633,
+                  "Z": 3.69171238
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.489545,
+                  "Y": 2.73944187,
+                  "Z": 2.485641
+                },
+                "Size": {
+                  "X": 0.395642757,
+                  "Y": 0.733034134,
+                  "Z": 0.457723618
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

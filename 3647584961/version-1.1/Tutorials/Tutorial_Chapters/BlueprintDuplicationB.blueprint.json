@@ -1,0 +1,17 @@
+{
+  "TutorialSpec": {
+    "Id": "BlueprintDuplicationB",
+    "NameLocKey": "Tutorial.BlueprintDuplicationB.Whitepaws",
+    "RequiredTutorialIds": [
+      "ChemistryBranch",
+      "ArchitectBranch"
+    ],
+    "SkipIfTutorialFinished": "BlueprintDuplicationA",
+    "SortOrder": 360,
+    "Stages": [
+      "BuildCopiystandArtistB",
+      "Scrolldisplay_Ziplinesystem",
+      "DiplomasTextB"
+    ]
+  }
+}

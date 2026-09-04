@@ -1,0 +1,322 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 40
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Fermenter.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Fermenter"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.0,
+      "Z": 0.1
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Cooking",
+    "ToolOrder": 10,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "DrivewayModelsSpec": {
+    "Driveways": [
+      {
+        "Driveway": "NarrowCenter",
+        "HasCustomCoordinates": false,
+        "CustomCoordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "CustomDirection": "Down",
+        "DrivewayMode": "Unidirectional"
+      }
+    ]
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.ZauerKrautBarrel.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.ZauerKrautBarrel.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.ZauerKrautBarrel.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/ZauerKrautBarrel"
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "Kimchi2",
+      "Methane2",
+      "ChestnutBeer2",
+      "Amazake2"
+    ]
+  },
+  "ProductionIncreaserSpec": {},
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "WorkshopSpec": {},
+  "WorkplaceSpec": {
+    "MaxWorkers": 1,
+    "DefaultWorkers": 1,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Working",
+        "Animation": "Working",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      },
+      {
+        "SlotKeyword": "Seat",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "WorkplaceSlotManagerSpec": {},
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.4,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 2.8,
+              "Y": 0.8,
+              "Z": 1.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 1.25,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.9,
+              "Y": 0.85,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": -0.15,
+              "Y": -0.029,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/5FermentationBarrels.Model"
+          }
+        },
+        "#Slot#Working": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.387,
+              "Y": -0.0229999982,
+              "Z": -0.282
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 10.18997,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat_1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.5,
+              "Y": -0.00201649219,
+              "Z": -0.03
+            },
+            "Rotation": {
+              "X": -7.025971E-15,
+              "Y": 179.924377,
+              "Z": -7.01670362E-15
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat_2": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.49,
+              "Y": 0.881000042,
+              "Z": 0.48
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 270.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase3x1/ConstructionBase3x1.blueprint"
+        }
+      }
+    }
+  }
+}

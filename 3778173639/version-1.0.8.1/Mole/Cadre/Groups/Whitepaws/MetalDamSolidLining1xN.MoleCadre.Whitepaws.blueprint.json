@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalDamSolidLining1xN.MoleCadre.Whitepaws", "Order": 706001, "NameLocKey": "Group.MetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_SM_SquareW1x1.Whitepaws",
+      "DE_SM_SquareW1x2.Whitepaws",
+      "DE_SM_SquareW1x3.Whitepaws",
+      "DE_SM_SlopeW.Whitepaws",
+      "DE_SM_InvSlopeW.Whitepaws",
+      "DE_SM_InvSlopeW1x1.Whitepaws",
+      "DE_SM_InvSlopeW1x2.Whitepaws",
+      "DE_SM_InvCornerW.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_SM_SquareW1x1.Whitepaws",
+      "DE_SM_SquareW1x2.Whitepaws",
+      "DE_SM_SquareW1x3.Whitepaws",
+      "DE_SM_SlopeW.Whitepaws",
+      "DE_SM_InvSlopeW.Whitepaws",
+      "DE_SM_InvSlopeW1x1.Whitepaws",
+      "DE_SM_InvSlopeW1x2.Whitepaws",
+      "DE_SM_InvCornerW.Whitepaws"
+    ]
+  }
+}

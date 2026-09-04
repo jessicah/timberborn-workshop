@@ -1,0 +1,1291 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "CoffeeBrewery",
+    "LoopingSoundName": "Bakery",
+    "BuildingCost": [
+      {
+        "Id": "MediumCauldron",
+        "Amount": 1
+      },
+      {
+        "Id": "Log",
+        "Amount": 90
+      },
+      {
+        "Id": "Plank",
+        "Amount": 30
+      },
+      {
+        "Id": "PineResin",
+        "Amount": 15
+      },
+      {
+        "Id": "Tools",
+        "Amount": 10
+      },
+      {
+        "Id": "Clay",
+        "Amount": 20
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 40
+      },
+      {
+        "Id": "Scaffolding",
+        "Amount": 5
+      }
+    ],
+    "ScienceCost": 100,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "ProcreationHouseSpec": {},
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "BeaverCafe.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 5,
+      "Z": 3
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": 2,
+        "Z": 1
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": -1,
+              "Y": 3,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 1,
+              "Y": 3,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 2,
+              "Y": 3,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 3,
+              "Y": 3,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": -1,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": 1,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": 2,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": 3,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 0,
+              "Y": 2,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 0,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": 0,
+              "Y": 5,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 1,
+              "Y": 2,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 1,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 4,
+              "Z": 2
+            },
+            "End": {
+              "X": 1,
+              "Y": 5,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 2,
+              "Y": 2,
+              "Z": 2
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 2,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 3,
+              "Z": 2
+            },
+            "End": {
+              "X": 2,
+              "Y": 4,
+              "Z": 2
+            },
+            "IsTwoWay": true
+          }
+        ]
+      },
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": -1,
+              "Y": 2,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": 2,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 2,
+              "Y": 2,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 3,
+              "Y": 2,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 2,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": 3,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          }
+        ]
+      },
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 1,
+              "Y": 1,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": 2,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 1,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": 0,
+              "Z": 1
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 1
+            },
+            "End": {
+              "X": 1,
+              "Y": -1,
+              "Z": 1
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 1.0,
+      "Z": 3.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Cooking",
+    "ToolOrder": 40,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 0.5,
+        "Y": 4.5,
+        "Z": 1.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.BeaverCafe.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Smallcookhouse.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Smallcookhouse.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/smallCookinghouse"
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 2,
+    "DefaultWorkers": 2,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "FriedRice",
+      "RedSoda",
+      "LotusTea",
+      "CerealBarFast",
+      "FruitParfait"
+    ]
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "WorkshopSpec": {},
+  "EnterableIlluminatorSpec": {},
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "SoilBarrierSpec": {
+    "BlockAboveMoisture": true,
+    "BlockFullMoisture": false,
+    "BlockContamination": false
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 16,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 3
+      },
+      {
+        "X": 1,
+        "Y": 3
+      },
+      {
+        "X": 2,
+        "Y": 3
+      },
+      {
+        "X": 0,
+        "Y": 4
+      },
+      {
+        "X": 1,
+        "Y": 4
+      },
+      {
+        "X": 2,
+        "Y": 4
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 1,
+      "Y": 3,
+      "Z": 1
+    }
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Seat1",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "FixedSlotManagerSpec": {},
+  "PrioritySlotRetrieverSpec": {
+    "PrioritySlotNames": [
+      "#Slot#Seat1 (12)",
+      "#Slot#Seat1 (13)",
+      "#Slot#Seat1 (14)",
+      "#Slot#Seat1 (15)"
+    ]
+  },
+  "AttractionSpec": {
+    "Effects": [
+      {
+        "NeedId": "BeaverCafe",
+        "PointsPerHour": 0.4,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.5,
+              "Z": 4.0
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 1.0,
+              "Z": 2.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": -0.05,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 0.1,
+              "Z": 3.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 1.7,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 0.4,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/BeaverCafé"
+          }
+        },
+        "#Slot#Seat1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.368,
+              "Y": 0.117,
+              "Z": 0.215
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.899318,
+              "Y": 0.117,
+              "Z": 0.215
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.03732419,
+              "Y": 0.117,
+              "Z": 0.215
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (3)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.56864214,
+              "Y": 0.117,
+              "Z": 0.215
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (4)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.368,
+              "Y": 0.117,
+              "Z": 1.334859
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (5)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.899318,
+              "Y": 0.117,
+              "Z": 1.334859
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (8)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.368,
+              "Y": 0.117,
+              "Z": 1.07348728
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.999985,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (9)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.899318,
+              "Y": 0.117,
+              "Z": 1.07348728
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.999985,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (10)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.03732419,
+              "Y": 0.117,
+              "Z": 1.07348728
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.999985,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (11)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.56864214,
+              "Y": 0.117,
+              "Z": 1.07348728
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 179.999985,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (6)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.03732419,
+              "Y": 0.117,
+              "Z": 1.334859
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (7)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.56864214,
+              "Y": 0.117,
+              "Z": 1.334859
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (12)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.57599688,
+              "Y": 0.193729579,
+              "Z": 3.69295263
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (13)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.57599688,
+              "Y": 0.193729579,
+              "Z": 3.69295263
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (14)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.42388654,
+              "Y": 0.193729579,
+              "Z": 3.69295263
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        },
+        "#Slot#Seat1 (15)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.42388654,
+              "Y": 0.193729579,
+              "Z": 3.69295263
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase3x2/ConstructionBase3x2.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 3.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        },
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/Cafe_Frame"
+          }
+        }
+      }
+    }
+  }
+}

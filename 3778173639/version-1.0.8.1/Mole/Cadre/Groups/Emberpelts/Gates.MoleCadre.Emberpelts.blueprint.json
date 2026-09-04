@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Emberpelts", "Order": 401008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Emberpelts",
+      "Tubeway.Gate.Emberpelts",
+      "DistrictGate.Emberpelts",
+      "DistrictGateTubeway.Emberpelts",
+      "DecoSmallGate.Emberpelts",
+      "SmallGate.Emberpelts",
+      "HedgeGate.Emberpelts",
+      "MetalGate.Emberpelts",
+      "GoldGate.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Emberpelts",
+      "Tubeway.Gate.Emberpelts",
+      "DistrictGate.Emberpelts",
+      "DistrictGateTubeway.Emberpelts",
+      "DecoSmallGate.Emberpelts",
+      "SmallGate.Emberpelts",
+      "HedgeGate.Emberpelts",
+      "MetalGate.Emberpelts",
+      "GoldGate.Emberpelts"
+    ]
+  }
+}

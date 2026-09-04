@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.LeafCoats", "Order": 524000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.LeafCoats",
+      "Roof.Dynamic.LeafCoats",
+      "Roof1x1.LeafCoats",
+      "Roof1x2.LeafCoats",
+      "Roof2x2.LeafCoats",
+      "Roof2x3.LeafCoats",
+      "Roof3x2.LeafCoats",
+      "HalfRoof1x1.LeafCoats",
+      "HalfRoof1x2.LeafCoats",
+      "HalfRoof2x1.LeafCoats",
+      "HalfRoof2x2.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.LeafCoats",
+      "Roof.Dynamic.LeafCoats",
+      "Roof1x1.LeafCoats",
+      "Roof1x2.LeafCoats",
+      "Roof2x2.LeafCoats",
+      "Roof2x3.LeafCoats",
+      "Roof3x2.LeafCoats",
+      "HalfRoof1x1.LeafCoats",
+      "HalfRoof1x2.LeafCoats",
+      "HalfRoof2x1.LeafCoats",
+      "HalfRoof2x2.LeafCoats"
+    ]
+  }
+}

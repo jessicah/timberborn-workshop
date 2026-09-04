@@ -1,0 +1,18 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Progress.ResearchStairs.Whitepaws",
+    "IntroLocKey": "Tutorial.Forestry.Forester"
+  },
+  "Children": {
+    "Step1": {
+      "AccumulateScienceForBuildingStepSpec": {
+        "TemplateName": "Stairs.Whitepaws"
+      }
+    },
+    "Step2": {
+      "UnlockBuildingTutorialStepSpec": {
+        "TemplateName": "Stairs.Whitepaws"
+      }
+    }
+  }
+}

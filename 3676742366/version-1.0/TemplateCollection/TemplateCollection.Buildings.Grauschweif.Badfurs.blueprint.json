@@ -1,0 +1,11 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.Badfurs",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Common.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Common.White.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Common.Brown.blueprint"
+    ]
+  }
+}
+

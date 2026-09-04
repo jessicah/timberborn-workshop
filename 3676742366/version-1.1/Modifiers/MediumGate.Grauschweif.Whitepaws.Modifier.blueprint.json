@@ -1,0 +1,19 @@
+{
+  "BuildingSpec": {
+    "BuildingCost": [
+      {
+        "Id": "Rock",
+        "Amount": 80
+      },
+      {
+        "Id": "Rope",
+        "Amount": 2
+      },
+      {
+        "Id": "Paper",
+        "Amount": 4
+      }
+    ],
+    "ScienceCost": "200"
+  }
+}

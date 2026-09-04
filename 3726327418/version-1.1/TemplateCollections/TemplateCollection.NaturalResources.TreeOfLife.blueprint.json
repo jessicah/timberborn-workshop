@@ -1,0 +1,11 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "NaturalResources.TreeOfLife",
+    "Blueprints#Append": [
+      "TreeOfLife/TreeOfLife.blueprint",
+      "TreeOfLife/TreeOfLife.Raised.blueprint",
+      "TreeOfLife/UnForester.Common.blueprint",
+      "TreeOfLife/UngroupedStorage.blueprint"
+    ]
+  }
+}

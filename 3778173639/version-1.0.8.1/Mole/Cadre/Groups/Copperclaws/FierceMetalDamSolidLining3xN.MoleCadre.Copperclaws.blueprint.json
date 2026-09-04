@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining3xN.MoleCadre.Copperclaws", "Order": 1508003, "NameLocKey": "Group.FierceMetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW3x1.Copperclaws",
+      "DE_A_RM_SquareW3x2.Copperclaws",
+      "DE_A_RM_SquareW3x3.Copperclaws",
+      "DE_A_RM_SlopeW3x.Copperclaws",
+      "DE_A_RM_InvSlopeW3X.Copperclaws",
+      "DE_A_RM_InvCornerW3X.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW3x1.Copperclaws",
+      "DE_A_RM_SquareW3x2.Copperclaws",
+      "DE_A_RM_SquareW3x3.Copperclaws",
+      "DE_A_RM_SlopeW3x.Copperclaws",
+      "DE_A_RM_InvSlopeW3X.Copperclaws",
+      "DE_A_RM_InvCornerW3X.Copperclaws"
+    ]
+  }
+}

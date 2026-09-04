@@ -1,0 +1,44 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "ExplosivesFactory.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "ExplosivesFactory.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "ExplosivesFactory.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 2
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "ExplosivesFactory.Folktails",
+						"RequiredAmount": 2,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MediumWarehouse.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "Explosives"
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

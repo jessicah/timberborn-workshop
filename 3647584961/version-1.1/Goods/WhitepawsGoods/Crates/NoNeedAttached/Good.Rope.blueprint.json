@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "Rope",
+    "BackwardCompatibleIds": [
+      "CanolaSeeds"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.9924528,
+      "g": 0.7605536,
+      "b": 0.5149519,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Logs",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Rope",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Rope.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Rope.PluralDisplayName"
+  }
+}

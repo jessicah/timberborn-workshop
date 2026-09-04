@@ -1,0 +1,146 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Automation",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Quartz",
+        "Amount": 50
+      }
+    ],
+    "ScienceCost": 500,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": true,
+    "DrawRangeBoundsOnIt": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Memory.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Automation",
+    "ToolOrder": 120,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.Memory.DisplayName",
+    "DescriptionLocKey": "Building.Memory.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "Buildings/Automation/Memory/MemoryIcon"
+  },
+  "MemorySpec": {},
+  "DefaultIlluminatorColorSpec": {
+    "ColorId": "Automator"
+  },
+  "UnderstructureConstraintSpec": {
+    "UnderstructureTemplateNames": [
+      "Calculatorium.Whitepaws",
+      "Timer.Whitepaws",
+      "Chronometer.Whitepaws",
+      "PowerMeter.Whitepaws",
+      "Relay.Whitepaws",
+      "Counter_Science.Whitepaws",
+      "Counter_Resource.Whitepaws",
+      "Counter_Pop.Whitepaws",
+      "Lever.Whitepaws",
+      "Memory.Whitepaws"
+    ]
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/Automation_Meshies/Memory.Whitepaws"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.05414751,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.802816868,
+              "Y": 0.1043421,
+              "Z": 0.7941488
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

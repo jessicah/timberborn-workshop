@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.Emberpelts",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Red.EP.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.IslandBeavers", "Order": 1016001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.IslandBeavers",
+      "SteamVentMiningSite.IslandBeavers",
+      "FrozenAquifer.IslandBeavers",
+      "IceBergMiningSite.IslandBeavers",
+      "OilWell_Artificial.IslandBeavers",
+      "OilDrill.IslandBeavers",
+      "OilDrill2.IslandBeavers",
+      "AbyssElevator.IslandBeavers",
+      "SupplementaryExplorationTeam.IslandBeavers",
+      "NuclearWasteCollector.IslandBeavers",
+      "GasExctractor.IslandBeavers",
+      "AbyssExcavator.IslandBeavers",
+      "HoomanUndergroundChemPlant.IslandBeavers",
+      "HoomanUndergroundFactory.IslandBeavers",
+      "DeepMinePILEstorage.IslandBeavers",
+      "DeepMineBOXStorage.IslandBeavers",
+      "AbyssTourismCenter.IslandBeavers",
+      "HoomanMedicalFacility.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.IslandBeavers",
+      "SteamVentMiningSite.IslandBeavers",
+      "FrozenAquifer.IslandBeavers",
+      "IceBergMiningSite.IslandBeavers",
+      "OilWell_Artificial.IslandBeavers",
+      "OilDrill.IslandBeavers",
+      "OilDrill2.IslandBeavers",
+      "AbyssElevator.IslandBeavers",
+      "SupplementaryExplorationTeam.IslandBeavers",
+      "NuclearWasteCollector.IslandBeavers",
+      "GasExctractor.IslandBeavers",
+      "AbyssExcavator.IslandBeavers",
+      "HoomanUndergroundChemPlant.IslandBeavers",
+      "HoomanUndergroundFactory.IslandBeavers",
+      "DeepMinePILEstorage.IslandBeavers",
+      "DeepMineBOXStorage.IslandBeavers",
+      "AbyssTourismCenter.IslandBeavers",
+      "HoomanMedicalFacility.IslandBeavers"
+    ]
+  }
+}

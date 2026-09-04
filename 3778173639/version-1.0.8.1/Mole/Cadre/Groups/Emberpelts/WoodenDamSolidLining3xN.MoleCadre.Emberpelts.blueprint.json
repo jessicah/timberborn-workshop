@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining3xN.MoleCadre.Emberpelts", "Order": 405003, "NameLocKey": "Group.WoodenDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW3x1.Emberpelts",
+      "DD_SquareW3x2.Emberpelts",
+      "DD_SquareW3x3.Emberpelts",
+      "DD_SlopeW3x.Emberpelts",
+      "DD_InvSlopeW3X.Emberpelts",
+      "DD_InvCornerW3X.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW3x1.Emberpelts",
+      "DD_SquareW3x2.Emberpelts",
+      "DD_SquareW3x3.Emberpelts",
+      "DD_SlopeW3x.Emberpelts",
+      "DD_InvSlopeW3X.Emberpelts",
+      "DD_InvCornerW3X.Emberpelts"
+    ]
+  }
+}

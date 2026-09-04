@@ -1,0 +1,18 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Balloon",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Balloons/Airship.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/NEWLandingPad.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/AmpTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/EmberTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/FolkTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/IronTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/IslandTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/LeafTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/PawsTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/PolarTrader.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Balloons/ScoutBalloon.Whitepaws.blueprint"
+    ]
+  }
+}

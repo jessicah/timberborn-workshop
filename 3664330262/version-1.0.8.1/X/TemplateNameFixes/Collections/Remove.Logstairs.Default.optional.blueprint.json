@@ -1,0 +1,10 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"Blueprints#remove":
+		[
+			"Buildings/Logstairs_Birch_Common.blueprint",
+			"Buildings/Logstairs_Pink_Common.blueprint"
+		]
+	}
+}

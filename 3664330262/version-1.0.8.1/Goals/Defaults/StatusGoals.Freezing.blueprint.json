@@ -1,0 +1,10 @@
+{
+  "TutorialSpec": {
+    "Id": "StatesGoals.Freezing",
+    "NameLocKey": "StatesGoalsText.Freezing",
+    "RequiredTutorialIds": [ "RemarkGoals.Welcome" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 1,
+    "Stages": [ "StatesGoal.Freezing" ]
+  }
+}

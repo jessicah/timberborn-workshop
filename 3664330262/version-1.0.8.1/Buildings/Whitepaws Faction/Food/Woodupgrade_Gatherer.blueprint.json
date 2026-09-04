@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Woodupgrade_Gatherer.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Woodupgrade_Gatherer" ]
+	}
+}

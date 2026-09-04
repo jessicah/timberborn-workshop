@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"LongWarehouse",
+			"LongWarehouseIT",
+			"LongWarehouseFT",
+			"LongWarehouseEP",
+			"LongWarehouseWP"
+		]
+	}
+}

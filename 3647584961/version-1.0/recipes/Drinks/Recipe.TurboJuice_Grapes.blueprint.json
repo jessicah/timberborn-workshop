@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboJuice_Grapes",
+  "DisplayLocKey": "Good.GrapeJuice.PluralDisplayName",
+  "CycleDurationInHours": 0.1,
+  "CyclesCapacity": 20,
+  "Ingredients":[ 
+    {
+      "Id": "Grapes",
+      "Amount": 25
+    },
+    {
+      "Id": "Water",
+      "Amount": 5
+    }
+  ],
+  "Products": [
+    {
+      "Id": "GrapeJuice",
+      "Amount": 30
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/GrapeJuice",
+	"BackwardCompatibleIds": []
+  }
+}

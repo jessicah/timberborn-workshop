@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Emberpelts", "Order": 402000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.Emberpelts.Mole",
+      "StonePath.Emberpelts.Mole",
+      "WoodenPath.Emberpelts.Mole",
+      "Path.Emberpelts",
+      "Path1.Emberpelts",
+      "Path2.Emberpelts",
+      "Path3.Emberpelts",
+      "Path4.Emberpelts",
+      "Path5.Emberpelts",
+      "DistrictCrossing.Emberpelts",
+      "BOTDistrictCrossing.Emberpelts"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Emberpelts",
+      "Ladders.MoleCadre.Emberpelts",
+      "Ropeways.MoleCadre.Emberpelts",
+      "Bridges.MoleCadre.Emberpelts",
+      "Walkways.MoleCadre.Emberpelts",
+      "Branches.MoleCadre.Emberpelts",
+      "Boosters.MoleCadre.Emberpelts",
+      "Gates.MoleCadre.Emberpelts",
+      "Passages.MoleCadre.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.Emberpelts.Mole",
+      "StonePath.Emberpelts.Mole",
+      "WoodenPath.Emberpelts.Mole",
+      "Path.Emberpelts",
+      "Path1.Emberpelts",
+      "Path2.Emberpelts",
+      "Path3.Emberpelts",
+      "Path4.Emberpelts",
+      "Path5.Emberpelts",
+      "DistrictCrossing.Emberpelts",
+      "BOTDistrictCrossing.Emberpelts",
+      "Steps.MoleCadre.Emberpelts",
+      "Ladders.MoleCadre.Emberpelts",
+      "Ropeways.MoleCadre.Emberpelts",
+      "Bridges.MoleCadre.Emberpelts",
+      "Walkways.MoleCadre.Emberpelts",
+      "Branches.MoleCadre.Emberpelts",
+      "Boosters.MoleCadre.Emberpelts",
+      "Gates.MoleCadre.Emberpelts",
+      "Passages.MoleCadre.Emberpelts"
+    ]
+  }
+}

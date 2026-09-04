@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.CharcoalBeavers", "Order": 603000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.CharcoalBeavers",
+      "DoublePlatform.CharcoalBeavers",
+      "TriplePlatform.CharcoalBeavers",
+      "TreeTrunk.Platform.CharcoalBeavers",
+      "TreeTrunk.DoublePlatform.CharcoalBeavers",
+      "TreeTrunk.TriplePlatform.CharcoalBeavers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.CharcoalBeavers",
+      "MetalPillars.MoleCadre.CharcoalBeavers",
+      "TreeBits.MoleCadre.CharcoalBeavers",
+      "Overhangs.MoleCadre.CharcoalBeavers",
+      "MirroredOverhangs.MoleCadre.CharcoalBeavers",
+      "ArchOverhangs.MoleCadre.CharcoalBeavers",
+      "MetalPlatforms.MoleCadre.CharcoalBeavers",
+      "OtherPlatforms.MoleCadre.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.CharcoalBeavers",
+      "DoublePlatform.CharcoalBeavers",
+      "TriplePlatform.CharcoalBeavers",
+      "TreeTrunk.Platform.CharcoalBeavers",
+      "TreeTrunk.DoublePlatform.CharcoalBeavers",
+      "TreeTrunk.TriplePlatform.CharcoalBeavers",
+      "Pillars.MoleCadre.CharcoalBeavers",
+      "MetalPillars.MoleCadre.CharcoalBeavers",
+      "TreeBits.MoleCadre.CharcoalBeavers",
+      "Overhangs.MoleCadre.CharcoalBeavers",
+      "MirroredOverhangs.MoleCadre.CharcoalBeavers",
+      "ArchOverhangs.MoleCadre.CharcoalBeavers",
+      "MetalPlatforms.MoleCadre.CharcoalBeavers",
+      "OtherPlatforms.MoleCadre.CharcoalBeavers"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.Whitepaws", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.Whitepaws" ],
+		"GoodCollectionIds#append": [ "TNF.Whitepaws" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.Whitepaws",
+			"NaturalResources.TNF.Whitepaws"
+		]
+	}
+}

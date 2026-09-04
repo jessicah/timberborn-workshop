@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.CharcoalBeavers", "Order": 616001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.CharcoalBeavers",
+      "SteamVentMiningSite.CharcoalBeavers",
+      "FrozenAquifer.CharcoalBeavers",
+      "IceBergMiningSite.CharcoalBeavers",
+      "OilWell_Artificial.CharcoalBeavers",
+      "OilDrill.CharcoalBeavers",
+      "OilDrill2.CharcoalBeavers",
+      "AbyssElevator.CharcoalBeavers",
+      "SupplementaryExplorationTeam.CharcoalBeavers",
+      "NuclearWasteCollector.CharcoalBeavers",
+      "GasExctractor.CharcoalBeavers",
+      "AbyssExcavator.CharcoalBeavers",
+      "HoomanUndergroundChemPlant.CharcoalBeavers",
+      "HoomanUndergroundFactory.CharcoalBeavers",
+      "DeepMinePILEstorage.CharcoalBeavers",
+      "DeepMineBOXStorage.CharcoalBeavers",
+      "AbyssTourismCenter.CharcoalBeavers",
+      "HoomanMedicalFacility.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.CharcoalBeavers",
+      "SteamVentMiningSite.CharcoalBeavers",
+      "FrozenAquifer.CharcoalBeavers",
+      "IceBergMiningSite.CharcoalBeavers",
+      "OilWell_Artificial.CharcoalBeavers",
+      "OilDrill.CharcoalBeavers",
+      "OilDrill2.CharcoalBeavers",
+      "AbyssElevator.CharcoalBeavers",
+      "SupplementaryExplorationTeam.CharcoalBeavers",
+      "NuclearWasteCollector.CharcoalBeavers",
+      "GasExctractor.CharcoalBeavers",
+      "AbyssExcavator.CharcoalBeavers",
+      "HoomanUndergroundChemPlant.CharcoalBeavers",
+      "HoomanUndergroundFactory.CharcoalBeavers",
+      "DeepMinePILEstorage.CharcoalBeavers",
+      "DeepMineBOXStorage.CharcoalBeavers",
+      "AbyssTourismCenter.CharcoalBeavers",
+      "HoomanMedicalFacility.CharcoalBeavers"
+    ]
+  }
+}

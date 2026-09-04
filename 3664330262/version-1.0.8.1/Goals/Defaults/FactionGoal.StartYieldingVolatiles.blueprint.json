@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingVolatiles",
+    "IntroLocKey": "FactionGoalText.StartYieldingVolatiles"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif",
+    "Blueprints#remove": [
+      "Grauschweif/Fish.Koi.Grauschweif.blueprint",
+      "Buildings/Decoration/WaterDecoration/WaterPlant.Grauschweif.blueprint"
+    ]
+  }
+}

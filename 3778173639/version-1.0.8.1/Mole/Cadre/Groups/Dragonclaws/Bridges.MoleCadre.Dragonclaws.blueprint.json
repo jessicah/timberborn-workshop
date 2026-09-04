@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Bridges.MoleCadre.Dragonclaws", "Order": 1201004, "NameLocKey": "Group.Bridges", "Icon": "Mole/Cadre/Bridges", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "TE_Bridge_1x1.Dragonclaws",
+      "TE_Bridge_1x2.Dragonclaws",
+      "TE_Bridge_1x3.Dragonclaws",
+      "TE_Bridge_1x4.Dragonclaws",
+      "TE_Bridge_1x5.Dragonclaws",
+      "TE_Bridge_1x6.Dragonclaws",
+      "TE_BridgeF_1x7.Dragonclaws",
+      "TE_BridgeF_1x8.Dragonclaws",
+      "TE_BridgeF_1x9.Dragonclaws",
+      "TE_BridgeF_1x10.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "TE_Bridge_1x1.Dragonclaws",
+      "TE_Bridge_1x2.Dragonclaws",
+      "TE_Bridge_1x3.Dragonclaws",
+      "TE_Bridge_1x4.Dragonclaws",
+      "TE_Bridge_1x5.Dragonclaws",
+      "TE_Bridge_1x6.Dragonclaws",
+      "TE_BridgeF_1x7.Dragonclaws",
+      "TE_BridgeF_1x8.Dragonclaws",
+      "TE_BridgeF_1x9.Dragonclaws",
+      "TE_BridgeF_1x10.Dragonclaws"
+    ]
+  }
+}

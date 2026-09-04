@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.Folktails",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Yellow.FT.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.White.FT.blueprint",
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Brown.FT.blueprint"
+    ]
+  }
+}

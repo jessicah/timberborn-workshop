@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec":
+  {
+    "Blueprints#append":
+    [
+      "Buildings/Metal/Metalsmith/Metalsmith.Folktails.blueprint"
+    ]
+  }
+}

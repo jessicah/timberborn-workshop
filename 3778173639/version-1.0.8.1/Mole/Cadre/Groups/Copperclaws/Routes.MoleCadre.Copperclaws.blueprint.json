@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Copperclaws", "Order": 1502000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.Copperclaws.Mole",
+      "StonePath.Copperclaws.Mole",
+      "WoodenPath.Copperclaws.Mole",
+      "Path.Copperclaws",
+      "Path1.Copperclaws",
+      "Path2.Copperclaws",
+      "Path3.Copperclaws",
+      "Path4.Copperclaws",
+      "Path5.Copperclaws",
+      "DistrictCrossing.Copperclaws",
+      "BOTDistrictCrossing.Copperclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Copperclaws",
+      "Ladders.MoleCadre.Copperclaws",
+      "Ropeways.MoleCadre.Copperclaws",
+      "Bridges.MoleCadre.Copperclaws",
+      "Walkways.MoleCadre.Copperclaws",
+      "Branches.MoleCadre.Copperclaws",
+      "Boosters.MoleCadre.Copperclaws",
+      "Gates.MoleCadre.Copperclaws",
+      "Passages.MoleCadre.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.Copperclaws.Mole",
+      "StonePath.Copperclaws.Mole",
+      "WoodenPath.Copperclaws.Mole",
+      "Path.Copperclaws",
+      "Path1.Copperclaws",
+      "Path2.Copperclaws",
+      "Path3.Copperclaws",
+      "Path4.Copperclaws",
+      "Path5.Copperclaws",
+      "DistrictCrossing.Copperclaws",
+      "BOTDistrictCrossing.Copperclaws",
+      "Steps.MoleCadre.Copperclaws",
+      "Ladders.MoleCadre.Copperclaws",
+      "Ropeways.MoleCadre.Copperclaws",
+      "Bridges.MoleCadre.Copperclaws",
+      "Walkways.MoleCadre.Copperclaws",
+      "Branches.MoleCadre.Copperclaws",
+      "Boosters.MoleCadre.Copperclaws",
+      "Gates.MoleCadre.Copperclaws",
+      "Passages.MoleCadre.Copperclaws"
+    ]
+  }
+}

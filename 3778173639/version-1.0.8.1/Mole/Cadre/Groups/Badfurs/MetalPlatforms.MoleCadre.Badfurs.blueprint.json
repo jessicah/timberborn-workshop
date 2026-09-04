@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Badfurs", "Order": 1402003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Badfurs",
+      "LargeMetalPlatform.Badfurs",
+      "MetalPlatform1x1.Badfurs",
+      "MetalPlatform3x3.Badfurs",
+      "MetalPlatform5x3.Badfurs",
+      "MetalPlatform5x5.Badfurs",
+      "MetalPlatform7x7.Badfurs",
+      "MetalPlatform3x3.Ladder.Badfurs",
+      "MetalPlatform5x5.Ladder.Badfurs",
+      "MetalPlatform7x7.Ladder.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Badfurs",
+      "LargeMetalPlatform.Badfurs",
+      "MetalPlatform1x1.Badfurs",
+      "MetalPlatform3x3.Badfurs",
+      "MetalPlatform5x3.Badfurs",
+      "MetalPlatform5x5.Badfurs",
+      "MetalPlatform7x7.Badfurs",
+      "MetalPlatform3x3.Ladder.Badfurs",
+      "MetalPlatform5x5.Ladder.Badfurs",
+      "MetalPlatform7x7.Ladder.Badfurs"
+    ]
+  }
+}

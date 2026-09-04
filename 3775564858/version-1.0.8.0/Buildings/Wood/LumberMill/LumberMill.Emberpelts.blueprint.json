@@ -1,0 +1,9 @@
+{
+  "ManufactorySpec":
+  {
+    "ProductionRecipeIds#append":
+    [
+      "EfficientPlank"
+    ]
+  }
+}

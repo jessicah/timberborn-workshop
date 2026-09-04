@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints#Append": [
+      "TreeOfLife/PlantingGround.IronTeeth.blueprint",
+      "TreeOfLife/TreeOfLife.IronTeeth.blueprint"
+    ]
+  }
+}

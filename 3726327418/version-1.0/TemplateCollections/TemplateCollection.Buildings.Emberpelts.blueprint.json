@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#Append": [
+      "TreeOfLife/PlantingGround.Emberpelts.blueprint",
+      "TreeOfLife/TreeOfLife.Emberpelts.blueprint"
+    ]
+  }
+}

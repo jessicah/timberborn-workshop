@@ -1,0 +1,11 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "Common",
+    "Needs#remove": [
+      "Campfire",
+      "Lantern",
+      "RooftopTerrace",
+      "Shrub",
+    ]
+  }
+}

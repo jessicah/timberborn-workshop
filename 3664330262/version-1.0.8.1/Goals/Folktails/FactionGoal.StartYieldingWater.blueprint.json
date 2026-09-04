@@ -1,0 +1,19 @@
+﻿{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "WaterPump.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "WaterPump.Folktails",
+        "RequiredAmount": 2,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    }
+  }
+}

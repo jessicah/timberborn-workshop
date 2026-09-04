@@ -10,16 +10,17 @@
       TOTOOL(Pit-and-LadderLodge_LiquidStorage),
       TOTOOL(SmallCoveredTank),
       TOTOOL(SmallTank),
-      TOTOOL(Mole.SmallTank),
+      TOMOLE(SmallAquaTank),
       TOTOOL(PitTank),
       TOTOOL(MediumTank),
-      TOTOOL(Mole.TriteTank),
+      TOMOLE(BasicAquaTank),
       TOTOOL(LargeTank),
-      TOTOOL(Mole.LargeTank),
+      TOMOLE(LargeAquaTank),
       TOTOOL(UndergroundTank),
-      TOTOOL(Mole.BuriedTank),
+      TOMOLE(BuriedAquaTank),
       TOTOOL(LargeUndergroundTank),
-      TOTOOL(GazTank)
+      TOTOOL(GazTank),
+      TOTOOL(GasTank)
     ],
     "ChildrenOrderedIds":
     [
@@ -27,16 +28,17 @@
       TOTOOL(Pit-and-LadderLodge_LiquidStorage),
       TOTOOL(SmallCoveredTank),
       TOTOOL(SmallTank),
-      TOTOOL(Mole.SmallTank),
+      TOMOLE(SmallAquaTank),
       TOTOOL(PitTank),
       TOTOOL(MediumTank),
-      TOTOOL(Mole.TriteTank),
+      TOMOLE(BasicAquaTank),
       TOTOOL(LargeTank),
-      TOTOOL(Mole.LargeTank),
+      TOMOLE(LargeAquaTank),
       TOTOOL(UndergroundTank),
-      TOTOOL(Mole.BuriedTank),
+      TOMOLE(BuriedAquaTank),
       TOTOOL(LargeUndergroundTank),
-      TOTOOL(GazTank)
+      TOTOOL(GazTank),
+      TOTOOL(GasTank)
     ]
   }
 }

@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.FrostyWhiskers", "Order": 818000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.FrostyWhiskers",
+      "SmallPile.FrostyWhiskers",
+      "SmallIndustrialPile.FrostyWhiskers",
+      "SmallAquaPile.FrostyWhiskers.Mole",
+      "LongPile.FrostyWhiskers",
+      "PitPile.FrostyWhiskers",
+      "2x2PileRight.FrostyWhiskers",
+      "Pile.FrostyWhiskers",
+      "IndustrialPile.FrostyWhiskers",
+      "MediumPile.FrostyWhiskers",
+      "MediumIndustrialPile.FrostyWhiskers",
+      "LargePile.FrostyWhiskers",
+      "LargeIndustrialPile.FrostyWhiskers",
+      "BasicAquaPile.FrostyWhiskers.Mole",
+      "ExtraLargePile.FrostyWhiskers",
+      "ExtraLargeIndustrialPile.FrostyWhiskers",
+      "LargeAquaPile.FrostyWhiskers.Mole",
+      "GigargantuanPile.FrostyWhiskers",
+      "UndergroundPile.FrostyWhiskers",
+      "BuriedAquaPile.FrostyWhiskers.Mole",
+      "GiantLogStorage.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.FrostyWhiskers",
+      "SmallPile.FrostyWhiskers",
+      "SmallIndustrialPile.FrostyWhiskers",
+      "SmallAquaPile.FrostyWhiskers.Mole",
+      "LongPile.FrostyWhiskers",
+      "PitPile.FrostyWhiskers",
+      "2x2PileRight.FrostyWhiskers",
+      "Pile.FrostyWhiskers",
+      "IndustrialPile.FrostyWhiskers",
+      "MediumPile.FrostyWhiskers",
+      "MediumIndustrialPile.FrostyWhiskers",
+      "LargePile.FrostyWhiskers",
+      "LargeIndustrialPile.FrostyWhiskers",
+      "BasicAquaPile.FrostyWhiskers.Mole",
+      "ExtraLargePile.FrostyWhiskers",
+      "ExtraLargeIndustrialPile.FrostyWhiskers",
+      "LargeAquaPile.FrostyWhiskers.Mole",
+      "GigargantuanPile.FrostyWhiskers",
+      "UndergroundPile.FrostyWhiskers",
+      "BuriedAquaPile.FrostyWhiskers.Mole",
+      "GiantLogStorage.FrostyWhiskers"
+    ]
+  }
+}

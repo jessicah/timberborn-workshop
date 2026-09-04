@@ -1,0 +1,241 @@
+{
+  "FactionSpec": {
+    "Id": "Whitepaws",
+    "Order": 2,
+    "Avatar": "sprites/Whitepaws Sprites/FactionSkins/WaterbeaverAdult",
+    "ChildAvatar": "sprites/Whitepaws Sprites/FactionSkins/WaterbeaverChild",
+    "BotAvatar": "Sprites/Avatars/IronTeethBot",
+    "ContaminatedAdultAvatar": "sprites/Whitepaws Sprites/FactionSkins/SickAdult",
+    "ContaminatedChildAvatar": "sprites/Whitepaws Sprites/FactionSkins/SickChild",
+    "Logo": "sprites/Whitepaws Sprites/FactionSkins/Whitepawslogo",
+    "NewGameFullAvatar": "sprites/Whitepaws Sprites/FactionSkins/WaterbeaversFullNewGame",
+    "Textures": [
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_1",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_2",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_3",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_4",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverAdult4.Waterbeaver_5"
+    ],
+    "ChildTextures": [
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_1",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_2",
+      "sprites/Whitepaws Sprites/FactionSkins/BeaverChild.Waterbeaver_3"
+    ],
+    "MaterialCollectionIds": [
+      "Whitepaws",
+      "Folktails",
+      "IronTeeth",
+      "Billboards.Whitepaws"
+    ],
+    "TemplateCollectionIds": [
+      "Characters.Whitepaws",
+      "ModularShaftParts.Whitepaws",
+      "NaturalResources.Whitepaws",
+      "Whitepaws_Essentials",
+      "Whitepaws_Storage",
+      "Whitepaws_Food",
+      "Whitepaws_Waterstuff",
+      "Whitepaws_Housing",
+      "Whitepaws_Townsstuff",
+      "Whitepaws_LightIndustry",
+      "Whitepaws_Dams",
+      "Whitepaws_Balloon",
+      "Whitepaws_Power",
+      "Whitepaws_Science",
+      "Whitepaws_Zipline",
+      "Whitepaws_Wellbeing",
+      "Whitepaws_AdvancedBuildings",
+      "1x1x2Storage.Whitepaws",
+      "Logstairs.Whitepaws",
+      "Billboards.Whitepaws",
+      "Whitepaws_Automation"
+    ],
+    "PathMaterial": "Buildings/Paths/Path/Path.Folktails",
+    "BaseWoodMaterial": "Materials/UberAtlas/Materials/Folktails/BaseWood_White.Folktails",
+    "NeedCollectionIds": [
+      "Whitepaws"
+    ],
+    "GoodCollectionIds": [
+      "Whitepaws"
+    ],
+    "BlueprintModifiers": [
+      {
+        "Original": "templatecollections/templatecollection.mapeditor.common.blueprint",
+        "Modifier": "Modifiers/TemplateCollection.MapEditor_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "templatecollections/TemplateCollection.NaturalResources.Common.blueprint",
+        "Modifier": "Modifiers/TemplateCollection.NaturalResources_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "mapeditor/ruins/undergroundruins/UndergroundRuins.blueprint",
+        "Modifier": "Modifiers/UndergroundRuins_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "removeyieldstrategies/removeyieldstrategy.cuttable.blueprint",
+        "Modifier": "Modifiers/RemoveYieldStrategy.Cuttable_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "wellbeingtiers/wellbeingtier.adult.lifeexpectancy.blueprint",
+        "Modifier": "Modifiers/WellbeingTier.Adult.LifeExpectancy_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "wellbeingtiers/wellbeingtier.child.growthspeed.blueprint",
+        "Modifier": "Modifiers/WellbeingTier.Child.GrowthSpeed_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "needs/need.beaver.chippedteeth.blueprint",
+        "Modifier": "Modifiers/Need.Beaver.ChippedTeeth_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "needs/need.beaver.hunger.blueprint",
+        "Modifier": "Modifiers/Need.Beaver.Hunger_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "needs/Need.Beaver.Injury.blueprint",
+        "Modifier": "Modifiers/Need.Beaver.Injury_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "needs/need.beaver.thirst.blueprint",
+        "Modifier": "Modifiers/Need.Beaver.Thirst_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "recipes/recipe.flowingwater.blueprint",
+        "Modifier": "Modifiers/Recipe.FlowingWater_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "materialcollections/MaterialCollection.Folktails.blueprint",
+        "Modifier": "Modifiers/MaterialCollection.Folktails_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Badwater.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Badwater_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Berries.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Berries_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Dirt.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Dirt_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Explosives.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Explosives_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Gear.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Gear_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Log.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Log_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.MetalBlock.blueprint",
+        "Modifier": "Modifiers/Goods/Good.MetalBlock_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.PineResin.blueprint",
+        "Modifier": "Modifiers/Goods/Good.PineResin_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Plank.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Plank_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.ScrapMetal.blueprint",
+        "Modifier": "Modifiers/Goods/Good.ScrapMetal_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.SunflowerSeeds.blueprint",
+        "Modifier": "Modifiers/Goods/Good.SunflowerSeeds_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/Good.Water.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Water_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/good.clay.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Clay_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/good.coal.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Coal_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "goods/good.grapes.blueprint",
+        "Modifier": "Modifiers/Goods/Good.Grapes_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Needs/Need.Beaver.Grapes.blueprint",
+        "Modifier": "Modifiers/Need.Beaver.Grapes_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "GoodGroups/GoodGroup.Water.blueprint",
+        "Modifier": "Modifiers/GoodGroup.Water_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "GoodCollections/GoodCollection.Common.blueprint",
+        "Modifier": "Modifiers/GoodCollection.Common_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Configurations/LifeService.blueprint",
+        "Modifier": "Modifiers/LifeService_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Configurations/MapSize.blueprint",
+        "Modifier": "Modifiers/MapSize_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Configurations/ProbabilityGroups.blueprint",
+        "Modifier": "Modifiers/ProbabilityGroups_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Configurations/ZiplineCableNavMesh.blueprint",
+        "Modifier": "Modifiers/ZiplineCableNavMesh_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "BonusTypes/BonusType.CarryingCapacity.blueprint",
+        "Modifier": "Modifiers/BonusType.CarryingCapacity_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "BonusTypes/BonusType.GrowthSpeed.blueprint",
+        "Modifier": "Modifiers/BonusType.GrowthSpeed_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "BonusTypes/BonusType.LifeExpectancy.blueprint",
+        "Modifier": "Modifiers/BonusType.LifeExpectancy_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "BonusTypes/BonusType.MovementSpeed.blueprint",
+        "Modifier": "Modifiers/BonusType.MovementSpeed_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "BonusTypes/BonusType.WorkingSpeed.blueprint",
+        "Modifier": "Modifiers/BonusType.WorkingSpeed_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "Recipes/Recipe.Badwater.blueprint",
+        "Modifier": "Modifiers/Recipe.Badwater_WhitepawsModifier.optional.blueprint"
+      },
+      {
+        "Original": "MapEditor/Objects/ReservePile/ReservePile.blueprint",
+        "Modifier": "Modifiers/ReservePile_WhitepawsModifier.optional.blueprint"
+      }
+    ],
+    "StartingBuildingId": "BrokenKart.Whitepaws",
+    "SoundId": "Common",
+    "DisplayNameLocKey": "Faction.waterbeavers.DisplayName",
+    "DescriptionLocKey": "Faction.waterbeavers.Description",
+    "GameOverMessageLocKey": "Faction.Whitepaws.GameOver.Message",
+    "GameOverFlavorLocKey": "Faction.Whitepaws.GameOver.Flavor"
+  },
+  "FactionWonderSpec": {
+    "WonderCompletionImage": "sprites/Whitepaws Sprites/FactionSkins/wonder-completion-whitepaws",
+    "WonderLaunchSound": "UI.Buildings.Wonder.EarthRecultivator",
+    "WonderCompletionFlavorLocKey": "Faction.Whitepaws.WonderCompletionFlavor",
+    "WonderCompletionMessageLocKey": "Faction.Whitepaws.WonderCompletionMessage"
+  },
+  "StartingFactionSpec": {}
+}

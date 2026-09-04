@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.FrostyWhiskers", "Order": 801009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.FrostyWhiskers",
+      "TE_Tunnel_1L.FrostyWhiskers",
+      "TE_Tunnel_2L.FrostyWhiskers",
+      "TE_Tunnel_3L.FrostyWhiskers",
+      "TE_Tunnel_4L.FrostyWhiskers",
+      "TE_Tunnel_5L.FrostyWhiskers",
+      "TE_Tunnel_6L.FrostyWhiskers",
+      "TE_Tunnel_7L.FrostyWhiskers",
+      "TE_Tunnel_8L.FrostyWhiskers",
+      "TE_Tunnel_9L.FrostyWhiskers",
+      "TE_Tunnel_10L.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.FrostyWhiskers",
+      "TE_Tunnel_1L.FrostyWhiskers",
+      "TE_Tunnel_2L.FrostyWhiskers",
+      "TE_Tunnel_3L.FrostyWhiskers",
+      "TE_Tunnel_4L.FrostyWhiskers",
+      "TE_Tunnel_5L.FrostyWhiskers",
+      "TE_Tunnel_6L.FrostyWhiskers",
+      "TE_Tunnel_7L.FrostyWhiskers",
+      "TE_Tunnel_8L.FrostyWhiskers",
+      "TE_Tunnel_9L.FrostyWhiskers",
+      "TE_Tunnel_10L.FrostyWhiskers"
+    ]
+  }
+}

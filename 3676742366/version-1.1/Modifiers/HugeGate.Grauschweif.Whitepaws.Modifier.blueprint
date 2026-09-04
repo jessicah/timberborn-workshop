@@ -1,0 +1,31 @@
+{
+  "BuildingSpec": {
+    "BuildingCost": [
+      {
+        "Id": "GiantLog",
+        "Amount": 3
+      },
+      {
+        "Id": "GiantHalfLog",
+        "Amount": 6
+      },
+      {
+        "Id": "Plank",
+        "Amount": 60
+      },
+      {
+        "Id": "Sunfloweroil",
+        "Amount": 60
+      },
+      {
+        "Id": "Tools",
+        "Amount": 12
+      },
+      {
+        "Id": "Deluxestew",
+        "Amount": 1
+      } 
+    ],
+    "ScienceCost": "1000"
+  },
+}

@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Sensor",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "Processor",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10008,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Sensor",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Sensor.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Sensor.PluralDisplayName"
+  }
+}

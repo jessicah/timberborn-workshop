@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "FarmHouse.Emberpelts",
+		"BackwardCompatibleTemplateNames": [ "Farmhouse.Emberpelts" ]
+	}
+}

@@ -1,0 +1,407 @@
+{
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BuildingSpec": {
+    "SelectionSoundName": "Bakery",
+    "LoopingSoundName": "Bakery",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 35
+      },
+      {
+        "Id": "Clay",
+        "Amount": 20
+      },
+      {
+        "Id": "ClayPot",
+        "Amount": 1
+      },
+      {
+        "Id": "Tar",
+        "Amount": 12
+      },
+      {
+        "Id": "Tools",
+        "Amount": 3
+      }
+    ],
+    "ScienceCost": 50,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 2,
+    "DefaultWorkers": 2,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "BraisedCabbage",
+      "OnigiriSalt",
+      "FriedPumpkinChips",
+      "Awfulstew",
+      "CerealBarFast"
+    ]
+  },
+  "ProcreationHouseSpec": {},
+  "DwellingSpec": {
+    "MaxBeavers": 3,
+    "SleepEffects": [
+      {
+        "NeedId": "Sleep",
+        "PointsPerHour": 0.2,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Shelter",
+        "PointsPerHour": 0.3,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "SoilBarrierSpec": {
+    "BlockAboveMoisture": true,
+    "BlockFullMoisture": false,
+    "BlockContamination": false
+  },
+  "WaterObstacleSpec": {
+    "Coordinates": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 1,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 1
+      }
+    ]
+  },
+  "FinishableWaterObstacleSpec": {
+    "Height": 1.0
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "WorkplaceBonusesSpec": {
+    "WorkerBonuses": [
+      {
+        "Id": "WorkingSpeed",
+        "MultiplierDelta": 0.2
+      },
+      {
+        "Id": "CarryingCapacity",
+        "MultiplierDelta": 0.5
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "SmallCookery.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 4
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Top, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.13,
+      "Z": 0.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "ProductionIncreaserSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Cooking",
+    "ToolOrder": 31,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.SmallCookery.Whitepaws.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.SmallCookery.Whitepaws.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.SmallCookery.Whitepaws.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/SmallCookery"
+  },
+  "WorkshopSpec": {},
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "WorkshopParticleControllerSpec": {
+    "AttachmentIds": [
+      "Smoke.Cookinghouse"
+    ]
+  },
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "Smoke.Cookinghouse",
+        "Prefab": "Buildings/Food/Grill/GrillSmoke",
+        "Parent": "#Finished",
+        "Position": {
+          "X": 0.6,
+          "Y": 3.2,
+          "Z": 0.57
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 1,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.6,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 1.2,
+              "Z": 2.0
+            }
+          },
+          {
+            "Center": {
+              "X": 0.6,
+              "Y": 2.9,
+              "Z": 0.6
+            },
+            "Size": {
+              "X": 0.7,
+              "Y": 1.4,
+              "Z": 0.7
+            }
+          },
+          {
+            "Center": {
+              "X": 0.6,
+              "Y": 1.7,
+              "Z": 0.6
+            },
+            "Size": {
+              "X": 0.9,
+              "Y": 1.0,
+              "Z": 0.9
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/SmallCookery.Whitepaws"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

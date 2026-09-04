@@ -1,0 +1,22 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildOreStorage",
+    "IntroLocKey": "Tutorial.BuildNewDC.BuildOreStorage.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Ironore"
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Coal"
+      }
+    }
+  }
+}

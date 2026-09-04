@@ -1,0 +1,488 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 4
+      },
+      {
+        "Id": "Plank",
+        "Amount": 5
+      }
+    ],
+    "ScienceCost": 70,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": true,
+    "DrawRangeBoundsOnIt": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "FestiveXLantern.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 27,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.FestiveLantern.DisplayName",
+    "DescriptionLocKey": "Building.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.FestiveLantern.FlavorDescription",
+    "Icon": "Grauschweif/Icons/FestiveXLanternIcon"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 0
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Lantern",
+        "PointsPerHour": 0.64,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": [
+      0.0
+    ]
+  },
+  "NightTimeLightControllerSpec": {},
+  "GrauschweifSimpleLightsSpec": {
+    "Lights": [
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.12,
+          "Y": 0.81,
+          "Z": 0.74
+        },
+        "Intensity": 0.12,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.15,
+          "g": 0.52,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.88,
+          "Y": 0.19,
+          "Z": 0.74
+        },
+        "Intensity": 0.12,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.15,
+          "g": 0.52,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.69,
+          "Y": 0.65,
+          "Z": 0.7
+        },
+        "Intensity": 0.1,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.15,
+          "g": 0.52,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.31,
+          "Y": 0.33,
+          "Z": 0.74
+        },
+        "Intensity": 0.1,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.15,
+          "g": 0.52,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.12,
+          "Y": 0.18,
+          "Z": 0.74
+        },
+        "Intensity": 0.12,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.2,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.88,
+          "Y": 0.82,
+          "Z": 0.74
+        },
+        "Intensity": 0.12,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.2,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.31,
+          "Y": 0.65,
+          "Z": 0.74
+        },
+        "Intensity": 0.1,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.2,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.69,
+          "Y": 0.33,
+          "Z": 0.74
+        },
+        "Intensity": 0.1,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.2,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.69
+        },
+        "Intensity": 0.12,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 60.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.5,
+          "b": 0.0,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/FestiveXLantern.Grauschweif.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.05,
+              "Y": 0.5,
+              "Z": 1.05
+            },
+            "Size": {
+              "X": 0.1,
+              "Y": 1.0,
+              "Z": 0.15
+            }
+          },
+          {
+            "Center": {
+              "X": 0.95,
+              "Y": 0.5,
+              "Z": 1.05
+            },
+            "Size": {
+              "X": 0.1,
+              "Y": 1.0,
+              "Z": 0.15
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.84,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.5,
+              "Y": 0.25,
+              "Z": 0.5
+            }
+          },
+          {
+            "Center": {
+              "X": 0.05,
+              "Y": 0.5,
+              "Z": -0.05
+            },
+            "Size": {
+              "X": 0.1,
+              "Y": 1.0,
+              "Z": 0.15
+            }
+          },
+          {
+            "Center": {
+              "X": 0.95,
+              "Y": 0.5,
+              "Z": -0.05
+            },
+            "Size": {
+              "X": 0.1,
+              "Y": 1.0,
+              "Z": 0.15
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Decoration/Lantern/FestiveDLantern.Grauschweif.Construction.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.05,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.1,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.05,
+                  "Y": 0.45,
+                  "Z": 1.05
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.95,
+                  "Y": 0.45,
+                  "Z": 1.05
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.05,
+                  "Y": 0.45,
+                  "Z": -0.05
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.95,
+                  "Y": 0.45,
+                  "Z": -0.05
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 1.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

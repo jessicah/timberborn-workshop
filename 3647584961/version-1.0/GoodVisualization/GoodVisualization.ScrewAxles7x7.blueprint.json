@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "ScrewAxle",
+    "Variant": "7x7",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -2.0
+    },
+    "LimitingAmount": 0.0,
+    "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7ScrewAxleFused2880",
+    "SecondaryMesh": "",
+    "Material": "Materials/uberatlas/materials/folktails/BaseWood_White.Folktails",
+    "NonLinearity": -0.1
+  }
+}

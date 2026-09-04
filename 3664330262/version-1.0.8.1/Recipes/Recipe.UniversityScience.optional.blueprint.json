@@ -1,0 +1,14 @@
+{
+	"RecipeSpec":
+	{
+		"Ingredients":
+		[
+			{ "Id": "BrainSalts", "Amount": 1 },
+			{ "Id": "FriedPumpkinChips", "Amount": 1 },
+			{ "Id": "RedGrapes", "Amount": 1 },
+			{ "Id": "FriedRice", "Amount": 1 },
+			{ "Id": "LotusTea", "Amount": 1 }, 
+			{ "Id": "RedSoda", "Amount": 1 }
+		]
+	}
+}

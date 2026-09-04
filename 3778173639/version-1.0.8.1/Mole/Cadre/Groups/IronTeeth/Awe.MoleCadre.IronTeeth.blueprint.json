@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.IronTeeth", "Order": 326000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.IronTeeth",
+      "LaborerMonument.IronTeeth",
+      "BrazierOfBonding.IronTeeth",
+      "FlameOfUnity.IronTeeth",
+      "FountainOfJoy.IronTeeth",
+      "PublicFountain.IronTeeth",
+      "TributeToIngenuity.IronTeeth",
+      "HallOfAbundance.IronTeeth",
+      "ArchOfProgress.IronTeeth",
+      "EarthRecultivator.IronTeeth",
+      "EarthRepopulator.IronTeeth",
+      "WonderOfFire.IronTeeth",
+      "Wonder.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.IronTeeth",
+      "LaborerMonument.IronTeeth",
+      "BrazierOfBonding.IronTeeth",
+      "FlameOfUnity.IronTeeth",
+      "FountainOfJoy.IronTeeth",
+      "PublicFountain.IronTeeth",
+      "TributeToIngenuity.IronTeeth",
+      "HallOfAbundance.IronTeeth",
+      "ArchOfProgress.IronTeeth",
+      "EarthRecultivator.IronTeeth",
+      "EarthRepopulator.IronTeeth",
+      "WonderOfFire.IronTeeth",
+      "Wonder.IronTeeth"
+    ]
+  }
+}

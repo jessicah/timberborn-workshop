@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "NuclearFuel",
+    "BackwardCompatibleIds": [
+      "BotHead"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.06780493,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 10,
+    "GoodGroupId": "Special",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/NuclearFuel",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.NuclearFuel.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.NuclearFuel.PluralDisplayName"
+  }
+}

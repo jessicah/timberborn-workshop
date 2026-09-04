@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Dragonclaws", "Order": 1221000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Dragonclaws",
+      "GravityBattery.TreeTrunk.Dragonclaws",
+      "GravityBattery.TreeTrunk2.Dragonclaws",
+      "SmallFlywheel.Dragonclaws",
+      "SmallHorizontalFramedFlywheel.Dragonclaws",
+      "SmallVerticalFramedFlywheel.Dragonclaws",
+      "MediumFlywheel.Dragonclaws",
+      "MediumHorizontalFramedFlywheel.Dragonclaws",
+      "MediumVerticalFramedFlywheel.Dragonclaws",
+      "LargeFlywheel.Dragonclaws",
+      "LargeHorizontalFramedFlywheel.Dragonclaws",
+      "LargeVerticalFramedFlywheel.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Dragonclaws",
+      "GravityBattery.TreeTrunk.Dragonclaws",
+      "GravityBattery.TreeTrunk2.Dragonclaws",
+      "SmallFlywheel.Dragonclaws",
+      "SmallHorizontalFramedFlywheel.Dragonclaws",
+      "SmallVerticalFramedFlywheel.Dragonclaws",
+      "MediumFlywheel.Dragonclaws",
+      "MediumHorizontalFramedFlywheel.Dragonclaws",
+      "MediumVerticalFramedFlywheel.Dragonclaws",
+      "LargeFlywheel.Dragonclaws",
+      "LargeHorizontalFramedFlywheel.Dragonclaws",
+      "LargeVerticalFramedFlywheel.Dragonclaws"
+    ]
+  }
+}

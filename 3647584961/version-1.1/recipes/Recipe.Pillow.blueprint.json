@@ -1,0 +1,29 @@
+{
+  "RecipeSpec": {
+    "Id": "Pillow",
+  "DisplayLocKey": "Good.Pillow.PluralDisplayName",
+  "CycleDurationInHours": 3,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "PlantFibers",
+      "Amount": 5
+    },{
+      "Id": "MintyBambooShoot",
+      "Amount": 1
+    },
+  ],
+  "Products": [
+    {
+      "Id": "Pillow",
+      "Amount": 2
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Pillow",
+	"BackwardCompatibleIds": []
+  }
+}

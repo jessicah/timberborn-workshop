@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "NaturalResources.GreedyCoats",
+    "Blueprints#remove": [
+      "Plants/BeaverPlant.blueprint",
+      "Plants/AdultBeaverPlant.blueprint"
+    ]
+  }
+}

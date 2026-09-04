@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Whitepaws", "Order": 720000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Whitepaws",
+      "Pit-and-LadderLodge_LiquidStorage.Whitepaws",
+      "SmallCoveredTank.Whitepaws",
+      "SmallTank.Whitepaws",
+      "SmallAquaTank.Whitepaws.Mole",
+      "PitTank.Whitepaws",
+      "MediumTank.Whitepaws",
+      "BasicAquaTank.Whitepaws.Mole",
+      "LargeTank.Whitepaws",
+      "LargeAquaTank.Whitepaws.Mole",
+      "UndergroundTank.Whitepaws",
+      "BuriedAquaTank.Whitepaws.Mole",
+      "LargeUndergroundTank.Whitepaws",
+      "GazTank.Whitepaws",
+      "GasTank.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Whitepaws",
+      "Pit-and-LadderLodge_LiquidStorage.Whitepaws",
+      "SmallCoveredTank.Whitepaws",
+      "SmallTank.Whitepaws",
+      "SmallAquaTank.Whitepaws.Mole",
+      "PitTank.Whitepaws",
+      "MediumTank.Whitepaws",
+      "BasicAquaTank.Whitepaws.Mole",
+      "LargeTank.Whitepaws",
+      "LargeAquaTank.Whitepaws.Mole",
+      "UndergroundTank.Whitepaws",
+      "BuriedAquaTank.Whitepaws.Mole",
+      "LargeUndergroundTank.Whitepaws",
+      "GazTank.Whitepaws",
+      "GasTank.Whitepaws"
+    ]
+  }
+}

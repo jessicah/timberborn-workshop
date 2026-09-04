@@ -1,0 +1,12 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Goal.Basics.Camera.Move",
+    "IntroLocKey": "CameraGoalText.Move"
+  },
+  "Children": {
+    "Step1": { "CameraMovementStepSpec": { "Direction": "Up", "Threshold": 1.0 } },
+    "Step2": { "CameraMovementStepSpec": { "Direction": "Down", "Threshold": 1.0 } },
+    "Step3": { "CameraMovementStepSpec": { "Direction": "Left", "Threshold": 1.0 } },
+    "Step4": { "CameraMovementStepSpec": { "Direction": "Right", "Threshold": 1.0 } }
+  }
+}

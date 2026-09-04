@@ -210,8 +210,9 @@
       "Buildings/Paths/Airlock/Airlock.LeafCoats.blueprint",
       "Buildings/Paths/Airlock/AirlockTunnel.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof1x1.LeafCoats.blueprint",
-      "Buildings/Decoration/Roofs/Roof2.Roof1x1.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Side.LeafCoats.blueprint",
+      "Buildings/Decoration/Roofs/Roof2.Side.Alcove.LeafCoats.blueprint",
+      "Buildings/Decoration/Roofs/Roof2.Roof1x1.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Corner.Ext.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Corner.Int.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Solid.LeafCoats.blueprint"

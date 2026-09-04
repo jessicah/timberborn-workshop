@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.Badfurs", "Order": 1402009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Badfurs",
+      "TreeTrunk.Side.Branch.Badfurs",
+      "TreeTrunk.Side.Badfurs",
+      "TreeTrunk.Corner.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

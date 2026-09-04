@@ -1,0 +1,2 @@
+/* Ensure that when split needs is active this need cannot be confused with good variant */
+{ "NeedSpec": { "DisplayNameLocKey": "Need.SoggyFur.DisplayName" } }

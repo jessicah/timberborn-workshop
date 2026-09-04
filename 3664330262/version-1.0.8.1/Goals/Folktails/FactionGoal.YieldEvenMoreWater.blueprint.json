@@ -1,0 +1,22 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "LargeWaterPump.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "LargeWaterPump.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "LargeWaterPump.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "LargeWaterPump.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

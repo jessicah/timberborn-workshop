@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "FierceMetalDamSolidLining3xN.MoleCadre.Dirtclaws", "Order": 1308003, "NameLocKey": "Group.FierceMetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_A_RM_SquareW3x1.Dirtclaws",
+      "DE_A_RM_SquareW3x2.Dirtclaws",
+      "DE_A_RM_SquareW3x3.Dirtclaws",
+      "DE_A_RM_SlopeW3x.Dirtclaws",
+      "DE_A_RM_InvSlopeW3X.Dirtclaws",
+      "DE_A_RM_InvCornerW3X.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_A_RM_SquareW3x1.Dirtclaws",
+      "DE_A_RM_SquareW3x2.Dirtclaws",
+      "DE_A_RM_SquareW3x3.Dirtclaws",
+      "DE_A_RM_SlopeW3x.Dirtclaws",
+      "DE_A_RM_InvSlopeW3X.Dirtclaws",
+      "DE_A_RM_InvCornerW3X.Dirtclaws"
+    ]
+  }
+}

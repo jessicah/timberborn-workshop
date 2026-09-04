@@ -1,0 +1,13 @@
+{
+	"AuthorName": "zxuiji",
+	"Name": "zxuiji -m- Template Name Fixes",
+	"Version": "1.0.8.82",
+	"Id": "TemplateNameFixes",
+	"MinimumGameVersion": "1.0.12.0",
+	"Description": "Overides the template names of objects like the ladder to be faction specific. Where possible backward compatibility names are provided but it is advised to start a new game once this mod is enabled/ This mod is intended to be shared by More Groups, Greedy Groups and my greedy factions to reduce collisions that otherwise cause crashes or increased workload",
+	"OptionalMods": [],
+	"RequiredMods":
+	[
+		{ "Id": "TNFCollections", "MinimumVersion": "1.0.8.60" }
+	]
+}

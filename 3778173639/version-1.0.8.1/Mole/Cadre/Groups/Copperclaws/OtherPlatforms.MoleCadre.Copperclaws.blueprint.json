@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.Copperclaws", "Order": 1502009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Copperclaws",
+      "TreeTrunk.Side.Branch.Copperclaws",
+      "TreeTrunk.Side.Copperclaws",
+      "TreeTrunk.Corner.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

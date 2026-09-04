@@ -1,0 +1,10 @@
+{
+  "TutorialSpec": {
+    "Id": "StatesGoals.Resuming",
+    "NameLocKey": "StatesGoalsText.Resuming",
+    "RequiredTutorialIds": [ "RushedGoals" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 7,
+    "Stages": [ "StatesGoal.Resuming" ]
+  }
+}

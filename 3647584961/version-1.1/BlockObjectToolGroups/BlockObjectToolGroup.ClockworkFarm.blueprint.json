@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "ClockworkFarms",
+    "Order": 90,
+    "NameLocKey": "Lapantouflemagic.MechanizedSeaweedfarm.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/RoboFarm",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Food"
+    ]
+  }
+}

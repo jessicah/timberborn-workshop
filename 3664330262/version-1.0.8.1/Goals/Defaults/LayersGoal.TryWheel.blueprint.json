@@ -1,0 +1,20 @@
+{
+  "TutorialStageSpec": {
+    "Id": "LayersGoal.TryWheel",
+    "IntroLocKey": "LayersGoalText.TryWheel"
+  },
+  "Children": {
+    "Step1": {
+      "VisibleLevelChangeStepSpec": {
+        "VisibleLevelChangeType": "Decrease",
+        "ShowKeybindings": true
+      }
+    },
+    "Step2": {
+      "VisibleLevelChangeStepSpec": {
+        "VisibleLevelChangeType": "Increase",
+        "ShowKeybindings": true
+      }
+    }
+  }
+}

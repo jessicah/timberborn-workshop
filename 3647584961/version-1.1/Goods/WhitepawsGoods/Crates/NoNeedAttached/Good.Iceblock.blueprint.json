@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "IceBlock",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Frozen",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.6968672,
+      "g": 0.9789741,
+      "b": 0.98490566,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/IceBlock",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Iceblock.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Iceblock.PluralDisplayName"
+  }
+}

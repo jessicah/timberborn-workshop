@@ -1,0 +1,33 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "MediumWarehouse.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "MediumWarehouse.Folktails",
+        "RequiredAmount": 2,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    },
+    "Step3": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "MediumWarehouse.Folktails",
+        "RequiredAmount": 1,
+        "GoodId": "Carrot"
+      }
+    },
+    "Step4": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "MediumWarehouse.Folktails",
+        "RequiredAmount": 1,
+        "GoodId": "SunflowerSeeds"
+      }
+    }
+  }
+}

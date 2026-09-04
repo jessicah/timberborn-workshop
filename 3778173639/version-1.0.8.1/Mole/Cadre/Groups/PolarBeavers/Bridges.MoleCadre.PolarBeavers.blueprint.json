@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Bridges.MoleCadre.PolarBeavers", "Order": 1101004, "NameLocKey": "Group.Bridges", "Icon": "Mole/Cadre/Bridges", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "TE_Bridge_1x1.PolarBeavers",
+      "TE_Bridge_1x2.PolarBeavers",
+      "TE_Bridge_1x3.PolarBeavers",
+      "TE_Bridge_1x4.PolarBeavers",
+      "TE_Bridge_1x5.PolarBeavers",
+      "TE_Bridge_1x6.PolarBeavers",
+      "TE_BridgeF_1x7.PolarBeavers",
+      "TE_BridgeF_1x8.PolarBeavers",
+      "TE_BridgeF_1x9.PolarBeavers",
+      "TE_BridgeF_1x10.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "TE_Bridge_1x1.PolarBeavers",
+      "TE_Bridge_1x2.PolarBeavers",
+      "TE_Bridge_1x3.PolarBeavers",
+      "TE_Bridge_1x4.PolarBeavers",
+      "TE_Bridge_1x5.PolarBeavers",
+      "TE_Bridge_1x6.PolarBeavers",
+      "TE_BridgeF_1x7.PolarBeavers",
+      "TE_BridgeF_1x8.PolarBeavers",
+      "TE_BridgeF_1x9.PolarBeavers",
+      "TE_BridgeF_1x10.PolarBeavers"
+    ]
+  }
+}

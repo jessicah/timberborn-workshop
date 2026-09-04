@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Wellbeing.BuildDecor.Whitepaws",
+    "IntroLocKey": "Tutorial.Wellbeing.Roof"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "ElevatedRoof1x1.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

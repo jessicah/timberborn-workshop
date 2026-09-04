@@ -1,0 +1,18 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "LumberjackFlag.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 3
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "TeethGrindstone.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

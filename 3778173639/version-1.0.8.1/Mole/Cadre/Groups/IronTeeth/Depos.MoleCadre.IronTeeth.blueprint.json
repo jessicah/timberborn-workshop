@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.IronTeeth", "Order": 319000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.IronTeeth",
+      "Pit-and-LadderLodge_BoxStorage.IronTeeth",
+      "GloriousStorage.IronTeeth",
+      "SmallWarehouse.IronTeeth",
+      "SmallAquaDepo.IronTeeth.Mole",
+      "LongWarehouse.IronTeeth",
+      "PitWarehouse.IronTeeth",
+      "Warehouse.IronTeeth",
+      "MediumWarehouse.IronTeeth",
+      "BasicAquaDepo.IronTeeth.Mole",
+      "LargeWarehouse.IronTeeth",
+      "LargeAquaDepo.IronTeeth.Mole",
+      "GigargantuanWarehouse.IronTeeth",
+      "UndergroundWarehouse.IronTeeth",
+      "BuriedAquaDepo.IronTeeth.Mole",
+      "LargeUndergroundWarehouse.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.IronTeeth",
+      "Pit-and-LadderLodge_BoxStorage.IronTeeth",
+      "GloriousStorage.IronTeeth",
+      "SmallWarehouse.IronTeeth",
+      "SmallAquaDepo.IronTeeth.Mole",
+      "LongWarehouse.IronTeeth",
+      "PitWarehouse.IronTeeth",
+      "Warehouse.IronTeeth",
+      "MediumWarehouse.IronTeeth",
+      "BasicAquaDepo.IronTeeth.Mole",
+      "LargeWarehouse.IronTeeth",
+      "LargeAquaDepo.IronTeeth.Mole",
+      "GigargantuanWarehouse.IronTeeth",
+      "UndergroundWarehouse.IronTeeth",
+      "BuriedAquaDepo.IronTeeth.Mole",
+      "LargeUndergroundWarehouse.IronTeeth"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.Badfurs", "Order": 1422000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.Badfurs",
+      "TeethGrindstone.Badfurs",
+      "MedicalBed.Badfurs",
+      "MedicalTripleBed.Badfurs",
+      "Fixedmedicalbed_Burns.Badfurs",
+      "Fixedmedicalbed_Disease.Badfurs",
+      "Fixedmedicalbed_Injury.Badfurs",
+      "Clinic.Badfurs",
+      "DecontaminationPod.Badfurs",
+      "ContaminatedJail.Badfurs",
+      "WashingMachine.Badfurs",
+      "Herbalist.Badfurs",
+      "TankShower.Badfurs",
+      "Shower.Badfurs",
+      "DoubleShower.Badfurs",
+      "RiverBath.Badfurs",
+      "Scratcher.Badfurs",
+      "Massager.Badfurs",
+      "Sauna.Badfurs",
+      "Hammock.Badfurs",
+      "Swing.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.Badfurs",
+      "TeethGrindstone.Badfurs",
+      "MedicalBed.Badfurs",
+      "MedicalTripleBed.Badfurs",
+      "Fixedmedicalbed_Burns.Badfurs",
+      "Fixedmedicalbed_Disease.Badfurs",
+      "Fixedmedicalbed_Injury.Badfurs",
+      "Clinic.Badfurs",
+      "DecontaminationPod.Badfurs",
+      "ContaminatedJail.Badfurs",
+      "WashingMachine.Badfurs",
+      "Herbalist.Badfurs",
+      "TankShower.Badfurs",
+      "Shower.Badfurs",
+      "DoubleShower.Badfurs",
+      "RiverBath.Badfurs",
+      "Scratcher.Badfurs",
+      "Massager.Badfurs",
+      "Sauna.Badfurs",
+      "Hammock.Badfurs",
+      "Swing.Badfurs"
+    ]
+  }
+}

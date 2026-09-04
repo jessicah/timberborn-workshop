@@ -1,0 +1,27 @@
+{
+  "RecipeSpec": {
+    "Id": "Toys",
+  "DisplayLocKey": "Good.Toys.PluralDisplayName",
+  "CycleDurationInHours": 2.5,
+  "CyclesCapacity": 50,
+  "Ingredients": [
+    {
+      "Id": "Log",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Toys",
+      "Amount": 3
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Tools",
+  "CyclesFuelLasts": 10,
+  "FuelCapacity": 5,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Toys",
+
+	"BackwardCompatibleIds": []
+  }
+}

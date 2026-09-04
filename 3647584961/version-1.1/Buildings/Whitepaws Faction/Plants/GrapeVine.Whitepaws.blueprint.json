@@ -1,0 +1,269 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "GrapeVine.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "NewVineV",
+      "NewVineH",
+      "GrapeVine"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 15
+  },
+  "BushSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 13.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Tree",
+    "AlternativeSoundName": ""
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 1.2,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "GatherableSpec": {
+    "YieldGrowthTimeInDays": 5.0,
+    "Yielder": {
+      "YielderComponentName": "Gatherable",
+      "Yield": {
+        "Id": "Grapes",
+        "Amount": 5
+      },
+      "RemovalTimeInHours": 1.5,
+      "ResourceGroup": "Gatherable"
+    }
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "TreeNursery",
+    "PlantTimeInHours": 0.37
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineMatureWet.Model"
+  },
+  "ReproducibleSpec": {
+    "ReproductionChance": 0.04
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 17.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.NewVineH.DisplayName",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.NewVine.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Goods/Grapes"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 0,
+    "DaysToDie": 3.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": false,
+    "MinHeightScaleFactor": 0.9,
+    "MaxHeightScaleFactor": 1.1,
+    "MinWidthScaleFactor": 0.8,
+    "MaxWidthScaleFactor": 1.2,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 0.0
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "ExtendedReproducibleSpec": {
+    "CanSpread": "All"
+  },
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineSeedlingWet.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineSeedlingDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineSeedlingDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.3,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineMatureWet.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.6,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 1.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineMatureDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.6,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 1.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Whitepaws Faction/Plants_Meshies/GrapeVine_Meshies/GrapeVineMatureDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.6,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 0.4,
+                      "Y": 1.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

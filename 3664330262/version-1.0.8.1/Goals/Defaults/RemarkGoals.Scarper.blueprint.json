@@ -1,0 +1,26 @@
+{
+  "TutorialSpec": {
+    "Id": "RemarkGoals.Scarper",
+    "NameLocKey": "RemarkGoalsText.Scarper",
+    "RequiredTutorialIds":
+    [
+					"RemarkGoals.Welcome",
+					"CameraGoals",
+					"StatesGoals.Freezing",
+					"LayersGoals",
+					"StatusGoals.Panels",
+					"RushedGoals",
+					"StatusGoals.Resuming",
+					"FactionGoals.Survival",
+					"FactionGoals.Population",
+					"FactionGoals.StableGreenland",
+					"FactionGoals.ShiftingLand",
+					"FactionGoals.StartingBots",
+					"RemarkGoals.Badtides",
+					"RemarkGoals.Droughts"
+				],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 200,
+    "Stages": [ "RemarkGoal.Scarper" ]
+  }
+}

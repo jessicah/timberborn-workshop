@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Survival.BuildFarmhouse.Whitepaws",
+    "IntroLocKey": "Tutorial.WaterAndFood.Farmhouse"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "FarmHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

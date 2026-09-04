@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.FrostyWhiskers", "Order": 819000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.FrostyWhiskers",
+      "Pit-and-LadderLodge_BoxStorage.FrostyWhiskers",
+      "GloriousStorage.FrostyWhiskers",
+      "SmallWarehouse.FrostyWhiskers",
+      "SmallAquaDepo.FrostyWhiskers.Mole",
+      "LongWarehouse.FrostyWhiskers",
+      "PitWarehouse.FrostyWhiskers",
+      "Warehouse.FrostyWhiskers",
+      "MediumWarehouse.FrostyWhiskers",
+      "BasicAquaDepo.FrostyWhiskers.Mole",
+      "LargeWarehouse.FrostyWhiskers",
+      "LargeAquaDepo.FrostyWhiskers.Mole",
+      "GigargantuanWarehouse.FrostyWhiskers",
+      "UndergroundWarehouse.FrostyWhiskers",
+      "BuriedAquaDepo.FrostyWhiskers.Mole",
+      "LargeUndergroundWarehouse.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.FrostyWhiskers",
+      "Pit-and-LadderLodge_BoxStorage.FrostyWhiskers",
+      "GloriousStorage.FrostyWhiskers",
+      "SmallWarehouse.FrostyWhiskers",
+      "SmallAquaDepo.FrostyWhiskers.Mole",
+      "LongWarehouse.FrostyWhiskers",
+      "PitWarehouse.FrostyWhiskers",
+      "Warehouse.FrostyWhiskers",
+      "MediumWarehouse.FrostyWhiskers",
+      "BasicAquaDepo.FrostyWhiskers.Mole",
+      "LargeWarehouse.FrostyWhiskers",
+      "LargeAquaDepo.FrostyWhiskers.Mole",
+      "GigargantuanWarehouse.FrostyWhiskers",
+      "UndergroundWarehouse.FrostyWhiskers",
+      "BuriedAquaDepo.FrostyWhiskers.Mole",
+      "LargeUndergroundWarehouse.FrostyWhiskers"
+    ]
+  }
+}

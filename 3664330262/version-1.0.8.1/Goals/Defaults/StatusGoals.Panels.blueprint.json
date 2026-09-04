@@ -1,0 +1,14 @@
+{
+  "TutorialSpec": {
+    "Id": "StatusGoals.Panels",
+    "NameLocKey": "StatusGoalsText.Panels",
+    "RequiredTutorialIds": [ "LayersGoals" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 4,
+    "Stages":
+    [
+					"StatusGoal.BeaverWellbeing",
+					"StatusGoal.FactionWellbeing"
+				]
+  }
+}

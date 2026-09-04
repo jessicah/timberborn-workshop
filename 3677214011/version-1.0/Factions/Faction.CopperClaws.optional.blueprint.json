@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.CopperClaws", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.CopperClaws" ],
+		"GoodCollectionIds#append": [ "TNF.CopperClaws" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.CopperClaws",
+			"NaturalResources.TNF.CopperClaws"
+		]
+	}
+}

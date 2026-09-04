@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Dragonclaws", "Order": 1202000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.Dragonclaws.Mole",
+      "StonePath.Dragonclaws.Mole",
+      "WoodenPath.Dragonclaws.Mole",
+      "Path.Dragonclaws",
+      "Path1.Dragonclaws",
+      "Path2.Dragonclaws",
+      "Path3.Dragonclaws",
+      "Path4.Dragonclaws",
+      "Path5.Dragonclaws",
+      "DistrictCrossing.Dragonclaws",
+      "BOTDistrictCrossing.Dragonclaws"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Dragonclaws",
+      "Ladders.MoleCadre.Dragonclaws",
+      "Ropeways.MoleCadre.Dragonclaws",
+      "Bridges.MoleCadre.Dragonclaws",
+      "Walkways.MoleCadre.Dragonclaws",
+      "Branches.MoleCadre.Dragonclaws",
+      "Boosters.MoleCadre.Dragonclaws",
+      "Gates.MoleCadre.Dragonclaws",
+      "Passages.MoleCadre.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.Dragonclaws.Mole",
+      "StonePath.Dragonclaws.Mole",
+      "WoodenPath.Dragonclaws.Mole",
+      "Path.Dragonclaws",
+      "Path1.Dragonclaws",
+      "Path2.Dragonclaws",
+      "Path3.Dragonclaws",
+      "Path4.Dragonclaws",
+      "Path5.Dragonclaws",
+      "DistrictCrossing.Dragonclaws",
+      "BOTDistrictCrossing.Dragonclaws",
+      "Steps.MoleCadre.Dragonclaws",
+      "Ladders.MoleCadre.Dragonclaws",
+      "Ropeways.MoleCadre.Dragonclaws",
+      "Bridges.MoleCadre.Dragonclaws",
+      "Walkways.MoleCadre.Dragonclaws",
+      "Branches.MoleCadre.Dragonclaws",
+      "Boosters.MoleCadre.Dragonclaws",
+      "Gates.MoleCadre.Dragonclaws",
+      "Passages.MoleCadre.Dragonclaws"
+    ]
+  }
+}

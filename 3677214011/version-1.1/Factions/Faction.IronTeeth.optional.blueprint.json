@@ -1,0 +1,14 @@
+{
+	/* Stored here to follow standard set for optional factions */
+	"NeedCollectionSpec": { "CollectionId": "TNF.IronTeeth", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.IronTeeth" ],
+		"GoodCollectionIds#append": [ "TNF.IronTeeth" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.IronTeeth",
+			"NaturalResources.TNF.IronTeeth"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"SCoveredtank",
+			"SCoveredtankIT",
+			"SCoveredtankFT",
+			"SCoveredtankEP",
+			"SCoveredtankWP"
+		]
+	}
+}

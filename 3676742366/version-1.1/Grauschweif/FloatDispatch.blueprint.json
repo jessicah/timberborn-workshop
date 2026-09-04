@@ -1,0 +1,219 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Lido",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 4
+      },
+      {
+        "Id": "Plank",
+        "Amount": 6
+      }
+    ],
+    "ScienceCost": 50,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": true
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "FloatDispatch.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Air",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 50,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.FloatDispatcher.DisplayName",
+    "DescriptionLocKey": "Grauschweif.Building.FloatDispatcher.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.FloatDispatcher.FlavorDescription",
+    "Icon": "Grauschweif/FloatDispatchIcon"
+  },
+  "FloatSpawnerSpec": {
+    "FloatBlueprint": "Grauschweif/Float.blueprint",
+    "FloatDisplayName": "Grauschweif.Floats.Lantern.DisplayName",
+    "FloatCost": [],
+    "RandomSpawnRadius": 0.0,
+    "FloatsPerDay": 48.0,
+    "HoursAfterDusk": 6.0,
+    "SpawnStartAtDusk": true,
+    "SpawnStartOffsetHours": 0.0,
+    "RandomiseSpawnFactor": 0.05,
+    "DropPointName": "#FloatDispatch",
+    "FloatRandomizeScale": 0.05,
+    "LightIntensity": 0.45,
+    "LightColor": {
+      "r": 0.73,
+      "g": 0.5,
+      "b": 0.07,
+      "a": 1.0
+    },
+    "EnableEmission": true,
+    "EnableFlicker": true
+  },
+  "DrivewayModelSpec": {
+    "Driveway": "NarrowCenter",
+    "HasCustomCoordinates": false,
+    "CustomCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "CustomDirection": "Down",
+    "DrivewayMode": "Unidirectional"
+  },
+  "CustomizableIlluminatorSpec": {},
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Grauschweif/FloatDispatch.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.4,
+              "Y": 0.1,
+              "Z": 0.55
+            },
+            "Size": {
+              "X": 0.7,
+              "Y": 0.2,
+              "Z": 0.6
+            }
+          },
+          {
+            "Center": {
+              "X": 0.72,
+              "Y": 0.1,
+              "Z": 0.25
+            },
+            "Size": {
+              "X": 0.25,
+              "Y": 0.25,
+              "Z": 0.25
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": -0.18,
+              "Z": 1.35
+            },
+            "Size": {
+              "X": 0.4,
+              "Y": 0.1,
+              "Z": 0.2
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "RampCollider": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": -0.025,
+              "Z": 1.11
+            },
+            "Rotation": {
+              "X": 36.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.4,
+                  "Y": 0.1,
+                  "Z": 0.6
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

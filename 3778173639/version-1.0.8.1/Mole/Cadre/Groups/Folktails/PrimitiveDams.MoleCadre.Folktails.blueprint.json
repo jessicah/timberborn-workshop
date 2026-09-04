@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.Folktails", "Order": 204000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.Folktails",
+      "PrimitiveDam3x2Upgrade.Folktails",
+      "PrimitiveDam3x3.Folktails",
+      "PrimitiveDam3x3Upgrade.Folktails",
+      "PrimitiveDam3x3Utility.Folktails",
+      "PrimitiveDam3x3UtilityUpgrade.Folktails",
+      "PrimitiveDam3x3Variant.Folktails",
+      "PrimitiveDam3x3VariantUpgrade.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.Folktails",
+      "PrimitiveDam3x2Upgrade.Folktails",
+      "PrimitiveDam3x3.Folktails",
+      "PrimitiveDam3x3Upgrade.Folktails",
+      "PrimitiveDam3x3Utility.Folktails",
+      "PrimitiveDam3x3UtilityUpgrade.Folktails",
+      "PrimitiveDam3x3Variant.Folktails",
+      "PrimitiveDam3x3VariantUpgrade.Folktails"
+    ]
+  }
+}

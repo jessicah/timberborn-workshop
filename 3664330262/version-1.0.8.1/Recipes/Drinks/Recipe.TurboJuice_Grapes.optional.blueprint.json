@@ -1,0 +1,14 @@
+{
+	"RecipeSpec":
+	{
+		"Id": "RushedRedGrapeJuice",
+		"BackwardCompatibleIds": [ "TurboJuice_Grapes" ],
+		"DisplayLocKey": "Good.RushedRedGrapeJuice.PluralDisplayName",
+		"Ingredients":
+		[
+			{ "Id": "RedGrapes", "Amount": 25 },
+			{ "Id": "Water", "Amount": 5 }
+		],
+		"Products": [ { "Id": "RedGrapeJuice", "Amount": 30 } ]
+	}
+}

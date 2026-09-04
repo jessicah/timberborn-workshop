@@ -6,20 +6,20 @@
     "DoNotIncludePlaceableToolGroup": true,
     "ChildrenToolsTemplateNames":
     [
-
+      TOMOLE(LogLadder),
+      TOMOLE(Ladder),
       TOTOOL(Ladder.Simple),
       TOTOOL(Ladder),
       TOTOOL(Ladder.Core),
-      TOTOOL(Mole.Ladder),
       TOTOOL(SkyBridgeLadder)
     ],
     "ChildrenOrderedIds":
     [
-
+      TOMOLE(LogLadder),
+      TOMOLE(Ladder),
       TOTOOL(Ladder.Simple),
       TOTOOL(Ladder),
       TOTOOL(Ladder.Core),
-      TOTOOL(Mole.Ladder),
       TOTOOL(SkyBridgeLadder)
     ]
   }

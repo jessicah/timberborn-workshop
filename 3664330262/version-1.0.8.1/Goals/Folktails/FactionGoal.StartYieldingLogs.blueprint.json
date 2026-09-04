@@ -1,0 +1,34 @@
+﻿{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "LumberjackFlag.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 3
+      }
+    },
+				"Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "TeethGrindstone.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "LumberjackFlag.Folktails",
+        "RequiredAmount": 3,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    },
+    "Step4": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "TeethGrindstone.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    }
+  }
+}

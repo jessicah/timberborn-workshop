@@ -1,0 +1,19 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Build2ZiplineStations",
+    "IntroLocKey": "Tutorial.ArchitectBranch2.Build2ZiplineStations.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Zipline_SmallTower.Whitepaws",
+          "Zipline_Woodupgrade.Whitepaws",
+          "ScavengerDen.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    }
+  }
+}
