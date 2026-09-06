@@ -1,0 +1,11 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Planters.TNF.Emberpelts",
+		"Blueprints":
+		[
+			"Buildings/Wood/Forester/Forester.Emberpelts.blueprint",
+			"Buildings/Food/FarmHouse/FarmHouse.Emberpelts.blueprint"
+		]
+	}
+}

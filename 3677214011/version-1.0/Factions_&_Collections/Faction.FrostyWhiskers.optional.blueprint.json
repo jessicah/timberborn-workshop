@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.FrostyWhiskers", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.FrostyWhiskers" ],
+		"GoodCollectionIds#append": [ "TNF.FrostyWhiskers" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.FrostyWhiskers",
+			"NaturalResources.TNF.FrostyWhiskers"
+		]
+	}
+}

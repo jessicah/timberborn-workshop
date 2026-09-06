@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.AmpEars", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.AmpEars" ],
+		"GoodCollectionIds#append": [ "TNF.AmpEars" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.AmpEars",
+			"NaturalResources.TNF.AmpEars"
+		]
+	}
+}

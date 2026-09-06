@@ -1,0 +1,11 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Planters.TNF.IronTeeth",
+		"Blueprints":
+		[
+			"Buildings/Wood/Forester/Forester.IronTeeth.blueprint",
+			"Buildings/Food/FarmHouse/FarmHouse.IronTeeth.blueprint"
+		]
+	}
+}

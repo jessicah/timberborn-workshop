@@ -1,0 +1,13 @@
+ID,Text,Comment
+AdaptorFuel.Name,Adaptor Fuel,Plural Name
+AdaptorFuel.Lone,Adaptor Fuel,Singular Name
+AdaptorBot.Name,AdaptorBot #{0},"AdaptorBot #{0} says: Bee boo baa beep"
+AdaptorBot.Made,Made AdaptorBot #{0},"AdaptorBot #{0} says: Hello World!"
+AdaptorBot.Dead,Dead AdaptorBot #{0},"AdaptorBot #{0} says: ..."
+AdaptorBot.Died,AdaptorBot #{0} broke down,"AdaptorBot #{0} said: Goodbye World"
+GreedyFuel.Name,Greedy Fuel,Plural Name
+GreedyFuel.Lone,Greedy Fuel,Singular Name
+GreedyBot.Name,GreedyBot #{0},"GreedyBot #{0} says: Bee boo baa beep"
+GreedyBot.Made,Made GreedyBot #{0},"GreedyBot #{0} says: Hello World!"
+GreedyBot.Dead,Dead GreedyBot #{0},"GreedyBot #{0} says: ..."
+GreedyBot.Died,GreedyBot #{0} broke down,"GreedyBot #{0} said: Goodbye World"

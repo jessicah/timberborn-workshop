@@ -1,0 +1,11 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Planters.TNF.Whitepaws",
+		"Blueprints":
+		[
+			"Buildings/Whitepaws Faction/Food/Forester.Whitepaws.blueprint",
+			"Buildings/Whitepaws Faction/Food/Farm.Whitepaws.blueprint"
+		]
+	}
+}

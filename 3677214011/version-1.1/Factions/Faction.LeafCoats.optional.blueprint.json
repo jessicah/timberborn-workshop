@@ -1,0 +1,14 @@
+{
+	/* Stored here to stop game crashing on unused collection */
+	"NeedCollectionSpec": { "CollectionId": "TNF.LeafCoats", "Needs": [] },
+	"FactionSpec":
+	{
+		"NeedCollectionIds#append": [ "TNF.LeafCoats" ],
+		"GoodCollectionIds#append": [ "TNF.LeafCoats" ],
+		"TemplateCollectionIds#append":
+		[
+			"Buildings.TNF.LeafCoats",
+			"NaturalResources.TNF.LeafCoats"
+		]
+	}
+}
