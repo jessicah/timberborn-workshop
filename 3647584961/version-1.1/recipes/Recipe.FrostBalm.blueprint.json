@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "FrostBalm",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.FrostBalm.DisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "MintyBambooShoot",
+        "Amount": 3
+      },
+      {
+        "Id": "IceBlock",
+        "Amount": 1
+      },
+      {
+        "Id": "BetterMedicine",
+        "Amount": 2
+      }
+    ],
+    "Products": [
+      {
+        "Id": "FrostBalm",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 2,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 25,
+    "Icon": "sprites/Whitepaws Sprites/Goods/FrostBalm"
+  }
+}

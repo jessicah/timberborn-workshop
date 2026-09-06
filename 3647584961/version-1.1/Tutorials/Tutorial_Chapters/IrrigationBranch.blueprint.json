@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "IrrigationBranch",
+    "NameLocKey": "Tutorial.IrrigationBranch.Whitepaws",
+    "RequiredTutorialIds": [
+      "Library"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 10,
+    "Stages": [
+      "IrrigationText",
+      "BuildIrrigationLodge",
+      "BuildValveHouse",
+      "ExpandBasics3"
+    ]
+  },
+  "BlinkingTutorialSpec": {}
+}

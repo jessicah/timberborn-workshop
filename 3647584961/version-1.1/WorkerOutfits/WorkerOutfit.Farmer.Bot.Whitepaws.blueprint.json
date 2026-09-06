@@ -1,0 +1,12 @@
+{
+  "WorkerOutfitSpec": {
+    "Id": "Farmer",
+    "FactionId": "Whitepaws",
+    "WorkerType": "Bot",
+    "DiffuseTexture": "",
+    "NormalTexture": "",
+    "Attachments": [
+      "FarmerHat.Beaver.Folktails"
+    ]
+  }
+}

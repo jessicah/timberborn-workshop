@@ -1,0 +1,6 @@
+{
+  "TutorialStageSpec": {
+    "Id": "WelcomeText",
+    "IntroLocKey": "Tutorial.Tutorial.WelcomeText.Whitepaws"
+  }
+}

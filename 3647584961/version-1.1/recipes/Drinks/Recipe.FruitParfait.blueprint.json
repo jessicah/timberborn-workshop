@@ -1,0 +1,42 @@
+{
+  "RecipeSpec": {
+    "Id": "FruitParfait",
+  "DisplayLocKey": "Good.FruitParfait.PluralDisplayName",
+  "CycleDurationInHours": 0.4,
+  "CyclesCapacity": 25,
+  "Ingredients":[ 
+    {
+      "Id": "Berries",
+      "Amount": 1
+    },
+    {
+      "Id": "Banana",
+      "Amount": 4
+    },
+    {
+      "Id": "Apple_WP",
+      "Amount": 2
+    },
+    {
+      "Id": "Coconut",
+      "Amount": 2
+    },
+    {
+      "Id": "IceBlock",
+      "Amount": 3
+    },
+  ],
+  "Products": [
+    {
+      "Id": "FruitParfait",
+      "Amount": 15
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/FruitParfait",
+	"BackwardCompatibleIds": []
+  }
+}

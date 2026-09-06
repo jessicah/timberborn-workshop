@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "BuildNewDC",
+    "NameLocKey": "Tutorial.BuildNewDC.Whitepaws",
+    "RequiredTutorialIds": [
+      "Priorities"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 470,
+    "Stages": [
+      "BuildNewDistrictCenter",
+      "BuildMetalBasics",
+      "BuildOreStorage",
+      "BuildDynamitestorage",
+      "PlaceLibrary"
+    ]
+  }
+}

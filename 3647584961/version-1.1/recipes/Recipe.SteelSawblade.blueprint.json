@@ -1,0 +1,35 @@
+{
+  "RecipeSpec": {
+    "Id": "SteelSawblade",
+  "DisplayLocKey": "Good.Steelsawblade.PluralDisplayName",
+  "CycleDurationInHours": 200,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "Ironore",
+      "Amount": 100
+    },
+    {
+      "Id": "Coal",
+      "Amount": 200
+    },
+    {
+      "Id": "Methane",
+      "Amount": 300
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Steelsawblade",
+      "Amount": 3
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Steelsawblade",
+
+	"BackwardCompatibleIds": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboLog",
+  "DisplayLocKey": "Good.Log.PluralDisplayName",
+  "CycleDurationInHours": 1.35,
+  "CyclesCapacity": 50,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "Log",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Crudesawblade",
+  "CyclesFuelLasts": 100,
+  "FuelCapacity": 4,
+  // natural production rate : 25*3/13 = 5.77 /day
+  // 24h / 5.77 =  4.16 h/log
+	"BackwardCompatibleIds": []
+  }
+}

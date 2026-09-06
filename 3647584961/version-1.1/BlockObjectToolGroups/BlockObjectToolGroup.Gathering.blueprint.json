@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Gathering",
+    "Order": 10,
+    "NameLocKey": "ToolGroup.Gathering.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Gathering",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Food"
+    ]
+  }
+}

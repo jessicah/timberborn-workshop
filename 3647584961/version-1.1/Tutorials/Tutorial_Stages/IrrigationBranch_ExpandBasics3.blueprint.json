@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "ExpandBasics3",
+    "IntroLocKey": "Tutorial.IrrigationBranch.ExpandBasics3.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PumpingHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 6
+      }
+    }
+  }
+}

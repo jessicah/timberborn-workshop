@@ -1,0 +1,424 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Lido",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 15
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "AttractionSpec": {
+    "Effects": [
+      {
+        "NeedId": "Filth",
+        "PointsPerHour": 1.0,
+        "SatisfyToMaxValue": true
+      },
+      {
+        "NeedId": "WetFur",
+        "PointsPerHour": 1.0,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "FixedSlotManagerSpec": {},
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Seat",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "RiverBath.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 4,
+      "Y": 2,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.49999964,
+      "Y": 0.0,
+      "Z": 0.2
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Water",
+    "ToolOrder": 75,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.RiverBath.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.RiverBath.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.RiverBath.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/RiverBath"
+  },
+  "TickableWaterBuildingSpec": {
+    "WaterCoordinates": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    },
+    "MinWaterHeight": 0.1,
+    "ChangeRange": 0.05
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 8,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": -1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "FloodableObjectBlockerSpec": {},
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 2.0,
+              "Y": 0.1,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 4.0,
+              "Y": 0.2,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/WaterStuff_Meshies/RiverBath.Model"
+          }
+        },
+        "#Slot#Seat1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.383,
+              "Y": 0.107983992,
+              "Z": 0.45600003
+            },
+            "Rotation": {
+              "X": 3.200599E-06,
+              "Y": 358.403,
+              "Z": -1.54140253E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.51464474,
+              "Y": 0.106508322,
+              "Z": 0.40143013
+            },
+            "Rotation": {
+              "X": -2.855526E-07,
+              "Y": 358.403,
+              "Z": -2.048858E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.6106447,
+              "Y": 0.106498413,
+              "Z": 0.5734301
+            },
+            "Rotation": {
+              "X": 1.62879678E-05,
+              "Y": 51.6424637,
+              "Z": -1.01396E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (3)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.598644733,
+              "Y": 0.106501766,
+              "Z": 1.52343011
+            },
+            "Rotation": {
+              "X": 1.5558584E-05,
+              "Y": 136.241776,
+              "Z": 1.58330913E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (4)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.56264472,
+              "Y": 0.106502496,
+              "Z": 1.52543008
+            },
+            "Rotation": {
+              "X": 4.19242042E-06,
+              "Y": 165.997559,
+              "Z": 2.0129648E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (5)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 2.43264484,
+              "Y": 0.106502347,
+              "Z": 1.48443007
+            },
+            "Rotation": {
+              "X": -1.13003089E-05,
+              "Y": 206.222748,
+              "Z": 1.84070086E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (6)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 3.26964474,
+              "Y": 0.10850548,
+              "Z": 1.43843007
+            },
+            "Rotation": {
+              "X": -1.25975293E-05,
+              "Y": 218.179367,
+              "Z": 1.55163034E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Slot#Seat1 (7)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 3.39264464,
+              "Y": 0.108505554,
+              "Z": 0.485430121
+            },
+            "Rotation": {
+              "X": -7.686008E-06,
+              "Y": 318.204926,
+              "Z": -1.53431665E-05
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x4#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x4/ConstructionBase2x4.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 2.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 90.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

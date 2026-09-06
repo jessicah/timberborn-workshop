@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "WaterAndFood.BuildGatherer",
+    "IntroLocKey": "Tutorial.WaterAndFood.Gatherer"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Flag_Gatherer.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

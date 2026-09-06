@@ -1,0 +1,7 @@
+{
+  "NeedGroupSpec": {
+    "Id": "Possessions",
+    "Order": 30,
+    "DisplayNameLocKey": "NeedGroup.Possessions.DisplayName"
+  }
+}

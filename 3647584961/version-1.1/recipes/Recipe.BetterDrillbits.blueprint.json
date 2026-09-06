@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "BetterDrillbits",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Drillbits.PluralDisplayName",
+    "CycleDurationInHours": 18.0,
+    "Ingredients": [
+      {
+        "Id": "MetalBlock",
+        "Amount": 10
+      },
+      {
+        "Id": "Methane",
+        "Amount": 40
+      },
+      {
+        "Id": "Sunfloweroil",
+        "Amount": 10
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Drillbits",
+        "Amount": 2
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "HoomanRelic",
+    "CyclesFuelLasts": 2,
+    "FuelCapacity": 10,
+    "CyclesCapacity": 10,
+    "Icon": "sprites/Whitepaws Sprites/Goods/DrillBits"
+  }
+}

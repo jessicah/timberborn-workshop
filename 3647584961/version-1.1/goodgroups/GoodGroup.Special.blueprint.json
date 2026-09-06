@@ -1,0 +1,9 @@
+{
+  "GoodGroupSpec": {
+    "Id": "Special",
+    "Order": 60,
+    "Icon": "Sprites/Whitepaws Sprites/Other/CoreItems",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "TopBar.Special"
+  }
+}

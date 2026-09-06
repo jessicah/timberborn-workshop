@@ -1,0 +1,17 @@
+{
+  "TutorialSpec": {
+    "Id": "ProperSawmill",
+    "NameLocKey": "Tutorial.ProperSawmill.Whitepaws",
+    "RequiredTutorialIds": [
+      "BuildNewDC"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 450,
+    "Stages": [
+      "BuildShaftBillboard",
+      "BuildWaterwheelandSawmill",
+      "ConnectSawmill",
+      "BuildPlankTanks"
+    ]
+  }
+}

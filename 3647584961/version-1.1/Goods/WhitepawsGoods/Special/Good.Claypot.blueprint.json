@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "ClayPot",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "Claypot",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 35,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10003,
+    "Icon": "sprites/Whitepaws Sprites/Goods/ClayPot",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.ClayPot.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.ClayPot.PluralDisplayName"
+  }
+}

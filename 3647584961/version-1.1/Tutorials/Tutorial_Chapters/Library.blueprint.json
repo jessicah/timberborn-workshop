@@ -1,0 +1,23 @@
+{
+  "TutorialSpec": {
+    "Id": "Library",
+    "NameLocKey": "Tutorial.Library.Whitepaws",
+    "RequiredTutorialIds": [
+      "BuildNewDC"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 440,
+    "Stages": [
+      "BuildBadShroomEssentials",
+      "BuildfermentationBarrelandLumberjackhouse",
+      "PlantSunflowersandStorage",
+      "BuildBadshroomGrower",
+      "PlaceFlorist",
+      "PlaceHandicrafter",
+      "BuildPrimitivePapermill",
+      "CompleteLibrary",
+      "AccumulateScience",
+      "WhatNextText"
+    ]
+  }
+}

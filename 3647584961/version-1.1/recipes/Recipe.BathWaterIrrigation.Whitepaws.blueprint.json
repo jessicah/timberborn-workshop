@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "BathWaterIrrigation.Whitepaws",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Lapantouflemagic.Irrigation.Displayname",
+    "CycleDurationInHours": 24.0,
+    "Ingredients": [
+      {
+        "Id": "Water",
+        "Amount": 36
+      }
+    ],
+    "Products": [],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 4,
+    "Icon": "Sprites/Whitepaws Sprites/Goods/NewWaterIcon"
+  }
+}

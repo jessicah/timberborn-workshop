@@ -1,0 +1,26 @@
+{
+  "RecipeSpec": {
+    "Id": "BerryWine",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Recipe.BerryWine.DisplayName",
+    "CycleDurationInHours": 12.0,
+    "Ingredients": [
+      {
+        "Id": "Berryjuice",
+        "Amount": 50
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Wine",
+        "Amount": 50
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 6,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Wine"
+  }
+}

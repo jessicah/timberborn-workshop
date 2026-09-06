@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "MediumCauldron",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "MedCauldron",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 30,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10006,
+    "Icon": "sprites/Whitepaws Sprites/Goods/MediumCauldron",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.MediumCauldron.DisplayName",
+    "PluralDisplayNameLocKey": "Good.MediumCauldron.PluralDisplayName"
+  }
+}

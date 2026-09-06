@@ -1,0 +1,23 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "StorageHouses",
+    "Order": 30,
+    "NameLocKey": "ToolGroup.StorageHouses.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Other/StorageHouses",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Damhouses"
+    ]
+  },
+  "ToolGroupChildrenSpec": {
+    "ChildrenGroupsIds": [],
+    "ChildrenToolsTemplateNames": [
+      "GigargantuanTankWP"
+    ],
+    "ChildrenOrderedIds": [],
+    "ChildrenExplicitOrderedIds": [],
+    "DoNotIncludePlaceableToolGroup": false
+  }
+}

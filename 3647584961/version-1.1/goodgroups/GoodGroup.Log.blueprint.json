@@ -1,0 +1,9 @@
+{
+  "GoodGroupSpec": {
+    "Id": "Logs",
+    "Order": 1,
+    "Icon": "Sprites/TopBar/Logs",
+    "SingleResourceGroup": false,
+    "DisplayNameLocKey": "TopBar.Constructionmaterials"
+  }
+}

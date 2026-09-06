@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "LyophilizedArtificialNaturalDirtBlock",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "LyophilizedArtificialNaturalDirtBlock",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1000,
+    "GoodGroupId": "Special",
+    "GoodOrder": 20001,
+    "Icon": "sprites/Whitepaws Sprites/Goods/LyophilizedTerrainBlock",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.LyophilizedArtificialNaturalDirtBlock.DisplayName",
+    "PluralDisplayNameLocKey": "Good.LyophilizedArtificialNaturalDirtBlock.PluralDisplayName"
+  }
+}

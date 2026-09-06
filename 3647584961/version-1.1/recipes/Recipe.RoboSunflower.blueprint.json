@@ -1,0 +1,22 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboSunflower",
+  "DisplayLocKey": "NaturalResource.Sunflower.DisplayName",
+  "CycleDurationInHours": 0.71,
+  "CyclesCapacity": 50,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "SunflowerSeeds",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 100,
+  "FuelCapacity": 1,  
+  // natural production rate : 25*3/6.7 = 11.2 /day
+  // 24h / 11.2 =  2.14 h/seed
+	"BackwardCompatibleIds": []
+  }
+}

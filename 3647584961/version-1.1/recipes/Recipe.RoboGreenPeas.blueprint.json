@@ -1,0 +1,22 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboGreenPeas",
+  "DisplayLocKey": "Lapantouflemagic.GreenPeas.DisplayName",
+  "CycleDurationInHours": 0.64,
+  "CyclesCapacity": 50,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "Greenpeas",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 100,
+  "FuelCapacity": 1,  
+  // natural production rate : 25*5/10 = 12.5 /day
+  // 24h / 12.5 =  1.92 h/G.pea
+	"BackwardCompatibleIds": []
+  }
+}

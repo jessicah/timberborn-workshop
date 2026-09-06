@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "BrainSalts",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/BrainSalts",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.BrainSalts.DisplayName",
+    "PluralDisplayNameLocKey": "Good.BrainSalts.PluralDisplayName"
+  }
+}

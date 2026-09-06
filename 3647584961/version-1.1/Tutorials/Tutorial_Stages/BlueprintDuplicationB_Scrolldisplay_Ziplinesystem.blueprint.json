@@ -1,0 +1,24 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Scrolldisplay_Ziplinesystem",
+    "IntroLocKey": "Tutorial.BlueprintDuplicationB.Scrolldisplay_Ziplinesystem.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "ScrollHolder.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "ScrollHolder.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "ZiplineSystemBlueprintStar"
+      }
+    }
+  }
+}

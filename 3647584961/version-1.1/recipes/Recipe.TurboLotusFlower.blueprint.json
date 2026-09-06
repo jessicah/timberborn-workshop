@@ -1,0 +1,35 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboLotusFlower",
+  "DisplayLocKey": "Lapantouflemagic.Lotus_Flower.DisplayName",
+  "CycleDurationInHours": 2,
+  "CyclesCapacity": 50,
+  "Ingredients": [
+    {
+      "Id": "Water",
+      "Amount": 4
+    },
+    {
+      "Id": "Clay",
+      "Amount": 1
+    },
+    {
+      "Id": "Dirt",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Lotus_Flower",
+      "Amount": 5
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Glowfluid",
+  "CyclesFuelLasts": 50,
+  "FuelCapacity": 10,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Lotus_Flower",
+
+	"BackwardCompatibleIds": []
+  }
+}

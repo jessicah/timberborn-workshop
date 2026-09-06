@@ -1,0 +1,13 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "SolarCells",
+  "Offset": {
+    "X": 0.1732,
+    "Y": -0.2,
+    "Z": 0.17
+  },
+  "LimitingAmount": 4,
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/1GlassPane",
+  "SecondaryMesh": "Not_Powder_Pilables_Meshes/GlassPanes",
+    "Material": "Materials/WhitepawsCustomLiquidsETC/SolarCells",
+}}

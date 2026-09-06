@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "BrambleFlower",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.MeanFlower.DisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Water",
+        "Amount": 1
+      },
+      {
+        "Id": "Sawdust",
+        "Amount": 3
+      }
+    ],
+    "Products": [
+      {
+        "Id": "MeanFlower",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 20,
+    "Icon": "sprites/Whitepaws Sprites/Goods/MeanFlower"
+  }
+}

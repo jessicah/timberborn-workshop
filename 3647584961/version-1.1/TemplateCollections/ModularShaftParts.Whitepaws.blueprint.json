@@ -1,0 +1,23 @@
+{
+  "ModularShaftPartsSpec": {
+    "ShaftBase": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/ShaftBase.Whitepaws",
+    "ShaftLowerFrame": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/ShaftLowerFrame.Whitepaws",
+    "ShaftSupport": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/ShaftSupport.Whitepaws",
+    "ShaftFrame": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/ShaftFrame.Whitepaws",
+    "GearSmall": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearSmall.Whitepaws",
+    "GearMedium": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearMedium.Whitepaws",
+    "GearLarge": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearLarge.Whitepaws",
+    "GearBottomBase": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearBottomBase.Whitepaws",
+    "GearBottomSmall": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearBottomSmall.Whitepaws",
+    "GearBottomLarge": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearBottomLarge.Whitepaws",
+    "GearTopSmall": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearTopSmall.Whitepaws",
+    "GearTopLarge": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearTopLarge.Whitepaws",
+    "GearInner": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearInner.Whitepaws",
+    "GearInnerLong": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearInnerLong.Whitepaws",
+    "GearInnerOpposite": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearInnerOpposite.Whitepaws",
+    "GearInnerThrough": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/GearInnerThrough.Whitepaws",
+    "AxleInnerLong": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/AxleInnerLong.Whitepaws",
+    "AxleVertical": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/AxleVertical.Whitepaws",
+    "AxleHorizontal": "Buildings/Whitepaws Faction/Power_meshies/OmniShaftParts/AxleHorizontal.Whitepaws"
+  }
+}

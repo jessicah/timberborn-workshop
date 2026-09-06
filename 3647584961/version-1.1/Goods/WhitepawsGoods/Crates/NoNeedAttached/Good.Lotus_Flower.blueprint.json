@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "Lotus_Flower",
+    "BackwardCompatibleIds": [
+      "Dandelion"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.98490566,
+      "g": 0.317771435,
+      "b": 0.8377612,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Lotus_Flower",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.Lotus_Flower.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.Lotus_Flower.PluralDisplayName"
+  }
+}

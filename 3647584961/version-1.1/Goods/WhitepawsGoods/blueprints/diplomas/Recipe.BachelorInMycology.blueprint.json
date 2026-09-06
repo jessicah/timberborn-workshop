@@ -1,0 +1,46 @@
+{
+  "RecipeSpec": {
+    "Id": "BachelorInAgronomy",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Lapantouflemagic.BachelorInMycology.DisplayName",
+    "CycleDurationInHours": 1000.0,
+    "Ingredients": [
+      {
+        "Id": "Pencils",
+        "Amount": 50
+      },
+      {
+        "Id": "Paper",
+        "Amount": 150
+      },
+      {
+        "Id": "Log",
+        "Amount": 150
+      },
+      {
+        "Id": "Sawdust",
+        "Amount": 500
+      },
+      {
+        "Id": "Mushrooms",
+        "Amount": 100
+      },
+      {
+        "Id": "BrainSalts",
+        "Amount": 150
+      }
+    ],
+    "Products": [
+      {
+        "Id": "BachelorInAgronomy",
+        "Amount": 2
+      }
+    ],
+    "ProducedSciencePoints": 50,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 1,
+    "Icon": "sprites/Whitepaws Sprites/Goods/AdvancedPlan1"
+  }
+}

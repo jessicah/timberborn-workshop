@@ -1,0 +1,20 @@
+{
+  "NeedSpec": {
+    "Id": "Shellnecklace",
+    "BackwardCompatibleIds": [],
+    "Order": 20,
+    "NeedGroupId": "Possessions",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 1.0,
+    "DailyDelta": 0.0,
+    "ImportanceMultiplier": 10.0,
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Good.Shellnecklace.DisplayName",
+    "FavorableWellbeing": 3,
+    "UnfavorableWellbeing": 0
+  }
+}

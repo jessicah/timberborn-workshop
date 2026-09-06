@@ -1,0 +1,34 @@
+{
+  "RecipeSpec": {
+    "Id": "BetterBrainSalts",
+  "DisplayLocKey": "Good.BrainSalts.PluralDisplayName",
+  "CycleDurationInHours": 1.5,
+  "CyclesCapacity": 10,
+  "Ingredients":[ 
+    {
+      "Id": "Badwater",
+      "Amount": 20
+    },
+    {
+      "Id": "Coal",
+      "Amount": 5
+    },
+    {
+      "Id": "Cure",
+      "Amount": 10
+    },
+  ],
+  "Products": [
+    {
+      "Id": "BrainSalts",
+      "Amount": 10
+    }
+  ],
+  "ProducedSciencePoints": 1,
+  "Fuel": "ChemistrySet",
+  "CyclesFuelLasts": 30,
+  "FuelCapacity": 8,
+  "Icon": "sprites/Whitepaws Sprites/Goods/BrainSalts",
+	"BackwardCompatibleIds": []
+  }
+}

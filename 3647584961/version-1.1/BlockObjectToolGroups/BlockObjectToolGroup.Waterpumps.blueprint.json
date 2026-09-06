@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Waterpumps",
+    "Order": 0,
+    "NameLocKey": "Building.WaterPump.DisplayName",
+    "Icon": "Buildings/Water/WaterPump/WaterPumpIcon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Water"
+    ]
+  }
+}

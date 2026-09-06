@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "SmallSawblades",
+    "Variant": "1x1",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.6
+    },
+    "LimitingAmount": 0.6,
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/20sawbladesStack",
+    "SecondaryMesh": "",
+    "Material": "Materials/WhitepawsCustomLiquidsETC/Sawblade",
+    "NonLinearity": 0.0
+  }
+}

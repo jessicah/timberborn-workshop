@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "LetsCook",
+    "NameLocKey": "Tutorial.LetsCook.Whitepaws",
+    "RequiredTutorialIds": [
+      "PlanksAndSawdust"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 460,
+    "Stages": [
+      "BuildClaypit",
+      "BuildWoodburner",
+      "BuildCookingTent",
+      "BuildClaypotStorage",
+      "BuildHandOfSoup"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Crudesawblade",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Crudesawblade.DisplayName",
+    "CycleDurationInHours": 6.0,
+    "Ingredients": [
+      {
+        "Id": "ScrapMetal",
+        "Amount": 5
+      },
+      {
+        "Id": "Coal",
+        "Amount": 5
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Crudesawblade",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 15,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Crudesawblade"
+  }
+}

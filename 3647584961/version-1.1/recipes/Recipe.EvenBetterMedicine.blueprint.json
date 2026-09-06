@@ -1,0 +1,42 @@
+{
+  "RecipeSpec": {
+    "Id": "EvenBetterMedicine",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Lapantouflemagic.BetterMedicine.DisplayName",
+    "CycleDurationInHours": 1.0,
+    "Ingredients": [
+      {
+        "Id": "Lotus_Flower",
+        "Amount": 2
+      },
+      {
+        "Id": "MeanFlower",
+        "Amount": 2
+      },
+      {
+        "Id": "Coconut",
+        "Amount": 1
+      },
+      {
+        "Id": "Nitroglycerin",
+        "Amount": 2
+      },
+      {
+        "Id": "Hydrogen",
+        "Amount": 3
+      }
+    ],
+    "Products": [
+      {
+        "Id": "BetterMedicine",
+        "Amount": 12
+      }
+    ],
+    "ProducedSciencePoints": 1,
+    "Fuel": "Log",
+    "CyclesFuelLasts": 10,
+    "FuelCapacity": 5,
+    "CyclesCapacity": 20,
+    "Icon": "sprites/Goods/AntidoteIcon"
+  }
+}

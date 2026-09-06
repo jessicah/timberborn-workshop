@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Cooking",
+    "Order": 80,
+    "NameLocKey": "ToolGroup.Cooking.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Cooking",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Food"
+    ]
+  }
+}

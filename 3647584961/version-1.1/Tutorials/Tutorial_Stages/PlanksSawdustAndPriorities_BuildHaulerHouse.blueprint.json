@@ -1,0 +1,25 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildHaulerHouse",
+    "IntroLocKey": "Tutorial.PlanksSawdustAndPriorities.BuildHaulerHouse.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Lodge.Whitepaws",
+          "NarrowLodge.Whitepaws",
+          "DoubleLodge.Whitepaws",
+          "DoubleLodgeTOP.Whitepaws",
+          "TripleLodge.Whitepaws",
+          "TripleLodgeTOP.Whitepaws",
+          "PassThroughLodge.Whitepaws",
+          "Pit-and-LadderLodge_Haulers.Whitepaws",
+          "Pit-and-LadderLodge_Haulers_Doorless.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

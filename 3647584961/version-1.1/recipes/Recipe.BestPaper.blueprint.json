@@ -1,0 +1,35 @@
+{
+  "RecipeSpec": {
+    "Id": "BestPaper",
+  "DisplayLocKey": "Good.Paper.PluralDisplayName",
+  "CycleDurationInHours": 3,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "Log",
+      "Amount": 5
+    },
+    {
+      "Id": "Water",
+      "Amount": 50
+    },
+    {
+      "Id": "PineResin",
+      "Amount": 10
+    },
+  ],
+  "Products": [
+    {
+      "Id": "Paper",
+      "Amount": 70
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "HoomanRelic",
+  "CyclesFuelLasts": 5,
+  "FuelCapacity": 10,
+  "Icon": "Sprites/Goods/PaperIcon",
+
+	"BackwardCompatibleIds": []
+  }
+}

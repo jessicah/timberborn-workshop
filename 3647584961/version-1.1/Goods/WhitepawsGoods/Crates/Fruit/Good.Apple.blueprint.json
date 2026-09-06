@@ -1,0 +1,37 @@
+{
+  "GoodSpec": {
+    "Id": "Apple_WP",
+    "BackwardCompatibleIds": [
+      "Ananas",
+      "Apple"
+    ],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Apple_WP",
+        "Points": 1.0
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.1415093,
+      "b": 0.1415093,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Apple",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Apple.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Apple.PluralDisplayName"
+  }
+}

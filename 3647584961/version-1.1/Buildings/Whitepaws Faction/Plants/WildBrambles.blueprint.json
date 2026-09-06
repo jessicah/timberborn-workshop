@@ -1,0 +1,319 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Floor, Bottom, Top, Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "WildBrambles",
+    "BackwardCompatibleTemplateNames": [
+      "Birch"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 99
+  },
+  "TreeComponentSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 1.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Tree",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "Unplantable",
+    "PlantTimeInHours": 0.56
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 8.0,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "CuttableSpec": {
+    "RemoveOnCut": true,
+    "LeftoverModelName": "#Leftover",
+    "Yielder": {
+      "YielderComponentName": "Cuttable",
+      "Yield": {
+        "Id": "MeanFlower",
+        "Amount": 1
+      },
+      "RemovalTimeInHours": 8.0,
+      "ResourceGroup": "Cuttable"
+    }
+  },
+  "ReproducibleSpec": {
+    "ReproductionChance": 5.0
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 999.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.Brambles.DisplayName",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Brambles.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Plants/Wild Brambles"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 1,
+    "DaysToDie": 999.0
+  },
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": false,
+    "MinHeightScaleFactor": 0.8,
+    "MaxHeightScaleFactor": 1.2,
+    "MinWidthScaleFactor": 0.8,
+    "MaxWidthScaleFactor": 1.2,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 360.0
+  },
+  "TreeCuttingRadiusSpec": {
+    "Radius": 0.1
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleMatureWet.Model"
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "ExtendedReproducibleSpec": {
+    "CanSpread": "All"
+  },
+  "ContaminationResistingResourceSpec": {},
+  "Children": {
+    "#Models": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.25,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleSaplingWet.Model"
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.25,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleSaplingDead.Model"
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.25,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleSaplingDry.Model"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.75,
+                    "Height": 1.38,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleMatureWet.Model"
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.75,
+                    "Height": 1.38,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleMatureDead.Model"
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.5,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.75,
+                    "Height": 1.38,
+                    "Axis": "Y"
+                  }
+                ]
+              },
+              "Children": {
+                "MeshyHolder": {
+                  "TimbermeshSpec": {
+                    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Brambles_meshies/BrambleMatureDry.Model"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "#Leftover": {
+          "TransformSpec": {
+            "Position": {
+              "X": -0.863578141,
+              "Y": -1.10439873,
+              "Z": -0.272233278
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [],
+            "SphereColliders": [],
+            "CapsuleColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.07685387,
+                  "Z": 0.5
+                },
+                "Radius": 0.204731375,
+                "Height": 0.6003412,
+                "Axis": "Y"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

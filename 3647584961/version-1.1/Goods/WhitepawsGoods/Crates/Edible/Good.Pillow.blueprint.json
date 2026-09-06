@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "Pillow",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Pillow",
+        "Points": 1.0
+      }
+    ],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Pillow",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Pillow.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Pillow.PluralDisplayName"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "DistrictCrossing",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 30
+      },
+      {
+        "Id": "Plank",
+        "Amount": 12
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "DistrictCrossing.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Districts",
+    "ToolOrder": 5,
+    "ToolShape": "Square",
+    "Layout": "Half",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 1.5,
+        "Y": 1.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "DistrictObstacleSpec": {
+    "CoordinateOffset": {
+      "X": 1,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.DistrictCrossing.DisplayName",
+    "DescriptionLocKey": "Building.DistrictCrossing.Description",
+    "FlavorDescriptionLocKey": "Building.DistrictCrossing.FlavorDescription",
+    "Icon": "Buildings/DistrictManagement/DistrictCrossing/DistrictCrossingIcon"
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.5,
+      "Y": 0.0,
+      "Z": 0.9
+    },
+    "ForceOneFinalAccess": false
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 10,
+    "DefaultWorkers": 4,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": false,
+    "WorkerTypeUnlockCosts": [
+      {
+        "WorkerType": "Bot",
+        "ScienceCost": 0
+      }
+    ]
+  },
+  "DistrictCrossingSpec": {},
+  "LinkedBuildingSpec": {},
+  "WorkplaceIlluminatorSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Entrance",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "WorkplaceSlotManagerSpec": {},
+  "WorkplaceBonusesSpec": {
+    "WorkerBonuses": [
+      {
+        "Id": "CarryingCapacity",
+        "MultiplierDelta": 4.0
+      }
+    ]
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.5,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "districtcrossing2": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/DistrictCrossing.Whitepaws.Model"
+          },
+          "Children": {
+            "#Slot#Entrance_003": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.348,
+                  "Y": 0.137,
+                  "Z": 0.265
+                },
+                "Rotation": {
+                  "X": 4.20072424E-13,
+                  "Y": 98.42149,
+                  "Z": 1.752525E-13
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Entrance_003 (1)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 2.179,
+                  "Y": 0.143,
+                  "Z": 0.34
+                },
+                "Rotation": {
+                  "X": -2.878685E-13,
+                  "Y": 270.474976,
+                  "Z": -1.19320547E-15
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Entrance_003 (2)": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.622,
+                  "Y": 0.228,
+                  "Z": 0.588
+                },
+                "Rotation": {
+                  "X": 349.86322,
+                  "Y": 123.928238,
+                  "Z": 0.170656472
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x2Half#nested": {
+          "BlueprintPath": "constructionbases/constructionbase3x2half/ConstructionBase3x2Half.blueprint"
+        }
+      }
+    }
+  }
+}

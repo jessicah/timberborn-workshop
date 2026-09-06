@@ -1,0 +1,10 @@
+{
+  "RemoveYieldStrategySpec": {
+    "Id": "Cuttable",
+    "CompatibleResourceGroups": [
+      "Cuttable",
+      "GiantSequoia"
+    ],
+    "Animation": "Cutting"
+  }
+}

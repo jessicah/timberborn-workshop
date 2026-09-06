@@ -1,0 +1,26 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildCopiystandArtistA",
+    "IntroLocKey": "Tutorial.BlueprintDuplicationA.BuildCopiystandArtistA.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "CopistLodge.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "ArtistLodge.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

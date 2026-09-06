@@ -1,0 +1,13 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "MedCauldron",
+  "Variant": "1x1",
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/MedCauldron", //call a mesh
+  "Material": "Materials/WhitepawsCustomLiquidsETC/Whitchs_objects",
+  "NonLinearity": -0.99
+}}

@@ -1,0 +1,24 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Storage.BuildPile",
+    "IntroLocKey": "Tutorial.Storage.Pile"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "LargePile.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Rice"
+      }
+    }
+  }
+}

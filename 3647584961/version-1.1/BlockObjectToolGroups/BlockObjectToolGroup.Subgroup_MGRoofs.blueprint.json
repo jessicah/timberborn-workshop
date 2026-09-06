@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "SubGroup_MGRoofs",
+    "Order": 30,
+    "NameLocKey": "Knatte.Subgroup_MGRoofs.DisplayName",
+    "Icon": "Buildings/Decoration/Roof1x1/Roof1x1Icon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Decoration"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildBasics2",
+    "IntroLocKey": "Tutorial.Basics.BuildBasics2.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PumpingHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Farm.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Cabbage.Whitepaws",
+        "RequiredAmount": 60
+      }
+    }
+  }
+}

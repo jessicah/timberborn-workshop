@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "Kimchi",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "Kimchi",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.5018867,
+      "g": 0.5018867,
+      "b": 0.5018867,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/Kimchi",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 10215,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Kimchi",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Kimchi.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Kimchi.PluralDisplayName"
+  }
+}

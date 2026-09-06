@@ -1,0 +1,289 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 6
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "UpdateBoard",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+        "X": 4,
+        "Y": 1,
+        "Z": 5
+      },
+      "Blocks": [
+        {
+          "MatterBelow": "GroundOrStackable",
+          "Occupations": "Top",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "Top",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "Top",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "GroundOrStackable",
+          "Occupations": "Top",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        },
+        {
+          "MatterBelow": "Any",
+          "Occupations": "All",
+          "Stackable": "None",
+          "OccupyAllBelow": false,
+          "Underground": false
+        }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Billboards",
+    "ToolOrder": -1,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Billboard.Newsboard.DisplayName",
+    "DescriptionLocKey": "Billboard.Newsboard.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/NewsBoard"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 30
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Newsboard",
+        "PointsPerHour": 0.05,
+        "SatisfyToMaxValue": true
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 2.0,
+              "Y": 3.0,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 4.0,
+              "Y": 4.0,
+              "Z": 0.1
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Wellbeing_Meshies/UpdateBoard.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        },
+        "ConstructionBase1x1 (1)#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 3.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

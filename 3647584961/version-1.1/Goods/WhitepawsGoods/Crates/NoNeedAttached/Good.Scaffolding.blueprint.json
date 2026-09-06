@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "Scaffolding",
+    "BackwardCompatibleIds": [
+      "BotLimb"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.6075471,
+      "g": 0.6075471,
+      "b": 0.6075471,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Logs",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Scaffolding",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Scaffolding.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Scaffolding.PluralDisplayName"
+  }
+}

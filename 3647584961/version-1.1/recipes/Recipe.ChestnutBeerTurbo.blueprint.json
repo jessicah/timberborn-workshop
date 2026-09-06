@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "ChestnutBeerTurbo",
+  "DisplayLocKey": "Good.ChestnutBeer.DisplayName",
+  "CycleDurationInHours": 12,
+  "CyclesCapacity": 5,
+  "Ingredients":[ 
+    {
+      "Id": "Chestnut",
+      "Amount": 20
+    },
+    {
+      "Id": "Water",
+      "Amount": 70
+    }
+  ],
+  "Products": [
+    {
+      "Id": "ChestnutBeer",
+      "Amount": 100
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/ChestnutBeer",
+	"BackwardCompatibleIds": []
+  }
+}

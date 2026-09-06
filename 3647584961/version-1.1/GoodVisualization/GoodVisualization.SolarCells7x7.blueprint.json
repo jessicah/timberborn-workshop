@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "SolarCells",
+    "Variant": "7x7",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -1.83
+    },
+    "LimitingAmount": 0.0,
+    "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7GlassPanesFused2880",
+    "SecondaryMesh": "",
+    "Material": "Materials/WhitepawsCustomLiquidsETC/SolarCells",
+    "NonLinearity": -0.1
+  }
+}

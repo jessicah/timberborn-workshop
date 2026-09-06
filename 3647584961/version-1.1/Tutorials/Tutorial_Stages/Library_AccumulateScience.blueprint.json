@@ -1,0 +1,13 @@
+{
+  "TutorialStageSpec": {
+    "Id": "AccumulateScience",
+    "IntroLocKey": "Tutorial.Library.AccumulateScience.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "AccumulateScienceForBuildingStepSpec": {
+        "TemplateName": "Mechanicslodge.Whitepaws"
+      }
+    }
+  }
+}

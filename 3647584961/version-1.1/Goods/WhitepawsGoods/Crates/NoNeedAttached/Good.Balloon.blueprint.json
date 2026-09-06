@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Balloon",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5396226,
+      "g": 0.5396226,
+      "b": 0.5396226,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 10,
+    "GoodGroupId": "Special",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/BalloonItem",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Balloon.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Balloon.PluralDisplayName"
+  }
+}

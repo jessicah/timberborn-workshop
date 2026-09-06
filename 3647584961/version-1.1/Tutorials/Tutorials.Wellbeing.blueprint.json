@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "Wellbeing",
+    "NameLocKey": "Tutorial.Wellbeing",
+    "RequiredTutorialIds": [
+      "Housing"
+    ],
+    "SkipIfTutorialFinished": "Tutorial",
+    "SortOrder": 90,
+    "Stages": [
+      "Wellbeing.BuildCampfire",
+      "Wellbeing.BuildShrub",
+      "Wellbeing.SelectBeaver",
+      "Wellbeing.WellbeingPanel",
+      "Wellbeing.SetWorkingHours"
+    ]
+  }
+}

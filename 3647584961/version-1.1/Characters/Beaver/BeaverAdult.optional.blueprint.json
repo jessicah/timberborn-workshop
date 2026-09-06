@@ -1,0 +1,153 @@
+{
+  "TemplateAttachmentsSpec": {
+    "Attachments#append": [
+      {
+        "AttachmentId": "LumberjackHat.Beaver.Whitepaws",
+        "Prefab": "NEWLumberJackHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "GathererHat.Beaver.Whitepaws",
+        "Prefab": "NEWGathererHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "NEWfarmerHat.Beaver.Whitepaws",
+        "Prefab": "NEWFarmerHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "MinerBucketHat.Beaver.Whitepaws",
+        "Prefab": "MiningBucketHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "AlchemistHat.Beaver.Whitepaws",
+        "Prefab": "WizardHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "ResearcherHat.Beaver.Whitepaws",
+        "Prefab": "GraduationHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      },
+      {
+        "AttachmentId": "WaterpumperHat.Beaver.Whitepaws",
+        "Prefab": "CanotierHat.Model",
+        "Parent": "#Head",
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "CreateInstantly": false
+      }
+    ]
+  }
+}

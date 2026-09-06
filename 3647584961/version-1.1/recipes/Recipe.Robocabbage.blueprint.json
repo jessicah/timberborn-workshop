@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboCabbage",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Cabbage2.DisplayName",
+    "CycleDurationInHours": 0.5,
+    "Ingredients": [],
+    "Products": [
+      {
+        "Id": "Cabbage",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Log",
+    "CyclesFuelLasts": 100,
+    "FuelCapacity": 1,
+    "CyclesCapacity": 50,
+    "Icon": "sprites/Whitepaws Sprites/Goods/GreenCabbage"
+  }
+}

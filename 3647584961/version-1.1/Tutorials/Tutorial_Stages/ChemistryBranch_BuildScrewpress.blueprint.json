@@ -1,0 +1,33 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildScrewpress",
+    "IntroLocKey": "Tutorial.ChemistryBranch.BuildScrewpress.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Screwpress.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "SmallPile.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step3": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "SmallPile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Screwaxle"
+      }
+    }
+  }
+}

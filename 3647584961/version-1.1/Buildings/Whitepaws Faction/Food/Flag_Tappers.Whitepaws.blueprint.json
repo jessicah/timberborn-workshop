@@ -1,0 +1,242 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "TappersShack",
+    "LoopingSoundName": "",
+    "BuildingCost": [],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 1,
+    "DefaultWorkers": 1,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "TemplateSpec": {
+    "TemplateName": "Flag_Tappers.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Seat",
+        "Animation": "Sitting",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "WorkplaceSlotManagerSpec": {},
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.5,
+      "Y": 0.0,
+      "Z": 0.2
+    },
+    "ForceOneFinalAccess": false
+  },
+  "GathererFlagSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Wood",
+    "ToolOrder": 2,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "SimpleOutputInventorySpec": {
+    "Capacity": 20,
+    "IgnorableCapacity": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.TappersFlag.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.TappersFlag.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.TappersFlag.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/Tapper'sFlag"
+  },
+  "WorkplaceIlluminatorSpec": {},
+  "YieldRemovingBuildingSpec": {
+    "ResourceGroup": "Tappable"
+  },
+  "WorkplaceBonusesSpec": {
+    "WorkerBonuses": [
+      {
+        "Id": "WorkingSpeed",
+        "MultiplierDelta": -0.5
+      }
+    ]
+  },
+  "FloodableBuildingSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "FloodableObjectBlockerSpec": {},
+  "YieldRemoverWorkplaceEffectsSpec": {
+    "YieldGoodId": "PineResin",
+    "MinimumAttemptsThreshold": 10,
+    "Effects": [
+      {
+        "NeedId": "Filth",
+        "Points": -0.7,
+        "Probability": "High"
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.1,
+              "Z": 0.5558028
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.2,
+              "Z": 0.8761974
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 1.38906288,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.5,
+              "Y": 0.575188637,
+              "Z": 0.0599999428
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.556318,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.05,
+              "Y": 1.11324346,
+              "Z": 0.05
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "GathererFlag": {
+          "Children": {
+            "#Slot#Seat_1": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.5,
+                  "Y": 0.026983507,
+                  "Z": 0.170372963
+                },
+                "Rotation": {
+                  "X": -7.025971E-15,
+                  "Y": 179.924377,
+                  "Z": -7.01670362E-15
+                },
+                "Scale": {
+                  "X": 0.9999999,
+                  "Y": 1.0,
+                  "Z": 0.9999999
+                }
+              }
+            }
+          }
+        },
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/Food_Meshies/TappersFlag.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "constructionbase1x1#nested": {
+          "BlueprintPath": "constructionbases/constructionbase1x1/constructionbase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

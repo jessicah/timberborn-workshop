@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "ChemistrySet",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "Chemistry",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 50,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10002,
+    "Icon": "sprites/Whitepaws Sprites/Goods/ChemistrySet",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.ChemistrySet.DisplayName",
+    "PluralDisplayNameLocKey": "Good.ChemistrySet.PluralDisplayName"
+  }
+}

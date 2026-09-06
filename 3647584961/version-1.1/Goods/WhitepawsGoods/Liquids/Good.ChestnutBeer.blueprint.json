@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "ChestnutBeer",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Thirst",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "ChestnutBeer",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.5622641,
+      "g": 0.5622641,
+      "b": 0.5622641,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/ChestnutBeerBall",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Water",
+    "GoodOrder": 10207,
+    "Icon": "sprites/Whitepaws Sprites/Goods/ChestnutBeer",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.ChestnutBeer.DisplayName",
+    "PluralDisplayNameLocKey": "Good.ChestnutBeer.PluralDisplayName"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "RecipeSpec": {
+    "Id": "GiantLogToLogs_CRAP",
+  "DisplayLocKey": "Reciepe.Ineff_Log.PluralDisplayName",
+  "CycleDurationInHours": 252,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "GiantLog",
+      "Amount": 1
+    },{
+      "Id": "Crudesawblade",
+      "Amount": 3
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Log",
+      "Amount": 70
+    },
+    {
+      "Id": "Sawdust",
+      "Amount": 340
+    }
+  ],
+  "ProducedSciencePoints": -3,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "Sprites/Goods/LogIcon",
+	"BackwardCompatibleIds": []
+  }
+}

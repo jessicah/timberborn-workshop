@@ -1,0 +1,23 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildFactory",
+    "IntroLocKey": "Tutorial.MechanicBranch.BuildFactory.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Factory.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "PowerBuildingsTutorialStepSpec": {
+        "TemplateName": "Factory.Whitepaws",
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

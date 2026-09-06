@@ -1,0 +1,172 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Automation",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 4
+      },
+      {
+        "Id": "Quartz",
+        "Amount": 50
+      },
+      {
+        "Id": "Paper",
+        "Amount": 20
+      }
+    ],
+    "ScienceCost": 200,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Counter_Pop.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Top",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": -1,
+        "Z": 1
+      }
+    },
+    "BaseZ": 1,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Automation",
+    "ToolOrder": 90,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.PopulationCounter.DisplayName",
+    "DescriptionLocKey": "Building.PopulationCounter.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "Buildings/Automation/PopulationCounter/PopulationCounterIcon"
+  },
+  "PopulationCounterSpec": {},
+  "FloodableObjectBlockerSpec": {},
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.5,
+      "Y": 1.0,
+      "Z": 0.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "BuildingDetailTextureSpec": {
+    "Texture": "Buildings/Automation/PopulationCounter/PopulationCounterDetail",
+    "Color": {
+      "r": 0.329411775,
+      "g": 0.329411775,
+      "b": 0.329411775,
+      "a": 1.0
+    }
+  },
+  "UnderstructureConstraintSpec": {
+    "UnderstructureTemplateNames": [
+      "Calculatorium.Whitepaws",
+      "Timer.Whitepaws",
+      "Chronometer.Whitepaws",
+      "PowerMeter.Whitepaws",
+      "Relay.Whitepaws",
+      "Memory.Whitepaws",
+      "Counter_Science.Whitepaws",
+      "Counter_Resource.Whitepaws",
+      "Lever.Whitepaws",
+      "Counter_Pop.Whitepaws"
+    ]
+  },
+  "DefaultIlluminatorColorSpec": {
+    "ColorId": "Automator"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/Automation_Meshies/Counter_OnGlass.Whitepaws"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.9,
+              "Y": 0.9,
+              "Z": 0.9
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    }
+  }
+}

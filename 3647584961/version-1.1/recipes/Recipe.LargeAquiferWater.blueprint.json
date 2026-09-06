@@ -1,0 +1,21 @@
+{
+  "RecipeSpec": {
+    "Id": "LargeAquiferWater",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Water.DisplayName",
+    "CycleDurationInHours": 0.16,
+    "Ingredients": [],
+    "Products": [
+      {
+        "Id": "Water",
+        "Amount": 5
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Screwaxle",
+    "CyclesFuelLasts": 500,
+    "FuelCapacity": 2,
+    "CyclesCapacity": 50,
+    "Icon": "sprites/Whitepaws Sprites/Goods/NewWaterIcon"
+  }
+}

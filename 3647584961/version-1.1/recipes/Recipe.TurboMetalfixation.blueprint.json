@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboMetalfixation",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Metalfixation.PluralDisplayName",
+    "CycleDurationInHours": 3.0,
+    "Ingredients": [
+      {
+        "Id": "ScrapMetal",
+        "Amount": 18
+      },
+      {
+        "Id": "Coal",
+        "Amount": 6
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Metalfixation",
+        "Amount": 30
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 10,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Metalfixation"
+  }
+}

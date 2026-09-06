@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Methane",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "gaz",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 10013,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Methane",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Methane.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Methane.PluralDisplayName"
+  }
+}

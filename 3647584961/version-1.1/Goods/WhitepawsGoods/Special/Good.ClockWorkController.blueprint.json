@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "ClockWorkController",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Displayable",
+    "StockpileVisualization": "ClockworkController",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.5245282,
+      "g": 0.5245282,
+      "b": 0.5245282,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 10,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10009,
+    "Icon": "sprites/Whitepaws Sprites/Goods/RoboticControllerItem",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Lapantouflemagic.MechanicalComputerBlueprint.DisplayName",
+    "PluralDisplayNameLocKey": "Lapantouflemagic.MechanicalComputerBlueprint.PluralDisplayName"
+  }
+}

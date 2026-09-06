@@ -1,0 +1,32 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Waterstuff",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/WaterStuff/DamDrainHouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/FIXEDDamDrainHouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/DeepPumpingHouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/DeepPumpingHouseUpgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/DeepPumpingHouseUpgradeWall.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/GrandDam.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/Lido.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/LidoWaterdump.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/MechanizedWaterpump.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NEWPumpingHouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NEWPumpingHouseUpgrade.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NEWPumpingHouseUpgradeWall.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/RiverBath.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/Shower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/TankShower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/AquiferPump_TriangleUpgrade_Build.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/AquiferPump_TriangleUpgrade_Source.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonH.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonL.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NewWaterCannonM.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/NormalAquiferDrill.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/WonderIrrigationTower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/IrrigationTower.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/SluiceHouse.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/WaterStuff/TrueSluiceHouse.Whitepaws.blueprint"
+    ]
+  }
+}

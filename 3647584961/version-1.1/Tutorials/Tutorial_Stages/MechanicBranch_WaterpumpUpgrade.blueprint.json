@@ -1,0 +1,26 @@
+{
+  "TutorialStageSpec": {
+    "Id": "WaterpumpUpgrade",
+    "IntroLocKey": "Tutorial.MechanicBranch.WaterpumpUpgrade.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Billboard_WaterpumpUpgrade"
+        ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PumpingHouseUpgrade.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

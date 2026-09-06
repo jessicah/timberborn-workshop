@@ -1,0 +1,22 @@
+{
+  "TutorialSpec": {
+    "Id": "ChemistryBranch",
+    "NameLocKey": "Tutorial.ChemistryBranch.Whitepaws",
+    "RequiredTutorialIds": [
+      "Library"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 20,
+    "Stages": [
+      "ChemistryText",
+      "BuildAlchemist",
+      "BuildMedbed",
+      "BuildScrewpress",
+      "BuildMedTank",
+      "BuildHandicrafterAndMine2",
+      "3FermentationBarrels",
+      "BuildDistillery",
+      "BrainsaltBurner"
+    ]
+  }
+}

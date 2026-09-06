@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "PlaceHandicrafter",
+    "IntroLocKey": "Tutorial.Library.PlaceHandicrafter.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Handicrafter.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

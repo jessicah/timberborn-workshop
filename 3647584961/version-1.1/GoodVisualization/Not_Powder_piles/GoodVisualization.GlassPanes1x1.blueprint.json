@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "GlassPanes",
+    "Variant": "1x1",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.68
+    },
+    "LimitingAmount": 0.75,
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/20GlassPanesStack",
+    "SecondaryMesh": "",
+    "Material": "Materials/WhitepawsCustomLiquidsETC/GlassPanes",
+    "NonLinearity": 0.0
+  }
+}

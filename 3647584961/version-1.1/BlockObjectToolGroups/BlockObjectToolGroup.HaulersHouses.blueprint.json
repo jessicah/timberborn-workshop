@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "HaulersHouses",
+    "Order": 10,
+    "NameLocKey": "ToolGroup.HaulersHouses.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Other/HaulersHouses",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Damhouses"
+    ]
+  }
+}

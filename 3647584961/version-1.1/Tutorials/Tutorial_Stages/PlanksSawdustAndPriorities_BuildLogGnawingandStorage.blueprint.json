@@ -1,0 +1,49 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildLogGnawingandStorage",
+    "IntroLocKey": "Tutorial.PlanksSawdustAndPriorities.BuildLogGnawingandStorage.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "GnawingTent.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "LargePile.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    },
+    "Step3": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "LargePile.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Sawdust"
+      }
+    },
+    "Step4": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "2x2pileRightWP"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    },
+    "Step5": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "2x2pileRightWP",
+        "RequiredAmount": 1,
+        "GoodId": "Plank"
+      }
+    }
+  }
+}

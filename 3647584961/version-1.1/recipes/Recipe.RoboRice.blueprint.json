@@ -1,0 +1,22 @@
+{
+  "RecipeSpec": {
+    "Id": "RoboRice",
+  "DisplayLocKey": "Good.Rice.PluralDisplayName",
+  "CycleDurationInHours": 0.5,
+  "CyclesCapacity": 50,
+  "Ingredients": [],
+  "Products": [
+    {
+      "Id": "Rice",
+      "Amount": 1
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 100,
+  "FuelCapacity": 1  ,
+  // natural production rate : 25*5/8 = 15.6 /day
+  // 24h / 15 =  1.54 h/rice
+	"BackwardCompatibleIds": []
+  }
+}

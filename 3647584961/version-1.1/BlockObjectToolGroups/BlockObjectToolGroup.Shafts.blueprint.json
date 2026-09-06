@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Shafts",
+    "Order": 40,
+    "NameLocKey": "Group.PowerShafts.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/PowerShaftXIntersectionIcon",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Power"
+    ]
+  }
+}

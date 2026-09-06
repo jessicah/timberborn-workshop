@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "RedSoda",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Thirst",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "RedSoda",
+        "Points": 0.15
+      }
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.2905661,
+      "g": 0.2905661,
+      "b": 0.2905661,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/RedSoda",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Water",
+    "GoodOrder": 10219,
+    "Icon": "sprites/Whitepaws Sprites/Goods/RedSoda",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.RedSoda.DisplayName",
+    "PluralDisplayNameLocKey": "Good.RedSoda.PluralDisplayName"
+  }
+}

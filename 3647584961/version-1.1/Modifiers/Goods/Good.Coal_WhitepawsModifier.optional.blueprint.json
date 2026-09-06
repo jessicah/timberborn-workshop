@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "Coal",
+    "BackwardCompatibleIds": [
+      "coal"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "coal",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 0.645283,
+      "g": 0.645283,
+      "b": 0.645283,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Materials",
+    "GoodOrder": 10101,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Coal",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.coal.DisplayName",
+    "PluralDisplayNameLocKey": "Good.coal.PluralDisplayName"
+  }
+}

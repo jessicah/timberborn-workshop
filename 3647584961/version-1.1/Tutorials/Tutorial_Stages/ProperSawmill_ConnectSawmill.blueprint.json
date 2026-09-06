@@ -1,0 +1,14 @@
+{
+  "TutorialStageSpec": {
+    "Id": "ConnectSawmill",
+    "IntroLocKey": "Tutorial.ProperSawmill.ConnectSawmill.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "PowerBuildingsTutorialStepSpec": {
+        "TemplateName": "RudimentarySawmill.Whitepaws",
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

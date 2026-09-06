@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "GoldDust",
+    "Variant": "7x7",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -2.0
+    },
+    "LimitingAmount": 0.0,
+    "PrimaryMesh": "Buildings/ModularStorageMeshies/7x7DirtPile",
+    "SecondaryMesh": "",
+    "Material": "Materials/WhitepawsCustomLiquidsETC/GoldDust",
+    "NonLinearity": -0.5
+  }
+}

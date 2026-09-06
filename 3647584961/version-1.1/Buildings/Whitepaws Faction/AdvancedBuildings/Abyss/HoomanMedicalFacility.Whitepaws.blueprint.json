@@ -1,0 +1,432 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 15
+      },
+      {
+        "Id": "Tar",
+        "Amount": 50
+      },
+      {
+        "Id": "Plank",
+        "Amount": 60
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 40
+      },
+      {
+        "Id": "Gear",
+        "Amount": 30
+      },
+      {
+        "Id": "RuinExploration",
+        "Amount": 200
+      },
+      {
+        "Id": "HoomanRelic",
+        "Amount": 100
+      },
+      {
+        "Id": "Glowfluid",
+        "Amount": 50
+      },
+      {
+        "Id": "NursingLicense",
+        "Amount": 5
+      },
+      {
+        "Id": "BachelorInHoomanities",
+        "Amount": 1
+      }
+    ],
+    "ScienceCost": 15000,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "HoomanMedicalFacility.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "HoomanMedicalFacility"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Top, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Corners, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Stackable",
+        "Occupations": "Top, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": 1,
+        "Z": -1
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 2,
+              "Z": -1
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": -1
+            },
+            "IsTwoWay": true
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.5,
+      "Y": -0.95,
+      "Z": 2.2
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DeepRuin",
+    "ToolOrder": 999,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": true,
+      "Coordinates": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "EnterableIlluminatorSpec": {},
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Lapantouflemagic.HoomanMedicalFacility.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.HoomanMedicalFacility.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.HoomanMedicalFacility.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/HoomanMedFacility"
+  },
+  "MechanicalNodeSpec": {
+    "PowerOutput": 0,
+    "PowerInput": 150,
+    "IsShaft": true
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 12,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 1,
+      "Y": 1,
+      "Z": 0
+    }
+  },
+  "MechanicalBuildingSpec": {},
+  "TransputProviderSpec": {
+    "Transputs": [
+      {
+        "Coordinates": {
+          "X": 0,
+          "Y": 2,
+          "Z": -1
+        },
+        "Directions": "Down",
+        "ReverseRotation": false
+      }
+    ],
+    "IgnoreRotation": false
+  },
+  "AttractionSpec": {
+    "Effects": [
+      {
+        "NeedId": "BrokenTeeth",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "BadwaterContamination",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "MinorInjury",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "MildDisease",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "MinorBurns",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "SevereInjury",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "SevereDisease",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "MajorBurns",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "Maimed",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      },
+      {
+        "NeedId": "HoomanMedicalTreatment",
+        "PointsPerHour": 0.1,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "ScienceNeedingBuildingSpec": {
+    "ScienceUsedPerHour": 1
+  },
+  "FinishableHorizontalWaterObstacleSpec": {
+    "Obstacles": [
+      {
+        "X": 0,
+        "Y": 1,
+        "Z": 2
+      },
+      {
+        "X": 1,
+        "Y": 1,
+        "Z": 2
+      },
+      {
+        "X": 2,
+        "Y": 1,
+        "Z": 2
+      },
+      {
+        "X": 0,
+        "Y": 2,
+        "Z": 2
+      },
+      {
+        "X": 1,
+        "Y": 2,
+        "Z": 2
+      },
+      {
+        "X": 2,
+        "Y": 2,
+        "Z": 2
+      }
+    ]
+  },
+  "UnderstructureConstraintSpec": {
+    "UnderstructureTemplateNames": [
+      "Elevator_to_the_Abyss.Whitepaws"
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.0,
+              "Z": 2.0
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 2.0,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "Meshy_Holder": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": -1.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/AdvancedBuildings_Meshies/AbyssStuff/HommanMedFacility.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "TransformSpec": {
+        "Position": {
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 1.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "Children": {
+        "ConstructionBase2x3#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x3/ConstructionBase2x3.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 2.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 90.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

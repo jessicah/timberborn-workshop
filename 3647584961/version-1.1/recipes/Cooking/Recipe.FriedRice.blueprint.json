@@ -1,0 +1,53 @@
+{
+  "RecipeSpec": {
+    "Id": "FriedRice",
+  "DisplayLocKey": "Good.FriedRice.PluralDisplayName",
+  "CycleDurationInHours": 4,
+  "CyclesCapacity": 50,
+  "Ingredients": [
+    {
+      "Id": "Rice",
+      "Amount": 5
+    },
+    {
+      "Id": "Lotus_Flower",
+      "Amount": 1
+    },
+    {
+      "Id": "Mushrooms",
+      "Amount": 2
+    },
+    {
+      "Id": "Cabbage",
+      "Amount": 2
+    },
+    {
+      "Id": "Greenpeas",
+      "Amount": 2
+    },
+    {
+      "Id": "Sunfloweroil",
+      "Amount": 2
+    },
+    {
+      "Id": "Water",
+      "Amount": 5
+    },
+    //total value of ingredients = 15
+  ],
+  "Products": [
+    {
+      "Id": "FriedRice",
+      "Amount": 22
+    }
+    //efficiency = 146.6%
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 5,
+  "FuelCapacity": 5,
+  "Icon": "sprites/Whitepaws Sprites/Goods/FriedRice",
+
+	"BackwardCompatibleIds": []
+  }
+}

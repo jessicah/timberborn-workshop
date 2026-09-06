@@ -1,0 +1,39 @@
+{
+  "RecipeSpec": {
+    "Id": "Awfulstew",
+  "DisplayLocKey": "Good.Awfulstew.PluralDisplayName",
+  "CycleDurationInHours": 3,
+  "CyclesCapacity": 25,
+  "Ingredients": [
+    {
+      "Id": "MeanFlower",
+      "Amount": 3
+    },
+    {
+      "Id": "PineResin",
+      "Amount": 3
+    },
+    {
+      "Id": "Sawdust",
+      "Amount": 4
+    },
+    {
+      "Id": "Water",
+      "Amount": 10
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Awfulstew",
+      "Amount": 3
+
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Log",
+  "CyclesFuelLasts": 10,
+  "FuelCapacity": 5,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Awfulstew",
+	"BackwardCompatibleIds": []
+  }
+}

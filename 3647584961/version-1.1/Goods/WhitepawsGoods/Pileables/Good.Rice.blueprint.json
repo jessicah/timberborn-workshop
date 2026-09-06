@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Rice",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "Rice",
+    "VisibleContainer": "Bag",
+    "ContainerColor": {
+      "r": 0.9169811,
+      "g": 0.9169811,
+      "b": 0.9169811,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryOnArm",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 0,
+    "Icon": "sprites/Whitepaws Sprites/Goods/RiceGrain",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.Rice.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Rice.PluralDisplayName"
+  }
+}

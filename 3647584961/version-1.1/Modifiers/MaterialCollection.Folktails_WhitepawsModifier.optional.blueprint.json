@@ -1,0 +1,13 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Folktails",
+    "Materials#remove": [
+      "Materials/UberAtlas/Materials/Folktails/PlasteredWood_White.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/WindowsAtlas.Folktails"
+    ],
+    "Materials#append": [
+      "Materials/PlasteredWood_White.Folktails",
+      "Materials/WindowsAtlas.Folktails"
+    ]
+  }
+}

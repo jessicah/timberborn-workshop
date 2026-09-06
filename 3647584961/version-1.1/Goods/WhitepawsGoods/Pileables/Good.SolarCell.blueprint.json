@@ -1,0 +1,27 @@
+{
+  "GoodSpec": {
+    "Id": "SolarCell",
+    "BackwardCompatibleIds": [
+      "TreatedPlank"
+    ],
+    "ConsumptionEffects": [],
+    "GoodType": "Pileable",
+    "StockpileVisualization": "SolarCells",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.54905653,
+      "g": 0.965232968,
+      "b": 1.0,
+      "a": 0.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 10,
+    "GoodGroupId": "Special",
+    "GoodOrder": 10112,
+    "Icon": "sprites/Whitepaws Sprites/Goods/SolarCell",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Good.SolarCell.DisplayName",
+    "PluralDisplayNameLocKey": "Good.SolarCell.PluralDisplayName"
+  }
+}

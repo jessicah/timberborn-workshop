@@ -1,0 +1,387 @@
+{
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Ground",
+        "Occupations": "Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Pumpkin.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Pumpkin",
+      "Corn"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NaturalResourceSpec": {
+    "Order": 10
+  },
+  "CropSpec": {},
+  "GrowableSpec": {
+    "GrowthTimeInDays": 7.0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Bush",
+    "AlternativeSoundName": ""
+  },
+  "PlantableSpec": {
+    "ResourceGroup": "LargeFarmhouse",
+    "PlantTimeInHours": 0.2
+  },
+  "DemolishableSpec": {
+    "DemolishTimeInHours": 1.2,
+    "ShowDemolishButtonInEntityPanel": false
+  },
+  "CuttableSpec": {
+    "RemoveOnCut": true,
+    "LeftoverModelName": "",
+    "Yielder": {
+      "YielderComponentName": "Cuttable",
+      "Yield": {
+        "Id": "Pumpkin",
+        "Amount": 7
+      },
+      "RemovalTimeInHours": 1.0,
+      "ResourceGroup": "Farmhouse"
+    }
+  },
+  "PlantablePreviewModelSpec": {
+    "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Mature_Wet.Model"
+  },
+  "WateredNaturalResourceSpec": {
+    "DaysToDieDry": 15.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Good.Pumpkin.DisplayName",
+    "DescriptionLocKey": "",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Pumpkin.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Goods/Pumpkin"
+  },
+  "FloodableNaturalResourceSpec": {
+    "MinWaterHeight": 0,
+    "MaxWaterHeight": 0,
+    "DaysToDie": 1.0
+  },
+  "CuttableYieldGoodIdProviderSpec": {},
+  "NaturalResourceModelRandomizerSpec": {
+    "ConstrainProportion": false,
+    "MinHeightScaleFactor": 0.7,
+    "MaxHeightScaleFactor": 1.3,
+    "MinWidthScaleFactor": 0.7,
+    "MaxWidthScaleFactor": 1.3,
+    "RandomizedRotation": "BetweenMinAndMax",
+    "MinRotation": 0.0,
+    "MaxRotation": 360.0
+  },
+  "ContaminatedNaturalResourceSpec": {},
+  "BlockObjectModelSpec": {
+    "FullModelName": "#Models",
+    "UncoveredModelName": "",
+    "UndergroundModelName": "",
+    "UndergroundModelDepth": 0
+  },
+  "Children": {
+    "GameObject": {
+      "Children": {
+        "#Models": {
+          "Children": {
+            "Seedling": {
+              "Children": {
+                "#Alive": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.05,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.1,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Seedling_Wet.Model"
+                      }
+                    }
+                  }
+                },
+                "#Dead": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.05,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.1,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Seedling_Dead.Model"
+                      }
+                    }
+                  }
+                },
+                "#Dying": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.05,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.1,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Seedling_Dry.Model"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Mature": {
+              "Children": {
+                "#Alive": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.1,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.2,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Mature_Wet.Model"
+                      }
+                    }
+                  }
+                },
+                "#Dead": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.1,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.2,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Mature_Dead.Model"
+                      }
+                    }
+                  }
+                },
+                "#Dying": {
+                  "TransformSpec": {
+                    "Position": {
+                      "X": -0.1,
+                      "Y": 0.0,
+                      "Z": -0.1
+                    },
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Scale": {
+                      "X": 1.2,
+                      "Y": 1.2,
+                      "Z": 1.2
+                    }
+                  },
+                  "CollidersSpec": {
+                    "BoxColliders": [
+                      {
+                        "Center": {
+                          "X": 0.5,
+                          "Y": 0.1,
+                          "Z": 0.5
+                        },
+                        "Size": {
+                          "X": 1.0,
+                          "Y": 0.2,
+                          "Z": 1.0
+                        }
+                      }
+                    ],
+                    "SphereColliders": [],
+                    "CapsuleColliders": []
+                  },
+                  "Children": {
+                    "meshy_holder": {
+                      "TimbermeshSpec": {
+                        "Model": "Buildings/Whitepaws Faction/Plants_Meshies/Pumpkin_Meshies/Pumpkin_Mature_Dry.Model"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

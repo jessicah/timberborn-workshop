@@ -1,0 +1,15 @@
+{
+  "TutorialSpec": {
+    "Id": "MechanicBranch2",
+    "NameLocKey": "Tutorial.MechanicBranch2.Whitepaws",
+    "RequiredTutorialIds": [
+      "ChemistryBranch",
+      "MechanicBranch"
+    ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 30,
+    "Stages": [
+      "BuildFloodgateDam"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "BuildShaftBillboard",
+    "IntroLocKey": "Tutorial.ProperSawmill.BuildShaftBillboard.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Billboard_Shaft"
+        ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Junk",
+    "Order": 10000,
+    "NameLocKey": "Lapantouflemagic.Deprecated.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Other/Poop",
+    "FallbackGroup": false
+  }
+}

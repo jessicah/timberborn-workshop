@@ -1,0 +1,34 @@
+{
+  "GoodSpec": {
+    "Id": "FriedRice",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "Hunger",
+        "Points": 0.3
+      },
+      {
+        "NeedId": "FriedRice",
+        "Points": 0.2
+      }
+    ],
+    "GoodType": "Warm",
+    "StockpileVisualization": "WarmGranular",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.4792453,
+      "g": 0.4792453,
+      "b": 0.4792453,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/FriedRiceBall",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Food",
+    "GoodOrder": 10210,
+    "Icon": "sprites/Whitepaws Sprites/Goods/FriedRice",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.FriedRice.DisplayName",
+    "PluralDisplayNameLocKey": "Good.FriedRice.PluralDisplayName"
+  }
+}

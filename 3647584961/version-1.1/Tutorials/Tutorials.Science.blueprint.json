@@ -1,0 +1,15 @@
+{
+  "TutorialSpec": {
+    "Id": "Science",
+    "NameLocKey": "Tutorial.Science",
+    "RequiredTutorialIds": [
+      "WorkingHours"
+    ],
+    "SkipIfTutorialFinished": "Tutorial",
+    "SortOrder": 50,
+    "Stages": [
+      "Science.BuildInventor",
+      "Science.SciencePoints"
+    ]
+  }
+}

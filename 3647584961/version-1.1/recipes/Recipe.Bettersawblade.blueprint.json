@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Bettersawblade",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.Crudesawblade.DisplayName",
+    "CycleDurationInHours": 3.0,
+    "Ingredients": [
+      {
+        "Id": "MetalBlock",
+        "Amount": 2
+      },
+      {
+        "Id": "Water",
+        "Amount": 60
+      }
+    ],
+    "Products": [
+      {
+        "Id": "Crudesawblade",
+        "Amount": 4
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "HoomanRelic",
+    "CyclesFuelLasts": 3,
+    "FuelCapacity": 10,
+    "CyclesCapacity": 15,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Crudesawblade"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TutorialSpec": {
+    "Id": "Storage",
+    "NameLocKey": "Tutorial.Storage",
+    "RequiredTutorialIds": [
+      "WorkingHours"
+    ],
+    "SkipIfTutorialFinished": "Tutorial",
+    "SortOrder": 40,
+    "Stages": [
+      "Storage.BuildPile",
+      "Storage.BuildTanks",
+      "Storage.BuildWarehouses"
+    ]
+  }
+}

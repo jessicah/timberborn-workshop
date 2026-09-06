@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "BrainSalts",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.BrainSalts.PluralDisplayName",
+    "CycleDurationInHours": 0.3,
+    "Ingredients": [
+      {
+        "Id": "Badwater",
+        "Amount": 3
+      },
+      {
+        "Id": "Alcohol",
+        "Amount": 1
+      }
+    ],
+    "Products": [
+      {
+        "Id": "BrainSalts",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 0,
+    "Fuel": "Log",
+    "CyclesFuelLasts": 20,
+    "FuelCapacity": 20,
+    "CyclesCapacity": 100,
+    "Icon": "sprites/Whitepaws Sprites/Goods/BrainSalts"
+  }
+}

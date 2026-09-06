@@ -1,0 +1,19 @@
+{
+  "GoodSpec": {
+    "GoodType": "Box",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 0.381132,
+      "g": 0.178951159,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "CarryingAnimation": "CarryInHands",
+    "GoodGroupId": "Materials",
+    "Icon": "sprites/Whitepaws Sprites/Goods/Clay",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Clay.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Clay.PluralDisplayName"
+  }
+}

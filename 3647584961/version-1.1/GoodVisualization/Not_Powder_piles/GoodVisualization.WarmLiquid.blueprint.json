@@ -1,0 +1,8 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "WarmLiquid",
+  "Variant": "3x3",
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/warmSoupPlane",
+  "NonLinearity": -0.7
+
+}}

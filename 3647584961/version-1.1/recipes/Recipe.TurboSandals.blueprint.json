@@ -1,0 +1,33 @@
+{
+  "RecipeSpec": {
+    "Id": "TurboSandals",
+  "DisplayLocKey": "Good.Sandals.PluralDisplayName",
+  "CycleDurationInHours": 4,
+  "CyclesCapacity": 10,
+  "Ingredients": [
+    {
+      "Id": "Log",
+      "Amount": 5
+    }, {
+      "Id": "Rope",
+      "Amount": 10
+    },{
+      "Id": "Metalfixation",
+      "Amount": 5
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Sandals",
+      "Amount": 36
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Sandals",
+
+	"BackwardCompatibleIds": []
+  }
+}

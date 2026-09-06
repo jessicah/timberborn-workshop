@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "BarreledWater",
+    "Variant": "1x1",
+    "Offset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "LimitingAmount": 0.0,
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/1Barrel",
+    "SecondaryMesh": "",
+    "Material": "materials/uberatlas/materials/ironteeth/Details.IronTeeth",
+    "NonLinearity": -0.99
+  }
+}

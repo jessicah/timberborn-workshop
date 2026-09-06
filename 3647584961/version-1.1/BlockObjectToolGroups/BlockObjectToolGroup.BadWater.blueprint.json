@@ -1,0 +1,23 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "BadWater",
+    "Order": 80,
+    "NameLocKey": "Good.Badwater.DisplayName",
+    "Icon": "sprites/Whitepaws Sprites/Other/BadWaterGroup",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Water"
+    ]
+  },
+  "ToolGroupChildrenSpec": {
+    "ChildrenGroupsIds": [],
+    "ChildrenToolsTemplateNames": [
+      "FireflyGroomingStation"
+    ],
+    "ChildrenOrderedIds": [],
+    "ChildrenExplicitOrderedIds": [],
+    "DoNotIncludePlaceableToolGroup": false
+  }
+}

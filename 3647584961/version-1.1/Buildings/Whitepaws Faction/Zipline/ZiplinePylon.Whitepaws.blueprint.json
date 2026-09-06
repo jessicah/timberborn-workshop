@@ -1,0 +1,389 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "ZiplinePylon",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 4
+      },
+      {
+        "Id": "Scaffolding",
+        "Amount": 2
+      },
+      {
+        "Id": "Metalfixation",
+        "Amount": 4
+      },
+      {
+        "Id": "Gear",
+        "Amount": 1
+      },
+      {
+        "Id": "Rope",
+        "Amount": 10
+      }
+    ],
+    "ScienceCost": 50,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ZiplinePylon.Whitepaws",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 5
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Top, Corners",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "All",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Paths",
+    "ToolOrder": 41,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.ZiplinePylon.DisplayName",
+    "DescriptionLocKey": "Building.ZiplinePylon.Description",
+    "FlavorDescriptionLocKey": "Building.ZiplinePylon.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/Zipline_Pillar"
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 4
+    }
+  },
+  "ZiplineTowerSpec": {
+    "CableAnchorPoint": {
+      "X": 0.5,
+      "Y": 4.85,
+      "Z": 0.5
+    },
+    "MaxConnections": 2,
+    "MaxDistance": 20,
+    "UnobstructedCoordinates": [
+      {
+        "X": 0,
+        "Y": 0,
+        "Z": 3
+      }
+    ]
+  },
+  "BlockObjectWithPathRangeSpec": {},
+  "MovementSpeedBoostingBuildingSpec": {
+    "BoostPercentage": 200
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [
+      {
+        "Group": "Zipline",
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 4
+        }
+      }
+    ],
+    "BlockedEdges": []
+  },
+  "BlockObjectAccessesSpec": {
+    "BlockingCoordinates": [
+      {
+        "X": 0,
+        "Y": 0,
+        "Z": 4
+      }
+    ],
+    "AllowedCoordinates": []
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Whitepaws Faction/Townstuff_Meshies/Zipline_Pillar.Whitepaws.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.95,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.8,
+              "Y": 0.1,
+              "Z": 0.8
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 4.8,
+              "Z": 0.5
+            },
+            "Radius": 0.5,
+            "Height": 1.0,
+            "Axis": "Y"
+          }
+        ]
+      },
+      "Children": {
+        "rotated_hitbox": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.2,
+              "Y": 2.0,
+              "Z": 0.2
+            },
+            "Rotation": {
+              "X": 5.00000238,
+              "Y": -1.33911708E-08,
+              "Z": 354.999969
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 4.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "rotated_hitbox (1)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.2,
+              "Y": 2.0,
+              "Z": 0.8
+            },
+            "Rotation": {
+              "X": 354.999969,
+              "Y": 1.33911708E-08,
+              "Z": 354.999969
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 4.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "rotated_hitbox (2)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.8,
+              "Y": 2.0,
+              "Z": 0.8
+            },
+            "Rotation": {
+              "X": 354.999969,
+              "Y": -1.33911708E-08,
+              "Z": 5.00000143
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 4.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "rotated_hitbox (3)": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.8,
+              "Y": 2.0,
+              "Z": 0.199999988
+            },
+            "Rotation": {
+              "X": 5.000002,
+              "Y": 0.0,
+              "Z": 5.00000143
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.1,
+                  "Y": 4.0,
+                  "Z": 0.1
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1": {
+          "TimbermeshSpec": {
+            "Model": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.05,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.1,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

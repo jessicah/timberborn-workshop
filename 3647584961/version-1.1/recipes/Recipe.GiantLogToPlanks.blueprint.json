@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "GiantLogToPlanks",
+  "DisplayLocKey": "Good.Plank.PluralDisplayName",
+  "CycleDurationInHours": 144,
+  "CyclesCapacity": 5,
+  "Ingredients": [
+    {
+      "Id": "GiantLog",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Plank",
+      "Amount": 180
+    },
+    {
+      "Id": "Sawdust",
+      "Amount": 360
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Steelsawblade",
+  "CyclesFuelLasts": 5,
+  "FuelCapacity": 5,
+  "Icon": "Sprites/Goods/PlankIcon",
+	"BackwardCompatibleIds": []
+  }
+}

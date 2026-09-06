@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "ChestnutBeerBarrel",
+  "DisplayLocKey": "Reciepe.ChestnutBeerBarrel.DisplayName",
+  "CycleDurationInHours": 48,
+  "CyclesCapacity": 2,
+  "Ingredients":[ 
+    {
+      "Id": "Chestnut",
+      "Amount": 5
+    },
+    {
+      "Id": "Water",
+      "Amount": 18
+    }
+  ],
+  "Products": [
+    {
+      "Id": "ChestnutBeer",
+      "Amount": 20
+    }
+  ],
+  "ProducedSciencePoints": 0,
+    "Fuel": "",
+  "CyclesFuelLasts": 0,
+  "FuelCapacity": 0,
+  "Icon": "sprites/Whitepaws Sprites/Goods/ChestnutBeer",
+	"BackwardCompatibleIds": []
+  }
+}

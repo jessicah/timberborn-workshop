@@ -1,0 +1,25 @@
+{
+  "GoodSpec": {
+    "Id": "Tar",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [],
+    "GoodType": "Warm",
+    "StockpileVisualization": "WarmLiquid",
+    "VisibleContainer": "Barrel",
+    "ContainerColor": {
+      "r": 0.3962264,
+      "g": 0.322214276,
+      "b": 0.322214276,
+      "a": 0.0
+    },
+    "ContainerMaterial": "Materials/WhitepawsCustomLiquidsETC/Tar",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 5,
+    "GoodGroupId": "Logs",
+    "GoodOrder": 10221,
+    "Icon": "sprites/Whitepaws Sprites/Goods/Tar",
+    "ForceImport": true,
+    "DisplayNameLocKey": "Good.Tar.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Tar.PluralDisplayName"
+  }
+}

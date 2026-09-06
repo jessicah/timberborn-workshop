@@ -1,0 +1,37 @@
+{
+  "NeedSpec": {
+    "Id": "SevereInjury",
+    "BackwardCompatibleIds": [],
+    "Order": 81,
+    "NeedGroupId": "BasicNeeds",
+    "CharacterType": "Beaver",
+    "StartingValue": 0.0,
+    "MinimumValue": -1.0,
+    "MaximumValue": 0.0,
+    "DailyDelta": 0.0,
+    "ImportanceMultiplier": 4.5,
+    "Effectiveness": 1.0,
+    "Wastable": true,
+    "HoursWarningThreshold": 0.0,
+    "DisplayNameLocKey": "Lapantouflemagic.SevereInjury.DisplayName",
+    "FavorableWellbeing": 0,
+    "UnfavorableWellbeing": -25
+  },
+  "LethalNeedSpec": {
+    "DeathWarningLocKey": "Needs.Beaver.DeathWarning",
+    "DeathMessageLocKey": "Lapantouflemagic.SevereInjury.DeathMessage"
+  },
+  "CriticalNeedSpec": {
+    "CriticalNeedType": "StateWithAlert",
+    "SpriteName": "SevereInjury",
+    "DescriptionLocKey": "Lapantouflemagic.SevereInjury.CriticalDescription",
+    "DescriptionShortLocKey": "Lapantouflemagic.SevereInjury.CriticalDescriptionShort"
+  },
+  "PunitiveNeedSpec": {
+    "Penalties": []
+  },
+  "NeedPreventingWorkSpec": {
+    "WorkRefusalWarningLocKey": "Work.WorkRefusalWarning"
+  },
+  "InactiveHiddenNeedSpec": {}
+}

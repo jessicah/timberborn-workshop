@@ -1,0 +1,25 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Whitepaws_Automation",
+    "Blueprints": [
+      "Buildings/Whitepaws Faction/Automation/Calculatorium.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Relay.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Memory.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Counter_Science.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Counter_Resource.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Counter_Pop.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Counter_Power.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Chronometer.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Timer.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Lever.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/FireworkLauncher.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/WaterSensor_Flow.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/WaterSensor_Depth.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/WaterSensor_Contamination.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Woodupgrade_WeatherStation.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Indicator.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/WallMountIndicator.Whitepaws.blueprint",
+      "Buildings/Whitepaws Faction/Automation/Gate.Whitepaws.blueprint"
+    ]
+  }
+}

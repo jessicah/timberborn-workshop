@@ -1,0 +1,14 @@
+{
+  "BlockObjectToolGroupSpec": {
+    "Id": "Logging",
+    "Order": 10,
+    "NameLocKey": "Toolgroup.Logging.DisplayName",
+    "Icon": "Sprites/Whitepaws Sprites/Other/Logging",
+    "FallbackGroup": false
+  },
+  "ParentToolGroupSpec": {
+    "ParentIds": [
+      "Wood"
+    ]
+  }
+}

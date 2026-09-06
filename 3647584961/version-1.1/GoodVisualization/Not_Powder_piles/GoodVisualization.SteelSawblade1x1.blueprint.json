@@ -1,0 +1,14 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "SteelSawblade",
+  "Variant": "1x1",
+  "Offset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+    "PrimaryMesh": "Not_Powder_Pilables_Meshes/1Sawblade", //call a mesh
+    "Material": "Materials/WhitepawsCustomLiquidsETC/SteelSawblade", //call a balltexture
+  "NonLinearity": -0.99
+
+}}

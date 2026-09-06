@@ -1,0 +1,373 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 10
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 5,
+    "DefaultWorkers": 5,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ManufactorySpec": {
+    "ProductionRecipeIds": [
+      "BadPlank",
+      "Sawdust",
+      "Screwaxle",
+      "CRAP_GiantHalfLog"
+    ]
+  },
+  "SimpleManufactoryBehaviorsSpec": {},
+  "TemplateSpec": {
+    "TemplateName": "GnawingTent.Whitepaws",
+    "BackwardCompatibleTemplateNames": [
+      "Gnawingtent"
+    ],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "WorkplaceSlotManagerSpec": {},
+  "TransformSlotInitializerSpec": {
+    "Slots": [
+      {
+        "SlotKeyword": "Working",
+        "Animation": "TeethSharpening",
+        "Inanimate": false,
+        "RandomizeYRotation": false,
+        "WaterSlot": false
+      }
+    ]
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 2,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 1,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 1.61462474,
+      "Y": 0.03638568,
+      "Z": 0.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Wood",
+    "ToolOrder": 20,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Luc.Gnawingtent.DisplayName",
+    "DescriptionLocKey": "Luc.Gnawingtent.Description",
+    "FlavorDescriptionLocKey": "Luc.Gnawingtent.FlavorDescription",
+    "Icon": "sprites/Whitepaws Sprites/Buildings/gnawingtent"
+  },
+  "WorkshopSpec": {},
+  "WorkshopRandomNeedApplierSpec": {
+    "Effects": [
+      {
+        "NeedId": "ChippedTeeth",
+        "Points": -1.0,
+        "Probability": "High"
+      },
+      {
+        "NeedId": "MinorInjury",
+        "Points": -0.1,
+        "Probability": "High"
+      }
+    ]
+  },
+  "ManufactoryTogglableRecipesSpec": {
+    "LabelLocKey": "Lapantouflemagic.Toggle.Arrow"
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": true,
+    "CapacityFinished": 5,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "GoodAmountTransformHeightSpec": {
+    "TargetName": "#Misc#SawdustPile",
+    "MaxHeight": 0.22,
+    "Good": "Sawdust",
+    "NonLinearity": -0.75
+  },
+  "WorkshopWorkerHiderSpec": {},
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.8,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 3.0,
+              "Y": 1.6,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "LumberMill": {
+          "Children": {
+            "#Slot#Working.001": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.048,
+                  "Y": 0.045,
+                  "Z": 0.587
+                },
+                "Rotation": {
+                  "X": 6.45781053E-15,
+                  "Y": 4.399273,
+                  "Z": 7.534258E-15
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Working.002": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 2.27,
+                  "Y": 0.0450000763,
+                  "Z": 1.071
+                },
+                "Rotation": {
+                  "X": -5.17566226E-15,
+                  "Y": 193.562,
+                  "Z": -8.466461E-15
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Working.003": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 2.133,
+                  "Y": 0.0450000763,
+                  "Z": 0.422
+                },
+                "Rotation": {
+                  "X": 6.45781053E-15,
+                  "Y": 4.399273,
+                  "Z": 7.534258E-15
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Working.004": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.716,
+                  "Y": 0.0450000763,
+                  "Z": 1.139
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 190.855347,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            },
+            "#Slot#Working.005": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.55,
+                  "Y": 0.0450000763,
+                  "Z": 0.52
+                },
+                "Rotation": {
+                  "X": 5.66363329E-15,
+                  "Y": 10.1974049,
+                  "Z": 8.148106E-15
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              }
+            }
+          }
+        },
+        "Meshy_Holder": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/LightIndustry_Meshies/GnawingTent.Whitepaws.Model"
+          }
+        },
+        "#Misc#SawdustPile": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Whitepaws Faction/LightIndustry_Meshies/SawdustPile.Model"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase3x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase3x2/ConstructionBase3x2.blueprint"
+        }
+      }
+    }
+  }
+}

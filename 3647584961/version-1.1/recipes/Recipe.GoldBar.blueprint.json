@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "GoldBar",
+    "BackwardCompatibleIds": [],
+    "DisplayLocKey": "Good.GoldBar.DisplayName",
+    "CycleDurationInHours": 32.0,
+    "Ingredients": [
+      {
+        "Id": "GoldDust",
+        "Amount": 100
+      },
+      {
+        "Id": "Coal",
+        "Amount": 50
+      }
+    ],
+    "Products": [
+      {
+        "Id": "GoldBar",
+        "Amount": 1
+      }
+    ],
+    "ProducedSciencePoints": 10,
+    "Fuel": "",
+    "CyclesFuelLasts": 0,
+    "FuelCapacity": 0,
+    "CyclesCapacity": 10,
+    "Icon": "sprites/Whitepaws Sprites/Goods/GoldBar"
+  }
+}

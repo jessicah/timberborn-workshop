@@ -1,0 +1,30 @@
+{
+  "RecipeSpec": {
+    "Id": "Tools",
+  "DisplayLocKey": "Good.Tools.PluralDisplayName",
+  "CycleDurationInHours": 8,
+  "CyclesCapacity": 20,
+  "Ingredients": [
+    {
+      "Id": "ScrapMetal",
+      "Amount": 1
+    }, {
+      "Id": "Log",
+      "Amount": 1
+    }
+  ],
+  "Products": [
+    {
+      "Id": "Tools",
+      "Amount": 5
+    }
+  ],
+  "ProducedSciencePoints": 0,
+  "Fuel": "Coal",
+  "CyclesFuelLasts": 2,
+  "FuelCapacity": 10,
+  "Icon": "sprites/Whitepaws Sprites/Goods/Tools",
+
+	"BackwardCompatibleIds": []
+  }
+}

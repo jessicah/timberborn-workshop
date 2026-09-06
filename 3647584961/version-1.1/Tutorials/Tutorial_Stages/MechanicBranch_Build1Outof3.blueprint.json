@@ -1,0 +1,20 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Build1Outof3",
+    "IntroLocKey": "Tutorial.MechanicBranch.Build1Outof3.Whitepaws"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Papermill.Whitepaws",
+          "Ropemaker.Whitepaws",
+          "MecanizedKitchenHouse.Whitepaws",
+          "DeepPumpingHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}
