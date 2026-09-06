@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Whitepaws", "Order": 716001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Whitepaws",
+      "SteamVentMiningSite.Whitepaws",
+      "FrozenAquifer.Whitepaws",
+      "IceBergMiningSite.Whitepaws",
+      "OilWell_Artificial.Whitepaws",
+      "OilDrill.Whitepaws",
+      "OilDrill2.Whitepaws",
+      "AbyssElevator.Whitepaws",
+      "SupplementaryExplorationTeam.Whitepaws",
+      "NuclearWasteCollector.Whitepaws",
+      "GasExctractor.Whitepaws",
+      "AbyssExcavator.Whitepaws",
+      "HoomanUndergroundChemPlant.Whitepaws",
+      "HoomanUndergroundFactory.Whitepaws",
+      "DeepMinePILEstorage.Whitepaws",
+      "DeepMineBOXStorage.Whitepaws",
+      "AbyssTourismCenter.Whitepaws",
+      "HoomanMedicalFacility.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Whitepaws",
+      "SteamVentMiningSite.Whitepaws",
+      "FrozenAquifer.Whitepaws",
+      "IceBergMiningSite.Whitepaws",
+      "OilWell_Artificial.Whitepaws",
+      "OilDrill.Whitepaws",
+      "OilDrill2.Whitepaws",
+      "AbyssElevator.Whitepaws",
+      "SupplementaryExplorationTeam.Whitepaws",
+      "NuclearWasteCollector.Whitepaws",
+      "GasExctractor.Whitepaws",
+      "AbyssExcavator.Whitepaws",
+      "HoomanUndergroundChemPlant.Whitepaws",
+      "HoomanUndergroundFactory.Whitepaws",
+      "DeepMinePILEstorage.Whitepaws",
+      "DeepMineBOXStorage.Whitepaws",
+      "AbyssTourismCenter.Whitepaws",
+      "HoomanMedicalFacility.Whitepaws"
+    ]
+  }
+}

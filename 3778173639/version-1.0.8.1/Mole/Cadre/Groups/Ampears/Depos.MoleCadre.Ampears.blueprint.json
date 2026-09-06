@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Ampears", "Order": 919000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Ampears",
+      "Pit-and-LadderLodge_BoxStorage.Ampears",
+      "GloriousStorage.Ampears",
+      "SmallWarehouse.Ampears",
+      "SmallAquaDepo.Ampears.Mole",
+      "LongWarehouse.Ampears",
+      "PitWarehouse.Ampears",
+      "Warehouse.Ampears",
+      "MediumWarehouse.Ampears",
+      "BasicAquaDepo.Ampears.Mole",
+      "LargeWarehouse.Ampears",
+      "LargeAquaDepo.Ampears.Mole",
+      "GigargantuanWarehouse.Ampears",
+      "UndergroundWarehouse.Ampears",
+      "BuriedAquaDepo.Ampears.Mole",
+      "LargeUndergroundWarehouse.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Ampears",
+      "Pit-and-LadderLodge_BoxStorage.Ampears",
+      "GloriousStorage.Ampears",
+      "SmallWarehouse.Ampears",
+      "SmallAquaDepo.Ampears.Mole",
+      "LongWarehouse.Ampears",
+      "PitWarehouse.Ampears",
+      "Warehouse.Ampears",
+      "MediumWarehouse.Ampears",
+      "BasicAquaDepo.Ampears.Mole",
+      "LargeWarehouse.Ampears",
+      "LargeAquaDepo.Ampears.Mole",
+      "GigargantuanWarehouse.Ampears",
+      "UndergroundWarehouse.Ampears",
+      "BuriedAquaDepo.Ampears.Mole",
+      "LargeUndergroundWarehouse.Ampears"
+    ]
+  }
+}

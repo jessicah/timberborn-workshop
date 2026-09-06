@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Copperclaws", "Order": 1502003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Copperclaws",
+      "LargeMetalPlatform.Copperclaws",
+      "MetalPlatform1x1.Copperclaws",
+      "MetalPlatform3x3.Copperclaws",
+      "MetalPlatform5x3.Copperclaws",
+      "MetalPlatform5x5.Copperclaws",
+      "MetalPlatform7x7.Copperclaws",
+      "MetalPlatform3x3.Ladder.Copperclaws",
+      "MetalPlatform5x5.Ladder.Copperclaws",
+      "MetalPlatform7x7.Ladder.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Copperclaws",
+      "LargeMetalPlatform.Copperclaws",
+      "MetalPlatform1x1.Copperclaws",
+      "MetalPlatform3x3.Copperclaws",
+      "MetalPlatform5x3.Copperclaws",
+      "MetalPlatform5x5.Copperclaws",
+      "MetalPlatform7x7.Copperclaws",
+      "MetalPlatform3x3.Ladder.Copperclaws",
+      "MetalPlatform5x5.Ladder.Copperclaws",
+      "MetalPlatform7x7.Ladder.Copperclaws"
+    ]
+  }
+}

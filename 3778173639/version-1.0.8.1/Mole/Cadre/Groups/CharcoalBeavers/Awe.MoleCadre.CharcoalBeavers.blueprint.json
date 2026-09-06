@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.CharcoalBeavers", "Order": 626000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.CharcoalBeavers",
+      "LaborerMonument.CharcoalBeavers",
+      "BrazierOfBonding.CharcoalBeavers",
+      "FlameOfUnity.CharcoalBeavers",
+      "FountainOfJoy.CharcoalBeavers",
+      "PublicFountain.CharcoalBeavers",
+      "TributeToIngenuity.CharcoalBeavers",
+      "HallOfAbundance.CharcoalBeavers",
+      "ArchOfProgress.CharcoalBeavers",
+      "EarthRecultivator.CharcoalBeavers",
+      "EarthRepopulator.CharcoalBeavers",
+      "WonderOfFire.CharcoalBeavers",
+      "Wonder.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.CharcoalBeavers",
+      "LaborerMonument.CharcoalBeavers",
+      "BrazierOfBonding.CharcoalBeavers",
+      "FlameOfUnity.CharcoalBeavers",
+      "FountainOfJoy.CharcoalBeavers",
+      "PublicFountain.CharcoalBeavers",
+      "TributeToIngenuity.CharcoalBeavers",
+      "HallOfAbundance.CharcoalBeavers",
+      "ArchOfProgress.CharcoalBeavers",
+      "EarthRecultivator.CharcoalBeavers",
+      "EarthRepopulator.CharcoalBeavers",
+      "WonderOfFire.CharcoalBeavers",
+      "Wonder.CharcoalBeavers"
+    ]
+  }
+}

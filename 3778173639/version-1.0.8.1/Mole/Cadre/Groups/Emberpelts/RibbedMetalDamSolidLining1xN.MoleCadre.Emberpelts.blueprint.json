@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "RibbedMetalDamSolidLining1xN.MoleCadre.Emberpelts", "Order": 407001, "NameLocKey": "Group.RibbedMetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_RM_SquareW1x1.Emberpelts",
+      "DE_RM_SquareW1x2.Emberpelts",
+      "DE_RM_SquareW1x3.Emberpelts",
+      "DE_RM_SlopeW.Emberpelts",
+      "DE_RM_InvSlopeW.Emberpelts",
+      "DE_RM_InvSlopeW1x1.Emberpelts",
+      "DE_RM_InvSlopeW1x2.Emberpelts",
+      "DE_RM_InvCornerW.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_RM_SquareW1x1.Emberpelts",
+      "DE_RM_SquareW1x2.Emberpelts",
+      "DE_RM_SquareW1x3.Emberpelts",
+      "DE_RM_SlopeW.Emberpelts",
+      "DE_RM_InvSlopeW.Emberpelts",
+      "DE_RM_InvSlopeW1x1.Emberpelts",
+      "DE_RM_InvSlopeW1x2.Emberpelts",
+      "DE_RM_InvCornerW.Emberpelts"
+    ]
+  }
+}

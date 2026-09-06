@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.Ampears", "Order": 924000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.Ampears",
+      "Roof.Dynamic.Ampears",
+      "Roof1x1.Ampears",
+      "Roof1x2.Ampears",
+      "Roof2x2.Ampears",
+      "Roof2x3.Ampears",
+      "Roof3x2.Ampears",
+      "HalfRoof1x1.Ampears",
+      "HalfRoof1x2.Ampears",
+      "HalfRoof2x1.Ampears",
+      "HalfRoof2x2.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.Ampears",
+      "Roof.Dynamic.Ampears",
+      "Roof1x1.Ampears",
+      "Roof1x2.Ampears",
+      "Roof2x2.Ampears",
+      "Roof2x3.Ampears",
+      "Roof3x2.Ampears",
+      "HalfRoof1x1.Ampears",
+      "HalfRoof1x2.Ampears",
+      "HalfRoof2x1.Ampears",
+      "HalfRoof2x2.Ampears"
+    ]
+  }
+}

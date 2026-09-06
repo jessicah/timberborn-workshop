@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Emberpelts", "Order": 419000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Emberpelts",
+      "Pit-and-LadderLodge_BoxStorage.Emberpelts",
+      "GloriousStorage.Emberpelts",
+      "SmallWarehouse.Emberpelts",
+      "SmallAquaDepo.Emberpelts.Mole",
+      "LongWarehouse.Emberpelts",
+      "PitWarehouse.Emberpelts",
+      "Warehouse.Emberpelts",
+      "MediumWarehouse.Emberpelts",
+      "BasicAquaDepo.Emberpelts.Mole",
+      "LargeWarehouse.Emberpelts",
+      "LargeAquaDepo.Emberpelts.Mole",
+      "GigargantuanWarehouse.Emberpelts",
+      "UndergroundWarehouse.Emberpelts",
+      "BuriedAquaDepo.Emberpelts.Mole",
+      "LargeUndergroundWarehouse.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Emberpelts",
+      "Pit-and-LadderLodge_BoxStorage.Emberpelts",
+      "GloriousStorage.Emberpelts",
+      "SmallWarehouse.Emberpelts",
+      "SmallAquaDepo.Emberpelts.Mole",
+      "LongWarehouse.Emberpelts",
+      "PitWarehouse.Emberpelts",
+      "Warehouse.Emberpelts",
+      "MediumWarehouse.Emberpelts",
+      "BasicAquaDepo.Emberpelts.Mole",
+      "LargeWarehouse.Emberpelts",
+      "LargeAquaDepo.Emberpelts.Mole",
+      "GigargantuanWarehouse.Emberpelts",
+      "UndergroundWarehouse.Emberpelts",
+      "BuriedAquaDepo.Emberpelts.Mole",
+      "LargeUndergroundWarehouse.Emberpelts"
+    ]
+  }
+}

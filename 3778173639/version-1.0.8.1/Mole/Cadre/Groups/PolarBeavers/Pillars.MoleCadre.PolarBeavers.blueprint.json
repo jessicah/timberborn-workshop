@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.PolarBeavers", "Order": 1102001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.PolarBeavers",
+      "Pillar_1.PolarBeavers",
+      "Pillar_2.PolarBeavers",
+      "Pillar_3.PolarBeavers",
+      "Pillar_4.PolarBeavers",
+      "Pillars.PolarBeavers",
+      "PillarTop.PolarBeavers",
+      "StaircasePlatform.PolarBeavers",
+      "StaircasePillar.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.PolarBeavers",
+      "Pillar_1.PolarBeavers",
+      "Pillar_2.PolarBeavers",
+      "Pillar_3.PolarBeavers",
+      "Pillar_4.PolarBeavers",
+      "Pillars.PolarBeavers",
+      "PillarTop.PolarBeavers",
+      "StaircasePlatform.PolarBeavers",
+      "StaircasePillar.PolarBeavers"
+    ]
+  }
+}

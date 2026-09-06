@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Emberpelts", "Order": 426000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Emberpelts",
+      "LaborerMonument.Emberpelts",
+      "BrazierOfBonding.Emberpelts",
+      "FlameOfUnity.Emberpelts",
+      "FountainOfJoy.Emberpelts",
+      "PublicFountain.Emberpelts",
+      "TributeToIngenuity.Emberpelts",
+      "HallOfAbundance.Emberpelts",
+      "ArchOfProgress.Emberpelts",
+      "EarthRecultivator.Emberpelts",
+      "EarthRepopulator.Emberpelts",
+      "WonderOfFire.Emberpelts",
+      "Wonder.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Emberpelts",
+      "LaborerMonument.Emberpelts",
+      "BrazierOfBonding.Emberpelts",
+      "FlameOfUnity.Emberpelts",
+      "FountainOfJoy.Emberpelts",
+      "PublicFountain.Emberpelts",
+      "TributeToIngenuity.Emberpelts",
+      "HallOfAbundance.Emberpelts",
+      "ArchOfProgress.Emberpelts",
+      "EarthRecultivator.Emberpelts",
+      "EarthRepopulator.Emberpelts",
+      "WonderOfFire.Emberpelts",
+      "Wonder.Emberpelts"
+    ]
+  }
+}

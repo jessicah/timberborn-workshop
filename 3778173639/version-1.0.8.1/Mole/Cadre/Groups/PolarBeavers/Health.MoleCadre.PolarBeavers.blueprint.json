@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.PolarBeavers", "Order": 1122000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.PolarBeavers",
+      "TeethGrindstone.PolarBeavers",
+      "MedicalBed.PolarBeavers",
+      "MedicalTripleBed.PolarBeavers",
+      "Fixedmedicalbed_Burns.PolarBeavers",
+      "Fixedmedicalbed_Disease.PolarBeavers",
+      "Fixedmedicalbed_Injury.PolarBeavers",
+      "Clinic.PolarBeavers",
+      "DecontaminationPod.PolarBeavers",
+      "ContaminatedJail.PolarBeavers",
+      "WashingMachine.PolarBeavers",
+      "Herbalist.PolarBeavers",
+      "TankShower.PolarBeavers",
+      "Shower.PolarBeavers",
+      "DoubleShower.PolarBeavers",
+      "RiverBath.PolarBeavers",
+      "Scratcher.PolarBeavers",
+      "Massager.PolarBeavers",
+      "Sauna.PolarBeavers",
+      "Hammock.PolarBeavers",
+      "Swing.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.PolarBeavers",
+      "TeethGrindstone.PolarBeavers",
+      "MedicalBed.PolarBeavers",
+      "MedicalTripleBed.PolarBeavers",
+      "Fixedmedicalbed_Burns.PolarBeavers",
+      "Fixedmedicalbed_Disease.PolarBeavers",
+      "Fixedmedicalbed_Injury.PolarBeavers",
+      "Clinic.PolarBeavers",
+      "DecontaminationPod.PolarBeavers",
+      "ContaminatedJail.PolarBeavers",
+      "WashingMachine.PolarBeavers",
+      "Herbalist.PolarBeavers",
+      "TankShower.PolarBeavers",
+      "Shower.PolarBeavers",
+      "DoubleShower.PolarBeavers",
+      "RiverBath.PolarBeavers",
+      "Scratcher.PolarBeavers",
+      "Massager.PolarBeavers",
+      "Sauna.PolarBeavers",
+      "Hammock.PolarBeavers",
+      "Swing.PolarBeavers"
+    ]
+  }
+}

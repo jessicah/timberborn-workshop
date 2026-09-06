@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Badfurs", "Order": 1401008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Badfurs",
+      "Tubeway.Gate.Badfurs",
+      "DistrictGate.Badfurs",
+      "DistrictGateTubeway.Badfurs",
+      "DecoSmallGate.Badfurs",
+      "SmallGate.Badfurs",
+      "HedgeGate.Badfurs",
+      "MetalGate.Badfurs",
+      "GoldGate.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Badfurs",
+      "Tubeway.Gate.Badfurs",
+      "DistrictGate.Badfurs",
+      "DistrictGateTubeway.Badfurs",
+      "DecoSmallGate.Badfurs",
+      "SmallGate.Badfurs",
+      "HedgeGate.Badfurs",
+      "MetalGate.Badfurs",
+      "GoldGate.Badfurs"
+    ]
+  }
+}

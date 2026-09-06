@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.LeafCoats", "Order": 501009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.LeafCoats",
+      "TE_Tunnel_1L.LeafCoats",
+      "TE_Tunnel_2L.LeafCoats",
+      "TE_Tunnel_3L.LeafCoats",
+      "TE_Tunnel_4L.LeafCoats",
+      "TE_Tunnel_5L.LeafCoats",
+      "TE_Tunnel_6L.LeafCoats",
+      "TE_Tunnel_7L.LeafCoats",
+      "TE_Tunnel_8L.LeafCoats",
+      "TE_Tunnel_9L.LeafCoats",
+      "TE_Tunnel_10L.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.LeafCoats",
+      "TE_Tunnel_1L.LeafCoats",
+      "TE_Tunnel_2L.LeafCoats",
+      "TE_Tunnel_3L.LeafCoats",
+      "TE_Tunnel_4L.LeafCoats",
+      "TE_Tunnel_5L.LeafCoats",
+      "TE_Tunnel_6L.LeafCoats",
+      "TE_Tunnel_7L.LeafCoats",
+      "TE_Tunnel_8L.LeafCoats",
+      "TE_Tunnel_9L.LeafCoats",
+      "TE_Tunnel_10L.LeafCoats"
+    ]
+  }
+}

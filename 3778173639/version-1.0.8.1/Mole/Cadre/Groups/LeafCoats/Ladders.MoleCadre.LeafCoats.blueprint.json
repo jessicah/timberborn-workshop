@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.LeafCoats", "Order": 501002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.LeafCoats.Mole",
+      "Ladder.LeafCoats.Mole",
+      "Ladder.Simple.LeafCoats",
+      "Ladder.LeafCoats",
+      "Ladder.Core.LeafCoats",
+      "SkyBridgeLadder.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.LeafCoats.Mole",
+      "Ladder.LeafCoats.Mole",
+      "Ladder.Simple.LeafCoats",
+      "Ladder.LeafCoats",
+      "Ladder.Core.LeafCoats",
+      "SkyBridgeLadder.LeafCoats"
+    ]
+  }
+}

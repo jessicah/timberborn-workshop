@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.IslandBeavers", "Order": 1003000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.IslandBeavers",
+      "DoublePlatform.IslandBeavers",
+      "TriplePlatform.IslandBeavers",
+      "TreeTrunk.Platform.IslandBeavers",
+      "TreeTrunk.DoublePlatform.IslandBeavers",
+      "TreeTrunk.TriplePlatform.IslandBeavers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.IslandBeavers",
+      "MetalPillars.MoleCadre.IslandBeavers",
+      "TreeBits.MoleCadre.IslandBeavers",
+      "Overhangs.MoleCadre.IslandBeavers",
+      "MirroredOverhangs.MoleCadre.IslandBeavers",
+      "ArchOverhangs.MoleCadre.IslandBeavers",
+      "MetalPlatforms.MoleCadre.IslandBeavers",
+      "OtherPlatforms.MoleCadre.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.IslandBeavers",
+      "DoublePlatform.IslandBeavers",
+      "TriplePlatform.IslandBeavers",
+      "TreeTrunk.Platform.IslandBeavers",
+      "TreeTrunk.DoublePlatform.IslandBeavers",
+      "TreeTrunk.TriplePlatform.IslandBeavers",
+      "Pillars.MoleCadre.IslandBeavers",
+      "MetalPillars.MoleCadre.IslandBeavers",
+      "TreeBits.MoleCadre.IslandBeavers",
+      "Overhangs.MoleCadre.IslandBeavers",
+      "MirroredOverhangs.MoleCadre.IslandBeavers",
+      "ArchOverhangs.MoleCadre.IslandBeavers",
+      "MetalPlatforms.MoleCadre.IslandBeavers",
+      "OtherPlatforms.MoleCadre.IslandBeavers"
+    ]
+  }
+}

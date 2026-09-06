@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.PolarBeavers", "Order": 1118000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.PolarBeavers",
+      "SmallPile.PolarBeavers",
+      "SmallIndustrialPile.PolarBeavers",
+      "SmallAquaPile.PolarBeavers.Mole",
+      "LongPile.PolarBeavers",
+      "PitPile.PolarBeavers",
+      "2x2PileRight.PolarBeavers",
+      "Pile.PolarBeavers",
+      "IndustrialPile.PolarBeavers",
+      "MediumPile.PolarBeavers",
+      "MediumIndustrialPile.PolarBeavers",
+      "LargePile.PolarBeavers",
+      "LargeIndustrialPile.PolarBeavers",
+      "BasicAquaPile.PolarBeavers.Mole",
+      "ExtraLargePile.PolarBeavers",
+      "ExtraLargeIndustrialPile.PolarBeavers",
+      "LargeAquaPile.PolarBeavers.Mole",
+      "GigargantuanPile.PolarBeavers",
+      "UndergroundPile.PolarBeavers",
+      "BuriedAquaPile.PolarBeavers.Mole",
+      "GiantLogStorage.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.PolarBeavers",
+      "SmallPile.PolarBeavers",
+      "SmallIndustrialPile.PolarBeavers",
+      "SmallAquaPile.PolarBeavers.Mole",
+      "LongPile.PolarBeavers",
+      "PitPile.PolarBeavers",
+      "2x2PileRight.PolarBeavers",
+      "Pile.PolarBeavers",
+      "IndustrialPile.PolarBeavers",
+      "MediumPile.PolarBeavers",
+      "MediumIndustrialPile.PolarBeavers",
+      "LargePile.PolarBeavers",
+      "LargeIndustrialPile.PolarBeavers",
+      "BasicAquaPile.PolarBeavers.Mole",
+      "ExtraLargePile.PolarBeavers",
+      "ExtraLargeIndustrialPile.PolarBeavers",
+      "LargeAquaPile.PolarBeavers.Mole",
+      "GigargantuanPile.PolarBeavers",
+      "UndergroundPile.PolarBeavers",
+      "BuriedAquaPile.PolarBeavers.Mole",
+      "GiantLogStorage.PolarBeavers"
+    ]
+  }
+}

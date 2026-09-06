@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.Emberpelts", "Order": 401000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.Emberpelts",
+      "Lever.Emberpelts",
+      "Relay.Emberpelts",
+      "FlowSensor.Emberpelts",
+      "DepthSensor.Emberpelts",
+      "ContaminationSensor.Emberpelts",
+      "Chronometer.Emberpelts",
+      "WeatherStation.Emberpelts",
+      "PowerMeter.Emberpelts",
+      "PopulationCounter.Emberpelts",
+      "ResourceCounter.Emberpelts",
+      "ScienceCounter.Emberpelts",
+      "Indicator.Emberpelts",
+      "WallMountIndicator.Emberpelts",
+      "Speaker.Emberpelts",
+      "FireworkLauncher.Emberpelts",
+      "Detonator.Emberpelts",
+      "Timer.Emberpelts",
+      "Memory.Emberpelts",
+      "HttpLever.Emberpelts",
+      "HttpAdapter.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.Emberpelts",
+      "Lever.Emberpelts",
+      "Relay.Emberpelts",
+      "FlowSensor.Emberpelts",
+      "DepthSensor.Emberpelts",
+      "ContaminationSensor.Emberpelts",
+      "Chronometer.Emberpelts",
+      "WeatherStation.Emberpelts",
+      "PowerMeter.Emberpelts",
+      "PopulationCounter.Emberpelts",
+      "ResourceCounter.Emberpelts",
+      "ScienceCounter.Emberpelts",
+      "Indicator.Emberpelts",
+      "WallMountIndicator.Emberpelts",
+      "Speaker.Emberpelts",
+      "FireworkLauncher.Emberpelts",
+      "Detonator.Emberpelts",
+      "Timer.Emberpelts",
+      "Memory.Emberpelts",
+      "HttpLever.Emberpelts",
+      "HttpAdapter.Emberpelts"
+    ]
+  }
+}

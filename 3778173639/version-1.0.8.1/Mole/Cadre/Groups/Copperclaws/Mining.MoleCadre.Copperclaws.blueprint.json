@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Copperclaws", "Order": 1516001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Copperclaws",
+      "SteamVentMiningSite.Copperclaws",
+      "FrozenAquifer.Copperclaws",
+      "IceBergMiningSite.Copperclaws",
+      "OilWell_Artificial.Copperclaws",
+      "OilDrill.Copperclaws",
+      "OilDrill2.Copperclaws",
+      "AbyssElevator.Copperclaws",
+      "SupplementaryExplorationTeam.Copperclaws",
+      "NuclearWasteCollector.Copperclaws",
+      "GasExctractor.Copperclaws",
+      "AbyssExcavator.Copperclaws",
+      "HoomanUndergroundChemPlant.Copperclaws",
+      "HoomanUndergroundFactory.Copperclaws",
+      "DeepMinePILEstorage.Copperclaws",
+      "DeepMineBOXStorage.Copperclaws",
+      "AbyssTourismCenter.Copperclaws",
+      "HoomanMedicalFacility.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Copperclaws",
+      "SteamVentMiningSite.Copperclaws",
+      "FrozenAquifer.Copperclaws",
+      "IceBergMiningSite.Copperclaws",
+      "OilWell_Artificial.Copperclaws",
+      "OilDrill.Copperclaws",
+      "OilDrill2.Copperclaws",
+      "AbyssElevator.Copperclaws",
+      "SupplementaryExplorationTeam.Copperclaws",
+      "NuclearWasteCollector.Copperclaws",
+      "GasExctractor.Copperclaws",
+      "AbyssExcavator.Copperclaws",
+      "HoomanUndergroundChemPlant.Copperclaws",
+      "HoomanUndergroundFactory.Copperclaws",
+      "DeepMinePILEstorage.Copperclaws",
+      "DeepMineBOXStorage.Copperclaws",
+      "AbyssTourismCenter.Copperclaws",
+      "HoomanMedicalFacility.Copperclaws"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Folktails", "Order": 218000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Folktails",
+      "SmallPile.Folktails",
+      "SmallIndustrialPile.Folktails",
+      "SmallAquaPile.Folktails.Mole",
+      "LongPile.Folktails",
+      "PitPile.Folktails",
+      "2x2PileRight.Folktails",
+      "Pile.Folktails",
+      "IndustrialPile.Folktails",
+      "MediumPile.Folktails",
+      "MediumIndustrialPile.Folktails",
+      "LargePile.Folktails",
+      "LargeIndustrialPile.Folktails",
+      "BasicAquaPile.Folktails.Mole",
+      "ExtraLargePile.Folktails",
+      "ExtraLargeIndustrialPile.Folktails",
+      "LargeAquaPile.Folktails.Mole",
+      "GigargantuanPile.Folktails",
+      "UndergroundPile.Folktails",
+      "BuriedAquaPile.Folktails.Mole",
+      "GiantLogStorage.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Folktails",
+      "SmallPile.Folktails",
+      "SmallIndustrialPile.Folktails",
+      "SmallAquaPile.Folktails.Mole",
+      "LongPile.Folktails",
+      "PitPile.Folktails",
+      "2x2PileRight.Folktails",
+      "Pile.Folktails",
+      "IndustrialPile.Folktails",
+      "MediumPile.Folktails",
+      "MediumIndustrialPile.Folktails",
+      "LargePile.Folktails",
+      "LargeIndustrialPile.Folktails",
+      "BasicAquaPile.Folktails.Mole",
+      "ExtraLargePile.Folktails",
+      "ExtraLargeIndustrialPile.Folktails",
+      "LargeAquaPile.Folktails.Mole",
+      "GigargantuanPile.Folktails",
+      "UndergroundPile.Folktails",
+      "BuriedAquaPile.Folktails.Mole",
+      "GiantLogStorage.Folktails"
+    ]
+  }
+}

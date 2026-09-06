@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Dirtclaws", "Order": 1301001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Dirtclaws",
+      "MetalStairs.Dirtclaws",
+      "MetalStaircase.Dirtclaws",
+      "SpiralStairs.Dirtclaws",
+      "SpiralStaircase.Dirtclaws",
+      "StaircaseLog.Dirtclaws",
+      "MetalSpiralStaircase.Dirtclaws",
+      "DD_SlopeStairs.Dirtclaws",
+      "SkyBridgeStairs.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Dirtclaws",
+      "MetalStairs.Dirtclaws",
+      "MetalStaircase.Dirtclaws",
+      "SpiralStairs.Dirtclaws",
+      "SpiralStaircase.Dirtclaws",
+      "StaircaseLog.Dirtclaws",
+      "MetalSpiralStaircase.Dirtclaws",
+      "DD_SlopeStairs.Dirtclaws",
+      "SkyBridgeStairs.Dirtclaws"
+    ]
+  }
+}

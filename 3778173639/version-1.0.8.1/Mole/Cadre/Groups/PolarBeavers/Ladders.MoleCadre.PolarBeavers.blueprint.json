@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.PolarBeavers", "Order": 1101002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.PolarBeavers.Mole",
+      "Ladder.PolarBeavers.Mole",
+      "Ladder.Simple.PolarBeavers",
+      "Ladder.PolarBeavers",
+      "Ladder.Core.PolarBeavers",
+      "SkyBridgeLadder.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.PolarBeavers.Mole",
+      "Ladder.PolarBeavers.Mole",
+      "Ladder.Simple.PolarBeavers",
+      "Ladder.PolarBeavers",
+      "Ladder.Core.PolarBeavers",
+      "SkyBridgeLadder.PolarBeavers"
+    ]
+  }
+}

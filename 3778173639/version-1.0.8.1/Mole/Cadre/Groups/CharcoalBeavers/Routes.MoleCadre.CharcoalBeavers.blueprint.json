@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.CharcoalBeavers", "Order": 602000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.CharcoalBeavers.Mole",
+      "StonePath.CharcoalBeavers.Mole",
+      "WoodenPath.CharcoalBeavers.Mole",
+      "Path.CharcoalBeavers",
+      "Path1.CharcoalBeavers",
+      "Path2.CharcoalBeavers",
+      "Path3.CharcoalBeavers",
+      "Path4.CharcoalBeavers",
+      "Path5.CharcoalBeavers",
+      "DistrictCrossing.CharcoalBeavers",
+      "BOTDistrictCrossing.CharcoalBeavers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.CharcoalBeavers",
+      "Ladders.MoleCadre.CharcoalBeavers",
+      "Ropeways.MoleCadre.CharcoalBeavers",
+      "Bridges.MoleCadre.CharcoalBeavers",
+      "Walkways.MoleCadre.CharcoalBeavers",
+      "Branches.MoleCadre.CharcoalBeavers",
+      "Boosters.MoleCadre.CharcoalBeavers",
+      "Gates.MoleCadre.CharcoalBeavers",
+      "Passages.MoleCadre.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.CharcoalBeavers.Mole",
+      "StonePath.CharcoalBeavers.Mole",
+      "WoodenPath.CharcoalBeavers.Mole",
+      "Path.CharcoalBeavers",
+      "Path1.CharcoalBeavers",
+      "Path2.CharcoalBeavers",
+      "Path3.CharcoalBeavers",
+      "Path4.CharcoalBeavers",
+      "Path5.CharcoalBeavers",
+      "DistrictCrossing.CharcoalBeavers",
+      "BOTDistrictCrossing.CharcoalBeavers",
+      "Steps.MoleCadre.CharcoalBeavers",
+      "Ladders.MoleCadre.CharcoalBeavers",
+      "Ropeways.MoleCadre.CharcoalBeavers",
+      "Bridges.MoleCadre.CharcoalBeavers",
+      "Walkways.MoleCadre.CharcoalBeavers",
+      "Branches.MoleCadre.CharcoalBeavers",
+      "Boosters.MoleCadre.CharcoalBeavers",
+      "Gates.MoleCadre.CharcoalBeavers",
+      "Passages.MoleCadre.CharcoalBeavers"
+    ]
+  }
+}

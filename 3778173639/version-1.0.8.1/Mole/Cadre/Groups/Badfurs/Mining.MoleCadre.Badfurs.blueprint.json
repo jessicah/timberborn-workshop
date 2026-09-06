@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Badfurs", "Order": 1416001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Badfurs",
+      "SteamVentMiningSite.Badfurs",
+      "FrozenAquifer.Badfurs",
+      "IceBergMiningSite.Badfurs",
+      "OilWell_Artificial.Badfurs",
+      "OilDrill.Badfurs",
+      "OilDrill2.Badfurs",
+      "AbyssElevator.Badfurs",
+      "SupplementaryExplorationTeam.Badfurs",
+      "NuclearWasteCollector.Badfurs",
+      "GasExctractor.Badfurs",
+      "AbyssExcavator.Badfurs",
+      "HoomanUndergroundChemPlant.Badfurs",
+      "HoomanUndergroundFactory.Badfurs",
+      "DeepMinePILEstorage.Badfurs",
+      "DeepMineBOXStorage.Badfurs",
+      "AbyssTourismCenter.Badfurs",
+      "HoomanMedicalFacility.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Badfurs",
+      "SteamVentMiningSite.Badfurs",
+      "FrozenAquifer.Badfurs",
+      "IceBergMiningSite.Badfurs",
+      "OilWell_Artificial.Badfurs",
+      "OilDrill.Badfurs",
+      "OilDrill2.Badfurs",
+      "AbyssElevator.Badfurs",
+      "SupplementaryExplorationTeam.Badfurs",
+      "NuclearWasteCollector.Badfurs",
+      "GasExctractor.Badfurs",
+      "AbyssExcavator.Badfurs",
+      "HoomanUndergroundChemPlant.Badfurs",
+      "HoomanUndergroundFactory.Badfurs",
+      "DeepMinePILEstorage.Badfurs",
+      "DeepMineBOXStorage.Badfurs",
+      "AbyssTourismCenter.Badfurs",
+      "HoomanMedicalFacility.Badfurs"
+    ]
+  }
+}

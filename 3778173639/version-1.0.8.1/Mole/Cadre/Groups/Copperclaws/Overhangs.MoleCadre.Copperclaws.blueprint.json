@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.Copperclaws", "Order": 1502004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.Copperclaws",
+      "Overhang2x1.Copperclaws",
+      "Overhang3x1.Copperclaws",
+      "Overhang4x1.Copperclaws",
+      "Overhang5x1.Copperclaws",
+      "Overhang6x1.Copperclaws",
+      "Overhang7x1.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.Copperclaws",
+      "Overhang2x1.Copperclaws",
+      "Overhang3x1.Copperclaws",
+      "Overhang4x1.Copperclaws",
+      "Overhang5x1.Copperclaws",
+      "Overhang6x1.Copperclaws",
+      "Overhang7x1.Copperclaws"
+    ]
+  }
+}

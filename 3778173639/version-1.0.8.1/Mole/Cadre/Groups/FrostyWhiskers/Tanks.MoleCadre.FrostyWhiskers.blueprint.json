@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.FrostyWhiskers", "Order": 820000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.FrostyWhiskers",
+      "Pit-and-LadderLodge_LiquidStorage.FrostyWhiskers",
+      "SmallCoveredTank.FrostyWhiskers",
+      "SmallTank.FrostyWhiskers",
+      "SmallAquaTank.FrostyWhiskers.Mole",
+      "PitTank.FrostyWhiskers",
+      "MediumTank.FrostyWhiskers",
+      "BasicAquaTank.FrostyWhiskers.Mole",
+      "LargeTank.FrostyWhiskers",
+      "LargeAquaTank.FrostyWhiskers.Mole",
+      "UndergroundTank.FrostyWhiskers",
+      "BuriedAquaTank.FrostyWhiskers.Mole",
+      "LargeUndergroundTank.FrostyWhiskers",
+      "GazTank.FrostyWhiskers",
+      "GasTank.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.FrostyWhiskers",
+      "Pit-and-LadderLodge_LiquidStorage.FrostyWhiskers",
+      "SmallCoveredTank.FrostyWhiskers",
+      "SmallTank.FrostyWhiskers",
+      "SmallAquaTank.FrostyWhiskers.Mole",
+      "PitTank.FrostyWhiskers",
+      "MediumTank.FrostyWhiskers",
+      "BasicAquaTank.FrostyWhiskers.Mole",
+      "LargeTank.FrostyWhiskers",
+      "LargeAquaTank.FrostyWhiskers.Mole",
+      "UndergroundTank.FrostyWhiskers",
+      "BuriedAquaTank.FrostyWhiskers.Mole",
+      "LargeUndergroundTank.FrostyWhiskers",
+      "GazTank.FrostyWhiskers",
+      "GasTank.FrostyWhiskers"
+    ]
+  }
+}

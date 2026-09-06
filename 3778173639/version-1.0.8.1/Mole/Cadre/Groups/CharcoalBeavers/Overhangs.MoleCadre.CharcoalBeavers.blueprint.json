@@ -1,0 +1,27 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Overhangs.MoleCadre.CharcoalBeavers", "Order": 602004, "NameLocKey": "Group.Overhangs", "Icon": "Mole/Cadre/Overhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Overhang1x1.CharcoalBeavers",
+      "Overhang2x1.CharcoalBeavers",
+      "Overhang3x1.CharcoalBeavers",
+      "Overhang4x1.CharcoalBeavers",
+      "Overhang5x1.CharcoalBeavers",
+      "Overhang6x1.CharcoalBeavers",
+      "Overhang7x1.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Overhang1x1.CharcoalBeavers",
+      "Overhang2x1.CharcoalBeavers",
+      "Overhang3x1.CharcoalBeavers",
+      "Overhang4x1.CharcoalBeavers",
+      "Overhang5x1.CharcoalBeavers",
+      "Overhang6x1.CharcoalBeavers",
+      "Overhang7x1.CharcoalBeavers"
+    ]
+  }
+}

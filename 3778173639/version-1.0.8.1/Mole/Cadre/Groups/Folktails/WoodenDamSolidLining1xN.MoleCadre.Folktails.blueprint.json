@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining1xN.MoleCadre.Folktails", "Order": 205001, "NameLocKey": "Group.WoodenDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW1x1.Folktails",
+      "DD_SquareW1x2.Folktails",
+      "DD_SquareW1x3.Folktails",
+      "DD_SlopeW.Folktails",
+      "DD_InvSlopeW.Folktails",
+      "DD_InvSlopeW1x1.Folktails",
+      "DD_InvSlopeW1x2.Folktails",
+      "DD_InvCornerW.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW1x1.Folktails",
+      "DD_SquareW1x2.Folktails",
+      "DD_SquareW1x3.Folktails",
+      "DD_SlopeW.Folktails",
+      "DD_InvSlopeW.Folktails",
+      "DD_InvSlopeW1x1.Folktails",
+      "DD_InvSlopeW1x2.Folktails",
+      "DD_InvCornerW.Folktails"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Folktails", "Order": 216001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Folktails",
+      "SteamVentMiningSite.Folktails",
+      "FrozenAquifer.Folktails",
+      "IceBergMiningSite.Folktails",
+      "OilWell_Artificial.Folktails",
+      "OilDrill.Folktails",
+      "OilDrill2.Folktails",
+      "AbyssElevator.Folktails",
+      "SupplementaryExplorationTeam.Folktails",
+      "NuclearWasteCollector.Folktails",
+      "GasExctractor.Folktails",
+      "AbyssExcavator.Folktails",
+      "HoomanUndergroundChemPlant.Folktails",
+      "HoomanUndergroundFactory.Folktails",
+      "DeepMinePILEstorage.Folktails",
+      "DeepMineBOXStorage.Folktails",
+      "AbyssTourismCenter.Folktails",
+      "HoomanMedicalFacility.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Folktails",
+      "SteamVentMiningSite.Folktails",
+      "FrozenAquifer.Folktails",
+      "IceBergMiningSite.Folktails",
+      "OilWell_Artificial.Folktails",
+      "OilDrill.Folktails",
+      "OilDrill2.Folktails",
+      "AbyssElevator.Folktails",
+      "SupplementaryExplorationTeam.Folktails",
+      "NuclearWasteCollector.Folktails",
+      "GasExctractor.Folktails",
+      "AbyssExcavator.Folktails",
+      "HoomanUndergroundChemPlant.Folktails",
+      "HoomanUndergroundFactory.Folktails",
+      "DeepMinePILEstorage.Folktails",
+      "DeepMineBOXStorage.Folktails",
+      "AbyssTourismCenter.Folktails",
+      "HoomanMedicalFacility.Folktails"
+    ]
+  }
+}

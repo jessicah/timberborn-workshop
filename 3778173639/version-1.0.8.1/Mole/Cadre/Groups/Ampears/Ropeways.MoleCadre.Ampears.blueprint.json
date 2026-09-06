@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.Ampears", "Order": 901003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.Ampears",
+      "SuspensionBridge2x1.Ampears",
+      "SuspensionBridge3x1.Ampears",
+      "SuspensionBridge4x1.Ampears",
+      "SuspensionBridge5x1.Ampears",
+      "SuspensionBridge6x1.Ampears",
+      "SuspensionBridge7x1.Ampears",
+      "SuspensionBridge8x1.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.Ampears",
+      "SuspensionBridge2x1.Ampears",
+      "SuspensionBridge3x1.Ampears",
+      "SuspensionBridge4x1.Ampears",
+      "SuspensionBridge5x1.Ampears",
+      "SuspensionBridge6x1.Ampears",
+      "SuspensionBridge7x1.Ampears",
+      "SuspensionBridge8x1.Ampears"
+    ]
+  }
+}

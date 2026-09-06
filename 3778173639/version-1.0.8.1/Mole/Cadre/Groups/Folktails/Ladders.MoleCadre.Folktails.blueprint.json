@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Folktails", "Order": 201002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Folktails.Mole",
+      "Ladder.Folktails.Mole",
+      "Ladder.Simple.Folktails",
+      "Ladder.Folktails",
+      "Ladder.Core.Folktails",
+      "SkyBridgeLadder.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Folktails.Mole",
+      "Ladder.Folktails.Mole",
+      "Ladder.Simple.Folktails",
+      "Ladder.Folktails",
+      "Ladder.Core.Folktails",
+      "SkyBridgeLadder.Folktails"
+    ]
+  }
+}

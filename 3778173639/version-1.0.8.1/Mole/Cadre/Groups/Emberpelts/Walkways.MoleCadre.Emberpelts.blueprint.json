@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.Emberpelts", "Order": 401005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.Emberpelts",
+      "SkyBridgeLadder.Emberpelts",
+      "SkyBridge.Emberpelts",
+      "SkyBridgeEntrance.Emberpelts",
+      "SkyBridge.Bridge2x1.Emberpelts",
+      "SkyBridge.Bridge3x1.Emberpelts",
+      "SkyBridge.Bridge4x1.Emberpelts",
+      "SkyBridge.Bridge5x1.Emberpelts",
+      "SkyBridge.Bridge6x1.Emberpelts",
+      "SkyBridge.Bridge7x1.Emberpelts",
+      "SkyBridgeEntrance.Emberpelts",
+      "TubewaySkyBridge.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.Emberpelts",
+      "SkyBridgeLadder.Emberpelts",
+      "SkyBridge.Emberpelts",
+      "SkyBridgeEntrance.Emberpelts",
+      "SkyBridge.Bridge2x1.Emberpelts",
+      "SkyBridge.Bridge3x1.Emberpelts",
+      "SkyBridge.Bridge4x1.Emberpelts",
+      "SkyBridge.Bridge5x1.Emberpelts",
+      "SkyBridge.Bridge6x1.Emberpelts",
+      "SkyBridge.Bridge7x1.Emberpelts",
+      "SkyBridgeEntrance.Emberpelts",
+      "TubewaySkyBridge.Emberpelts"
+    ]
+  }
+}

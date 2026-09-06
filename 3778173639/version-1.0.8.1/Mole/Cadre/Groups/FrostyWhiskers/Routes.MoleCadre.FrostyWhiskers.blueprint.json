@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.FrostyWhiskers", "Order": 802000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.FrostyWhiskers.Mole",
+      "StonePath.FrostyWhiskers.Mole",
+      "WoodenPath.FrostyWhiskers.Mole",
+      "Path.FrostyWhiskers",
+      "Path1.FrostyWhiskers",
+      "Path2.FrostyWhiskers",
+      "Path3.FrostyWhiskers",
+      "Path4.FrostyWhiskers",
+      "Path5.FrostyWhiskers",
+      "DistrictCrossing.FrostyWhiskers",
+      "BOTDistrictCrossing.FrostyWhiskers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.FrostyWhiskers",
+      "Ladders.MoleCadre.FrostyWhiskers",
+      "Ropeways.MoleCadre.FrostyWhiskers",
+      "Bridges.MoleCadre.FrostyWhiskers",
+      "Walkways.MoleCadre.FrostyWhiskers",
+      "Branches.MoleCadre.FrostyWhiskers",
+      "Boosters.MoleCadre.FrostyWhiskers",
+      "Gates.MoleCadre.FrostyWhiskers",
+      "Passages.MoleCadre.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.FrostyWhiskers.Mole",
+      "StonePath.FrostyWhiskers.Mole",
+      "WoodenPath.FrostyWhiskers.Mole",
+      "Path.FrostyWhiskers",
+      "Path1.FrostyWhiskers",
+      "Path2.FrostyWhiskers",
+      "Path3.FrostyWhiskers",
+      "Path4.FrostyWhiskers",
+      "Path5.FrostyWhiskers",
+      "DistrictCrossing.FrostyWhiskers",
+      "BOTDistrictCrossing.FrostyWhiskers",
+      "Steps.MoleCadre.FrostyWhiskers",
+      "Ladders.MoleCadre.FrostyWhiskers",
+      "Ropeways.MoleCadre.FrostyWhiskers",
+      "Bridges.MoleCadre.FrostyWhiskers",
+      "Walkways.MoleCadre.FrostyWhiskers",
+      "Branches.MoleCadre.FrostyWhiskers",
+      "Boosters.MoleCadre.FrostyWhiskers",
+      "Gates.MoleCadre.FrostyWhiskers",
+      "Passages.MoleCadre.FrostyWhiskers"
+    ]
+  }
+}

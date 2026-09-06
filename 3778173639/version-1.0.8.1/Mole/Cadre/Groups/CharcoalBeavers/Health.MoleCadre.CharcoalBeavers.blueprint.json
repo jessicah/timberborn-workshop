@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Health.MoleCadre.CharcoalBeavers", "Order": 622000, "NameLocKey": "Group.Health", "Icon": "Mole/Cadre/Health", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Bench.CharcoalBeavers",
+      "TeethGrindstone.CharcoalBeavers",
+      "MedicalBed.CharcoalBeavers",
+      "MedicalTripleBed.CharcoalBeavers",
+      "Fixedmedicalbed_Burns.CharcoalBeavers",
+      "Fixedmedicalbed_Disease.CharcoalBeavers",
+      "Fixedmedicalbed_Injury.CharcoalBeavers",
+      "Clinic.CharcoalBeavers",
+      "DecontaminationPod.CharcoalBeavers",
+      "ContaminatedJail.CharcoalBeavers",
+      "WashingMachine.CharcoalBeavers",
+      "Herbalist.CharcoalBeavers",
+      "TankShower.CharcoalBeavers",
+      "Shower.CharcoalBeavers",
+      "DoubleShower.CharcoalBeavers",
+      "RiverBath.CharcoalBeavers",
+      "Scratcher.CharcoalBeavers",
+      "Massager.CharcoalBeavers",
+      "Sauna.CharcoalBeavers",
+      "Hammock.CharcoalBeavers",
+      "Swing.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Bench.CharcoalBeavers",
+      "TeethGrindstone.CharcoalBeavers",
+      "MedicalBed.CharcoalBeavers",
+      "MedicalTripleBed.CharcoalBeavers",
+      "Fixedmedicalbed_Burns.CharcoalBeavers",
+      "Fixedmedicalbed_Disease.CharcoalBeavers",
+      "Fixedmedicalbed_Injury.CharcoalBeavers",
+      "Clinic.CharcoalBeavers",
+      "DecontaminationPod.CharcoalBeavers",
+      "ContaminatedJail.CharcoalBeavers",
+      "WashingMachine.CharcoalBeavers",
+      "Herbalist.CharcoalBeavers",
+      "TankShower.CharcoalBeavers",
+      "Shower.CharcoalBeavers",
+      "DoubleShower.CharcoalBeavers",
+      "RiverBath.CharcoalBeavers",
+      "Scratcher.CharcoalBeavers",
+      "Massager.CharcoalBeavers",
+      "Sauna.CharcoalBeavers",
+      "Hammock.CharcoalBeavers",
+      "Swing.CharcoalBeavers"
+    ]
+  }
+}

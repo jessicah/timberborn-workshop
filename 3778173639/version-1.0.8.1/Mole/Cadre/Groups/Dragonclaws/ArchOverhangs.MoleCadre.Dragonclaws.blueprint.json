@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.Dragonclaws", "Order": 1202006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.Dragonclaws",
+      "ArcOverhang2x1.Dragonclaws",
+      "ArcOverhang3x1.Dragonclaws",
+      "ArcOverhang4x1.Dragonclaws",
+      "ArcOverhang1x4.Dragonclaws",
+      "ArcOverhang5x1.Dragonclaws",
+      "ArcOverhang6x1.Dragonclaws",
+      "ArcOverhang7x1.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.Dragonclaws",
+      "ArcOverhang2x1.Dragonclaws",
+      "ArcOverhang3x1.Dragonclaws",
+      "ArcOverhang4x1.Dragonclaws",
+      "ArcOverhang1x4.Dragonclaws",
+      "ArcOverhang5x1.Dragonclaws",
+      "ArcOverhang6x1.Dragonclaws",
+      "ArcOverhang7x1.Dragonclaws"
+    ]
+  }
+}

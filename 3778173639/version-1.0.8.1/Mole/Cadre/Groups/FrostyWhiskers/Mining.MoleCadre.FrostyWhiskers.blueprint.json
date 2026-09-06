@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.FrostyWhiskers", "Order": 816001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.FrostyWhiskers",
+      "SteamVentMiningSite.FrostyWhiskers",
+      "FrozenAquifer.FrostyWhiskers",
+      "IceBergMiningSite.FrostyWhiskers",
+      "OilWell_Artificial.FrostyWhiskers",
+      "OilDrill.FrostyWhiskers",
+      "OilDrill2.FrostyWhiskers",
+      "AbyssElevator.FrostyWhiskers",
+      "SupplementaryExplorationTeam.FrostyWhiskers",
+      "NuclearWasteCollector.FrostyWhiskers",
+      "GasExctractor.FrostyWhiskers",
+      "AbyssExcavator.FrostyWhiskers",
+      "HoomanUndergroundChemPlant.FrostyWhiskers",
+      "HoomanUndergroundFactory.FrostyWhiskers",
+      "DeepMinePILEstorage.FrostyWhiskers",
+      "DeepMineBOXStorage.FrostyWhiskers",
+      "AbyssTourismCenter.FrostyWhiskers",
+      "HoomanMedicalFacility.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.FrostyWhiskers",
+      "SteamVentMiningSite.FrostyWhiskers",
+      "FrozenAquifer.FrostyWhiskers",
+      "IceBergMiningSite.FrostyWhiskers",
+      "OilWell_Artificial.FrostyWhiskers",
+      "OilDrill.FrostyWhiskers",
+      "OilDrill2.FrostyWhiskers",
+      "AbyssElevator.FrostyWhiskers",
+      "SupplementaryExplorationTeam.FrostyWhiskers",
+      "NuclearWasteCollector.FrostyWhiskers",
+      "GasExctractor.FrostyWhiskers",
+      "AbyssExcavator.FrostyWhiskers",
+      "HoomanUndergroundChemPlant.FrostyWhiskers",
+      "HoomanUndergroundFactory.FrostyWhiskers",
+      "DeepMinePILEstorage.FrostyWhiskers",
+      "DeepMineBOXStorage.FrostyWhiskers",
+      "AbyssTourismCenter.FrostyWhiskers",
+      "HoomanMedicalFacility.FrostyWhiskers"
+    ]
+  }
+}

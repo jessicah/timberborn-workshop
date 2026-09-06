@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Copperclaws", "Order": 1520000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Copperclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Copperclaws",
+      "SmallCoveredTank.Copperclaws",
+      "SmallTank.Copperclaws",
+      "SmallAquaTank.Copperclaws.Mole",
+      "PitTank.Copperclaws",
+      "MediumTank.Copperclaws",
+      "BasicAquaTank.Copperclaws.Mole",
+      "LargeTank.Copperclaws",
+      "LargeAquaTank.Copperclaws.Mole",
+      "UndergroundTank.Copperclaws",
+      "BuriedAquaTank.Copperclaws.Mole",
+      "LargeUndergroundTank.Copperclaws",
+      "GazTank.Copperclaws",
+      "GasTank.Copperclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Copperclaws",
+      "Pit-and-LadderLodge_LiquidStorage.Copperclaws",
+      "SmallCoveredTank.Copperclaws",
+      "SmallTank.Copperclaws",
+      "SmallAquaTank.Copperclaws.Mole",
+      "PitTank.Copperclaws",
+      "MediumTank.Copperclaws",
+      "BasicAquaTank.Copperclaws.Mole",
+      "LargeTank.Copperclaws",
+      "LargeAquaTank.Copperclaws.Mole",
+      "UndergroundTank.Copperclaws",
+      "BuriedAquaTank.Copperclaws.Mole",
+      "LargeUndergroundTank.Copperclaws",
+      "GazTank.Copperclaws",
+      "GasTank.Copperclaws"
+    ]
+  }
+}

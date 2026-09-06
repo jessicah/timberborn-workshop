@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Emberpelts", "Order": 402003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Emberpelts",
+      "LargeMetalPlatform.Emberpelts",
+      "MetalPlatform1x1.Emberpelts",
+      "MetalPlatform3x3.Emberpelts",
+      "MetalPlatform5x3.Emberpelts",
+      "MetalPlatform5x5.Emberpelts",
+      "MetalPlatform7x7.Emberpelts",
+      "MetalPlatform3x3.Ladder.Emberpelts",
+      "MetalPlatform5x5.Ladder.Emberpelts",
+      "MetalPlatform7x7.Ladder.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Emberpelts",
+      "LargeMetalPlatform.Emberpelts",
+      "MetalPlatform1x1.Emberpelts",
+      "MetalPlatform3x3.Emberpelts",
+      "MetalPlatform5x3.Emberpelts",
+      "MetalPlatform5x5.Emberpelts",
+      "MetalPlatform7x7.Emberpelts",
+      "MetalPlatform3x3.Ladder.Emberpelts",
+      "MetalPlatform5x5.Ladder.Emberpelts",
+      "MetalPlatform7x7.Ladder.Emberpelts"
+    ]
+  }
+}

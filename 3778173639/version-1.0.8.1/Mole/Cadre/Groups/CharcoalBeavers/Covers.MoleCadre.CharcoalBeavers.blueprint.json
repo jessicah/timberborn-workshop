@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.CharcoalBeavers", "Order": 624000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.CharcoalBeavers",
+      "Roof.Dynamic.CharcoalBeavers",
+      "Roof1x1.CharcoalBeavers",
+      "Roof1x2.CharcoalBeavers",
+      "Roof2x2.CharcoalBeavers",
+      "Roof2x3.CharcoalBeavers",
+      "Roof3x2.CharcoalBeavers",
+      "HalfRoof1x1.CharcoalBeavers",
+      "HalfRoof1x2.CharcoalBeavers",
+      "HalfRoof2x1.CharcoalBeavers",
+      "HalfRoof2x2.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.CharcoalBeavers",
+      "Roof.Dynamic.CharcoalBeavers",
+      "Roof1x1.CharcoalBeavers",
+      "Roof1x2.CharcoalBeavers",
+      "Roof2x2.CharcoalBeavers",
+      "Roof2x3.CharcoalBeavers",
+      "Roof3x2.CharcoalBeavers",
+      "HalfRoof1x1.CharcoalBeavers",
+      "HalfRoof1x2.CharcoalBeavers",
+      "HalfRoof2x1.CharcoalBeavers",
+      "HalfRoof2x2.CharcoalBeavers"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Emberpelts", "Order": 402002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Emberpelts",
+      "MetalPillars.Emberpelts",
+      "MetalBigPillarBase.Emberpelts",
+      "MetalBigPillarMid.Emberpelts",
+      "MetalBigPillarTop.Emberpelts",
+      "Aque_MetalBigPillarBase.Emberpelts",
+      "Aque_MetalBigPillarMid.Emberpelts",
+      "Aque_MetalBigPillarTop.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Emberpelts",
+      "MetalPillars.Emberpelts",
+      "MetalBigPillarBase.Emberpelts",
+      "MetalBigPillarMid.Emberpelts",
+      "MetalBigPillarTop.Emberpelts",
+      "Aque_MetalBigPillarBase.Emberpelts",
+      "Aque_MetalBigPillarMid.Emberpelts",
+      "Aque_MetalBigPillarTop.Emberpelts"
+    ]
+  }
+}

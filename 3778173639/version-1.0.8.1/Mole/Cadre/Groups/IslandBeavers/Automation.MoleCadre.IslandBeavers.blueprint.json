@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.IslandBeavers", "Order": 1001000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.IslandBeavers",
+      "Lever.IslandBeavers",
+      "Relay.IslandBeavers",
+      "FlowSensor.IslandBeavers",
+      "DepthSensor.IslandBeavers",
+      "ContaminationSensor.IslandBeavers",
+      "Chronometer.IslandBeavers",
+      "WeatherStation.IslandBeavers",
+      "PowerMeter.IslandBeavers",
+      "PopulationCounter.IslandBeavers",
+      "ResourceCounter.IslandBeavers",
+      "ScienceCounter.IslandBeavers",
+      "Indicator.IslandBeavers",
+      "WallMountIndicator.IslandBeavers",
+      "Speaker.IslandBeavers",
+      "FireworkLauncher.IslandBeavers",
+      "Detonator.IslandBeavers",
+      "Timer.IslandBeavers",
+      "Memory.IslandBeavers",
+      "HttpLever.IslandBeavers",
+      "HttpAdapter.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.IslandBeavers",
+      "Lever.IslandBeavers",
+      "Relay.IslandBeavers",
+      "FlowSensor.IslandBeavers",
+      "DepthSensor.IslandBeavers",
+      "ContaminationSensor.IslandBeavers",
+      "Chronometer.IslandBeavers",
+      "WeatherStation.IslandBeavers",
+      "PowerMeter.IslandBeavers",
+      "PopulationCounter.IslandBeavers",
+      "ResourceCounter.IslandBeavers",
+      "ScienceCounter.IslandBeavers",
+      "Indicator.IslandBeavers",
+      "WallMountIndicator.IslandBeavers",
+      "Speaker.IslandBeavers",
+      "FireworkLauncher.IslandBeavers",
+      "Detonator.IslandBeavers",
+      "Timer.IslandBeavers",
+      "Memory.IslandBeavers",
+      "HttpLever.IslandBeavers",
+      "HttpAdapter.IslandBeavers"
+    ]
+  }
+}

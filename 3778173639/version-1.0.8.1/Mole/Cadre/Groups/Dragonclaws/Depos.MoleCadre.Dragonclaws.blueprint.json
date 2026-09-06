@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Dragonclaws", "Order": 1219000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Dragonclaws",
+      "Pit-and-LadderLodge_BoxStorage.Dragonclaws",
+      "GloriousStorage.Dragonclaws",
+      "SmallWarehouse.Dragonclaws",
+      "SmallAquaDepo.Dragonclaws.Mole",
+      "LongWarehouse.Dragonclaws",
+      "PitWarehouse.Dragonclaws",
+      "Warehouse.Dragonclaws",
+      "MediumWarehouse.Dragonclaws",
+      "BasicAquaDepo.Dragonclaws.Mole",
+      "LargeWarehouse.Dragonclaws",
+      "LargeAquaDepo.Dragonclaws.Mole",
+      "GigargantuanWarehouse.Dragonclaws",
+      "UndergroundWarehouse.Dragonclaws",
+      "BuriedAquaDepo.Dragonclaws.Mole",
+      "LargeUndergroundWarehouse.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Dragonclaws",
+      "Pit-and-LadderLodge_BoxStorage.Dragonclaws",
+      "GloriousStorage.Dragonclaws",
+      "SmallWarehouse.Dragonclaws",
+      "SmallAquaDepo.Dragonclaws.Mole",
+      "LongWarehouse.Dragonclaws",
+      "PitWarehouse.Dragonclaws",
+      "Warehouse.Dragonclaws",
+      "MediumWarehouse.Dragonclaws",
+      "BasicAquaDepo.Dragonclaws.Mole",
+      "LargeWarehouse.Dragonclaws",
+      "LargeAquaDepo.Dragonclaws.Mole",
+      "GigargantuanWarehouse.Dragonclaws",
+      "UndergroundWarehouse.Dragonclaws",
+      "BuriedAquaDepo.Dragonclaws.Mole",
+      "LargeUndergroundWarehouse.Dragonclaws"
+    ]
+  }
+}

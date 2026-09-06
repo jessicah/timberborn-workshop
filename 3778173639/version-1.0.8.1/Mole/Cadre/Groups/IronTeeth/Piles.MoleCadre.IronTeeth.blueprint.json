@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.IronTeeth", "Order": 318000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.IronTeeth",
+      "SmallPile.IronTeeth",
+      "SmallIndustrialPile.IronTeeth",
+      "SmallAquaPile.IronTeeth.Mole",
+      "LongPile.IronTeeth",
+      "PitPile.IronTeeth",
+      "2x2PileRight.IronTeeth",
+      "Pile.IronTeeth",
+      "IndustrialPile.IronTeeth",
+      "MediumPile.IronTeeth",
+      "MediumIndustrialPile.IronTeeth",
+      "LargePile.IronTeeth",
+      "LargeIndustrialPile.IronTeeth",
+      "BasicAquaPile.IronTeeth.Mole",
+      "ExtraLargePile.IronTeeth",
+      "ExtraLargeIndustrialPile.IronTeeth",
+      "LargeAquaPile.IronTeeth.Mole",
+      "GigargantuanPile.IronTeeth",
+      "UndergroundPile.IronTeeth",
+      "BuriedAquaPile.IronTeeth.Mole",
+      "GiantLogStorage.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.IronTeeth",
+      "SmallPile.IronTeeth",
+      "SmallIndustrialPile.IronTeeth",
+      "SmallAquaPile.IronTeeth.Mole",
+      "LongPile.IronTeeth",
+      "PitPile.IronTeeth",
+      "2x2PileRight.IronTeeth",
+      "Pile.IronTeeth",
+      "IndustrialPile.IronTeeth",
+      "MediumPile.IronTeeth",
+      "MediumIndustrialPile.IronTeeth",
+      "LargePile.IronTeeth",
+      "LargeIndustrialPile.IronTeeth",
+      "BasicAquaPile.IronTeeth.Mole",
+      "ExtraLargePile.IronTeeth",
+      "ExtraLargeIndustrialPile.IronTeeth",
+      "LargeAquaPile.IronTeeth.Mole",
+      "GigargantuanPile.IronTeeth",
+      "UndergroundPile.IronTeeth",
+      "BuriedAquaPile.IronTeeth.Mole",
+      "GiantLogStorage.IronTeeth"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "ArchOverhangs.MoleCadre.Badfurs", "Order": 1402006, "NameLocKey": "Group.ArchOverhangs", "Icon": "Mole/Cadre/ArchOverhangs", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "ArcOverhang1x1.Badfurs",
+      "ArcOverhang2x1.Badfurs",
+      "ArcOverhang3x1.Badfurs",
+      "ArcOverhang4x1.Badfurs",
+      "ArcOverhang1x4.Badfurs",
+      "ArcOverhang5x1.Badfurs",
+      "ArcOverhang6x1.Badfurs",
+      "ArcOverhang7x1.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "ArcOverhang1x1.Badfurs",
+      "ArcOverhang2x1.Badfurs",
+      "ArcOverhang3x1.Badfurs",
+      "ArcOverhang4x1.Badfurs",
+      "ArcOverhang1x4.Badfurs",
+      "ArcOverhang5x1.Badfurs",
+      "ArcOverhang6x1.Badfurs",
+      "ArcOverhang7x1.Badfurs"
+    ]
+  }
+}

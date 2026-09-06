@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.CharcoalBeavers", "Order": 602003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.CharcoalBeavers",
+      "LargeMetalPlatform.CharcoalBeavers",
+      "MetalPlatform1x1.CharcoalBeavers",
+      "MetalPlatform3x3.CharcoalBeavers",
+      "MetalPlatform5x3.CharcoalBeavers",
+      "MetalPlatform5x5.CharcoalBeavers",
+      "MetalPlatform7x7.CharcoalBeavers",
+      "MetalPlatform3x3.Ladder.CharcoalBeavers",
+      "MetalPlatform5x5.Ladder.CharcoalBeavers",
+      "MetalPlatform7x7.Ladder.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.CharcoalBeavers",
+      "LargeMetalPlatform.CharcoalBeavers",
+      "MetalPlatform1x1.CharcoalBeavers",
+      "MetalPlatform3x3.CharcoalBeavers",
+      "MetalPlatform5x3.CharcoalBeavers",
+      "MetalPlatform5x5.CharcoalBeavers",
+      "MetalPlatform7x7.CharcoalBeavers",
+      "MetalPlatform3x3.Ladder.CharcoalBeavers",
+      "MetalPlatform5x5.Ladder.CharcoalBeavers",
+      "MetalPlatform7x7.Ladder.CharcoalBeavers"
+    ]
+  }
+}

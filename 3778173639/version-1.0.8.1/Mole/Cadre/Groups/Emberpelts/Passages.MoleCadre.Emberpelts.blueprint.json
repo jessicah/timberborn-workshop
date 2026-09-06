@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.Emberpelts", "Order": 401009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.Emberpelts",
+      "TE_Tunnel_1L.Emberpelts",
+      "TE_Tunnel_2L.Emberpelts",
+      "TE_Tunnel_3L.Emberpelts",
+      "TE_Tunnel_4L.Emberpelts",
+      "TE_Tunnel_5L.Emberpelts",
+      "TE_Tunnel_6L.Emberpelts",
+      "TE_Tunnel_7L.Emberpelts",
+      "TE_Tunnel_8L.Emberpelts",
+      "TE_Tunnel_9L.Emberpelts",
+      "TE_Tunnel_10L.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.Emberpelts",
+      "TE_Tunnel_1L.Emberpelts",
+      "TE_Tunnel_2L.Emberpelts",
+      "TE_Tunnel_3L.Emberpelts",
+      "TE_Tunnel_4L.Emberpelts",
+      "TE_Tunnel_5L.Emberpelts",
+      "TE_Tunnel_6L.Emberpelts",
+      "TE_Tunnel_7L.Emberpelts",
+      "TE_Tunnel_8L.Emberpelts",
+      "TE_Tunnel_9L.Emberpelts",
+      "TE_Tunnel_10L.Emberpelts"
+    ]
+  }
+}

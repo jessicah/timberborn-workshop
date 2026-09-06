@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.IronTeeth", "Order": 320000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.IronTeeth",
+      "Pit-and-LadderLodge_LiquidStorage.IronTeeth",
+      "SmallCoveredTank.IronTeeth",
+      "SmallTank.IronTeeth",
+      "SmallAquaTank.IronTeeth.Mole",
+      "PitTank.IronTeeth",
+      "MediumTank.IronTeeth",
+      "BasicAquaTank.IronTeeth.Mole",
+      "LargeTank.IronTeeth",
+      "LargeAquaTank.IronTeeth.Mole",
+      "UndergroundTank.IronTeeth",
+      "BuriedAquaTank.IronTeeth.Mole",
+      "LargeUndergroundTank.IronTeeth",
+      "GazTank.IronTeeth",
+      "GasTank.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.IronTeeth",
+      "Pit-and-LadderLodge_LiquidStorage.IronTeeth",
+      "SmallCoveredTank.IronTeeth",
+      "SmallTank.IronTeeth",
+      "SmallAquaTank.IronTeeth.Mole",
+      "PitTank.IronTeeth",
+      "MediumTank.IronTeeth",
+      "BasicAquaTank.IronTeeth.Mole",
+      "LargeTank.IronTeeth",
+      "LargeAquaTank.IronTeeth.Mole",
+      "UndergroundTank.IronTeeth",
+      "BuriedAquaTank.IronTeeth.Mole",
+      "LargeUndergroundTank.IronTeeth",
+      "GazTank.IronTeeth",
+      "GasTank.IronTeeth"
+    ]
+  }
+}

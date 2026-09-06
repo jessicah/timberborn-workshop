@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Covers.MoleCadre.Dragonclaws", "Order": 1224000, "NameLocKey": "Group.Covers", "Icon": "Mole/Cadre/Covers", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Dam.Top.Dragonclaws",
+      "Roof.Dynamic.Dragonclaws",
+      "Roof1x1.Dragonclaws",
+      "Roof1x2.Dragonclaws",
+      "Roof2x2.Dragonclaws",
+      "Roof2x3.Dragonclaws",
+      "Roof3x2.Dragonclaws",
+      "HalfRoof1x1.Dragonclaws",
+      "HalfRoof1x2.Dragonclaws",
+      "HalfRoof2x1.Dragonclaws",
+      "HalfRoof2x2.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Dam.Top.Dragonclaws",
+      "Roof.Dynamic.Dragonclaws",
+      "Roof1x1.Dragonclaws",
+      "Roof1x2.Dragonclaws",
+      "Roof2x2.Dragonclaws",
+      "Roof2x3.Dragonclaws",
+      "Roof3x2.Dragonclaws",
+      "HalfRoof1x1.Dragonclaws",
+      "HalfRoof1x2.Dragonclaws",
+      "HalfRoof2x1.Dragonclaws",
+      "HalfRoof2x2.Dragonclaws"
+    ]
+  }
+}

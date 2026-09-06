@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.LeafCoats", "Order": 520000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.LeafCoats",
+      "Pit-and-LadderLodge_LiquidStorage.LeafCoats",
+      "SmallCoveredTank.LeafCoats",
+      "SmallTank.LeafCoats",
+      "SmallAquaTank.LeafCoats.Mole",
+      "PitTank.LeafCoats",
+      "MediumTank.LeafCoats",
+      "BasicAquaTank.LeafCoats.Mole",
+      "LargeTank.LeafCoats",
+      "LargeAquaTank.LeafCoats.Mole",
+      "UndergroundTank.LeafCoats",
+      "BuriedAquaTank.LeafCoats.Mole",
+      "LargeUndergroundTank.LeafCoats",
+      "GazTank.LeafCoats",
+      "GasTank.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.LeafCoats",
+      "Pit-and-LadderLodge_LiquidStorage.LeafCoats",
+      "SmallCoveredTank.LeafCoats",
+      "SmallTank.LeafCoats",
+      "SmallAquaTank.LeafCoats.Mole",
+      "PitTank.LeafCoats",
+      "MediumTank.LeafCoats",
+      "BasicAquaTank.LeafCoats.Mole",
+      "LargeTank.LeafCoats",
+      "LargeAquaTank.LeafCoats.Mole",
+      "UndergroundTank.LeafCoats",
+      "BuriedAquaTank.LeafCoats.Mole",
+      "LargeUndergroundTank.LeafCoats",
+      "GazTank.LeafCoats",
+      "GasTank.LeafCoats"
+    ]
+  }
+}

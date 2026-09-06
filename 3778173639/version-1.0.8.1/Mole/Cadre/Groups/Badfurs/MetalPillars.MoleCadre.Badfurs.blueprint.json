@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Badfurs", "Order": 1402002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Badfurs",
+      "MetalPillars.Badfurs",
+      "MetalBigPillarBase.Badfurs",
+      "MetalBigPillarMid.Badfurs",
+      "MetalBigPillarTop.Badfurs",
+      "Aque_MetalBigPillarBase.Badfurs",
+      "Aque_MetalBigPillarMid.Badfurs",
+      "Aque_MetalBigPillarTop.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Badfurs",
+      "MetalPillars.Badfurs",
+      "MetalBigPillarBase.Badfurs",
+      "MetalBigPillarMid.Badfurs",
+      "MetalBigPillarTop.Badfurs",
+      "Aque_MetalBigPillarBase.Badfurs",
+      "Aque_MetalBigPillarMid.Badfurs",
+      "Aque_MetalBigPillarTop.Badfurs"
+    ]
+  }
+}

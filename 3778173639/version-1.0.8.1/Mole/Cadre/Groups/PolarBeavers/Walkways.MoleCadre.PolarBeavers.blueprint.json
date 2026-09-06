@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.PolarBeavers", "Order": 1101005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.PolarBeavers",
+      "SkyBridgeLadder.PolarBeavers",
+      "SkyBridge.PolarBeavers",
+      "SkyBridgeEntrance.PolarBeavers",
+      "SkyBridge.Bridge2x1.PolarBeavers",
+      "SkyBridge.Bridge3x1.PolarBeavers",
+      "SkyBridge.Bridge4x1.PolarBeavers",
+      "SkyBridge.Bridge5x1.PolarBeavers",
+      "SkyBridge.Bridge6x1.PolarBeavers",
+      "SkyBridge.Bridge7x1.PolarBeavers",
+      "SkyBridgeEntrance.PolarBeavers",
+      "TubewaySkyBridge.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.PolarBeavers",
+      "SkyBridgeLadder.PolarBeavers",
+      "SkyBridge.PolarBeavers",
+      "SkyBridgeEntrance.PolarBeavers",
+      "SkyBridge.Bridge2x1.PolarBeavers",
+      "SkyBridge.Bridge3x1.PolarBeavers",
+      "SkyBridge.Bridge4x1.PolarBeavers",
+      "SkyBridge.Bridge5x1.PolarBeavers",
+      "SkyBridge.Bridge6x1.PolarBeavers",
+      "SkyBridge.Bridge7x1.PolarBeavers",
+      "SkyBridgeEntrance.PolarBeavers",
+      "TubewaySkyBridge.PolarBeavers"
+    ]
+  }
+}

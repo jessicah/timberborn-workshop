@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Automation.MoleCadre.CharcoalBeavers", "Order": 601000, "NameLocKey": "Group.Automation", "Icon": "Mole/Cadre/Automation", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Calculatorium.CharcoalBeavers",
+      "Lever.CharcoalBeavers",
+      "Relay.CharcoalBeavers",
+      "FlowSensor.CharcoalBeavers",
+      "DepthSensor.CharcoalBeavers",
+      "ContaminationSensor.CharcoalBeavers",
+      "Chronometer.CharcoalBeavers",
+      "WeatherStation.CharcoalBeavers",
+      "PowerMeter.CharcoalBeavers",
+      "PopulationCounter.CharcoalBeavers",
+      "ResourceCounter.CharcoalBeavers",
+      "ScienceCounter.CharcoalBeavers",
+      "Indicator.CharcoalBeavers",
+      "WallMountIndicator.CharcoalBeavers",
+      "Speaker.CharcoalBeavers",
+      "FireworkLauncher.CharcoalBeavers",
+      "Detonator.CharcoalBeavers",
+      "Timer.CharcoalBeavers",
+      "Memory.CharcoalBeavers",
+      "HttpLever.CharcoalBeavers",
+      "HttpAdapter.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Calculatorium.CharcoalBeavers",
+      "Lever.CharcoalBeavers",
+      "Relay.CharcoalBeavers",
+      "FlowSensor.CharcoalBeavers",
+      "DepthSensor.CharcoalBeavers",
+      "ContaminationSensor.CharcoalBeavers",
+      "Chronometer.CharcoalBeavers",
+      "WeatherStation.CharcoalBeavers",
+      "PowerMeter.CharcoalBeavers",
+      "PopulationCounter.CharcoalBeavers",
+      "ResourceCounter.CharcoalBeavers",
+      "ScienceCounter.CharcoalBeavers",
+      "Indicator.CharcoalBeavers",
+      "WallMountIndicator.CharcoalBeavers",
+      "Speaker.CharcoalBeavers",
+      "FireworkLauncher.CharcoalBeavers",
+      "Detonator.CharcoalBeavers",
+      "Timer.CharcoalBeavers",
+      "Memory.CharcoalBeavers",
+      "HttpLever.CharcoalBeavers",
+      "HttpAdapter.CharcoalBeavers"
+    ]
+  }
+}

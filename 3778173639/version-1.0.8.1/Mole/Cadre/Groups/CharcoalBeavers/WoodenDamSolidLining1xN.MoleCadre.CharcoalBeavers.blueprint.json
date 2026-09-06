@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining1xN.MoleCadre.CharcoalBeavers", "Order": 605001, "NameLocKey": "Group.WoodenDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW1x1.CharcoalBeavers",
+      "DD_SquareW1x2.CharcoalBeavers",
+      "DD_SquareW1x3.CharcoalBeavers",
+      "DD_SlopeW.CharcoalBeavers",
+      "DD_InvSlopeW.CharcoalBeavers",
+      "DD_InvSlopeW1x1.CharcoalBeavers",
+      "DD_InvSlopeW1x2.CharcoalBeavers",
+      "DD_InvCornerW.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW1x1.CharcoalBeavers",
+      "DD_SquareW1x2.CharcoalBeavers",
+      "DD_SquareW1x3.CharcoalBeavers",
+      "DD_SlopeW.CharcoalBeavers",
+      "DD_InvSlopeW.CharcoalBeavers",
+      "DD_InvSlopeW1x1.CharcoalBeavers",
+      "DD_InvSlopeW1x2.CharcoalBeavers",
+      "DD_InvCornerW.CharcoalBeavers"
+    ]
+  }
+}

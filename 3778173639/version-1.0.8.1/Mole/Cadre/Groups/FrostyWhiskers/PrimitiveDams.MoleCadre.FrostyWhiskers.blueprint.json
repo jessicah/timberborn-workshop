@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.FrostyWhiskers", "Order": 804000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.FrostyWhiskers",
+      "PrimitiveDam3x2Upgrade.FrostyWhiskers",
+      "PrimitiveDam3x3.FrostyWhiskers",
+      "PrimitiveDam3x3Upgrade.FrostyWhiskers",
+      "PrimitiveDam3x3Utility.FrostyWhiskers",
+      "PrimitiveDam3x3UtilityUpgrade.FrostyWhiskers",
+      "PrimitiveDam3x3Variant.FrostyWhiskers",
+      "PrimitiveDam3x3VariantUpgrade.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.FrostyWhiskers",
+      "PrimitiveDam3x2Upgrade.FrostyWhiskers",
+      "PrimitiveDam3x3.FrostyWhiskers",
+      "PrimitiveDam3x3Upgrade.FrostyWhiskers",
+      "PrimitiveDam3x3Utility.FrostyWhiskers",
+      "PrimitiveDam3x3UtilityUpgrade.FrostyWhiskers",
+      "PrimitiveDam3x3Variant.FrostyWhiskers",
+      "PrimitiveDam3x3VariantUpgrade.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Balloons.MoleCadre.IronTeeth", "Order": 316002, "NameLocKey": "Group.Balloons", "Icon": "Mole/Cadre/Balloons", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LandingPad.IronTeeth",
+      "ScoutBalloon.IronTeeth",
+      "FolktailsTraderBalloon.IronTeeth",
+      "IronTeethTraderBalloon.IronTeeth",
+      "EmberpeltsTraderBalloon.IronTeeth",
+      "LeafCoatsTraderBalloon.IronTeeth",
+      "AmpEarsTraderBalloon.IronTeeth",
+      "IslandBeaversTraderBalloon.IronTeeth",
+      "PolarBeaversTraderBalloon.IronTeeth",
+      "WhitepawsTraderBalloon.IronTeeth",
+      "FrostyWhiskersTraderBalloon.IronTeeth",
+      "CopperClawsTraderBalloon.IronTeeth",
+      "DragonClawsTraderBalloon.IronTeeth",
+      "DirtClawsTraderBalloon.IronTeeth",
+      "BadFursTraderBalloon.IronTeeth",
+      "Airship.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LandingPad.IronTeeth",
+      "ScoutBalloon.IronTeeth",
+      "FolktailsTraderBalloon.IronTeeth",
+      "IronTeethTraderBalloon.IronTeeth",
+      "EmberpeltsTraderBalloon.IronTeeth",
+      "LeafCoatsTraderBalloon.IronTeeth",
+      "AmpEarsTraderBalloon.IronTeeth",
+      "IslandBeaversTraderBalloon.IronTeeth",
+      "PolarBeaversTraderBalloon.IronTeeth",
+      "WhitepawsTraderBalloon.IronTeeth",
+      "FrostyWhiskersTraderBalloon.IronTeeth",
+      "CopperClawsTraderBalloon.IronTeeth",
+      "DragonClawsTraderBalloon.IronTeeth",
+      "DirtClawsTraderBalloon.IronTeeth",
+      "BadFursTraderBalloon.IronTeeth",
+      "Airship.IronTeeth"
+    ]
+  }
+}

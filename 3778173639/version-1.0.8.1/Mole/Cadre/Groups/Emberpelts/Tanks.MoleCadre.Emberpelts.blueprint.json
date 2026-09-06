@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Emberpelts", "Order": 420000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Emberpelts",
+      "Pit-and-LadderLodge_LiquidStorage.Emberpelts",
+      "SmallCoveredTank.Emberpelts",
+      "SmallTank.Emberpelts",
+      "SmallAquaTank.Emberpelts.Mole",
+      "PitTank.Emberpelts",
+      "MediumTank.Emberpelts",
+      "BasicAquaTank.Emberpelts.Mole",
+      "LargeTank.Emberpelts",
+      "LargeAquaTank.Emberpelts.Mole",
+      "UndergroundTank.Emberpelts",
+      "BuriedAquaTank.Emberpelts.Mole",
+      "LargeUndergroundTank.Emberpelts",
+      "GazTank.Emberpelts",
+      "GasTank.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Emberpelts",
+      "Pit-and-LadderLodge_LiquidStorage.Emberpelts",
+      "SmallCoveredTank.Emberpelts",
+      "SmallTank.Emberpelts",
+      "SmallAquaTank.Emberpelts.Mole",
+      "PitTank.Emberpelts",
+      "MediumTank.Emberpelts",
+      "BasicAquaTank.Emberpelts.Mole",
+      "LargeTank.Emberpelts",
+      "LargeAquaTank.Emberpelts.Mole",
+      "UndergroundTank.Emberpelts",
+      "BuriedAquaTank.Emberpelts.Mole",
+      "LargeUndergroundTank.Emberpelts",
+      "GazTank.Emberpelts",
+      "GasTank.Emberpelts"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "WoodenDamSolidLining3xN.MoleCadre.IronTeeth", "Order": 305003, "NameLocKey": "Group.WoodenDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DD_SquareW3x1.IronTeeth",
+      "DD_SquareW3x2.IronTeeth",
+      "DD_SquareW3x3.IronTeeth",
+      "DD_SlopeW3x.IronTeeth",
+      "DD_InvSlopeW3X.IronTeeth",
+      "DD_InvCornerW3X.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DD_SquareW3x1.IronTeeth",
+      "DD_SquareW3x2.IronTeeth",
+      "DD_SquareW3x3.IronTeeth",
+      "DD_SlopeW3x.IronTeeth",
+      "DD_InvSlopeW3X.IronTeeth",
+      "DD_InvCornerW3X.IronTeeth"
+    ]
+  }
+}

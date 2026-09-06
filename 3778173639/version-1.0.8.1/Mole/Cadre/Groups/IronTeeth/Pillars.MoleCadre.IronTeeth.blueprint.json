@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.IronTeeth", "Order": 302001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.IronTeeth",
+      "Pillar_1.IronTeeth",
+      "Pillar_2.IronTeeth",
+      "Pillar_3.IronTeeth",
+      "Pillar_4.IronTeeth",
+      "Pillars.IronTeeth",
+      "PillarTop.IronTeeth",
+      "StaircasePlatform.IronTeeth",
+      "StaircasePillar.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.IronTeeth",
+      "Pillar_1.IronTeeth",
+      "Pillar_2.IronTeeth",
+      "Pillar_3.IronTeeth",
+      "Pillar_4.IronTeeth",
+      "Pillars.IronTeeth",
+      "PillarTop.IronTeeth",
+      "StaircasePlatform.IronTeeth",
+      "StaircasePillar.IronTeeth"
+    ]
+  }
+}

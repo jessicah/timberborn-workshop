@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.Dragonclaws", "Order": 1201002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.Dragonclaws.Mole",
+      "Ladder.Dragonclaws.Mole",
+      "Ladder.Simple.Dragonclaws",
+      "Ladder.Dragonclaws",
+      "Ladder.Core.Dragonclaws",
+      "SkyBridgeLadder.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.Dragonclaws.Mole",
+      "Ladder.Dragonclaws.Mole",
+      "Ladder.Simple.Dragonclaws",
+      "Ladder.Dragonclaws",
+      "Ladder.Core.Dragonclaws",
+      "SkyBridgeLadder.Dragonclaws"
+    ]
+  }
+}

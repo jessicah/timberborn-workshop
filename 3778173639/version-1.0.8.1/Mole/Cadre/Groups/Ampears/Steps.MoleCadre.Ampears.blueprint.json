@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.Ampears", "Order": 901001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.Ampears",
+      "MetalStairs.Ampears",
+      "MetalStaircase.Ampears",
+      "SpiralStairs.Ampears",
+      "SpiralStaircase.Ampears",
+      "StaircaseLog.Ampears",
+      "MetalSpiralStaircase.Ampears",
+      "DD_SlopeStairs.Ampears",
+      "SkyBridgeStairs.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.Ampears",
+      "MetalStairs.Ampears",
+      "MetalStaircase.Ampears",
+      "SpiralStairs.Ampears",
+      "SpiralStaircase.Ampears",
+      "StaircaseLog.Ampears",
+      "MetalSpiralStaircase.Ampears",
+      "DD_SlopeStairs.Ampears",
+      "SkyBridgeStairs.Ampears"
+    ]
+  }
+}

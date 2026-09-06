@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Folktails", "Order": 219000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Folktails",
+      "Pit-and-LadderLodge_BoxStorage.Folktails",
+      "GloriousStorage.Folktails",
+      "SmallWarehouse.Folktails",
+      "SmallAquaDepo.Folktails.Mole",
+      "LongWarehouse.Folktails",
+      "PitWarehouse.Folktails",
+      "Warehouse.Folktails",
+      "MediumWarehouse.Folktails",
+      "BasicAquaDepo.Folktails.Mole",
+      "LargeWarehouse.Folktails",
+      "LargeAquaDepo.Folktails.Mole",
+      "GigargantuanWarehouse.Folktails",
+      "UndergroundWarehouse.Folktails",
+      "BuriedAquaDepo.Folktails.Mole",
+      "LargeUndergroundWarehouse.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Folktails",
+      "Pit-and-LadderLodge_BoxStorage.Folktails",
+      "GloriousStorage.Folktails",
+      "SmallWarehouse.Folktails",
+      "SmallAquaDepo.Folktails.Mole",
+      "LongWarehouse.Folktails",
+      "PitWarehouse.Folktails",
+      "Warehouse.Folktails",
+      "MediumWarehouse.Folktails",
+      "BasicAquaDepo.Folktails.Mole",
+      "LargeWarehouse.Folktails",
+      "LargeAquaDepo.Folktails.Mole",
+      "GigargantuanWarehouse.Folktails",
+      "UndergroundWarehouse.Folktails",
+      "BuriedAquaDepo.Folktails.Mole",
+      "LargeUndergroundWarehouse.Folktails"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.IslandBeavers", "Order": 1001002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.IslandBeavers.Mole",
+      "Ladder.IslandBeavers.Mole",
+      "Ladder.Simple.IslandBeavers",
+      "Ladder.IslandBeavers",
+      "Ladder.Core.IslandBeavers",
+      "SkyBridgeLadder.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.IslandBeavers.Mole",
+      "Ladder.IslandBeavers.Mole",
+      "Ladder.Simple.IslandBeavers",
+      "Ladder.IslandBeavers",
+      "Ladder.Core.IslandBeavers",
+      "SkyBridgeLadder.IslandBeavers"
+    ]
+  }
+}

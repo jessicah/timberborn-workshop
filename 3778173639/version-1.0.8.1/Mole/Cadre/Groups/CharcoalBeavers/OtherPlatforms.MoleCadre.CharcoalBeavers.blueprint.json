@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.CharcoalBeavers", "Order": 602009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.CharcoalBeavers",
+      "TreeTrunk.Side.Branch.CharcoalBeavers",
+      "TreeTrunk.Side.CharcoalBeavers",
+      "TreeTrunk.Corner.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

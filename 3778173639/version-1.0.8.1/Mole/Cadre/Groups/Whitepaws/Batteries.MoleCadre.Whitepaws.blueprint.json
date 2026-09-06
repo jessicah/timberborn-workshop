@@ -1,0 +1,37 @@
+{
+    "BlockObjectToolGroupSpec": { "Id": "Batteries.MoleCadre.Whitepaws", "Order": 721000, "NameLocKey": "Group.Batteries", "Icon": "Mole/Cadre/Batteries", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GravityBattery.Whitepaws",
+      "GravityBattery.TreeTrunk.Whitepaws",
+      "GravityBattery.TreeTrunk2.Whitepaws",
+      "SmallFlywheel.Whitepaws",
+      "SmallHorizontalFramedFlywheel.Whitepaws",
+      "SmallVerticalFramedFlywheel.Whitepaws",
+      "MediumFlywheel.Whitepaws",
+      "MediumHorizontalFramedFlywheel.Whitepaws",
+      "MediumVerticalFramedFlywheel.Whitepaws",
+      "LargeFlywheel.Whitepaws",
+      "LargeHorizontalFramedFlywheel.Whitepaws",
+      "LargeVerticalFramedFlywheel.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GravityBattery.Whitepaws",
+      "GravityBattery.TreeTrunk.Whitepaws",
+      "GravityBattery.TreeTrunk2.Whitepaws",
+      "SmallFlywheel.Whitepaws",
+      "SmallHorizontalFramedFlywheel.Whitepaws",
+      "SmallVerticalFramedFlywheel.Whitepaws",
+      "MediumFlywheel.Whitepaws",
+      "MediumHorizontalFramedFlywheel.Whitepaws",
+      "MediumVerticalFramedFlywheel.Whitepaws",
+      "LargeFlywheel.Whitepaws",
+      "LargeHorizontalFramedFlywheel.Whitepaws",
+      "LargeVerticalFramedFlywheel.Whitepaws"
+    ]
+  }
+}

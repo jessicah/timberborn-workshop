@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.CharcoalBeavers", "Order": 601008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.CharcoalBeavers",
+      "Tubeway.Gate.CharcoalBeavers",
+      "DistrictGate.CharcoalBeavers",
+      "DistrictGateTubeway.CharcoalBeavers",
+      "DecoSmallGate.CharcoalBeavers",
+      "SmallGate.CharcoalBeavers",
+      "HedgeGate.CharcoalBeavers",
+      "MetalGate.CharcoalBeavers",
+      "GoldGate.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.CharcoalBeavers",
+      "Tubeway.Gate.CharcoalBeavers",
+      "DistrictGate.CharcoalBeavers",
+      "DistrictGateTubeway.CharcoalBeavers",
+      "DecoSmallGate.CharcoalBeavers",
+      "SmallGate.CharcoalBeavers",
+      "HedgeGate.CharcoalBeavers",
+      "MetalGate.CharcoalBeavers",
+      "GoldGate.CharcoalBeavers"
+    ]
+  }
+}

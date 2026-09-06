@@ -1,0 +1,33 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPlatforms.MoleCadre.Dragonclaws", "Order": 1202003, "NameLocKey": "Group.MetalPlatforms", "Icon": "Mole/Cadre/MetalPlatforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPlatform.Dragonclaws",
+      "LargeMetalPlatform.Dragonclaws",
+      "MetalPlatform1x1.Dragonclaws",
+      "MetalPlatform3x3.Dragonclaws",
+      "MetalPlatform5x3.Dragonclaws",
+      "MetalPlatform5x5.Dragonclaws",
+      "MetalPlatform7x7.Dragonclaws",
+      "MetalPlatform3x3.Ladder.Dragonclaws",
+      "MetalPlatform5x5.Ladder.Dragonclaws",
+      "MetalPlatform7x7.Ladder.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPlatform.Dragonclaws",
+      "LargeMetalPlatform.Dragonclaws",
+      "MetalPlatform1x1.Dragonclaws",
+      "MetalPlatform3x3.Dragonclaws",
+      "MetalPlatform5x3.Dragonclaws",
+      "MetalPlatform5x5.Dragonclaws",
+      "MetalPlatform7x7.Dragonclaws",
+      "MetalPlatform3x3.Ladder.Dragonclaws",
+      "MetalPlatform5x5.Ladder.Dragonclaws",
+      "MetalPlatform7x7.Ladder.Dragonclaws"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Emberpelts", "Order": 403000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Emberpelts",
+      "DoublePlatform.Emberpelts",
+      "TriplePlatform.Emberpelts",
+      "TreeTrunk.Platform.Emberpelts",
+      "TreeTrunk.DoublePlatform.Emberpelts",
+      "TreeTrunk.TriplePlatform.Emberpelts"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Emberpelts",
+      "MetalPillars.MoleCadre.Emberpelts",
+      "TreeBits.MoleCadre.Emberpelts",
+      "Overhangs.MoleCadre.Emberpelts",
+      "MirroredOverhangs.MoleCadre.Emberpelts",
+      "ArchOverhangs.MoleCadre.Emberpelts",
+      "MetalPlatforms.MoleCadre.Emberpelts",
+      "OtherPlatforms.MoleCadre.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Emberpelts",
+      "DoublePlatform.Emberpelts",
+      "TriplePlatform.Emberpelts",
+      "TreeTrunk.Platform.Emberpelts",
+      "TreeTrunk.DoublePlatform.Emberpelts",
+      "TreeTrunk.TriplePlatform.Emberpelts",
+      "Pillars.MoleCadre.Emberpelts",
+      "MetalPillars.MoleCadre.Emberpelts",
+      "TreeBits.MoleCadre.Emberpelts",
+      "Overhangs.MoleCadre.Emberpelts",
+      "MirroredOverhangs.MoleCadre.Emberpelts",
+      "ArchOverhangs.MoleCadre.Emberpelts",
+      "MetalPlatforms.MoleCadre.Emberpelts",
+      "OtherPlatforms.MoleCadre.Emberpelts"
+    ]
+  }
+}

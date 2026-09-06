@@ -1,6 +1,6 @@
 #include <defines.h>
 {
-  __TOGROUP(00000,Faction,faction,icon),
+  __TOGROUP(00000,Faction,FACTION,ICON),
   "ToolGroupChildrenSpec":
   {
     "DoNotIncludePlaceableToolGroup": true,
@@ -35,7 +35,7 @@
       TOID(Fluids),
       TOID(Craft),
       TOID(Progress),
-      TOID(Abyss),
+      TOID(Mining),
       TOID(Power),
       TOID(Piles),
       TOID(Tanks),
@@ -76,7 +76,7 @@
       TOID(Fluids),
       TOID(Craft),
       TOID(Progress),
-      TOID(Abyss),
+      TOID(Mining),
       TOID(Power),
       TOID(Piles),
       TOID(Tanks),

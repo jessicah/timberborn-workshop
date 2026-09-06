@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ladders.MoleCadre.FrostyWhiskers", "Order": 801002, "NameLocKey": "Group.Ladders", "Icon": "Mole/Cadre/Ladders", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LogLadder.FrostyWhiskers.Mole",
+      "Ladder.FrostyWhiskers.Mole",
+      "Ladder.Simple.FrostyWhiskers",
+      "Ladder.FrostyWhiskers",
+      "Ladder.Core.FrostyWhiskers",
+      "SkyBridgeLadder.FrostyWhiskers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LogLadder.FrostyWhiskers.Mole",
+      "Ladder.FrostyWhiskers.Mole",
+      "Ladder.Simple.FrostyWhiskers",
+      "Ladder.FrostyWhiskers",
+      "Ladder.Core.FrostyWhiskers",
+      "SkyBridgeLadder.FrostyWhiskers"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Emberpelts", "Order": 416001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Emberpelts",
+      "SteamVentMiningSite.Emberpelts",
+      "FrozenAquifer.Emberpelts",
+      "IceBergMiningSite.Emberpelts",
+      "OilWell_Artificial.Emberpelts",
+      "OilDrill.Emberpelts",
+      "OilDrill2.Emberpelts",
+      "AbyssElevator.Emberpelts",
+      "SupplementaryExplorationTeam.Emberpelts",
+      "NuclearWasteCollector.Emberpelts",
+      "GasExctractor.Emberpelts",
+      "AbyssExcavator.Emberpelts",
+      "HoomanUndergroundChemPlant.Emberpelts",
+      "HoomanUndergroundFactory.Emberpelts",
+      "DeepMinePILEstorage.Emberpelts",
+      "DeepMineBOXStorage.Emberpelts",
+      "AbyssTourismCenter.Emberpelts",
+      "HoomanMedicalFacility.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Emberpelts",
+      "SteamVentMiningSite.Emberpelts",
+      "FrozenAquifer.Emberpelts",
+      "IceBergMiningSite.Emberpelts",
+      "OilWell_Artificial.Emberpelts",
+      "OilDrill.Emberpelts",
+      "OilDrill2.Emberpelts",
+      "AbyssElevator.Emberpelts",
+      "SupplementaryExplorationTeam.Emberpelts",
+      "NuclearWasteCollector.Emberpelts",
+      "GasExctractor.Emberpelts",
+      "AbyssExcavator.Emberpelts",
+      "HoomanUndergroundChemPlant.Emberpelts",
+      "HoomanUndergroundFactory.Emberpelts",
+      "DeepMinePILEstorage.Emberpelts",
+      "DeepMineBOXStorage.Emberpelts",
+      "AbyssTourismCenter.Emberpelts",
+      "HoomanMedicalFacility.Emberpelts"
+    ]
+  }
+}

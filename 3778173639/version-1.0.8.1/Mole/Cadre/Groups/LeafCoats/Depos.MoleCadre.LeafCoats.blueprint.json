@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.LeafCoats", "Order": 519000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.LeafCoats",
+      "Pit-and-LadderLodge_BoxStorage.LeafCoats",
+      "GloriousStorage.LeafCoats",
+      "SmallWarehouse.LeafCoats",
+      "SmallAquaDepo.LeafCoats.Mole",
+      "LongWarehouse.LeafCoats",
+      "PitWarehouse.LeafCoats",
+      "Warehouse.LeafCoats",
+      "MediumWarehouse.LeafCoats",
+      "BasicAquaDepo.LeafCoats.Mole",
+      "LargeWarehouse.LeafCoats",
+      "LargeAquaDepo.LeafCoats.Mole",
+      "GigargantuanWarehouse.LeafCoats",
+      "UndergroundWarehouse.LeafCoats",
+      "BuriedAquaDepo.LeafCoats.Mole",
+      "LargeUndergroundWarehouse.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.LeafCoats",
+      "Pit-and-LadderLodge_BoxStorage.LeafCoats",
+      "GloriousStorage.LeafCoats",
+      "SmallWarehouse.LeafCoats",
+      "SmallAquaDepo.LeafCoats.Mole",
+      "LongWarehouse.LeafCoats",
+      "PitWarehouse.LeafCoats",
+      "Warehouse.LeafCoats",
+      "MediumWarehouse.LeafCoats",
+      "BasicAquaDepo.LeafCoats.Mole",
+      "LargeWarehouse.LeafCoats",
+      "LargeAquaDepo.LeafCoats.Mole",
+      "GigargantuanWarehouse.LeafCoats",
+      "UndergroundWarehouse.LeafCoats",
+      "BuriedAquaDepo.LeafCoats.Mole",
+      "LargeUndergroundWarehouse.LeafCoats"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalDamSolidLining3xN.MoleCadre.IronTeeth", "Order": 306003, "NameLocKey": "Group.MetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_SM_SquareW3x1.IronTeeth",
+      "DE_SM_SquareW3x2.IronTeeth",
+      "DE_SM_SquareW3x3.IronTeeth",
+      "DE_SM_SlopeW3x.IronTeeth",
+      "DE_SM_InvSlopeW3X.IronTeeth",
+      "DE_SM_InvCornerW3X.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_SM_SquareW3x1.IronTeeth",
+      "DE_SM_SquareW3x2.IronTeeth",
+      "DE_SM_SquareW3x3.IronTeeth",
+      "DE_SM_SlopeW3x.IronTeeth",
+      "DE_SM_InvSlopeW3X.IronTeeth",
+      "DE_SM_InvCornerW3X.IronTeeth"
+    ]
+  }
+}

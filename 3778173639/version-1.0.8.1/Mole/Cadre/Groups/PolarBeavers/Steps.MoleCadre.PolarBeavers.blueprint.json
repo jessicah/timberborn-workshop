@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Steps.MoleCadre.PolarBeavers", "Order": 1101001, "NameLocKey": "Group.Steps", "Icon": "Mole/Cadre/Steps", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Stairs.PolarBeavers",
+      "MetalStairs.PolarBeavers",
+      "MetalStaircase.PolarBeavers",
+      "SpiralStairs.PolarBeavers",
+      "SpiralStaircase.PolarBeavers",
+      "StaircaseLog.PolarBeavers",
+      "MetalSpiralStaircase.PolarBeavers",
+      "DD_SlopeStairs.PolarBeavers",
+      "SkyBridgeStairs.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Stairs.PolarBeavers",
+      "MetalStairs.PolarBeavers",
+      "MetalStaircase.PolarBeavers",
+      "SpiralStairs.PolarBeavers",
+      "SpiralStaircase.PolarBeavers",
+      "StaircaseLog.PolarBeavers",
+      "MetalSpiralStaircase.PolarBeavers",
+      "DD_SlopeStairs.PolarBeavers",
+      "SkyBridgeStairs.PolarBeavers"
+    ]
+  }
+}

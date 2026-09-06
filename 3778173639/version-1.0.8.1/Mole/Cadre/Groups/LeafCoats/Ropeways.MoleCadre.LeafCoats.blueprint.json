@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Ropeways.MoleCadre.LeafCoats", "Order": 501003, "NameLocKey": "Group.Ropeways", "Icon": "Mole/Cadre/Ropeways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SuspensionBridge1x1.LeafCoats",
+      "SuspensionBridge2x1.LeafCoats",
+      "SuspensionBridge3x1.LeafCoats",
+      "SuspensionBridge4x1.LeafCoats",
+      "SuspensionBridge5x1.LeafCoats",
+      "SuspensionBridge6x1.LeafCoats",
+      "SuspensionBridge7x1.LeafCoats",
+      "SuspensionBridge8x1.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SuspensionBridge1x1.LeafCoats",
+      "SuspensionBridge2x1.LeafCoats",
+      "SuspensionBridge3x1.LeafCoats",
+      "SuspensionBridge4x1.LeafCoats",
+      "SuspensionBridge5x1.LeafCoats",
+      "SuspensionBridge6x1.LeafCoats",
+      "SuspensionBridge7x1.LeafCoats",
+      "SuspensionBridge8x1.LeafCoats"
+    ]
+  }
+}

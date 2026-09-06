@@ -1,0 +1,45 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Depos.MoleCadre.Whitepaws", "Order": 719000, "NameLocKey": "Group.Depos", "Icon": "Mole/Cadre/Depos", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+  "ChildrenToolsTemplateNames":
+    [
+      "BoxStorageLodge.Whitepaws",
+      "Pit-and-LadderLodge_BoxStorage.Whitepaws",
+      "GloriousStorage.Whitepaws",
+      "SmallWarehouse.Whitepaws",
+      "SmallAquaDepo.Whitepaws.Mole",
+      "LongWarehouse.Whitepaws",
+      "PitWarehouse.Whitepaws",
+      "Warehouse.Whitepaws",
+      "MediumWarehouse.Whitepaws",
+      "BasicAquaDepo.Whitepaws.Mole",
+      "LargeWarehouse.Whitepaws",
+      "LargeAquaDepo.Whitepaws.Mole",
+      "GigargantuanWarehouse.Whitepaws",
+      "UndergroundWarehouse.Whitepaws",
+      "BuriedAquaDepo.Whitepaws.Mole",
+      "LargeUndergroundWarehouse.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "BoxStorageLodge.Whitepaws",
+      "Pit-and-LadderLodge_BoxStorage.Whitepaws",
+      "GloriousStorage.Whitepaws",
+      "SmallWarehouse.Whitepaws",
+      "SmallAquaDepo.Whitepaws.Mole",
+      "LongWarehouse.Whitepaws",
+      "PitWarehouse.Whitepaws",
+      "Warehouse.Whitepaws",
+      "MediumWarehouse.Whitepaws",
+      "BasicAquaDepo.Whitepaws.Mole",
+      "LargeWarehouse.Whitepaws",
+      "LargeAquaDepo.Whitepaws.Mole",
+      "GigargantuanWarehouse.Whitepaws",
+      "UndergroundWarehouse.Whitepaws",
+      "BuriedAquaDepo.Whitepaws.Mole",
+      "LargeUndergroundWarehouse.Whitepaws"
+    ]
+  }
+}

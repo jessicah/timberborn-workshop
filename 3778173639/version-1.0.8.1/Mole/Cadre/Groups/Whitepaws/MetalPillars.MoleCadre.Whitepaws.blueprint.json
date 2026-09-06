@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.Whitepaws", "Order": 702002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.Whitepaws",
+      "MetalPillars.Whitepaws",
+      "MetalBigPillarBase.Whitepaws",
+      "MetalBigPillarMid.Whitepaws",
+      "MetalBigPillarTop.Whitepaws",
+      "Aque_MetalBigPillarBase.Whitepaws",
+      "Aque_MetalBigPillarMid.Whitepaws",
+      "Aque_MetalBigPillarTop.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.Whitepaws",
+      "MetalPillars.Whitepaws",
+      "MetalBigPillarBase.Whitepaws",
+      "MetalBigPillarMid.Whitepaws",
+      "MetalBigPillarTop.Whitepaws",
+      "Aque_MetalBigPillarBase.Whitepaws",
+      "Aque_MetalBigPillarMid.Whitepaws",
+      "Aque_MetalBigPillarTop.Whitepaws"
+    ]
+  }
+}

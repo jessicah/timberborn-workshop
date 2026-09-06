@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.Dirtclaws", "Order": 1301009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.Dirtclaws",
+      "TE_Tunnel_1L.Dirtclaws",
+      "TE_Tunnel_2L.Dirtclaws",
+      "TE_Tunnel_3L.Dirtclaws",
+      "TE_Tunnel_4L.Dirtclaws",
+      "TE_Tunnel_5L.Dirtclaws",
+      "TE_Tunnel_6L.Dirtclaws",
+      "TE_Tunnel_7L.Dirtclaws",
+      "TE_Tunnel_8L.Dirtclaws",
+      "TE_Tunnel_9L.Dirtclaws",
+      "TE_Tunnel_10L.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.Dirtclaws",
+      "TE_Tunnel_1L.Dirtclaws",
+      "TE_Tunnel_2L.Dirtclaws",
+      "TE_Tunnel_3L.Dirtclaws",
+      "TE_Tunnel_4L.Dirtclaws",
+      "TE_Tunnel_5L.Dirtclaws",
+      "TE_Tunnel_6L.Dirtclaws",
+      "TE_Tunnel_7L.Dirtclaws",
+      "TE_Tunnel_8L.Dirtclaws",
+      "TE_Tunnel_9L.Dirtclaws",
+      "TE_Tunnel_10L.Dirtclaws"
+    ]
+  }
+}

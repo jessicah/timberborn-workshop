@@ -1,0 +1,49 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Mining.MoleCadre.Ampears", "Order": 916001, "NameLocKey": "Group.Mining", "Icon": "Mole/Cadre/Mining", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "GeothermalVentExcavation.Ampears",
+      "SteamVentMiningSite.Ampears",
+      "FrozenAquifer.Ampears",
+      "IceBergMiningSite.Ampears",
+      "OilWell_Artificial.Ampears",
+      "OilDrill.Ampears",
+      "OilDrill2.Ampears",
+      "AbyssElevator.Ampears",
+      "SupplementaryExplorationTeam.Ampears",
+      "NuclearWasteCollector.Ampears",
+      "GasExctractor.Ampears",
+      "AbyssExcavator.Ampears",
+      "HoomanUndergroundChemPlant.Ampears",
+      "HoomanUndergroundFactory.Ampears",
+      "DeepMinePILEstorage.Ampears",
+      "DeepMineBOXStorage.Ampears",
+      "AbyssTourismCenter.Ampears",
+      "HoomanMedicalFacility.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "GeothermalVentExcavation.Ampears",
+      "SteamVentMiningSite.Ampears",
+      "FrozenAquifer.Ampears",
+      "IceBergMiningSite.Ampears",
+      "OilWell_Artificial.Ampears",
+      "OilDrill.Ampears",
+      "OilDrill2.Ampears",
+      "AbyssElevator.Ampears",
+      "SupplementaryExplorationTeam.Ampears",
+      "NuclearWasteCollector.Ampears",
+      "GasExctractor.Ampears",
+      "AbyssExcavator.Ampears",
+      "HoomanUndergroundChemPlant.Ampears",
+      "HoomanUndergroundFactory.Ampears",
+      "DeepMinePILEstorage.Ampears",
+      "DeepMineBOXStorage.Ampears",
+      "AbyssTourismCenter.Ampears",
+      "HoomanMedicalFacility.Ampears"
+    ]
+  }
+}

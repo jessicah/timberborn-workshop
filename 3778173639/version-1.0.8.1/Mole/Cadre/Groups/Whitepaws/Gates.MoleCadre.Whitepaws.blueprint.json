@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.Whitepaws", "Order": 701008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.Whitepaws",
+      "Tubeway.Gate.Whitepaws",
+      "DistrictGate.Whitepaws",
+      "DistrictGateTubeway.Whitepaws",
+      "DecoSmallGate.Whitepaws",
+      "SmallGate.Whitepaws",
+      "HedgeGate.Whitepaws",
+      "MetalGate.Whitepaws",
+      "GoldGate.Whitepaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.Whitepaws",
+      "Tubeway.Gate.Whitepaws",
+      "DistrictGate.Whitepaws",
+      "DistrictGateTubeway.Whitepaws",
+      "DecoSmallGate.Whitepaws",
+      "SmallGate.Whitepaws",
+      "HedgeGate.Whitepaws",
+      "MetalGate.Whitepaws",
+      "GoldGate.Whitepaws"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.IronTeeth", "Order": 301008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.IronTeeth",
+      "Tubeway.Gate.IronTeeth",
+      "DistrictGate.IronTeeth",
+      "DistrictGateTubeway.IronTeeth",
+      "DecoSmallGate.IronTeeth",
+      "SmallGate.IronTeeth",
+      "HedgeGate.IronTeeth",
+      "MetalGate.IronTeeth",
+      "GoldGate.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.IronTeeth",
+      "Tubeway.Gate.IronTeeth",
+      "DistrictGate.IronTeeth",
+      "DistrictGateTubeway.IronTeeth",
+      "DecoSmallGate.IronTeeth",
+      "SmallGate.IronTeeth",
+      "HedgeGate.IronTeeth",
+      "MetalGate.IronTeeth",
+      "GoldGate.IronTeeth"
+    ]
+  }
+}

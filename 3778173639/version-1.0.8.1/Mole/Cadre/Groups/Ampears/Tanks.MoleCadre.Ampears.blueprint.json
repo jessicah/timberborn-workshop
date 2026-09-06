@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.Ampears", "Order": 920000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.Ampears",
+      "Pit-and-LadderLodge_LiquidStorage.Ampears",
+      "SmallCoveredTank.Ampears",
+      "SmallTank.Ampears",
+      "SmallAquaTank.Ampears.Mole",
+      "PitTank.Ampears",
+      "MediumTank.Ampears",
+      "BasicAquaTank.Ampears.Mole",
+      "LargeTank.Ampears",
+      "LargeAquaTank.Ampears.Mole",
+      "UndergroundTank.Ampears",
+      "BuriedAquaTank.Ampears.Mole",
+      "LargeUndergroundTank.Ampears",
+      "GazTank.Ampears",
+      "GasTank.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.Ampears",
+      "Pit-and-LadderLodge_LiquidStorage.Ampears",
+      "SmallCoveredTank.Ampears",
+      "SmallTank.Ampears",
+      "SmallAquaTank.Ampears.Mole",
+      "PitTank.Ampears",
+      "MediumTank.Ampears",
+      "BasicAquaTank.Ampears.Mole",
+      "LargeTank.Ampears",
+      "LargeAquaTank.Ampears.Mole",
+      "UndergroundTank.Ampears",
+      "BuriedAquaTank.Ampears.Mole",
+      "LargeUndergroundTank.Ampears",
+      "GazTank.Ampears",
+      "GasTank.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.PolarBeavers", "Order": 1102000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.PolarBeavers.Mole",
+      "StonePath.PolarBeavers.Mole",
+      "WoodenPath.PolarBeavers.Mole",
+      "Path.PolarBeavers",
+      "Path1.PolarBeavers",
+      "Path2.PolarBeavers",
+      "Path3.PolarBeavers",
+      "Path4.PolarBeavers",
+      "Path5.PolarBeavers",
+      "DistrictCrossing.PolarBeavers",
+      "BOTDistrictCrossing.PolarBeavers"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.PolarBeavers",
+      "Ladders.MoleCadre.PolarBeavers",
+      "Ropeways.MoleCadre.PolarBeavers",
+      "Bridges.MoleCadre.PolarBeavers",
+      "Walkways.MoleCadre.PolarBeavers",
+      "Branches.MoleCadre.PolarBeavers",
+      "Boosters.MoleCadre.PolarBeavers",
+      "Gates.MoleCadre.PolarBeavers",
+      "Passages.MoleCadre.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.PolarBeavers.Mole",
+      "StonePath.PolarBeavers.Mole",
+      "WoodenPath.PolarBeavers.Mole",
+      "Path.PolarBeavers",
+      "Path1.PolarBeavers",
+      "Path2.PolarBeavers",
+      "Path3.PolarBeavers",
+      "Path4.PolarBeavers",
+      "Path5.PolarBeavers",
+      "DistrictCrossing.PolarBeavers",
+      "BOTDistrictCrossing.PolarBeavers",
+      "Steps.MoleCadre.PolarBeavers",
+      "Ladders.MoleCadre.PolarBeavers",
+      "Ropeways.MoleCadre.PolarBeavers",
+      "Bridges.MoleCadre.PolarBeavers",
+      "Walkways.MoleCadre.PolarBeavers",
+      "Branches.MoleCadre.PolarBeavers",
+      "Boosters.MoleCadre.PolarBeavers",
+      "Gates.MoleCadre.PolarBeavers",
+      "Passages.MoleCadre.PolarBeavers"
+    ]
+  }
+}

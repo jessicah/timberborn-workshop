@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.IronTeeth", "Order": 301005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.IronTeeth",
+      "SkyBridgeLadder.IronTeeth",
+      "SkyBridge.IronTeeth",
+      "SkyBridgeEntrance.IronTeeth",
+      "SkyBridge.Bridge2x1.IronTeeth",
+      "SkyBridge.Bridge3x1.IronTeeth",
+      "SkyBridge.Bridge4x1.IronTeeth",
+      "SkyBridge.Bridge5x1.IronTeeth",
+      "SkyBridge.Bridge6x1.IronTeeth",
+      "SkyBridge.Bridge7x1.IronTeeth",
+      "SkyBridgeEntrance.IronTeeth",
+      "TubewaySkyBridge.IronTeeth"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.IronTeeth",
+      "SkyBridgeLadder.IronTeeth",
+      "SkyBridge.IronTeeth",
+      "SkyBridgeEntrance.IronTeeth",
+      "SkyBridge.Bridge2x1.IronTeeth",
+      "SkyBridge.Bridge3x1.IronTeeth",
+      "SkyBridge.Bridge4x1.IronTeeth",
+      "SkyBridge.Bridge5x1.IronTeeth",
+      "SkyBridge.Bridge6x1.IronTeeth",
+      "SkyBridge.Bridge7x1.IronTeeth",
+      "SkyBridgeEntrance.IronTeeth",
+      "TubewaySkyBridge.IronTeeth"
+    ]
+  }
+}

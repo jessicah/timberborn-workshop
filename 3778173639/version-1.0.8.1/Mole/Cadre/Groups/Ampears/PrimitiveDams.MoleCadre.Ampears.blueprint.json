@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "PrimitiveDams.MoleCadre.Ampears", "Order": 904000, "NameLocKey": "Group.PrimitiveDams", "Icon": "Mole/Cadre/PrimitiveDams", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "PrimitiveDam3x2.Ampears",
+      "PrimitiveDam3x2Upgrade.Ampears",
+      "PrimitiveDam3x3.Ampears",
+      "PrimitiveDam3x3Upgrade.Ampears",
+      "PrimitiveDam3x3Utility.Ampears",
+      "PrimitiveDam3x3UtilityUpgrade.Ampears",
+      "PrimitiveDam3x3Variant.Ampears",
+      "PrimitiveDam3x3VariantUpgrade.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "PrimitiveDam3x2.Ampears",
+      "PrimitiveDam3x2Upgrade.Ampears",
+      "PrimitiveDam3x3.Ampears",
+      "PrimitiveDam3x3Upgrade.Ampears",
+      "PrimitiveDam3x3Utility.Ampears",
+      "PrimitiveDam3x3UtilityUpgrade.Ampears",
+      "PrimitiveDam3x3Variant.Ampears",
+      "PrimitiveDam3x3VariantUpgrade.Ampears"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.IslandBeavers", "Order": 1002009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.IslandBeavers",
+      "TreeTrunk.Side.Branch.IslandBeavers",
+      "TreeTrunk.Side.IslandBeavers",
+      "TreeTrunk.Corner.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "OtherPlatforms.MoleCadre.Folktails", "Order": 202009, "NameLocKey": "Group.OtherPlatforms", "Icon": "Mole/Cadre/Other", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Branch.Folktails",
+      "TreeTrunk.Side.Branch.Folktails",
+      "TreeTrunk.Side.Folktails",
+      "TreeTrunk.Corner.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+    ]
+  }
+}

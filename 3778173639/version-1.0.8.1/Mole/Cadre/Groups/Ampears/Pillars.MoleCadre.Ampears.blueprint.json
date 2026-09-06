@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Pillars.MoleCadre.Ampears", "Order": 902001, "NameLocKey": "Group.Pillars", "Icon": "Mole/Cadre/Pillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pillar.Ampears",
+      "Pillar_1.Ampears",
+      "Pillar_2.Ampears",
+      "Pillar_3.Ampears",
+      "Pillar_4.Ampears",
+      "Pillars.Ampears",
+      "PillarTop.Ampears",
+      "StaircasePlatform.Ampears",
+      "StaircasePillar.Ampears"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pillar.Ampears",
+      "Pillar_1.Ampears",
+      "Pillar_2.Ampears",
+      "Pillar_3.Ampears",
+      "Pillar_4.Ampears",
+      "Pillars.Ampears",
+      "PillarTop.Ampears",
+      "StaircasePlatform.Ampears",
+      "StaircasePillar.Ampears"
+    ]
+  }
+}

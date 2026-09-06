@@ -1,0 +1,31 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Gates.MoleCadre.LeafCoats", "Order": 501008, "NameLocKey": "Group.Gates", "Icon": "Mole/Cadre/Gates", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Gate.LeafCoats",
+      "Tubeway.Gate.LeafCoats",
+      "DistrictGate.LeafCoats",
+      "DistrictGateTubeway.LeafCoats",
+      "DecoSmallGate.LeafCoats",
+      "SmallGate.LeafCoats",
+      "HedgeGate.LeafCoats",
+      "MetalGate.LeafCoats",
+      "GoldGate.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Gate.LeafCoats",
+      "Tubeway.Gate.LeafCoats",
+      "DistrictGate.LeafCoats",
+      "DistrictGateTubeway.LeafCoats",
+      "DecoSmallGate.LeafCoats",
+      "SmallGate.LeafCoats",
+      "HedgeGate.LeafCoats",
+      "MetalGate.LeafCoats",
+      "GoldGate.LeafCoats"
+    ]
+  }
+}

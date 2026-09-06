@@ -1,0 +1,39 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Awe.MoleCadre.Dirtclaws", "Order": 1326000, "NameLocKey": "Group.Awe", "Icon": "Mole/Cadre/Awe", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "FarmerMonument.Dirtclaws",
+      "LaborerMonument.Dirtclaws",
+      "BrazierOfBonding.Dirtclaws",
+      "FlameOfUnity.Dirtclaws",
+      "FountainOfJoy.Dirtclaws",
+      "PublicFountain.Dirtclaws",
+      "TributeToIngenuity.Dirtclaws",
+      "HallOfAbundance.Dirtclaws",
+      "ArchOfProgress.Dirtclaws",
+      "EarthRecultivator.Dirtclaws",
+      "EarthRepopulator.Dirtclaws",
+      "WonderOfFire.Dirtclaws",
+      "Wonder.Dirtclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "FarmerMonument.Dirtclaws",
+      "LaborerMonument.Dirtclaws",
+      "BrazierOfBonding.Dirtclaws",
+      "FlameOfUnity.Dirtclaws",
+      "FountainOfJoy.Dirtclaws",
+      "PublicFountain.Dirtclaws",
+      "TributeToIngenuity.Dirtclaws",
+      "HallOfAbundance.Dirtclaws",
+      "ArchOfProgress.Dirtclaws",
+      "EarthRecultivator.Dirtclaws",
+      "EarthRepopulator.Dirtclaws",
+      "WonderOfFire.Dirtclaws",
+      "Wonder.Dirtclaws"
+    ]
+  }
+}

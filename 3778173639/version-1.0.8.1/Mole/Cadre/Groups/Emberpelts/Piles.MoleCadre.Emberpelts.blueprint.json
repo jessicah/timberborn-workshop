@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Emberpelts", "Order": 418000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Emberpelts",
+      "SmallPile.Emberpelts",
+      "SmallIndustrialPile.Emberpelts",
+      "SmallAquaPile.Emberpelts.Mole",
+      "LongPile.Emberpelts",
+      "PitPile.Emberpelts",
+      "2x2PileRight.Emberpelts",
+      "Pile.Emberpelts",
+      "IndustrialPile.Emberpelts",
+      "MediumPile.Emberpelts",
+      "MediumIndustrialPile.Emberpelts",
+      "LargePile.Emberpelts",
+      "LargeIndustrialPile.Emberpelts",
+      "BasicAquaPile.Emberpelts.Mole",
+      "ExtraLargePile.Emberpelts",
+      "ExtraLargeIndustrialPile.Emberpelts",
+      "LargeAquaPile.Emberpelts.Mole",
+      "GigargantuanPile.Emberpelts",
+      "UndergroundPile.Emberpelts",
+      "BuriedAquaPile.Emberpelts.Mole",
+      "GiantLogStorage.Emberpelts"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Emberpelts",
+      "SmallPile.Emberpelts",
+      "SmallIndustrialPile.Emberpelts",
+      "SmallAquaPile.Emberpelts.Mole",
+      "LongPile.Emberpelts",
+      "PitPile.Emberpelts",
+      "2x2PileRight.Emberpelts",
+      "Pile.Emberpelts",
+      "IndustrialPile.Emberpelts",
+      "MediumPile.Emberpelts",
+      "MediumIndustrialPile.Emberpelts",
+      "LargePile.Emberpelts",
+      "LargeIndustrialPile.Emberpelts",
+      "BasicAquaPile.Emberpelts.Mole",
+      "ExtraLargePile.Emberpelts",
+      "ExtraLargeIndustrialPile.Emberpelts",
+      "LargeAquaPile.Emberpelts.Mole",
+      "GigargantuanPile.Emberpelts",
+      "UndergroundPile.Emberpelts",
+      "BuriedAquaPile.Emberpelts.Mole",
+      "GiantLogStorage.Emberpelts"
+    ]
+  }
+}

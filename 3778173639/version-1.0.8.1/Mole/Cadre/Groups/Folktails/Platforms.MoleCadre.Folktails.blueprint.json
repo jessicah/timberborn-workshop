@@ -1,0 +1,44 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Platforms.MoleCadre.Folktails", "Order": 203000, "NameLocKey": "Group.Platforms", "Icon": "Mole/Cadre/Platforms", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Platform.Folktails",
+      "DoublePlatform.Folktails",
+      "TriplePlatform.Folktails",
+      "TreeTrunk.Platform.Folktails",
+      "TreeTrunk.DoublePlatform.Folktails",
+      "TreeTrunk.TriplePlatform.Folktails"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Pillars.MoleCadre.Folktails",
+      "MetalPillars.MoleCadre.Folktails",
+      "TreeBits.MoleCadre.Folktails",
+      "Overhangs.MoleCadre.Folktails",
+      "MirroredOverhangs.MoleCadre.Folktails",
+      "ArchOverhangs.MoleCadre.Folktails",
+      "MetalPlatforms.MoleCadre.Folktails",
+      "OtherPlatforms.MoleCadre.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Platform.Folktails",
+      "DoublePlatform.Folktails",
+      "TriplePlatform.Folktails",
+      "TreeTrunk.Platform.Folktails",
+      "TreeTrunk.DoublePlatform.Folktails",
+      "TreeTrunk.TriplePlatform.Folktails",
+      "Pillars.MoleCadre.Folktails",
+      "MetalPillars.MoleCadre.Folktails",
+      "TreeBits.MoleCadre.Folktails",
+      "Overhangs.MoleCadre.Folktails",
+      "MirroredOverhangs.MoleCadre.Folktails",
+      "ArchOverhangs.MoleCadre.Folktails",
+      "MetalPlatforms.MoleCadre.Folktails",
+      "OtherPlatforms.MoleCadre.Folktails"
+    ]
+  }
+}

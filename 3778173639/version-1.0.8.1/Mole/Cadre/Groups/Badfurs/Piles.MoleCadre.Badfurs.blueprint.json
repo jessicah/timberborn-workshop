@@ -1,0 +1,55 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Piles.MoleCadre.Badfurs", "Order": 1418000, "NameLocKey": "Group.Piles", "Icon": "Mole/Cadre/Piles", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Badfurs",
+      "SmallPile.Badfurs",
+      "SmallIndustrialPile.Badfurs",
+      "SmallAquaPile.Badfurs.Mole",
+      "LongPile.Badfurs",
+      "PitPile.Badfurs",
+      "2x2PileRight.Badfurs",
+      "Pile.Badfurs",
+      "IndustrialPile.Badfurs",
+      "MediumPile.Badfurs",
+      "MediumIndustrialPile.Badfurs",
+      "LargePile.Badfurs",
+      "LargeIndustrialPile.Badfurs",
+      "BasicAquaPile.Badfurs.Mole",
+      "ExtraLargePile.Badfurs",
+      "ExtraLargeIndustrialPile.Badfurs",
+      "LargeAquaPile.Badfurs.Mole",
+      "GigargantuanPile.Badfurs",
+      "UndergroundPile.Badfurs",
+      "BuriedAquaPile.Badfurs.Mole",
+      "GiantLogStorage.Badfurs"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Pit-and-LadderLodge_PowderStorage.Badfurs",
+      "SmallPile.Badfurs",
+      "SmallIndustrialPile.Badfurs",
+      "SmallAquaPile.Badfurs.Mole",
+      "LongPile.Badfurs",
+      "PitPile.Badfurs",
+      "2x2PileRight.Badfurs",
+      "Pile.Badfurs",
+      "IndustrialPile.Badfurs",
+      "MediumPile.Badfurs",
+      "MediumIndustrialPile.Badfurs",
+      "LargePile.Badfurs",
+      "LargeIndustrialPile.Badfurs",
+      "BasicAquaPile.Badfurs.Mole",
+      "ExtraLargePile.Badfurs",
+      "ExtraLargeIndustrialPile.Badfurs",
+      "LargeAquaPile.Badfurs.Mole",
+      "GigargantuanPile.Badfurs",
+      "UndergroundPile.Badfurs",
+      "BuriedAquaPile.Badfurs.Mole",
+      "GiantLogStorage.Badfurs"
+    ]
+  }
+}

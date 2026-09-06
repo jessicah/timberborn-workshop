@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalPillars.MoleCadre.IslandBeavers", "Order": 1002002, "NameLocKey": "Group.MetalPillars", "Icon": "Mole/Cadre/MetalPillars", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "MetalPillar.IslandBeavers",
+      "MetalPillars.IslandBeavers",
+      "MetalBigPillarBase.IslandBeavers",
+      "MetalBigPillarMid.IslandBeavers",
+      "MetalBigPillarTop.IslandBeavers",
+      "Aque_MetalBigPillarBase.IslandBeavers",
+      "Aque_MetalBigPillarMid.IslandBeavers",
+      "Aque_MetalBigPillarTop.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "MetalPillar.IslandBeavers",
+      "MetalPillars.IslandBeavers",
+      "MetalBigPillarBase.IslandBeavers",
+      "MetalBigPillarMid.IslandBeavers",
+      "MetalBigPillarTop.IslandBeavers",
+      "Aque_MetalBigPillarBase.IslandBeavers",
+      "Aque_MetalBigPillarMid.IslandBeavers",
+      "Aque_MetalBigPillarTop.IslandBeavers"
+    ]
+  }
+}

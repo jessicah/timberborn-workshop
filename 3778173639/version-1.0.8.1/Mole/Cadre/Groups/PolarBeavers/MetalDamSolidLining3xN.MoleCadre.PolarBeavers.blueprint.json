@@ -1,0 +1,25 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "MetalDamSolidLining3xN.MoleCadre.PolarBeavers", "Order": 1106003, "NameLocKey": "Group.MetalDamSolidLining3xN", "Icon": "Mole/Cadre/DamSolidLining3xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_SM_SquareW3x1.PolarBeavers",
+      "DE_SM_SquareW3x2.PolarBeavers",
+      "DE_SM_SquareW3x3.PolarBeavers",
+      "DE_SM_SlopeW3x.PolarBeavers",
+      "DE_SM_InvSlopeW3X.PolarBeavers",
+      "DE_SM_InvCornerW3X.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_SM_SquareW3x1.PolarBeavers",
+      "DE_SM_SquareW3x2.PolarBeavers",
+      "DE_SM_SquareW3x3.PolarBeavers",
+      "DE_SM_SlopeW3x.PolarBeavers",
+      "DE_SM_InvSlopeW3X.PolarBeavers",
+      "DE_SM_InvCornerW3X.PolarBeavers"
+    ]
+  }
+}

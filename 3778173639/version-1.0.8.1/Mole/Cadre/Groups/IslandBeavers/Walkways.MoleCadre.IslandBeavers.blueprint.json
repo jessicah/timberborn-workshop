@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.IslandBeavers", "Order": 1001005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.IslandBeavers",
+      "SkyBridgeLadder.IslandBeavers",
+      "SkyBridge.IslandBeavers",
+      "SkyBridgeEntrance.IslandBeavers",
+      "SkyBridge.Bridge2x1.IslandBeavers",
+      "SkyBridge.Bridge3x1.IslandBeavers",
+      "SkyBridge.Bridge4x1.IslandBeavers",
+      "SkyBridge.Bridge5x1.IslandBeavers",
+      "SkyBridge.Bridge6x1.IslandBeavers",
+      "SkyBridge.Bridge7x1.IslandBeavers",
+      "SkyBridgeEntrance.IslandBeavers",
+      "TubewaySkyBridge.IslandBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.IslandBeavers",
+      "SkyBridgeLadder.IslandBeavers",
+      "SkyBridge.IslandBeavers",
+      "SkyBridgeEntrance.IslandBeavers",
+      "SkyBridge.Bridge2x1.IslandBeavers",
+      "SkyBridge.Bridge3x1.IslandBeavers",
+      "SkyBridge.Bridge4x1.IslandBeavers",
+      "SkyBridge.Bridge5x1.IslandBeavers",
+      "SkyBridge.Bridge6x1.IslandBeavers",
+      "SkyBridge.Bridge7x1.IslandBeavers",
+      "SkyBridgeEntrance.IslandBeavers",
+      "TubewaySkyBridge.IslandBeavers"
+    ]
+  }
+}

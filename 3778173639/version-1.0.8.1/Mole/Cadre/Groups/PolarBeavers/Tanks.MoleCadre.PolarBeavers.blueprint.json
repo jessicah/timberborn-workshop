@@ -1,0 +1,43 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Tanks.MoleCadre.PolarBeavers", "Order": 1120000, "NameLocKey": "Group.Tanks", "Icon": "Mole/Cadre/Tanks", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "LiquidStorageLodge.PolarBeavers",
+      "Pit-and-LadderLodge_LiquidStorage.PolarBeavers",
+      "SmallCoveredTank.PolarBeavers",
+      "SmallTank.PolarBeavers",
+      "SmallAquaTank.PolarBeavers.Mole",
+      "PitTank.PolarBeavers",
+      "MediumTank.PolarBeavers",
+      "BasicAquaTank.PolarBeavers.Mole",
+      "LargeTank.PolarBeavers",
+      "LargeAquaTank.PolarBeavers.Mole",
+      "UndergroundTank.PolarBeavers",
+      "BuriedAquaTank.PolarBeavers.Mole",
+      "LargeUndergroundTank.PolarBeavers",
+      "GazTank.PolarBeavers",
+      "GasTank.PolarBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "LiquidStorageLodge.PolarBeavers",
+      "Pit-and-LadderLodge_LiquidStorage.PolarBeavers",
+      "SmallCoveredTank.PolarBeavers",
+      "SmallTank.PolarBeavers",
+      "SmallAquaTank.PolarBeavers.Mole",
+      "PitTank.PolarBeavers",
+      "MediumTank.PolarBeavers",
+      "BasicAquaTank.PolarBeavers.Mole",
+      "LargeTank.PolarBeavers",
+      "LargeAquaTank.PolarBeavers.Mole",
+      "UndergroundTank.PolarBeavers",
+      "BuriedAquaTank.PolarBeavers.Mole",
+      "LargeUndergroundTank.PolarBeavers",
+      "GazTank.PolarBeavers",
+      "GasTank.PolarBeavers"
+    ]
+  }
+}

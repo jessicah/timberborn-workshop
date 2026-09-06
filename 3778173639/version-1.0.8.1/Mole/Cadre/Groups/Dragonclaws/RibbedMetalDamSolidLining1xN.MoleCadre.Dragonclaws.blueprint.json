@@ -1,0 +1,29 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "RibbedMetalDamSolidLining1xN.MoleCadre.Dragonclaws", "Order": 1207001, "NameLocKey": "Group.RibbedMetalDamSolidLining1xN", "Icon": "Mole/Cadre/DamSolidLining1xN", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "DE_RM_SquareW1x1.Dragonclaws",
+      "DE_RM_SquareW1x2.Dragonclaws",
+      "DE_RM_SquareW1x3.Dragonclaws",
+      "DE_RM_SlopeW.Dragonclaws",
+      "DE_RM_InvSlopeW.Dragonclaws",
+      "DE_RM_InvSlopeW1x1.Dragonclaws",
+      "DE_RM_InvSlopeW1x2.Dragonclaws",
+      "DE_RM_InvCornerW.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "DE_RM_SquareW1x1.Dragonclaws",
+      "DE_RM_SquareW1x2.Dragonclaws",
+      "DE_RM_SquareW1x3.Dragonclaws",
+      "DE_RM_SlopeW.Dragonclaws",
+      "DE_RM_InvSlopeW.Dragonclaws",
+      "DE_RM_InvSlopeW1x1.Dragonclaws",
+      "DE_RM_InvSlopeW1x2.Dragonclaws",
+      "DE_RM_InvCornerW.Dragonclaws"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Walkways.MoleCadre.Dragonclaws", "Order": 1201005, "NameLocKey": "Group.Walkways", "Icon": "Mole/Cadre/Walkways", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "SkyBridgeStairs.Dragonclaws",
+      "SkyBridgeLadder.Dragonclaws",
+      "SkyBridge.Dragonclaws",
+      "SkyBridgeEntrance.Dragonclaws",
+      "SkyBridge.Bridge2x1.Dragonclaws",
+      "SkyBridge.Bridge3x1.Dragonclaws",
+      "SkyBridge.Bridge4x1.Dragonclaws",
+      "SkyBridge.Bridge5x1.Dragonclaws",
+      "SkyBridge.Bridge6x1.Dragonclaws",
+      "SkyBridge.Bridge7x1.Dragonclaws",
+      "SkyBridgeEntrance.Dragonclaws",
+      "TubewaySkyBridge.Dragonclaws"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "SkyBridgeStairs.Dragonclaws",
+      "SkyBridgeLadder.Dragonclaws",
+      "SkyBridge.Dragonclaws",
+      "SkyBridgeEntrance.Dragonclaws",
+      "SkyBridge.Bridge2x1.Dragonclaws",
+      "SkyBridge.Bridge3x1.Dragonclaws",
+      "SkyBridge.Bridge4x1.Dragonclaws",
+      "SkyBridge.Bridge5x1.Dragonclaws",
+      "SkyBridge.Bridge6x1.Dragonclaws",
+      "SkyBridge.Bridge7x1.Dragonclaws",
+      "SkyBridgeEntrance.Dragonclaws",
+      "TubewaySkyBridge.Dragonclaws"
+    ]
+  }
+}

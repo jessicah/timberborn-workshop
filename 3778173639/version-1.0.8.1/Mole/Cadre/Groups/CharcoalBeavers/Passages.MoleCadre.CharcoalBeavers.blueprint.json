@@ -1,0 +1,35 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Passages.MoleCadre.CharcoalBeavers", "Order": 601009, "NameLocKey": "Group.Passages", "Icon": "Mole/Cadre/Passages", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Airlock.CharcoalBeavers",
+      "TE_Tunnel_1L.CharcoalBeavers",
+      "TE_Tunnel_2L.CharcoalBeavers",
+      "TE_Tunnel_3L.CharcoalBeavers",
+      "TE_Tunnel_4L.CharcoalBeavers",
+      "TE_Tunnel_5L.CharcoalBeavers",
+      "TE_Tunnel_6L.CharcoalBeavers",
+      "TE_Tunnel_7L.CharcoalBeavers",
+      "TE_Tunnel_8L.CharcoalBeavers",
+      "TE_Tunnel_9L.CharcoalBeavers",
+      "TE_Tunnel_10L.CharcoalBeavers"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Airlock.CharcoalBeavers",
+      "TE_Tunnel_1L.CharcoalBeavers",
+      "TE_Tunnel_2L.CharcoalBeavers",
+      "TE_Tunnel_3L.CharcoalBeavers",
+      "TE_Tunnel_4L.CharcoalBeavers",
+      "TE_Tunnel_5L.CharcoalBeavers",
+      "TE_Tunnel_6L.CharcoalBeavers",
+      "TE_Tunnel_7L.CharcoalBeavers",
+      "TE_Tunnel_8L.CharcoalBeavers",
+      "TE_Tunnel_9L.CharcoalBeavers",
+      "TE_Tunnel_10L.CharcoalBeavers"
+    ]
+  }
+}

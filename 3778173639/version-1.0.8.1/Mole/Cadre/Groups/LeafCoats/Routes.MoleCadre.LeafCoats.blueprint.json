@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.LeafCoats", "Order": 502000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.LeafCoats.Mole",
+      "StonePath.LeafCoats.Mole",
+      "WoodenPath.LeafCoats.Mole",
+      "Path.LeafCoats",
+      "Path1.LeafCoats",
+      "Path2.LeafCoats",
+      "Path3.LeafCoats",
+      "Path4.LeafCoats",
+      "Path5.LeafCoats",
+      "DistrictCrossing.LeafCoats",
+      "BOTDistrictCrossing.LeafCoats"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.LeafCoats",
+      "Ladders.MoleCadre.LeafCoats",
+      "Ropeways.MoleCadre.LeafCoats",
+      "Bridges.MoleCadre.LeafCoats",
+      "Walkways.MoleCadre.LeafCoats",
+      "Branches.MoleCadre.LeafCoats",
+      "Boosters.MoleCadre.LeafCoats",
+      "Gates.MoleCadre.LeafCoats",
+      "Passages.MoleCadre.LeafCoats"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.LeafCoats.Mole",
+      "StonePath.LeafCoats.Mole",
+      "WoodenPath.LeafCoats.Mole",
+      "Path.LeafCoats",
+      "Path1.LeafCoats",
+      "Path2.LeafCoats",
+      "Path3.LeafCoats",
+      "Path4.LeafCoats",
+      "Path5.LeafCoats",
+      "DistrictCrossing.LeafCoats",
+      "BOTDistrictCrossing.LeafCoats",
+      "Steps.MoleCadre.LeafCoats",
+      "Ladders.MoleCadre.LeafCoats",
+      "Ropeways.MoleCadre.LeafCoats",
+      "Bridges.MoleCadre.LeafCoats",
+      "Walkways.MoleCadre.LeafCoats",
+      "Branches.MoleCadre.LeafCoats",
+      "Boosters.MoleCadre.LeafCoats",
+      "Gates.MoleCadre.LeafCoats",
+      "Passages.MoleCadre.LeafCoats"
+    ]
+  }
+}

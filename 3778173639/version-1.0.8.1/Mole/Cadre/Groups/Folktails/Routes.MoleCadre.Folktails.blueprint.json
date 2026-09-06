@@ -1,0 +1,56 @@
+{
+  "BlockObjectToolGroupSpec": { "Id": "Routes.MoleCadre.Folktails", "Order": 202000, "NameLocKey": "Group.Routes", "Icon": "Mole/Cadre/Routes", "FallbackGroup": false },
+  "ToolGroupChildrenSpec":
+  {
+    "DoNotIncludePlaceableToolGroup": true,
+    "ChildrenToolsTemplateNames":
+    [
+      "Path.Folktails.Mole",
+      "StonePath.Folktails.Mole",
+      "WoodenPath.Folktails.Mole",
+      "Path.Folktails",
+      "Path1.Folktails",
+      "Path2.Folktails",
+      "Path3.Folktails",
+      "Path4.Folktails",
+      "Path5.Folktails",
+      "DistrictCrossing.Folktails",
+      "BOTDistrictCrossing.Folktails"
+    ],
+    "ChildrenGroupsIds":
+    [
+      "Steps.MoleCadre.Folktails",
+      "Ladders.MoleCadre.Folktails",
+      "Ropeways.MoleCadre.Folktails",
+      "Bridges.MoleCadre.Folktails",
+      "Walkways.MoleCadre.Folktails",
+      "Branches.MoleCadre.Folktails",
+      "Boosters.MoleCadre.Folktails",
+      "Gates.MoleCadre.Folktails",
+      "Passages.MoleCadre.Folktails"
+    ],
+    "ChildrenOrderedIds":
+    [
+      "Path.Folktails.Mole",
+      "StonePath.Folktails.Mole",
+      "WoodenPath.Folktails.Mole",
+      "Path.Folktails",
+      "Path1.Folktails",
+      "Path2.Folktails",
+      "Path3.Folktails",
+      "Path4.Folktails",
+      "Path5.Folktails",
+      "DistrictCrossing.Folktails",
+      "BOTDistrictCrossing.Folktails",
+      "Steps.MoleCadre.Folktails",
+      "Ladders.MoleCadre.Folktails",
+      "Ropeways.MoleCadre.Folktails",
+      "Bridges.MoleCadre.Folktails",
+      "Walkways.MoleCadre.Folktails",
+      "Branches.MoleCadre.Folktails",
+      "Boosters.MoleCadre.Folktails",
+      "Gates.MoleCadre.Folktails",
+      "Passages.MoleCadre.Folktails"
+    ]
+  }
+}
