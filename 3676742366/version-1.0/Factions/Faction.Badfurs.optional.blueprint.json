@@ -1,0 +1,19 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      "Buildings.Grauschweif.Badfurs"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "materialcollection/materialcollection.common.blueprint",
+        "Modifier": "Modifiers/Materials.Grauschweif.Folktails.modifier.optional.blueprint"
+      },
+      {
+        "Original": "templatecollection/templatecollection.buildings.grauschweif.blueprint",
+        "Modifier": "Modifiers/TemplateCollection.Buildings.Grauschweif.Badfurs.Modifier.blueprint"
+      }
+    ]
+  }
+}
+

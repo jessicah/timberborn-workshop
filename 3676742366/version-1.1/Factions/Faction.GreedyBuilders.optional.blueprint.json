@@ -1,0 +1,15 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      "Buildings.Grauschweif.Folktails",
+      "Buildings.Grauschweif.IronTeeth"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "buildings/decoration/waterdecoration/waterplant.grauschweif.blueprint",
+        "Modifier": "Modifiers/BuildingCost.WaterPlant.Grauschweif.Folktails.Modifier.blueprint"
+      }      
+    ]
+  }
+}

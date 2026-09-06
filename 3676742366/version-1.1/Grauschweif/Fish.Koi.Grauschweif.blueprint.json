@@ -1,0 +1,159 @@
+{
+  "RigidbodyAttacherSpec": {
+    "Rigidbody": "Grauschweif/FloatRigidbody"
+  },
+  "FloatingObjectSpec": {
+    "FloatingPoints": [
+      {
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Weight": 0.5
+      },
+      {
+        "Position": {
+          "X": -0.2,
+          "Y": -0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": -0.2,
+          "Y": 0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": 0.2,
+          "Y": 0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": 0.2,
+          "Y": -0.2
+        },
+        "Weight": 0.125
+      }
+    ],
+    "Immersion": 0.05,
+    "PointStiffness": 10.0,
+    "PointDamping": 6.0,
+    "WaterLinearDamping": 2.5,
+    "WaterAngularDamping": 4.0,
+    "CurrentForceMultiplier": 0.5,
+    "PhysicsMaterial": "Grauschweif/FishPhysicsMaterial"
+  },
+  "TemplateSpec": {
+    "TemplateName": "Float.Fish.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "FloatSpec": {
+    "LightParentModel": "",
+    "LightPosition": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "LightColor": {
+      "r": 0.6630837,
+      "g": 0.359715134,
+      "b": 0.04137554,
+      "a": 1.0
+    },
+    "LightIntensity": 0.2,
+    "LightRange": 1.5,
+    "EnableEmission": false,
+    "EmissionIntensity": 0.45,
+    "EnableFlicker": true,
+    "FlickerSmoothing": 20,
+    "EnableSelfRighting": true,
+    "SinkAfterHours": 72.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Fish.Koi.DisplayName",
+    "DescriptionLocKey": "Grauschweif.Fish..Koi.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Fish..Koi.FlavorDescription",
+    "Icon": "Grauschweif/FloatIcon"
+  },
+  "CustomizableIlluminatorSpec": {},
+  "Children": {
+    "#Model": {
+      "TimbermeshSpec": {
+        "Model": "Grauschweif/Fish.Koi.Grauschweif.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": -0.1,
+              "Z": 0.0
+            },
+            "Size": {
+              "X": 0.1,
+              "Y": 0.1,
+              "Z": 0.2
+            }
+          },
+          {
+            "Center": {
+              "X": 0.8,
+              "Y": 0.2,
+              "Z": 0.8
+            },
+            "Size": {
+              "X": 0.02,
+              "Y": 0.02,
+              "Z": 0.02
+            }
+          },
+          {
+            "Center": {
+              "X": 0.8,
+              "Y": 0.2,
+              "Z": -0.8
+            },
+            "Size": {
+              "X": 0.02,
+              "Y": 0.02,
+              "Z": 0.02
+            }
+          },
+          {
+            "Center": {
+              "X": -0.8,
+              "Y": 0.2,
+              "Z": -0.8
+            },
+            "Size": {
+              "X": 0.02,
+              "Y": 0.02,
+              "Z": 0.02
+            }
+          },
+          {
+            "Center": {
+              "X": -0.8,
+              "Y": 0.2,
+              "Z": 0.8
+            },
+            "Size": {
+              "X": 0.02,
+              "Y": 0.02,
+              "Z": 0.02
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    }
+  }
+}

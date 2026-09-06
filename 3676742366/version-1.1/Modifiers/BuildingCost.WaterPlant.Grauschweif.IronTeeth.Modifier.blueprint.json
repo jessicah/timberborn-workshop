@@ -1,0 +1,10 @@
+{
+  "BuildingSpec": {
+    "BuildingCost": [
+      { "Id": "Log", "Amount": 6 },
+      { "Id": "Corn", "Amount": 2 },
+      { "Id": "MangroveFruit", "Amount": 2 },
+      { "Id": "CanolaSeeds", "Amount": 2 }
+    ]
+  }
+}

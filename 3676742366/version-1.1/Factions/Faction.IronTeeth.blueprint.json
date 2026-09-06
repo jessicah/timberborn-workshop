@@ -1,0 +1,19 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      "Buildings.Grauschweif.IronTeeth"
+    ],
+    "BlueprintModifiers#append": [
+      // materials patches
+      {
+        "Original": "materialcollection/materialcollection.common.blueprint",
+        "Modifier": "Modifiers/Materials.Grauschweif.IronTeeth.modifier.optional.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/waterdecoration/waterplant.grauschweif.blueprint",
+        "Modifier": "Modifiers/BuildingCost.WaterPlant.Grauschweif.IronTeeth.Modifier.blueprint"
+      }
+    ]
+  }
+}

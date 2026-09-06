@@ -1,0 +1,217 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 3
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 1
+      }
+    ],
+    "ScienceCost": 30,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "PaperLantern.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 23,
+    "ToolShape": "Square",
+    "Layout": "Line",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": true,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.PaperLantern.DisplayName",
+    "DescriptionLocKey": "Building.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.PaperLantern.FlavorDescription",
+    "Icon": "Grauschweif/Icons/PaperLanternIcon"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 0
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Lantern",
+        "PointsPerHour": 0.31,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "NightTimeLightControllerSpec": {},
+  "GrauschweifSimpleLightsSpec": {
+    "Lights": [
+      {
+        "LightType": "Spot",
+        "Position": {
+          "X": 0.17,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "Intensity": 0.55,
+        "Range": 2.0,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 90.0
+        },
+        "Rotation": {
+          "X": 90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.8410426,
+          "g": 0.398765326,
+          "b": 0.0114134075,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.17,
+          "Y": 0.5,
+          "Z": 0.7
+        },
+        "Intensity": 0.15,
+        "Range": 0.5,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 0.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.6,
+          "g": 0.4,
+          "b": 0.15,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/PaperLantern.Grauschweif.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 0.7,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.4,
+              "Y": 0.4,
+              "Z": 0.3
+            }
+          },
+          {
+            "Center": {
+              "X": 0.15,
+              "Y": 0.8,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.35,
+              "Y": 0.4,
+              "Z": 0.2
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/PaperLantern.Grauschweif.Construction.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 0.7,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.4,
+              "Y": 0.4,
+              "Z": 0.3
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    }
+  }
+}

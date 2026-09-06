@@ -1,0 +1,11 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Common",
+    "Materials#append": [
+      // custom - might change
+      "Grauschweif/Material/FairyLights.Grauschweif",
+      "Grauschweif/Material/Firefly.Grauschweif",
+      "Grauschweif/Material/Fish.Koi.Grauschweif"
+    ]
+  }
+}

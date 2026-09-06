@@ -1,0 +1,55 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      "Buildings.Grauschweif.Folktails",
+      "Buildings.Grauschweif.LeafCoats"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "buildings/decoration/lantern/stonelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/stonesquarelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/lantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/Lantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/smalllantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/SmallLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/paperlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/PaperLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festiveclantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveCLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivedlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveDLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/festivexlantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/FestiveXLantern.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/gate/mediumgate.grauschweif.blueprint",
+        "Modifier": "Modifiers/MediumGate.Grauschweif.LeafCoats.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/waterdecoration/waterplant.grauschweif.blueprint",
+        "Modifier": "Modifiers/BuildingCost.WaterPlant.Grauschweif.LeafCoats.Modifier.blueprint"
+      }
+    ]
+  }
+}

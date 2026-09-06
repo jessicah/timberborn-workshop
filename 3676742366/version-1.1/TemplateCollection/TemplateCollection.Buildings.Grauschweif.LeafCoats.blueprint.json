@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Grauschweif.LeafCoats",
+    "Blueprints#append": [
+      "Buildings/Decoration/Bench/Bench.Grauschweif.Green.LC.blueprint"
+    ]
+  }
+}

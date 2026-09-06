@@ -1,0 +1,112 @@
+{
+  "RigidbodyAttacherSpec": {
+    "Rigidbody": "Grauschweif/FloatRigidbody"
+  },
+  "FloatingObjectSpec": {
+    "FloatingPoints": [
+      {
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Weight": 0.5
+      },
+      {
+        "Position": {
+          "X": -0.2,
+          "Y": -0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": -0.2,
+          "Y": 0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": 0.2,
+          "Y": 0.2
+        },
+        "Weight": 0.125
+      },
+      {
+        "Position": {
+          "X": 0.2,
+          "Y": -0.2
+        },
+        "Weight": 0.125
+      }
+    ],
+    "Immersion": 0.01,
+    "PointStiffness": 10.0,
+    "PointDamping": 6.0,
+    "WaterLinearDamping": 2.5,
+    "WaterAngularDamping": 2.0,
+    "CurrentForceMultiplier": 1.5,
+    "PhysicsMaterial": "Grauschweif/FloatPhysicsMaterial"
+  },
+  "TemplateSpec": {
+    "TemplateName": "Float.Lantern.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "FloatSpec": {
+    "LightParentModel": "#Light",
+    "LightPosition": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "LightColor": {
+      "r": 0.73,
+      "g": 0.5,
+      "b": 0.07,
+      "a": 1.0
+    },
+    "LightIntensity": 0.33,
+    "LightRange": 1.5,
+    "EnableEmission": true,
+    "EmissionIntensity": 0.45,
+    "EnableFlicker": true,
+    "FlickerSmoothing": 20,
+    "EnableSelfRighting": true,
+    "SinkAfterHours": 8.0
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Floats.Lantern.DisplayName",
+    "DescriptionLocKey": "Grauschweif.Floats.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Floats.Lantern.FlavorDescription",
+    "Icon": "Grauschweif/FloatIcon"
+  },
+  "CustomizableIlluminatorSpec": {},
+ // "EntityAnimationControllerSpec": {},
+  "Children": {
+    "#Model": {
+      "TimbermeshSpec": {
+        "Model": "Grauschweif/Float.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": 0.1,
+              "Z": 0.0
+            },
+            "Size": {
+              "X": 0.255,
+              "Y": 0.2,
+              "Z": 0.255
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    }
+  }
+}

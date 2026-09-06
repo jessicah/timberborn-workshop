@@ -1,0 +1,27 @@
+{
+  "FactionSpec": {
+    "TemplateCollectionIds#append": [
+      "Buildings.Grauschweif",
+      "Buildings.Grauschweif.IronTeeth",
+      "Buildings.Grauschweif.Emberpelts"
+    ],
+    "BlueprintModifiers#append": [
+      {
+        "Original": "buildings/decoration/lantern/stonelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.Emberpelts.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/lantern/stonesquarelantern.grauschweif.blueprint",
+        "Modifier": "Modifiers/StoneLantern.Grauschweif.Emberpelts.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/gate/mediumgate.grauschweif.blueprint",
+        "Modifier": "Modifiers/MediumGate.Grauschweif.Emberpelts.Modifier.blueprint"
+      },
+      {
+        "Original": "buildings/decoration/waterdecoration/waterplant.grauschweif.blueprint",
+        "Modifier": "Modifiers/BuildingCost.WaterPlant.Grauschweif.Emberpelts.Modifier.blueprint"
+      }
+	]
+  }
+}

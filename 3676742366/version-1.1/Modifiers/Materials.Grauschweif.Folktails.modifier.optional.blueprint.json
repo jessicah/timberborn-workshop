@@ -1,0 +1,7 @@
+{
+  "MaterialCollectionSpec": {
+    "Materials#append": [
+      "NaturalResources/Bushes/Coffee/Materials/CoffeeBush",
+	]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 4
+      }
+    ],
+    "ScienceCost": 50,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "FairyLights.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 26,
+    "ToolShape": "Square",
+    "Layout": "Line",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": true,
+    "DevModeTool": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.FairyLights.DisplayName",
+    "DescriptionLocKey": "Building.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.FairyLights.FlavorDescription",
+    "Icon": "Grauschweif/Icons/FairyLightsIcon"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 0
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Lantern",
+        "PointsPerHour": 0.22,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "NightTimeLightControllerSpec": {},
+  "GrauschweifSimpleLightsSpec": {
+    "Lights": [
+      // left
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.275,
+          "Z": 0.3
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.66,
+          "g": 0.1,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.275,
+          "Z": 0.53
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.85,
+          "g": 0.75,
+          "b": 0.3,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.275,
+          "Z": 0.76
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.17,
+          "g": 0.72,
+          "b": 0.07,
+          "a": 1.0
+        }
+      },
+      // right
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.725,
+          "Z": 0.3
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.17,
+          "g": 0.72,
+          "b": 0.07,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.725,
+          "Z": 0.53
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.66,
+          "g": 0.1,
+          "b": 0.1,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.275,
+          "Z": 0.76
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.85,
+          "g": 0.75,
+          "b": 0.3,
+          "a": 1.0
+        }
+      },
+      // center
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.5,
+          "Z": 0.65
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.17,
+          "g": 0.72,
+          "b": 0.07,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.11,
+          "Y": 0.5,
+          "Z": 0.42
+        },
+        "Intensity": 0.1,
+        "Range": 0.3,
+        "Color": {
+          "r": 0.66,
+          "g": 0.1,
+          "b": 0.1,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": -1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": []
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/FairyLights.Grauschweif.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.1,
+              "Y": 0.55,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.05,
+              "Y": 0.8,
+              "Z": 0.8
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "TimbermeshSpec": {
+        "Model": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.05,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.1,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    }
+  }
+}

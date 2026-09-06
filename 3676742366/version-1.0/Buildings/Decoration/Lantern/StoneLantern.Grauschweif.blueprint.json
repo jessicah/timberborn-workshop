@@ -1,0 +1,307 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Brazier",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 4
+      }
+    ],
+    "ScienceCost": 30,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "StoneLantern.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 22,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.StoneLantern.DisplayName",
+    "DescriptionLocKey": "Building.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.StoneLantern.FlavorDescription",
+    "Icon": "Grauschweif/Icons/StoneLanternIcon"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 0
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Lantern",
+        "PointsPerHour": 0.31,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "NightTimeLightControllerSpec": {},
+  "GrauschweifSimpleLightsSpec": {
+    "Lights": [
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.2,
+          "Y": 0.5,
+          "Z": 0.32
+        },
+        "Intensity": 0.12,
+        "Range": 0.2,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 120.0
+        },
+        "Rotation": {
+          "X": 90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.5471698,
+          "g": 0.136792451,
+          "b": 0.136792451,
+          "a": 1.0
+        }
+      },
+      {
+        "LightType": "Spot",
+        "Position": {
+          "X": 0.2,
+          "Y": 0.5,
+          "Z": 0.28
+        },
+        "Intensity": 0.18,
+        "Range": 0.75,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 170.0
+        },
+        "Rotation": {
+          "X": 90.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.65882355,
+          "g": 0.3844503,
+          "b": 0.101960793,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "FireSpec": {
+    "AttachmentId": "Fire"
+  },
+  "TemplateAttachmentsSpec": {
+    "Attachments": [
+      {
+        "AttachmentId": "Fire",
+        "Prefab": "Buildings/Wellbeing/ContemplationSpot/ContemplationSpotFire",
+        "Parent": "#Finished",
+        "Position": {
+          "X": 0.2,
+          "Y": 0.3,
+          "Z": 0.5
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.45
+        },
+        "CreateInstantly": true
+      }
+    ]
+  },
+  "FloodableFireSpec": {},
+  "WaterObjectSpec": {
+    "WaterCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "FloodableBuildingSpec": {},
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": false,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": 1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 0,
+              "Y": -1,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          },
+          {
+            "Start": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 1,
+              "Y": 0,
+              "Z": 0
+            },
+            "IsTwoWay": false
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/StoneLantern.Grauschweif.Common.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 0.25,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.16,
+              "Y": 0.5,
+              "Z": 0.16
+            }
+          },
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 0.4,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.25,
+              "Y": 0.3,
+              "Z": 0.25
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "TimbermeshSpec": {
+        "Model": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.05,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.1,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    }
+  }
+}

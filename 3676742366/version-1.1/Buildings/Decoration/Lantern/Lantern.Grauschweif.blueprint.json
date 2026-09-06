@@ -1,0 +1,223 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 3
+      },
+      {
+        "Id": "Plank",
+        "Amount": 3
+      }
+    ],
+    "ScienceCost": 70,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "TemplateSpec": {
+    "TemplateName": "Lantern.Grauschweif",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Decoration",
+    "ToolOrder": 21,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Grauschweif.Building.Lantern.DisplayName",
+    "DescriptionLocKey": "Building.Lantern.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Building.Lantern.FlavorDescription",
+    "Icon": "Grauschweif/Icons/LanternIcon"
+  },
+  "RangedEffectBuildingSpec": {
+    "EffectRadius": 1
+  },
+  "ContinuousEffectBuildingSpec": {
+    "Effects": [
+      {
+        "NeedId": "Lantern",
+        "PointsPerHour": 0.42,
+        "SatisfyToMaxValue": false
+      }
+    ]
+  },
+  "PathSpec": {
+    "MainPathCoordinates": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": [
+      0.0
+    ]
+  },
+  "NightTimeLightControllerSpec": {},
+  "GrauschweifSimpleLightsSpec": {
+    "Lights": [
+      {
+        "LightType": "Point",
+        "Position": {
+          "X": 0.2,
+          "Y": 0.2,
+          "Z": 1.035
+        },
+        "Intensity": 0.3,
+        "Range": 2.5,
+        "SpotAngle": {
+          "InnerAngle": 0.0,
+          "OuterAngle": 120.0
+        },
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Color": {
+          "r": 0.763457656,
+          "g": 0.497310251,
+          "b": 0.07989317,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Decoration/Lantern/Lantern.Grauschweif.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 0.65,
+              "Z": 0.2
+            },
+            "Size": {
+              "X": 0.16,
+              "Y": 1.3,
+              "Z": 0.16
+            }
+          },
+          {
+            "Center": {
+              "X": 0.2,
+              "Y": 1.1,
+              "Z": 0.2
+            },
+            "Size": {
+              "X": 0.25,
+              "Y": 0.3,
+              "Z": 0.25
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Decoration/Lantern/Lantern.Grauschweif.Construction.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.05,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.1,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.5,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.15,
+                  "Y": 1.2,
+                  "Z": 0.15
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}
