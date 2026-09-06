@@ -671,6 +671,15 @@
         <member name="M:IgorZ.TimberCommons.NeedApplierUI.InjuryProbabilityFragment.UpdateFragment">
             <inheritdoc/>
         </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplier.WorkshopInjuryStatistics.Awake">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplier.WorkshopInjuryStatistics.Save(Timberborn.WorldPersistence.IEntitySaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.NeedApplier.WorkshopInjuryStatistics.Load(Timberborn.WorldPersistence.IEntityLoader)">
+            <inheritdoc/>
+        </member>
         <member name="P:IgorZ.TimberCommons.Settings.InjuryProbabilitySettings.HeaderLocKey">
             <inheritdoc />
         </member>
@@ -1291,7 +1300,8 @@
             Optional padding around the button text. If not set, then <see cref="F:IgorZ.TimberDev.UI.UiFactory.StandardButtonPadding"/> will be used.
             </param>
             <param name="classes">
-            Classes to add to the control. If not set, then the component will be set up for the entity panel.
+            Classes to add to the control. If not set, then the component will be set up for
+            <see cref="F:IgorZ.TimberDev.UI.UiFactory.EntityPanelTextClass"/>.
             </param>
         </member>
         <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateToggle(System.String,System.Action{UnityEngine.UIElements.ChangeEvent{System.Boolean}},System.Int32,System.String[])">
