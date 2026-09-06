@@ -3,7 +3,8 @@
   {
     "Blueprints#append":
     [
-      "Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint"
+      "Buildings/Food/AquaticFarmhouse/AquaticFarmhouse.Folktails.blueprint",
+      "Buildings/Metal/Metalsmith/Metalsmith.Emberpelts.blueprint"
     ]
   }
 }

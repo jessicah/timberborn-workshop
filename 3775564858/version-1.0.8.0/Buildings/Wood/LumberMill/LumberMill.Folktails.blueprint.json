@@ -3,9 +3,7 @@
   {
     "ProductionRecipeIds#append":
     [
-      "EfficientGear",
-      "Bento",
-      "BotKit"
+      "EfficientPlank"
     ]
   }
 }

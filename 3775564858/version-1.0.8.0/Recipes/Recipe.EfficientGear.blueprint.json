@@ -1,0 +1,17 @@
+{
+	"RecipeSpec":
+	{
+		"Id": "EfficientGear",
+		"BackwardCompatibleIds": [],
+		"DisplayLocKey": "Wares.EfficientGears.Name",
+		"CycleDurationInHours": 3.0,
+		"CyclesCapacity": 12,
+		"Ingredients": [ { "Amount": 1, "Id": "Plank" } ],
+		"Products": [ { "Amount": 5, "Id": "Gear" } ],
+		"ProducedSciencePoints": 0,
+		"Fuel": "MetalPart",
+		"CyclesFuelLasts": 120,
+		"FuelCapacity": 2,
+		"Icon": "Sprites/Goods/GearIcon"
+	}
+}

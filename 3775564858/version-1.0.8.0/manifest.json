@@ -1,6 +1,6 @@
 {
   "Name": "Sate-a-Mole",
-  "Version": "1.0.9.10",
+  "Version": "1.0.9.12",
   "Id": "Sate-a-Mole",
   "MinimumGameVersion": "1.0.12.0",
   "Description": "Replaces my Grape Bush, Bentos, Bot Blocks, Bot Kits and Hedge Need mods. No faction mod is required, just set for the secondary warning TB gives when they're active but placed below this one in load order",
