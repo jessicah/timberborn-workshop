@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,風速計,
+Building.Anemometer.Description,"風速と風向を測定し、設定可能な閾値に基づいてオートメーション信号を送信します。",
+Anemometer.WindStrength,"風速: {0}%",
+Anemometer.WindDirection,"風向: {0}° ({1})",
+Anemometer.Direction.N,北
+Anemometer.Direction.NNE,北北東
+Anemometer.Direction.NE,北東
+Anemometer.Direction.ENE,東北東
+Anemometer.Direction.E,東
+Anemometer.Direction.ESE,東南東
+Anemometer.Direction.SE,南東
+Anemometer.Direction.SSE,南南東
+Anemometer.Direction.S,南
+Anemometer.Direction.SSW,南南西
+Anemometer.Direction.SW,南西
+Anemometer.Direction.WSW,西南西
+Anemometer.Direction.W,西
+Anemometer.Direction.WNW,西北西
+Anemometer.Direction.NW,北西
+Anemometer.Direction.NNW,北北西

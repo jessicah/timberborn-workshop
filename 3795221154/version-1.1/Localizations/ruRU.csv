@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Анемометр,
+Building.Anemometer.Description,"Измеряет скорость и направление ветра, отправляет сигнал автоматизации на основе настраиваемого порога.",
+Anemometer.WindStrength,"Скорость ветра: {0}%",
+Anemometer.WindDirection,"Направление ветра: {0}° ({1})",
+Anemometer.Direction.N,С
+Anemometer.Direction.NNE,ССВ
+Anemometer.Direction.NE,СВ
+Anemometer.Direction.ENE,ВСВ
+Anemometer.Direction.E,В
+Anemometer.Direction.ESE,ВЮВ
+Anemometer.Direction.SE,ЮВ
+Anemometer.Direction.SSE,ЮЮВ
+Anemometer.Direction.S,Ю
+Anemometer.Direction.SSW,ЮЮЗ
+Anemometer.Direction.SW,ЮЗ
+Anemometer.Direction.WSW,ЗЮЗ
+Anemometer.Direction.W,З
+Anemometer.Direction.WNW,ЗСЗ
+Anemometer.Direction.NW,СЗ
+Anemometer.Direction.NNW,ССЗ

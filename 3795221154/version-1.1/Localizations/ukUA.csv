@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Анемометр,
+Building.Anemometer.Description,"Вимірює швидкість та напрямок вітру, надсилає сигнал автоматизації на основі налаштовуваного порогу.",
+Anemometer.WindStrength,"Швидкість вітру: {0}%",
+Anemometer.WindDirection,"Напрямок вітру: {0}° ({1})",
+Anemometer.Direction.N,Пн
+Anemometer.Direction.NNE,ПнПс
+Anemometer.Direction.NE,Пс
+Anemometer.Direction.ENE,СхПс
+Anemometer.Direction.E,Сх
+Anemometer.Direction.ESE,СхПд
+Anemometer.Direction.SE,Пд
+Anemometer.Direction.SSE,ПдПд
+Anemometer.Direction.S,Пд
+Anemometer.Direction.SSW,ПдПз
+Anemometer.Direction.SW,Пз
+Anemometer.Direction.WSW,ЗхПз
+Anemometer.Direction.W,Зх
+Anemometer.Direction.WNW,ЗхПн
+Anemometer.Direction.NW,ПнЗх
+Anemometer.Direction.NNW,ПнПнЗх

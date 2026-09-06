@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,อเนโมมิเตอร์,
+Building.Anemometer.Description,"วัดความแรงและทิศทางลม ส่งสัญญาณอัตโนมัติตามเกณฑ์ที่กำหนดได้",
+Anemometer.WindStrength,"ความแรงลม: {0}%",
+Anemometer.WindDirection,"ทิศทางลม: {0}° ({1})",
+Anemometer.Direction.N,ทิศเหนือ
+Anemometer.Direction.NNE,ทิศเหนือ-ตะวันออกเฉียงเหนือ
+Anemometer.Direction.NE,ทิศตะวันออกเฉียงเหนือ
+Anemometer.Direction.ENE,ทิศตะวันออก-ตะวันออกเฉียงเหนือ
+Anemometer.Direction.E,ทิศตะวันออก
+Anemometer.Direction.ESE,ทิศตะวันออก-ตะวันออกเฉียงใต้
+Anemometer.Direction.SE,ทิศตะวันออกเฉียงใต้
+Anemometer.Direction.SSE,ทิศใต้-ตะวันออกเฉียงใต้
+Anemometer.Direction.S,ทิศใต้
+Anemometer.Direction.SSW,ทิศใต้-ตะวันตกเฉียงใต้
+Anemometer.Direction.SW,ทิศตะวันตกเฉียงใต้
+Anemometer.Direction.WSW,ทิศตะวันตก-ตะวันตกเฉียงใต้
+Anemometer.Direction.W,ทิศตะวันตก
+Anemometer.Direction.WNW,ทิศตะวันตก-ตะวันตกเฉียงเหนือ
+Anemometer.Direction.NW,ทิศตะวันตกเฉียงเหนือ
+Anemometer.Direction.NNW,ทิศเหนือ-ตะวันตกเฉียงเหนือ

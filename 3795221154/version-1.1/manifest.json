@@ -1,0 +1,9 @@
+{
+  "Name": "Anemometer",
+  "Version": "1.0.0",
+  "Id": "Calloatti.Anemometer",
+  "MinimumGameVersion": "1.1.2.4",
+  "Description": "Measures wind strength and direction, sends an automation signal based on a configurable threshold.",
+  "RequiredMods": [],
+  "OptionalMods": []
+}

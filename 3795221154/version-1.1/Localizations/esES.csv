@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Anemómetro,
+Building.Anemometer.Description,"Mide la fuerza y la dirección del viento, envía una señal de automatización basada en un umbral configurable.",
+Anemometer.WindStrength,"Fuerza del viento: {0}%",
+Anemometer.WindDirection,"Dirección del viento: {0}° ({1})",
+Anemometer.Direction.N,N
+Anemometer.Direction.NNE,NNE
+Anemometer.Direction.NE,NE
+Anemometer.Direction.ENE,ENE
+Anemometer.Direction.E,E
+Anemometer.Direction.ESE,ESE
+Anemometer.Direction.SE,SE
+Anemometer.Direction.SSE,SSE
+Anemometer.Direction.S,S
+Anemometer.Direction.SSW,SSO
+Anemometer.Direction.SW,SO
+Anemometer.Direction.WSW,OSO
+Anemometer.Direction.W,O
+Anemometer.Direction.WNW,ONO
+Anemometer.Direction.NW,NO
+Anemometer.Direction.NNW,NNO

@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Anemometre,
+Building.Anemometer.Description,"Rüzgâr hızı ve yönünü ölçer, yapılandırılabilir bir eşik değerine dayalı olarak otomasyon sinyali gönderir.",
+Anemometer.WindStrength,"Rüzgâr hızı: {0}%",
+Anemometer.WindDirection,"Rüzgâr yönü: {0}° ({1})",
+Anemometer.Direction.N,K
+Anemometer.Direction.NNE,KKD
+Anemometer.Direction.NE,KD
+Anemometer.Direction.ENE,DKD
+Anemometer.Direction.E,D
+Anemometer.Direction.ESE,DGD
+Anemometer.Direction.SE,GD
+Anemometer.Direction.SSE,GGD
+Anemometer.Direction.S,G
+Anemometer.Direction.SSW,GGG
+Anemometer.Direction.SW,GB
+Anemometer.Direction.WSW,BGB
+Anemometer.Direction.W,B
+Anemometer.Direction.WNW,BKB
+Anemometer.Direction.NW,KB
+Anemometer.Direction.NNW,KKB

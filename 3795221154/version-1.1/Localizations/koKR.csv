@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,풍속계,
+Building.Anemometer.Description,"풍속과 풍향을 측정하고, 구성 가능한 임계값을 기반으로 자동화 신호를 보냅니다.",
+Anemometer.WindStrength,"풍속: {0}%",
+Anemometer.WindDirection,"풍향: {0}° ({1})",
+Anemometer.Direction.N,북
+Anemometer.Direction.NNE,북북동
+Anemometer.Direction.NE,북동
+Anemometer.Direction.ENE,동북동
+Anemometer.Direction.E,동
+Anemometer.Direction.ESE,동남동
+Anemometer.Direction.SE,남동
+Anemometer.Direction.SSE,남남동
+Anemometer.Direction.S,남
+Anemometer.Direction.SSW,남남서
+Anemometer.Direction.SW,남서
+Anemometer.Direction.WSW,서남서
+Anemometer.Direction.W,서
+Anemometer.Direction.WNW,서북서
+Anemometer.Direction.NW,북서
+Anemometer.Direction.NNW,북북서

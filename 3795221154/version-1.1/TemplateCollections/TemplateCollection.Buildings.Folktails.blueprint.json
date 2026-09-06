@@ -1,0 +1,6 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append": ["Buildings/Automation/Anemometer/Anemometer.Folktails.blueprint"]
+  }
+}

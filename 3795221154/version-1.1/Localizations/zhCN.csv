@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,风速计,
+Building.Anemometer.Description,"测量风速和风向，根据可配置的阈值发送自动化信号。",
+Anemometer.WindStrength,"风速: {0}%",
+Anemometer.WindDirection,"风向: {0}° ({1})",
+Anemometer.Direction.N,北
+Anemometer.Direction.NNE,北北东
+Anemometer.Direction.NE,东北
+Anemometer.Direction.ENE,东北偏东
+Anemometer.Direction.E,东
+Anemometer.Direction.ESE,东南偏东
+Anemometer.Direction.SE,东南
+Anemometer.Direction.SSE,东南偏南
+Anemometer.Direction.S,南
+Anemometer.Direction.SSW,西南偏南
+Anemometer.Direction.SW,西南
+Anemometer.Direction.WSW,西南偏西
+Anemometer.Direction.W,西
+Anemometer.Direction.WNW,西北偏西
+Anemometer.Direction.NW,西北
+Anemometer.Direction.NNW,北北西

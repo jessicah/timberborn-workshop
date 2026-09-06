@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Windmesser,
+Building.Anemometer.Description,"Misst Windstärke und -richtung, sendet ein Automatisierungssignal basierend auf einem konfigurierbaren Schwellenwert.",
+Anemometer.WindStrength,"Windstärke: {0}%",
+Anemometer.WindDirection,"Windrichtung: {0}° ({1})",
+Anemometer.Direction.N,N
+Anemometer.Direction.NNE,NNO
+Anemometer.Direction.NE,NO
+Anemometer.Direction.ENE,ONO
+Anemometer.Direction.E,O
+Anemometer.Direction.ESE,OSO
+Anemometer.Direction.SE,SO
+Anemometer.Direction.SSE,SSO
+Anemometer.Direction.S,S
+Anemometer.Direction.SSW,SSW
+Anemometer.Direction.SW,SW
+Anemometer.Direction.WSW,WSW
+Anemometer.Direction.W,W
+Anemometer.Direction.WNW,WNW
+Anemometer.Direction.NW,NW
+Anemometer.Direction.NNW,NNW

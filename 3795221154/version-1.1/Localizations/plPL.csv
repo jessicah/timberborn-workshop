@@ -1,0 +1,21 @@
+ID,Text,Comment
+Building.Anemometer.DisplayName,Anemometr,
+Building.Anemometer.Description,"Mierzy siłę i kierunek wiatru, wysyła sygnał automatyzacji na podstawie konfigurowalnego progu.",
+Anemometer.WindStrength,"Siła wiatru: {0}%",
+Anemometer.WindDirection,"Kierunek wiatru: {0}° ({1})",
+Anemometer.Direction.N,N
+Anemometer.Direction.NNE,PNW
+Anemometer.Direction.NE,NE
+Anemometer.Direction.ENE,ESE
+Anemometer.Direction.E,E
+Anemometer.Direction.ESE,ESE
+Anemometer.Direction.SE,SE
+Anemometer.Direction.SSE,SSW
+Anemometer.Direction.S,S
+Anemometer.Direction.SSW,SSW
+Anemometer.Direction.SW,SW
+Anemometer.Direction.WSW,WSW
+Anemometer.Direction.W,W
+Anemometer.Direction.WNW,WNW
+Anemometer.Direction.NW,NW
+Anemometer.Direction.NNW,NNW
