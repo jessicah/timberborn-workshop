@@ -1,0 +1,8 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "Common",
+    "Materials#append": [
+      "Material/Grauschweif/Ash"
+    ]
+  }
+}

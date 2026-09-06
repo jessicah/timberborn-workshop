@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.LeafCoats",
+    "Blueprints#Append": [
+      "TreeOfLife/PlantingGround.LeafCoats.blueprint",
+      "TreeOfLife/TreeOfLife.LeafCoats.blueprint"
+    ]
+  }
+}
+

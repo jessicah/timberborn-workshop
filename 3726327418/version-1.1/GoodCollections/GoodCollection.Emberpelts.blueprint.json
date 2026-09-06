@@ -1,0 +1,8 @@
+{
+  "GoodCollectionSpec": {
+    "CollectionId": "Emberpelts",
+    "Goods#append": [
+      "FruitOfLife"
+    ]
+  }
+}

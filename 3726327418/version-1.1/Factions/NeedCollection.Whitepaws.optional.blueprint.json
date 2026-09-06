@@ -1,0 +1,14 @@
+{
+  "NeedCollectionSpec": {
+    "CollectionId": "Whitepaws",
+    "Needs#append": [
+      "FruitOfLife",
+      "TreeBlessing",
+      "TreeBlessingMinor",
+      "TreeBlessingMajor",
+      "TreeCurse",
+      "TreeCurseMinor",
+      "TreeCurseMajor"
+    ]
+  }
+}

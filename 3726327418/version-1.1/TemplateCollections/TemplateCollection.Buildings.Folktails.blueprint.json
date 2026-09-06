@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#Append": [
+      "TreeOfLife/PlantingGround.blueprint",
+      "TreeOfLife/TreeOfLife.Folktails.blueprint"
+    ]
+  }
+}

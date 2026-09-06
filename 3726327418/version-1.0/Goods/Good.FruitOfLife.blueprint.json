@@ -1,0 +1,30 @@
+{
+  "GoodSpec": {
+    "Id": "FruitOfLife",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "FruitOfLife",
+        "Points": 1.0
+      }
+    ],
+    "GoodType": "Ungrouped",
+    "StockpileVisualization": "Box",
+    "VisibleContainer": "Box",
+    "ContainerColor": {
+      "r": 1.0,
+      "g": 0.1415093,
+      "b": 0.1415093,
+      "a": 1.0
+    },
+    "ContainerMaterial": "",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 1,
+    "GoodGroupId": "Ingredients",
+    "GoodOrder": 900,
+    "Icon": "TreeOfLife/RowanFruitIcon",
+    "ForceImport": false,
+    "DisplayNameLocKey": "Goods.FruitOfLife.DisplayName",
+    "PluralDisplayNameLocKey": "Goods.FruitOfLife.PluralDisplayName"
+  }
+}
