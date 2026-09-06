@@ -1,0 +1,10 @@
+{
+  "TutorialSpec": {
+    "Id": "LayersGoals",
+    "NameLocKey": "LayersGoalsText",
+    "RequiredTutorialIds": [ "Goals.Basics.Camera" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 3,
+    "Stages": [ "LayersGoal.TryClick", "LayersGoal.TryWheel" ]
+  }
+}

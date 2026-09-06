@@ -1,0 +1,6 @@
+{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.BuildDam",
+    "IntroLocKey": "FactionGoalText.BuildDam"
+  }
+}

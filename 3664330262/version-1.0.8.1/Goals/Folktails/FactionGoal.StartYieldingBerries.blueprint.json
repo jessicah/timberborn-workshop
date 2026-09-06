@@ -1,0 +1,19 @@
+﻿{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "GathererFlag.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "GathererFlag.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    }
+  }
+}

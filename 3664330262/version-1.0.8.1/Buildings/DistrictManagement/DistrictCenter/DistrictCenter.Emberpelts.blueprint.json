@@ -1,0 +1,9 @@
+{
+	"NamedEntitySpec": { "IsEditable": true },
+	"NumberedEntityNamerSpec":
+	{
+		"FormatLocKey": "Districts.DefaultDistrictName",
+		"NumberingGroup": "Districts",
+		"IsPersistent": false
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "TechTreeBoard.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "TechTreeBoard" ]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "AquiferPump_TriangleUpgrade_Build.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "AquiferPump_TriangleUpgrade_Build" ]
+	},
+	"TunnelSpec":
+	{
+		"TunnelSupportTemplateName": "AquiferPump_TriangleUpgrade_Source.Whitepaws"
+	}
+}

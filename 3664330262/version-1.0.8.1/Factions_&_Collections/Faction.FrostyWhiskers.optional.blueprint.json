@@ -1,0 +1,27 @@
+{
+	"FactionSpec":
+	{
+		"StartingBuildingId": "Start_Bunker.FrostyWhiskers",
+		"NeedCollectionIds#append": [ "TNF" ],
+		"GoodCollectionIds#append": [ "TNF" ],
+		"BlueprintModifiers#append":
+		[
+			{
+				"Original": "Buildings/Flags/Badbucket.FrostyWhiskers.blueprint",
+				"Modifier": "zxuiji/Modifiers/ObjsNames/AddOldName.Badbucket.Whitepaws.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Power/MediumGravityBattery.FrostyWhiskers.blueprint",
+				"Modifier": "zxuiji/Modifiers/ObjsNames/AddOldName.MediumGravityBattery.Whitepaws.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Power/ElectricRails_Flat_Universal.FrostyWhiskers.blueprint",
+				"Modifier": "zxuiji/Modifiers/ObjsNames/AddOldName.PowerShaft.Folktails.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Power/ElectricRails_Stackable_Universal.FrostyWhiskers.blueprint",
+				"Modifier": "zxuiji/Modifiers/ObjsNames/AddOldName.VerticalPowerShaft.Folktails.optional.blueprint"
+			}
+		]
+	}
+}

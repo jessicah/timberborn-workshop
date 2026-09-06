@@ -1,0 +1,23 @@
+{
+  "TutorialSpec": {
+    "Id": "FactionGoals.Survival",
+    "NameLocKey": "GoalsText.Faction.Survival",
+    "RequiredTutorialIds": [ "Goals.Basics.Resume" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 10,
+    "Stages":
+    [
+      "FactionGoal.StartYieldingLogs",
+      "FactionGoal.StartYieldingBerries",
+      "FactionGoal.StartYieldingWater",
+      "FactionGoal.StartPlantingFood",
+      "FactionGoal.StartStockingFood",
+      "FactionGoal.StartStockingWater",
+      "FactionGoal.StartYieldingResearch",
+						"FactionGoal.StartStockingLogs",
+						"FactionGoal.StartYieldingPlanks",
+						"FactionGoal.StartPlantingTrees",
+						"FactionGoal.BuildDam"
+    ]
+  }
+}

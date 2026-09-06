@@ -1,0 +1,18 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Forestry.ConnectLoggers.Whitepaws",
+    "IntroLocKey": "Tutorial.Wood.ConnectLumberjacks"
+  },
+  "Children": {
+    "Step1": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "LumberjackFlag.Whitepaws",
+        "RequiredAmount": 2,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [
+          "Path.Whitepaws"
+        ]
+      }
+    }
+  }
+}

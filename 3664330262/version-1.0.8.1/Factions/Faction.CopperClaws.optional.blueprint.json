@@ -1,0 +1,9 @@
+{
+	"FactionSpec":
+	{
+		"StartingBuildingId": "DistrictCenter.CopperClaws",
+		"NeedCollectionIds#append": [ "TNF" ],
+		"GoodCollectionIds#append": [ "TNF" ],
+		"BlueprintModifiers#append": []
+	}
+}

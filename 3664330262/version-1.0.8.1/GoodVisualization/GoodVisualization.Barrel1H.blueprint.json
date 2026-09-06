@@ -1,0 +1,16 @@
+{
+  "GoodVisualizationSpec": {
+    "Id": "Barrel",
+    "Variant": "1H",
+    "Offset": {
+      "X": 0.26,
+      "Y": 0.26,
+      "Z": 0.232
+    },
+    "LimitingAmount": 3.0,
+    "PrimaryMesh": "Environment/Common/Barrel/Barrel",
+    "SecondaryMesh": "",
+    "Material": "Materials/Goods/BeaverCarryingModels/BeaverCarryingModels",
+    "NonLinearity": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TutorialSpec": {
+    "Id": "FactionGoals.StableGreenland",
+    "NameLocKey": "GoalsText.Faction.StableGreenland",
+    "RequiredTutorialIds": [ "FactionGoals.Population" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 16,
+    "Stages":
+    [
+					"FactionGoal.StartYieldingPineResin",
+					"FactionGoal.StartYieldingLocalBasics",
+					"FactionGoal.YieldEvenMoreWater",
+					"FactionGoal.StartSpillingWater"
+				]
+  }
+}

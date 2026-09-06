@@ -1,0 +1,12 @@
+{
+  "TutorialSpec": {
+    "Id": "FactionGoals.StartingBots",
+    "NameLocKey": "GoalsText.Faction.StartingBots",
+    "RequiredTutorialIds": [ "FactionGoal.ShiftingLand" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 20,
+    "Stages":
+    [
+    ]
+  }
+}

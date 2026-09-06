@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Statue.Dunking.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Statue_Dunking" ]
+	}
+}

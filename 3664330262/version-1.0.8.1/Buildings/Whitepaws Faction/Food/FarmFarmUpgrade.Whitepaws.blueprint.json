@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "FarmFarmUpgrade.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "FarmFarmUpgrade" ]
+	}
+}

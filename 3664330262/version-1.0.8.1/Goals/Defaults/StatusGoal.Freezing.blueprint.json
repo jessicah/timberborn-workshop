@@ -1,0 +1,14 @@
+{
+  "TutorialStageSpec": {
+    "Id": "StatesGoal.Freezing",
+    "IntroLocKey": "StatesGoalText.Freezing"
+  },
+  "Children": {
+    "Step1": {
+      "SetPauseStepSpec": {
+        "Pause": true,
+        "OnlyOnce": true
+      }
+    }
+  }
+}

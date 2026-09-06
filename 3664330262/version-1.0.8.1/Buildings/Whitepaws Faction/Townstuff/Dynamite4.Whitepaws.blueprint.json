@@ -1,0 +1,10 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "QuadrupleDynamite.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Dynamite4.Whitepaws",
+					"WPDynamite4"
+				]
+  }
+}

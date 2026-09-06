@@ -1,0 +1,10 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Goal.Basics.Camera.Spin",
+    "IntroLocKey": "CameraGoalText.Spin"
+  },
+  "Children": {
+    "Step1": { "CameraRotationStepSpec": { "Direction": "Left", "Angle": 10.0 } },
+    "Step2": { "CameraRotationStepSpec": { "Direction": "Right", "Angle": 10.0 } }
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"Pitpile",
+			"PitpileIT",
+			"PitpileFT",
+			"PitpileEP",
+			"PitpileWP"
+		]
+	}
+}

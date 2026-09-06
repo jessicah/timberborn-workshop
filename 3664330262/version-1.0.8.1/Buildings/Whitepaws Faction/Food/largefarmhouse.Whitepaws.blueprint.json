@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LargeFarmhouse.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "largefarmhouse" ]
+	}
+}

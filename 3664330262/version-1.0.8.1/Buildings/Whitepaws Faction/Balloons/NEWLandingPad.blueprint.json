@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LandingPad.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"NEWLandingPad.Whitepaws",
+			"NEWLandingPad",
+			"BalloonLandingPad"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"Pitwarehouse",
+			"PitwarehouseIT",
+			"PitwarehouseFT",
+			"PitwarehouseEP",
+			"PitwarehouseWP"
+		]
+	}
+}

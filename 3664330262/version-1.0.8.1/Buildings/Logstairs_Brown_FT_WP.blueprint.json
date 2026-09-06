@@ -1,0 +1,16 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LogStairs.Brown.Folktails",
+		"BackwardCompatibleTemplateNames": []
+	},
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Buildings.TNF.Whitepaws",
+		"Blueprints#append":
+		[
+			"Buildings/Logstairs_Brown_FT_WP.blueprint",
+			"Buildings/Logstairs_Scrambled_FT_WP.blueprint"
+		]
+	}
+}

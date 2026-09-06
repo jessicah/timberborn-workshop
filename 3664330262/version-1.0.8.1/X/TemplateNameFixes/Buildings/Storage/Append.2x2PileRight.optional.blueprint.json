@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"2x2pileRight",
+			"2x2pileRightIT",
+			"2x2pileRightFT",
+			"2x2pileRightEP",
+			"2x2pileRightWP"
+		]
+	}
+}

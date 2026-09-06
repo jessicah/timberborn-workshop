@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "SmallBadwaterPump.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "SmallBadwaterPumpWP" ]
+	}
+}

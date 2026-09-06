@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingLocalBasics",
+    "IntroLocKey": "FactionGoalText.StartYieldingLocalBasics"
+  }
+}

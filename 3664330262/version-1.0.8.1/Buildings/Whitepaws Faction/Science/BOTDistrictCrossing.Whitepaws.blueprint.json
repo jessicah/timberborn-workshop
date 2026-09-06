@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "BOTDistrictCrossing.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "BOTDistrictCrossing" ]
+	}
+}

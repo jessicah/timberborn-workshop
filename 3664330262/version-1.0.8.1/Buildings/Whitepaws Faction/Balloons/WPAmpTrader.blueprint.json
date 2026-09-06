@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "WPAmpTrader.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "WPAmpTrader" ]
+	}
+}

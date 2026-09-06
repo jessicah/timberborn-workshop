@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "AdvancedSawmill.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "AdvancedSawmill" ]
+	}
+}

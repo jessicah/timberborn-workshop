@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "ContaminatedJail.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "ContaminatedJail" ]
+	}
+}

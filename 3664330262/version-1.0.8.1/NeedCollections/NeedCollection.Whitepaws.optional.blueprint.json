@@ -1,0 +1,14 @@
+{
+	"NeedCollectionSpec":
+	{
+		"Needs#append":
+		[
+			"MinorInjury",
+			"SevereInjury",
+			"MinorBurns",
+			"MajorBurns",
+			"MildDisease",
+			"SevereDisease"
+		]
+	}
+}

@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "RemarkGoal.Welcome",
+    "IntroLocKey": "RemarkGoalText.Welcome"
+  }
+}

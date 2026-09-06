@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Factory.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Factory", "Newsmelter" ]
+	}
+}

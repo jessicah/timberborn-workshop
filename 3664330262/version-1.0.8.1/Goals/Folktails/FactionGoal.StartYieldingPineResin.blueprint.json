@@ -1,0 +1,44 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "TappersShack.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "TappersShack.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "TappersShack.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "TappersShack.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MediumWarehouse.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "PineResin"
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumWarehouse.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

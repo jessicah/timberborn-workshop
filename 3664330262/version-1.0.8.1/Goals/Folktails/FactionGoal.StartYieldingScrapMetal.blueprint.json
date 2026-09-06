@@ -1,0 +1,44 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "ScavengerFlag.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "ScavengerFlag.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "ScavengerFlag.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 2
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "ScavengerFlag.Folktails",
+						"RequiredAmount": 2,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "LargePile.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "LargePile.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "ScrapMetal"
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "LargePile.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

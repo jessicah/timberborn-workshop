@@ -1,0 +1,28 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Wellbeing.BuildSocialRoofSite.Whitepaws",
+    "IntroLocKey": "Tutorial.VerticalArchitecture.BuildPetanqueCourt"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PetanqueCourt.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "PetanqueCourt.Whitepaws",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": true,
+        "HighlightableBuildingIds": [
+          "Path.Whitepaws",
+          "Stairs.Whitepaws"
+        ]
+      }
+    }
+  }
+}

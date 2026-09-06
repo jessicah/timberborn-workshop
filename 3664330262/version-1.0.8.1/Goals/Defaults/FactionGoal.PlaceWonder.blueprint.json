@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.PlaceWonder",
+    "IntroLocKey": "FactionGoalText.PlaceWonder"
+  }
+}

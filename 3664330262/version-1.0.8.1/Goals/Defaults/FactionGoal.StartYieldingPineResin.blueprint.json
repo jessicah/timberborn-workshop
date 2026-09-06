@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingPineResin",
+    "IntroLocKey": "FactionGoalText.StartYieldingPineResin"
+  }
+}

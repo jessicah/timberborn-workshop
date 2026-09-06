@@ -1,0 +1,11 @@
+{
+  "TutorialSpec": {
+    "Id": "RemarkGoals.Welcome",
+    "NameLocKey": "RemarkGoalsText.Welcome",
+    "RequiredTutorialIds": [],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 0,
+    "Stages": [ "RemarkGoal.Welcome" ]
+  },
+  "BlinkingTutorialSpec": {}
+}

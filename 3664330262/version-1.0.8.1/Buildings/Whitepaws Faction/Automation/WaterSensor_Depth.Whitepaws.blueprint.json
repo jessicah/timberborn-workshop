@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "DepthSensor.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"DepthSensor2.Whitepaws"
+		]
+	}
+}

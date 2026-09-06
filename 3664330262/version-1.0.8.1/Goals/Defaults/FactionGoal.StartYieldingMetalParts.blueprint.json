@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingMetalParts",
+    "IntroLocKey": "FactionGoalText.StartYieldingMetalParts"
+  }
+}

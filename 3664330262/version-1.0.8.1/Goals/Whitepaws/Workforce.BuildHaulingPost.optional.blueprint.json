@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Workforce.BuildHaulingPost.Whitepaws",
+    "IntroLocKey": "Tutorial.HaulersAndWorkforce.BuildHaulingPost"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "DoubleLodge.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

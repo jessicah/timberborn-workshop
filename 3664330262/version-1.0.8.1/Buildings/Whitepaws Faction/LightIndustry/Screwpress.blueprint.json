@@ -1,0 +1,16 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "NewScrewpress.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "NEWScrewpress" ]
+	},
+	"ManufactorySpec":
+	{
+		"ProductionRecipeIds#remove": [ "Grapejuice" ],
+		"ProductionRecipeIds#append":
+		[
+			"RedGrapeJuice",
+			"RushedRedGrapeJuice"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "AmpEarsTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPAmpTrader.Whitepaws",
+			"WPAmpTrader",
+			"AmpTrader"
+		]
+	}
+}

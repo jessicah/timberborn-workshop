@@ -1,0 +1,10 @@
+{
+  "TemplateSpec":
+  {
+    "TemplateName": "FarmerFlag.FrostyWhiskers",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Flag_Farmer.FrostyWhiskers"
+    ]
+  }
+}

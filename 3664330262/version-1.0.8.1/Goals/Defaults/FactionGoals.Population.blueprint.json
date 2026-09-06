@@ -1,0 +1,20 @@
+﻿{
+  "TutorialSpec": {
+    "Id": "FactionGoals.Population",
+    "NameLocKey": "GoalsText.Faction.Population",
+    "RequiredTutorialIds": [ "FactionGoals.Survival" ],
+    "SortOrder": 13,
+    "Stages":
+    [
+					"FactionGoal.BuildMedicalBeds",
+					"FactionGoal.StartYieldingGears",
+					"FactionGoal.StartYieldingBeavers",
+					"FactionGoal.LowerWorkHours",
+					"FactionGoal.StockEvenMoreWater",
+					"FactionGoal.BuildDecor",
+					"FactionGoal.BuildHangouts",
+					"FactionGoal.StartHauling",
+					"FactionGoal.YieldEvenMoreBeavers"
+				]
+  }
+}

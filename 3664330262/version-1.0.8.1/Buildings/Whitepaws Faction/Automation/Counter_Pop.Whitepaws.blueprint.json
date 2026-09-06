@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PopulationCounter.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Counter_Pop.Whitepaws"
+		]
+	}
+}

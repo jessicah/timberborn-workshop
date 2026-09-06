@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Progress.BuildInventor.Whitepaws",
+    "IntroLocKey": "Tutorial.Science.Inventor"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "Library.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

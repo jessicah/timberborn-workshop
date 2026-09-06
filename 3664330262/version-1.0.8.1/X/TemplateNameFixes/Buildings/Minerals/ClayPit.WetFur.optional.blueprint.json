@@ -1,0 +1,13 @@
+{
+	"WorkshopRandomNeedApplierSpec":
+	{
+		"Effects":
+		[
+			{
+				"NeedId": "WetFur",
+				"Points": 0.4,
+				"Probability": "Medium"
+			}
+		]
+	}
+}

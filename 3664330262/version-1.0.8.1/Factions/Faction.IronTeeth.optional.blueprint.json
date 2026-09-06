@@ -1,0 +1,107 @@
+{
+	"FactionSpec":
+	{
+		"StartingBuildingId": "DistrictCenter.IronTeeth",
+		"NeedCollectionIds#append": [ "TNF" ],
+		"GoodCollectionIds#append": [ "TNF" ],
+		"BlueprintModifiers#append":
+		[
+			{
+				"Original": "Buildings/Paths/Ladder/Ladder.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/Ladder.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Paths/MetalStaircase/MetalStaircase.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/MetalStaircase.optional.blueprint"
+			},
+			/* 2 Tall Storage */
+			{
+				"Original": "ModularStoragePrefabs/2x2pileRightIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.2x2pileRight.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanPileIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanWarehouseIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongpileIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongWarehouseIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitpileIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitTankIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitTank.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitwarehouseIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/SCoveredtankIT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.SCoveredTank.optional.blueprint"
+			},
+			/* Crappy platform fixes */
+			{
+				"Original": "Buildings/Crappyplatform_Darkbrown_IT_EP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_scramble_IT_EP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Scrambled.optional.blueprint"
+			},
+			/* Logstairs fixes */
+			{
+				"Original": "Buildings/Logstairs_Darkbrown_IT_EP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Logstairs_Scrambled_IT_EP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Scrambled.optional.blueprint"
+			},
+			/* Dam Decorations */
+			{
+				"Original": "Knatte/Buildings/Deco_1High/DD_CornerSlope.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_1High/DD_CornerSlope.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_1High/Aqua_Ribbed/DE_A_RM_CornerSlope.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_1High/Aqua_Ribbed/DE_A_RM_CornerSlope.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_1High/Ribbed/DE_RM_CornerSlope.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_1High/Ribbed/DE_RM_CornerSlope.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_1High/Smooth/DE_SM_CornerSlope.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_1High/Smooth/DE_SM_CornerSlope.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_3High/DD_Corner3X.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_3High/DD_Corner3X.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_3High/Aqua_Ribbed/DE_A_RM_Corner3X.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_3High/Aqua_Ribbed/DE_A_RM_Corner3X.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_3High/Ribbed/DE_RM_Corner3X.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_3High/Ribbed/DE_RM_Corner3X.IronTeeth.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Deco_3High/Smooth/DE_SM_Corner3X.IronTeeth.blueprint",
+				"Modifier": "X/TemplateNameFixes/Knatte/Buildings/Deco_3High/Smooth/DE_SM_Corner3X.IronTeeth.optional.blueprint"
+			}
+		]
+	}
+}

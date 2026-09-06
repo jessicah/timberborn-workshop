@@ -1,0 +1,11 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LogLevee.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Levee.Whitepaws",
+			"Loglevee"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"CollectionId": "Whitepaws_TNF",
+		"Blueprints":
+		[
+			"Buildings/Whitepaws Faction/Townstuff/Path.Whitepaws.blueprint"
+		]
+	}
+}

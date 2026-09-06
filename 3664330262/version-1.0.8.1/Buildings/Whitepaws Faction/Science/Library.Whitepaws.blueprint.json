@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Library.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Library", "Library2" ]
+	}
+}

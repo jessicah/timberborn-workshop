@@ -1,0 +1,31 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Storage.BuildWarehouses.Whitepaws",
+    "IntroLocKey": "Tutorial.Storage.Warehouses"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "2x2Warehouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 2
+      }
+    },
+    "Step2": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "2x2Warehouse.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Berries"
+      }
+    },
+    "Step3": {
+      "SelectStockpileGoodTutorialStepSpec": {
+        "TemplateName": "2x2Warehouse.Whitepaws",
+        "RequiredAmount": 1,
+        "GoodId": "Cabbage"
+      }
+    }
+  }
+}

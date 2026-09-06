@@ -1,0 +1,44 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "Centrifuge.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "Centrifuge.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "Centrifuge.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "Centrifuge.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MediumTank.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "Extract"
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "EfficientFarmHouse.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "EfficientFarmHouse.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    },
+    "Step3": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Carrot",
+        "RequiredAmount": 50
+      }
+    },
+    "Step4": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Sunflower",
+        "RequiredAmount": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "GasExctractor.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "GasExctractor" ]
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Survival.BuildWaterPump.Whitepaws",
+    "IntroLocKey": "Tutorial.WaterAndFood.WaterPump"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "PumpingHouse.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

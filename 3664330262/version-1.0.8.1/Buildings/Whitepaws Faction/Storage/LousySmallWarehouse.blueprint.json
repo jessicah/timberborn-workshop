@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "LousySmallWarehouse.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "LousySmallWarehouse" ]
+	}
+}

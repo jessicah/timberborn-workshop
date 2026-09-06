@@ -1,0 +1,6 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "SpiralStairs.Whitepaws",
+    "BackwardCompatibleTemplateNames": [ "CurlyStairs.Whitepaws" ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+	//"StartingFactionSpec#delete": {},
+	"FactionSpec":
+	{
+		"StartingBuildingId": "DistrictCenter.Folktails",
+		"NeedCollectionIds#append": [ "TNF" ],
+		"GoodCollectionIds#append": [ "TNF" ],
+		"BlueprintModifiers#append":
+		[
+			{
+				"Original": "Buildings/Paths/Ladder/Ladder.Folktails.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/Ladder.optional.blueprint"
+			},
+			{
+				"Original": "Knatte/Buildings/Paths/MetalStaircase/MetalStaircase.Folktails.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/MetalStaircase.optional.blueprint"
+			},
+				/* 2 Tall Storage */
+			{
+				"Original": "ModularStoragePrefabs/2x2pileRightFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.2x2pileRight.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanPileFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/GigargantuanWarehouseFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.GigargantuanWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongpileFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/LongWarehouseFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.LongWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitpileFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitPile.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitTankFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitTank.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/PitwarehouseFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.PitWarehouse.optional.blueprint"
+			},
+			{
+				"Original": "ModularStoragePrefabs/SCoveredtankFT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Storage/Append.SCoveredTank.optional.blueprint"
+			},
+			/* Crappy platform fixes */
+			{
+				"Original": "Buildings/Crappyplatform_brown_FT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Crappyplatform_scramble_FT.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Platforms/CrappyPlatform.Scrambled.optional.blueprint"
+			},
+			/* Logstairs fixes */
+			{
+				"Original": "Buildings/Logstairs_Brown_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Brown.optional.blueprint"
+			},
+			{
+				"Original": "Buildings/Logstairs_Scrambled_FT_WP.blueprint",
+				"Modifier": "X/TemplateNameFixes/Buildings/Paths/LogStairs.Scrambled.optional.blueprint"
+			},
+			/* Goals */
+			{
+				"Original": "Goals/Defaults/FactionGoal.BuildDam.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.BuildDam.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.BuildDecor.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.BuildDecor.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.BuildHangouts.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.BuildHangouts.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartHauling.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartHauling.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartPlantingFood.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartPlantingFood.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartPlantingTrees.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartPlantingTrees.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartShiftingLand.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartShiftingLand.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartSpillingWater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartSpillingWater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartStockingFood.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartStockingFood.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartStockingWater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartStockingWater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingBadwater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingBadwater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingBeavers.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingBeavers.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingBerries.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingBerries.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingEquipment.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingEquipment.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingGears.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingGears.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingLocalBasics.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingLocalBasics.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingLogs.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingLogs.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingMetalBlocks.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingMetalBlocks.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingPineResin.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingPineResin.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingPlanks.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingPlanks.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingResearch.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingResearch.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingScrapMetal.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingScrapMetal.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingVolatiles.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingVolatiles.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StartYieldingWater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StartYieldingWater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.StockEvenMoreWater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.StockEvenMoreWater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/FactionGoal.YieldEvenMoreWater.blueprint",
+				"Modifier": "Goals/Folktails/FactionGoal.YieldEvenMoreWater.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlaceFoodStorage.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlaceFoodStorage.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlaceGatherer.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlaceGatherer.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlaceLoggers.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlaceLoggers.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlacePlantation.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlacePlantation.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlaceWaterPumps.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlaceWaterPumps.blueprint"
+			},
+			{
+				"Original": "Goals/Defaults/RushedGoal.PlaceWaterStorage.blueprint",
+				"Modifier": "Goals/Folktails/RushedGoal.PlaceWaterStorage.blueprint"
+			}
+		]
+	}
+}

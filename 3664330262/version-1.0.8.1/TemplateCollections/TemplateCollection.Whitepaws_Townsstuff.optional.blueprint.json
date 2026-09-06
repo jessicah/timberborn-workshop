@@ -1,0 +1,10 @@
+{
+	"TemplateCollectionSpec":
+	{
+		/* Just in case lapantou defines it later */
+		"Blueprints#remove":
+		[
+			"Buildings/Whitepaws Faction/Townstuff/Path.Whitepaws.blueprint"
+		]
+	}
+}

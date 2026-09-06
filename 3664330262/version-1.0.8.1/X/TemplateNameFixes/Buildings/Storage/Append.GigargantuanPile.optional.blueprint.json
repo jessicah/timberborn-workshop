@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"GigargantuanPile",
+			"GigargantuanPileIT",
+			"GigargantuanPileft",
+			"GigargantuanPileEP",
+			"GigargantuanPileWP"
+		]
+	}
+}

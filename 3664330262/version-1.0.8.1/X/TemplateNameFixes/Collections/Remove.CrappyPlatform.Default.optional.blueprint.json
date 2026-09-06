@@ -1,0 +1,10 @@
+{
+	"TemplateCollectionSpec":
+	{
+		"Blueprints#remove":
+		[
+			"Buildings/Crappyplatform_birch_Common.blueprint",
+			"Buildings/Crappyplatform_Pink_Common.blueprint"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "Children": {
+				"Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "HaulingPost.Folktails" ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    },
+    "Step2": {
+      "ConnectBuildingsTutorialStepSpec": {
+        "TemplateName": "HaulingPost.Folktails",
+        "RequiredAmount": 1,
+        "CountUnfinishedBuildings": false,
+        "HighlightableBuildingIds": [ "Path.Folktails" ]
+      }
+    },
+    "Step3": { "DecreasePriorityStepSpec": { "TemplateName": "HaulingPost.Folktails" } },
+    "Step4": { "IncreaseDesiredWorkersStepSpec": { "TemplateName": "HaulingPost.Folktails" } },
+    "Step5": {
+      "ChangePausedStateStepSpec": {
+        "ShouldBePaused": true,
+        "TemplateName": "HaulingPost.Folktails"
+      }
+    }
+  }
+}

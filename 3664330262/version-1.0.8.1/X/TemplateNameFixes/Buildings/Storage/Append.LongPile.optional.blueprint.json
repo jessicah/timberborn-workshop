@@ -1,0 +1,13 @@
+{
+	"TemplateSpec":
+	{
+		"BackwardCompatibleTemplateNames#append":
+		[
+			"Longpile",
+			"LongpileIT",
+			"LongpileFT",
+			"LongpileEP",
+			"LongpileWP"
+		]
+	}
+}

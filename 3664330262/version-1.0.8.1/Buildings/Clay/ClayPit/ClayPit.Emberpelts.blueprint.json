@@ -1,0 +1,8 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "ClayPit.Emberpelts",
+		"BackwardCompatibleTemplateNames": []
+	},
+	"WorkshopRandomNeedApplierSpec#delete": {}
+}

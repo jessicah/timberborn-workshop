@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Ropemaker.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Ropemaker" ]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "WeatherStation.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"Wuoodupgrade_WeatherStation.Whitepaws"
+		]
+	}
+}

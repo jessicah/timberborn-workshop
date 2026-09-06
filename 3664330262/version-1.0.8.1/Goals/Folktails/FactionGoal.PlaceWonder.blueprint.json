@@ -1,0 +1,11 @@
+﻿{
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [ "EarthCultivator.Folktails" ],
+        "OnlyFinishedBuildings": false,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Florist.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Florist" ]
+	}
+}

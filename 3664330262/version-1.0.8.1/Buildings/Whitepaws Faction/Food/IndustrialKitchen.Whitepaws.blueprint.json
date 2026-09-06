@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "IndustrialKitchen.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "MecanizedKitchenHouse.Whitepaws" ]
+	}
+}

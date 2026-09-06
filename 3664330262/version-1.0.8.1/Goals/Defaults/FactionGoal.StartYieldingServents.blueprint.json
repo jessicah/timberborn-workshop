@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingServents",
+    "IntroLocKey": "FactionGoalText.StartYieldingServents"
+  }
+}

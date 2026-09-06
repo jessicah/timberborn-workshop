@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingBeavers",
+    "IntroLocKey": "FactionGoalText.StartYieldingBeavers"
+  }
+}

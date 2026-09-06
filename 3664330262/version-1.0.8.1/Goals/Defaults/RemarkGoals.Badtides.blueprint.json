@@ -1,0 +1,10 @@
+{
+  "TutorialSpec": {
+    "Id": "RemarkGoals.Badtides",
+    "NameLocKey": "RemarkGoalsText.Congrats",
+    "RequiredTutorialIds": [ "SurvivedFirstBadtideTrigger" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 151,
+    "Stages": [ "RemarkGoal.Badtides" ]
+  }
+}

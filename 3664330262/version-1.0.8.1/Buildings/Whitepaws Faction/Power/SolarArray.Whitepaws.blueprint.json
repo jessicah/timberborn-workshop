@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "SolarArray.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "SolarArray" ]
+	}
+}

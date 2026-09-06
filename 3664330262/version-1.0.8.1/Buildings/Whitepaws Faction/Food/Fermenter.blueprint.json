@@ -1,0 +1,7 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "Fermenter.Whitepaws",
+		"BackwardCompatibleTemplateNames": [ "Fermenter" ]
+	}
+}

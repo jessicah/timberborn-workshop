@@ -1,0 +1,13 @@
+{
+	"NeedCollectionSpec":
+	{
+		"CollectionId": "TNF",
+		"Needs":
+		[
+			"WetFur",
+			"Injury",
+			"Campfire",
+			"RooftopTerrace"
+		]
+	}
+}

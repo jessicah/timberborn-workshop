@@ -1,0 +1,14 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Forestry.MarkForPlanting.Whitepaws",
+    "IntroLocKey": "Tutorial.Forestry.MarkBirchesForPlanting"
+  },
+  "Children": {
+    "Step1": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Everblossom",
+        "RequiredAmount": 20
+      }
+    }
+  }
+}

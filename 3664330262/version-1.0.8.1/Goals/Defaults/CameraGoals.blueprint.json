@@ -1,0 +1,15 @@
+{
+  "TutorialSpec": {
+    "Id": "Goals.Basics.Camera",
+    "NameLocKey": "CameraGoalsText",
+    "RequiredTutorialIds": [ "StatesGoals.Freezing" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 2,
+    "Stages":
+    [
+					"Goal.Basics.Camera.Move",
+					"Goal.Basics.Camera.Spin",
+					"Goal.Basics.Camera.Zoom"
+				]
+  }
+}

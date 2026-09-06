@@ -1,0 +1,26 @@
+{
+  "TutorialStageSpec": {
+    "Id": "LayersGoal.TryClick",
+    "IntroLocKey": "LayersGoalText.TryClick"
+  },
+  "Children": {
+    "Step1": {
+      "VisibleLevelChangeStepSpec": {
+        "VisibleLevelChangeType": "Decrease",
+        "ShowKeybindings": false
+      }
+    },
+    "Step2": {
+      "VisibleLevelChangeStepSpec": {
+        "VisibleLevelChangeType": "Increase",
+        "ShowKeybindings": false
+      }
+    },
+    "Step3": {
+      "VisibleLevelChangeStepSpec": {
+        "VisibleLevelChangeType": "Reset",
+        "ShowKeybindings": false
+      }
+    }
+  }
+}

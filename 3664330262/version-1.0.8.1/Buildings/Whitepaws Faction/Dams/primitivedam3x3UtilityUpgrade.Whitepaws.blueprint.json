@@ -1,0 +1,20 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PrimitiveDam3x3UtilityUpgrade.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"primitivedam3x3UtilityUpgrade.Whitepaws",
+			"primitivedam3x3UtilityUpgrade"
+		]
+	},
+	"UnderstructureConstraintSpec": {
+		"UnderstructureTemplateNames":
+		[
+			"PrimitiveDam3x2.Whitepaws",
+			"PrimitiveDam3x3.Whitepaws",
+			"PrimitiveDam3x3Utility.Whitepaws",
+			"PrimitiveDam3x3Variant.Whitepaws"
+		]
+	}
+}

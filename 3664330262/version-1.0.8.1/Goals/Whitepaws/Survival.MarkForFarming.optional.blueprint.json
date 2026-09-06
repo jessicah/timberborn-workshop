@@ -1,0 +1,20 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Survival.MarkForFarming.Whitepaws",
+    "IntroLocKey": "Tutorial.WaterAndFood.MarkCabbages"
+  },
+  "Children": {
+    "Step1": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Cabbage",
+        "RequiredAmount": 50
+      }
+    },
+    "Step2": {
+      "MarkPlantablesTutorialStepSpec": {
+        "TemplateName": "Sunflower",
+        "RequiredAmount": 50
+      }
+    }
+  }
+}

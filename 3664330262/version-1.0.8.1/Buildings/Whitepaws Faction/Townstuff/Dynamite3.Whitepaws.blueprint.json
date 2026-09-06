@@ -1,0 +1,10 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "TripleDynamite.Whitepaws",
+    "BackwardCompatibleTemplateNames":
+    [
+					"Dynamite3.Whitepaws",
+					"WPDynamite3"
+				]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "TutorialSpec": {
+    "Id": "RushedGoals",
+    "NameLocKey": "RushedGoalsText",
+    "RequiredTutorialIds": [ "RemarkGoals.Shortcuts" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 6,
+    "Stages":
+    [
+					"RushedGoal.RaiseWorkHours",
+					"RushedGoal.PlaceLoggers",
+					"RushedGoal.PlaceGatherer",
+					"RushedGoal.PlaceWaterPumps",
+					"RushedGoal.PlacePlantation",
+					"RushedGoal.PlaceWaterStorage",
+					"RushedGoal.PlaceFoodStorage",
+					"RushedGoal.PlaceLoggingMarkers"
+				]
+  }
+}

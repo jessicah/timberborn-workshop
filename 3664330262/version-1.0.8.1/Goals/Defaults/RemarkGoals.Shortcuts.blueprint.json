@@ -1,0 +1,16 @@
+{
+  "TutorialSpec": {
+    "Id": "Goals.Basics.Shortcuts",
+    "NameLocKey": "RemarkGoals.Shortcuts",
+    "RequiredTutorialIds": [ "StatusGoals" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 5,
+    "Stages":
+    [
+					"RemarkGoal.X",
+					"RemarkGoal.TAB",
+					"RemarkGoal.ShiftAltX",
+					"RemarkGoal.ShiftAltZ"
+				]
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  "TutorialStageSpec": {
+    "Id": "FactionGoal.StartYieldingWater",
+    "IntroLocKey": "FactionGoalText.StartYieldingWater"
+  }
+}

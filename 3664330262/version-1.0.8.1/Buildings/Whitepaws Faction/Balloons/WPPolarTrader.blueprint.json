@@ -1,0 +1,12 @@
+{
+	"TemplateSpec":
+	{
+		"TemplateName": "PolarBeaversTraderBalloon.Whitepaws",
+		"BackwardCompatibleTemplateNames":
+		[
+			"WPPolarTrader.Whitepaws",
+			"WPPolarTrader",
+			"PolarTrader"
+		]
+	}
+}

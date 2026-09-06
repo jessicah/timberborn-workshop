@@ -1,0 +1,44 @@
+﻿{
+	"Children":
+	{
+		"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "BadwaterPump.Folktails" } },
+		"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "BadwaterPump.Folktails" } },
+		"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "BadwaterPump.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 4
+				}
+		},
+		"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "BadwaterPump.Folktails",
+						"RequiredAmount": 4,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		},
+		"Step5": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MediumTank.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 1
+				}
+		},
+		"Step6": {
+				"SelectStockpileGoodTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"GoodId": "Badwater"
+				}
+		},
+		"Step7": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MediumTank.Folktails",
+						"RequiredAmount": 1,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+		}
+ }
+}

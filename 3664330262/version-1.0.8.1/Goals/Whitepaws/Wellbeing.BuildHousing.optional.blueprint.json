@@ -1,0 +1,17 @@
+{
+  "TutorialStageSpec": {
+    "Id": "Wellbeing.BuildHousing.Whitepaws",
+    "IntroLocKey": "Tutorial.Housing.Lodges"
+  },
+  "Children": {
+    "Step1": {
+      "BuildingTutorialStepSpec": {
+        "TemplateNames": [
+          "DoubleLodge.Whitepaws"
+        ],
+        "OnlyFinishedBuildings": true,
+        "RequiredAmount": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Children": {
+			"Step1": { "AccumulateScienceForBuildingStepSpec": { "TemplateName": "MedicalBed.Folktails" } },
+			"Step2": { "UnlockBuildingTutorialStepSpec": { "TemplateName": "MedicalBed.Folktails" } },
+			"Step3": {
+				"BuildingTutorialStepSpec": {
+						"TemplateNames": [ "MedicalBed.Folktails" ],
+						"OnlyFinishedBuildings": true,
+						"RequiredAmount": 3
+				}
+			},
+			"Step4": {
+				"ConnectBuildingsTutorialStepSpec": {
+						"TemplateName": "MedicalBed.Folktails",
+						"RequiredAmount": 3,
+						"CountUnfinishedBuildings": false,
+						"HighlightableBuildingIds": [ "Path.Folktails" ]
+				}
+			}
+		}
+}

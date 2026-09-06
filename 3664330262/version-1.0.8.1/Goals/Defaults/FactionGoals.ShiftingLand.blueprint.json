@@ -1,0 +1,18 @@
+{
+  "TutorialSpec": {
+    "Id": "FactionGoals.ShiftingLand",
+    "NameLocKey": "FactionGoalsText.ShiftingLand",
+    "RequiredTutorialIds": [ "FactionGoals.StableGreenland" ],
+    "SkipIfTutorialFinished": "",
+    "SortOrder": 18,
+    "Stages": [
+						"FactionGoal.StartYieldingScrapMetal",
+      "FactionGoal.StartYieldingMetalParts",
+      "FactionGoal.StartYieldingMetalBlocks",
+      "FactionGoal.StartYieldingBadwater",
+      "FactionGoal.StartYieldingEquipment",
+      "FactionGoal.StartYieldingVolatiles",
+      "FactionGoal.StartShiftingLand"
+    ]
+  }
+}
