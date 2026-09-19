@@ -1,0 +1,28 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Dandelion.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Carrot.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Sunflower.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Wheat.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.ChestnutTree.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Maple.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Canola.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Corn.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Mangrove.Folktails.blueprint"
+    ]
+  }
+}

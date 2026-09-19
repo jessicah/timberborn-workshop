@@ -1,0 +1,272 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [],
+    "PlaceFinished": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.Mangrove.IronTeeth",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.IronTeeth",
+    "ToolOrder": 8,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "NaturalResource.Mangrove.DisplayName",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "NaturalResource.Mangrove.FlavorDescription",
+    "Icon": "NaturalResources/Trees/Mangrove/MangroveIcon"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveSeedling"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.492073119,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.147706091,
+                    "Height": 1.08291566,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveSeedlingDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.327445984,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.1548264,
+                    "Height": 1.03489184,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveSeedlingDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.512537,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.160858274,
+                    "Height": 1.08506966,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveMature"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.4
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.485916138,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.212837949,
+                    "Height": 1.37029266,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveMatureDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.4
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.355710268,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.199999988,
+                    "Height": 1.13142061,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveMatureDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 1.0,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.4
+                  }
+                ],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.355710268,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.199999988,
+                    "Height": 1.13142061,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "#Leftover": {
+          "TimbermeshSpec": {
+            "Model": "NaturalResources/Trees/Mangrove/Mesh/MangroveMatureStump"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [],
+            "SphereColliders": [],
+            "CapsuleColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.07685387,
+                  "Z": 0.5
+                },
+                "Radius": 0.204731375,
+                "Height": 0.6003412,
+                "Axis": "Y"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

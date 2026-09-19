@@ -1,0 +1,11 @@
+{
+    "BlockObjectToolGroupSpec": {
+        "Id": "DecorativePlants.Adaptors",
+        "Order": 5,
+        "NameLocKey": "Adaptors.Name",
+        "Icon": "Sprites/Avatars/AdaptorsLogo"
+    },
+    "ParentToolGroupSpec": {
+        "ParentIds": [ "DecorativePlants" ]
+    }
+}

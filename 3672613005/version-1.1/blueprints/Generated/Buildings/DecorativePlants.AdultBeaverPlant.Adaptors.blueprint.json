@@ -1,0 +1,221 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 1
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.AdultBeaverPlant.Adaptors",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.Adaptors",
+    "ToolOrder": 11,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "NaturalResource.AdultBeaverPlant.DisplayName",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "NaturalResource.BeaverPlant.FlavorDescription",
+    "Icon": "Sprites/Avatars/LeafCoatsAdult"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantSeedlingDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.35,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.0,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantSeedlingDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantSeedling.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.35,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.0,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantMature.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.4,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantMatureDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 0.6,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "Plants/BeaverPlantMatureDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [],
+                "CapsuleColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.4,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.2,
+                    "Height": 1.2,
+                    "Axis": "Y"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

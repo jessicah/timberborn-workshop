@@ -1,0 +1,34 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.Succulent.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GrapesPlant.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Parsnip.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.SugarCane.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Raised.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Beetroot.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pepper.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Radish.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Tomato.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BeaverPlant.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.AdultBeaverPlant.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.EucalyptusTree.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.WillowTree.Folktails.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GreenGrapesVine.Folktails.blueprint"
+    ]
+  }
+}

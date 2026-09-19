@@ -1,0 +1,34 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.LeafCoats",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.Succulent.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GrapesPlant.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Parsnip.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.SugarCane.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BeaverPlant.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.AdultBeaverPlant.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.EucalyptusTree.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.WillowTree.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GreenGrapesVine.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Raised.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Beetroot.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pepper.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Radish.LeafCoats.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Tomato.LeafCoats.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 1
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.Beetroot.IronTeeth",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.Emberpelts",
+    "ToolOrder": 2010003,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Wares.Beetroot.Name",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "Wares.Beetroot.Cite",
+    "Icon": "Mole/Grows/Beetroot"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantMature.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantMatureDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantMatureDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        },
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantSeedling.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.05,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.1,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantSeedlingDead.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.05,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.1,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Eggplant/EggplantSeedlingDry.Model"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.05,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.1,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

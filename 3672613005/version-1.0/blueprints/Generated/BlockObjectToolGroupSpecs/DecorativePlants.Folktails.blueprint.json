@@ -1,0 +1,11 @@
+{
+    "BlockObjectToolGroupSpec": {
+        "Id": "DecorativePlants.Folktails",
+        "Order": 1,
+        "NameLocKey": "Faction.Folktails.DisplayName",
+        "Icon": "Sprites/Avatars/FolktailsLogo"
+    },
+    "ParentToolGroupSpec": {
+        "ParentIds": [ "DecorativePlants" ]
+    }
+}

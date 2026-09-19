@@ -1,0 +1,205 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [],
+    "PlaceFinished": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.CoffeeBush.Folktails",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.IronTeeth",
+    "ToolOrder": 1000005,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "NaturalResource.Coffee.DisplayName",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "NaturalResource.Coffee.FlavorDescription",
+    "Icon": "NaturalResources/Bushes/Coffee/CoffeeBushIcon"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedling"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.06,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.29
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": -0.05,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.29
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushSeedlingDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.05,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.29
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMature"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.2,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.38
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.2,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.38
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Bushes/Coffee/CoffeeBushMatureDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [],
+                "SphereColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.2,
+                      "Z": 0.5
+                    },
+                    "Radius": 0.38
+                  }
+                ],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

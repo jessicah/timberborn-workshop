@@ -1,0 +1,11 @@
+{
+    "BlockObjectToolGroupSpec": {
+        "Id": "DecorativePlants.IronTeeth",
+        "Order": 2,
+        "NameLocKey": "Faction.IronTeeth.DisplayName",
+        "Icon": "Factions/IronTeeth/Symbol.IronTeeth"
+    },
+    "ParentToolGroupSpec": {
+        "ParentIds": [ "DecorativePlants" ]
+    }
+}

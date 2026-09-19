@@ -1,0 +1,18 @@
+{
+  "FactionSpec": {
+    "MaterialCollectionIds#append": [
+      "Folktails",
+      "Lapantou",
+      "IronTeeth",
+      "Listamole.Folktails",
+      "Listamole.IronTeeth",
+      "Emberpelts",
+      "Listamole.Emberpelts",
+      "LeafCoats",
+      "Listamole.LeafCoats",
+      "Adaptors",
+      "AdaptorsHaveEmberpelts",
+      "AdaptorsHaveLeafCoats"
+    ]
+  }
+}

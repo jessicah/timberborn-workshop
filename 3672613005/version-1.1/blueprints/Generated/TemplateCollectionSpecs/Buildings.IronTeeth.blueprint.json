@@ -1,0 +1,34 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.Succulent.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GrapesPlant.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Parsnip.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.SugarCane.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Raised.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Beetroot.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pepper.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Radish.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Tomato.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BeaverPlant.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.AdultBeaverPlant.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.EucalyptusTree.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.WillowTree.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GreenGrapesVine.IronTeeth.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [],
+    "PlaceFinished": true
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.Sunflower.Folktails",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.Folktails",
+    "ToolOrder": 10002,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "NaturalResource.Sunflower.DisplayName",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "NaturalResource.Sunflower.FlavorDescription",
+    "Icon": "NaturalResources/Crops/Sunflower/SunflowerIcon"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerSeedling"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerSeedlingDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerSeedlingDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.1,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.2,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerMature"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.15,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dead": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerMatureDead"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.15,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "#Dying": {
+              "TimbermeshSpec": {
+                "Model": "NaturalResources/Crops/Sunflower/SunflowerMatureDry"
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.5,
+                      "Y": 0.15,
+                      "Z": 0.5
+                    },
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 0.3,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

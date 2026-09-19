@@ -1,0 +1,34 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Adaptors",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.Succulent.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GrapesPlant.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Parsnip.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.SugarCane.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Beetroot.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pepper.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Radish.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Tomato.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.BeaverPlant.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.AdultBeaverPlant.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.EucalyptusTree.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.WillowTree.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.GreenGrapesVine.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Adaptors.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.TreeOfLife.Raised.Adaptors.blueprint"
+    ]
+  }
+}

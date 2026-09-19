@@ -1,0 +1,11 @@
+{
+    "BlockObjectToolGroupSpec": {
+        "Id": "DecorativePlants.LeafCoats",
+        "Order": 4,
+        "NameLocKey": "Faction.LeafCoats.DisplayName",
+        "Icon": "Factions/LeafCoats/Symbol.LeafCoats"
+    },
+    "ParentToolGroupSpec": {
+        "ParentIds": [ "DecorativePlants" ]
+    }
+}

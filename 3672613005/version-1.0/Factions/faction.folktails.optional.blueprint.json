@@ -1,0 +1,9 @@
+{
+  "FactionSpec": {
+    "MaterialCollectionIds#append": [
+      "Folktails",
+      "IronTeeth",
+      "Emberpelts"
+    ]
+  }
+}

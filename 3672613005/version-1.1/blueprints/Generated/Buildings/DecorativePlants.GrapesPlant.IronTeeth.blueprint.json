@@ -1,0 +1,221 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Grapes",
+        "Amount": 1
+      }
+    ]
+  },
+  "TemplateSpec": {
+    "TemplateName": "DecorativePlants.GrapesPlant.IronTeeth",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "DecorativePlantSpec": {},
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "DecorativePlants.IronTeeth",
+    "ToolOrder": 101,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Floor, Bottom, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Wares.Grapes.Name",
+    "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
+    "FlavorDescriptionLocKey": "Grows.Grapes.Cite",
+    "Icon": "Mole/Grows/Grapes"
+  },
+  "Children": {
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        }
+      }
+    },
+    "#Finished": {
+      "Children": {
+        "Seedling": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedling"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedling"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedlingDead"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedlingDead"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedlingDry"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushSeedlingDry"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Mature": {
+          "Children": {
+            "#Alive": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMature"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMature"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "#Dead": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMatureDead"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMatureDead"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "#Dying": {
+              "Children": {
+                "Supports#nested": {
+                  "BlueprintPath": "Mole/Grows/VineSupports.Mole.blueprint",
+                  "Modification": {
+                    "Children": {
+                      "Side1": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMatureDry"
+                        }
+                      },
+                      "Side2": {
+                        "TimbermeshSpec": {
+                          "Model": "NaturalResources/Bushes/Blueberry/BlueberryBushMatureDry"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

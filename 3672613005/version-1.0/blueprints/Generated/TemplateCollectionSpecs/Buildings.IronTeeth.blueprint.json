@@ -1,0 +1,28 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints": [
+      "Blueprints/Generated/Buildings/DecorativePlants.BlueberryBush.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Birch.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Oak.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Pine.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.CoffeeBush.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Canola.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cassava.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Corn.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Eggplant.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Kohlrabi.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Soybean.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Mangrove.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Dandelion.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Carrot.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Cattail.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Potato.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Spadderdock.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Sunflower.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Wheat.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.ChestnutTree.IronTeeth.blueprint",
+      "Blueprints/Generated/Buildings/DecorativePlants.Maple.IronTeeth.blueprint"
+    ]
+  }
+}

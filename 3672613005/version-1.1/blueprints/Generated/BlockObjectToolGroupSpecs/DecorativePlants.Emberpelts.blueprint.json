@@ -1,0 +1,11 @@
+{
+    "BlockObjectToolGroupSpec": {
+        "Id": "DecorativePlants.Emberpelts",
+        "Order": 3,
+        "NameLocKey": "Faction.Emberpelts.DisplayName",
+        "Icon": "Factions/Emberpelts/Symbol.Emberpelts"
+    },
+    "ParentToolGroupSpec": {
+        "ParentIds": [ "DecorativePlants" ]
+    }
+}
