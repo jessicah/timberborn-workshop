@@ -1,0 +1,31 @@
+* Game Version: 1.0.13.1 - Mod Version: 1.7.2
+- Removed Harmony dependency.
+* Game Version: 1.0.13.1 - Mod Version: 1.7.1
+- Updated due to 1.1.2.4 release
+* Game Version: 1.0.13.1 - Mod Version: 1.7.0
+- Custom water particle prefab with own bundled lit shader
+- Normal-mapped droplet lighting, day/night response
+- Uniform water jet (no taper), forward splash animation
+- Adjustable particle tuning constants
+- Removed vanilla particle component override
+* Game Version: 1.0.13.1 - Mod Version: 1.6.6
+- Now uses assetbundle for UI
+* Game Version: 1.0.13.1 - Mod Version: 1.6.5
+- Add dot to building icons
+* Game Version: 1.0.13.1 - Mod Version: 1.6.4
+- Changed occupations of input block
+- Renamed/moved model files
+* Game Version: 1.0.13.1 - Mod Version: 1.6.3
+- Removed reflection
+* Game Version: 1.0.13.1 - Mod Version: 1.6.2
+- Now animation is controlled by water flow rate
+* Game Version: 1.0.13.1 - Mod Version: 1.6.1
+- Changed painted color of turbines
+* Game Version: 1.0.13.1 - Mod Version: 1.6.0
+- Backported the Impermeable Power Shaft from experimental 1.1
+* Game Version: 1.0.13.1 - Mod Version: 1.5.0
+- Refactored particle lifetime calculations
+* Game Version: 1.0.13.1 - Mod Version: 1.4.0
+- Version bump to match 1.1 mod version
+* Game Version: 1.0.0.0 - Mod Version: 1.3.1
+- Initial 1.0 Release

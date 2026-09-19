@@ -1,0 +1,9 @@
+{
+  "Name": "Compact Water Turbine",
+  "Version": "1.7.2",
+  "Id": "Calloatti.CompactWaterTurbine",
+  "MinimumGameVersion": "1.0.13.1",
+  "Description": "Adds a compact water turbine that generates power from flowing water.",
+  "RequiredMods": [],
+  "OptionalMods": []
+}
