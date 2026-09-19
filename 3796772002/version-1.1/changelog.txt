@@ -1,0 +1,11 @@
+* Game Version: 1.1.2.4 - Mod Version: 1.1.0
+- Added Plots filter: shows planting assignments grouped by species with tile count
+- Plots row click highlights assigned tiles on the map
+- Per-status click highlighting: click icon for all, click column number for that status
+- Auto-rehighlight on filter change, exclusion of tree stumps
+- Localized to 14 languages
+* Game Version: 1.1.2.4 - Mod Version: 1.0.0
+- Initial release
+- Natural Resources Statistics tab in batch control panel
+- Filter by: All, Healthy, Dying, Dead, Mature, Planted, Wild
+- Sort by: Name A-Z, Name Z-A, Count (Most), Count (Least)
