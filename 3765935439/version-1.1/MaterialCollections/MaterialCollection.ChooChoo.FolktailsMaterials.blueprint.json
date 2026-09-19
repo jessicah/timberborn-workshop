@@ -1,0 +1,9 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "ChooChoo.FolktailsMaterials",
+    "Materials": [
+      "Materials/UberAtlas/Materials/Folktails/BaseWood_Brown.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/WindowsAtlas.Folktails"
+    ]
+  }
+}

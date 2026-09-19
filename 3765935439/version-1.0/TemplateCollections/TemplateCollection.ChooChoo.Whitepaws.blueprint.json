@@ -1,0 +1,28 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ChooChoo.Whitepaws",
+    "Blueprints#append": [
+      "Tobbert/Buildings/TrackOneWay/TrackOneWay.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackCorner1x1/TrackCorner1x1.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackCorner2x2/TrackCorner2x2.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackCrossing/TrackCrossing.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackHill1x2/TrackHill1x2.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackRIntersection2x3/TrackRIntersection2x3.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackTIntersection1x1/TrackTIntersection1x1.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackTIntersection2x3/TrackTIntersection2x3.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackXIntersection1x1/TrackXIntersection1x1.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrackXIntersection3x3/TrackXIntersection3x3.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStation/GoodsStation.Whitepaws.blueprint",
+      "Tobbert/Buildings/TrainYard/TrainYard.Whitepaws.blueprint",
+      "Tobbert/Buildings/WaitingStation/WaitingStation.Whitepaws.blueprint",
+      "Tobbert/Prefabs/Trains/Train.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloSmall/GoodsStationSiloSmall.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloMedium/GoodsStationSiloMedium.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseSmall/GoodsStationWarehouseSmall.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseMedium/GoodsStationWarehouseMedium.Whitepaws.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseLarge/GoodsStationWarehouseLarge.Whitepaws.blueprint"
+    ]
+  }
+}

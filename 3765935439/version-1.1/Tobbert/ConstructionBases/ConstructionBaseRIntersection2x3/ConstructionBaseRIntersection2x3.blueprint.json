@@ -1,0 +1,71 @@
+{
+  "TimbermeshSpec": {
+    "Model": "Tobbert/ConstructionBases/ConstructionBaseRIntersection2x3/ConstructionBaseRIntersection2x3"
+  },
+  "CollidersSpec": {
+    "BoxColliders": [
+      {
+        "Center": {
+          "X": 0.5,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "Size": {
+          "X": 0.98,
+          "Y": 0.1,
+          "Z": 0.98
+        }
+      },
+      {
+        "Center": {
+          "X": 1.5,
+          "Y": 0.0,
+          "Z": 0.5
+        },
+        "Size": {
+          "X": 0.98,
+          "Y": 0.1,
+          "Z": 0.98
+        }
+      },
+      {
+        "Center": {
+          "X": 0.5,
+          "Y": 0.0,
+          "Z": 1.5
+        },
+        "Size": {
+          "X": 0.98,
+          "Y": 0.1,
+          "Z": 0.98
+        }
+      },
+      {
+        "Center": {
+          "X": 1.5,
+          "Y": 0.0,
+          "Z": 1.5
+        },
+        "Size": {
+          "X": 0.98,
+          "Y": 0.1,
+          "Z": 0.98
+        }
+      },
+      {
+        "Center": {
+          "X": 1.5,
+          "Y": 0.0,
+          "Z": 2.5
+        },
+        "Size": {
+          "X": 0.98,
+          "Y": 0.1,
+          "Z": 0.98
+        }
+      }
+    ],
+    "SphereColliders": [],
+    "CapsuleColliders": []
+  }
+}

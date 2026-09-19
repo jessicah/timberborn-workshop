@@ -1,0 +1,150 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "TemplateSpec": {
+    "TemplateName": "Train",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "TrainSpec": {
+    "Cost": [
+      {
+        "Id": "Log",
+        "Amount": 20
+      },
+      {
+        "Id": "Water",
+        "Amount": 40
+      },
+      {
+        "Id": "Plank",
+        "Amount": 20
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 10
+      },
+      {
+        "Id": "Gear",
+        "Amount": 5
+      }
+    ]
+  },
+  "BoxColliderAdderSpec": {
+    "TargetName": "Mesh",
+    "Center": {
+      "X": 0,
+      "Y": 0.4,
+      "Z": 0
+    },
+    "Size": {
+      "X": 0.6,
+      "Y": 0.75,
+      "Z": 0.9
+    }
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.Train.DisplayName",
+    "DescriptionLocKey": "Tobbert.Train.Description",
+    "FlavorDescriptionLocKey": "Tobbert.Train.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/TrainStationIcon"
+  },
+  "Children": {
+    "Mesh": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Trains/WoodenTrain/WoodenTrain.Whitepaws"
+      }
+    },
+    "WagonSlot0": {
+      "Children": {
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon.Whitepaws"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon.Whitepaws"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon.Whitepaws"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Whitepaws"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.Whitepaws"
+          }
+        }
+      }
+    },
+    "WagonSlot1": {
+      "Children": {
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon.Whitepaws"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon.Whitepaws"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon.Whitepaws"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Whitepaws"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.Whitepaws"
+          }
+        }
+      }
+    },
+    "WagonSlot2": {
+      "Children": {
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon.Whitepaws"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon.Whitepaws"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon.Whitepaws"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Whitepaws"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.Whitepaws"
+          }
+        }
+      }
+    }
+  }
+}

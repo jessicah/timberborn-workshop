@@ -1,0 +1,28 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ChooChoo.Folktails",
+    "Blueprints#append": [
+      "Tobbert/Buildings/TrackOneWay/TrackOneWay.blueprint",
+      "Tobbert/Buildings/TrackCorner1x1/TrackCorner1x1.blueprint",
+      "Tobbert/Buildings/TrackCorner2x2/TrackCorner2x2.blueprint",
+      "Tobbert/Buildings/TrackCrossing/TrackCrossing.blueprint",
+      "Tobbert/Buildings/TrackHill1x2/TrackHill1x2.blueprint",
+      "Tobbert/Buildings/TrackRIntersection2x3/TrackRIntersection2x3.blueprint",
+      "Tobbert/Buildings/TrackTIntersection1x1/TrackTIntersection1x1.blueprint",
+      "Tobbert/Buildings/TrackTIntersection2x3/TrackTIntersection2x3.blueprint",
+      "Tobbert/Buildings/TrackXIntersection1x1/TrackXIntersection1x1.blueprint",
+      "Tobbert/Buildings/TrackXIntersection3x3/TrackXIntersection3x3.blueprint",
+      "Tobbert/Buildings/GoodsStation/GoodsStation.blueprint",
+      "Tobbert/Buildings/TrainYard/TrainYard.blueprint",
+      "Tobbert/Buildings/WaitingStation/WaitingStation.blueprint",
+      "Tobbert/Prefabs/Trains/Train.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloSmall/GoodsStationSiloSmall.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloMedium/GoodsStationSiloMedium.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseSmall/GoodsStationWarehouseSmall.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseMedium/GoodsStationWarehouseMedium.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseLarge/GoodsStationWarehouseLarge.blueprint"
+    ]
+  }
+}

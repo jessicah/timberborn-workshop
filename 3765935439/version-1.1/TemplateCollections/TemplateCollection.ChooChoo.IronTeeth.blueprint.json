@@ -1,0 +1,28 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ChooChoo.IronTeeth",
+    "Blueprints#append": [
+      "Tobbert/Buildings/TrackOneWay/TrackOneWay.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackCorner1x1/TrackCorner1x1.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackCorner2x2/TrackCorner2x2.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackCrossing/TrackCrossing.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackHill1x2/TrackHill1x2.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackRIntersection2x3/TrackRIntersection2x3.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackTIntersection1x1/TrackTIntersection1x1.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackTIntersection2x3/TrackTIntersection2x3.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackXIntersection1x1/TrackXIntersection1x1.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrackXIntersection3x3/TrackXIntersection3x3.IronTeeth.blueprint",
+      "Tobbert/Buildings/GoodsStation/GoodsStation.IronTeeth.blueprint",
+      "Tobbert/Buildings/TrainYard/TrainYard.IronTeeth.blueprint",
+      "Tobbert/Buildings/WaitingStation/WaitingStation.IronTeeth.blueprint",
+      "Tobbert/Prefabs/Trains/Train.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloSmall/GoodsStationSiloSmall.IronTeeth.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloMedium/GoodsStationSiloMedium.IronTeeth.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseSmall/GoodsStationWarehouseSmall.IronTeeth.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseMedium/GoodsStationWarehouseMedium.IronTeeth.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseLarge/GoodsStationWarehouseLarge.IronTeeth.blueprint"
+    ]
+  }
+}

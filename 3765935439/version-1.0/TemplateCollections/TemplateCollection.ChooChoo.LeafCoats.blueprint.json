@@ -1,0 +1,28 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ChooChoo.LeafCoats",
+    "Blueprints#append": [
+      "Tobbert/Buildings/TrackOneWay/TrackOneWay.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackCorner1x1/TrackCorner1x1.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackCorner2x2/TrackCorner2x2.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackCrossing/TrackCrossing.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackHill1x2/TrackHill1x2.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackRIntersection2x3/TrackRIntersection2x3.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackTIntersection1x1/TrackTIntersection1x1.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackTIntersection2x3/TrackTIntersection2x3.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackXIntersection1x1/TrackXIntersection1x1.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrackXIntersection3x3/TrackXIntersection3x3.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStation/GoodsStation.LeafCoats.blueprint",
+      "Tobbert/Buildings/TrainYard/TrainYard.LeafCoats.blueprint",
+      "Tobbert/Buildings/WaitingStation/WaitingStation.LeafCoats.blueprint",
+      "Tobbert/Prefabs/Trains/Train.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloSmall/GoodsStationSiloSmall.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStationSiloMedium/GoodsStationSiloMedium.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseSmall/GoodsStationWarehouseSmall.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseMedium/GoodsStationWarehouseMedium.LeafCoats.blueprint",
+      "Tobbert/Buildings/GoodsStationWarehouseLarge/GoodsStationWarehouseLarge.LeafCoats.blueprint"
+    ]
+  }
+}

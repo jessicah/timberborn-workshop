@@ -1,0 +1,335 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 10
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 5
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "TrackRIntersection2x3",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 3,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": []
+      }
+    ],
+    "UnblockedCoordinates": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 150,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.TrackRIntersection2x3.DisplayName",
+    "DescriptionLocKey": "Tobbert.TrackRIntersection2x3.Description",
+    "FlavorDescriptionLocKey": "Tobbert.TrackRIntersection2x3.FlavorDescription",
+    "Icon": "Tobbert/Icons/Tracks/TrackRIntersectionLeftIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": []
+  },
+  "TrackPieceSpec": {
+    "Id": "TrackRIntersection2x3",
+    "TrackDistance": 3,
+    "DividesSection": false,
+    "TrackRoutes": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "RouteCorners": [
+          {
+            "X": -0.5,
+            "Y": 0,
+            "Z": -1.5
+          },
+          {
+            "X": -0.4,
+            "Y": 0,
+            "Z": -0.8
+          },
+          {
+            "X": 0.1,
+            "Y": 0,
+            "Z": 0
+          },
+          {
+            "X": 0.3,
+            "Y": 0,
+            "Z": 0.2
+          },
+          {
+            "X": 0.4,
+            "Y": 0,
+            "Z": 0.5
+          },
+          {
+            "X": 0.5,
+            "Y": 0,
+            "Z": 0.8
+          }
+        ]
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "RouteCorners": [
+          {
+            "X": 0.4,
+            "Y": 0,
+            "Z": 0.5
+          },
+          {
+            "X": 0.3,
+            "Y": 0,
+            "Z": 0.2
+          },
+          {
+            "X": 0.1,
+            "Y": 0,
+            "Z": 0
+          },
+          {
+            "X": -0.4,
+            "Y": 0,
+            "Z": -0.8
+          },
+          {
+            "X": -0.5,
+            "Y": 0,
+            "Z": -1.5
+          }
+        ]
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "RouteCorners": [
+          {
+            "X": 0.5,
+            "Y": 0,
+            "Z": 0
+          }
+        ]
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "RouteCorners": [
+          {
+            "X": 0.5,
+            "Y": 0,
+            "Z": 0
+          }
+        ]
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/TrackRIntersection2x3/TrackRIntersection2x3.IronTeeth"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.0,
+              "Y": 0.075,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 2.0,
+              "Y": 0.15,
+              "Z": 2.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.075,
+              "Z": 2.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.15,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBaseRIntersection2x3#nested": {
+          "BlueprintPath": "Tobbert/ConstructionBases/ConstructionBaseRIntersection2x3/ConstructionBaseRIntersection2x3.blueprint"
+        }
+      }
+    }
+  }
+}

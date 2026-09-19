@@ -1,0 +1,229 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 12
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 6
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "WaitingStation",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 1,
+      "Y": 5,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 0,
+        "Y": 4,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": []
+      }
+    ],
+    "UnblockedCoordinates": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 305,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "WaitingStationSpec": {},
+  "NightTimeLightControllerSpec": {},
+  "WorkplaceSpec": {
+    "MaxWorkers": 1,
+    "DefaultWorkers": 1,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": true,
+    "WorkerTypeUnlockCosts": []
+  },
+  "WorkshopSpec": {},
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 0.5,
+      "Y": 0.0,
+      "Z": 4.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.WaitingStation.DisplayName",
+    "DescriptionLocKey": "Tobbert.WaitingStation.Description",
+    "FlavorDescriptionLocKey": "Tobbert.WaitingStation.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/TrainStationIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": []
+  },
+  "TrackPieceSpec": {
+    "Id": "WaitingStation",
+    "TrackDistance": 4,
+    "DividesSection": true,
+    "TrackRoutes": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 4,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "RouteCorners": [
+          {
+            "X": 0,
+            "Y": 0,
+            "Z": -2.5
+          },
+          {
+            "X": 0,
+            "Y": 0,
+            "Z": 1.2
+          }
+        ]
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/WaitingStation/WaitingStation.LeafCoats"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.075,
+              "Z": 2.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 0.15,
+              "Z": 5.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase5x1#nested": {
+          "BlueprintPath": "Tobbert/ConstructionBases/ConstructionBase5x1/ConstructionBase5x1.blueprint"
+        }
+      }
+    }
+  }
+}
