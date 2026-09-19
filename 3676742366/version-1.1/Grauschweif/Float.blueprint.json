@@ -55,7 +55,7 @@
     "DisablingFeatureToggle": ""
   },
   "FloatSpec": {
-    "LightParentModel": "",
+    "LightParentModel": "#Light",
     "LightPosition": {
       "X": 0.0,
       "Y": 0.0,

@@ -1,6 +1,6 @@
 {
   "Name": "Grauschweif's Decorations",
-  "Version": "4.0",
+  "Version": "4.1.1",
   "Id": "grauschweif.decoration",
   "MinimumGameVersion": "1.1.0.2",
   "Description": "Some extra decorations. Some aesthetics needs. Floating lanterns.",
@@ -15,7 +15,7 @@
     },
     {
       "Id": "Grauschweif.Scriptpack",
-      "MinimumVersion": "1.6.0"
+      "MinimumVersion": "1.7.0"
     },
     {
       "Id": "ModdableToolGroups",

@@ -1,6 +1,6 @@
 {
   "RigidbodyAttacherSpec": {
-    "Rigidbody": "Grauschweif/FloatRigidbody"
+    "Rigidbody": "Grauschweif/FishRigidbody"
   },
   "FloatingObjectSpec": {
     "FloatingPoints": [
@@ -78,9 +78,9 @@
   },
   "LabeledEntitySpec": {
     "DisplayNameLocKey": "Grauschweif.Fish.Koi.DisplayName",
-    "DescriptionLocKey": "Grauschweif.Fish..Koi.Description",
-    "FlavorDescriptionLocKey": "Grauschweif.Fish..Koi.FlavorDescription",
-    "Icon": "Grauschweif/FloatIcon"
+    "DescriptionLocKey": "Grauschweif.Fish.Koi.Description",
+    "FlavorDescriptionLocKey": "Grauschweif.Fish.Koi.FlavorDescription",
+    "Icon": "Grauschweif/FishIcon"
   },
   "CustomizableIlluminatorSpec": {},
   "Children": {

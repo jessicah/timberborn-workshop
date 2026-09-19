@@ -8,7 +8,7 @@
         "Amount": 12
       }
     ],
-    "ScienceCost": 0,
+    "ScienceCost": 60,
     "PlaceFinished": false,
     "FinishableWithBeaversOnSite": true,
     "DrawRangeBoundsOnIt": true
@@ -20,6 +20,10 @@
     "UndergroundModelName": "",
     "ConstructionModeModel": "Finished",
     "UndergroundModelDepth": 0
+  },
+  "BasicSelectionSoundSpec": {
+    "SoundName": "Bush",
+    "AlternativeSoundName": "WaterCrop"
   },
   "TemplateSpec": {
     "TemplateName": "WaterPlant.Grauschweif",
@@ -262,8 +266,8 @@
     "Entrance": {
       "HasEntrance": false,
       "Coordinates": {
-        "X": 1,
-        "Y": -1,
+        "X": 0,
+        "Y": 0,
         "Z": 0
       }
     },
@@ -279,8 +283,8 @@
     "CustomPivot": {
       "HasCustomPivot": false,
       "Coordinates": {
-        "X": 1.0,
-        "Y": 1.0,
+        "X": 0.0,
+        "Y": 0.0,
         "Z": 0.0
       }
     },
@@ -291,7 +295,7 @@
     "DisplayNameLocKey": "Grauschweif.WaterPlant.DisplayName",
     "DescriptionLocKey": "Grauschweif.WaterPlant.Description",
     "FlavorDescriptionLocKey": "Grauschweif.WaterPlant.FlavorDescription",
-    "Icon": "Buildings/Wellbeing/Campfire/CampfireIcon"
+    "Icon": "Grauschweif/WaterPlantIcon"
   },
   "FloatSpawnerSpec": {
     "FloatBlueprint": "Grauschweif/Fish.Koi.Grauschweif.blueprint",
@@ -302,18 +306,28 @@
     "SpawnStartAtDusk": true,
     "SpawnStartOffsetHours": -2.0,
     "RandomiseSpawnFactor": 0.12,
+    "RandomSpawnRadius": 0.38,
     "DropPointName": "#SpawnPoint",
-    "LightIntensity": 0.4,
+    "LightIntensity": 0.2,
     "LightColor": {
       "r": 0.5649829,
       "g": 0.7294118,
       "b": 0.0705882162,
       "a": 1.0
     },
-    "EnableEmission": true,
+    "EnableEmission": false,
     "EnableFlicker": true
   },
   "CustomizableIlluminatorSpec": {},
+  "SwimModelSpec": {
+  	"ModelNames": ["#SwimSpadderdock", "#SwimReeds"],
+  },
+  "HiveSpec": {
+    "PollinationRadius": 3,
+    "HoursBetweenPollinations": 4.0,
+    "GrowthTimeReduction": 0.2,
+    "PlantsPerPollination": 9
+  },
   "Children": {
     "#Finished": {
       "TimbermeshSpec": {
@@ -323,9 +337,9 @@
         "BoxColliders": [
           {
             "Center": {
-              "X": 1.0,
+              "X": 0.0,
               "Y": 0.1,
-              "Z": 1.0
+              "Z": 0.0
             },
             "Size": {
               "X": 2.2,
@@ -339,9 +353,9 @@
       },
       "TransformSpec": {
         "Position": {
-          "X": 1.0,
+          "X": 2.0,
           "Y": 0.0,
-          "Z": 1.0
+          "Z": 2.0
         },
         "Rotation": {
           "X": 0.0,
@@ -357,8 +371,45 @@
     },
     "#Unfinished": {
       "Children": {
-        "ConstructionBase3x3#nested": {
-          "BlueprintPath": "ConstructionBases/ConstructionBase3x3/ConstructionBase3x3.blueprint"
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint",
+          "Modification": {
+            "TransformSpec": {
+              "Position": {
+                "X": 1.0,
+                "Y": 0.0,
+                "Z": 1.0
+              },
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "CollidersSpec": {
+			  "BoxColliders": [
+				{
+				  "Center": {
+				    "X": 1.0,
+				    "Y": 0.1,
+				    "Z": 1.0
+				  },
+				  "Size": {
+				    "X": 2.2,
+				    "Y": 0.2,
+				    "Z": 2.2
+				  }
+				}
+			  ],
+			  "SphereColliders": [],
+			  "CapsuleColliders": []
+			}
+		  } 
         }
       }
     }
