@@ -1,0 +1,2 @@
+*_win filter=lfs diff=lfs merge=lfs -text
+*_win.manifest filter=lfs diff=lfs merge=lfs -text
