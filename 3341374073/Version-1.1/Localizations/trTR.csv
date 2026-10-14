@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Güçlendirilmiş Platformlar,-
+Tobbert.CategorySidePlatforms.DisplayName,Daha Fazla Platform,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Buraya patlayıcı pozisyonu alamazsınız: bir yan platform bu araziye bağlı.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,Yan Platformlarla birlikte kullanılabilen bir platform.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Güçlendirilmiş Platform,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Üste kadar yığın!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,Yan Platformlarla birlikte kullanılabilen bir platform.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Çift Güçlendirilmiş Platform,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Yığın, üsteye kadar yığın!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,Yan Platformlarla birlikte kullanılabilen bir platform.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Üçlü Güçlendirilmiş Platform,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Yığın, yığın, yığın, üsteye kadar yığın!",-
+Tobbert.SidePlatform1x1.Description,Kayalıkların yanında ve çoğu binanın yanına yerleştirilebilen bir platform.,-
+Tobbert.SidePlatform1x1.DisplayName,Yan Platform 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,Bunların kendilerinin üzerine yığını olabileceğini hayal edin.,-
+Tobbert.SidePlatform2x1.Description,Kayalıkların yanında ve çoğu binanın yanına yerleştirilebilen bir platform.,-
+Tobbert.SidePlatform2x1.DisplayName,Yan Platform 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,Kayalıkların yanında ve çoğu binanın yanına yerleştirilebilen bir platform.,-
+Tobbert.SidePlatform3x1.DisplayName,Yan Platform 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,Kayalıkların yanında ve çoğu binanın yanına yerleştirilebilen bir platform.,-
+Tobbert.SidePlatform4x1.DisplayName,Yan Platform 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

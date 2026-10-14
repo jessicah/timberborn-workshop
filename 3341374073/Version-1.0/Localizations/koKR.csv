@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,보강 플랫폼,-
+Tobbert.CategorySidePlatforms.DisplayName,추가 플랫폼,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,여기에 폭발물을 놓을 수 없습니다: 사이드 플랫폼이 이 지형에 부착되어 있습니다.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,사이드 플랫폼과 함께 사용할 수 있는 플랫폼.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,보강 플랫폼,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,최상단까지 쌓아 올려!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,사이드 플랫폼과 함께 사용할 수 있는 플랫폼.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,이중 보강 플랫폼,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"쌓아, 최상단까지 쌓아 올려!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,사이드 플랫폼과 함께 사용할 수 있는 플랫폼.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,삼중 보강 플랫폼,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"쌓아, 쌓아, 최상단까지 쌓아 올려!",-
+Tobbert.SidePlatform1x1.Description,절벽과 대부분의 건물 옆에 배치할 수 있는 플랫폼.,-
+Tobbert.SidePlatform1x1.DisplayName,사이드 플랫폼 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,이걸 자기 자신 위에 쌓을 수 있다고 상상해 보세요.,-
+Tobbert.SidePlatform2x1.Description,절벽과 대부분의 건물 옆에 배치할 수 있는 플랫폼.,-
+Tobbert.SidePlatform2x1.DisplayName,사이드 플랫폼 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,절벽과 대부분의 건물 옆에 배치할 수 있는 플랫폼.,-
+Tobbert.SidePlatform3x1.DisplayName,사이드 플랫폼 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,절벽과 대부분의 건물 옆에 배치할 수 있는 플랫폼.,-
+Tobbert.SidePlatform4x1.DisplayName,사이드 플랫폼 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

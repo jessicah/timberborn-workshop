@@ -1,0 +1,125 @@
+﻿{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [{"Id": "Plank", "Amount": 8}, {"Id": "MetalBlock", "Amount": 4}],
+    "ScienceCost": 300,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": true,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "#FinishedUncovered",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ReinforcedPlatform1x1x2.Folktails",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {"X": 1, "Y": 1, "Z": 2},
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Corners",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top, Corners",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {"HasEntrance": false, "Coordinates": {"X": 0, "Y": 0, "Z": 0}},
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "SidePlatforms",
+    "ToolOrder": 801,
+    "ToolShape": "Square",
+    "Layout": "Rectangle",
+    "CustomPivot": {"HasCustomPivot": false, "Coordinates": {"X": 0, "Y": 0, "Z": 0}},
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.ReinforcedPlatform1x1x2.DisplayName",
+    "DescriptionLocKey": "Tobbert.ReinforcedPlatform1x1x2.Description",
+    "FlavorDescriptionLocKey": "Tobbert.ReinforcedPlatform1x1x2.FlavorDescription",
+    "Icon": "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x2"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {"ProgressThresholds": [0]},
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {"Model": "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x2.Folktails.Model"},
+      "CollidersSpec": {
+        "BoxColliders": [
+          {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.5, "Y": 1.9228102, "Z": 0.5}, "Size": {"X": 0.98, "Y": 0.1543796, "Z": 0.98}}
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#FinishedUncovered": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x2.Uncovered.Folktails.Model"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+          {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}}
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x2.ConstructionStage0.Folktails.Model"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+              {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.11}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+              {"Center": {"X": 0.89, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+              {"Center": {"X": 0.11, "Y": 0.9, "Z": 0.89}, "Size": {"X": 0.200000018, "Y": 1.9, "Z": 0.200000018}},
+              {"Center": {"X": 0.5, "Y": 0.05, "Z": 0.5}, "Size": {"X": 1, "Y": 0.1, "Z": 1}}
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}

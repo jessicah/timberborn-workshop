@@ -1,0 +1,16 @@
+﻿{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append": [
+      "Buildings/Tobbert.MorePlatforms/SidePlatforms/SidePlatform1x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/SidePlatforms/SidePlatform2x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/SidePlatforms/SidePlatform3x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/SidePlatforms/SidePlatform4x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x2.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/Platforms/ReinforcedPlatform1x1x3.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/Posts/ReinforcedPosts1x1x1.Folktails.blueprint",
+      "Buildings/Tobbert.MorePlatforms/Posts/Reinforced.CrossBracedPosts1x1x1.Folktails.blueprint"
+    ]
+  }
+}

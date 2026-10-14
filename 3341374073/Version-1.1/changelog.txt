@@ -1,0 +1,27 @@
+* Game Version: 1.1.2.4 - Mod Version: 3.2.1
+- Updated due to 1.1.2.4 release
+* Game Version: 1.0.0.0 - Mod Version: 3.2.0
+- Add Reinforced Posts and Reinforced Cross Braced Posts
+* Game Version: 1.0.0.0 - Mod Version: 3.1.5
+- Removed reflection
+* Game Version: 1.0.0.0 - Mod Version: 3.1.4
+- Fixed an IndexOutOfRangeException crash caused by placing Side Platforms at the map's maximum build height.
+* Game Version: 1.0.0.0 - Mod Version: 3.1.3
+- Adjusted materials and science costs
+* Game Version: 1.0.0.0 - Mod Version: 3.1.2
+- Added ConstructionStage0 models to side platforms (Knatte_Anka)
+- Updated model for Side platform 4x1 (Knatte_Anka)
+- Minor edits to side platform models and ConstructionBase model (Knatte_Anka)
+* Game Version: 1.0.0.0 - Mod Version: 3.1.1
+- Changed Buildings/ path to Buildings/Tobbert.MorePlatforms.
+* Game Version: 1.0.0.0 - Mod Version: 3.1.0
+- Ported Reinforced Platforms.
+- Changed string "HorizontalPlatformEnd" to "SidePlatform"
+- Added Harmony patch for saved games with old names
+* Game Version: 1.0.0.0 - Mod Version: 3.0.1
+- Prevent dynamite placement on terrain with side platforms attached.
+- Updated localization translations.
+* Game Version: 1.0.0.0 - Mod Version: 3.0.0
+- Ported to Timberborn 1.0/1.1
+- Replaced TimberAPI spec system with native blueprint system.
+- Replaced TimberAPI prefab system with Configurator + TemplateModule.

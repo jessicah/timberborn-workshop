@@ -1,0 +1,9 @@
+﻿{
+  "BlockObjectToolGroupSpec": {
+    "Id": "SidePlatforms",
+    "Order": 3,
+    "NameLocKey": "Tobbert.CategorySidePlatforms.DisplayName",
+    "Icon": "Sprites/BottomBar/CategorySidePlatformsIcon",
+    "FallbackGroup": false
+  }
+}

@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Piattaforme rinforzate,-
+Tobbert.CategorySidePlatforms.DisplayName,Più piattaforme,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Impossibile piazzare dinamite qui: una piattaforma laterale è attaccata a questo terreno.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,Una piattaforma che può essere usata in combinazione con le piattaforme laterali.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Piattaforma rinforzata,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Impilala fino in alto!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,Una piattaforma che può essere usata in combinazione con le piattaforme laterali.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Doppia piattaforma rinforzata,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Impila, impilala fino in alto!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,Una piattaforma che può essere usata in combinazione con le piattaforme laterali.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Tripla piattaforma rinforzata,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Impila, impila, impilala fino in alto!",-
+Tobbert.SidePlatform1x1.Description,Una piattaforma che può essere posizionata sul lato di scogliere e della maggior parte degli edifici.,-
+Tobbert.SidePlatform1x1.DisplayName,Piattaforma laterale 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,Immagina se potessi impilarle su sé stesse.,-
+Tobbert.SidePlatform2x1.Description,Una piattaforma che può essere posizionata sul lato di scogliere e della maggior parte degli edifici.,-
+Tobbert.SidePlatform2x1.DisplayName,Piattaforma laterale 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,Una piattaforma che può essere posizionata sul lato di scogliere e della maggior parte degli edifici.,-
+Tobbert.SidePlatform3x1.DisplayName,Piattaforma laterale 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,Una piattaforma che può essere posizionata sul lato di scogliere e della maggior parte degli edifici.,-
+Tobbert.SidePlatform4x1.DisplayName,Piattaforma laterale 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

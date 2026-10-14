@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,強化プラットフォーム,-
+Tobbert.CategorySidePlatforms.DisplayName,もっとプラットフォーム,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,ここに爆薬を置けません：サイドプラットフォームがこの地形に接続されています。,-
+Tobbert.ReinforcedPlatform1x1x1.Description,サイドプラットフォームと組み合わせて使えるプラットフォーム。,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,強化プラットフォーム,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,一番上まで積み上げろ！,-
+Tobbert.ReinforcedPlatform1x1x2.Description,サイドプラットフォームと組み合わせて使えるプラットフォーム。,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,二重強化プラットフォーム,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,積め、積んで一番上まで！,-
+Tobbert.ReinforcedPlatform1x1x3.Description,サイドプラットフォームと組み合わせて使えるプラットフォーム。,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,三重強化プラットフォーム,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,積め、積め、積んで一番上まで！,-
+Tobbert.SidePlatform1x1.Description,崖やほとんどの建物の側面に置けるプラットフォーム。,-
+Tobbert.SidePlatform1x1.DisplayName,サイドプラットフォーム 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,これを自分自身の上に積み上げられると思い浮かべてみてください。,-
+Tobbert.SidePlatform2x1.Description,崖やほとんどの建物の側面に置けるプラットフォーム。,-
+Tobbert.SidePlatform2x1.DisplayName,サイドプラットフォーム 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,崖やほとんどの建物の側面に置けるプラットフォーム。,-
+Tobbert.SidePlatform3x1.DisplayName,サイドプラットフォーム 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,崖やほとんどの建物の側面に置けるプラットフォーム。,-
+Tobbert.SidePlatform4x1.DisplayName,サイドプラットフォーム 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

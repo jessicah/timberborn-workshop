@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Plataformas reforzadas,-
+Tobbert.CategorySidePlatforms.DisplayName,Más plataformas,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,No se puede colocar dinamite aquí: una plataforma lateral está adjunta a este terreno.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,Una plataforma que se puede usar en combinación con las plataformas laterales.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Plataforma reforzada,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,¡Apílala hasta arriba!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,Una plataforma que se puede usar en combinación con las plataformas laterales.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Doble plataforma reforzada,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"¡Apila, apílala hasta arriba!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,Una plataforma que se puede usar en combinación con las plataformas laterales.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Triple plataforma reforzada,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"¡Apila, apila, apílala hasta arriba!",-
+Tobbert.SidePlatform1x1.Description,Una plataforma que se puede colocar en el lado de acantilados y la mayoría de los edificios.,-
+Tobbert.SidePlatform1x1.DisplayName,Plataforma lateral 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,Imagina si pudieras apilar estas sobre sí mismas.,-
+Tobbert.SidePlatform2x1.Description,Una plataforma que se puede colocar en el lado de acantilados y la mayoría de los edificios.,-
+Tobbert.SidePlatform2x1.DisplayName,Plataforma lateral 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,Una plataforma que se puede colocar en el lado de acantilados y la mayoría de los edificios.,-
+Tobbert.SidePlatform3x1.DisplayName,Plataforma lateral 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,Una plataforma que se puede colocar en el lado de acantilados y la mayoría de los edificios.,-
+Tobbert.SidePlatform4x1.DisplayName,Plataforma lateral 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

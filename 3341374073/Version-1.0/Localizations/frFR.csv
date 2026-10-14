@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Plateformes renforcées,-
+Tobbert.CategorySidePlatforms.DisplayName,Plus de plateformes,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Impossible de placer de la dynamite ici : une plateforme latérale est attachée à ce terrain.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,Une plateforme qui peut être utilisée en combinaison avec les plateformes latérales.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Plateforme renforcée,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Empile-la jusqu'en haut !,-
+Tobbert.ReinforcedPlatform1x1x2.Description,Une plateforme qui peut être utilisée en combinaison avec les plateformes latérales.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Double plateforme renforcée,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Empile, empile-la jusqu'en haut !",-
+Tobbert.ReinforcedPlatform1x1x3.Description,Une plateforme qui peut être utilisée en combinaison avec les plateformes latérales.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Triple plateforme renforcée,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Empile, empile, empile-la jusqu'en haut !",-
+Tobbert.SidePlatform1x1.Description,Une plateforme qui peut être placée sur le côté de falaises et de la plupart des bâtiments.,-
+Tobbert.SidePlatform1x1.DisplayName,Plateforme latérale 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,Imaginez si vous pouviez les empiler les unes sur les autres.,-
+Tobbert.SidePlatform2x1.Description,Une plateforme qui peut être placée sur le côté de falaises et de la plupart des bâtiments.,-
+Tobbert.SidePlatform2x1.DisplayName,Plateforme latérale 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,Une plateforme qui peut être placée sur le côté de falaises et de la plupart des bâtiments.,-
+Tobbert.SidePlatform3x1.DisplayName,Plateforme latérale 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,Une plateforme qui peut être placée sur le côté de falaises et de la plupart des bâtiments.,-
+Tobbert.SidePlatform4x1.DisplayName,Plateforme latérale 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

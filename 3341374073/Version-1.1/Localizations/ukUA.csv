@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Армовані платформи,-
+Tobbert.CategorySidePlatforms.DisplayName,Більше платформ,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Неможливо поставити вибухівку сюди: до цієї місцевості прикріплений бічна платформа.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,"Платформа, яка може використовуватися разом із бічними платформами.",-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Армована платформа,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Стопіть до верху!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,"Платформа, яка може використовуватися разом із бічними платформами.",-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Подвійна армована платформа,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Стопіть, стопіть до верху!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,"Платформа, яка може використовуватися разом із бічними платформами.",-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Трійна армована платформа,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Стопіть, стопіть, стопіть до верху!",-
+Tobbert.SidePlatform1x1.Description,"Платформа, яку можна розмістити на боці скель і більшості будівель.",-
+Tobbert.SidePlatform1x1.DisplayName,Бічна платформа 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,"Уявіть, що ви можете цими стопувати.",-
+Tobbert.SidePlatform2x1.Description,"Платформа, яку можна розмістити на боці скель і більшості будівель.",-
+Tobbert.SidePlatform2x1.DisplayName,Бічна платформа 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,"Платформа, яку можна розмістити на боці скель і більшості будівель.",-
+Tobbert.SidePlatform3x1.DisplayName,Бічна платформа 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,"Платформа, яку можна розмістити на боці скель і більшості будівель.",-
+Tobbert.SidePlatform4x1.DisplayName,Бічна платформа 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

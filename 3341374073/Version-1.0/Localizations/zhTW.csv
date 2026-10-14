@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,加固平台,-
+Tobbert.CategorySidePlatforms.DisplayName,更多平台,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,無法在此放置炸藥：側平台已連接到此地形的表面。,-
+Tobbert.ReinforcedPlatform1x1x1.Description,可以與側平台配合使用的平台。,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,加固平台,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,堆到最上面！,-
+Tobbert.ReinforcedPlatform1x1x2.Description,可以與側平台配合使用的平台。,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,雙加固平台,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,堆，堆到最上面！,-
+Tobbert.ReinforcedPlatform1x1x3.Description,可以與側平台配合使用的平台。,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,三加固平台,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,堆，堆，堆到最上面！,-
+Tobbert.SidePlatform1x1.Description,可以放置在懸崖側面和大多數建築上的平台。,-
+Tobbert.SidePlatform1x1.DisplayName,側平台 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,想像一下你可以將這些堆疊在彼此上面。,-
+Tobbert.SidePlatform2x1.Description,可以放置在懸崖側面和大多數建築上的平台。,-
+Tobbert.SidePlatform2x1.DisplayName,側平台 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,可以放置在懸崖側面和大多數建築上的平台。,-
+Tobbert.SidePlatform3x1.DisplayName,側平台 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,可以放置在懸崖側面和大多數建築上的平台。,-
+Tobbert.SidePlatform4x1.DisplayName,側平台 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

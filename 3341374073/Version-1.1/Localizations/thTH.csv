@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,แพลตฟอร์มเสริมความแข็งแรง,-
+Tobbert.CategorySidePlatforms.DisplayName,แพลตฟอร์มเพิ่มเติม,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,ไม่สามารถวางวัตถุระเบิดได้ที่นี่: มีแพลตฟอร์มข้างติดอยู่กับพื้นที่นี้,-
+Tobbert.ReinforcedPlatform1x1x1.Description,แพลตฟอร์มที่สามารถใช้ร่วมกับแพลตฟอร์มข้างได้,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,แพลตฟอร์มเสริมความแข็งแรง,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,ซ้อนให้ถึงด้านบน!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,แพลตฟอร์มที่สามารถใช้ร่วมกับแพลตฟอร์มข้างได้,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,แพลตฟอร์มเสริมความแข็งแรงคู่,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,ซ้อน ซ้อน ให้ถึงด้านบน!,-
+Tobbert.ReinforcedPlatform1x1x3.Description,แพลตฟอร์มที่สามารถใช้ร่วมกับแพลตฟอร์มข้างได้,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,แพลตฟอร์มเสริมความแข็งแรงสามชั้น,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,ซ้อน ซ้อน ซ้อน ให้ถึงด้านบน!,-
+Tobbert.SidePlatform1x1.Description,แพลตฟอร์มที่สามารถวางได้บนด้านข้างของหน้าผาและอาคารส่วนใหญ่,-
+Tobbert.SidePlatform1x1.DisplayName,แพลตฟอร์มข้าง 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,ลองนึกภาพว่าคุณสามารถวางสิ่งเหล่านี้ซ้อนกันได้,-
+Tobbert.SidePlatform2x1.Description,แพลตฟอร์มที่สามารถวางได้บนด้านข้างของหน้าผาและอาคารส่วนใหญ่,-
+Tobbert.SidePlatform2x1.DisplayName,แพลตฟอร์มข้าง 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,แพลตฟอร์มที่สามารถวางได้บนด้านข้างของหน้าผาและอาคารส่วนใหญ่,-
+Tobbert.SidePlatform3x1.DisplayName,แพลตฟอร์มข้าง 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,แพลตฟอร์มที่สามารถวางได้บนด้านข้างของหน้าผาและอาคารส่วนใหญ่,-
+Tobbert.SidePlatform4x1.DisplayName,แพลตฟอร์มข้าง 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

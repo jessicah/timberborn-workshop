@@ -1,0 +1,31 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Reinforced Platforms,-
+Tobbert.CategorySidePlatforms.DisplayName,More Platforms,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Cannot place dynamite here: a side platform is attached to this terrain.,-
+Tobbert.Reinforced.CrossBracedPosts1x1x1.Description,Reinforced posts with additional cross bracing on every side. Can be used in combination with the Side Platforms.,-
+Tobbert.Reinforced.CrossBracedPosts1x1x1.DisplayName,Cross-Braced Posts,-
+Tobbert.Reinforced.CrossBracedPosts1x1x1.FlavorDescription,X marks the spot.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,A platform which can be used in combination with the Side Platforms.,-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Reinforced Platform,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Stack it to the top!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,A platform which can be used in combination with the Side Platforms.,-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Double Reinforced Platform,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Stack, stack it to the top!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,A platform which can be used in combination with the Side Platforms.,-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Triple Reinforced Platform,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Stack, stack, stack it to the top!",-
+Tobbert.ReinforcedPosts1x1x1.Description,Four wooden posts held together with metal bands. Can be used in combination with the Side Platforms.,-
+Tobbert.ReinforcedPosts1x1x1.DisplayName,Reinforced Posts,-
+Tobbert.ReinforcedPosts1x1x1.FlavorDescription,Four legs are better than none.,-
+Tobbert.SidePlatform1x1.Description,A platform that can be placed on the side of cliffs and most buildings.,-
+Tobbert.SidePlatform1x1.DisplayName,Side Platform 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,Imagine if you could stack these on itself.,-
+Tobbert.SidePlatform2x1.Description,A platform that can be placed on the side of cliffs and most buildings.,-
+Tobbert.SidePlatform2x1.DisplayName,Side Platform 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,A platform that can be placed on the side of cliffs and most buildings.,-
+Tobbert.SidePlatform3x1.DisplayName,Side Platform 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,A platform that can be placed on the side of cliffs and most buildings.,-
+Tobbert.SidePlatform4x1.DisplayName,Side Platform 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-

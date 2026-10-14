@@ -1,0 +1,25 @@
+ID,Text,Comment
+Tobbert.CategoryReinforcedPlatforms.DisplayName,Армированные платформы,-
+Tobbert.CategorySidePlatforms.DisplayName,Больше платформ,-
+Tobbert.DynamiteBlocker.SidePlatformAttached,Нельзя поставить взрывчатку здесь: боковая платформа прикреплена к этой местности.,-
+Tobbert.ReinforcedPlatform1x1x1.Description,"Платформа, которую можно использовать совместно с боковыми платформами.",-
+Tobbert.ReinforcedPlatform1x1x1.DisplayName,Армированная платформа,-
+Tobbert.ReinforcedPlatform1x1x1.FlavorDescription,Складывайте доверху!,-
+Tobbert.ReinforcedPlatform1x1x2.Description,"Платформа, которую можно использовать совместно с боковыми платформами.",-
+Tobbert.ReinforcedPlatform1x1x2.DisplayName,Двойная армированная платформа,-
+Tobbert.ReinforcedPlatform1x1x2.FlavorDescription,"Складывайте, складывайте доверху!",-
+Tobbert.ReinforcedPlatform1x1x3.Description,"Платформа, которую можно использовать совместно с боковыми платформами.",-
+Tobbert.ReinforcedPlatform1x1x3.DisplayName,Тройная армированная платформа,-
+Tobbert.ReinforcedPlatform1x1x3.FlavorDescription,"Складывайте, складывайте, складывайте доверху!",-
+Tobbert.SidePlatform1x1.Description,"Платформа, которую можно разместить на боковой стороне обрывов и большинства зданий.",-
+Tobbert.SidePlatform1x1.DisplayName,Боковая платформа 1x1,-
+Tobbert.SidePlatform1x1.FlavorDescription,"Представьте, что вы можете этими стопировать.",-
+Tobbert.SidePlatform2x1.Description,"Платформа, которую можно разместить на боковой стороне обрывов и большинства зданий.",-
+Tobbert.SidePlatform2x1.DisplayName,Боковая платформа 2x1,-
+Tobbert.SidePlatform2x1.FlavorDescription,"Double the platforms, double the fun!",-
+Tobbert.SidePlatform3x1.Description,"Платформа, которую можно разместить на боковой стороне обрывов и большинства зданий.",-
+Tobbert.SidePlatform3x1.DisplayName,Боковая платформа 3x1,-
+Tobbert.SidePlatform3x1.FlavorDescription,This is for the looooooong bois.,-
+Tobbert.SidePlatform4x1.Description,"Платформа, которую можно разместить на боковой стороне обрывов и большинства зданий.",-
+Tobbert.SidePlatform4x1.DisplayName,Боковая платформа 4x1,-
+Tobbert.SidePlatform4x1.FlavorDescription,This is not how physics work.,-
