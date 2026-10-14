@@ -9,7 +9,8 @@
       "BeaverAdult.Cokenose"
     ],
     "ChildTextures": [
-      "BeaverChild6.Emberpelts"
+      "BeaverChild6.Emberpelts",
+      "BeaverChild.Charcoal"
     ]
   }
 }
