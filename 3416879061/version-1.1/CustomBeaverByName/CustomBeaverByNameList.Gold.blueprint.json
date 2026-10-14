@@ -9,6 +9,7 @@
     "ChildAvatar": "CustomBeavers/Avatars/GoldChild",
     "ContaminatedChildAvatar": "CustomBeavers/Avatars/GoldContaminatedChild",
     "BeaverFactionId": "",
+    "BeaverGenderId": "",
     "ExcludeFromNamePool": "False"
   }
 }

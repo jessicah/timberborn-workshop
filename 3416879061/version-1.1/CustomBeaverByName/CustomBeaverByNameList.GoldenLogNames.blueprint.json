@@ -16,6 +16,7 @@
     "ChildAvatar": "",
     "ContaminatedChildAvatar": "",
     "BeaverFactionId": "",
+    "BeaverGenderId": "",
     "ExcludeFromNamePool": "True"
   }
 }
