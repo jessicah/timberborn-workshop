@@ -1,0 +1,18 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.IronTeeth",
+    "Blueprints#append": [
+      "Battery.Flywheels/SmallFlywheel/SmallFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/SmallHorizontalFramedFlywheel/SmallHorizontalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/SmallVerticalFramedFlywheel/SmallVerticalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/MediumFlywheel/MediumFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/MediumHorizontalFramedFlywheel/MediumHorizontalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/MediumVerticalFramedFlywheel/MediumVerticalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/LargeFlywheel/LargeFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/LargeHorizontalFramedFlywheel/LargeHorizontalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/LargeVerticalFramedFlywheel/LargeVerticalFramedFlywheel.IronTeeth.blueprint",
+      "Battery.Flywheels/MediumVerticalJunction/MediumVerticalJunction.IronTeeth.blueprint",
+      "Battery.Flywheels/LargeVerticalJunction/LargeVerticalJunction.IronTeeth.blueprint"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "MaterialGroupSpec": {
+    "Id": "Common",
+    "Paths#append": [
+      "Battery.Flywheels/Materials/ClusterMechanicalConnector"
+    ]
+  }
+}

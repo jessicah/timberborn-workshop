@@ -1,0 +1,9 @@
+{
+  "Name": "Flywheels",
+  "Version": "4.1.1.14",
+  "Id": "Battery.Flywheels",
+  "MinimumGameVersion": "1.0.12.6",
+  "Description": "Flywheels",
+  "RequiredMods": [
+  ]
+}

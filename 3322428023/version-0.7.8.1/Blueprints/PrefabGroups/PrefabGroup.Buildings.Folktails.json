@@ -1,0 +1,18 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "Buildings.Folktails",
+    "Paths#append": [
+      "Battery.Flywheels/Prefabs/SmallFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/MediumFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/LargeFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/SmallHorizontalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/MediumHorizontalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/LargeHorizontalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/SmallVerticalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/MediumVerticalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/LargeVerticalFramedFlywheel.Folktails",
+      "Battery.Flywheels/Prefabs/MediumHorizontalJunction.Folktails",
+      "Battery.Flywheels/Prefabs/LargeHorizontalJunction.Folktails"
+    ]
+  }
+}

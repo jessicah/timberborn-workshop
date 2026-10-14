@@ -1,0 +1,18 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Folktails",
+    "Blueprints#append": [
+      "Battery.Flywheels/SmallFlywheel/SmallFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/SmallHorizontalFramedFlywheel/SmallHorizontalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/SmallVerticalFramedFlywheel/SmallVerticalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/MediumFlywheel/MediumFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/MediumHorizontalFramedFlywheel/MediumHorizontalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/MediumVerticalFramedFlywheel/MediumVerticalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/LargeFlywheel/LargeFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/LargeHorizontalFramedFlywheel/LargeHorizontalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/LargeVerticalFramedFlywheel/LargeVerticalFramedFlywheel.Folktails.blueprint",
+      "Battery.Flywheels/MediumVerticalJunction/MediumVerticalJunction.Folktails.blueprint",
+      "Battery.Flywheels/LargeVerticalJunction/LargeVerticalJunction.Folktails.blueprint"
+    ]
+  }
+}

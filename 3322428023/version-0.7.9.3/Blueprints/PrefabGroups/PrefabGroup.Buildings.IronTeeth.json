@@ -1,0 +1,18 @@
+{
+  "PrefabGroupSpec": {
+    "Id": "Buildings.IronTeeth",
+    "Paths#append": [
+      "Battery.Flywheels/Prefabs/SmallFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/MediumFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/LargeFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/SmallHorizontalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/MediumHorizontalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/LargeHorizontalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/SmallVerticalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/MediumVerticalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/LargeVerticalFramedFlywheel.IronTeeth",
+      "Battery.Flywheels/Prefabs/MediumHorizontalJunction.IronTeeth",
+      "Battery.Flywheels/Prefabs/LargeHorizontalJunction.IronTeeth"
+    ]
+  }
+}

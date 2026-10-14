@@ -1,0 +1,40 @@
+ID,Text,Comment
+Battery.Flywheels.SmallFlywheel.DisplayName,Малый маховик,-
+Battery.Flywheels.SmallFlywheel.Description,"Малый маховик с низкой ёмкостью, встроенный в линию с валом. Над ними можно строить платформы, как и над валами.",-
+Battery.Flywheels.SmallFlywheel.FlavorDescription,"""Это абсолютно гениально!"" - STHedgehog",-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.DisplayName,Малый вертикальный рамочный маховик,-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.Description,"Малый маховик, встроенный в раму.",-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.FlavorDescription,"""Это изменит правила игры"" - JC The Beard",-
+Battery.Flywheels.SmallVerticalFramedFlywheel.DisplayName,Малый горизонтальный рамочный маховик,-
+Battery.Flywheels.SmallVerticalFramedFlywheel.Description,"Малый маховик, встроенный в раму",-
+Battery.Flywheels.SmallVerticalFramedFlywheel.FlavorDescription,"""Это изменит правила игры"" - JC The Beard",-
+Battery.Flywheels.MediumFlywheel.DisplayName,Средний маховик,-
+Battery.Flywheels.MediumFlywheel.Description,Средний маховик с умеренной ёмкостью.,-
+Battery.Flywheels.MediumFlywheel.FlavorDescription,Великое творение старика Казко,-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.DisplayName,Средний вертикальный рамочный маховик,-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.Description,"Средний маховик, встроенный в раму.",-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.FlavorDescription,"""А что если поместить шестерни внутрь маховика?"" - Старик Казко",-
+Battery.Flywheels.MediumVerticalFramedFlywheel.DisplayName,Средний горизонтальный рамочный маховик,-
+Battery.Flywheels.MediumVerticalFramedFlywheel.Description,"Средний маховик, встроенный в раму.",-
+Battery.Flywheels.MediumVerticalFramedFlywheel.FlavorDescription,"""А что если поместить шестерни внутрь маховикаl?"" - Старик Казко",-
+Battery.Flywheels.LargeFlywheel.DisplayName,Большой маховик,-
+Battery.Flywheels.LargeFlywheel.Description,Большой маховик с повышенной ёмкостью.,-
+Battery.Flywheels.LargeFlywheel.FlavorDescription,Великое творение старика Казко,-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.DisplayName,Большой вертикальный рамочный маховик,-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.Description,"Самый большой маховик, построенный в прочной раме.",-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.FlavorDescription,Вершина технологии маховиков,-
+Battery.Flywheels.LargeVerticalFramedFlywheel.DisplayName,Большой горизонтальный рамочный маховик,-
+Battery.Flywheels.LargeVerticalFramedFlywheel.Description,"Самый большой маховик, построенный в прочной раме.",-
+Battery.Flywheels.LargeVerticalFramedFlywheel.FlavorDescription,Вершина технологии маховиков,-
+Battery.Flywheels.MediumHorizontalJunction.DisplayName,Средний соединитель маховиков,-
+Battery.Flywheels.MediumHorizontalJunction.Description,"Средняя рама, которая может использоваться для соединения сложенных средних рамочных маховиков.",-
+Battery.Flywheels.MediumHorizontalJunction.FlavorDescription,Небо - предел!,-
+Battery.Flywheels.LargeHorizontalJunction.DisplayName,Большой горизонтальный соединитель,-
+Battery.Flywheels.LargeHorizontalJunction.Description,"Большая прочная рама, которая может использоваться для соединения сложенных больших рамочных маховиков.",-
+Battery.Flywheels.LargeHorizontalJunction.FlavorDescription,Небо - предел!,-
+Battery.Flywheels.ToolGroups.Flywheels.DisplayName,Маховики,-
+Battery.Flywheels.ToolGroups.Junctions.DisplayName,Соединители,-
+Battery.Flywheels.UI.PowerDecayLabel,Потеря мощности,-
+Battery.Flywheels.UI.CapacityLabel,Ёмкость,-
+Battery.Flywheels.UI.MoreInfoText.SelfStackable,Основание / Самоскладываемый,-
+Battery.Flywheels.UI.MoreInfoText.SelfStackableText,"Может быть построен как на земле, так и на другом",-

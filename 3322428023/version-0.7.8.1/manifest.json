@@ -1,0 +1,13 @@
+{
+  "Name": "Flywheels",
+  "Version": "3.0.1.94",
+  "Id": "Battery.Flywheels",
+  "MinimumGameVersion": "0.7.8.1",
+  "Description": "Flywheels",
+  "RequiredMods": [
+    {
+      "Id": "TimberApi",
+      "MinimumVersion": "0.7.5.0"
+    }
+  ]
+}

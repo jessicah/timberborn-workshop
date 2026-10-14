@@ -1,0 +1,54 @@
+ID,Text,Comment
+Battery.Flywheels.SmallFlywheel.DisplayName,Kleines Schwungrad,-
+Battery.Flywheels.SmallFlywheel.Description,"Ein kleines Schwungrad mit kleinem Energiespeicher und eingebauter Antriebswelle.
+Wie bei Antriebswellen können Plattformen darüber gebaut werden.",-
+Battery.Flywheels.SmallFlywheel.FlavorDescription,"\u201EIt's absolutely genius!\u201C
+(Das ist absolut genial!) \u2013 STHedgehog",-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.DisplayName,Kleines horizontal eingerahmtes Schwungrad,-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.Description,"Ein kleines Schwungrad, horizontal eingebaut in einen Rahmen.
+Die Antriebswelle ist vertikal.",-
+Battery.Flywheels.SmallHorizontalFramedFlywheel.FlavorDescription,"\u201EThis is going to be a game-changer.\u201C
+(Das wird das Spiel grundlegend verändern.)
+\u2013 JC The Beard",-
+Battery.Flywheels.SmallVerticalFramedFlywheel.DisplayName,Kleines vertikal eingerahmtes Schwungrad,-
+Battery.Flywheels.SmallVerticalFramedFlywheel.Description,"Ein kleines Schwungrad, vertikal eingebaut in einen Rahmen.
+Die Antriebswelle ist horizontal.",-
+Battery.Flywheels.SmallVerticalFramedFlywheel.FlavorDescription,"\u201EThis is going to be a game-changer.\u201C
+(Das wird das Spiel grundlegend verändern.)
+\u2013 JC The Beard",-
+Battery.Flywheels.MediumFlywheel.DisplayName,Mittleres Schwungrad,-
+Battery.Flywheels.MediumFlywheel.Description,Ein mittleres Schwungrad mit mittlerem Energiespeicher.,-
+Battery.Flywheels.MediumFlywheel.FlavorDescription,Das Opus magnum vom Alten Kasimir.,-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.DisplayName,Mittleres horizontal eingerahmtes Schwungrad,-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.Description,"Ein mittleres Schwungrad, eingebaut in einen horizontalen Rahmen. Die Zahnräder wurden genialerweise in der Mitte des Rotors eingebaut!
+Die Antriebswelle ist vertikal.",-
+Battery.Flywheels.MediumHorizontalFramedFlywheel.FlavorDescription,"\u201EWas wäre, wenn wir die Zahnräder im Schwungrad unterbringen?\u201C\u2013 Alter Kasimir",-
+Battery.Flywheels.MediumVerticalFramedFlywheel.DisplayName,Mittleres vertikal eingerahmtes Schwungrad,-
+Battery.Flywheels.MediumVerticalFramedFlywheel.Description,"Ein mittleres Schwungrad, eingebaut in einen vertikalen Rahmen. Die Zahnräder wurden genialerweise in der Mitte des Rotors eingebaut!
+Die Antriebswelle ist horizontal.",-
+Battery.Flywheels.MediumVerticalFramedFlywheel.FlavorDescription,"\u201EWas wäre, wenn wir die Zahnräder im Schwungrad unterbringen?\u201C\u2013 Alter Kasimir",-
+Battery.Flywheels.LargeFlywheel.DisplayName,Großes Schwungrad,-
+Battery.Flywheels.LargeFlywheel.Description,Ein großes Schwungrad mit großem Energiespeicher.,-
+Battery.Flywheels.LargeFlywheel.FlavorDescription,Das Opus magnum vom Alten Kasimir.,-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.DisplayName,Großes horizontal eingerahmtes Schwungrad,-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.Description,"Das größte Schwungrad eingebaut in einen stabilen horizontalen Rahmen.
+Die Antriebswelle ist vertikal.",-
+Battery.Flywheels.LargeHorizontalFramedFlywheel.FlavorDescription,Die Krönung der Schwungradtechnologie.,-
+Battery.Flywheels.LargeVerticalFramedFlywheel.DisplayName,Großes vertikal eingerahmtes Schwungrad,-
+Battery.Flywheels.LargeVerticalFramedFlywheel.Description,"Das größte Schwungrad eingebaut in einen stabilen vertikalen Rahmen.
+Die Antriebswelle ist horizontal.",-
+Battery.Flywheels.LargeVerticalFramedFlywheel.FlavorDescription,Die Krönung der Schwungradtechnologie.,-
+Battery.Flywheels.MediumVerticalJunction.DisplayName,Mittlere horizontale Schnittstelle,-
+Battery.Flywheels.MediumVerticalJunction.Description,"Ein mittlerer Rahmen, der als Schnittstelle für Mittleres horizontal eingerahmtes Schwungrad verwendet werden kann.
+Die Antriebswelle ist vertikal.",-
+Battery.Flywheels.MediumVerticalJunction.FlavorDescription,Der Himmel ist die Grenze!,-
+Battery.Flywheels.LargeVerticalJunction.DisplayName,Große horizontale Schnittstelle,-
+Battery.Flywheels.LargeVerticalJunction.Description,"Ein großer Rahmen, der als Schnittstelle für Großes horizontal eingerahmtes Schwungrad verwendet werden kann.
+Die Antriebswelle ist vertikal.",-
+Battery.Flywheels.LargeVerticalJunction.FlavorDescription,Der Himmel ist die Grenze!,-
+Battery.Flywheels.ToolGroups.Flywheels.DisplayName,Schwungräder,-
+Battery.Flywheels.ToolGroups.Junctions.DisplayName,Schnittstellen,-
+Battery.Flywheels.UI.PowerDecayLabel,Energieverlust,-
+Battery.Flywheels.UI.CapacityLabel,Energiespeicher,-
+Battery.Flywheels.UI.MoreInfoText.SelfStackable,Ebenerdig / Selbststapelbar,-
+Battery.Flywheels.UI.MoreInfoText.SelfStackableText,Baubar entweder auf dem Boden oder auf einem anderen,-

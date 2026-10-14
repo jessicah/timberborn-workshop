@@ -1,0 +1,18 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append": [
+      "Battery.Flywheels/SmallFlywheel/SmallFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/SmallHorizontalFramedFlywheel/SmallHorizontalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/SmallVerticalFramedFlywheel/SmallVerticalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/MediumFlywheel/MediumFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/MediumHorizontalFramedFlywheel/MediumHorizontalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/MediumVerticalFramedFlywheel/MediumVerticalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/LargeFlywheel/LargeFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/LargeHorizontalFramedFlywheel/LargeHorizontalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/LargeVerticalFramedFlywheel/LargeVerticalFramedFlywheel.Emberpelts.blueprint",
+      "Battery.Flywheels/MediumVerticalJunction/MediumVerticalJunction.Emberpelts.blueprint",
+      "Battery.Flywheels/LargeVerticalJunction/LargeVerticalJunction.Emberpelts.blueprint"
+    ]
+  }
+}

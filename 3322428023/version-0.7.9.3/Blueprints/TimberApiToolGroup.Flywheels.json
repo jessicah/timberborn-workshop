@@ -1,0 +1,10 @@
+{
+  "TimberApiToolGroupSpec": {
+    "Id": "Flywheels",
+    "GroupId": "Power",
+    "Order": "13000",
+    "Icon": "Battery.Flywheels/Sprites/ToolGroups/BasicCategory",
+    "NameLocKey": "Battery.Flywheels.ToolGroups.Flywheels.DisplayName",
+    "FallbackGroup": false
+  }
+}
