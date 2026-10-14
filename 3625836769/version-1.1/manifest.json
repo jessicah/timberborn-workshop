@@ -1,7 +1,7 @@
 {
     "AuthorName": "Bobingabout",
     "Name": "Beaver Faction Split Breeding",
-    "Version": "1.1.1.1",
+    "Version": "1.1.2.0",
     "Id": "BobingaboutBeaverFactionSplitBreeding",
     "MinimumGameVersion": "1.1.0.0",
     "Description": "The entire beaver reproduction system has been replaced. Designed for playable factions with more than one beaver faction, such as Emberpelts and Greedy Builders. Beavers will reproduce as intended by their native method.",
