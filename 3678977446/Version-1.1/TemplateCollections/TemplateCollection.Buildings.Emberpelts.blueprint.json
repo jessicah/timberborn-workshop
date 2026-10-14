@@ -1,0 +1,9 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.Emberpelts",
+    "Blueprints#append": [
+      "Buildings/Automation/OneBlock/OneBlockDepthSensor.Emberpelts.blueprint",
+      "Buildings/Automation/OneBlock/OneBlockContaminationSensor.Emberpelts.blueprint"
+    ]
+  }
+}

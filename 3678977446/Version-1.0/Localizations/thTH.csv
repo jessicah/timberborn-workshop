@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,วัดมลพิษทางน้ำ,
+Building.OneBlockContaminationSensor.DisplayName,เซ็นเซอร์มลพิษหนึ่งบล็อก,
+Building.OneBlockDepthSensor.Description,วัดความลึกของน้ำด้านล่าง/ด้านบน เยี่ยม,
+Building.OneBlockDepthSensor.DisplayName,เซ็นเซอร์ความลึกหนึ่งบล็อก,

@@ -1,0 +1,80 @@
+﻿{
+  "BuildingSpec": {
+    "SelectionSoundName": "Automation",
+    "LoopingSoundName": "",
+    "BuildingCost": [{"Id": "Gear", "Amount": 8}, {"Id": "MetalBlock", "Amount": 8}],
+    "ScienceCost": 400,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "OneBlockContaminationSensor.IronTeeth",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "NamedEntitySpec": {"IsEditable": true},
+  "BlockObjectSpec": {
+    "Size": {"X": 1, "Y": 1, "Z": 1},
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {"HasEntrance": false, "Coordinates": {"X": 0, "Y": 0, "Z": 0}},
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Automation",
+    "ToolOrder": 51,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {"HasCustomPivot": true, "Coordinates": {"X": 0.5, "Y": 0.5, "Z": 0}},
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Building.OneBlockContaminationSensor.DisplayName",
+    "DescriptionLocKey": "Building.OneBlockContaminationSensor.Description",
+    "FlavorDescriptionLocKey": "",
+    "Icon": "Resources/Buildings/Automation/OneBlock/OneBlockContaminationSensorIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {"ProgressThresholds": [0]},
+  "ContaminationSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 0}},
+  "DefaultIlluminatorColorSpec": {"ColorId": "Automator"},
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.IronTeeth.Model"},
+      "CollidersSpec": {
+        "BoxColliders": [{"Center": {"X": 0.5, "Y": 0.446, "Z": 0.5}, "Size": {"X": 0.7, "Y": 0.87, "Z": 0.7}}],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase1x1#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.IronTeeth.ConstructionStage0.Model"}
+        }
+      }
+    }
+  }
+}

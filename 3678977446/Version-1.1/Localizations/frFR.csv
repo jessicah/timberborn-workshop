@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,Mesure la contamination de l'eau,
+Building.OneBlockContaminationSensor.DisplayName,Capteur de contamination mono-bloc,
+Building.OneBlockDepthSensor.Description,Mesure la profondeur de l'eau en dessous/au-dessus. Sympa.,
+Building.OneBlockDepthSensor.DisplayName,Capteur de profondeur mono-bloc,

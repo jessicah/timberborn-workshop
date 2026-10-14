@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,Вимірює забруднення води,
+Building.OneBlockContaminationSensor.DisplayName,Одноблочний датчик забруднення,
+Building.OneBlockDepthSensor.Description,Вимірює глибину води знизу/зверху. Чудово.,
+Building.OneBlockDepthSensor.DisplayName,Одноблочний датчик глибини,

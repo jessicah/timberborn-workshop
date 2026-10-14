@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,测量水污染,
+Building.OneBlockContaminationSensor.DisplayName,单块污染传感器,
+Building.OneBlockDepthSensor.Description,测量下方/上方的水深。不错。,
+Building.OneBlockDepthSensor.DisplayName,单块深度传感器,

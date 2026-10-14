@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,수질 오염을 측정합니다,
+Building.OneBlockContaminationSensor.DisplayName,한 블록 오염 센서,
+Building.OneBlockDepthSensor.Description,아래/위의 수심을 측정합니다. 좋네요.,
+Building.OneBlockDepthSensor.DisplayName,한 블록 수심 센서,

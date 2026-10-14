@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,水の汚染を測定します,
+Building.OneBlockContaminationSensor.DisplayName,1ブロック汚染センサー,
+Building.OneBlockDepthSensor.Description,下/上の水深を測定します。素敵。,
+Building.OneBlockDepthSensor.DisplayName,1ブロック深度センサー,

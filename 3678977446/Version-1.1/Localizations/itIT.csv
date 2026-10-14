@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockContaminationSensor.Description,Misura la contaminazione dell'acqua,
+Building.OneBlockContaminationSensor.DisplayName,Sensore di contaminazione a un blocco,
+Building.OneBlockDepthSensor.Description,Misura la profondità dell'acqua sotto/sopra. Carino.,
+Building.OneBlockDepthSensor.DisplayName,Sensore di profondità a un blocco,
