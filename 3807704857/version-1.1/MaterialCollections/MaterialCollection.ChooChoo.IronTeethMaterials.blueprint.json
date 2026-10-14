@@ -1,0 +1,10 @@
+{
+  "MaterialCollectionSpec": {
+    "CollectionId": "ChooChoo.IronTeethMaterials",
+    "Materials": [
+      "Materials/UberAtlas/Materials/IronTeeth/BaseMetal.IronTeeth",
+      "Materials/UberAtlas/Materials/IronTeeth/BaseWood_Grey.IronTeeth",
+      "Materials/UberAtlas/Materials/IronTeeth/WindowsAtlas.IronTeeth"
+    ]
+  }
+}

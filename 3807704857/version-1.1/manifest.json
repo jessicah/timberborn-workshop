@@ -1,0 +1,18 @@
+{
+  "Name": "Choo!Choo! - Beta",
+  "Version": "1.4.0-beta.1",
+  "Id": "Aoernis.ChooChoo",
+  "Author": "Aoernis",
+  "MinimumGameVersion": "1.1.0.0",
+  "Description": "BETA channel of Choo!Choo! - Full Steam Ahead, for invited testers only. Do NOT keep the public Choo!Choo! item enabled at the same time: both declare the same mod id and would clash - disable one in the mod manager before playing. Saves are interchangeable with the public build; a save made here may lose beta-only content if loaded back on the public build. Compatible with Timberborn 1.0 and 1.1 (the correct build is selected automatically). Original mod by Tobbert (TobbyTheBobby), assets by Anythin. Port by Aoernis.",
+  "RequiredMods": [
+    {
+      "Id": "Harmony",
+      "MinimumVersion": "2.4.1"
+    },
+    {
+      "Id": "TimberUi",
+      "MinimumVersion": "11.0.1"
+    }
+  ]
+}

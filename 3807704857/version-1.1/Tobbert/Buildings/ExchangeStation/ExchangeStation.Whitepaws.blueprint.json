@@ -1,0 +1,1011 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Log",
+        "Amount": 30
+      },
+      {
+        "Id": "Plank",
+        "Amount": 30
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 15
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ExchangeStation",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 5,
+      "Y": 3,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": {
+        "X": 2,
+        "Y": -1,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": [
+          {
+            "Start": {
+              "X": 2,
+              "Y": -1,
+              "Z": 0
+            },
+            "End": {
+              "X": 2,
+              "Y": 0,
+              "Z": 0
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 0,
+              "Z": 0
+            },
+            "End": {
+              "X": 2,
+              "Y": 1,
+              "Z": 0
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 1,
+              "Z": 0
+            },
+            "End": {
+              "X": 2,
+              "Y": 2,
+              "Z": 0
+            },
+            "IsTwoWay": true
+          },
+          {
+            "Start": {
+              "X": 2,
+              "Y": 2,
+              "Z": 0
+            },
+            "End": {
+              "X": 2,
+              "Y": 3,
+              "Z": 0
+            },
+            "IsTwoWay": true
+          }
+        ]
+      }
+    ],
+    "UnblockedCoordinates": []
+  },
+  "SecondaryEntranceSpec": {
+    "Coordinates": {
+      "X": 2,
+      "Y": 3,
+      "Z": 0
+    }
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": {
+      "X": 2.5,
+      "Y": 0.0,
+      "Z": 0.5
+    },
+    "ForceOneFinalAccess": false
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 310,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.ExchangeStation.DisplayName",
+    "DescriptionLocKey": "Tobbert.ExchangeStation.Description",
+    "FlavorDescriptionLocKey": "Tobbert.ExchangeStation.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/ExchangeStation"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": [
+      0.05,
+      0.35,
+      0.65
+    ]
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 10,
+    "DefaultWorkers": 4,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": false,
+    "WorkerTypeUnlockCosts": [
+      {
+        "WorkerType": "Bot",
+        "ScienceCost": 250
+      }
+    ]
+  },
+  "WorkplaceBonusesSpec": {
+    "WorkerBonuses": [
+      {
+        "Id": "CarryingCapacity",
+        "MultiplierDelta": 1.0
+      }
+    ]
+  },
+  "ExchangeStationSpec": {
+    "CapacityPerGood": 30
+  },
+  "WaitingPassengersSpec": {
+    "SlotKeyword": "Bench",
+    "SittingAnimation": "Sitting",
+    "StandingAnimation": "ForcedIdle",
+    "StandingZones": [
+      {
+        "Center": {
+          "X": 1.8638,
+          "Y": 2.1911,
+          "Z": 0.1514
+        },
+        "Size": {
+          "X": 1.0,
+          "Y": 0.2203,
+          "Z": 0.0
+        },
+        "Facing": "Down"
+      },
+      {
+        "Center": {
+          "X": 3.216,
+          "Y": 0.8218,
+          "Z": 0.1514
+        },
+        "Size": {
+          "X": 1.0,
+          "Y": 0.2204,
+          "Z": 0.0
+        },
+        "Facing": "Up"
+      }
+    ]
+  },
+  "TrackPieceSpec": {
+    "Id": "ExchangeStation",
+    "CostMultiplier": 2.0,
+    "TrackRoutes": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 4,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Left"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        },
+        "RouteCorners": [
+          {
+            "X": 1.7,
+            "Y": 0,
+            "Z": 0
+          },
+          {
+            "X": -2.4,
+            "Y": 0,
+            "Z": 0
+          }
+        ]
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 4,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Left"
+        },
+        "RouteCorners": [
+          {
+            "X": -1.7,
+            "Y": 0,
+            "Z": 0
+          },
+          {
+            "X": 2.4,
+            "Y": 0,
+            "Z": 0
+          }
+        ]
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.865,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 1.73,
+              "Z": 1
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.865,
+              "Z": 2.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 1.73,
+              "Z": 1
+            }
+          },
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 1.61,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 0.24,
+              "Z": 1
+            }
+          },
+          {
+            "Center": {
+              "X": 4.5,
+              "Y": 1.61,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 0.24,
+              "Z": 1
+            }
+          },
+          {
+            "Center": {
+              "X": 2.5,
+              "Y": 0.02,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 5,
+              "Y": 0.02,
+              "Z": 3
+            }
+          },
+          {
+            "Center": {
+              "X": 4.5,
+              "Y": 0.865,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 1.73,
+              "Z": 1
+            }
+          },
+          {
+            "Center": {
+              "X": 4.5,
+              "Y": 0.865,
+              "Z": 2.5
+            },
+            "Size": {
+              "X": 1,
+              "Y": 1.73,
+              "Z": 1
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/ExchangeStation/ExchangeStation.Whitepaws"
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "Base": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/ExchangeStation/ExchangeStation.Stage1.Default"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/ExchangeStation/ExchangeStation.Stage2.Whitepaws"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 3.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              },
+              {
+                "Center": {
+                  "X": 4.5,
+                  "Y": 0.0,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 0.98,
+                  "Y": 0.1,
+                  "Z": 0.98
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ConstructionStage1": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/ExchangeStation/ExchangeStation.Stage3.Whitepaws"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.05,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 0.1,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.865,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 1.73,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.865,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 1.73,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 1.315,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 3.2,
+                  "Y": 0.83,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ConstructionStage2": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/ExchangeStation/ExchangeStation.Stage4.Whitepaws"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.05,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 0.1,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.865,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 1.73,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 0.865,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 5.0,
+                  "Y": 1.73,
+                  "Z": 1.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 2.5,
+                  "Y": 1.315,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 3.2,
+                  "Y": 0.83,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    }
+  }
+}
