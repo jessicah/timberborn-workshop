@@ -159,8 +159,7 @@
   },
   "TrackPieceSpec": {
     "Id": "WaitingStation",
-    "TrackDistance": 4,
-    "DividesSection": true,
+    "CostMultiplier": 2.0,
     "TrackRoutes": [
       {
         "Entrance": {

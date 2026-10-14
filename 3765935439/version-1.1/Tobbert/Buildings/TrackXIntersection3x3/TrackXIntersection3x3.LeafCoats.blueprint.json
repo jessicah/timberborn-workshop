@@ -155,12 +155,13 @@
     "Icon": "Tobbert/Icons/Tracks/TrackIntersectionXIcon"
   },
   "ConstructionSiteProgressVisualizerSpec": {
-    "ProgressThresholds": []
+    "ProgressThresholds": [
+      0.05
+    ]
   },
   "TrackPieceSpec": {
     "Id": "TrackXIntersection3x3",
-    "TrackDistance": 2,
-    "DividesSection": false,
+    "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
         "Entrance": {
@@ -342,6 +343,51 @@
           },
           {
             "X": 1.5,
+            "Y": 0,
+            "Z": 0
+          }
+        ]
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        },
+        "RouteCorners": [
+          {
+            "X": 0,
+            "Y": 0,
+            "Z": 1.5
+          },
+          {
+            "X": -0.1,
+            "Y": 0,
+            "Z": 0.85
+          },
+          {
+            "X": -0.4,
+            "Y": 0,
+            "Z": 0.4
+          },
+          {
+            "X": -0.85,
+            "Y": 0,
+            "Z": 0.1
+          },
+          {
+            "X": -1.5,
             "Y": 0,
             "Z": 0
           }
@@ -619,6 +665,41 @@
       "Children": {
         "ConstructionBaseXIntersection3x3#nested": {
           "BlueprintPath": "Tobbert/ConstructionBases/ConstructionBaseXIntersection3x3/ConstructionBaseXIntersection3x3.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrackXIntersection3x3/TrackXIntersection3x3.Stage1.LeafCoats"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 3.0,
+                  "Y": 0.15,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
         }
       }
     }

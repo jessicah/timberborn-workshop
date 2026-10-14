@@ -97,12 +97,13 @@
     "Icon": "Tobbert/Icons/Tracks/TrackCrossingIcon"
   },
   "ConstructionSiteProgressVisualizerSpec": {
-    "ProgressThresholds": []
+    "ProgressThresholds": [
+      0.05
+    ]
   },
   "TrackPieceSpec": {
     "Id": "TrackCrossing",
-    "TrackDistance": 1,
-    "DividesSection": false,
+    "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
         "Entrance": {
@@ -184,6 +185,29 @@
       "Children": {
         "ConstructionBase#nested": {
           "BlueprintPath": "ConstructionBases/ConstructionBase1x1Top/ConstructionBase1x1Top.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrackCrossing/TrackCrossing.Stage1.Default"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.075,
+                  "Z": 0.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
         }
       }
     }

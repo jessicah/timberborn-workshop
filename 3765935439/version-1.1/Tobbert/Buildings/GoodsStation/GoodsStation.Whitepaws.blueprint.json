@@ -7,15 +7,15 @@
     "BuildingCost": [
       {
         "Id": "Log",
-        "Amount": 25
+        "Amount": 20
       },
       {
         "Id": "Plank",
-        "Amount": 50
+        "Amount": 20
       },
       {
         "Id": "ScrapMetal",
-        "Amount": 15
+        "Amount": 10
       }
     ],
     "ScienceCost": 0,
@@ -136,7 +136,7 @@
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "TobbertTrains",
-    "ToolOrder": 310,
+    "ToolOrder": 312,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {
@@ -165,8 +165,7 @@
   "GoodsStationSpec": {},
   "TrackPieceSpec": {
     "Id": "GoodsStation",
-    "TrackDistance": 4,
-    "DividesSection": false,
+    "CostMultiplier": 2.0,
     "TrackRoutes": [
       {
         "Entrance": {

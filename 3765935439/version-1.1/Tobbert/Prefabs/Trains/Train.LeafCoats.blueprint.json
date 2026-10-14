@@ -81,6 +81,11 @@
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.LeafCoats"
           }
         },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.LeafCoats"
+          }
+        },
         "Wheels": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.LeafCoats"
@@ -110,6 +115,11 @@
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.LeafCoats"
           }
         },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.LeafCoats"
+          }
+        },
         "Wheels": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.LeafCoats"
@@ -137,6 +147,11 @@
         "FlipperWagon": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.LeafCoats"
+          }
+        },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.LeafCoats"
           }
         },
         "Wheels": {

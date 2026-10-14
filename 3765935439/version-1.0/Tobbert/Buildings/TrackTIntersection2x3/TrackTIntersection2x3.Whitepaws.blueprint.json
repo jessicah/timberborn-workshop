@@ -134,12 +134,13 @@
     "Icon": "Tobbert/Icons/Tracks/TrackIntersectionTIcon-v6"
   },
   "ConstructionSiteProgressVisualizerSpec": {
-    "ProgressThresholds": []
+    "ProgressThresholds": [
+      0.05
+    ]
   },
   "TrackPieceSpec": {
     "Id": "TrackTIntersection2x3",
-    "TrackDistance": 2,
-    "DividesSection": false,
+    "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
         "Entrance": {
@@ -413,6 +414,41 @@
       "Children": {
         "ConstructionBaseTIntersection2x3#nested": {
           "BlueprintPath": "Tobbert/ConstructionBases/ConstructionBaseTIntersection2x3/ConstructionBaseTIntersection2x3.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrackTIntersection2x3/TrackTIntersection2x3.Stage1.Whitepaws"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
         }
       }
     }

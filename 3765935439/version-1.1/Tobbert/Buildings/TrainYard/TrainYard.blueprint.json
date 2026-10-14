@@ -147,7 +147,7 @@
     "MaxWorkers": 1,
     "DefaultWorkers": 1,
     "DefaultWorkerType": "Beaver",
-    "DisallowOtherWorkerTypes": false,
+    "DisallowOtherWorkerTypes": true,
     "WorkerTypeUnlockCosts": []
   },
   "WorkshopSpec": {},
@@ -161,8 +161,7 @@
   },
   "TrackPieceSpec": {
     "Id": "TrainYard",
-    "TrackDistance": 3,
-    "DividesSection": false,
+    "CostMultiplier": 2.0,
     "TrackRoutes": [
       {
         "Entrance": {

@@ -17,6 +17,7 @@
       "Tobbert/Buildings/GoodsStation/GoodsStation.blueprint",
       "Tobbert/Buildings/TrainYard/TrainYard.blueprint",
       "Tobbert/Buildings/WaitingStation/WaitingStation.blueprint",
+      "Tobbert/Buildings/ExchangeStation/ExchangeStation.blueprint",
       "Tobbert/Prefabs/Trains/Train.blueprint",
       "Tobbert/Buildings/GoodsStationSiloSmall/GoodsStationSiloSmall.blueprint",
       "Tobbert/Buildings/GoodsStationSiloMedium/GoodsStationSiloMedium.blueprint",

@@ -1,0 +1,15 @@
+{
+  "KeyBindingSpec": {
+    "Id": "Tobbert.ChooChoo.KeyBinding.TrainListTab",
+    "GroupId": "ChooChoo",
+    "LocKey": "Tobbert.ChooChoo.KeyBinding.TrainListTab",
+    "Order": 20,
+    "AllowOtherModifiers": true,
+    "DevModeOnly": false
+  },
+  "PrimaryInputBindingSpec": {
+    "Path": "/Keyboard/r",
+    "InputModifiers": "Ctrl",
+    "Unchangeable": false
+  }
+}

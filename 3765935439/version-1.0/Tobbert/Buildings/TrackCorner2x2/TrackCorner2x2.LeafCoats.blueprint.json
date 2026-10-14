@@ -120,12 +120,13 @@
     "Icon": "Tobbert/Icons/Tracks/TrackCorner2x2Icon"
   },
   "ConstructionSiteProgressVisualizerSpec": {
-    "ProgressThresholds": []
+    "ProgressThresholds": [
+      0.05
+    ]
   },
   "TrackPieceSpec": {
     "Id": "TrackCorner2x2",
-    "TrackDistance": 2,
-    "DividesSection": false,
+    "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
         "Entrance": {
@@ -259,6 +260,41 @@
       "Children": {
         "ConstructionBaseCorner2x2#nested": {
           "BlueprintPath": "Tobbert/ConstructionBases/ConstructionBaseCorner2x2/ConstructionBaseCorner2x2.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrackCorner2x2/TrackCorner2x2.Stage1.LeafCoats"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.075,
+                  "Z": 1.0
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 2.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 0.15,
+                  "Z": 1.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
         }
       }
     }

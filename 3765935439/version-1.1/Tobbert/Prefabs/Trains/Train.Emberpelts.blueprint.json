@@ -81,6 +81,11 @@
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Emberpelts"
           }
         },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.Emberpelts"
+          }
+        },
         "Wheels": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.Emberpelts"
@@ -110,6 +115,11 @@
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Emberpelts"
           }
         },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.Emberpelts"
+          }
+        },
         "Wheels": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/WagonWheels/WagonWheels.Emberpelts"
@@ -137,6 +147,11 @@
         "FlipperWagon": {
           "TimbermeshSpec": {
             "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon.Emberpelts"
+          }
+        },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon.Emberpelts"
           }
         },
         "Wheels": {

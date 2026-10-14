@@ -40,6 +40,7 @@
         "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
         "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
         "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
+        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
         "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
       }
     },
@@ -49,6 +50,7 @@
         "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
         "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
         "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
+        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
         "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
       }
     },
@@ -58,6 +60,7 @@
         "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
         "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
         "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
+        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
         "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
       }
     }
