@@ -341,7 +341,7 @@
         "Z": 0
       }
     },
-    "BaseZ": 1,
+    "BaseZ": 0,
     "Overridable": false,
     "Flippable": false
   },
@@ -519,7 +519,7 @@
           "TransformSpec": {
             "Position": {
               "X": 0.0,
-              "Y": -1.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "Rotation": {
@@ -628,7 +628,7 @@
           "TransformSpec": {
             "Position": {
               "X": 0.0,
-              "Y": -1.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "Rotation": {
