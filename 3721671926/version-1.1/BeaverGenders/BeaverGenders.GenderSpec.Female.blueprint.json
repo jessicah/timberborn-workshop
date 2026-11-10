@@ -6,6 +6,12 @@
     "CanBeImpregnated": true,
     "Icon": "Sprites/GenderFemaleIcon",
     "DisplayNameLocKey": "Gender.Female",
-    "PopulationGroupDisplayNameLocKey": "Gender.Population.Female"
+    "PopulationGroupDisplayNameLocKey": "Gender.Population.Female",
+    "Color": {
+      "r": 0.8,
+      "g": 0.32,
+      "b": 0.32,
+      "a": 1.0
+    }
   }
 }

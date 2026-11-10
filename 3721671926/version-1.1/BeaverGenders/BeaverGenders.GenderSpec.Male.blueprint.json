@@ -6,6 +6,12 @@
     "CanBeImpregnated": false,
     "Icon": "Sprites/GenderMaleIcon",
     "DisplayNameLocKey": "Gender.Male",
-    "PopulationGroupDisplayNameLocKey": "Gender.Population.Male"
+    "PopulationGroupDisplayNameLocKey": "Gender.Population.Male",
+    "Color": {
+      "r": 0.360784352,
+      "g": 0.4509804,
+      "b": 0.9019608,
+      "a": 1.0
+    }
   }
 }
