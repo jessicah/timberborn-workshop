@@ -15,6 +15,12 @@
       "BeaverAdult3.LeafCoats",
       "BeaverAdult4.LeafCoats",
       "BeaverAdult5.LeafCoats"
-    ]
+    ],
+    "Color": {
+      "r": 0.545098066,
+      "g": 0.7529412,
+      "b": 0.2509804,
+      "a": 1.0
+    }
   }
 }

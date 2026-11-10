@@ -13,6 +13,12 @@
       "BeaverChild1.Folktails",
       "BeaverChild2.Folktails",
       "BeaverChild3.Folktails"
-    ]
+    ],
+    "Color": {
+      "r": 0.996078432,
+      "g": 0.9607843,
+      "b": 0.533333361,
+      "a": 1.0
+    }
   }
 }

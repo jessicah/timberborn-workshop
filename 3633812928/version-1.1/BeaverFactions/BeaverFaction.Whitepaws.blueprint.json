@@ -13,6 +13,12 @@
       "BeaverChild.Waterbeaver_1",
       "BeaverChild.Waterbeaver_2",
       "BeaverChild.Waterbeaver_3"
-    ]
+    ],
+    "Color": {
+      "r": 0.945098042,
+      "g": 0.623529434,
+      "b": 0.745098054,
+      "a": 1.0
+    }
   }
 }

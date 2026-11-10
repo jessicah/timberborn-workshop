@@ -13,6 +13,12 @@
       "BeaverChild1.IronTeeth",
       "BeaverChild2.IronTeeth",
       "BeaverChild3.IronTeeth"
-    ]
+    ],
+    "Color": {
+      "r": 0.5377039,
+      "g": 0.359215677,
+      "b": 0.8980392,
+      "a": 1.0
+    }
   }
 }
