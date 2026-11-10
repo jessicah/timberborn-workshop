@@ -7,11 +7,11 @@
     "BuildingCost": [
       {
         "Id": "Plank",
-        "Amount": 10
+        "Amount": 11
       },
       {
         "Id": "ScrapMetal",
-        "Amount": 5
+        "Amount": 6
       }
     ],
     "ScienceCost": 0,
@@ -49,7 +49,7 @@
       },
       {
         "MatterBelow": "GroundOrStackable",
-        "Occupations": "Bottom, Path, Corners",
+        "Occupations": "Bottom, Path",
         "Stackable": "None",
         "OccupyAllBelow": false,
         "Underground": false
@@ -77,7 +77,7 @@
       },
       {
         "MatterBelow": "GroundOrStackable",
-        "Occupations": "Bottom, Path, Corners",
+        "Occupations": "Bottom, Corners, Path",
         "Stackable": "None",
         "OccupyAllBelow": false,
         "Underground": false
@@ -138,14 +138,77 @@
       0.05
     ]
   },
+  "TrackDecompositionSpec": {
+    "Parts": [
+      {
+        "TemplateName": "TrackSCurve2x3",
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      },
+      {
+        "TemplateName": "TrackOneWay",
+        "Coordinates": {
+          "X": 1,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      },
+      {
+        "TemplateName": "TrackOneWay",
+        "Coordinates": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      },
+      {
+        "TemplateName": "TrackOneWay",
+        "Coordinates": {
+          "X": 1,
+          "Y": 2,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      }
+    ]
+  },
   "TrackPieceSpec": {
     "Id": "TrackRIntersection2x3",
+    "Superposable": true,
     "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
         "Entrance": {
           "Coordinates": {
-            "X": 0,
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
             "Y": 0,
             "Z": 0
           },
@@ -158,39 +221,7 @@
             "Z": 0
           },
           "Direction": "Down"
-        },
-        "RouteCorners": [
-          {
-            "X": -0.5,
-            "Y": 0,
-            "Z": -1.5
-          },
-          {
-            "X": -0.4,
-            "Y": 0,
-            "Z": -0.8
-          },
-          {
-            "X": 0.1,
-            "Y": 0,
-            "Z": 0
-          },
-          {
-            "X": 0.3,
-            "Y": 0,
-            "Z": 0.2
-          },
-          {
-            "X": 0.4,
-            "Y": 0,
-            "Z": 0.5
-          },
-          {
-            "X": 0.5,
-            "Y": 0,
-            "Z": 0.8
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -208,36 +239,54 @@
             "Z": 0
           },
           "Direction": "Up"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.5,
-            "Y": 0,
-            "Z": 0.8
-          },
-          {
-            "X": 0.4,
-            "Y": 0,
-            "Z": 0.5
-          },
-          {
-            "X": 0.3,
-            "Y": 0,
-            "Z": 0.2
-          },
-          {
-            "X": 0.1,
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
             "Y": 0,
             "Z": 0
           },
-          {
-            "X": -0.4,
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        }
+      }
+    ],
+    "ArcCurves": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
             "Y": 0,
-            "Z": -0.8
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Points": [
+          {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 1.5
           },
           {
-            "X": -0.5,
-            "Y": 0,
+            "X": 0.5,
+            "Y": 0.0,
             "Z": -1.5
           }
         ]
@@ -246,31 +295,6 @@
         "Entrance": {
           "Coordinates": {
             "X": 1,
-            "Y": 0,
-            "Z": 0
-          },
-          "Direction": "Up"
-        },
-        "Exit": {
-          "Coordinates": {
-            "X": 1,
-            "Y": 2,
-            "Z": 0
-          },
-          "Direction": "Down"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.5,
-            "Y": 0,
-            "Z": 0
-          }
-        ]
-      },
-      {
-        "Entrance": {
-          "Coordinates": {
-            "X": 1,
             "Y": 2,
             "Z": 0
           },
@@ -278,17 +302,202 @@
         },
         "Exit": {
           "Coordinates": {
-            "X": 1,
+            "X": 0,
             "Y": 0,
             "Z": 0
           },
           "Direction": "Up"
         },
-        "RouteCorners": [
+        "Points": [
           {
             "X": 0.5,
-            "Y": 0,
-            "Z": 0
+            "Y": 0.0,
+            "Z": 1.5
+          },
+          {
+            "X": 0.5,
+            "Y": 0.0,
+            "Z": 1.10075
+          },
+          {
+            "X": 0.4976,
+            "Y": 0.0,
+            "Z": 1.03219
+          },
+          {
+            "X": 0.49058,
+            "Y": 0.0,
+            "Z": 0.96462
+          },
+          {
+            "X": 0.47922,
+            "Y": 0.0,
+            "Z": 0.898
+          },
+          {
+            "X": 0.4638,
+            "Y": 0.0,
+            "Z": 0.83225
+          },
+          {
+            "X": 0.44461,
+            "Y": 0.0,
+            "Z": 0.76732
+          },
+          {
+            "X": 0.42191,
+            "Y": 0.0,
+            "Z": 0.70315
+          },
+          {
+            "X": 0.396,
+            "Y": 0.0,
+            "Z": 0.63967
+          },
+          {
+            "X": 0.36715,
+            "Y": 0.0,
+            "Z": 0.57683
+          },
+          {
+            "X": 0.33564,
+            "Y": 0.0,
+            "Z": 0.51457
+          },
+          {
+            "X": 0.30175,
+            "Y": 0.0,
+            "Z": 0.45282
+          },
+          {
+            "X": 0.26576,
+            "Y": 0.0,
+            "Z": 0.39152
+          },
+          {
+            "X": 0.22795,
+            "Y": 0.0,
+            "Z": 0.33062
+          },
+          {
+            "X": 0.18861,
+            "Y": 0.0,
+            "Z": 0.27005
+          },
+          {
+            "X": 0.148,
+            "Y": 0.0,
+            "Z": 0.20976
+          },
+          {
+            "X": 0.10641,
+            "Y": 0.0,
+            "Z": 0.14968
+          },
+          {
+            "X": 0.06413,
+            "Y": 0.0,
+            "Z": 0.08975
+          },
+          {
+            "X": 0.02142,
+            "Y": 0.0,
+            "Z": 0.02991
+          },
+          {
+            "X": -0.02142,
+            "Y": 0.0,
+            "Z": -0.02991
+          },
+          {
+            "X": -0.06413,
+            "Y": 0.0,
+            "Z": -0.08975
+          },
+          {
+            "X": -0.10641,
+            "Y": 0.0,
+            "Z": -0.14968
+          },
+          {
+            "X": -0.148,
+            "Y": 0.0,
+            "Z": -0.20976
+          },
+          {
+            "X": -0.18861,
+            "Y": 0.0,
+            "Z": -0.27005
+          },
+          {
+            "X": -0.22795,
+            "Y": 0.0,
+            "Z": -0.33062
+          },
+          {
+            "X": -0.26576,
+            "Y": 0.0,
+            "Z": -0.39152
+          },
+          {
+            "X": -0.30175,
+            "Y": 0.0,
+            "Z": -0.45282
+          },
+          {
+            "X": -0.33564,
+            "Y": 0.0,
+            "Z": -0.51457
+          },
+          {
+            "X": -0.36715,
+            "Y": 0.0,
+            "Z": -0.57683
+          },
+          {
+            "X": -0.396,
+            "Y": 0.0,
+            "Z": -0.63967
+          },
+          {
+            "X": -0.42191,
+            "Y": 0.0,
+            "Z": -0.70315
+          },
+          {
+            "X": -0.44461,
+            "Y": 0.0,
+            "Z": -0.76732
+          },
+          {
+            "X": -0.4638,
+            "Y": 0.0,
+            "Z": -0.83225
+          },
+          {
+            "X": -0.47922,
+            "Y": 0.0,
+            "Z": -0.898
+          },
+          {
+            "X": -0.49058,
+            "Y": 0.0,
+            "Z": -0.96462
+          },
+          {
+            "X": -0.4976,
+            "Y": 0.0,
+            "Z": -1.03219
+          },
+          {
+            "X": -0.5,
+            "Y": 0.0,
+            "Z": -1.10075
+          },
+          {
+            "X": -0.5,
+            "Y": 0.0,
+            "Z": -1.5
           }
         ]
       }
@@ -303,31 +512,217 @@
         "BoxColliders": [
           {
             "Center": {
-              "X": 1.0,
-              "Y": 0.075,
-              "Z": 1.0
+              "X": 1.4992,
+              "Y": 0.0267,
+              "Z": 1.5
             },
             "Size": {
-              "X": 2.0,
-              "Y": 0.15,
-              "Z": 2.0
+              "X": 0.602,
+              "Y": 0.0633,
+              "Z": 3.0
             }
           },
           {
             "Center": {
               "X": 1.5,
-              "Y": 0.075,
-              "Z": 2.5
+              "Y": 0.0292,
+              "Z": 2.7912
             },
             "Size": {
-              "X": 1.0,
-              "Y": 0.15,
-              "Z": 1.0
+              "X": 0.5179,
+              "Y": 0.0584,
+              "Z": 0.4176
+            }
+          },
+          {
+            "Center": {
+              "X": 1.63,
+              "Y": 0.0292,
+              "Z": 2.7912
+            },
+            "Size": {
+              "X": 0.261,
+              "Y": 0.0584,
+              "Z": 0.4176
+            }
+          },
+          {
+            "Center": {
+              "X": 0.3484,
+              "Y": 0.0262,
+              "Z": 0.2233
+            },
+            "Size": {
+              "X": 0.3047,
+              "Y": 0.0643,
+              "Z": 0.4467
+            }
+          },
+          {
+            "Center": {
+              "X": 0.4992,
+              "Y": 0.0262,
+              "Z": 0.2088
+            },
+            "Size": {
+              "X": 0.602,
+              "Y": 0.0643,
+              "Z": 0.4176
             }
           }
         ],
         "SphereColliders": [],
         "CapsuleColliders": []
+      },
+      "Children": {
+        "ClickBande3": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.4608,
+              "Y": 0.0262,
+              "Z": 2.3222
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": -167.725,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.6054,
+                  "Y": 0.0643,
+                  "Z": 0.6385
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickBande4": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.237,
+              "Y": 0.0262,
+              "Z": 1.8644
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": -149.385,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.6221,
+                  "Y": 0.0643,
+                  "Z": 1.1805
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickBande5": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.7617,
+              "Y": 0.0262,
+              "Z": 1.1364
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": -149.385,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.6221,
+                  "Y": 0.0643,
+                  "Z": 1.1805
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickBande6": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5487,
+              "Y": 0.0262,
+              "Z": 0.6757
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": -167.725,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Size": {
+                  "X": 0.6277,
+                  "Y": 0.0643,
+                  "Z": 0.6385
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
       }
     },
     "#Unfinished": {
@@ -343,31 +738,217 @@
             "BoxColliders": [
               {
                 "Center": {
-                  "X": 1.0,
-                  "Y": 0.075,
-                  "Z": 1.0
+                  "X": 1.4992,
+                  "Y": 0.0267,
+                  "Z": 1.5
                 },
                 "Size": {
-                  "X": 2.0,
-                  "Y": 0.15,
-                  "Z": 2.0
+                  "X": 0.602,
+                  "Y": 0.0633,
+                  "Z": 3.0
                 }
               },
               {
                 "Center": {
                   "X": 1.5,
-                  "Y": 0.075,
-                  "Z": 2.5
+                  "Y": 0.0292,
+                  "Z": 2.7912
                 },
                 "Size": {
-                  "X": 1.0,
-                  "Y": 0.15,
-                  "Z": 1.0
+                  "X": 0.5179,
+                  "Y": 0.0584,
+                  "Z": 0.4176
+                }
+              },
+              {
+                "Center": {
+                  "X": 1.63,
+                  "Y": 0.0292,
+                  "Z": 2.7912
+                },
+                "Size": {
+                  "X": 0.261,
+                  "Y": 0.0584,
+                  "Z": 0.4176
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.3484,
+                  "Y": 0.0262,
+                  "Z": 0.2233
+                },
+                "Size": {
+                  "X": 0.3047,
+                  "Y": 0.0643,
+                  "Z": 0.4467
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.4992,
+                  "Y": 0.0262,
+                  "Z": 0.2088
+                },
+                "Size": {
+                  "X": 0.602,
+                  "Y": 0.0643,
+                  "Z": 0.4176
                 }
               }
             ],
             "SphereColliders": [],
             "CapsuleColliders": []
+          },
+          "Children": {
+            "ClickBande3": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.4608,
+                  "Y": 0.0262,
+                  "Z": 2.3222
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -167.725,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.6054,
+                      "Y": 0.0643,
+                      "Z": 0.6385
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickBande4": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.237,
+                  "Y": 0.0262,
+                  "Z": 1.8644
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -149.385,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.6221,
+                      "Y": 0.0643,
+                      "Z": 1.1805
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickBande5": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.7617,
+                  "Y": 0.0262,
+                  "Z": 1.1364
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -149.385,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.6221,
+                      "Y": 0.0643,
+                      "Z": 1.1805
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickBande6": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.5487,
+                  "Y": 0.0262,
+                  "Z": 0.6757
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -167.725,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.0,
+                      "Z": 0.0
+                    },
+                    "Size": {
+                      "X": 0.6277,
+                      "Y": 0.0643,
+                      "Z": 0.6385
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
           }
         }
       }

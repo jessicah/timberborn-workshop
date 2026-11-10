@@ -1,0 +1,201 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Floodgate",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 5
+      },
+      {
+        "Id": "MetalBlock",
+        "Amount": 5
+      }
+    ],
+    "ScienceCost": 300,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "SwingFloodgate",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Top, Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "Landscaping",
+    "ToolOrder": 33,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "ChooChooSwingFloodgateSpec": {
+    "HingeTile": {
+      "X": 0,
+      "Y": 0
+    },
+    "OpenTile": {
+      "X": 0,
+      "Y": 1
+    },
+    "ClosedTile": {
+      "X": 1,
+      "Y": 0
+    }
+  },
+  "ChooChooSwingLeafAnimatorSpec": {
+    "LeafName": "#Leaf",
+    "OpenAngle": -90.0,
+    "DegreesPerSecond": 90.0
+  },
+  "BoxColliderAdderSpec": {
+    "TargetName": "#Leaf",
+    "Center": {
+      "X": 1.0,
+      "Y": 0.5,
+      "Z": 0.0
+    },
+    "Size": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    }
+  },
+  "ChooChooSwingFloodgateDeckSpec": {
+    "OpenTileDeckModelName": "#Deck.OpenTile",
+    "ClosedTileDeckModelName": "#Deck.ClosedTile",
+    "BothTilesDeckModelName": "#Deck.BothTiles"
+  },
+  "ChooChooSwingFloodgateDirectionMarkerSpec": {},
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.SwingFloodgate.DisplayName",
+    "DescriptionLocKey": "Tobbert.SwingFloodgate.Description",
+    "FlavorDescriptionLocKey": "Tobbert.SwingFloodgate.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/SwingFloodgateIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": []
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Default"
+      },
+      "Children": {
+        "#Deck.OpenTile": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.OpenTile.Default"
+          }
+        },
+        "#Deck.ClosedTile": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.ClosedTile.Default"
+          }
+        },
+        "#Deck.BothTiles": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.BothTiles.Default"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  }
+}

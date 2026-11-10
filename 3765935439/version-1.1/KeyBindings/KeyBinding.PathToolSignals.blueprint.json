@@ -1,0 +1,14 @@
+{
+  "KeyBindingSpec": {
+    "Id": "Tobbert.ChooChoo.KeyBinding.PathToolSignals",
+    "GroupId": "ChooChoo",
+    "LocKey": "Tobbert.ChooChoo.KeyBinding.PathToolSignals",
+    "Order": 30,
+    "AllowOtherModifiers": false,
+    "DevModeOnly": false
+  },
+  "PrimaryInputBindingSpec": {
+    "Path": "/Keyboard/v",
+    "Unchangeable": false
+  }
+}

@@ -1,0 +1,853 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 80
+      },
+      {
+        "Id": "Gear",
+        "Amount": 60
+      },
+      {
+        "Id": "MetalBlock",
+        "Amount": 40
+      }
+    ],
+    "ScienceCost": 1200,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "TrainElevatorWinch",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 5,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "All",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": false
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 146,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.TrainElevatorWinch.DisplayName",
+    "DescriptionLocKey": "Tobbert.TrainElevatorWinch.Description",
+    "FlavorDescriptionLocKey": "Tobbert.TrainElevatorWinch.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/TrainElevatorWinchIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": [
+      0.33,
+      0.66
+    ]
+  },
+  "MechanicalBuildingSpec": {},
+  "MechanicalNodeSpec": {
+    "PowerOutput": 0,
+    "PowerInput": 200,
+    "IsShaft": false
+  },
+  "MechanicalConnectorTargetSpec": {},
+  "ChooChooTrainElevatorSpec": {
+    "PlatformName": "#Platform",
+    "CounterweightName": "#Counterweight",
+    "LevelsPerSecond": 0.5,
+    "RotorNames": [
+      "#Shaft",
+      "#ArmShaft"
+    ],
+    "RotorDegreesPerLevel": -566.0,
+    "CageRopeNames": [
+      "#CageRopeNear",
+      "#CageRopeFar"
+    ],
+    "CageRopeAnchorHeight": 1.298,
+    "CounterweightRopeNames": [
+      "#CounterweightRopeNear",
+      "#CounterweightRopeFar"
+    ],
+    "CounterweightRopeAnchorHeight": 0.99
+  },
+  "TransputProviderSpec": {
+    "Transputs": [
+      {
+        "Coordinates": {
+          "X": 1,
+          "Y": 0,
+          "Z": 0
+        },
+        "Directions": "Down",
+        "ReverseRotation": false
+      },
+      {
+        "Coordinates": {
+          "X": 1,
+          "Y": 2,
+          "Z": 0
+        },
+        "Directions": "Right, Bottom, Top",
+        "ReverseRotation": false
+      },
+      {
+        "Coordinates": {
+          "X": 1,
+          "Y": 4,
+          "Z": 0
+        },
+        "Directions": "Up",
+        "ReverseRotation": false
+      }
+    ],
+    "IgnoreRotation": false
+  },
+  "TrackPieceSpec": {
+    "Id": "TrainElevatorWinch",
+    "CostMultiplier": 2.0,
+    "FixedArcLength": 5.0,
+    "IgnoresFlooding": true,
+    "TrackRoutes": []
+  },
+  "ChooChooTrainElevatorWinchSpec": {},
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.5,
+              "Z": 2.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 5.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "#Platform": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Cage": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Cage.LeafCoats"
+              }
+            }
+          }
+        },
+        "#Counterweight": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Weight0": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.45,
+                  "Y": 0.0,
+                  "Z": 1.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 90.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Weight.LeafCoats"
+              }
+            },
+            "Weight1": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 1.45,
+                  "Y": 0.0,
+                  "Z": 4.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 90.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Weight.LeafCoats"
+              }
+            }
+          }
+        },
+        "Structure": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.LeafCoats"
+          }
+        },
+        "#Shaft": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.5,
+              "Y": 0.5,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Shaft": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Shaft.LeafCoats"
+              }
+            }
+          }
+        },
+        "#ArmShaft": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "ArmShaft": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Hub.LeafCoats"
+              }
+            }
+          }
+        },
+        "#CageRopeNear": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": 0.399,
+              "Z": 1.092
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Rope": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Rope.LeafCoats"
+              }
+            }
+          }
+        },
+        "#CageRopeFar": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.5,
+              "Y": 0.399,
+              "Z": 3.908
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Rope": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Rope.LeafCoats"
+              }
+            }
+          }
+        },
+        "#CounterweightRopeNear": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.45,
+              "Y": 0.378,
+              "Z": 1.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Rope": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Rope.LeafCoats"
+              }
+            }
+          }
+        },
+        "#CounterweightRopeFar": {
+          "TransformSpec": {
+            "Position": {
+              "X": 1.45,
+              "Y": 0.378,
+              "Z": 4.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "Children": {
+            "Rope": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Rope.LeafCoats"
+              }
+            }
+          }
+        },
+        "#Topping": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Topping.LeafCoats"
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionStage0": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.5,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 5.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          },
+          "Children": {
+            "Stage0": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Stage0.LeafCoats"
+              }
+            }
+          }
+        },
+        "ConstructionStage1": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.5,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 5.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          },
+          "Children": {
+            "Stage1": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Stage1.LeafCoats"
+              }
+            }
+          }
+        },
+        "ConstructionStage2": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.5,
+                  "Z": 2.5
+                },
+                "Size": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 5.0
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          },
+          "Children": {
+            "Stage2": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "TimbermeshSpec": {
+                "Model": "Tobbert/Buildings/TrainElevator/TrainElevatorWinch.Stage2.LeafCoats"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

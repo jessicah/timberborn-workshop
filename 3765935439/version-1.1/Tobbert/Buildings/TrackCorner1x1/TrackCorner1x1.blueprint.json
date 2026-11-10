@@ -5,11 +5,11 @@
     "BuildingCost": [
       {
         "Id": "Plank",
-        "Amount": 4
+        "Amount": 2
       },
       {
         "Id": "ScrapMetal",
-        "Amount": 2
+        "Amount": 1
       }
     ],
     "ScienceCost": 0,
@@ -103,6 +103,7 @@
   },
   "TrackPieceSpec": {
     "Id": "TrackCorner1x1",
+    "Superposable": true,
     "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
@@ -121,24 +122,7 @@
             "Z": 0
           },
           "Direction": "Right"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": -0.5
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": -0.1464
-          },
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -156,24 +140,7 @@
             "Z": 0
           },
           "Direction": "Up"
-        },
-        "RouteCorners": [
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": -0.1464
-          },
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": -0.5
-          }
-        ]
+        }
       }
     ]
   },
@@ -186,19 +153,107 @@
         "BoxColliders": [
           {
             "Center": {
-              "X": 0.5,
+              "X": 0.5017,
               "Y": 0.075,
-              "Z": 0.5
+              "Z": 0.1739
             },
             "Size": {
-              "X": 1.0,
+              "X": 0.6426,
               "Y": 0.15,
-              "Z": 1.0
+              "Z": 0.3478
+            }
+          },
+          {
+            "Center": {
+              "X": 0.1739,
+              "Y": 0.075,
+              "Z": 0.5017
+            },
+            "Size": {
+              "X": 0.3478,
+              "Y": 0.15,
+              "Z": 0.6426
             }
           }
         ],
         "SphereColliders": [],
         "CapsuleColliders": []
+      },
+      "Children": {
+        "ClickArc35": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 55.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 0.5095
+                },
+                "Size": {
+                  "X": 0.2858,
+                  "Y": 0.15,
+                  "Z": 0.627
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickArc55": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 35.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 0.5095
+                },
+                "Size": {
+                  "X": 0.2858,
+                  "Y": 0.15,
+                  "Z": 0.627
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
       }
     },
     "#Unfinished": {
@@ -214,19 +269,107 @@
             "BoxColliders": [
               {
                 "Center": {
-                  "X": 0.5,
+                  "X": 0.5017,
                   "Y": 0.075,
-                  "Z": 0.5
+                  "Z": 0.1739
                 },
                 "Size": {
-                  "X": 1.0,
+                  "X": 0.6426,
                   "Y": 0.15,
-                  "Z": 1.0
+                  "Z": 0.3478
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.1739,
+                  "Y": 0.075,
+                  "Z": 0.5017
+                },
+                "Size": {
+                  "X": 0.3478,
+                  "Y": 0.15,
+                  "Z": 0.6426
                 }
               }
             ],
             "SphereColliders": [],
             "CapsuleColliders": []
+          },
+          "Children": {
+            "ClickArc35": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 55.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 0.5095
+                    },
+                    "Size": {
+                      "X": 0.2858,
+                      "Y": 0.15,
+                      "Z": 0.627
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickArc55": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 35.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 0.5095
+                    },
+                    "Size": {
+                      "X": 0.2858,
+                      "Y": 0.15,
+                      "Z": 0.627
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
           }
         }
       }

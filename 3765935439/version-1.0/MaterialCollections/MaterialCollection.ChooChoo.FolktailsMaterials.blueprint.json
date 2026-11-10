@@ -4,7 +4,13 @@
     "Materials": [
       "Materials/UberAtlas/Materials/Folktails/BaseWood_Brown.Folktails",
       "Materials/UberAtlas/Materials/Folktails/BaseWood_White.Folktails",
-      "Materials/UberAtlas/Materials/Folktails/WindowsAtlas.Folktails"
+      "Materials/UberAtlas/Materials/Folktails/WindowsAtlas.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/PaintedMetal.Folktails",
+      "Buildings/Landscaping/Dam/Materials/Dam.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/BaseMetal.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/Details.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/Plaster_White.Folktails",
+      "Materials/UberAtlas/Materials/Folktails/Paper.Folktails"
     ]
   }
 }

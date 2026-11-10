@@ -1,0 +1,14 @@
+{
+  "KeyBindingSpec": {
+    "Id": "Tobbert.ChooChoo.KeyBinding.DriverViewSide",
+    "GroupId": "ChooChoo",
+    "LocKey": "Tobbert.ChooChoo.KeyBinding.DriverViewSide",
+    "Order": 40,
+    "AllowOtherModifiers": false,
+    "DevModeOnly": false
+  },
+  "PrimaryInputBindingSpec": {
+    "Path": "/Keyboard/c",
+    "Unchangeable": false
+  }
+}

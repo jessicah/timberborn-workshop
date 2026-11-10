@@ -7,17 +7,41 @@
   },
   "TrainSpec": {
     "Cost": [
-      { "Id": "Log", "Amount": 20 },
-      { "Id": "Water", "Amount": 40 },
-      { "Id": "Plank", "Amount": 20 },
-      { "Id": "ScrapMetal", "Amount": 10 },
-      { "Id": "Gear", "Amount": 5 }
+      {
+        "Id": "Log",
+        "Amount": 20
+      },
+      {
+        "Id": "Water",
+        "Amount": 40
+      },
+      {
+        "Id": "Plank",
+        "Amount": 20
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 10
+      },
+      {
+        "Id": "Gear",
+        "Amount": 5
+      }
     ]
   },
+  "CargoTrainSpec": {},
   "BoxColliderAdderSpec": {
     "TargetName": "Mesh",
-    "Center": { "X": 0, "Y": 0.4, "Z": 0 },
-    "Size": { "X": 0.6, "Y": 0.75, "Z": 0.9 }
+    "Center": {
+      "X": 0,
+      "Y": 0.4,
+      "Z": 0
+    },
+    "Size": {
+      "X": 0.6,
+      "Y": 0.75,
+      "Z": 0.9
+    }
   },
   "NamedEntitySpec": {
     "IsEditable": true
@@ -36,32 +60,104 @@
     },
     "WagonSlot0": {
       "Children": {
-        "BoxWagon":     { "TimbermeshSpec": { "Model": "Tobbert/Wagons/BoxWagon/BoxWagon" } },
-        "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
-        "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
-        "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
-        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
-        "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon"
+          }
+        },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels"
+          }
+        }
       }
     },
     "WagonSlot1": {
       "Children": {
-        "BoxWagon":     { "TimbermeshSpec": { "Model": "Tobbert/Wagons/BoxWagon/BoxWagon" } },
-        "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
-        "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
-        "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
-        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
-        "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon"
+          }
+        },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels"
+          }
+        }
       }
     },
     "WagonSlot2": {
       "Children": {
-        "BoxWagon":     { "TimbermeshSpec": { "Model": "Tobbert/Wagons/BoxWagon/BoxWagon" } },
-        "TankWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/TankWagon/TankWagon" } },
-        "FlatWagon":    { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlatWagon/FlatWagon" } },
-        "FlipperWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon" } },
-        "PassengerWagon": { "TimbermeshSpec": { "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon" } },
-        "Wheels":       { "TimbermeshSpec": { "Model": "Tobbert/Wagons/WagonWheels/WagonWheels" } }
+        "BoxWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/BoxWagon/BoxWagon"
+          }
+        },
+        "TankWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/TankWagon/TankWagon"
+          }
+        },
+        "FlatWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlatWagon/FlatWagon"
+          }
+        },
+        "FlipperWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/FlipperWagon/FlipperWagon"
+          }
+        },
+        "PassengerWagon": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/PassengerWagon/PassengerWagon"
+          }
+        },
+        "Wheels": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Wagons/WagonWheels/WagonWheels"
+          }
+        }
       }
     }
   }
