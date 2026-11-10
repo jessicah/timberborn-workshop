@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Consenti piccole modifiche al gioco",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Permette a Performance Plus di usare scorciatoie più veloci che possono cambiare piccoli dettagli di ciò che accade. Disattivato: il gioco funziona esattamente come senza la mod.",
+PerformancePlus.Settings.FrameRateGovernor,"Mantieni una frequenza di fotogrammi",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Rallenta il gioco sotto la velocità scelta quando i fotogrammi richiederebbero troppo tempo, così la frequenza di fotogrammi resta all'obiettivo qui sotto. Il gioco si svolge allo stesso modo, solo più lentamente quando è molto impegnato. Mai sotto x1, il VSync resta com'è. Disattivato: si usa sempre la velocità scelta.",""
+PerformancePlus.Settings.TargetFps,"Frequenza di fotogrammi obiettivo (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"La frequenza di fotogrammi mantenuta mentre l'impostazione sopra è attiva, da 10 a 120 fotogrammi al secondo.",""
+PerformancePlus.Settings.DistantAnimations,"Anima meno spesso i modelli lontani",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Castori, bot ed edifici che appaiono piccoli sullo schermo muovono arti e parti ogni secondo o quarto fotogramma invece che a ogni fotogramma, risparmiando tempo negli insediamenti grandi. Cambia solo l'aspetto: mantengono il loro ritmo e fanno le stesse cose. Disattivato: ogni modello visibile viene animato a ogni fotogramma.",
+PerformancePlus.Settings.TickLength,"Durata del tick (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Quanto dura ogni passo della simulazione, in percentuale di quello del gioco (0,6 s). Passi più lunghi sono meno numerosi al giorno, così il gioco regge velocità più alte; giorni, crescita, bisogni e camminata durano come prima. Ritarda leggermente le decisioni dei castori, causando piccole inefficienze. Richiede ""Consenti piccole modifiche al gioco"". Si applica al caricamento di un insediamento. Con ""La durata del tick segue la frequenza di fotogrammi"" attivo, è la durata massima. 100: quello del gioco.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"La durata del tick segue la frequenza di fotogrammi",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"Con ""Mantieni una frequenza di fotogrammi"" attivo, ""Durata del tick (%)"" è la durata massima: un insediamento parte da quella del gioco e a mezzanotte il passo si allunga o si accorcia di una tacca se il giorno prima lo ha richiesto. Richiede ""Consenti piccole modifiche al gioco"". Si applica al caricamento di un insediamento.",
+PerformancePlus.Settings.ShorterShadows,"Distanza delle ombre ridotta",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Disegna le ombre solo fino a 60 m dalla telecamera invece che in tutta la vista, risparmiando tempo a ogni fotogramma negli insediamenti grandi. La parte lontana della vista non ha ombre. Disattivato: ombre fin dove le disegna il gioco.",

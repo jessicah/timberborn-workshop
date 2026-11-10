@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"允許細微的玩法變化",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"允許 Performance Plus 使用更快的捷徑，這可能會改變一些細節。關閉：遊戲與沒有此模組時完全相同。",
+PerformancePlus.Settings.FrameRateGovernor,"維持影格率",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"當影格耗時過長時，讓遊戲低於你選擇的速度執行，使影格率保持在下方的目標。遊戲進程完全相同，只是在繁忙時變慢。不會低於 x1，也不改變垂直同步。關閉：一律使用你選擇的速度。",""
+PerformancePlus.Settings.TargetFps,"目標影格率（FPS）",""
+PerformancePlus.Settings.TargetFps.Tooltip,"上方設定開啟時維持的影格率，每秒 10 到 120 格。",""
+PerformancePlus.Settings.DistantAnimations,"降低遠處模型的動畫頻率",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"在畫面上顯得很小的河狸、機器人和建築每兩幀或每四幀才移動一次肢體和部件，而不是每幀都動，能在大型聚落中節省時間。只有外觀改變：牠們保持原有步調，做同樣的事。關閉：每個可見模型每幀都會播放動畫。",
+PerformancePlus.Settings.TickLength,"刻長度（%）",""
+PerformancePlus.Settings.TickLength.Tooltip,"每個模擬步驟的長度，以遊戲本身長度（0.6 秒）的百分比表示。步驟越長，每天的步驟越少，遊戲在高速下更跟得上；天數、生長、需求和行走所需時間不變。會略微延遲河狸的決策，導致輕微的效率損失。需要開啟「允許細微的玩法變化」。在載入聚落時生效。開啟「刻長度隨影格率調整」時，這是步驟的最大長度。100：遊戲本身的長度。",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"刻長度隨影格率調整",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"同時開啟「維持影格率」時，「刻長度（%）」是步驟的最大長度：聚落從遊戲本身的長度開始，若前一天需要，步驟會在午夜加長或縮短一檔。需要開啟「允許細微的玩法變化」。在載入聚落時生效。",
+PerformancePlus.Settings.ShorterShadows,"縮短陰影距離",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"只在距離鏡頭 60 公尺以內繪製陰影，而不是整個視野，在大型聚落中每幀都能節省時間。視野的遠處沒有陰影。關閉：陰影繪製到遊戲原本的距離。",

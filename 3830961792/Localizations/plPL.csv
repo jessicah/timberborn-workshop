@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Zezwalaj na drobne zmiany w rozgrywce",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Pozwala Performance Plus korzystać z szybszych skrótów, które mogą zmienić drobne szczegóły tego, co się dzieje. Wyłączone: gra przebiega dokładnie tak jak bez moda.",
+PerformancePlus.Settings.FrameRateGovernor,"Utrzymuj liczbę klatek",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Spowalnia grę poniżej wybranej prędkości, gdy klatki trwałyby zbyt długo, aby liczba klatek pozostała na celu poniżej. Gra przebiega tak samo, tylko wolniej, gdy jest bardzo zajęta. Nigdy poniżej x1, synchronizacja pionowa bez zmian. Wyłączone: zawsze używana jest wybrana prędkość.",""
+PerformancePlus.Settings.TargetFps,"Docelowa liczba klatek (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"Liczba klatek utrzymywana, gdy powyższe ustawienie jest włączone: od 10 do 120 klatek na sekundę.",""
+PerformancePlus.Settings.DistantAnimations,"Rzadziej animuj odległe modele",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Bobry, boty i budynki widoczne na ekranie jako małe poruszają kończynami i częściami co drugą lub co czwartą klatkę zamiast w każdej, co oszczędza czas w dużych osadach. Zmienia się tylko wygląd: zachowują swoje tempo i robią to samo. Wyłączone: każdy widoczny model jest animowany w każdej klatce.",
+PerformancePlus.Settings.TickLength,"Długość tiku (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Jak długi jest każdy krok symulacji, w procentach długości z gry (0,6 s). Dłuższe kroki to mniej kroków na dzień, więc gra nadąża przy wyższych prędkościach; dni, wzrost, potrzeby i chodzenie trwają tyle co wcześniej. Nieco opóźnia decyzje bobrów, co prowadzi do drobnych nieefektywności. Wymaga „Zezwalaj na drobne zmiany w rozgrywce”. Działa po wczytaniu osady. Przy włączonym „Długość tiku zależna od liczby klatek” to najdłuższy krok. 100: jak w grze.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"Długość tiku zależna od liczby klatek",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"Przy włączonym „Utrzymuj liczbę klatek” „Długość tiku (%)” to najdłuższy krok: osada zaczyna od długości z gry, a o północy krok wydłuża się lub skraca o jeden stopień, jeśli wymagał tego poprzedni dzień. Wymaga „Zezwalaj na drobne zmiany w rozgrywce”. Działa po wczytaniu osady.",
+PerformancePlus.Settings.ShorterShadows,"Krótszy zasięg cieni",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Rysuje cienie tylko do 60 m od kamery zamiast w całym widoku, co oszczędza czas w każdej klatce w dużych osadach. Daleka część widoku nie ma cieni. Wyłączone: cienie tak daleko, jak rysuje je gra.",

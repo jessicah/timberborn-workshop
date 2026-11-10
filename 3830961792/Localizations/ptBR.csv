@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Permitir pequenas mudanças de jogabilidade",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Permite que o Performance Plus use atalhos mais rápidos que podem mudar pequenos detalhes do que acontece. Desligado: o jogo funciona exatamente como sem o mod.",
+PerformancePlus.Settings.FrameRateGovernor,"Manter uma taxa de quadros",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Deixa o jogo mais lento que a velocidade escolhida quando os quadros demorariam demais, para que a taxa de quadros fique no alvo abaixo. O jogo acontece igual, só mais devagar enquanto está ocupado. Nunca abaixo de x1, e o VSync fica como está. Desligado: a velocidade escolhida é sempre usada.",""
+PerformancePlus.Settings.TargetFps,"Taxa de quadros alvo (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"A taxa de quadros mantida enquanto a opção acima está ligada, de 10 a 120 quadros por segundo.",""
+PerformancePlus.Settings.DistantAnimations,"Animar modelos distantes com menos frequência",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Castores, robôs e construções que aparecem pequenos na tela movem membros e peças a cada segundo ou quarto quadro em vez de em todo quadro, o que economiza tempo em assentamentos grandes. Só a aparência muda: eles mantêm o ritmo e fazem as mesmas coisas. Desligado: todo modelo visível é animado em todo quadro.",
+PerformancePlus.Settings.TickLength,"Duração do tick (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Quanto dura cada passo da simulação, em porcentagem do próprio jogo (0,6 s). Passos mais longos são menos numerosos por dia, então o jogo acompanha velocidades maiores; dias, crescimento, necessidades e caminhada levam o mesmo tempo de antes. Atrasa um pouco as decisões dos castores, o que leva a pequenas ineficiências. Requer ""Permitir pequenas mudanças de jogabilidade"". Vale ao carregar um assentamento. Com ""A duração do tick segue a taxa de quadros"" ativado, é a duração máxima. 100: o do jogo.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"A duração do tick segue a taxa de quadros",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"Com ""Manter uma taxa de quadros"" ativado, ""Duração do tick (%)"" é a duração máxima: um assentamento começa com a do jogo e, à meia-noite, o passo aumenta ou diminui um nível se o dia anterior pediu. Requer ""Permitir pequenas mudanças de jogabilidade"". Vale ao carregar um assentamento.",
+PerformancePlus.Settings.ShorterShadows,"Distância de sombras menor",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Desenha sombras só até 60 m da câmera em vez de em toda a vista, o que economiza tempo em cada quadro em assentamentos grandes. A parte distante da vista fica sem sombras. Desligado: sombras até onde o jogo as desenha.",

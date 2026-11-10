@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Permitir pequeños cambios de juego",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Permite a Performance Plus usar atajos más rápidos que pueden cambiar pequeños detalles de lo que ocurre. Desactivado: el juego funciona exactamente igual que sin el mod.",
+PerformancePlus.Settings.FrameRateGovernor,"Mantener una tasa de fotogramas",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Ralentiza el juego por debajo de la velocidad elegida cuando los fotogramas tardarían demasiado, para que la tasa de fotogramas se mantenga en el objetivo de abajo. El juego transcurre igual, solo más despacio mientras está ocupado. Nunca baja de x1 y deja la sincronización vertical como está. Desactivado: siempre se usa la velocidad elegida.",""
+PerformancePlus.Settings.TargetFps,"Tasa de fotogramas objetivo (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"La tasa de fotogramas que se mantiene mientras el ajuste de arriba está activado, de 10 a 120 fotogramas por segundo.",""
+PerformancePlus.Settings.DistantAnimations,"Animar con menos frecuencia los modelos lejanos",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Los castores, bots y edificios que se ven pequeños en pantalla mueven sus extremidades y piezas cada dos o cuatro fotogramas en lugar de en cada uno, lo que ahorra tiempo en asentamientos grandes. Solo cambia el aspecto: mantienen su ritmo y hacen lo mismo. Desactivado: todos los modelos visibles se animan en cada fotograma.",
+PerformancePlus.Settings.TickLength,"Duración del tick (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Cuánto dura cada paso de la simulación, en porcentaje del propio del juego (0,6 s). Pasos más largos significan menos al día, así el juego aguanta velocidades mayores; los días, el crecimiento, las necesidades y la marcha duran lo mismo que antes. Retrasa un poco las decisiones de los castores, lo que causa pequeñas ineficiencias. Requiere «Permitir pequeños cambios de juego». Se aplica al cargar un asentamiento. Con «La duración del tick sigue la tasa de fotogramas» activado, es la mayor duración del paso. 100: el del juego.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"La duración del tick sigue la tasa de fotogramas",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"Con «Mantener una tasa de fotogramas» activado, «Duración del tick (%)» es la mayor duración del paso: un asentamiento empieza con la del juego y, a medianoche, el paso se alarga o se acorta un nivel si el día anterior lo pidió. Requiere «Permitir pequeños cambios de juego». Se aplica al cargar un asentamiento.",
+PerformancePlus.Settings.ShorterShadows,"Distancia de sombras más corta",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Dibuja las sombras solo hasta 60 m de la cámara en lugar de en toda la vista, lo que ahorra tiempo en cada fotograma en asentamientos grandes. La parte lejana de la vista no tiene sombras. Desactivado: sombras hasta donde las dibuja el juego.",

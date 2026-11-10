@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"ゲームプレイの小さな変更を許可",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Performance Plus が、起こることの細部を少し変える可能性のある高速な近道を使えるようにします。オフ：MODなしとまったく同じようにゲームが進みます。",
+PerformancePlus.Settings.FrameRateGovernor,"フレームレートを維持",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"フレームの処理に時間がかかりすぎるときは、選んだ速度より遅くして、フレームレートを下の目標に保ちます。ゲームの進み方は同じで、忙しいときに遅くなるだけです。x1より遅くはならず、VSyncも変更しません。オフ：選んだ速度を常に使います。",""
+PerformancePlus.Settings.TargetFps,"目標フレームレート (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"上の設定がオンのときに保つフレームレート（毎秒10～120フレーム）。",""
+PerformancePlus.Settings.DistantAnimations,"遠くのモデルのアニメーションを間引く",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"画面上で小さく映るビーバー、ボット、建物は、毎フレームではなく2フレームまたは4フレームごとに手足や部品を動かし、大きな集落で時間を節約します。変わるのは見た目だけで、ペースも行動も同じです。オフ：見えるすべてのモデルを毎フレームアニメーションします。",
+PerformancePlus.Settings.TickLength,"ティックの長さ（%）",""
+PerformancePlus.Settings.TickLength.Tooltip,"シミュレーションの1ステップの長さを、ゲーム本来の長さ（0.6秒）に対する割合で指定します。ステップが長いと1日あたりの回数が減り、高速でも処理が追いつきます。日数、成長、欲求、歩行にかかる時間は変わりません。ビーバーの判断がわずかに遅れ、小さな非効率が生じます。「ゲームプレイの小さな変更を許可」が必要です。集落の読み込み時に適用されます。「ティックの長さをフレームレートに合わせる」がオンの場合はこれが最大の長さです。100：ゲーム本来の長さ。",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"ティックの長さをフレームレートに合わせる",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"「フレームレートを維持」もオンの場合、「ティックの長さ（%）」が最大の長さになります。集落はゲーム本来の長さで始まり、前日に必要だった場合は真夜中にステップが1段階長く、または短くなります。「ゲームプレイの小さな変更を許可」が必要です。集落の読み込み時に適用されます。",
+PerformancePlus.Settings.ShorterShadows,"影の描画距離を短くする",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"影をカメラから60 mまでだけ描画し、視界全体には描画しません。大きな集落で毎フレームの時間を節約します。視界の遠い部分には影がありません。オフ：ゲームが描画する距離まで影を描画します。",

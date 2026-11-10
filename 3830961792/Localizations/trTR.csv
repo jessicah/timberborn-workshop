@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Küçük oynanış değişikliklerine izin ver",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Performance Plus'ın olan bitenin küçük ayrıntılarını değiştirebilecek daha hızlı kısayollar kullanmasına izin verir. Kapalı: oyun mod yokmuş gibi aynen oynanır.",
+PerformancePlus.Settings.FrameRateGovernor,"Kare hızını koru",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Kareler çok uzun sürecekse oyunu seçtiğiniz hızın altına yavaşlatır, böylece kare hızı aşağıdaki hedefte kalır. Oyun aynı şekilde oynanır, yalnızca yoğunken daha yavaş. Hiçbir zaman x1'in altına inmez ve VSync'e dokunmaz. Kapalı: seçtiğiniz hız her zaman kullanılır.",""
+PerformancePlus.Settings.TargetFps,"Hedef kare hızı (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"Yukarıdaki ayar açıkken korunan kare hızı, saniyede 10 ile 120 kare arası.",""
+PerformancePlus.Settings.DistantAnimations,"Uzaktaki modelleri daha seyrek canlandır",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Ekranda küçük görünen kunduzlar, botlar ve binalar uzuvlarını ve parçalarını her karede değil, iki ya da dört karede bir hareket ettirir; bu da büyük yerleşimlerde zaman kazandırır. Yalnızca görünüm değişir: hızlarını korur ve aynı şeyleri yaparlar. Kapalı: görünen her model her karede canlandırılır.",
+PerformancePlus.Settings.TickLength,"Tik uzunluğu (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Simülasyonun her adımının uzunluğu, oyunun kendi değerinin (0,6 sn) yüzdesi olarak. Daha uzun adımlar günde daha az adım demektir, böylece oyun yüksek hızlarda yetişir; günler, büyüme, ihtiyaçlar ve yürüme önceki kadar sürer. Kunduzların kararlarını biraz geciktirir, bu da küçük verimsizliklere yol açar. ""Küçük oynanış değişikliklerine izin ver"" gerekir. Bir yerleşim yüklendiğinde uygulanır. ""Tik uzunluğu kare hızını izlesin"" açıkken bu en uzun adımdır. 100: oyunun kendi değeri.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"Tik uzunluğu kare hızını izlesin",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"""Kare hızını koru"" da açıkken ""Tik uzunluğu (%)"" en uzun adımdır: yerleşim oyunun kendi değeriyle başlar ve önceki gün gerektirdiyse gece yarısı adım bir kademe uzar ya da kısalır. ""Küçük oynanış değişikliklerine izin ver"" gerekir. Bir yerleşim yüklendiğinde uygulanır.",
+PerformancePlus.Settings.ShorterShadows,"Daha kısa gölge mesafesi",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Gölgeleri tüm görüş yerine kameradan yalnızca 60 m'ye kadar çizer; bu da büyük yerleşimlerde her karede zaman kazandırır. Görüşün uzak kısmında gölge olmaz. Kapalı: gölgeler oyunun çizdiği kadar uzağa.",

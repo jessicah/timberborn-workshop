@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"允许细微的玩法变化",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"允许 Performance Plus 使用更快的捷径，这可能会改变一些细节。关闭：游戏与没有此模组时完全相同。",
+PerformancePlus.Settings.FrameRateGovernor,"保持帧率",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"当帧耗时过长时，让游戏低于你选择的速度运行，使帧率保持在下方的目标。游戏进程完全相同，只是在繁忙时变慢。不会低于 x1，也不改变垂直同步。关闭：始终使用你选择的速度。",""
+PerformancePlus.Settings.TargetFps,"目标帧率（FPS）",""
+PerformancePlus.Settings.TargetFps.Tooltip,"上方设置开启时保持的帧率，每秒 10 到 120 帧。",""
+PerformancePlus.Settings.DistantAnimations,"降低远处模型的动画频率",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"在屏幕上显得很小的河狸、机器人和建筑每两帧或每四帧才移动一次肢体和部件，而不是每帧都动，这能在大型定居点中节省时间。只有外观改变：它们保持原有节奏，做同样的事。关闭：每个可见模型每帧都会播放动画。",
+PerformancePlus.Settings.TickLength,"刻长度（%）",""
+PerformancePlus.Settings.TickLength.Tooltip,"每个模拟步骤的长度，以游戏自身长度（0.6 秒）的百分比表示。步骤越长，每天的步骤越少，游戏在高速下更跟得上；天数、生长、需求和行走所需时间不变。会略微延迟河狸的决策，导致轻微的效率损失。需要开启“允许细微的玩法变化”。在载入定居点时生效。开启“刻长度随帧率调整”时，这是步骤的最大长度。100：游戏自身的长度。",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"刻长度随帧率调整",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"同时开启“保持帧率”时，“刻长度（%）”是步骤的最大长度：定居点从游戏自身的长度开始，若前一天需要，步骤会在午夜加长或缩短一档。需要开启“允许细微的玩法变化”。在载入定居点时生效。",
+PerformancePlus.Settings.ShorterShadows,"缩短阴影距离",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"只在距离镜头 60 米以内绘制阴影，而不是整个视野，在大型定居点中每帧都能节省时间。视野的远处没有阴影。关闭：阴影绘制到游戏原本的距离。",

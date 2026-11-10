@@ -1,0 +1,15 @@
+ID,Text,Comment
+PerformancePlus.Settings.AllowMinorChanges,"Kleine Spieländerungen erlauben",""
+PerformancePlus.Settings.AllowMinorChanges.Tooltip,"Erlaubt Performance Plus schnellere Abkürzungen, die kleine Details des Geschehens verändern können. Aus: Das Spiel läuft genau wie ohne die Mod.",
+PerformancePlus.Settings.FrameRateGovernor,"Bildrate halten",""
+PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Verlangsamt das Spiel unter die gewählte Geschwindigkeit, sobald Bilder zu lange dauern würden, damit die Bildrate beim Ziel unten bleibt. Das Spiel läuft gleich ab, nur langsamer, solange viel zu tun ist. Nie unter x1, VSync bleibt unverändert. Aus: Die gewählte Geschwindigkeit gilt immer.",""
+PerformancePlus.Settings.TargetFps,"Ziel-Bildrate (FPS)",""
+PerformancePlus.Settings.TargetFps.Tooltip,"Die Bildrate, die gehalten wird, solange die Einstellung oben an ist: 10 bis 120 Bilder pro Sekunde.",""
+PerformancePlus.Settings.DistantAnimations,"Entfernte Modelle seltener animieren",""
+PerformancePlus.Settings.DistantAnimations.Tooltip,"Biber, Bots und Gebäude, die auf dem Bildschirm klein erscheinen, bewegen Gliedmaßen und Teile nur jedes zweite oder vierte Bild statt in jedem Bild, was in großen Siedlungen Zeit spart. Nur das Aussehen ändert sich: Sie behalten ihr Tempo und tun dasselbe. Aus: Jedes sichtbare Modell wird in jedem Bild animiert.",
+PerformancePlus.Settings.TickLength,"Ticklänge (%)",""
+PerformancePlus.Settings.TickLength.Tooltip,"Wie lang jeder Simulationsschritt ist, in Prozent des Spielwerts (0,6 s). Längere Schritte bedeuten weniger pro Tag, sodass das Spiel bei höheren Geschwindigkeiten mithält; Tage, Wachstum, Bedürfnisse und Laufen dauern so lange wie zuvor. Verzögert die Entscheidungen der Biber leicht, was zu kleinen Ineffizienzen führt. Erfordert „Kleine Spieländerungen erlauben“. Gilt beim Laden einer Siedlung. Mit „Ticklänge folgt der Bildrate“ ist dies die längste Schrittlänge. 100: wie im Spiel.",
+PerformancePlus.Settings.TickLengthFollowsFrameRate,"Ticklänge folgt der Bildrate",""
+PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip,"Mit „Bildrate halten“ ist „Ticklänge (%)“ die längste Schrittlänge: Eine Siedlung beginnt bei der des Spiels, und um Mitternacht wird der Schritt eine Stufe länger oder kürzer, wenn der Vortag es verlangte. Erfordert „Kleine Spieländerungen erlauben“. Gilt beim Laden einer Siedlung.",
+PerformancePlus.Settings.ShorterShadows,"Kürzere Schattenreichweite",""
+PerformancePlus.Settings.ShorterShadows.Tooltip,"Zeichnet Schatten nur bis 60 m von der Kamera statt über die ganze Sicht, was in großen Siedlungen in jedem Bild Zeit spart. Der ferne Teil der Sicht hat keine Schatten. Aus: Schatten so weit, wie das Spiel sie zeichnet.",
