@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Buildings.LeafCoats",
+    "Blueprints#Append": [
+      "Kurt/Buildings/Water/BarkimedesScrew/BarkimedesScrew.LeafCoats.blueprint"
+    ]
+  }
+}
