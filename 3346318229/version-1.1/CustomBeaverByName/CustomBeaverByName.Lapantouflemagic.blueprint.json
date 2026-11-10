@@ -9,6 +9,7 @@
     "ChildAvatar": "Sprites/Avatars/Unique/LapanChild",
     "ContaminatedChildAvatar": "Sprites/Avatars/Unique/LapanContaminatedChild",
     "BeaverFactionId": "Whitepaws",
+    "BeaverGenderId": "Male",
     "ExcludeFromNamePool": "True"
   }
 }

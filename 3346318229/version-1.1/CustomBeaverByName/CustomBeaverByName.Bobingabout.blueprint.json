@@ -9,6 +9,7 @@
     "ChildAvatar": "Sprites/Avatars/Unique/BobingaboutChild",
     "ContaminatedChildAvatar": "Sprites/Avatars/Unique/BobingaboutContaminatedChild",
     "BeaverFactionId": "Emberpelts",
+    "BeaverGenderId": "Ace",
     "ExcludeFromNamePool": "True"
   }
 }

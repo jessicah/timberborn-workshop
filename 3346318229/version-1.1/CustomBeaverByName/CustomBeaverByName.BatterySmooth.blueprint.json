@@ -9,6 +9,7 @@
     "ChildAvatar": "Sprites/Avatars/Unique/BatterySmoothChild",
     "ContaminatedChildAvatar": "Sprites/Avatars/Unique/BatterySmoothContaminatedChild",
     "BeaverFactionId": "AmpEars",
+    "BeaverGenderId": "Duon",
     "ExcludeFromNamePool": "True"
   }
 }
