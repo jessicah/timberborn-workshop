@@ -1,2 +1,4 @@
 ID,Text,Comment
-UI.RandomVariant,Variation Selector,
+UI.BobingaboutDynamicModelSelector,Model Selector,
+UI.BobingaboutDynamicModelSetAll,Set All Connected,
+UI.UseSettings,Use Settings,
