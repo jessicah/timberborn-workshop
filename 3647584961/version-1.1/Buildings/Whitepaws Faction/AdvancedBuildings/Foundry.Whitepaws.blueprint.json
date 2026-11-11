@@ -3292,17 +3292,17 @@
         "Probability": "High"
       },
       {
-        "NeedId": "MajorBurns",
-        "Points": -0.5,
-        "Probability": "Medium"
-      },
-      {
         "NeedId": "MinorBurns",
         "Points": -0.2,
         "Probability": "High"
       },
       {
         "NeedId": "MajorBurns",
+        "Points": -0.5,
+        "Probability": "Medium"
+      },
+      {
+        "NeedId": "MoltenMetalDeath",
         "Points": -10.0,
         "Probability": "Low"
       }
@@ -3332,7 +3332,8 @@
     ]
   },
   "FireSpec": {
-    "AttachmentId": "Fire.FoundryFires"
+    "AttachmentId": "Fire.FoundryFires",
+    "HasLight": false
   },
   "FloodableFireSpec": {},
   "EnterableSpec": {
@@ -3356,9 +3357,9 @@
         "Prefab": "Buildings/Whitepaws Faction/Fires/FoundryFires2",
         "Parent": "#Finished",
         "Position": {
-          "X": 1.0,
+          "X": 0.5,
           "Y": 0.0,
-          "Z": 1.0
+          "Z": 0.5
         },
         "Rotation": {
           "X": 0.0,

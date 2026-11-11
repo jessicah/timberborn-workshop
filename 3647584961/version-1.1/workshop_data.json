@@ -1,10 +1,14 @@
 {
   "ItemId": "3647584961",
-  "Name": "Whitepaws Faction 1.0",
+  "Name": "Whitepaws Faction 1.1",
   "Visibility": "Public",
   "UpdateDescription": false,
   "UpdateVisibility": false,
   "UpdatePreview": false,
-  "UpdateTags": false,
-  "Tags": []
+  "UpdateTags": true,
+  "Tags": [
+    "Update 1.1",
+    "New content",
+    "Factions"
+  ]
 }

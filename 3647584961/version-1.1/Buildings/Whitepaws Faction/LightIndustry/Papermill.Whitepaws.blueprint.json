@@ -312,7 +312,7 @@
         "Probability": "Medium"
       },
       {
-        "NeedId": "MinorInjury",
+        "NeedId": "MechanicalDeath",
         "Points": -10.0,
         "Probability": "Low"
       }

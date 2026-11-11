@@ -2,15 +2,12 @@ ID,Text,Comment
 Good.Stew.PluralDisplayName,シチュー,-
 Faction.waterbeavers.DisplayName,ホワイトパウズ,直訳で白い肉球
 Faction.waterbeavers.Description,真のビーバー道の信奉者である彼らにとっては、すべてが家である。\r\n彼らは制御不能な人口爆発を起こし、食料と水が不足し、科学研究が苦手なので、しばしば全滅する。\r\nようこそピンクの悪夢へ。\r\n<color=red>開始地点の近くに松の木、幅2以上かつ高低差2の崖または金属スクラップがあるマップを推奨します。</color>,-
-Luc.TESTHOUSE.DisplayName,TESTHOUSE,-
-Luc.TESTHOUSE.Description,FUCK !,-
-Luc.TESTHOUSE.FlavorDescription,"""SHIT !"" \r\n—An architect beaver",-
 trashdump.DisplayName,壊れた荷車,-
 trashdump.Description,最初の地区の中心、的なもの。上位の地区の中心を建設した後に解体して発展に必要なアイテムを取り出せる。,-
 trashdump.FlavorDescription,「これ以上先に進めなくても、ここに住むことはできる。」—探検隊長,-
-Luc.Primitivemine.DisplayName,原始的な鉱山,-
-Luc.Primitivemine.Description,鉱石を掘るための小さくて非効率的な坑道。\r\n<color=green>高低差が2の断崖に立地する必要がある。</color>,-
-Luc.Primitivemine.FlavorDescription,「ビーバーはね……岩なんか掘らないんだよ。」,マキマさん構文。
+Lapantouflemagic.Primitivemine.DisplayName,原始的な鉱山,-
+Lapantouflemagic.Primitivemine.Description,鉱石を掘るための小さくて非効率的な坑道。\r\n<color=green>高低差が2の断崖に立地する必要がある。</color>,-
+Lapantouflemagic.Primitivemine.FlavorDescription,「ビーバーはね……岩なんか掘らないんだよ。」,マキマさん構文。
 Lapantouflemagic.Mediummine.DisplayName,中規模の鉱山,-
 Lapantouflemagic.Mediummine.Description,より大きくて深い坑道は豊かな鉱脈まで届き、希少な鉱石を掘ることができる。\r\n地下に降りるための階段と、子供が転落して怪我しないための柵も設計されている。\r\n\r\n<color=green>深さ4の穴の中にしか建造できない。\r\n底部と柵が地面の上になければ建造できない。\r\n階段を使用して鉱山入り口と地区の中心を繋げる。</color>,-
 Lapantouflemagic.Mediummine.FlavorDescription,「お化けとか化け物なんて嘘さ。そもそもグルーって何？」—鉱夫の最期の言葉,-
@@ -40,9 +37,7 @@ Lapantouflemagic.Builderslodge.FlavorDescription,「ついに自分だけの空�
 Lapantouflemagic.ScrollRack.DisplayName,巻物棚,-
 Lapantouflemagic.ScrollRack.Description,貴重な設計図を保管する。\r\n<color=green>図書館</color><color=RED>の中に</color><color=green> 設置する。</color>\r\n設置時の矢印は無視してください。\r\n<color=red>解体すると中身は失われる。</color>,-
 Lapantouflemagic.ScrollRack.FlavorDescription,「設計図おいしい！設計図おいしい！」—愚かなビーバー,-
-Luc.LibraryOffice.DisplayName,図書カウンター,-
-Luc.LibraryOffice.FlavorDescription,「一人でこの本全部書き写せって言うの？手で！？」—司書の奇妙な口癖,-
-Luc.Lodge.Description,運搬員を雇う小さな家。\r\n<color=#00FFFF>水を通さない建物</color>,-
+Lapantouflemagic.Lodge.Description,運搬員を雇う小さな家。\r\n<color=#00FFFF>水を通さない建物</color>,-
 Lapantouflemagic.primitivedam.DisplayName,原始的なダム,-
 Lapantouflemagic.primitivedam.Description,ご先祖さんが使っていたような、半分水を堰き止めるダム。,-
 Lapantouflemagic.primitivedamupgrade.DisplayName,原始的なダム（アップグレード）,-
@@ -63,9 +58,6 @@ Lapantouflemagic.CrappyplatformWB_birch.DisplayName,カバノキの粗末な足�
 Lapantouflemagic.CrappyplatformWB_scramble.DisplayName,カラフルで粗末な足場,-
 Lapantouflemagic.CrappyplatformWB.Description,ビーバー界の面汚しである、しょぼい足場。,-
 Lapantouflemagic.CrappyplatformWB.FlavorDescription,「以上より、<i>これも</i>教育が欠かせない理由です。」—知識人のビーバー,-
-Luc.crappyWaterWheel.DisplayName,粗末な水車,-
-Luc.crappyWaterWheel.Description,お粗末だが簡単に作れる水車。,-
-Luc.crappyWaterWheel.FlavorDescription,「摩擦で火がつかないのが不思議なくらいだ！」—錬金術師のビーバー,-
 Lapantouflemagic.Crappywindmill3.DisplayName,粗末な風車　高度3,-
 Lapantouflemagic.Crappywindmill3.Description,標高が低いせいで、みじめな馬力しか生み出せない小型風車。\r\n地面から<color=red>高度3</color>以上にしか設置できない。,-
 Lapantouflemagic.Crappywindmill3.FlavorDescription,「なんだこりゃ？我々は『ウォータービーバー』であって、『ウィンドビーバー』ではない。」—探検隊長,-
@@ -78,18 +70,6 @@ Lapantouflemagic.Crappywindmill9.FlavorDescription,「何度も同じことを�
 Lapantouflemagic.Crappywindmill12.DisplayName,粗末な風車　高度12,-
 Lapantouflemagic.Crappywindmill12.Description,標高がかなり高いおかげで、相当な馬力を生み出す小型風車。\r\n地面から<color=red>高度12</color>以上にしか設置できない。,-
 Lapantouflemagic.Crappywindmill12.FlavorDescription,「この異端分子め！」—探検隊長,-
-Luc.Reinforcedplatform.DisplayName,強化された足場,-
-Luc.Reinforcedplatform.Description,重いものを支えるために金属で補強された足場。\r\n<color=red>水を通さない性質を持つ建物を上に建てないでください。</color>,-
-Luc.Reinforcedplatform.FlavorDescription,「この構造物はどういう訳か現実を歪めて水が上を流れるようにできる。あり得ない！」—知識人のビーバー,-
-Luc.flatbridgehouse.DisplayName,橋渡しの小屋,-
-Luc.flatbridgehouse.Description,運搬員として働く2世帯のための大きな家。\r\n家の角の部分だけ支えが必要。\r\n<color=green>実際に通行が可能。</color>\r\n<color=red>この建物は水を通す！</color>,-
-Luc.flatbridgehouse.FlavorDescription,「まさか折れたりしないだろう。」—建築士のビーバー,-
-Luc.watertightfamilystore.DisplayName,Watertight family store,未使用？
-Luc.watertightfamilystore.Description,「つまり、大きくて平たいものが欲しかったという事でよろしいでしょうか？」—技術者ビーバー,未使用？
-Luc.watertightfamilystore.FlavorDescription,watertight family store,未使用？
-Luc.watertightlodge.DisplayName,水密性の長いロッジ,-
-Luc.watertightlodge.Description,たくさんのビーバーが住める、水を堰き止める巨大な家。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.watertightlodge.FlavorDescription,「しっかりとしたダムの土台だ。」—建設作業員のビーバー,-
 Lapantouflemagic.doublewatertightlodge.DisplayName,水密性の2階建てロッジ,-
 Lapantouflemagic.doublewatertightlodge.Description,1世帯が住める、水を堰き止める中くらいの家。\r\n<color=green>小さな配給拠点として機能する。</color>\r\n<color=#00FFFF>水を通さない建物</color>,-
 Lapantouflemagic.doublewatertightlodgeBottom.Description,2世帯が住める、水を堰き止める中くらいの家。\r\n<color=green>運搬員を2人</color>雇う。\r\n<color=#00FFFF>水を通さない建物</color>\r\n,-
@@ -100,48 +80,33 @@ Lapantouflemagic.triplewatertightlodge.FlavorDescription,「あたしらの人�
 Lapantouflemagic.triplewatertightlodgeBottom.DisplayName,水密性のトリプルロッジ,-
 Lapantouflemagic.triplewatertightlodgeBottom.Description,<color=green>運搬員</color>として働く2世帯が住める、水を堰き止める大きな家。\r\n<color=#00FFFF>水を通さない建物</color>,-
 Lapantouflemagic.triplewatertightlodgeBottom.FlavorDescription,「あたしらの人口は肉球に負えなくなっているんじゃありませんか。」—農民ビーバー,-
-Luc.cornerwatertightlodge.DisplayName,水密性のコーナー用ロッジ,-
-Luc.cornerwatertightlodge.Description,3世帯が住める、水を堰き止めるためにかなり大きく設計された家。\r\n<color=green>運搬員を6人</color>雇う。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.cornerwatertightlodge.FlavorDescription,「誰がこんなの考えたんだい。」—農民ビーバー,-
-Luc.megacornerwatertighthouse.DisplayName,水密性の大きなコーナー用ロッジ,-
-Luc.megacornerwatertighthouse.Description,5世帯が住める、水を堰き止めるために見ていて不安になるくらい巨大に設計された家。\r\n<color=green>運搬員を6人</color>雇う。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.megacornerwatertighthouse.FlavorDescription,「何をしでかしたんです？」—海狸家族計画協会,-
-Luc.Gnawingtent.DisplayName,丸太かじり場,-
-Luc.Gnawingtent.Description,丸太をかじって加工する原始的で非効率的な製材所。,-
-Luc.Gnawingtent.FlavorDescription,「もっと良いやり方を考えないと……」—歯科医のビーバー,-
-Luc.primitiveironworks.DisplayName,原始的な製鉄所,-
-Luc.primitiveironworks.Description,金属を成形するための辛うじて鉄工所と呼べる代物。,-
-Luc.primitiveironworks.FlavorDescription,「歯で金属を噛むのを想像してみ？」,-
-Luc.primitivepapermill.DisplayName,原始的な製紙工場,-
-Luc.primitivepapermill.Description,古くから伝わるやり方で紙を作る。,-
-Luc.primitivepapermill.FlavorDescription,「スープに見える。」—狂気の料理人マチルダ,-
-Luc.sawmill.DisplayName,初歩的な製材所,-
-Luc.sawmill.Description,粗末なのこぎりを使用した動力式製材所で、生産性は改善されたが金属製のこぎりを消費する。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.sawmill.FlavorDescription,「この新技術は凄いけど、刃が折れて誰か怪我しないか心配。」—母さんビーバー,-
-Luc.largefarmhouse.DisplayName,大きな農場,-
-Luc.largefarmhouse.Description,たくさんのビーバーがより効率的に働くための共同農家。\r\n<color=red>カボチャのみ植えられる。</color>\r\nドーナツ型ロッジの上に建てて接続できる。\r\n<color=#00FFFF>水を通さないように改装可能</color>,-
-Luc.largefarmhouse.FlavorDescription,「これじゃあまるで…共産主義じゃな。」—婆さんビーバー,-
+Lapantouflemagic.Gnawingtent.DisplayName,丸太かじり場,-
+Lapantouflemagic.Gnawingtent.Description,丸太をかじって加工する原始的で非効率的な製材所。,-
+Lapantouflemagic.Gnawingtent.FlavorDescription,「もっと良いやり方を考えないと……」—歯科医のビーバー,-
+Lapantouflemagic.primitiveironworks.DisplayName,原始的な製鉄所,-
+Lapantouflemagic.primitiveironworks.Description,金属を成形するための辛うじて鉄工所と呼べる代物。,-
+Lapantouflemagic.primitiveironworks.FlavorDescription,「歯で金属を噛むのを想像してみ？」,-
+Lapantouflemagic.primitivepapermill.DisplayName,原始的な製紙工場,-
+Lapantouflemagic.primitivepapermill.Description,古くから伝わるやり方で紙を作る。,-
+Lapantouflemagic.primitivepapermill.FlavorDescription,「スープに見える。」—狂気の料理人マチルダ,-
+Lapantouflemagic.sawmill.DisplayName,初歩的な製材所,-
+Lapantouflemagic.sawmill.Description,粗末なのこぎりを使用した動力式製材所で、生産性は改善されたが金属製のこぎりを消費する。\r\n<color=#00FFFF>水を通さない建物</color>,-
+Lapantouflemagic.sawmill.FlavorDescription,「この新技術は凄いけど、刃が折れて誰か怪我しないか心配。」—母さんビーバー,-
 Lapantouflemagic.Mushroomtent.DisplayName,キノコ栽培テント,-
 Lapantouflemagic.Mushroomtent.Description,原木やおがくずからキノコを栽培するテント。,-
 Lapantouflemagic.Mushroomtent.FlavorDescription,「この赤と白のキノコ美味そう。食べちゃえ」—愚かなビーバーの最期の言葉,-
 Lapantouflemagic.Cookingtent.DisplayName,調理テント,-
 Lapantouflemagic.Cookingtent.Description,シチューを作る小さな野外キッチン。,-
 Lapantouflemagic.Cookingtent.FlavorDescription,「中に何を入れようかな。天の神様の言う通り！」—狂気の料理人マチルダ,-
-Luc.IndustrialKitchen.DisplayName,機械化調理場,-
-Luc.IndustrialKitchen.Description,街全体を養えるほど大きな機械化キッチン。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.IndustrialKitchen.FlavorDescription,「言い伝えによれば、ある日一人の料理人が行方をくらまし、二度と見つからなかったという。」,-
-Luc.Library.DisplayName,図書館,-
-Luc.Library.Description,研究のための沢山の本を納めた大きな建物。\r\nレイヤー階層ツールを使用して図書館の中を見ることができる。\r\n<color=green>中にモジュールを設置可能。</color>,-
-Luc.Library.FlavorDescription,「ここビュッフェ形式なんだぁ～」—愚かなビーバー,-
-Luc.Architect.DisplayName,建築士のロッジ,-
-Luc.Architect.Description,建築士が他の誰よりも優れていることを誇示するための豪華な建物。\r\nついでに構造的に盤石な建物の設計もする。\r\n<color=#00FFFF>水を通さない建物</color>\r\n<color=green>大きな階段としても機能する。</color>,-
-Luc.Architect.FlavorDescription,「建築士は最低だ。」—某機械工ビーバー,-
-Luc.Engineer.DisplayName,機械工のロッジ,-
-Luc.Engineer.Description,機械工が他の誰よりも賢いことを誇示するための豪華な建物。\r\nついでに機械化された建物の設計もする。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.Engineer.FlavorDescription,「機械工は最低だ。」—某建築士ビーバー,-
-Luc.PumpingHouse.DisplayName,手動汲水ポンプの家,-
-Luc.PumpingHouse.Description,手動で水を汲み上げて反対側に吐き出すポンプで、家も兼ねている。\r\nちょっとした灌漑には適しているが、それ以外に使うには力不足。,-
-Luc.PumpingHouse.FlavorDescription,「押せっ……！押せっ……！」,-
+Lapantouflemagic.Library.DisplayName,図書館,-
+Lapantouflemagic.Library.Description,研究のための沢山の本を納めた大きな建物。\r\nレイヤー階層ツールを使用して図書館の中を見ることができる。\r\n<color=green>中にモジュールを設置可能。</color>,-
+Lapantouflemagic.Library.FlavorDescription,「ここビュッフェ形式なんだぁ～」—愚かなビーバー,-
+Lapantouflemagic.Architect.DisplayName,建築士のロッジ,-
+Lapantouflemagic.Architect.Description,建築士が他の誰よりも優れていることを誇示するための豪華な建物。\r\nついでに構造的に盤石な建物の設計もする。\r\n<color=#00FFFF>水を通さない建物</color>\r\n<color=green>大きな階段としても機能する。</color>,-
+Lapantouflemagic.Architect.FlavorDescription,「建築士は最低だ。」—某機械工ビーバー,-
+Lapantouflemagic.Engineer.DisplayName,機械工のロッジ,-
+Lapantouflemagic.Engineer.Description,機械工が他の誰よりも賢いことを誇示するための豪華な建物。\r\nついでに機械化された建物の設計もする。\r\n<color=#00FFFF>水を通さない建物</color>,-
+Lapantouflemagic.Engineer.FlavorDescription,「機械工は最低だ。」—某建築士ビーバー,-
 Building.PlankTank.DisplayName,板製の小さなタンク,-
 Building.PlankTank.Description,少し改善されたタンク。,-
 Lapantouflemagic.NewLido.Description,水遊びができる水泳場。\r\n池が乾いているなら <color=green>放水場</color> を設置できる。,-
@@ -154,7 +119,7 @@ Lapantouflemagic.GazTank.Description,メタンなどのガスを貯蔵するた�
 Lapantouflemagic.GazTank.FlavorDescription,「い～ひっひ、中に屁ぇこいてやったわい。」—婆さんビーバー,-
 Building.GiantBuriedTank.FlavorDescription,「スープの中で泳ぐ夢が叶った！」—狂気の料理人マチルダ,-
 Lapantouflemagic.IrrigationTower2.DisplayName,給水塔ロッジ,-
-Lapantouflemagic.Need.Injury.DeathMessage,は重機に挟まれて亡くなりました。,-
+Lapantouflemagic.Injury.DeathMessage,は重機に挟まれて亡くなりました。,-
 Need.Misery.DisplayName,有毒な食べ物,-
 Need.Misery.CriticalDescriptionShort,ひどいシチュー！,-
 Need.Misery.CriticalDescription,病気です。,-
@@ -353,11 +318,7 @@ ToolGroups.advancedbuildings,先進的な建物,-
 ToolGroups.lightindustry,工業,-
 ToolGroups.heavyindustrybuildings,先進的な工業,-
 ToolGroups.Damhouses,ダムと家,-
-Luc.notutorial.warning,<color=red>このMODはチュートリアルと互換性がありません。</color>,-
-Luc.Loglevee.Description,基本的な土地造成のために多数の丸太を泥に刺して作った粗末な堤防。\r\n高い地面と隣接している必要があります。,-
 Lapantouflemagic.primitivedam.FlavorDescription,「へぇ～、結構シャレオツじゃん。」—都市部のビーバー,-
-Luc.LibraryOffice.Description,図書館の小さな事務所。\r\n司書は空いた時間で本を複写する。\r\n<color=green>図書館の左奥の角にしか設置できません。</color>,-
-Luc.NewDistrictCenter.Description,村の中心にある大きな小屋。\r\n<color=green>荷降ろし場として機能する。</color>,-
 Lapantouflemagic.4Wdistrictcenter.DisplayName,4方向対応地区の中心,-
 Lapantouflemagic.Unstorablestorage.DisplayName,保管できない資源,-
 Lapantouflemagic.StorageHouseW.DisplayName,貯蔵タンク付きの家,-
@@ -372,9 +333,6 @@ Lapantouflemagic.KitchenModule.FlavorDescription,「俺は料理の仕方を知�
 Lapantouflemagic.BIT.DisplayName,エコール・ノルマル・シュビーバール,École Normale Subeaveure-フランスの大学名のもじり。
 Lapantouflemagic.BIT.Description,優秀なビーバーが新技術を開発するための先端科学研究所。\r\n<color=red>この建物は水を通す！</color>,-
 Lapantouflemagic.BIT.FlavorDescription,「私達の資料によれば、大学名の由来はカエルを食用としていたニンゲンの部族までさかのぼります。」—歯無しの賢者,フランスのこと
-Luc.triplewatertightlodgeBottom.DisplayName,水密性の大きな2階建てロッジ,-
-Luc.triplewatertightlodgeBottom.Description,運搬員として働く2世帯のための大きな家。\r\n<color=#00FFFF>水を通さない建物</color>,-
-Luc.triplewatertightlodgeBottom.FlavorDescription,「あたしらの人口は肉球に負えなくなっているんじゃありませんか。」—農民ビーバー,-
 Lapantouflemagic.DeepWaterPumpUpgrade.DisplayName,深水汲水ポンプ（アップグレード）,-
 Lapantouflemagic.DeepWaterPumpUpgrade.Description,隣接する2台の汲水ポンプ（深水）の間に設置するアップグレードモジュール。\r\n<color=#00FFFF>水を通さない建物</color>,-
 Lapantouflemagic.DeepWaterPumpUpgrade.FlavorDescription,「これでダムは完璧なものになる！」—歯無しの賢者,-
@@ -701,6 +659,13 @@ Lapantouflemagic.SevereInjury.DisplayName,重傷,-
 Lapantouflemagic.SevereInjury.CriticalDescription,このビーバーは重傷を負っています。適切な治療がなければ治りません。,-
 Lapantouflemagic.SevereInjury.CriticalDescriptionShort,重傷！,-
 Lapantouflemagic.MinorBurns.DisplayName,軽度の火傷,-
+Lapantouflemagic.MinorFireDeath.DisplayName,焼死,-
+Lapantouflemagic.MechanicalDeath.DisplayName,機械事故死,-
+Lapantouflemagic.GruesomeMechanicalDeath.DisplayName,凄惨な機械事故死,-
+Lapantouflemagic.MoltenMetalDeath.DisplayName,溶融金属による死,-
+Lapantouflemagic.MutationDeath.DisplayName,突然変異による死,-
+Lapantouflemagic.DiseaseDeath.DisplayName,病死,-
+Lapantouflemagic.GruesomeMechanicalDeath.DeathMessage,"<color=green>は事故で押し潰され、細断され、接着剤と混ぜられた後、きれいなアクションフィギュア12体に圧縮成形されました</color>",-
 Lapantouflemagic.MinorBurns.CriticalDescription,このビーバーは火傷を負ったので休むべきです。,-
 Lapantouflemagic.MinorBurns.CriticalDescriptionShort,軽度の火傷,-
 Lapantouflemagic.MinorBurns.DeathMessage,は極度の不注意により燃え上がって死亡しました。毛皮を持つ生物はかなり燃えやすいことが分かりました。,-
@@ -811,3 +776,6 @@ Lapantouflemagic.Mushroomfarm.Description,豊富な専門知識を持つ頭の�
 Lapantouflemagic.Mushroomfarm.FlavorDescription,「この赤と白のキノコ美味そう。食べちゃえ」—愚かなビーバーの最期の言葉,-
 Lapantouflemagic.FarmUpgradeD.Description,隣り合った2棟の農家の上に設置できるアップグレードモジュール。収穫した作物を大量に保管できる。もっと農家を！\r\n<color=#00FFFF>水を通さない建物</color>\r\n<Color=red>植え付けはできません。</color>,-
 Lapantouflemagic.UselessPlant1.DisplayName,観葉シダ,-
+Lapantouflemagic.PitandLadderCap.DisplayName,"縦穴とはしごのロッジ（最上部）",-
+Lapantouflemagic.PitandLadderCap.Description,"はしごの縦穴を上から閉じる防水ロッジ。出入りは下からのみ。平らな屋根の上に建物を積み重ねられます。",-
+Lapantouflemagic.PitandLadderCap.FlavorDescription,"やっと頭上に屋根ができた。",-

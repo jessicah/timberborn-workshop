@@ -1,8 +1,0 @@
-{
-  "GoodCollectionSpec": {
-    "CollectionId": "Common",
-    "Goods#remove": [
-      "Extract",
-    ]
-  }
-}

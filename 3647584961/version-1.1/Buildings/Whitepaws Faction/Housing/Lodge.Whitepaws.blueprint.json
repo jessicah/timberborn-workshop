@@ -142,7 +142,7 @@
   },
   "LabeledEntitySpec": {
     "DisplayNameLocKey": "Building.Lodge.DisplayName",
-    "DescriptionLocKey": "Luc.Lodge.Description",
+    "DescriptionLocKey": "Lapantouflemagic.Lodge.Description",
     "FlavorDescriptionLocKey": "Building.Lodge.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/LodgeIcon"
   },

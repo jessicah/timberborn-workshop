@@ -306,13 +306,13 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "MinorBurns",
-        "Points": -0.2,
+        "NeedId": "MinorInjury",
+        "Points": -0.1,
         "Probability": "High"
       },
       {
-        "NeedId": "MinorInjury",
-        "Points": -0.1,
+        "NeedId": "MinorBurns",
+        "Points": -0.2,
         "Probability": "High"
       }
     ]

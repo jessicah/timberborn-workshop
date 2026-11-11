@@ -17,10 +17,6 @@
     "FavorableWellbeing": 0,
     "UnfavorableWellbeing": -30
   },
-  "LethalNeedSpec": {
-    "DeathWarningLocKey": "Needs.Beaver.DeathWarning",
-    "DeathMessageLocKey": "Lapantouflemagic.SevereDisease.DeathMessage"
-  },
   "CriticalNeedSpec": {
     "CriticalNeedType": "StateWithAlert",
     "SpriteName": "SevereDisease",

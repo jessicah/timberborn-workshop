@@ -29,6 +29,6 @@
     "Icon": "sprites/Whitepaws Sprites/Goods/GrapeJuice",
     "ForceImport": true,
     "DisplayNameLocKey": "Good.GrapeJuice.DisplayName",
-    "PluralDisplayNameLocKey": "Good.GrapeJuice.DisplayName"
+    "PluralDisplayNameLocKey": "Good.GrapeJuice.PluralDisplayName"
   }
 }

@@ -364,13 +364,13 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "MinorInjury",
-        "Points": -0.1,
+        "NeedId": "ChippedTeeth",
+        "Points": -1.0,
         "Probability": "High"
       },
       {
-        "NeedId": "ChippedTeeth",
-        "Points": -1.0,
+        "NeedId": "MinorInjury",
+        "Points": -0.1,
         "Probability": "High"
       }
     ]

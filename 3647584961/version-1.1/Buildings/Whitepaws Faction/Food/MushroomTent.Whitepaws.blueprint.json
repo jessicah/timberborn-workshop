@@ -303,6 +303,11 @@
         "NeedId": "MildDisease",
         "Points": -0.1,
         "Probability": "High"
+      },
+      {
+        "NeedId": "DiseaseDeath",
+        "Points": -10.0,
+        "Probability": "Low"
       }
     ]
   },

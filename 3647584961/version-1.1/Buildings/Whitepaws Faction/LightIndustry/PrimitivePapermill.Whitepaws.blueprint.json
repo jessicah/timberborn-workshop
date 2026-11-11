@@ -233,9 +233,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.primitivepapermill.DisplayName",
-    "DescriptionLocKey": "Luc.primitivepapermill.Description",
-    "FlavorDescriptionLocKey": "Luc.primitivepapermill.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.primitivepapermill.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.primitivepapermill.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.primitivepapermill.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Paper tent"
   },
   "WorkshopSpec": {},

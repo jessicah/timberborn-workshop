@@ -24,10 +24,10 @@ trashdump.DisplayName,Broken Expedition Cart,4
 trashdump.Description,"Your first district center, if it can be called so. Only dismantle after building a better town center.",5
 trashdump.FlavorDescription,"""We can't go further, but we can settle here""
  -The expedition leader",6
-Luc.Primitivemine.DisplayName,Primitive Mine,7
-Luc.Primitivemine.Description,"A small and inefficient way to obtain mineral resources
+Lapantouflemagic.Primitivemine.DisplayName,Primitive Mine,7
+Lapantouflemagic.Primitivemine.Description,"A small and inefficient way to obtain mineral resources
 ",8
-Luc.Primitivemine.FlavorDescription,"""Beavers are not meant to dig rock""",9
+Lapantouflemagic.Primitivemine.FlavorDescription,"""Beavers are not meant to dig rock""",9
 Lapantouflemagic.Mediummine.DisplayName,Medium Mine,10
 Lapantouflemagic.Mediummine.Description,"A larger and deeper mine to exploit richer deposits, also gives access to rarer elements.
 Comes with access stairs and barriers to prevent silly little kits from falling and getting hurt.
@@ -69,7 +69,7 @@ Lapantouflemagic.Builderslodge.DisplayName,Builder Lodge,33
 Lapantouflemagic.Builderslodge.Description,"A town house for two extra builders. 
 <color=#00FFFF>Works as a Levee</color>",34
 Lapantouflemagic.Builderslodge.FlavorDescription,"""My own space, at last!""",35
-Luc.Lodge.Description,"A small house for a hauler beaver.
+Lapantouflemagic.Lodge.Description,"A small house for a hauler beaver.
 <color=#00FFFF>Works as a Levee</color>",41
 Lapantouflemagic.primitivedam.DisplayName,Primitive Dam,42
 Lapantouflemagic.primitivedam.Description,A semi-watertight structure built as the beavers of old used to.,43
@@ -104,21 +104,21 @@ Lapantouflemagic.doublewatertightlodge.FlavorDescription,"""Can we even feed tha
 Lapantouflemagic.triplewatertightlodge.DisplayName,Triple Watertight Lodge,93
 Lapantouflemagic.triplewatertightlodge.FlavorDescription,"""Our population is getting out of paw""
  -The same farmer beaver",95
-Luc.Gnawingtent.DisplayName,Log Gnawing Station,102
-Luc.Gnawingtent.Description,A primitive and inefficient tooth-powered sawmill.,103
-Luc.Gnawingtent.FlavorDescription,"""We really need to come up with a better solution""
+Lapantouflemagic.Gnawingtent.DisplayName,Log Gnawing Station,102
+Lapantouflemagic.Gnawingtent.Description,A primitive and inefficient tooth-powered sawmill.,103
+Lapantouflemagic.Gnawingtent.FlavorDescription,"""We really need to come up with a better solution""
  -A dentist beaver",104
-Luc.primitiveironworks.DisplayName,Primitive Ironworks,105
-Luc.primitiveironworks.Description,A barely functional place to shape metal.,106
-Luc.primitiveironworks.FlavorDescription,"""Imagine doing that with your teeth!""",107
-Luc.primitivepapermill.DisplayName,Primitive Papermill,108
-Luc.primitivepapermill.Description,An old way to manufacture paper.,109
-Luc.primitivepapermill.FlavorDescription,"""It looks like some sort of soup""
+Lapantouflemagic.primitiveironworks.DisplayName,Primitive Ironworks,105
+Lapantouflemagic.primitiveironworks.Description,A barely functional place to shape metal.,106
+Lapantouflemagic.primitiveironworks.FlavorDescription,"""Imagine doing that with your teeth!""",107
+Lapantouflemagic.primitivepapermill.DisplayName,Primitive Papermill,108
+Lapantouflemagic.primitivepapermill.Description,An old way to manufacture paper.,109
+Lapantouflemagic.primitivepapermill.FlavorDescription,"""It looks like some sort of soup""
  -Mathilda the insane cook",110
-Luc.sawmill.DisplayName,Rudimentary Sawmill,111
-Luc.sawmill.Description,"A powered sawmill using crude sawblades, with higher yield but consumes metal sawblades.
+Lapantouflemagic.sawmill.DisplayName,Rudimentary Sawmill,111
+Lapantouflemagic.sawmill.Description,"A powered sawmill using crude sawblades, with higher yield but consumes metal sawblades.
 <color=#00FFFF>Works as a Levee</color>",112
-Luc.sawmill.FlavorDescription,"""This new technology is nice, but let's hope the blade doesn't break and hurt someone""
+Lapantouflemagic.sawmill.FlavorDescription,"""This new technology is nice, but let's hope the blade doesn't break and hurt someone""
  -Mommy beaver",113
 Lapantouflemagic.largefarmhouse.DisplayName,Large Farmhouse,114
 Lapantouflemagic.largefarmhouse.FlavorDescription,"""Isn't that a bit... COMMUNIST!?""
@@ -137,19 +137,19 @@ Lapantouflemagic.IndustrialKitchen.DisplayName,Industrial Kitchen,122
 Lapantouflemagic.IndustrialKitchen.Description,"A large mechanised kitchen to feed an entire colony. 
 <color=#00FFFF>Works as a Levee</color>",123
 Lapantouflemagic.IndustrialKitchen.FlavorDescription,"""Legend has it that one day a cook disappeared to never be found again""",124
-Luc.Library.DisplayName,Library,125
-Luc.Library.FlavorDescription,"""They look kind of tasty""
+Lapantouflemagic.Library.DisplayName,Library,125
+Lapantouflemagic.Library.FlavorDescription,"""They look kind of tasty""
  -Bobby the fool",126
-Luc.Architect.DisplayName,Architect's Lodge,127
-Luc.Architect.Description,"A fancy building to help architects show they're better than us. Also used to design structurally sound buildings. 
+Lapantouflemagic.Architect.DisplayName,Architect's Lodge,127
+Lapantouflemagic.Architect.Description,"A fancy building to help architects show they're better than us. Also used to design structurally sound buildings. 
 <color=green>Works as a big staircase</color>
 <color=#00FFFF>Works as a Levee</color>",128
-Luc.Architect.FlavorDescription,"""Architects are the worst.""
+Lapantouflemagic.Architect.FlavorDescription,"""Architects are the worst.""
  -An anonymous engineer beaver",129
-Luc.Engineer.DisplayName,Mechanic's Lodge,130
-Luc.Engineer.Description,"A fancy building to help engineers show they're smarter than us. Also used to design mechanical buildings that work.
+Lapantouflemagic.Engineer.DisplayName,Mechanic's Lodge,130
+Lapantouflemagic.Engineer.Description,"A fancy building to help engineers show they're smarter than us. Also used to design mechanical buildings that work.
 <color=#00FFFF>Works as a Levee</color>",131
-Luc.Engineer.FlavorDescription,"""Engineers are the worst""
+Lapantouflemagic.Engineer.FlavorDescription,"""Engineers are the worst""
  -An anonymous architect beaver",132
 Building.PlankTank.DisplayName,Small Plank Tank,136
 Building.PlankTank.Description,A slightly better storage tank.,137
@@ -535,6 +535,13 @@ Lapantouflemagic.SevereInjury.DisplayName,Severe Injury,663
 Lapantouflemagic.SevereInjury.CriticalDescription,"This beaver has been badly hurt, this won't heal without proper treatment.",664
 Lapantouflemagic.SevereInjury.CriticalDescriptionShort,Severe Injury!,665
 Lapantouflemagic.MinorBurns.DisplayName,Minor Burn,666
+Lapantouflemagic.MinorFireDeath.DisplayName,Firey Death,-
+Lapantouflemagic.MechanicalDeath.DisplayName,Mechanical Death,-
+Lapantouflemagic.GruesomeMechanicalDeath.DisplayName,Gruesome Mechanical Death,-
+Lapantouflemagic.MoltenMetalDeath.DisplayName,Molten Metal Death,-
+Lapantouflemagic.MutationDeath.DisplayName,Mutation Death,-
+Lapantouflemagic.DiseaseDeath.DisplayName,Death by Disease,-
+Lapantouflemagic.GruesomeMechanicalDeath.DeathMessage,"<color=green>was accidentally crushed, shredded, mixed with glue and then compacted into a dozen neat action figurines</color>",-
 Lapantouflemagic.MinorBurns.CriticalDescription,This beaver got burned and should go rest.,667
 Lapantouflemagic.MinorBurns.CriticalDescriptionShort,Minor burn!,668
 Lapantouflemagic.MinorBurns.DeathMessage,<color=green>caught on fire and died due to extreme carelessness. Turns out furry creatures are quite flammable.</color>,669
@@ -1162,7 +1169,7 @@ Lapantouflemagic.NuclearReactor1.Description,"A relatively weak nuclear reactor 
 Lapantouflemagic.NuclearReactor.FlavorDescription,"""Every morning someone has to hit the big red button, and if you're not lucky, KABOOM !
 Otherwise nothing happens until the next day. At least according to their media, that’s what hoomans did.""
  -A Hooman historian beaver",1071
-Luc.Library.Description,"A large building with lots of books for studying.
+Lapantouflemagic.Library.Description,"A large building with lots of books for studying.
 The only way to obtain science.
 <color=green>Is built from the inside like a wonder</color>.",910
 Good.FruitParfait.DisplayName,Fruit Parfait,1294
@@ -2362,3 +2369,6 @@ Tutorial.MessageFromMom_Drought.Text.Whitepaws,NoTextYet,TutoText72
 Tutorial.MessageFromMom_Badtide.Text.Whitepaws,NoTextYet,TutoText73
 Tutorial.MessageFromMom_Stairs.Text.Whitepaws,NoTextYet,TutoText74
 Tutorial.MessageFromMom_Platform.Text.Whitepaws,NoTextYet,TutoText75
+Lapantouflemagic.PitandLadderCap.DisplayName,"Pit & Ladder Lodge (Cap Segment)",-
+Lapantouflemagic.PitandLadderCap.Description,"A watertight lodge that caps a ladder shaft. Accessible only from below, with a flat roof that supports buildings above.",-
+Lapantouflemagic.PitandLadderCap.FlavorDescription,"A roof over our heads. Finally.",-

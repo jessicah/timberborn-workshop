@@ -1812,24 +1812,24 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
+        "NeedId": "Filth",
+        "Points": -0.1,
+        "Probability": "High"
+      },
+      {
         "NeedId": "MinorInjury",
         "Points": -0.3,
         "Probability": "High"
       },
       {
-        "NeedId": "Filth",
-        "Points": -0.1,
+        "NeedId": "MildDisease",
+        "Points": -0.7,
         "Probability": "High"
       },
       {
         "NeedId": "SevereDisease",
         "Points": -0.3,
         "Probability": "Medium"
-      },
-      {
-        "NeedId": "MildDisease",
-        "Points": -0.7,
-        "Probability": "High"
       },
       {
         "NeedId": "Minedeath",

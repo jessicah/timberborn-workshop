@@ -1,8 +1,0 @@
-{
-  "CriticalNeedSpec": {
-    "CriticalNeedType": "StateWithAlert",
-    "SpriteName": "LightInjury",
-    "DescriptionLocKey": "Status.Need.Injury",
-    "DescriptionShortLocKey": "Status.Need.Injury.Short"
-  },
-}

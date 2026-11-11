@@ -1034,7 +1034,7 @@
         "Probability": "Medium"
       },
       {
-        "NeedId": "SevereDisease",
+        "NeedId": "MutationDeath",
         "Points": -10.0,
         "Probability": "Low"
       }

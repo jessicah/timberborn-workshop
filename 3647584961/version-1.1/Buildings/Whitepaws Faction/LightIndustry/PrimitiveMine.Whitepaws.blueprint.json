@@ -213,33 +213,33 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.Primitivemine.DisplayName",
-    "DescriptionLocKey": "Luc.Primitivemine.Description",
-    "FlavorDescriptionLocKey": "Luc.Primitivemine.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.Primitivemine.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Primitivemine.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Primitivemine.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Primitivemine"
   },
   "WorkshopSpec": {},
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "MinorInjury",
-        "Points": -0.3,
+        "NeedId": "Filth",
+        "Points": -0.15,
         "Probability": "High"
       },
       {
-        "NeedId": "Minedeath",
-        "Points": -10.0,
-        "Probability": "Medium"
-      },
-      {
-        "NeedId": "Filth",
-        "Points": -0.15,
+        "NeedId": "MinorInjury",
+        "Points": -0.3,
         "Probability": "High"
       },
       {
         "NeedId": "MildDisease",
         "Points": -0.4,
         "Probability": "High"
+      },
+      {
+        "NeedId": "Minedeath",
+        "Points": -10.0,
+        "Probability": "Medium"
       }
     ]
   },

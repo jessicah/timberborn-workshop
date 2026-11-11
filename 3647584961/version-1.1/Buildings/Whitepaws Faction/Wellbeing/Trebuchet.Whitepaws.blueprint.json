@@ -1125,14 +1125,14 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "Trebuchetdeath",
-        "Points": -1.0,
-        "Probability": "Low"
-      },
-      {
         "NeedId": "MinorInjury",
         "Points": -0.1,
         "Probability": "Medium"
+      },
+      {
+        "NeedId": "Trebuchetdeath",
+        "Points": -1.0,
+        "Probability": "Low"
       }
     ]
   },

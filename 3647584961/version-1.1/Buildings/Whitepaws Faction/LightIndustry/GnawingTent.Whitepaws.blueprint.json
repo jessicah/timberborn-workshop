@@ -186,9 +186,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.Gnawingtent.DisplayName",
-    "DescriptionLocKey": "Luc.Gnawingtent.Description",
-    "FlavorDescriptionLocKey": "Luc.Gnawingtent.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.Gnawingtent.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Gnawingtent.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Gnawingtent.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/gnawingtent"
   },
   "WorkshopSpec": {},

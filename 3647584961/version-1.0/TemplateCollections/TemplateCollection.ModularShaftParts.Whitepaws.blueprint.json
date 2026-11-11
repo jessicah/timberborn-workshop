@@ -1,8 +1,0 @@
-{
-  "TemplateCollectionSpec": {
-    "CollectionId": "ModularShaftParts.Whitepaws",
-    "Blueprints": [
-      "TemplateCollections/ModularShaftParts.Whitepaws.blueprint"
-    ]
-  }
-}

@@ -654,7 +654,8 @@
     ]
   },
   "FireSpec": {
-    "AttachmentId": "AqueductLight4x6xT.Whitepaws"
+    "AttachmentId": "AqueductLight4x6xT.Whitepaws",
+    "HasLight": false
   },
   "FloodableBuildingSpec": {},
   "FloodableFireSpec": {},

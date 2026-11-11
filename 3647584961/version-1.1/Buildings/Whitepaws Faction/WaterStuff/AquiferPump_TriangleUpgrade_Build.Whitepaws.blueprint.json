@@ -490,7 +490,7 @@
       }
     ],
     "Entrance": {
-      "HasEntrance": true,
+      "HasEntrance": false,
       "Coordinates": {
         "X": 1,
         "Y": 2,
@@ -500,14 +500,6 @@
     "BaseZ": 1,
     "Overridable": false,
     "Flippable": false
-  },
-  "BuildingAccessibleSpec": {
-    "LocalAccess": {
-      "X": 1.5,
-      "Y": 0.0,
-      "Z": 2.5
-    },
-    "ForceOneFinalAccess": false
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "Irrigation",
@@ -531,34 +523,10 @@
     "FlavorDescriptionLocKey": "Lapantouflemagic.SmallAquiferPump.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/SAquiferPump"
   },
-  "DwellingSpec": {
-    "MaxBeavers": 6,
-    "SleepEffects": [
-      {
-        "NeedId": "Sleep",
-        "PointsPerHour": 0.2,
-        "SatisfyToMaxValue": false
-      },
-      {
-        "NeedId": "Shelter",
-        "PointsPerHour": 0.3,
-        "SatisfyToMaxValue": false
-      }
-    ]
-  },
-  "ProcreationHouseSpec": {},
-  "EnterableIlluminatorSpec": {},
   "SoilBarrierSpec": {
     "BlockAboveMoisture": true,
     "BlockFullMoisture": false,
     "BlockContamination": false
-  },
-  "EnterableSpec": {
-    "OperatingState": "Finished",
-    "LimitedCapacityFinished": false,
-    "CapacityFinished": 0,
-    "LimitedCapacityUnfinished": false,
-    "CapacityUnfinished": 0
   },
   "FinishableWaterObstacleSpec": {
     "Height": 2.0

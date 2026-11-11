@@ -833,11 +833,6 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "SevereInjury",
-        "Points": -0.5,
-        "Probability": "Medium"
-      },
-      {
         "NeedId": "MinorInjury",
         "Points": -0.1,
         "Probability": "High"
@@ -848,6 +843,11 @@
         "Probability": "High"
       },
       {
+        "NeedId": "SevereInjury",
+        "Points": -0.5,
+        "Probability": "Medium"
+      },
+      {
         "NeedId": "MajorBurns",
         "Points": -0.7,
         "Probability": "Medium"
@@ -855,6 +855,11 @@
       {
         "NeedId": "Maimed",
         "Points": -1.0,
+        "Probability": "Low"
+      },
+      {
+        "NeedId": "MinorFireDeath",
+        "Points": -10.0,
         "Probability": "Low"
       }
     ]

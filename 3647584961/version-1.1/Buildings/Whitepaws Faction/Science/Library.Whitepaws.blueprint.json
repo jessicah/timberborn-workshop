@@ -362,9 +362,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.Library.DisplayName",
-    "DescriptionLocKey": "Luc.Library.Description",
-    "FlavorDescriptionLocKey": "Luc.Library.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.Library.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Library.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Library.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Library"
   },
   "WorkshopSpec": {},

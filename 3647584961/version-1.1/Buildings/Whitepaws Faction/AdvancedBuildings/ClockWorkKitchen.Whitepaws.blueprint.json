@@ -939,20 +939,21 @@
     "Driveways": [
       {
         "Driveway": "LongCenter",
-    "HasCustomCoordinates": false,
-    "CustomCoordinates": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
-    "CustomDirection": "Down",
-    "DrivewayMode": "Unidirectional"
+        "HasCustomCoordinates": false,
+        "CustomCoordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "CustomDirection": "Down",
+        "DrivewayMode": "Unidirectional"
       }
     ]
   },
   "FloodableFireSpec": {},
   "FireSpec": {
-    "AttachmentId": "UraniumGlow"
+    "AttachmentId": "UraniumGlow",
+    "HasLight": false
   },
   "MechanicalNodeAnimatorSpec": {
     "MinSpeedMultiplier": 0.0

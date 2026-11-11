@@ -338,14 +338,14 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "Insectdeath",
-        "Points": -10.0,
-        "Probability": "Low"
-      },
-      {
         "NeedId": "SevereDisease",
         "Points": -0.5,
         "Probability": "Medium"
+      },
+      {
+        "NeedId": "Insectdeath",
+        "Points": -10.0,
+        "Probability": "Low"
       }
     ]
   },

@@ -1160,13 +1160,13 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "Minedeath",
-        "Points": -10.0,
-        "Probability": "Low"
-      },
-      {
         "NeedId": "MinorInjury",
         "Points": -0.1,
+        "Probability": "High"
+      },
+      {
+        "NeedId": "MildDisease",
+        "Points": -0.5,
         "Probability": "High"
       },
       {
@@ -1180,9 +1180,9 @@
         "Probability": "Medium"
       },
       {
-        "NeedId": "MildDisease",
-        "Points": -0.5,
-        "Probability": "High"
+        "NeedId": "Minedeath",
+        "Points": -10.0,
+        "Probability": "Low"
       }
     ]
   },

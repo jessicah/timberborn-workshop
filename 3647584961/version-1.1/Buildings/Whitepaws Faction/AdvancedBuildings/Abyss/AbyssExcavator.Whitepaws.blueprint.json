@@ -180,14 +180,14 @@
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
       {
-        "NeedId": "SevereDisease",
-        "Points": -0.8,
-        "Probability": "Medium"
-      },
-      {
         "NeedId": "MildDisease",
         "Points": -0.6,
         "Probability": "High"
+      },
+      {
+        "NeedId": "SevereDisease",
+        "Points": -0.8,
+        "Probability": "Medium"
       }
     ]
   },

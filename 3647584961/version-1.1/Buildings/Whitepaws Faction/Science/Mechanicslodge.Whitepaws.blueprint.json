@@ -196,9 +196,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.Engineer.DisplayName",
-    "DescriptionLocKey": "Luc.Engineer.Description",
-    "FlavorDescriptionLocKey": "Luc.Engineer.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.Engineer.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Engineer.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Engineer.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Engineer"
   },
   "WorkshopSpec": {},

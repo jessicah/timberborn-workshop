@@ -476,7 +476,8 @@
     ]
   },
   "FireSpec": {
-    "AttachmentId": "AqueductLight2x5.Whitepaws"
+    "AttachmentId": "AqueductLight2x5.Whitepaws",
+    "HasLight": false
   },
   "WaterObjectSpec": {
     "WaterCoordinates": {

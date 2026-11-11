@@ -10,10 +10,10 @@ trashdump.DisplayName,损坏的探险车,4
 trashdump.Description,仅在建造另一个市中心后才能拆除探险车.,5
 trashdump.FlavorDescription,"""不能再往前走了，但可以在这里安顿下来""
  -探险队队长",6
-Luc.Primitivemine.DisplayName,小型矿山,7
-Luc.Primitivemine.Description,"获取矿产资源的一种小而低效的方式
+Lapantouflemagic.Primitivemine.DisplayName,小型矿山,7
+Lapantouflemagic.Primitivemine.Description,"获取矿产资源的一种小而低效的方式
 <color=green>需要2米高墙壁</color>",8
-Luc.Primitivemine.FlavorDescription,"""海狸不是用来挖石头的""",9
+Lapantouflemagic.Primitivemine.FlavorDescription,"""海狸不是用来挖石头的""",9
 Lapantouflemagic.Mediummine.DisplayName,中型矿山,10
 Lapantouflemagic.Mediummine.Description,"一个更大、更深的矿山，可以开采更丰富的矿床，也可以开采更稀有的元素.配有通道楼梯和障碍物，防止愚蠢的小海狸掉落和受伤
 <color=green>需要4米高墙壁 !</color>",11
@@ -57,10 +57,8 @@ Lapantouflemagic.ScrollRack.Description,"储存珍贵蓝图
 <color=red>摧毁建筑会删除内部库存</color>",37
 Lapantouflemagic.ScrollRack.FlavorDescription,"""蓝图才是最好的书籍!""
 -傻子鲍比",38
-Luc.LibraryOffice.DisplayName,图书馆,39
-Luc.LibraryOffice.FlavorDescription,"""这些书都要手抄么?""
 -奇怪的图书馆员口头禅?"",40
-Luc.Lodge.Description,""一个小屋.
+Lapantouflemagic.Lodge.Description,""一个小屋.
 <color=#00FFFF>防水建筑</color>",41
 Lapantouflemagic.primitivedam.DisplayName,初级堤坝,42
 Lapantouflemagic.primitivedam.Description,改良于原始海狸建筑,43
@@ -84,9 +82,6 @@ Lapantouflemagic.CrappyplatformWB_scramble.DisplayName,多彩平台,59
 Lapantouflemagic.CrappyplatformWB.Description,一个让海狸都感到尴尬的怕平台.,60
 Lapantouflemagic.CrappyplatformWB.FlavorDescription,"""或许<i>这就是我们需要学习的原因</i>"" 
 -科学家海狸",61
-Luc.crappyWaterWheel.DisplayName,简易水车,62
-Luc.crappyWaterWheel.Description,粗糙但容易建造的水车.,63
-Luc.crappyWaterWheel.FlavorDescription,"""没着火就很幸运了 !"" 
 -炼金术士海狸",64
 Lapantouflemagic.Crappywindmill3.DisplayName,简易风车 H3,65
 Lapantouflemagic.Crappywindmill3.Description,"一个小风车,产生的能量少的可怜.
@@ -108,10 +103,7 @@ Lapantouflemagic.Crappywindmill12.Description,"一个小风车,产生相当多�
 必须建造在离地面12米高",75
 Lapantouflemagic.Crappywindmill12.FlavorDescription,"""你们这些异教徒!""
 -探险队长",76
-Luc.watertightlodge.DisplayName,防水屋,86
-Luc.watertightlodge.Description,"可容纳许多海狸的防水大房子.
 <color=#00FFFF>防水建筑",87
-Luc.watertightlodge.FlavorDescription,"""大坝的坚实基础"" 
 -建筑师",88
 Lapantouflemagic.doublewatertightlodge.DisplayName,两层防水小屋,89
 Lapantouflemagic.doublewatertightlodgeBottom.Description,"两个海狸家庭的中型水坝屋.
@@ -122,21 +114,21 @@ Lapantouflemagic.doublewatertightlodge.FlavorDescription,"""我们能养活那�
 Lapantouflemagic.triplewatertightlodge.DisplayName,三单元小屋,93
 Lapantouflemagic.triplewatertightlodge.FlavorDescription,"""我们的人口正在失去控制"" 
 -农民海狸",95
-Luc.Gnawingtent.DisplayName,锯木小屋,102
-Luc.Gnawingtent.Description,原始而低效的锯齿锯木厂.,103
-Luc.Gnawingtent.FlavorDescription,"""我们真的需要想出一个更好的解决方案”
+Lapantouflemagic.Gnawingtent.DisplayName,锯木小屋,102
+Lapantouflemagic.Gnawingtent.Description,原始而低效的锯齿锯木厂.,103
+Lapantouflemagic.Gnawingtent.FlavorDescription,"""我们真的需要想出一个更好的解决方案”
 -牙医海狸",104
-Luc.primitiveironworks.DisplayName,初级铁制品,105
-Luc.primitiveironworks.Description,一个几乎无法成形金属的地方.,106
-Luc.primitiveironworks.FlavorDescription,"""想象一下这是用牙齿咬出来的 !""",107
-Luc.primitivepapermill.DisplayName,初级造纸厂,108
-Luc.primitivepapermill.Description,一种古老的造纸方法.,109
-Luc.primitivepapermill.FlavorDescription,"""它看起来像某种汤""
+Lapantouflemagic.primitiveironworks.DisplayName,初级铁制品,105
+Lapantouflemagic.primitiveironworks.Description,一个几乎无法成形金属的地方.,106
+Lapantouflemagic.primitiveironworks.FlavorDescription,"""想象一下这是用牙齿咬出来的 !""",107
+Lapantouflemagic.primitivepapermill.DisplayName,初级造纸厂,108
+Lapantouflemagic.primitivepapermill.Description,一种古老的造纸方法.,109
+Lapantouflemagic.primitivepapermill.FlavorDescription,"""它看起来像某种汤""
 -疯狂厨师玛蒂尔达",110
-Luc.sawmill.DisplayName,初级锯木厂,111
-Luc.sawmill.Description,"使用粗锯片的动力锯木厂，产量更高，但消耗金属锯片
+Lapantouflemagic.sawmill.DisplayName,初级锯木厂,111
+Lapantouflemagic.sawmill.Description,"使用粗锯片的动力锯木厂，产量更高，但消耗金属锯片
 <color=#00FFFF>防水建筑</color>",112
-Luc.sawmill.FlavorDescription,"""这项新技术很好，但我们希望刀片不会断裂伤人"" 
+Lapantouflemagic.sawmill.FlavorDescription,"""这项新技术很好，但我们希望刀片不会断裂伤人"" 
 -海狸妈妈",113
 Lapantouflemagic.largefarmhouse.DisplayName,大型农舍,114
 Lapantouflemagic.largefarmhouse.FlavorDescription,"""这不是有点。。。共产主义者!?"" 
@@ -149,23 +141,20 @@ Lapantouflemagic.Cookingtent.DisplayName,烹饪帐篷,119
 Lapantouflemagic.Cookingtent.Description,一个做炖菜的户外小厨房.,120
 Lapantouflemagic.Cookingtent.FlavorDescription,"""哈我们不能把什么放进去?"" 
 -疯狂厨师玛蒂尔达",121
-Luc.IndustrialKitchen.DisplayName,工业厨房,122
-Luc.IndustrialKitchen.Description,"一个大型的、专门为整个殖民地提供食物的厨房
 <color=#00FFFF>防水建筑</color>",123
-Luc.IndustrialKitchen.FlavorDescription,"""传说有一天，一个厨师消失了，从此再也找不到了""",124
-Luc.Library.DisplayName,图书馆,125
-Luc.Library.FlavorDescription,"""它们看起来有点好吃“
+Lapantouflemagic.Library.DisplayName,图书馆,125
+Lapantouflemagic.Library.FlavorDescription,"""它们看起来有点好吃“
 -笨蛋鲍比",126
-Luc.Architect.DisplayName,工程测量站,127
-Luc.Architect.Description,"一座奇特的建筑
+Lapantouflemagic.Architect.DisplayName,工程测量站,127
+Lapantouflemagic.Architect.Description,"一座奇特的建筑
 <color=green>可用作楼梯使用</color>. 
 <color=#00FFFF>防水建筑</color>",128
-Luc.Architect.FlavorDescription,"""建筑师是最差的."" 
+Lapantouflemagic.Architect.FlavorDescription,"""建筑师是最差的."" 
 -一个匿名的工程师",129
-Luc.Engineer.DisplayName,机修工宿舍,130
-Luc.Engineer.Description,"一座奇特的建筑，用于设计有效的机械建筑。
+Lapantouflemagic.Engineer.DisplayName,机修工宿舍,130
+Lapantouflemagic.Engineer.Description,"一座奇特的建筑，用于设计有效的机械建筑。
 <color=#00FFFF>防水建筑</color>",131
-Luc.Engineer.FlavorDescription,"""工程师是最差的"" 
+Lapantouflemagic.Engineer.FlavorDescription,"""工程师是最差的"" 
 -一个匿名的建筑师",132
 Building.PlankTank.DisplayName,小型储存罐+,136
 Building.PlankTank.Description,一个稍微好一点的储罐.,137
@@ -321,8 +310,6 @@ ToolGroups.advancedbuildings,高级建筑,347
 ToolGroups.lightindustry,工业建筑,348
 ToolGroups.heavyindustrybuildings,先进的工业建筑,349
 ToolGroups.Damhouses,房屋和水坝,350
-Luc.notutorial.warning,<color=red>教程与这个MOD不兼容</color>,351
-Luc.Loglevee.Description,"用许多粘在泥里的原木做成的粗堤，用于基本的景观美化。
 需要靠近高地.",352
 Lapantouflemagic.primitivedam.FlavorDescription,"""事实上，它看起来不错 !"" 
 -城市海狸",353
@@ -689,6 +676,13 @@ Lapantouflemagic.SevereInjury.DisplayName,重伤,663
 Lapantouflemagic.SevereInjury.CriticalDescription,这只海狸受了重伤，没有适当的治疗是治不好的.,664
 Lapantouflemagic.SevereInjury.CriticalDescriptionShort,重伤 !,665
 Lapantouflemagic.MinorBurns.DisplayName,轻微烧伤,666
+Lapantouflemagic.MinorFireDeath.DisplayName,烈火之死,-
+Lapantouflemagic.MechanicalDeath.DisplayName,机械事故死亡,-
+Lapantouflemagic.GruesomeMechanicalDeath.DisplayName,惨烈的机械事故死亡,-
+Lapantouflemagic.MoltenMetalDeath.DisplayName,熔融金属致死,-
+Lapantouflemagic.MutationDeath.DisplayName,突变致死,-
+Lapantouflemagic.DiseaseDeath.DisplayName,病亡,-
+Lapantouflemagic.GruesomeMechanicalDeath.DeathMessage,"<color=green>意外被碾碎、切成碎片、拌入胶水，最后压制成了十二个整齐精致的动作人偶</color>",-
 Lapantouflemagic.MinorBurns.CriticalDescription,这只海狸被烧伤了，应该休息了.,667
 Lapantouflemagic.MinorBurns.CriticalDescriptionShort,轻微烧伤.,668
 Lapantouflemagic.MinorBurns.DeathMessage,<color=red>由于极度疏忽而起火并死亡。原来有毛皮的生物很易燃.</color>,669
@@ -1014,7 +1008,7 @@ Lapantouflemagic.ZauerKrautBarrel.Description,一个桶，可以装满不同的�
 Lapantouflemagic.ZauerKrautBarrel.FlavorDescription,"""一个没有人打开的封闭空间？很有趣""
  -侏儒杰克",908
 Lapantouflemagic.Crappywindmills.DisplayName,风车,909
-Luc.Library.Description,"一座很大的建筑，里面有很多书可供学习。
+Lapantouflemagic.Library.Description,"一座很大的建筑，里面有很多书可供学习。
 可以使用分层浏览工具看到内部结构.
 <color=green>模块可以放在里面</color>",910
 Lapantouflemagic.Factory.Description,"一座大型工业建筑，用于将金属熔化成钢并制造有价值的物品.
@@ -1470,3 +1464,6 @@ Lapantouflemagic.SupplementaryExplorationTeam.Description,雇佣额外的海狸�
 Lapantouflemagic.SupplementaryExplorationTeam.FlavorDescription,"""我想要一只宠物鹤，你认为我会找到吗？""",1229
 Reciepe.Ineff_Plank.PluralDisplayName,原料加工板材,1230
 Reciepe.Ineff_Log.PluralDisplayName,加工日志,1231
+Lapantouflemagic.PitandLadderCap.DisplayName,"竖井梯屋（封顶段）",-
+Lapantouflemagic.PitandLadderCap.Description,"为梯井封顶的防水住宅。只能从下方进出，平坦的屋顶可承载上层建筑。",-
+Lapantouflemagic.PitandLadderCap.FlavorDescription,"终于有屋顶遮头了。",-

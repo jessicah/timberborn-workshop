@@ -2586,7 +2586,7 @@
     "ForceOneFinalAccess": false
   },
   "BlockObjectNavMeshSettingsSpec": {
-    "NoAutoWalls": false,
+    "NoAutoWalls": true,
     "GenerateFloorsOnStackable": false,
     "EdgeGroups": [],
     "UnblockedCoordinates": [],

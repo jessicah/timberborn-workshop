@@ -231,7 +231,7 @@
         "Probability": "Medium"
       },
       {
-        "NeedId": "MinorBurns",
+        "NeedId": "MinorFireDeath",
         "Points": -10.0,
         "Probability": "Low"
       }

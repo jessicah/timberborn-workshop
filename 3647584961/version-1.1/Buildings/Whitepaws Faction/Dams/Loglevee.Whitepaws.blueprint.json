@@ -96,7 +96,7 @@
   },
   "LabeledEntitySpec": {
     "DisplayNameLocKey": "Building.Levee.DisplayName",
-    "DescriptionLocKey": "Luc.Loglevee.Description",
+    "DescriptionLocKey": "Lapantouflemagic.Loglevee.Description",
     "FlavorDescriptionLocKey": "Building.Levee.FlavorDescription",
     "Icon": "Buildings/Landscaping/Levee/LeveeIcon"
   },

@@ -1,9 +1,0 @@
-{
-  "BlockObjectToolGroupSpec": {
-    "Id": "LightIndustry",
-    "Order": 60,
-    "NameLocKey": "ToolGroups.lightindustry",
-    "Icon": "Sprites/Whitepaws Sprites/Other/lightindustry",
-    "FallbackGroup": false
-  }
-}

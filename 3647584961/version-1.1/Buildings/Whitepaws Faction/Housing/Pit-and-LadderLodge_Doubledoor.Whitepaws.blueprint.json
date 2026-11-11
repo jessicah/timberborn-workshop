@@ -417,14 +417,14 @@
     "Driveways": [
       {
         "Driveway": "NarrowCenter",
-    "HasCustomCoordinates": true,
-    "CustomCoordinates": {
-      "X": 1,
-      "Y": 2,
-      "Z": 0
-    },
-    "CustomDirection": "Down",
-    "DrivewayMode": "Unidirectional"
+        "HasCustomCoordinates": true,
+        "CustomCoordinates": {
+          "X": 1,
+          "Y": 2,
+          "Z": 0
+        },
+        "CustomDirection": "Down",
+        "DrivewayMode": "Unidirectional"
       }
     ]
   },

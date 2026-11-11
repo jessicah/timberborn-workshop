@@ -829,6 +829,11 @@
         "NeedId": "SevereDisease",
         "Points": -0.5,
         "Probability": "Medium"
+      },
+      {
+        "NeedId": "DiseaseDeath",
+        "Points": -10.0,
+        "Probability": "Low"
       }
     ]
   },

@@ -280,9 +280,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.Architect.DisplayName",
-    "DescriptionLocKey": "Luc.Architect.Description",
-    "FlavorDescriptionLocKey": "Luc.Architect.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.Architect.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.Architect.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.Architect.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Architect"
   },
   "WorkshopSpec": {},

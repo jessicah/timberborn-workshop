@@ -25,9 +25,9 @@ trashdump.Description,"Votre premier centre de district, si on peut l’appeller
 Ne le démantelez qu’après avoir construit un centre de district digne de ce nom.",5
 trashdump.FlavorDescription,"« Impossible d’aller plus loin, mais on peut s’installer ici. »
 - Le chef d’expédition",6
-Luc.Primitivemine.DisplayName,Mine Primitive,7
-Luc.Primitivemine.Description,Un tunnel étroit et peu efficace pour aller chercher des ressources minérales.,8
-Luc.Primitivemine.FlavorDescription,« Les castors ne sont pas faits pour ça. »,9
+Lapantouflemagic.Primitivemine.DisplayName,Mine Primitive,7
+Lapantouflemagic.Primitivemine.Description,Un tunnel étroit et peu efficace pour aller chercher des ressources minérales.,8
+Lapantouflemagic.Primitivemine.FlavorDescription,« Les castors ne sont pas faits pour ça. »,9
 Lapantouflemagic.Mediummine.DisplayName,Mine Moyenne,10
 Lapantouflemagic.Mediummine.Description,"Une mine plus grande et plus profonde permettant d’exploiter de meilleurs gisements, et donne acces à des éléments plus rares.
 Est livré avec des barrières pour éviter que les chatons un peu bêtes ne tombent dans le trou.
@@ -69,7 +69,7 @@ Lapantouflemagic.Builderslodge.DisplayName,Loge de Charpentier,33
 Lapantouflemagic.Builderslodge.Description,"Une maison citadine qui sert d’atelier pour deux castors constructeurs.
 <color=#00FFFF>Bâtiment étanche</color>",34
 Lapantouflemagic.Builderslodge.FlavorDescription,"« Mon propre bureau, enfin ! »",35
-Luc.Lodge.Description,"Une petite maison pour un camionneur.
+Lapantouflemagic.Lodge.Description,"Une petite maison pour un camionneur.
 <color=#00FFFF>Bâtiment étanche</color>",41
 Lapantouflemagic.primitivedam.DisplayName,Barrage Primitif,42
 Lapantouflemagic.primitivedam.Description,Une structure semi-étanche à la mode des castors d’autrefois,43
@@ -103,22 +103,22 @@ Lapantouflemagic.doublewatertightlodge.FlavorDescription,« Ça commence à fai
 Lapantouflemagic.triplewatertightlodge.DisplayName,Loge Étanche Triple,93
 Lapantouflemagic.triplewatertightlodge.FlavorDescription,"« Est-ce qu’on va arriver a nourrir tout ces gens ? »
 - Un castor paysan",95
-Luc.Gnawingtent.DisplayName,Poste de Rongeage,102
-Luc.Gnawingtent.Description,Une sorte de scierie primitive qui marche à la force de nos dents.,103
-Luc.Gnawingtent.FlavorDescription,"« On a vraiment besoin d’une meilleure solution. »
+Lapantouflemagic.Gnawingtent.DisplayName,Poste de Rongeage,102
+Lapantouflemagic.Gnawingtent.Description,Une sorte de scierie primitive qui marche à la force de nos dents.,103
+Lapantouflemagic.Gnawingtent.FlavorDescription,"« On a vraiment besoin d’une meilleure solution. »
 - Un castor dentiste",104
-Luc.primitiveironworks.DisplayName,Forge Primitive,105
-Luc.primitiveironworks.Description,Une fosse à feu et une enclume essayant de se faire passer pour une forge.,106
-Luc.primitiveironworks.FlavorDescription,« T’imagines faire ça avec tes dents ? »,107
-Luc.primitivepapermill.DisplayName,Papeterie Primitive,108
-Luc.primitivepapermill.Description,Une méthode ancienne de fabrication du papier.,109
-Luc.primitivepapermill.FlavorDescription,"« On dirait une sort de soupe »
+Lapantouflemagic.primitiveironworks.DisplayName,Forge Primitive,105
+Lapantouflemagic.primitiveironworks.Description,Une fosse à feu et une enclume essayant de se faire passer pour une forge.,106
+Lapantouflemagic.primitiveironworks.FlavorDescription,« T’imagines faire ça avec tes dents ? »,107
+Lapantouflemagic.primitivepapermill.DisplayName,Papeterie Primitive,108
+Lapantouflemagic.primitivepapermill.Description,Une méthode ancienne de fabrication du papier.,109
+Lapantouflemagic.primitivepapermill.FlavorDescription,"« On dirait une sort de soupe »
 - Mathilda la cinglée",110
-Luc.sawmill.DisplayName,Scierie Rudimentaire,111
-Luc.sawmill.Description,"Une scierie utilisant l’énergie mécanique du réseau.
+Lapantouflemagic.sawmill.DisplayName,Scierie Rudimentaire,111
+Lapantouflemagic.sawmill.Description,"Une scierie utilisant l’énergie mécanique du réseau.
 Consomme des scies circulaires pour un plus haut rendement en planches.
 <color=#00FFFF>Bâtiment étanche</color> ",112
-Luc.sawmill.FlavorDescription,"« Cette nouvelle machine est pratique, enfin à condition que la lame n’explose pas et blesse quelqu’un. »
+Lapantouflemagic.sawmill.FlavorDescription,"« Cette nouvelle machine est pratique, enfin à condition que la lame n’explose pas et blesse quelqu’un. »
 - Maman Castor",113
 Lapantouflemagic.largefarmhouse.DisplayName,Grande Ferme,114
 Lapantouflemagic.largefarmhouse.FlavorDescription,"« Ca serait pas un peu… COMMUNISTE ? »
@@ -137,19 +137,19 @@ Lapantouflemagic.IndustrialKitchen.DisplayName,Cuisine Industrielle,122
 Lapantouflemagic.IndustrialKitchen.Description,"Une grande cuisine à assistance mécanique pour nourrir toute une colonie.
 <color=#00FFFF>Bâtiment étanche</color>",123
 Lapantouflemagic.IndustrialKitchen.FlavorDescription,« Les légendes parlent d’un cuistot qui aurait un jour disparu sans laisser de trace. »,124
-Luc.Library.DisplayName,Bibliothèque,125
-Luc.Library.FlavorDescription,"« Ces trucs ont l’air délicieux... »
+Lapantouflemagic.Library.DisplayName,Bibliothèque,125
+Lapantouflemagic.Library.FlavorDescription,"« Ces trucs ont l’air délicieux... »
 - Kévin le crétin",126
-Luc.Architect.DisplayName,Loge d’Architecte,127
-Luc.Architect.Description,"Un bâtiment fantaisiste qui permet aux architectes de montrer qu’ils valent mieux que nous. Accessoirement là ou ils tracent les plans de bâtiments complexes qui ne s’effondrent pas betement.
+Lapantouflemagic.Architect.DisplayName,Loge d’Architecte,127
+Lapantouflemagic.Architect.Description,"Un bâtiment fantaisiste qui permet aux architectes de montrer qu’ils valent mieux que nous. Accessoirement là ou ils tracent les plans de bâtiments complexes qui ne s’effondrent pas betement.
 <color=green>Fonctionne comme un grand escalier</color>
 <color=#00FFFF>Bâtiment étanche</color>",128
-Luc.Architect.FlavorDescription,"« Il n’y a rien de pire qu’un architecte. »
+Lapantouflemagic.Architect.FlavorDescription,"« Il n’y a rien de pire qu’un architecte. »
 - Un castor ingénieur anonyme",129
-Luc.Engineer.DisplayName,Loge de Mécanicien,130
-Luc.Engineer.Description,"Un bâtiment fantaisiste qui permet aux ingénieurs de montrer qu’ils sont plus intelligents que nous. Accessoirement là ou ils tracent les plans de systèmes mécaniques qui n’explosent pas sans raison. 
+Lapantouflemagic.Engineer.DisplayName,Loge de Mécanicien,130
+Lapantouflemagic.Engineer.Description,"Un bâtiment fantaisiste qui permet aux ingénieurs de montrer qu’ils sont plus intelligents que nous. Accessoirement là ou ils tracent les plans de systèmes mécaniques qui n’explosent pas sans raison. 
 <color=#00FFFF>Bâtiment étanche</color>",131
-Luc.Engineer.FlavorDescription,"« Il n’y a rien de pire qu’un ingénieur. »
+Lapantouflemagic.Engineer.FlavorDescription,"« Il n’y a rien de pire qu’un ingénieur. »
 - Un castor architecte anonyme",132
 Building.PlankTank.DisplayName,Petite Citerne en Planches,136
 Building.PlankTank.Description,Une meilleur citerne de stockage.,137
@@ -537,6 +537,13 @@ Lapantouflemagic.SevereInjury.DisplayName,Blessure Grave,663
 Lapantouflemagic.SevereInjury.CriticalDescription,"Ce castor a une blessure grave, ça ne guérira pas sans un traitement adapté.",664
 Lapantouflemagic.SevereInjury.CriticalDescriptionShort,Blessure Grave !,665
 Lapantouflemagic.MinorBurns.DisplayName,Brûlure Mineure,666
+Lapantouflemagic.MinorFireDeath.DisplayName,Mort Ardente,-
+Lapantouflemagic.MechanicalDeath.DisplayName,Mort mécanique,-
+Lapantouflemagic.GruesomeMechanicalDeath.DisplayName,Mort mécanique atroce,-
+Lapantouflemagic.MoltenMetalDeath.DisplayName,Mort par métal en fusion,-
+Lapantouflemagic.MutationDeath.DisplayName,Mort par mutation,-
+Lapantouflemagic.DiseaseDeath.DisplayName,Mort par maladie,-
+Lapantouflemagic.GruesomeMechanicalDeath.DeathMessage,"<color=green>a été accidentellement écrasé, déchiqueté, mélangé à de la colle puis compacté en une douzaine de figurines vachement cool</color>",-
 Lapantouflemagic.MinorBurns.CriticalDescription,Ce castor s’est brûlé et a besoin de repos.,667
 Lapantouflemagic.MinorBurns.CriticalDescriptionShort,Brûlure Mineure !,668
 Lapantouflemagic.MinorBurns.DeathMessage,<color=green>a pris feu et fini rôti à cause de sa propre négligence. Comme quoi les créatures poilues sont assez inflammables.</color>,669
@@ -831,8 +838,7 @@ Lapantouflemagic.Mushroomfarm.FlavorDescription,"« Est-ce que je devrais mange
 Lapantouflemagic.MechanizedPinkwoodFarm.DisplayName,"Automate Cultivateur Hydroponique
 Fleuriers",960
 Lapantouflemagic.MechanizedPinkwoodFarm.Description,"Une machine infernale qui transforme l’énergie mécanique en rondins.
-Les scies circulaires doivent être changées régulièrement.
-",961
+Les scies circulaires doivent être changées régulièrement.",961
 Lapantouflemagic.MechanizedPinkwoodFarm.FlavorDescription,"« La règle la plus importante de l’ingénierie castorine, c’est de ne surtout pas regarder les mécanismes de trop près.
 - Papy castor, à propos de son absence de moustaches.",962
 Lapantouflemagic.WarmStorageBaseR.DisplayName,Main de la Soupe,969
@@ -858,8 +864,7 @@ Lapantouflemagic.NuclearFuelSlow.DisplayName,Purification Lente,986
 Lapantouflemagic.FermentationHouse.DisplayName,Maison de Fermentation,987
 Lapantouflemagic.FermentationHouse.Description,"Une petite loge dont les habitants ont pour tâche de remplir et de s’occuper des tonneaux de fermentation installés à l’étage.
 <color=#FF6EC7>Peut fonctionner sans travailleur dédié.</color>
-<color=#00FFFF>Bâtiment étanche</color>
-",988
+<color=#00FFFF>Bâtiment étanche</color>",988
 Lapantouflemagic.FermentationHouse.FlavorDescription,"« Si j’en garde un peu pour moi, personne n’y verra rien... »
 - Un castor fermenteur",989
 Lapantouflemagic.AdvancedWarmstorage.DisplayName,Stockage Chauffé Avancé,990
@@ -960,8 +965,7 @@ Lapantouflemagic.HoomanUndergroundChemPlant.Description,"Envoie dans l’abysse 
 <color=#FF6EC7>Leur procédés étaient bien plus avancés que les nôtres, nous allons sûrement tant apprendre !</color>",1139
 Lapantouflemagic.HoomanUndergroundChemPlant.FlavorDescription,« Fabriquer de la résine à partir d’éléments de base ? C’est incroyable ! »,1140
 Lapantouflemagic.NEWLumberjackHouse.DisplayName,Grange des Bûcherons,1141
-Lapantouflemagic.NEWLumberjackHouse.Description,"Un bâtiment mi-grange mi-loge servant de lieu de travail pour un groupe de bûcherons. Contient des outils pour les aider à faire leur travail efficacement.
-",1142
+Lapantouflemagic.NEWLumberjackHouse.Description,Un bâtiment mi-grange mi-loge servant de lieu de travail pour un groupe de bûcherons. Contient des outils pour les aider à faire leur travail efficacement.,1142
 Lapantouflemagic.NEWLumberjackHouse.FlavorDescription,"« Mon papa c’est le meilleur ! Il a construit toute la maison ! »
 - Fanfaronnade typique de chaton",1143
 Lapantouflemagic.TappersShack.Description,"Emploie une équipe de saigneurs pour récolter la résine des pins
@@ -1168,7 +1172,7 @@ Lapantouflemagic.NuclearReactor1.Description,"Un réacteur nucléaire de faible 
 Lapantouflemagic.NuclearReactor.FlavorDescription,"« Tous les matins, quelqu’un doit appuyer sur le gros bouton rouge, et si tu as pas de bol, BOUM !
 Sinon tout va bien jusqu’au lendemain. En tout cas c’est ce que les hoomain faisaient si on en croit leurs médias »
 -Un castor historien de l’hoomanité",1071
-Luc.Library.Description,"Un grand bâtiment rempli de livres pour étudier.
+Lapantouflemagic.Library.Description,"Un grand bâtiment rempli de livres pour étudier.
 La seule façon de générer de la science.
 <color=green>Se construit de l’intérieur comme une merveille</color>",910
 Good.FruitParfait.DisplayName,Crème Glacée,1294
@@ -1521,3 +1525,6 @@ Lapantouflemagic.ZiplineUpgradeArm.Description,"Un bras donnant un accès direct
 <color=#FF6EC7>Doit être placé à l’arrière du bâtiment.</color>",1478
 Lapantouflemagic.ZiplineUpgradeArm.FlavorDescription,"""Tremblez, mortels ! Le monde entier est désormais mon jardin !""
 -Un stagiaire de pépinière trop enthousiaste",1479
+Lapantouflemagic.PitandLadderCap.DisplayName,"Loge à fosse et échelle (Segment de fermeture)",-
+Lapantouflemagic.PitandLadderCap.Description,"Une loge étanche qui ferme le sommet d’une cage d’échelle. Accessible uniquement par-dessous, avec un toit plat permettant de construire au-dessus.",-
+Lapantouflemagic.PitandLadderCap.FlavorDescription,"Un toit au-dessus de nos têtes. Enfin.",-

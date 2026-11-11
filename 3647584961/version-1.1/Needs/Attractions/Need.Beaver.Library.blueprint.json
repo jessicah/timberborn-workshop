@@ -13,7 +13,7 @@
     "Effectiveness": 1.0,
     "Wastable": false,
     "HoursWarningThreshold": 0.0,
-    "DisplayNameLocKey": "Luc.Library.DisplayName",
+    "DisplayNameLocKey": "Lapantouflemagic.Library.DisplayName",
     "FavorableWellbeing": 3,
     "UnfavorableWellbeing": 0
   }

@@ -249,9 +249,9 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.primitiveironworks.DisplayName",
-    "DescriptionLocKey": "Luc.primitiveironworks.Description",
-    "FlavorDescriptionLocKey": "Luc.primitiveironworks.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.primitiveironworks.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.primitiveironworks.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.primitiveironworks.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/Primitiveironworks"
   },
   "WorkshopSpec": {},

@@ -231,14 +231,19 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Luc.sawmill.DisplayName",
-    "DescriptionLocKey": "Luc.sawmill.Description",
-    "FlavorDescriptionLocKey": "Luc.sawmill.FlavorDescription",
+    "DisplayNameLocKey": "Lapantouflemagic.sawmill.DisplayName",
+    "DescriptionLocKey": "Lapantouflemagic.sawmill.Description",
+    "FlavorDescriptionLocKey": "Lapantouflemagic.sawmill.FlavorDescription",
     "Icon": "sprites/Whitepaws Sprites/Buildings/RudimentarySawmill"
   },
   "WorkshopSpec": {},
   "WorkshopRandomNeedApplierSpec": {
     "Effects": [
+      {
+        "NeedId": "Filth",
+        "Points": -0.1,
+        "Probability": "High"
+      },
       {
         "NeedId": "MinorInjury",
         "Points": -0.3,
@@ -248,11 +253,6 @@
         "NeedId": "SevereInjury",
         "Points": -0.8,
         "Probability": "Medium"
-      },
-      {
-        "NeedId": "Filth",
-        "Points": -0.1,
-        "Probability": "High"
       },
       {
         "NeedId": "Maimed",

@@ -32,7 +32,7 @@
         "Amount": 4
       }
     ],
-    "ScienceCost": 2500,
+    "ScienceCost": 10000,
     "PlaceFinished": false,
     "FinishableWithBeaversOnSite": false,
     "DrawRangeBoundsOnIt": false
@@ -1446,7 +1446,7 @@
     "Flippable": false
   },
   "StockpileSpec": {
-    "MaxCapacity": 8000,
+    "MaxCapacity": 10000,
     "WhitelistedGoodType": "Liquid"
   },
   "BuildingAccessibleSpec": {
@@ -2030,7 +2030,7 @@
     "Height": 4.0
   },
   "DwellingSpec": {
-    "MaxBeavers": 30,
+    "MaxBeavers": 12,
     "SleepEffects": [
       {
         "NeedId": "Sleep",
