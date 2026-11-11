@@ -5,7 +5,7 @@ PerformancePlus.Settings.FrameRateGovernor,"Utrzymuj liczbę klatek",""
 PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Spowalnia grę poniżej wybranej prędkości, gdy klatki trwałyby zbyt długo, aby liczba klatek pozostała na celu poniżej. Gra przebiega tak samo, tylko wolniej, gdy jest bardzo zajęta. Nigdy poniżej x1, synchronizacja pionowa bez zmian. Wyłączone: zawsze używana jest wybrana prędkość.",""
 PerformancePlus.Settings.TargetFps,"Docelowa liczba klatek (FPS)",""
 PerformancePlus.Settings.TargetFps.Tooltip,"Liczba klatek utrzymywana, gdy powyższe ustawienie jest włączone: od 10 do 120 klatek na sekundę.",""
-PerformancePlus.Settings.DistantAnimations,"Rzadziej animuj odległe modele",""
+PerformancePlus.Settings.DistantAnimations,"Pomijaj nieistotne animacje",""
 PerformancePlus.Settings.DistantAnimations.Tooltip,"Bobry, boty i budynki widoczne na ekranie jako małe poruszają kończynami i częściami co drugą lub co czwartą klatkę zamiast w każdej, co oszczędza czas w dużych osadach. Zmienia się tylko wygląd: zachowują swoje tempo i robią to samo. Wyłączone: każdy widoczny model jest animowany w każdej klatce.",
 PerformancePlus.Settings.TickLength,"Długość tiku (%)",""
 PerformancePlus.Settings.TickLength.Tooltip,"Jak długi jest każdy krok symulacji, w procentach długości z gry (0,6 s). Dłuższe kroki to mniej kroków na dzień, więc gra nadąża przy wyższych prędkościach; dni, wzrost, potrzeby i chodzenie trwają tyle co wcześniej. Nieco opóźnia decyzje bobrów, co prowadzi do drobnych nieefektywności. Wymaga „Zezwalaj na drobne zmiany w rozgrywce”. Działa po wczytaniu osady. Przy włączonym „Długość tiku zależna od liczby klatek” to najdłuższy krok. 100: jak w grze.",

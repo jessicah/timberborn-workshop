@@ -5,7 +5,7 @@ PerformancePlus.Settings.FrameRateGovernor,"Kare hızını koru",""
 PerformancePlus.Settings.FrameRateGovernor.Tooltip,"Kareler çok uzun sürecekse oyunu seçtiğiniz hızın altına yavaşlatır, böylece kare hızı aşağıdaki hedefte kalır. Oyun aynı şekilde oynanır, yalnızca yoğunken daha yavaş. Hiçbir zaman x1'in altına inmez ve VSync'e dokunmaz. Kapalı: seçtiğiniz hız her zaman kullanılır.",""
 PerformancePlus.Settings.TargetFps,"Hedef kare hızı (FPS)",""
 PerformancePlus.Settings.TargetFps.Tooltip,"Yukarıdaki ayar açıkken korunan kare hızı, saniyede 10 ile 120 kare arası.",""
-PerformancePlus.Settings.DistantAnimations,"Uzaktaki modelleri daha seyrek canlandır",""
+PerformancePlus.Settings.DistantAnimations,"Önemsiz animasyonları atla",""
 PerformancePlus.Settings.DistantAnimations.Tooltip,"Ekranda küçük görünen kunduzlar, botlar ve binalar uzuvlarını ve parçalarını her karede değil, iki ya da dört karede bir hareket ettirir; bu da büyük yerleşimlerde zaman kazandırır. Yalnızca görünüm değişir: hızlarını korur ve aynı şeyleri yaparlar. Kapalı: görünen her model her karede canlandırılır.",
 PerformancePlus.Settings.TickLength,"Tik uzunluğu (%)",""
 PerformancePlus.Settings.TickLength.Tooltip,"Simülasyonun her adımının uzunluğu, oyunun kendi değerinin (0,6 sn) yüzdesi olarak. Daha uzun adımlar günde daha az adım demektir, böylece oyun yüksek hızlarda yetişir; günler, büyüme, ihtiyaçlar ve yürüme önceki kadar sürer. Kunduzların kararlarını biraz geciktirir, bu da küçük verimsizliklere yol açar. ""Küçük oynanış değişikliklerine izin ver"" gerekir. Bir yerleşim yüklendiğinde uygulanır. ""Tik uzunluğu kare hızını izlesin"" açıkken bu en uzun adımdır. 100: oyunun kendi değeri.",
