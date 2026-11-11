@@ -1,0 +1,283 @@
+// GÉNÉRÉ par tools/gen_faction_skins.py — ne pas éditer à la main.
+// Modifier le blueprint de base, puis relancer le script.
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Floodgate",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 9
+      },
+      {
+        "Id": "MetalBlock",
+        "Amount": 5
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 2
+      }
+    ],
+    "ScienceCost": 300,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "RailSwingFloodgate",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Path, Middle",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "Bottom",
+        "Stackable": "BlockObject",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Top, Corners, Middle",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": false,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 131,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "ChooChooSwingFloodgateSpec": {
+    "HingeTile": {
+      "X": 0,
+      "Y": 0
+    },
+    "OpenTile": {
+      "X": 0,
+      "Y": 1
+    },
+    "ClosedTile": {
+      "X": 1,
+      "Y": 0
+    }
+  },
+  "ChooChooSwingLeafAnimatorSpec": {
+    "LeafName": "#Leaf",
+    "OpenAngle": -90.0,
+    "DegreesPerSecond": 90.0
+  },
+  "BoxColliderAdderSpec": {
+    "TargetName": "#Leaf",
+    "Center": {
+      "X": 1.0,
+      "Y": 0.5,
+      "Z": 0.0
+    },
+    "Size": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    }
+  },
+  "ChooChooSwingFloodgateDeckSpec": {
+    "OpenTileDeckModelName": "#Deck.OpenTile",
+    "ClosedTileDeckModelName": "#Deck.ClosedTile",
+    "BothTilesDeckModelName": "#Deck.BothTiles"
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.RailSwingFloodgate.DisplayName",
+    "DescriptionLocKey": "Tobbert.RailSwingFloodgate.Description",
+    "FlavorDescriptionLocKey": "Tobbert.RailSwingFloodgate.FlavorDescription",
+    "Icon": "Tobbert/Icons/Tracks/RailSwingFloodgateIcon"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": []
+  },
+  "Children": {
+    "#Finished": {
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.045,
+              "Z": 1.0
+            },
+            "Size": {
+              "X": 0.735,
+              "Y": 0.09,
+              "Z": 2.0
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "#Rail": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/RailSwingFloodgate/RailSwingFloodgate.Rail.Emberpelts"
+          },
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        },
+        "#Deck.OpenTile": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.OpenTile.Emberpelts"
+          }
+        },
+        "#Deck.ClosedTile": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.ClosedTile.Emberpelts"
+          }
+        },
+        "#Deck.BothTiles": {
+          "TimbermeshSpec": {
+            "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Deck.BothTiles.Emberpelts"
+          }
+        }
+      },
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/SwingFloodgate/SwingFloodgate.Emberpelts"
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x2#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x2/ConstructionBase2x2.blueprint"
+        }
+      }
+    }
+  },
+  "ChooChooRailSwingFloodgateSpec": {},
+  "TrackPieceSpec": {
+    "Id": "RailSwingFloodgate",
+    "CostMultiplier": 1.0,
+    "TrackRoutes": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Down"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        }
+      }
+    ]
+  }
+}

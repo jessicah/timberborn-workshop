@@ -1,0 +1,133 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      { "Id": "Log", "Amount": 40 },
+      { "Id": "Plank", "Amount": 20 },
+      { "Id": "ScrapMetal", "Amount": 20 },
+      { "Id": "Gear", "Amount": 25 }
+    ],
+    "ScienceCost": 2500,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "ConstructionYard",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 2,
+      "Y": 3,
+      "Z": 1
+    },
+    "Blocks": [
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false },
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false },
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false },
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false },
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false },
+      { "MatterBelow": "GroundOrStackable", "Occupations": "Bottom, Top, Corners, Path, Middle", "Stackable": "BlockObject", "OccupyAllBelow": false, "Underground": false }
+    ],
+    "Entrance": {
+      "HasEntrance": true,
+      "Coordinates": { "X": 1, "Y": -1, "Z": 0 }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": false,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [],
+    "UnblockedCoordinates": []
+  },
+  "BuildingAccessibleSpec": {
+    "LocalAccess": { "X": 1.5, "Y": 0.0, "Z": 0.5 },
+    "ForceOneFinalAccess": false
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 302,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": { "HasCustomPivot": false, "Coordinates": { "X": 0.0, "Y": 0.0, "Z": 0.0 } },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.ConstructionYard.DisplayName",
+    "DescriptionLocKey": "Tobbert.ConstructionYard.Description",
+    "FlavorDescriptionLocKey": "Tobbert.ConstructionYard.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/TrainYard"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": []
+  },
+  "EnterableSpec": {
+    "OperatingState": "Finished",
+    "LimitedCapacityFinished": false,
+    "CapacityFinished": 0,
+    "LimitedCapacityUnfinished": false,
+    "CapacityUnfinished": 0
+  },
+  "WorkplaceSpec": {
+    "MaxWorkers": 4,
+    "DefaultWorkers": 4,
+    "DefaultWorkerType": "Beaver",
+    "DisallowOtherWorkerTypes": false,
+    "WorkerTypeUnlockCosts": []
+  },
+  "ConstructionYardSpec": {},
+  "TrackPieceSpec": {
+    "Id": "ConstructionYard",
+    "CostMultiplier": 2.0,
+    "TrackRoutes": [
+      {
+        "Entrance": { "Coordinates": { "X": 0, "Y": 2, "Z": 0 }, "Direction": "Down" },
+        "Exit": { "Coordinates": { "X": 0, "Y": 0, "Z": 0 }, "Direction": "Up" }
+      },
+      {
+        "Entrance": { "Coordinates": { "X": 0, "Y": 0, "Z": 0 }, "Direction": "Up" },
+        "Exit": { "Coordinates": { "X": 0, "Y": 2, "Z": 0 }, "Direction": "Down" }
+      }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Buildings/TrainYard/TrainYard.Default"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          { "Center": { "X": 1.0, "Y": 0.5, "Z": 1.5 }, "Size": { "X": 2.0, "Y": 1.0, "Z": 3.0 } }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBase2x3#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBase2x3/ConstructionBase2x3.blueprint"
+        }
+      }
+    }
+  }
+}

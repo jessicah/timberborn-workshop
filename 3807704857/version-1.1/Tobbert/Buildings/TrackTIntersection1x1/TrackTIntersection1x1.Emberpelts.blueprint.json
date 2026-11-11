@@ -78,7 +78,7 @@
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "TobbertTrains",
-    "ToolOrder": 160,
+    "ToolOrder": 165,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {
@@ -96,15 +96,50 @@
     "DisplayNameLocKey": "Tobbert.TrackTIntersection1x1.DisplayName",
     "DescriptionLocKey": "Tobbert.TrackTIntersection1x1.Description",
     "FlavorDescriptionLocKey": "Tobbert.TrackTIntersection1x1.FlavorDescription",
-    "Icon": "Tobbert/Icons/Tracks/TrackIntersectionTIcon-v6"
+    "Icon": "Tobbert/Icons/Tracks/TrackTIntersection1x1Icon"
   },
   "ConstructionSiteProgressVisualizerSpec": {
     "ProgressThresholds": [
       0.05
     ]
   },
+  "TrackDecompositionSpec": {
+    "Parts": [
+      {
+        "TemplateName": "TrackOneWay",
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      },
+      {
+        "TemplateName": "TrackCorner1x1",
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": "Cw90",
+        "Flipped": false
+      },
+      {
+        "TemplateName": "TrackCorner1x1",
+        "Coordinates": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Orientation": "Cw0",
+        "Flipped": false
+      }
+    ]
+  },
   "TrackPieceSpec": {
     "Id": "TrackTIntersection1x1",
+    "Superposable": true,
     "CostMultiplier": 1.0,
     "TrackRoutes": [
       {
@@ -123,24 +158,7 @@
             "Z": 0
           },
           "Direction": "Right"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": -0.5
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": -0.1464
-          },
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -158,24 +176,7 @@
             "Z": 0
           },
           "Direction": "Up"
-        },
-        "RouteCorners": [
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": -0.1464
-          },
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": -0.5
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -193,14 +194,7 @@
             "Z": 0
           },
           "Direction": "Down"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -218,14 +212,7 @@
             "Z": 0
           },
           "Direction": "Up"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -243,24 +230,7 @@
             "Z": 0
           },
           "Direction": "Right"
-        },
-        "RouteCorners": [
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.5
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": 0.1464
-          },
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -278,24 +248,7 @@
             "Z": 0
           },
           "Direction": "Down"
-        },
-        "RouteCorners": [
-          {
-            "X": -0.5,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          {
-            "X": -0.1464,
-            "Y": 0.0,
-            "Z": 0.1464
-          },
-          {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.5
-          }
-        ]
+        }
       }
     ]
   },

@@ -253,7 +253,7 @@
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "TobbertTrains",
-    "ToolOrder": 310,
+    "ToolOrder": 312,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {
@@ -359,19 +359,7 @@
             "Z": 0
           },
           "Direction": "Right"
-        },
-        "RouteCorners": [
-          {
-            "X": 1.7,
-            "Y": 0,
-            "Z": 0
-          },
-          {
-            "X": -2.4,
-            "Y": 0,
-            "Z": 0
-          }
-        ]
+        }
       },
       {
         "Entrance": {
@@ -389,19 +377,7 @@
             "Z": 0
           },
           "Direction": "Left"
-        },
-        "RouteCorners": [
-          {
-            "X": -1.7,
-            "Y": 0,
-            "Z": 0
-          },
-          {
-            "X": 2.4,
-            "Y": 0,
-            "Z": 0
-          }
-        ]
+        }
       }
     ]
   },

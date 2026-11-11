@@ -1,0 +1,62 @@
+{
+  "TemplateSpec": {
+    "TemplateName": "ConstructionTrain",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "TrainSpec": {
+    "Cost": [
+      { "Id": "MetalBlock", "Amount": 20 },
+      { "Id": "Gear", "Amount": 30 },
+      { "Id": "ScrapMetal", "Amount": 20 }
+    ]
+  },
+  "ConstructionTrainSpec": {
+    "PerGoodCapacity": 100
+  },
+  "BoxColliderAdderSpec": {
+    "TargetName": "Mesh",
+    "Center": {
+      "X": 0,
+      "Y": 0.4,
+      "Z": 0
+    },
+    "Size": {
+      "X": 0.6,
+      "Y": 0.75,
+      "Z": 0.9
+    }
+  },
+  "NamedEntitySpec": {
+    "IsEditable": true
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.ConstructionTrain.DisplayName",
+    "DescriptionLocKey": "Tobbert.ConstructionTrain.Description",
+    "FlavorDescriptionLocKey": "Tobbert.ConstructionTrain.FlavorDescription",
+    "Icon": "Tobbert/Icons/Buildings/TrainStationIcon"
+  },
+  "Children": {
+    "Mesh": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Trains/WoodenTrain/WoodenTrain"
+      }
+    },
+    "Wagon0": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Wagons/BoxWagon/BoxWagon"
+      }
+    },
+    "Wagon1": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Wagons/BoxWagon/BoxWagon"
+      }
+    },
+    "RearLoco": {
+      "TimbermeshSpec": {
+        "Model": "Tobbert/Trains/WoodenTrain/WoodenTrain"
+      }
+    }
+  }
+}
