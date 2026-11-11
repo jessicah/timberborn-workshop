@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Coffee.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Coffee.FlavorDescription",
-    "Icon": "Mole/Grows/CoffeeBeans"
+    "Icon": "NaturalResources/Bushes/Coffee/CoffeeBushIcon"
   },
   "Children": {
     "#Unfinished": {

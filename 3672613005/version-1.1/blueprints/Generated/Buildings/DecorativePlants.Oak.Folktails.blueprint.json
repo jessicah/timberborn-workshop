@@ -83,7 +83,7 @@
     "DisplayNameLocKey": "NaturalResource.Oak.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Oak.FlavorDescription",
-    "Icon": "Mole/Grows/Oak"
+    "Icon": "NaturalResources/Trees/Oak/OakIcon"
   },
   "Children": {
     "#Unfinished": {

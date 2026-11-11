@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Potato.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Potato.FlavorDescription",
-    "Icon": "Mole/Grows/Potatoes"
+    "Icon": "NaturalResources/Crops/Potato/PotatoIcon"
   },
   "Children": {
     "#Unfinished": {

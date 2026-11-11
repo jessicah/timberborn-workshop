@@ -76,7 +76,7 @@
     "DisplayNameLocKey": "NaturalResource.Spadderdock.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Spadderdock.FlavorDescription",
-    "Icon": "Mole/Grows/Spadderdock"
+    "Icon": "NaturalResources/Crops/Spadderdock/SpadderdockIcon"
   },
   "Children": {
     "#Unfinished": {

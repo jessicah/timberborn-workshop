@@ -3,7 +3,7 @@
         "Id": "DecorativePlants.Folktails",
         "Order": 1,
         "NameLocKey": "Faction.Folktails.DisplayName",
-        "Icon": "Factions/Folktails/Symbol.Folktails"
+        "Icon": "Sprites/Avatars/FolktailsLogo"
     },
     "ParentToolGroupSpec": {
         "ParentIds": [ "DecorativePlants" ]

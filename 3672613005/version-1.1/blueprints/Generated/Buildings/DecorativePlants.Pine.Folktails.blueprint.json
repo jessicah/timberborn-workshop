@@ -83,7 +83,7 @@
     "DisplayNameLocKey": "NaturalResource.Pine.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Pine.FlavorDescription",
-    "Icon": "Mole/Grows/PineResin"
+    "Icon": "NaturalResources/Trees/Pine/PineIcon"
   },
   "Children": {
     "#Unfinished": {

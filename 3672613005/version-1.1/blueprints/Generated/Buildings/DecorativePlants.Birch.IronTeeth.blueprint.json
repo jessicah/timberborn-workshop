@@ -76,7 +76,7 @@
     "DisplayNameLocKey": "NaturalResource.Birch.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Birch.FlavorDescription",
-    "Icon": "Mole/Grows/Birch"
+    "Icon": "NaturalResources/Trees/Birch/BirchIcon"
   },
   "Children": {
     "#Unfinished": {

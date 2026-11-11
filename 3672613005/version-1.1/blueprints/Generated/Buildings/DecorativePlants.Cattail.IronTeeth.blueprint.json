@@ -76,7 +76,7 @@
     "DisplayNameLocKey": "NaturalResource.Cattail.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Cattail.FlavorDescription",
-    "Icon": "Mole/Grows/CattailRoots"
+    "Icon": "NaturalResources/Crops/Cattail/CattailIcon"
   },
   "Children": {
     "#Unfinished": {

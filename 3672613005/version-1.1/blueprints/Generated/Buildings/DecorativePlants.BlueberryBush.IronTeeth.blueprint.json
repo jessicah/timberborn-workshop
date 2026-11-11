@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Blueberry.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Blueberry.FlavorDescription",
-    "Icon": "Mole/Grows/Blueberries"
+    "Icon": "NaturalResources/Bushes/Blueberry/BlueberryBushIcon"
   },
   "Children": {
     "#Unfinished": {

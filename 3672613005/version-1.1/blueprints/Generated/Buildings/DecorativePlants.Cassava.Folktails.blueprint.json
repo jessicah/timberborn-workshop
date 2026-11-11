@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Cassava.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Cassava.FlavorDescription",
-    "Icon": "Mole/Grows/Cassava"
+    "Icon": "NaturalResources/Crops/Cassava/CassavaIcon"
   },
   "Children": {
     "#Unfinished": {

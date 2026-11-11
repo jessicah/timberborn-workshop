@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Kohlrabi.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Kohlrabi.FlavorDescription",
-    "Icon": "Mole/Grows/Kohlrabi"
+    "Icon": "NaturalResources/Crops/Kohlrabi/KohlrabiIcon"
   },
   "Children": {
     "#Unfinished": {

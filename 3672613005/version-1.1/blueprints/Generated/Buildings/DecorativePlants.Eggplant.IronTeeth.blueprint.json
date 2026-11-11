@@ -69,7 +69,7 @@
     "DisplayNameLocKey": "NaturalResource.Eggplant.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Eggplant.FlavorDescription",
-    "Icon": "Mole/Grows/Eggplants"
+    "Icon": "NaturalResources/Crops/Eggplant/EggplantIcon"
   },
   "Children": {
     "#Unfinished": {

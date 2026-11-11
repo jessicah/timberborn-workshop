@@ -76,7 +76,7 @@
     "DisplayNameLocKey": "NaturalResource.Soybean.DisplayName",
     "DescriptionLocKey": "LV.DP.DecorativePlantBuildingDesc",
     "FlavorDescriptionLocKey": "NaturalResource.Soybean.FlavorDescription",
-    "Icon": "Mole/Grows/Soybeans"
+    "Icon": "NaturalResources/Crops/Soybean/SoybeanIcon"
   },
   "Children": {
     "#Unfinished": {
