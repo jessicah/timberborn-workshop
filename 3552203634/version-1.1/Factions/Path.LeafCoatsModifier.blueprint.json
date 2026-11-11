@@ -1,10 +1,253 @@
 {
   "TemplateSpec": {
-    "TemplateName": "Path",
-    "BackwardCompatibleTemplateNames": [
+    "BackwardCompatibleTemplateNames#append": [
       "Path.LeafCoats"
     ],
-    "RequiredFeatureToggle": "",
-    "DisablingFeatureToggle": ""
+  },
+  "BobingaboutChildObjectMaterialReplacerSpec": {
+    "Replacements": [
+      {
+        "ModelName": "#Yellow",
+        "Replacements": [
+          {
+            "ReplacementMaterial": "Materials/UberAtlas/LeafCoats/Path.LeafCoats",
+            "MaterialNameToReplace": ""
+          }
+        ]
+      },
+      {
+        "ModelName": "#Green",
+        "Replacements": [
+          {
+            "ReplacementMaterial": "Materials/UberAtlas/LeafCoats/Path2.LeafCoats",
+            "MaterialNameToReplace": ""
+          }
+        ]
+      },
+      {
+        "ModelName": "#Brown",
+        "Replacements": [
+          {
+            "ReplacementMaterial": "Materials/UberAtlas/LeafCoats/Path3.LeafCoats",
+            "MaterialNameToReplace": ""
+          }
+        ]
+      }
+    ]
+  },
+  "BobingaboutDynamicModelArraySpec": {
+    "Sets": [],
+    "KeywordSets": [
+      {
+        "ModelOptions": [
+          {
+            "ModelName": "#Yellow",
+            "LocKey": "UI.Yellow"
+          },
+          {
+            "ModelName": "#Green",
+            "LocKey": "UI.Green"
+          },
+          {
+            "ModelName": "#Brown",
+            "LocKey": "UI.Brown"
+          }
+        ],
+        "LocKey": "Building.Path.DisplayName",
+        "Defaults": {
+          "DefaultOption": "UI.Yellow",
+          "UseOnBuild": true
+        },
+        "SyncSettings": {
+          "SyncGroups": [
+            "Path"
+          ],
+          "SyncOnPlaced": true,
+          "SyncToNeighbour": false,
+          "SyncToAllButton": true,
+          "SyncDirections": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "Directions": "Down, Left, Up, Right"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  /*
+  "DynamicPathModelSpec#delete": {},
+  "BobingaboutDynamicPathModelSpec": {
+    "GroundModelPrefix": "DirtPath",
+    "RoofModelPrefix": "RoofPath"
+  },
+  */
+  "Children": {
+    "#Finished": {
+      "Children": {
+        "DirtPath0000": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0000.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0000.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0000.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        "DirtPath0010": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0010.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0010.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0010.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        "DirtPath0011": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0011.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0011.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0011.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        "DirtPath0111": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0111.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0111.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath0111.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        "DirtPath1010": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1010.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1010.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1010.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        "DirtPath1111": {
+          "TimbermeshSpec#delete": {},
+          "Children": {
+            "#Yellow": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1111.Model"
+              }
+            },
+            "#Green": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1111.Model"
+              }
+            },
+            "#Brown": {
+              "TimbermeshSpec": {
+                "Model": "Buildings/Paths/Path/DirtPath1111.Model"
+              }
+            },
+            "#Empty": {}
+          }
+        },
+        /*
+        "RoofPath0000": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath0000.LeafCoats.Model"
+          }
+        },
+        "RoofPath0010": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath0010.LeafCoats.Model"
+          }
+        },
+        "RoofPath0011": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath0011.LeafCoats.Model"
+          }
+        },
+        "RoofPath0111": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath0111.LeafCoats.Model"
+          }
+        },
+        "RoofPath1010": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath1010.LeafCoats.Model"
+          }
+        },
+        "RoofPath1111": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/Paths/Paths/RoofPath1111.LeafCoats.Model"
+          }
+        }
+        */
+      }
+    }
   }
 }

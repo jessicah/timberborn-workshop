@@ -12,10 +12,6 @@
       {
         "Id": "Bark",
         "Amount": 1
-      },
-      {
-        "Id": "PineResin",
-        "Amount": 1
       }
     ],
     "Products": [
@@ -25,9 +21,9 @@
       }
     ],
     "ProducedSciencePoints": 0,
-    "Fuel": "",
-    "CyclesFuelLasts": 0,
-    "FuelCapacity": 0,
+    "Fuel": "PineResin",
+    "CyclesFuelLasts": 5,
+    "FuelCapacity": 5,
     "CyclesCapacity": 15,
     "Icon": "Sprites/Goods/LogIcon"
   }

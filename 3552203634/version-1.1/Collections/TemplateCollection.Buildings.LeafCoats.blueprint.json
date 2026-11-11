@@ -6,7 +6,7 @@
       "Buildings/Water/DevWaterSource/DevWaterSource.blueprint",
       "Buildings/Decoration/Fences/Hedge.LeafCoats.blueprint",
       "Buildings/Decoration/HedgeGate.LeafCoats.blueprint",
-      "Buildings/Decoration/Shrub1.LeafCoats.blueprint",
+      "Buildings/Decoration/Shrub.LeafCoats.blueprint",
       "Buildings/Decoration/Shrub2.LeafCoats.blueprint",
       "Buildings/Decoration/Fences/MetalFence.LeafCoats.blueprint",
       "Buildings/Decoration/MetalGate.LeafCoats.blueprint",
@@ -218,7 +218,9 @@
       "Buildings/Decoration/Roofs/Roof2.Roof1x1.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Corner.Ext.LeafCoats.blueprint",
       "Buildings/Decoration/Roofs/Roof2.Corner.Int.LeafCoats.blueprint",
-      "Buildings/Decoration/Roofs/Roof2.Solid.LeafCoats.blueprint"
+      "Buildings/Decoration/Roofs/Roof2.Solid.LeafCoats.blueprint",
+      "Buildings/Wellbeing/Hospital.LeafCoats.blueprint",
+      "Buildings/Science/Inventor2.LeafCoats.blueprint"
     ]
   }
 }

@@ -9,6 +9,7 @@
     "ChildAvatar": "Sprites/Avatars/Unique/NormanChild",
     "ContaminatedChildAvatar": "Sprites/Avatars/Unique/NormanContaminatedChild",
     "BeaverFactionId": "Charcoal",
+    "BeaverGenderId": "Male",
     "ExcludeFromNamePool": "False"
   }
 }

@@ -9,6 +9,7 @@
     "ChildAvatar": "Sprites/Avatars/Unique/eMkaChild",
     "ContaminatedChildAvatar": "Sprites/Avatars/Unique/eMkaContaminatedChild",
     "BeaverFactionId": "Emberpelts",
+    "BeaverGenderId": "Ace",
     "ExcludeFromNamePool": "False"
   }
 }
