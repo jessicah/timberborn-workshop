@@ -1,7 +1,0 @@
-{
-	"TemplateSpec":
-	{
-		"TemplateName": "Foundry.Whitepaws",
-		"BackwardCompatibleTemplateNames": [ "Foundry" ]
-	}
-}

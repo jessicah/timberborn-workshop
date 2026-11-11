@@ -1,7 +1,0 @@
-{
-  "TemplateSpec":
-  {
-    "TemplateName": "FarmLumberjackUpgrade.Whitepaws",
-    "BackwardCompatibleTemplateNames": [ "FarmLumberjackUpgrade" ]
-  }
-}

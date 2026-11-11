@@ -1,7 +1,0 @@
-{
-  "TemplateSpec":
-  {
-    "TemplateName": "GathererFlag.Whitepaws",
-    "BackwardCompatibleTemplateNames": [ "Flag_Gatherer" ]
-  }
-}

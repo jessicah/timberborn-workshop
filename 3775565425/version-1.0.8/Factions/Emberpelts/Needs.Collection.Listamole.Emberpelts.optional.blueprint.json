@@ -1,9 +1,0 @@
-{
-  "NeedCollectionSpec":
-  {
-    "Needs#append":
-    [
-      "WetFurBad"
-    ]
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "PlanterBuildingSpec": { "PlantableResourceGroup": "Forester.Whitepaws" },
-  "LabeledEntitySpec": { "DisplayNameLocKey": "MoleCadre.Forester.Whitepaws.Name" },
-  "TemplateSpec":
-  {
-    "TemplateName": "Forester.Whitepaws"
-  }
-}

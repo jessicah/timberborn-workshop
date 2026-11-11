@@ -1,7 +1,0 @@
-{
-  "ManufactorySpec":
-  {
-    "ProductionRecipeIds#remove": [ "NuclearWaste" ],
-    "ProductionRecipeIds#append": [ "MinedNuclearWaste" ]
-  }
-}

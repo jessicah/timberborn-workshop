@@ -1,7 +1,0 @@
-{
-	"TemplateSpec":
-	{
-		"TemplateName": "Clinic.Whitepaws",
-		"BackwardCompatibleTemplateNames": [ "Clinic", "ClinicBase" ]
-	}
-}

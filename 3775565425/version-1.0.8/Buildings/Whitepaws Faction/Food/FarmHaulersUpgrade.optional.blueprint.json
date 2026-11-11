@@ -1,7 +1,0 @@
-{
-  "TemplateSpec":
-  {
-    "TemplateName": "FarmHaulersUpgrade.Whitepaws",
-    "BackwardCompatibleTemplateNames": [ "FarmHaulersUpgrade" ]
-  }
-}

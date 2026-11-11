@@ -1,4 +1,0 @@
-{
-	"BlockObjectToolGroupSpec": { "Order": 30035 },
-	"ParentToolGroupSpec": { "ParentIds": [ "Other" ] }
-}

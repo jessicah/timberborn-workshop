@@ -1,7 +1,0 @@
-{
-	"TemplateSpec":
-	{
-		"TemplateName": "UnstorableStorage.Whitepaws",
-		"BackwardCompatibleTemplateNames": [ "Unstorablestorage" ]
-	}
-}

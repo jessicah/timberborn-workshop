@@ -1,7 +1,0 @@
-{
-  "NeedCollectionSpec":
-  {
-    "Needs#remove": [ "Apple_WP", "Grapes" ],
-    "Needs#append": [ "Apples", "RedGrapes" ]
-  }
-}

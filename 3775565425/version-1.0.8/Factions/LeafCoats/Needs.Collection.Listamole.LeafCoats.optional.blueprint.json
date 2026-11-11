@@ -1,9 +1,0 @@
-{
-  "NeedCollectionSpec":
-  {
-    "Needs#append":
-    [
-      "PlantMurderer"
-    ]
-  }
-}
