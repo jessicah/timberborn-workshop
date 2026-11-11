@@ -1,16 +1,18 @@
 {
   "AuthorName": "zxuiji",
   "Name": "zxuiji -m- Adaptors (AD)",
-  "Version": "1.0.9.10",
+  "Version": "1.0.9.15",
   "Id": "Adaptors",
   "MinimumGameVersion": "1.0.12.0",
   "Description": "For details visit https://mod.io/g/timberborn/m/adaptors#description",
   "OptionalMods": [],
   "RequiredMods":
   [
+    { "Id": "XtraPlzNoCrashes", "MinimumVersion": "11.2.0" },
+    { "Id": "Lapantouflemagic.TexturePack", "MinimumVersion": "1.3.0" },
     { "Id": "TImprove4Ui", "MinimumVersion": "10.2.0" },
-    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.10" },
-    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.10" },
-    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.10" }
+    { "Id": "List-a-Mole", "MinimumVersion": "1.0.9.15" },
+    { "Id": "Sate-a-Mole", "MinimumVersion": "1.0.9.15" },
+    { "Id": "Wack-a-Mole", "MinimumVersion": "1.0.9.15" }
   ]
 }

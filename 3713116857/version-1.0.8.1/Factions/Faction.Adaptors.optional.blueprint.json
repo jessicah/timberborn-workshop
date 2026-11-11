@@ -36,15 +36,15 @@
     [
       /* Wack-a-Mole - IronTeeth */
       {
-        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Goods.Collection.Common.blueprint",
         "Modifier": "Factions/IronTeeth/Goods.Collection.Wackamole.IronTeeth.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Needs.Collection.Common.blueprint",
         "Modifier": "Factions/IronTeeth/Needs.Collection.Wackamole.IronTeeth.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Grows.Collection.Common.blueprint",
         "Modifier": "Factions/IronTeeth/Grows.Collection.Wackamole.IronTeeth.optional.blueprint"
       },
       {

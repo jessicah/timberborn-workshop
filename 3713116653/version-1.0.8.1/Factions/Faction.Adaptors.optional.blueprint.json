@@ -33,22 +33,22 @@
     ],
     "BlueprintModifiers#append":
     [
-      /* Sate-a-Mole*/
+      /* Sate-a-Mole - Folktails */
       {
         "Original": "Needs/Need.Bot.Biofuel.blueprint",
         "Modifier": "Mole/Mods/Needs/SetAdaptorFuel.optional.blueprint"
       },
       /* Wack-a-Mole - Folktails */
       {
-        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Goods.Collection.Common.blueprint",
         "Modifier": "Factions/Folktails/Goods.Collection.Wackamole.Folktails.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Needs.Collection.Common.blueprint",
         "Modifier": "Factions/Folktails/Needs.Collection.Wackamole.Folktails.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Grows.Collection.Common.blueprint",
         "Modifier": "Factions/Folktails/Grows.Collection.Wackamole.Folktails.optional.blueprint"
       },
       {

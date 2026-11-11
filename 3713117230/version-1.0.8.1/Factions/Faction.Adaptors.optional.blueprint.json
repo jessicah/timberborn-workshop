@@ -69,15 +69,15 @@
       },
       /* Wack-a-Mole - LeafCoats */
       {
-        "Original": "Factions/Common/Goods.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Goods.Collection.Common.blueprint",
         "Modifier": "Factions/LeafCoats/Goods.Collection.Wackamole.LeafCoats.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Needs.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Needs.Collection.Common.blueprint",
         "Modifier": "Factions/LeafCoats/Needs.Collection.Wackamole.LeafCoats.optional.blueprint"
       },
       {
-        "Original": "Factions/Common/Grows.Collection.Adaptors.blueprint",
+        "Original": "Factions/Common/Grows.Collection.Common.blueprint",
         "Modifier": "Factions/LeafCoats/Grows.Collection.Wackamole.LeafCoats.optional.blueprint"
       },
       {
